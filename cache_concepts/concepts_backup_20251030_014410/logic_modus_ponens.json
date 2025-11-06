@@ -1,0 +1,37 @@
+{
+  "concept": "modus_ponens",
+  "domain": "logic",
+  "abstraction_level": 3,
+  "corpus": [
+    {
+      "compression_level": 0,
+      "text": "Modus ponens is a rule of inference in classical logic stating that if 'P implies Q' and 'P' are both true, then 'Q' must also be true. It is a fundamental valid argument form used in deductive reasoning.",
+      "probe_question": "What does modus ponens state?",
+      "expected_keywords": ["if", "implies", "then", "true"]
+    },
+    {
+      "compression_level": 1,
+      "text": "If P implies Q and P is true, then Q is true.",
+      "probe_question": "State modus ponens in logical form.",
+      "expected_keywords": ["P", "Q", "implies", "true"]
+    },
+    {
+      "compression_level": 2,
+      "text": "P → Q, P ⟹ Q",
+      "probe_question": "Write modus ponens symbolically.",
+      "expected_keywords": ["P", "Q"]
+    },
+    {
+      "compression_level": 3,
+      "text": "if P then Q",
+      "probe_question": "What is the pattern of modus ponens?",
+      "expected_keywords": ["P", "Q"]
+    },
+    {
+      "compression_level": 4,
+      "text": "implication",
+      "probe_question": "Modus ponens represents which logical operation?",
+      "expected_keywords": ["implication"]
+    }
+  ]
+}

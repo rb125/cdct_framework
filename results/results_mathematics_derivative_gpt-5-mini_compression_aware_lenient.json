@@ -1,0 +1,268 @@
+{
+  "concept": "derivative",
+  "domain": "mathematics",
+  "model": "gpt-5-mini",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 3,
+      "response_length": 3,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "rate of change",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "rate",
+              "change"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 3,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 3,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 4,
+      "response_length": 9,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "A derivative represents the instantaneous slope of a curve.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "slope",
+              "curve",
+              "instantaneous"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 9,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 9,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 11,
+      "response_length": 127,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "average",
+        "continuity",
+        "definition",
+        "differ",
+        "difference"
+      ],
+      "response": "The limit (difference-quotient) definition of the derivative at a point x is\n\nf'(x) = lim_{h\u21920} [f(x + h) \u2212 f(x)] / h,\n\nprovided this limit exists.\n\nThis limit takes the average rate of change of f over the interval from x to x + h (the difference quotient) and lets the interval shrink to zero, giving the instantaneous rate of change of f with respect to x. Geometrically f'(x) is the slope of the tangent line to the graph y = f(x) at x. Equivalently one can write the same definition as\n\nf'(a) = lim_{x\u2192a} [f(x) \u2212 f(a)] / (x \u2212 a).\n\nIf the two one-sided limits as h\u21920+ and h\u21920\u2212 differ, f is not differentiable at that point. Differentiability at a point also implies continuity there.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "limit",
+              "instantaneous",
+              "rate",
+              "change"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "average",
+              "continuity",
+              "definition",
+              "differ",
+              "difference"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 127,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 127,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 27,
+      "response_length": 294,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "always",
+        "applied",
+        "brief",
+        "cases",
+        "combined"
+      ],
+      "response": "Brief reminder: the derivative f'(x) measures the instantaneous rate of change of f at x \u2014 geometrically the slope of the tangent line to y = f(x) at that point.\n\nMain rules (with brief formulas and notes)\n\n- Constant rule  \n  d/dx [c] = 0 for any constant c.\n\n- Power rule  \n  d/dx [x^n] = n x^(n\u22121). (Valid for integer n and extends to many real n where the expression is differentiable.)\n\n- Constant multiple rule (linearity)  \n  d/dx [c\u00b7f(x)] = c\u00b7f\u2009'(x).\n\n- Sum/Difference rule (linearity)  \n  d/dx [f(x) \u00b1 g(x)] = f\u2009'(x) \u00b1 g\u2009'(x).\n\n- Product rule  \n  d/dx [f(x)g(x)] = f\u2009'(x)g(x) + f(x)g\u2009'(x).  \n  (Differentiate one factor at a time, multiply by the other, and add.)\n\n- Quotient rule  \n  d/dx [f(x)/g(x)] = [f\u2009'(x)g(x) \u2212 f(x)g\u2009'(x)] / [g(x)]^2, for g(x) \u2260 0.\n\n- Chain rule (composition)  \n  If h(x) = f(g(x)) then h\u2009'(x) = f\u2009'(g(x)) \u00b7 g\u2009'(x).  \n  (Differentiate the outer function at the inner function, times the derivative of the inner function.)\n\nUseful derivatives of elementary functions (common cases)\n- d/dx [e^x] = e^x, d/dx [a^x] = a^x ln a  \n- d/dx [ln x] = 1/x (x>0)  \n- d/dx [sin x] = cos x, d/dx [cos x] = \u2212sin x, d/dx [tan x] = sec^2 x\n\nOther useful ideas\n- Implicit differentiation: differentiate both sides of an equation involving y and x, then solve for dy/dx.  \n- Higher-order derivatives: f''(x), f'''(x), etc., are derivatives of derivatives and measure curvature and higher-order change.  \n- Always watch domain and points where rules require denominators \u2260 0 or functions to be differentiable.\n\nExample (brief): d/dx[sin(x^2)] = cos(x^2)\u00b72x by the chain rule (outer = sin, inner = x^2).\n\nThese rules, combined and applied in sequence, let you find derivatives of most elementary expressions.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "tangent",
+              "slope",
+              "power rule",
+              "chain rule",
+              "instantaneous"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "always",
+              "applied",
+              "brief",
+              "cases",
+              "combined"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.88125,
+            "response_words": 294,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 294,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 63,
+      "response_length": 686,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "about",
+        "acceleration",
+        "accurate",
+        "algebraic",
+        "applied"
+      ],
+      "response": "Definition and basic meaning\n- The derivative of f at x, written f'(x), is the limit\n  f'(x) = lim_{h\u21920} (f(x+h) \u2212 f(x))/h\n  when that limit exists. It measures how the output f(x) changes for an infinitesimal change in the input x.\n- Geometric interpretation: f'(x) is the slope of the tangent line to the graph y = f(x) at the point (x, f(x)).\n- Physical/interpretive meaning: for a position function s(t), s'(t) is instantaneous velocity; in general, a derivative is an instantaneous rate of change.\n\nBasic differentiation rules (what to use to compute derivatives)\n- Sum and constant multiple: (af + bg)' = a f' + b g'.\n- Power rule: d/dx[x^n] = n x^{n\u22121} for integer or real n where defined.\n- Product rule: d/dx[ f(x) g(x) ] = f'(x) g(x) + f(x) g'(x).\n- Quotient rule: d/dx[ f/g ] = (f' g \u2212 f g')/g^2 (g \u2260 0).\n- Chain rule: d/dx[ F(G(x)) ] = F'(G(x)) \u00b7 G'(x). (Used whenever a function is composed of an \u201couter\u201d and an \u201cinner\u201d function.)\n- These rules, applied repeatedly, let you differentiate most standard algebraic, exponential, logarithmic and many trigonometric functions.\n\nWorked examples\n- Power rule: d/dx[x^3] = 3x^2.\n- Chain rule: if f(x) = (x^2 + 1)^3 then f'(x) = 3(x^2 + 1)^2 \u00b7 2x = 6x(x^2 + 1)^2.\n- Product rule: if h(x) = x^3 e^x then h'(x) = 3x^2 e^x + x^3 e^x = e^x(3x^2 + x^3).\n\nHigher derivatives and Taylor approximation\n- Higher-order derivatives: f'', f''', \u2026 measure successive rates of change (acceleration, jerk, \u2026).\n- Linearization (first-order Taylor): near a, f(x) \u2248 f(a) + f'(a)(x \u2212 a). This is the tangent-line approximation.\n- Higher-order Taylor polynomials give increasingly accurate polynomial approximations using f, f', f'', \u2026\n\nDifferentiability vs continuity and singularities\n- If f is differentiable at a point then f is continuous there. The converse is false: a function can be continuous but not differentiable (e.g., f(x) = |x| at x = 0 has a corner).\n- Non-differentiable situations include corners/cusps, vertical tangents, or wild oscillation.\n\nImportant theorems and tests\n- Rolle\u2019s theorem and the Mean Value Theorem: if f is continuous on [a,b] and differentiable on (a,b), there exists c in (a,b) with f'(c) = (f(b) \u2212 f(a))/(b \u2212 a). These give deep information about how values and slopes relate and underpin many proofs.\n- Critical points: points where f'(x) = 0 or f' is undefined. Candidates for local maxima or minima.\n- First and second derivative tests:\n  - First derivative test uses sign changes of f' around a critical point to classify it.\n  - Second derivative test: if f'(a)=0 and f''(a)>0 then local minimum; if f''(a)<0 then local maximum. If f''(a)=0 the test is inconclusive.\n\nSpecial techniques\n- Implicit differentiation: differentiate both sides of relations like F(x,y)=0 treating y as a function of x, then solve for dy/dx.\n- Logarithmic differentiation: take logs to simplify differentiation of products, quotients, or functions raised to variable powers.\n- Differentiation of inverse functions: if y = f^{-1}(x) and f'(f^{-1}(x)) \u2260 0 then (f^{-1})'(x) = 1 / f'(f^{-1}(x)).\n\nApplications\n- Motion: position \u2192 velocity \u2192 acceleration.\n- Optimization: maximize or minimize quantities by finding critical points and testing endpoints.\n- Related rates: use implicit differentiation to relate rates of change of linked quantities (e.g., radius and volume).\n- Linear approximation and error estimation: small changes \u2248 f'(a)\u0394x; higher-order Taylor polynomials give more precise approximations.\n\nPractical tips for computing derivatives\n- Simplify the function first when possible; identify compositions and products to pick the correct rule.\n- Check the domain (division by zero, log of nonpositive, etc.) and endpoints when solving optimization problems.\n- For complicated expressions combine chain, product and quotient rules as needed; consider logarithmic differentiation for messy products/powers.\n\nSummary\nThe derivative is a fundamental tool that quantifies instantaneous rate of change and slope of the tangent line. Its formal limit definition gives the rigorous foundation; a small set of rules (power, product, quotient, chain) plus special techniques (implicit, logarithmic) let you compute derivatives in practice. Derivatives are central in geometry, physics, optimization, approximation, and many areas of applied and pure mathematics.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "limit",
+              "tangent",
+              "slope",
+              "differentiation",
+              "power rule",
+              "chain rule"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "about",
+              "acceleration",
+              "accurate",
+              "algebraic",
+              "applied"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 686,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 686,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "CSI_stderr": NaN,
+    "R_squared": NaN,
+    "C_h": 0.047619047619047616,
+    "mean_score": 1.0,
+    "score_variance": 0.0,
+    "min_score": 1.0,
+    "max_score": 1.0,
+    "decay_direction": "decay",
+    "n_compression_levels": 5
+  }
+}

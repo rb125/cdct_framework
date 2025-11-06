@@ -1,0 +1,274 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "model": "gpt-5-mini",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 2,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "force-acceleration relation",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "force",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 2,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 2,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 5,
+      "response_length": 10,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "Newton's second law states that force equals mass times acceleration.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "force",
+              "mass",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 10,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 10,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 15,
+      "response_length": 55,
+      "score": 0.5,
+      "verdict": "fair",
+      "hallucinated": [
+        "cases",
+        "changing",
+        "explicitly",
+        "general",
+        "units"
+      ],
+      "response": "Newton's second law (vector form):\nF_net = m a\nor more explicitly: \u03a3_i F_i = m a\n\nHere F_net and a are vectors (so \u03a3F_x = m a_x, etc.). For cases with changing mass use the more general form\nF_net = dp/dt\nwhere p = m v is momentum.\n\nUnits: 1 N = 1 kg\u00b7m/s^2.",
+      "detailed_eval": {
+        "final_score": 0.5,
+        "components": {
+          "strict": {
+            "score": 0.5,
+            "found": [
+              "vector",
+              "mass"
+            ],
+            "missing": [
+              "F=ma",
+              "net force"
+            ],
+            "hallucinated": [
+              "cases",
+              "changing",
+              "explicitly",
+              "general",
+              "units"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 55,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 55,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 32,
+      "response_length": 255,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "accelerate",
+        "achieve",
+        "assumes",
+        "cancel",
+        "certain"
+      ],
+      "response": "- Force produces acceleration: a net external force on an object changes its velocity by producing an acceleration (acceleration = change in velocity per time). If no net force acts, the object keeps the same velocity.\n\n- Proportionality: for a fixed mass, acceleration is directly proportional to the net force. Double the net force \u2192 roughly double the acceleration.\n\n- Inertia (mass as resistance to acceleration): for a given net force, acceleration is inversely proportional to mass. Heavier (more massive) objects need more force to achieve the same acceleration.\n\n- Vector relationship and direction: force and acceleration are vectors and point in the same direction. A force can change the direction of motion as well as the speed (e.g., circular motion).\n\n- Net force matters: F in F = ma is the net (sum of) external forces. Individual forces can cancel; only the vector sum determines the acceleration.\n\n- Units and meaning: in SI units, F (newtons) = kg \u00b7 m/s^2. This quantifies how much force is needed to produce a certain acceleration on a mass.\n\n- Simple scaling rules: doubling force at fixed mass doubles acceleration; doubling mass at fixed force halves acceleration.\n\n- Limitation / generalization: F = ma assumes mass is constant. If mass changes (rockets expelling fuel), the general form is F = dp/dt where p is momentum.\n\nThese points follow directly from Newton\u2019s second law and explain why heavier objects are harder to accelerate and why forces change motion only by producing acceleration, not by directly imposing a particular velocity.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "Newton",
+              "net force",
+              "vector",
+              "mass",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "accelerate",
+              "achieve",
+              "assumes",
+              "cancel",
+              "certain"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.921875,
+            "response_words": 255,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 255,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 100,
+      "response_length": 454,
+      "score": 0.6666666666666666,
+      "verdict": "fair",
+      "hallucinated": [
+        "accelerating",
+        "additional",
+        "analyses",
+        "appear",
+        "applied"
+      ],
+      "response": "Newton\u2019s second law quantifies how forces change the motion of an object. In its most familiar form for a body of constant mass it says:\n\nF_net = m a\n\nMeaning of each symbol\n- F_net is the vector sum of all forces acting on the object (the net force).\n- m is the mass (a scalar) that measures the object\u2019s inertia\u2014how much it resists changes in motion.\n- a is the acceleration vector (the rate of change of velocity).\n\nMain consequences and interpretations\n- Vector relation: Force and acceleration point in the same direction. If F_net is zero the acceleration is zero (the object moves at constant velocity).\n- Proportionality: For a fixed mass, acceleration is proportional to the applied net force. Double the net force \u2192 double the acceleration.\n- Inverse mass effect: For a fixed net force, a larger mass produces a smaller acceleration (acceleration = force divided by mass).\n- Superposition: Forces add as vectors; you determine F_net by summing all individual forces (gravity, friction, applied pushes, etc.).\n- Equilibrium and inertia: If F_net = 0 the object experiences no acceleration (equilibrium). A larger mass makes the same force produce less acceleration\u2014this is inertia.\n\nComponent form and solving motion\n- Because it\u2019s a vector equation, it can be written componentwise: F_x = m a_x, F_y = m a_y, F_z = m a_z. This lets you treat each direction independently when computing motion.\n- As a differential equation (a = dv/dt), it determines how velocity and position change in time: F_net = m dv/dt. Integrating acceleration gives velocity and position once initial conditions are known.\n\nRelation to momentum and variable mass\n- More generally F_net = dp/dt, where p = m v is momentum. For constant mass this reduces to F_net = m dv/dt.\n- When mass changes (rockets, leaking systems), F_net = dp/dt includes mass-flux terms and must be applied carefully (this is the basis of the rocket equation).\n\nUnits and scope\n- SI units: force in newtons (N), where 1 N = 1 kg\u00b7m/s^2.\n- Newton\u2019s second law is formulated in inertial reference frames; in accelerating frames additional \u201cpseudo\u201d forces appear.\n\nPractical examples and implications\n- Pushing a shopping cart: a larger push (force) -> greater acceleration; loaded cart (larger m) -> smaller acceleration for the same push.\n- Car crashes and engineering analyses use F_net = m a (and F = dp/dt) to design safety systems.\n- Conservation of momentum: if net external force is zero, dp/dt = 0 so total momentum is conserved.\n\nIn short: Newton\u2019s second law provides the quantitative link between forces and motion. Given the net force on a body and its mass, it tells you exactly how the body\u2019s velocity will change in time.",
+      "detailed_eval": {
+        "final_score": 0.6666666666666666,
+        "components": {
+          "strict": {
+            "score": 0.6666666666666666,
+            "found": [
+              "net force",
+              "vector",
+              "inertia",
+              "momentum"
+            ],
+            "missing": [
+              "Newton's second law",
+              "dynamics"
+            ],
+            "hallucinated": [
+              "accelerating",
+              "additional",
+              "analyses",
+              "appear",
+              "applied"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 454,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 454,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.23209075513660202,
+    "CSI_stderr": 0.3088654485187067,
+    "R_squared": 0.15840194038073088,
+    "C_h": 0.02,
+    "mean_score": 0.8333333333333334,
+    "score_variance": 0.21081851067789195,
+    "min_score": 0.5,
+    "max_score": 1.0,
+    "decay_direction": "improvement",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Performance improves significantly with compression. Model may be ignoring compression constraints or evaluation is too lenient.",
+      "WARNING: Low R\u00b2 (0.158). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

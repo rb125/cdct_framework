@@ -1,0 +1,274 @@
+{
+  "concept": "modus_ponens",
+  "domain": "logic",
+  "model": "grok-4-fast-reasoning",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 2,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "affirming antecedent",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "affirming",
+              "antecedent"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 2,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 2,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 7,
+      "response_length": 7,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "If P then Q; P; therefore Q.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "if",
+              "then",
+              "therefore"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 7,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 7,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 17,
+      "response_length": 496,
+      "score": 0.75,
+      "verdict": "good",
+      "hallucinated": [
+        "abbreviated",
+        "above",
+        "affirms",
+        "axiomatic",
+        "because"
+      ],
+      "response": "### Formal Explanation of Modus Ponens\n\nModus ponens (Latin for \"mode that affirms\") is a fundamental rule of inference in classical propositional logic and other deductive systems. It allows one to derive a conclusion from a conditional statement and its antecedent. Formally, it can be stated as follows:\n\n#### Symbolic Representation\nIn logical notation:\n- Let \\( P \\) and \\( Q \\) be propositions (statements that can be true or false).\n- Given the premises:\n  1. \\( P \\rightarrow Q \\) (i.e., \"if \\( P \\), then \\( Q \\)\", or \\( P \\) implies \\( Q \\)).\n  2. \\( P \\) (i.e., the antecedent \\( P \\) is true).\n- Infer: \\( Q \\) (i.e., the consequent \\( Q \\) must also be true).\n\nThis is often abbreviated in proof systems as:\n\\[\n\\frac{P \\rightarrow Q \\quad P}{Q} \\quad \\text{(Modus Ponens, MP)}\n\\]\nHere, the horizontal line represents the inference step, and the premises are above it, with the conclusion below.\n\n#### Validity and Justification\nModus ponens is **sound** (it preserves truth: if the premises are true, the conclusion must be true) and **complete** for this specific inference pattern in classical logic. Its validity stems from the truth table for implication (\\( \\rightarrow \\)):\n\n| \\( P \\) | \\( Q \\) | \\( P \\rightarrow Q \\) |\n|---------|---------|----------------------|\n| True    | True    | True                 |\n| True    | False   | False                |\n| False   | True    | True                 |\n| False   | False   | True                 |\n\n- The only case where \\( P \\rightarrow Q \\) is false is when \\( P \\) is true and \\( Q \\) is false.\n- If \\( P \\rightarrow Q \\) is true *and* \\( P \\) is true, the false case is impossible, so \\( Q \\) must be true.\n\nThis rule is a cornerstone of natural deduction, sequent calculus, and axiomatic systems in logic. It is \"valid\" because it cannot lead to a contradiction from true premises.\n\n#### Example\nConsider:\n- Premise 1: If it rains (\\( P \\)), then the ground is wet (\\( Q \\)) \u2192 \\( P \\rightarrow Q \\).\n- Premise 2: It is raining (\\( P \\)).\n- Conclusion (via modus ponens): The ground is wet (\\( Q \\)).\n\nThis inference is deductively valid, meaning it holds in all possible interpretations where the premises are true.\n\n#### Elaboration on Related Concepts\n- **Inference Rule**: Modus ponens is a syntactic rule for deriving new formulas from existing ones in a formal proof. It contrasts with invalid rules like *affirming the consequent* (\\( P \\rightarrow Q, Q \\vdash P \\)), which is a fallacy.\n- **Role in Logic**: It enables forward chaining in automated reasoning and is used in programming (e.g., in Prolog) and AI for deduction.\n- **Limitations**: It assumes classical bivalent logic (true/false only). In intuitionistic or fuzzy logics, variants may differ slightly.\n\nThis explanation captures the essence based on the provided definition while formalizing it for clarity.",
+      "detailed_eval": {
+        "final_score": 0.75,
+        "components": {
+          "strict": {
+            "score": 0.75,
+            "found": [
+              "implies",
+              "valid",
+              "inference"
+            ],
+            "missing": [
+              "deduce"
+            ],
+            "hallucinated": [
+              "abbreviated",
+              "above",
+              "affirms",
+              "axiomatic",
+              "because"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.3,
+            "response_words": 496,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 496,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 39,
+      "response_length": 285,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "asserts",
+        "avoid",
+        "because",
+        "cases",
+        "concludes"
+      ],
+      "response": "Modus ponens is a valid deductive argument because it guarantees that if the premises are true, the conclusion must also be true\u2014it's logically impossible for the premises to hold while the conclusion is false. This property defines validity in deductive reasoning, where the argument form preserves truth from premises to conclusion without exception.\n\nTo elaborate using the provided context:\n\n- **The argument structure**: Modus ponens (Latin for \"method of affirming\") takes two premises: (1) a conditional statement \"If P, then Q\" (symbolically, P \u2192 Q), which asserts that whenever P is true, Q must follow; and (2) the affirmation of the antecedent, \"P is true.\" From these, it concludes \"Q is true\" (symbolically, ((P \u2192 Q) \u2227 P) \u22a2 Q, where \u22a2 indicates logical entailment or derivation).\n\n- **Why it's valid**: Consider the truth table for the conditional (P \u2192 Q), which is true in all cases except when P is true and Q is false. If both premises are true\u2014meaning P \u2192 Q holds and P is true\u2014the only way the conditional could be true is if Q is also true (to avoid the false case). Thus, modus ponens cannot produce a false conclusion from true premises, making it sound and reliable.\n\n- **Role in deductive reasoning**: As a fundamental rule of inference in classical logic (e.g., propositional or predicate logic), modus ponens underpins everyday reasoning and formal proofs. For example, if \"If it rains (P), the ground gets wet (Q)\" and \"It is raining (P),\" we validly conclude \"The ground gets wet (Q).\" This form is \"sound\" when premises are true, ensuring no errors in truth preservation, unlike invalid forms (e.g., affirming the consequent: from P \u2192 Q and Q, wrongly concluding P).",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "conditional",
+              "antecedent",
+              "consequent",
+              "valid",
+              "deductive"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "asserts",
+              "avoid",
+              "because",
+              "cases",
+              "concludes"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.890625,
+            "response_words": 285,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 285,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 139,
+      "response_length": 1253,
+      "score": 0.8333333333333334,
+      "verdict": "good",
+      "hallucinated": [
+        "across",
+        "advanced",
+        "affirmation",
+        "affirmed",
+        "again"
+      ],
+      "response": "### Complete Explanation of Modus Ponens\n\nModus ponens, a Latin term meaning \"method of affirming,\" is one of the most fundamental rules of inference in propositional logic, a branch of formal logic that deals with propositions (statements that can be true or false) and their logical connections. It allows us to draw a valid conclusion from two premises: a conditional statement (an \"if-then\" implication) and the affirmation of the condition in that implication. This rule is a cornerstone of deductive reasoning, ensuring that if the premises are true, the conclusion must also be true\u2014a property known as being \"truth-preserving\" or \"sound.\" Below, I'll explain it step by step, including its form, validity, distinctions from common errors, applications, and more.\n\n#### 1. Formal Definition and Structure\nModus ponens operates on two premises to reach a single conclusion:\n- **Premise 1**: A conditional statement of the form \"If P, then Q,\" symbolized as **P \u2192 Q**. Here, P is the *antecedent* (the \"if\" part, or hypothesis), and Q is the *consequent* (the \"then\" part, or result).\n- **Premise 2**: The antecedent itself is affirmed, meaning **P** is true.\n- **Conclusion**: Therefore, the consequent must follow, so **Q** is true.\n\nIn everyday language, this might look like:\n- Premise 1: If it rains (P), then the ground gets wet (Q).\n- Premise 2: It is raining (P).\n- Conclusion: The ground gets wet (Q).\n\nThis structure is valid because the implication P \u2192 Q guarantees that whenever P holds, Q must also hold. Affirming P \"triggers\" the implication, making Q inevitable.\n\n#### 2. Symbolic Notation\nIn symbolic logic, modus ponens is often represented as:\n- **((P \u2192 Q) \u2227 P) \u22a2 Q**\n  - Here, \u2227 means \"and\" (conjunction), and \u22a2 (the turnstile) indicates \"entails\" or \"validly infers.\"\n- Alternatively: **{P \u2192 Q, P} \u22a2 Q**, showing the set of premises leading to the conclusion.\n\nThis notation is used in formal systems like truth tables or proof calculi to verify arguments. For example, a truth table for P \u2192 Q shows that the implication is true unless P is true and Q is false\u2014modus ponens avoids this false case by assuming both premises are true.\n\n#### 3. Why It's Valid: Truth-Preserving Nature\nModus ponens is deductively valid because it preserves truth: If both premises are true, the conclusion cannot be false. This can be verified using a truth table for the entire argument:\n\n| P   | Q   | P \u2192 Q | P     | Conclusion Q (from modus ponens) |\n|-----|-----|-------|-------|----------------------------------|\n| T   | T   | T     | T     | T (valid)                        |\n| T   | F   | F     | T     | F (but premise P \u2192 Q is false, so argument invalid overall) |\n| F   | T   | T     | F     | T (but P is false, so modus ponens doesn't apply) |\n| F   | F   | T     | F     | F (P false, modus ponens doesn't apply) |\n\nOnly when both premises are true (first row) does the rule apply, and the conclusion is true. In classical logic, this makes it a reliable tool for building airtight arguments.\n\n#### 4. Role in Formal Systems: Natural Deduction\nIn natural deduction (a proof system that mimics human reasoning), modus ponens is the primary *elimination rule* for implications (\u2192). It \"eliminates\" the conditional by applying the antecedent, reducing the proof to the consequent. This contrasts with *introduction rules*, which build implications (e.g., assuming P and deriving Q to introduce P \u2192 Q). Natural deduction systems, developed in the 20th century by logicians like Gerhard Gentzen, use modus ponens as a building block for more complex proofs, ensuring every step is justified.\n\n#### 5. Distinction from Common Fallacies\nModus ponens is often confused with invalid arguments that mimic its structure. It's crucial to distinguish it from these fallacies to avoid flawed reasoning:\n\n- **Affirming the Consequent** (Invalid): From (P \u2192 Q) and Q, concluding P.  \n  Example: If it rains (P), the ground is wet (Q). The ground is wet (Q). Therefore, it rained (P).  \n  *Why invalid?* Q could be true for other reasons (e.g., a sprinkler). Symbol: ((P \u2192 Q) \u2227 Q) \u22a2 P is not truth-preserving\u2014counterexamples exist where premises are true but conclusion is false.\n\n- **Denying the Antecedent** (Invalid): From (P \u2192 Q) and \u00acP (not P), concluding \u00acQ (not Q).  \n  Example: If it rains (P), the ground is wet (Q). It didn't rain (\u00acP). Therefore, the ground isn't wet (\u00acQ).  \n  *Why invalid?* Q could still happen (e.g., sprinkler again). Symbol: ((P \u2192 Q) \u2227 \u00acP) \u22a2 \u00acQ fails truth-preservation.\n\nThese fallacies highlight modus ponens's specificity: It only works by affirming the antecedent, not the consequent or denying anything.\n\n#### 6. Related Valid Rule: Modus Tollens\nA close cousin is *modus tollens* (\"method of denying\"), which is also valid: From (P \u2192 Q) and \u00acQ, conclude \u00acP.  \nExample: If it rains (P), the ground is wet (Q). The ground isn't wet (\u00acQ). Therefore, it didn't rain (\u00acP).  \nSymbol: ((P \u2192 Q) \u2227 \u00acQ) \u22a2 \u00acP.  \nThis is truth-preserving because if Q is false, P can't be true without violating the implication. Together, modus ponens and tollens form a powerful duo for handling conditionals in logic.\n\n#### 7. Applications\nModus ponens is ubiquitous across disciplines:\n- **Mathematical Proofs**: Used to chain implications, e.g., in geometry: \"If a triangle is equilateral (P), then all sides are equal (Q).\" Given an equilateral triangle (P), conclude equal sides (Q).\n- **Automated Theorem Proving and AI**: In rule-based expert systems, it's the basis for *forward chaining*, where systems apply rules sequentially (e.g., medical diagnosis: If symptoms A (P), then disease B (Q); patient has A \u2192 diagnose B).\n- **Legal Reasoning**: Courts apply it like: \"If a contract is signed (P), it's binding (Q).\" Contract signed (P) \u2192 binding (Q).\n- **Everyday and Scientific Reasoning**: It underpins hypotheses testing, like in physics: \"If gravity pulls (P), objects fall (Q).\"\n\nIn computer science, it's implemented in programming languages (e.g., Prolog) and AI inference engines.\n\n#### 8. Philosophical and Historical Significance\nPhilosophically, modus ponens embodies the essence of deductive reasoning: starting from general truths to reach specifics. Immanuel Kant referred to it as \"analytic,\" meaning it's true by definition in classical logic, revealing inherent relations without new empirical content. It underscores logic's role in certainty\u2014Aristotle's syllogisms prefigure it, but modus ponens is more flexible for conditionals.\n\nHistorically:\n- Traced to the Stoics (3rd century BCE), who used it in early propositional logic.\n- Formalized by medieval scholastics like Peter of Spain in the 13th century.\n- Central to modern symbolic logic, pioneered by Gottlob Frege and Bertrand Russell in the late 19th/early 20th centuries, influencing fields from philosophy to computing.\n\n#### 9. Limitations\nWhile robust, modus ponens assumes *classical logic*, where propositions are strictly true/false and implications follow bivalent rules. In non-classical logics:\n- **Quantum Logic**: May not hold due to superposition (e.g., particles in multiple states), where implications aren't strictly truth-preserving.\n- **Intuitionistic Logic**: Requires constructive proof of Q, not just non-falsity.\n- **Relevance Logic**: Demands P and Q be relevant, avoiding \"vacuous\" implications.\n\nIt also doesn't handle uncertainty (e.g., probabilities) well\u2014fuzzy or probabilistic logics extend it for real-world AI applications.\n\nIn summary, modus ponens is a simple yet profound tool for valid inference, preventing errors like fallacies while enabling rigorous reasoning. Its enduring use across logic, AI, and philosophy demonstrates its foundational power, though awareness of its classical assumptions is key for advanced contexts. If you'd like examples in a specific domain or comparisons to other rules, let me know!",
+      "detailed_eval": {
+        "final_score": 0.8333333333333334,
+        "components": {
+          "strict": {
+            "score": 0.8333333333333334,
+            "found": [
+              "conditional",
+              "antecedent",
+              "consequent",
+              "truth-preserving",
+              "deductive reasoning"
+            ],
+            "missing": [
+              "rule of inference"
+            ],
+            "hallucinated": [
+              "across",
+              "advanced",
+              "affirmation",
+              "affirmed",
+              "again"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 1253,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 1253,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.11258371692792567,
+    "CSI_stderr": 0.1536087766936168,
+    "R_squared": 0.1518665246329932,
+    "C_h": 0.014388489208633094,
+    "mean_score": 0.9166666666666666,
+    "score_variance": 0.10540925533894598,
+    "min_score": 0.75,
+    "max_score": 1.0,
+    "decay_direction": "improvement",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Performance improves significantly with compression. Model may be ignoring compression constraints or evaluation is too lenient.",
+      "WARNING: Low R\u00b2 (0.152). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

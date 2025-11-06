@@ -1,0 +1,273 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "model": "gpt-4.1",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 2,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "force-acceleration relation",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "force",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 2,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 2,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 5,
+      "response_length": 27,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "Newton's second law states that force equals mass times acceleration. This means the force acting on an object is the product of its mass and its acceleration.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "force",
+              "mass",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 27,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 27,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 15,
+      "response_length": 73,
+      "score": 0.75,
+      "verdict": "good",
+      "hallucinated": [
+        "equal",
+        "making",
+        "mathematically",
+        "quantity",
+        "written"
+      ],
+      "response": "Newton's second law is written mathematically as:\n\n**F = ma**\n\nwhere:\n- **F** is the net force acting on an object (a vector quantity),\n- **m** is the mass of the object,\n- **a** is the acceleration of the object (a vector quantity).\n\nThis equation states that the net force on an object is equal to its mass multiplied by its acceleration. Both force and acceleration have direction, making this a vector equation.",
+      "detailed_eval": {
+        "final_score": 0.75,
+        "components": {
+          "strict": {
+            "score": 0.75,
+            "found": [
+              "net force",
+              "vector",
+              "mass"
+            ],
+            "missing": [
+              "F=ma"
+            ],
+            "hallucinated": [
+              "equal",
+              "making",
+              "mathematically",
+              "quantity",
+              "written"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 73,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 73,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 32,
+      "response_length": 154,
+      "score": 0.8,
+      "verdict": "good",
+      "hallucinated": [
+        "accelerate",
+        "achieve",
+        "always",
+        "amount",
+        "applied"
+      ],
+      "response": "The key implications of F=ma (Newton's second law) are:\n\n1. **Force Causes Acceleration:** A net force acting on an object will cause it to accelerate, not just move at a constant velocity. Acceleration is a change in velocity.\n\n2. **Direction Matters:** Both force and acceleration are vectors, meaning they have direction. The acceleration produced is always in the same direction as the net force applied.\n\n3. **Mass Resists Acceleration:** The more massive an object is, the more force is needed to achieve the same acceleration. In other words, heavier objects are harder to accelerate.\n\n4. **No Force, No Acceleration:** If the net force is zero, the object will not accelerate\u2014it will either stay at rest or continue moving at a constant velocity.\n\nIn summary, F=ma shows how force, mass, and acceleration are related: force changes motion by causing acceleration, and the amount of acceleration depends on both the force applied and the object's mass.",
+      "detailed_eval": {
+        "final_score": 0.8,
+        "components": {
+          "strict": {
+            "score": 0.8,
+            "found": [
+              "Newton",
+              "net force",
+              "mass",
+              "acceleration"
+            ],
+            "missing": [
+              "vector"
+            ],
+            "hallucinated": [
+              "accelerate",
+              "achieve",
+              "always",
+              "amount",
+              "applied"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 154,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 154,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 100,
+      "response_length": 361,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "accelerate",
+        "accelerates",
+        "added",
+        "affects",
+        "along"
+      ],
+      "response": "Newton's second law of motion is a fundamental principle in physics that describes how the motion of an object changes when a force is applied. The law states that the net force (\\( F_{net} \\)) acting on an object is equal to the product of its mass (\\( m \\)) and its acceleration (\\( a \\)), expressed mathematically as:\n\n\\[ F_{net} = ma \\]\n\nThis is a vector equation, meaning both force and acceleration have direction as well as magnitude. The direction of the net force determines the direction of the acceleration.\n\n**Key Concepts:**\n\n1. **Proportionality of Acceleration and Force:** For a fixed mass, the acceleration of an object increases as the net force increases. If you push harder (apply more force), the object accelerates more.\n\n2. **Inversely Proportional to Mass:** For a fixed force, the acceleration decreases as the mass increases. Heavier objects are harder to accelerate; this is the concept of inertia\u2014massive objects resist changes in their motion.\n\n3. **Additive Nature of Forces:** Forces are vectors and can be added together. The net force is the vector sum of all individual forces acting on the object. This means you must consider both the magnitude and direction of each force.\n\n4. **Component Form:** In three dimensions, the law applies to each direction separately:\n   - \\( F_x = ma_x \\)\n   - \\( F_y = ma_y \\)\n   - \\( F_z = ma_z \\)\n   This allows us to analyze motion along each axis independently.\n\n5. **Connection to Momentum:** Newton\u2019s second law can also be written in terms of momentum (\\( p = mv \\)):\n   \\[ F = \\frac{dp}{dt} \\]\n   This means the net force is equal to the rate of change of momentum.\n\n**Applications:**\nNewton\u2019s second law is the foundation for understanding dynamics in physics and engineering. It explains phenomena ranging from car crashes (how force affects acceleration and damage), to planetary orbits (how gravitational force causes acceleration), and is essential for designing machines, vehicles, and structures.\n\n**Summary:**\nNewton\u2019s second law tells us how forces cause changes in motion. It quantifies the relationship between force, mass, and acceleration, and provides the basis for predicting how objects will move when subjected to various forces.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "Newton's second law",
+              "net force",
+              "vector",
+              "inertia",
+              "momentum",
+              "dynamics"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "accelerate",
+              "accelerates",
+              "added",
+              "affects",
+              "along"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 361,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 361,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.05677296933341495,
+    "CSI_stderr": 0.17478891106572245,
+    "R_squared": 0.033972212294672496,
+    "C_h": 0.02,
+    "mean_score": 0.9099999999999999,
+    "score_variance": 0.11135528725660043,
+    "min_score": 0.75,
+    "max_score": 1.0,
+    "decay_direction": "decay",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Low R\u00b2 (0.034). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

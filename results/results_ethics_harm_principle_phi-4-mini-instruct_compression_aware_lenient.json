@@ -1,0 +1,279 @@
+{
+  "concept": "harm_principle",
+  "domain": "ethics",
+  "model": "Phi-4-mini-instruct",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 3,
+      "response_length": 3,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "liberty unless harm",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "liberty",
+              "harm"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 3,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 3,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 8,
+      "response_length": 10,
+      "score": 0.6666666666666666,
+      "verdict": "fair",
+      "hallucinated": [
+        "freedom"
+      ],
+      "response": "Individual freedom can be limited to prevent harm to others.",
+      "detailed_eval": {
+        "final_score": 0.6666666666666666,
+        "components": {
+          "strict": {
+            "score": 0.6666666666666666,
+            "found": [
+              "harm",
+              "others"
+            ],
+            "missing": [
+              "restrict"
+            ],
+            "hallucinated": [
+              "freedom"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 10,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 10,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 15,
+      "response_length": 91,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "against",
+        "align",
+        "autonomy",
+        "based",
+        "consent"
+      ],
+      "response": "Based on Mill's principle, he would likely argue against paternalistic laws. Paternalistic laws are those that are designed to protect individuals from themselves, often for their own good, without their consent. Mill's principle emphasizes individual liberty, suggesting that it should only be limited when an individual's actions harm others. Since paternalistic laws are intended to prevent self-harm, they would not align with Mill's view on the matter. He would likely argue that such laws infringe upon personal freedom and autonomy, as they are not justified by the potential harm to others.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "Mill",
+              "liberty",
+              "harm others",
+              "own good"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "against",
+              "align",
+              "autonomy",
+              "based",
+              "consent"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 91,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 91,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 36,
+      "response_length": 135,
+      "score": 0.6,
+      "verdict": "fair",
+      "hallucinated": [
+        "according",
+        "articulated",
+        "autonomy",
+        "behaviors",
+        "being"
+      ],
+      "response": "The harm principle, as articulated by John Stuart Mill, justifies restricting liberty only in cases where an individual's actions cause harm to others. This principle is a cornerstone of liberal thought, emphasizing the importance of individual freedom and autonomy, while also recognizing the need to protect society from the negative consequences of certain behaviors. According to Mill, self-regarding actions, which are those that primarily affect the individual and do not harm others, should not be subject to interference or restriction. This distinction between harm to others and self-harm or offense is crucial in determining when and how liberty can be justifiably restricted. In essence, the harm principle supports the idea that individuals should be free to act as they wish, as long as their actions do not infringe upon the rights and well-being of others.",
+      "detailed_eval": {
+        "final_score": 0.6,
+        "components": {
+          "strict": {
+            "score": 0.6,
+            "found": [
+              "Mill",
+              "harm to others",
+              "self-regarding"
+            ],
+            "missing": [
+              "restrict",
+              "liberalism"
+            ],
+            "hallucinated": [
+              "according",
+              "articulated",
+              "autonomy",
+              "behaviors",
+              "being"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 135,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 135,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 137,
+      "response_length": 430,
+      "score": 0.6666666666666666,
+      "verdict": "fair",
+      "hallucinated": [
+        "account",
+        "additionally",
+        "address",
+        "advocates",
+        "against"
+      ],
+      "response": "John Stuart Mill's harm principle, as articulated in his seminal work 'On Liberty' (1859), is a foundational concept in liberal political philosophy that advocates for the protection of individual freedom. Mill posits that the only legitimate reason for society, or the state, to exercise power over an individual, against their will, is to prevent harm to others. This principle is divided into two main categories: self-regarding and other-regarding actions.\n\n\nSelf-regarding actions are those that primarily affect the individual who is performing them. Mill argues that these actions should not be subject to societal or legal restrictions, even if they are harmful to the individual, because they are a matter of personal choice and autonomy. Mill's view here is that individuals are the best judges of their own interests and are therefore entitled to make decisions that may be detrimental to themselves, as long as they do not harm others.\n\n\nOn the other hand, other-regarding actions are those that have the potential to affect others. Mill contends that these actions can be legitimately restricted by society if they cause harm to other people. This harm can be physical, psychological, or economic, and it is the responsibility of society to prevent such harm. However, Mill is clear that mere offense, disgust, or moral disapproval do not constitute harm and therefore do not justify restricting an individual's actions.\n\n\nThe harm principle has significant implications for the development of laws and policies. It opposes paternalistic laws that restrict individual freedoms without a clear and direct harm to others, such as seatbelt laws or drug prohibition. Mill's principle also supports the freedom of speech, even if the speech is offensive, as long as it does not directly harm others.\n\n\nOne of the central challenges of the harm principle is defining what constitutes 'harm.' Mill's definition is somewhat limited to physical harm, but critics argue that it should also consider psychological and economic harm. Additionally, the principle does not address the indirect effects of actions, which may affect others in less direct ways, nor does it provide guidance on how to handle situations involving children and incompetent persons, who are not considered competent adults under Mill's framework.\n\n\nThe harm principle has had a profound influence on liberal political thought and First Amendment jurisprudence, particularly in debates over victimless crimes, where the state seeks to criminalize behavior that does not directly harm others. Critics of Mill's principle argue that it is too individualistic and fails to account for the social nature of humans, which may require a more collective approach to determining the limits of individual freedom.",
+      "detailed_eval": {
+        "final_score": 0.6666666666666666,
+        "components": {
+          "strict": {
+            "score": 0.6666666666666666,
+            "found": [
+              "John Stuart Mill",
+              "On Liberty",
+              "self-regarding",
+              "other-regarding"
+            ],
+            "missing": [
+              "paternalism",
+              "liberal philosophy"
+            ],
+            "hallucinated": [
+              "account",
+              "additionally",
+              "address",
+              "advocates",
+              "against"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 430,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 430,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.22329057768347965,
+    "CSI_stderr": 0.24728121935979328,
+    "R_squared": 0.2137081353237935,
+    "C_h": 0.021897810218978103,
+    "mean_score": 0.7866666666666666,
+    "score_variance": 0.1758787461103056,
+    "min_score": 0.6,
+    "max_score": 1.0,
+    "decay_direction": "improvement",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Performance improves significantly with compression. Model may be ignoring compression constraints or evaluation is too lenient.",
+      "WARNING: Low R\u00b2 (0.214). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

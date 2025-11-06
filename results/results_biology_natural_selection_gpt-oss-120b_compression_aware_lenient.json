@@ -1,0 +1,285 @@
+{
+  "concept": "natural_selection",
+  "domain": "biology",
+  "model": "gpt-oss-120b",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 2,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "differential survival",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "differential",
+              "survival"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 2,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 2,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 4,
+      "response_length": 27,
+      "score": 0.3333333333333333,
+      "verdict": "memorized",
+      "hallucinated": [
+        "because",
+        "beneficial",
+        "generation",
+        "organism",
+        "passing"
+      ],
+      "response": "Beneficial traits spread because they increase an organism\u2019s reproductive success. As a result, individuals with those traits produce more offspring, passing the traits to the next generation.",
+      "detailed_eval": {
+        "final_score": 0.3333333333333333,
+        "components": {
+          "strict": {
+            "score": 0.3333333333333333,
+            "found": [
+              "traits"
+            ],
+            "missing": [
+              "reproduction",
+              "advantageous"
+            ],
+            "hallucinated": [
+              "because",
+              "beneficial",
+              "generation",
+              "organism",
+              "passing"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 27,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "memorized",
+        "response_length": 27,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 14,
+      "response_length": 406,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "ability",
+        "adapted",
+        "advantage",
+        "advantageous",
+        "already"
+      ],
+      "response": "**Mechanism of Natural Selection**\n\nNatural selection is the process by which populations of organisms change over time as a result of differences in the survival and reproductive success of individuals. The mechanism can be broken down into four essential steps:\n\n1. **Variation in Traits**  \n   Within any population, individuals differ from one another in many characteristics (size, coloration, speed, tolerance to temperature, etc.). These differences are often caused by genetic mutations, recombination during sexual reproduction, or other sources of genetic variation.\n\n2. **Differential Survival and Reproduction**  \n   Because the environment is not uniform, some of these trait variations give certain individuals an advantage. For example, a beetle with a darker shell may be better camouflaged on a dark forest floor, making it less likely to be eaten. Those individuals with advantageous (beneficial) traits are more likely to survive to reproductive age and to produce offspring.\n\n3. **Heritability of Beneficial Traits**  \n   The traits that confer an advantage must be heritable\u2014i.e., they can be passed from parents to offspring through genes. When a successful individual reproduces, it transmits its advantageous genes to the next generation.\n\n4. **Change in Trait Frequencies Over Generations**  \n   Over many generations, the proportion of individuals carrying the beneficial traits increases in the population, while less advantageous traits become rarer. This shift in the genetic makeup of the population is evolution by natural selection.\n\n**Putting it all together:**  \nNatural selection works like a filter. The \u201craw material\u201d is the genetic variation already present in a population. The \u201cfilter\u201d is the environment, which determines which variations are more useful for survival and reproduction. The \u201coutput\u201d is a population that, over time, becomes better adapted to its environment because the beneficial traits have been amplified through differential reproductive success.\n\n**Key Points to Remember**\n\n- **Variation** provides the raw material for selection.  \n- **Selection pressure** (predation, climate, competition, etc.) determines which traits are advantageous.  \n- **Fitness** refers to an individual\u2019s ability to survive and leave offspring; higher fitness means more copies of its genes in the next generation.  \n- **Inheritance** ensures that advantageous traits are transmitted to offspring.  \n- **Population change** is gradual; natural selection does not act on individuals in isolation but on the gene frequencies of the whole population over many generations.\n\nIn summary, natural selection is the engine of evolutionary change: organisms with beneficial traits survive longer and reproduce more, passing those traits to their offspring, which gradually shifts the population toward better adaptation to its environment.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "beneficial traits",
+              "survive",
+              "reproduce",
+              "offspring"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "ability",
+              "adapted",
+              "advantage",
+              "advantageous",
+              "already"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.3,
+            "response_words": 406,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 406,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 33,
+      "response_length": 302,
+      "score": 0.4,
+      "verdict": "memorized",
+      "hallucinated": [
+        "advantage",
+        "advantageous",
+        "allow",
+        "allowing",
+        "appreciably"
+      ],
+      "response": "**Requirements for Natural Selection**\n\nNatural selection can only operate when a set of essential conditions are met.  In the simplest formulation, four key requirements must be present in a population:\n\n| Requirement | What it means | Why it matters for natural selection |\n|-------------|---------------|--------------------------------------|\n| **1. Variation (Genetic Diversity)** | Individuals in the population differ from one another in traits (e.g., size, coloration, behavior, physiological tolerance). | Without differences, there is nothing for selection to \u201cchoose\u201d between; all individuals would be equally fit. |\n| **2. Heritability** | The differences in traits must be at least partly passed from parents to offspring (i.e., encoded in genes or other transmissible mechanisms). | If a beneficial trait cannot be transmitted, an individual\u2019s advantage cannot be propagated to the next generation, so the population cannot evolve. |\n| **3. Differential Survival & Reproduction (Fitness Differences)** | Some variants confer a higher probability of surviving to reproductive age and/or producing more offspring in the given environment. | This creates a \u201cselection pressure\u201d that favors the more successful variants, allowing them to increase in frequency. |\n| **4. Sufficient Time / Population Size** | The population must be large enough and persist long enough for the advantageous variants to spread appreciably. | In very small or short\u2011lived populations, random drift can overwhelm selection, and the evolutionary change may be negligible. |\n\n**Putting it together**\n\n1. **Variation** provides the raw material.  \n2. **Heritability** ensures that the advantageous variants are transmitted to the next generation.  \n3. **Differential fitness** (survival and reproductive success) creates a directional force that increases the frequency of beneficial traits.  \n4. **Population size and time** allow the process to be effective and observable.\n\nWhen all four conditions are satisfied, natural selection can act, gradually shifting the genetic composition of the population and driving evolutionary change.",
+      "detailed_eval": {
+        "final_score": 0.4,
+        "components": {
+          "strict": {
+            "score": 0.4,
+            "found": [
+              "differential survival",
+              "variation"
+            ],
+            "missing": [
+              "Darwin",
+              "heritable",
+              "evolution"
+            ],
+            "hallucinated": [
+              "advantage",
+              "advantageous",
+              "allow",
+              "allowing",
+              "appreciably"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.8729166666666667,
+            "response_words": 302,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "memorized",
+        "response_length": 302,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 118,
+      "response_length": 1153,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "abiotic",
+        "accumulation",
+        "action",
+        "adaptive",
+        "advantage"
+      ],
+      "response": "**Natural Selection \u2013 A Comprehensive Overview**\n\nNatural selection is the central mechanism by which evolution operates. It is the process by which certain heritable traits become more common in a population because they confer a reproductive or survival advantage in a given environment. Below is a step\u2011by\u2011step explanation of how it works, the patterns it can produce, the evidence that supports it, and common misunderstandings that often arise.\n\n---\n\n## 1. Core Requirements (The \u201cFour Pillars\u201d)\n\n1. **Variation**  \n   - Individuals within a population differ in their phenotypes (observable traits such as size, color, behavior, physiology).  \n   - This variation originates from mutations, recombination during sexual reproduction, gene flow, and other genetic mechanisms.\n\n2. **Heritability**  \n   - At least part of the phenotypic variation is genetically based, meaning offspring tend to resemble their parents for those traits.  \n   - Heritability is quantified as the proportion of total phenotypic variance that can be attributed to genetic variance (the \u201ch\u00b2\u201d statistic).\n\n3. **Selection Pressure (Environmental Differential)**  \n   - The environment (abiotic factors like temperature, moisture, predators, disease, or biotic factors such as competition and mate choice) does not treat all phenotypes equally.  \n   - Some traits increase an individual\u2019s chance of surviving to reproduce, while others decrease it.\n\n4. **Differential Fitness**  \n   - \u201cFitness\u201d is the expected contribution of an individual\u2019s genotype to the next generation (often measured as the number of viable offspring).  \n   - When certain phenotypes lead to higher fitness, the alleles underlying those phenotypes increase in frequency over generations.\n\nOnly when all four conditions are met can natural selection cause evolutionary change.\n\n---\n\n## 2. How Natural Selection Changes Populations\n\n### 2.1. The Process in a Single Generation\n1. **Start** with a genetically diverse population.  \n2. **Encounter** a selective pressure (e.g., a new predator, a change in climate, a novel food source).  \n3. **Survival & Reproduction**: Individuals whose traits better match the pressure survive longer and produce more offspring.  \n4. **Allele Frequency Shift**: The gene pool of the next generation contains a higher proportion of the advantageous alleles.\n\n### 2.2. Over Multiple Generations\n- The cumulative effect of repeated differential survival and reproduction leads to a **change in allele frequencies**\u2014the essence of evolution in the modern synthesis (population genetics view).\n\n---\n\n## 3. Patterns of Selection\n\n| Pattern | Description | Typical Outcome |\n|---------|-------------|-----------------|\n| **Directional Selection** | Favors one extreme of a trait distribution (e.g., larger beaks in birds that must crack hard seeds). | Mean of the trait shifts toward the favored extreme. |\n| **Stabilizing Selection** | Favors intermediate phenotypes; extremes have lower fitness (e.g., birth weight in humans). | Variation narrows; the population\u2019s mean stays roughly the same. |\n| **Disruptive (or Divergent) Selection** | Favors both extremes over the intermediate form (e.g., seed-eating birds with both very small and very large beaks). | Population may split into two distinct phenotypic groups, potentially leading to speciation. |\n\nThese patterns can act simultaneously on different traits or at different times, shaping the overall trajectory of a species.\n\n---\n\n## 4. Temporal Scale of Natural Selection\n\n- **Microevolution** \u2013 Small, measurable changes in allele frequencies within a species or population (e.g., antibiotic resistance in bacteria, beak size changes in Darwin\u2019s finches).  \n- **Macroevolution** \u2013 Accumulation of microevolutionary changes over long periods, leading to the emergence of new species, genera, or higher taxa (speciation events, major morphological innovations).\n\nNatural selection operates continuously; the distinction between micro\u2011 and macro\u2011evolution is largely a matter of the time frame and the level of biological organization being examined.\n\n---\n\n## 5. Empirical Evidence Supporting Natural Selection\n\n1. **Fossil Record** \u2013 Shows gradual morphological changes consistent with selection (e.g., transition from early horse ancestors with multiple toes to modern single\u2011toed horses).  \n2. **Comparative Anatomy & Embryology** \u2013 Homologous structures reveal common ancestry and divergent adaptation (e.g., forelimb bones in whales, bats, and humans).  \n3. **Molecular Biology** \u2013 DNA sequence comparisons reveal patterns of conserved and rapidly evolving genes that match ecological pressures (e.g., hemoglobin variants in high\u2011altitude mammals).  \n4. **Observed Evolutionary Change** \u2013 Real\u2011time examples:  \n   - **Bacterial resistance** to antibiotics (selection for drug\u2011degrading enzymes).  \n   - **Peppered moth** (Biston betularia) color morph frequencies shifting with industrial pollution.  \n   - **Darwin\u2019s finches** on the Gal\u00e1pagos Islands showing beak size changes in response to seed availability.\n\nThese lines of evidence converge on a single conclusion: natural selection is a powerful, observable force shaping life.\n\n---\n\n## 6. Natural Selection in the Modern Synthesis\n\n- **Population Genetics Framework**: Evolution is defined as a change in allele frequencies within a gene pool. Natural selection is one of several mechanisms (others include genetic drift, mutation, migration, and non\u2011random mating) that can cause such changes.  \n- **Mathematical Models** (e.g., the Hardy\u2011Weinberg equilibrium, the selection coefficient *s*) allow precise predictions of how quickly advantageous alleles spread or deleterious alleles are purged.\n\n---\n\n## 7. Common Misconceptions Clarified\n\n| Misconception | Reality |\n|---------------|---------|\n| \u201cSurvival of the strongest\u201d | Selection favors **reproductive success**, not physical strength per se. Traits that improve survival *or* reproduction (including cooperation, camouflage, or even \u201cweakness\u201d that reduces predation) can be favored. |\n| \u201cEvolution has a goal or direction\u201d | Natural selection is **non\u2011teleological**; it has no foresight. It simply acts on existing variation. |\n| \u201cOnly the \u2018best\u2019 individuals survive\u201d | Many individuals survive; the key is that **those with higher relative fitness leave more offspring**. |\n| \u201cNew traits appear because of need\u201d | New traits arise **randomly** (mutations, recombination). Selection can only act on traits that already exist. |\n| \u201cAll traits are adaptive\u201d | Some traits are neutral or even slightly deleterious but persist due to drift, gene flow, or linkage with beneficial genes. |\n\n---\n\n## 8. Putting It All Together \u2013 A Narrative Example\n\nImagine a population of beetles living on a tree bark that is turning from light to dark due to industrial soot.  \n\n1. **Variation** \u2013 Some beetles are light\u2011colored, others dark\u2011colored.  \n2. **Heritability** \u2013 Color is genetically determined; offspring resemble parents.  \n3. **Selection Pressure** \u2013 Birds more easily spot light beetles on dark bark, eating them preferentially.  \n4. **Differential Fitness** \u2013 Dark beetles survive longer and produce more offspring.  \n\nOver several generations, the frequency of the dark\u2011color allele rises dramatically\u2014a classic case of **directional selection**. This shift can be measured in the field, documented in museum collections, and modeled mathematically, providing a concrete illustration of natural selection in action.\n\n---\n\n### Bottom Line\n\nNatural selection is the engine of evolutionary change. By repeatedly favoring heritable traits that enhance survival or reproduction under specific environmental conditions, it reshapes the genetic composition of populations. Its operation is supported by a wealth of evidence from fossils, anatomy, genetics, and direct observation, and it forms a cornerstone of modern evolutionary theory while being frequently misunderstood. Understanding its four essential components, the patterns it can generate, and its place within the broader framework of population genetics equips us to appreciate how the diversity and complexity of life arise without any guiding design.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "Darwin",
+              "differential survival",
+              "heritability",
+              "variation",
+              "fitness",
+              "evolution"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "abiotic",
+              "accumulation",
+              "action",
+              "adaptive",
+              "advantage"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 1153,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 1153,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.2623116720677696,
+    "CSI_stderr": 0.4650943084900097,
+    "R_squared": 0.09586602421968274,
+    "C_h": 0.01694915254237288,
+    "mean_score": 0.7466666666666666,
+    "score_variance": 0.31098410105841606,
+    "min_score": 0.3333333333333333,
+    "max_score": 1.0,
+    "decay_direction": "decay",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Low R\u00b2 (0.096). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

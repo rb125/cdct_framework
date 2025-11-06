@@ -1,0 +1,37 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "abstraction_level": 2,
+  "corpus": [
+    {
+      "compression_level": 0,
+      "text": "Newton's second law of motion states that the force acting on an object equals its mass multiplied by its acceleration. This relationship is expressed as F = m × a.",
+      "probe_question": "What does Newton's second law state?",
+      "expected_keywords": ["force", "mass", "acceleration", "F = ma"]
+    },
+    {
+      "compression_level": 1,
+      "text": "Force equals mass times acceleration (F = ma).",
+      "probe_question": "What is the formula for Newton's second law?",
+      "expected_keywords": ["force", "mass", "acceleration"]
+    },
+    {
+      "compression_level": 2,
+      "text": "F = m × a",
+      "probe_question": "Write Newton's second law.",
+      "expected_keywords": ["F", "m", "a"]
+    },
+    {
+      "compression_level": 3,
+      "text": "force from mass and acceleration",
+      "probe_question": "Force is determined by...",
+      "expected_keywords": ["force", "mass", "acceleration"]
+    },
+    {
+      "compression_level": 4,
+      "text": "force relation",
+      "probe_question": "F = ma describes a...",
+      "expected_keywords": ["force"]
+    }
+  ]
+}

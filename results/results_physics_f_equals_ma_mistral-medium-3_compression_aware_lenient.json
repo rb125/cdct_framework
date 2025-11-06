@@ -1,0 +1,284 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "model": "mistral-medium-2505",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 2,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "force, acceleration",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "force",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 2,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 2,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 5,
+      "response_length": 23,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "described",
+        "equal",
+        "given",
+        "information",
+        "multiplied"
+      ],
+      "response": "The force on an object is equal to its mass multiplied by its acceleration. This is the relationship described by the given information.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "force",
+              "mass",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "described",
+              "equal",
+              "given",
+              "information",
+              "multiplied"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 23,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 23,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 15,
+      "response_length": 144,
+      "score": 0.75,
+      "verdict": "good",
+      "hallucinated": [
+        "analyzing",
+        "change",
+        "classical",
+        "directly",
+        "equal"
+      ],
+      "response": "Newton's second law of motion states that the net force (\\( \\mathbf{F} \\)) acting on an object is equal to the mass (\\( m \\)) of the object multiplied by its acceleration (\\( \\mathbf{a} \\)). Mathematically, this is expressed as a vector equation:\n\n\\[\n\\mathbf{F} = m \\mathbf{a}\n\\]\n\n### Explanation:\n1. **Net Force (\\( \\mathbf{F} \\))**: The vector sum of all external forces acting on the object.\n2. **Mass (\\( m \\))**: A scalar quantity representing the object's inertia (resistance to acceleration).\n3. **Acceleration (\\( \\mathbf{a} \\))**: The rate of change of velocity, a vector quantity with both magnitude and direction.\n\nThe equation shows that force and acceleration are directly proportional (for a given mass) and that the direction of acceleration is the same as the direction of the net force. This law is fundamental in classical mechanics for analyzing motion under forces.",
+      "detailed_eval": {
+        "final_score": 0.75,
+        "components": {
+          "strict": {
+            "score": 0.75,
+            "found": [
+              "net force",
+              "vector",
+              "mass"
+            ],
+            "missing": [
+              "F=ma"
+            ],
+            "hallucinated": [
+              "analyzing",
+              "change",
+              "classical",
+              "directly",
+              "equal"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.975,
+            "response_words": 144,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 144,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 32,
+      "response_length": 366,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "accelerate",
+        "accelerates",
+        "achieve",
+        "already",
+        "applied"
+      ],
+      "response": "Newton's second law, expressed as **F = ma**, has several key implications that are fundamental to understanding motion and forces in physics. Here\u2019s a clear breakdown of its implications:\n\n1. **Force Causes Acceleration, Not Velocity**:\n   - A net force applied to an object causes it to **accelerate** (change its velocity), not just move at a constant speed. If an object is already moving at a constant velocity, no net force is required (Newton\u2019s first law).\n\n2. **Direction Matters**:\n   - Since force (**F**) and acceleration (**a**) are vectors, they must point in the **same direction**. If a force is applied to the right, the object accelerates to the right.\n\n3. **Mass Resists Acceleration**:\n   - The **mass (m)** of an object determines how much it resists acceleration. A heavier object (larger mass) requires a **greater force** to achieve the same acceleration as a lighter object.\n   - Example: Pushing a car requires more force than pushing a bicycle to achieve the same acceleration.\n\n4. **Proportional Relationships**:\n   - If the **force increases**, the acceleration increases proportionally (assuming mass is constant).\n   - If the **mass increases**, the acceleration decreases for the same applied force.\n\n5. **Net Force Determines Motion**:\n   - The equation refers to the **net force** (sum of all forces acting on the object). If multiple forces act on an object, their vector sum determines the acceleration.\n   - Example: If two equal but opposite forces act on an object, the net force is zero, and there is no acceleration.\n\n6. **Units and Consistency**:\n   - In SI units, force is measured in **Newtons (N)**, mass in **kilograms (kg)**, and acceleration in **meters per second squared (m/s\u00b2)**.\n   - 1 N = 1 kg\u00b7m/s\u00b2, ensuring dimensional consistency.\n\n### Practical Example:\n- If you push a **10 kg** box with a **20 N** force, its acceleration is:\n  \\[\n  a = \\frac{F}{m} = \\frac{20\\, \\text{N}}{10\\, \\text{kg}} = 2\\, \\text{m/s}^2\n  \\]\n- If the mass doubles to **20 kg**, the same force produces only **1 m/s\u00b2** of acceleration.\n\n### Summary:\n**F = ma** explains how forces influence motion, emphasizing that acceleration depends on both the applied force and the object\u2019s mass. It is a cornerstone of classical mechanics, governing everything from falling objects to rocket propulsion.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "Newton",
+              "net force",
+              "vector",
+              "mass",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "accelerate",
+              "accelerates",
+              "achieve",
+              "already",
+              "applied"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.80625,
+            "response_words": 366,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 366,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 100,
+      "response_length": 474,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "accelerate",
+        "accelerates",
+        "accounting",
+        "accounts",
+        "achieve"
+      ],
+      "response": "Newton's second law of motion is a fundamental principle in classical mechanics that describes the relationship between the net force acting on an object, its mass, and its acceleration. The law is mathematically expressed as:\n\n\\[ \\mathbf{F}_{\\text{net}} = m \\mathbf{a} \\]\n\nwhere:\n- \\(\\mathbf{F}_{\\text{net}}\\) is the net (total) force acting on the object (a vector quantity, measured in newtons, N),\n- \\(m\\) is the mass of the object (a scalar quantity, measured in kilograms, kg),\n- \\(\\mathbf{a}\\) is the acceleration of the object (a vector quantity, measured in meters per second squared, m/s\u00b2).\n\n### Key Concepts and Insights:\n1. **Force and Acceleration Direction**:\n   Since force and acceleration are both vectors, they point in the same direction. The net force determines the direction of the object's acceleration.\n\n2. **Proportionality of Force and Acceleration**:\n   For a fixed mass, the acceleration of an object is directly proportional to the net force applied to it. If the net force doubles, the acceleration also doubles.\n\n3. **Inverse Proportionality of Mass and Acceleration**:\n   For a fixed net force, the acceleration is inversely proportional to the mass of the object. A larger mass requires more force to achieve the same acceleration, which explains why heavier objects are harder to move or stop (inertia).\n\n4. **Vector Nature of Forces**:\n   Forces are additive vectors, meaning the net force is the vector sum of all individual forces acting on the object. This includes considering both magnitude and direction.\n\n5. **Component Form**:\n   The law can be broken down into its Cartesian components:\n   \\[ F_x = m a_x, \\quad F_y = m a_y, \\quad F_z = m a_z \\]\n   This allows for analysis in multiple dimensions (e.g., projectile motion, circular motion).\n\n6. **Connection to Momentum**:\n   The law can also be expressed in terms of momentum (\\(\\mathbf{p} = m \\mathbf{v}\\)):\n   \\[ \\mathbf{F}_{\\text{net}} = \\frac{d\\mathbf{p}}{dt} \\]\n   This form is more general and accounts for situations where mass may change (e.g., rocket propulsion).\n\n### Applications and Implications:\n- **Dynamics and Engineering**: The law is the foundation for analyzing motion in physics and engineering, from designing vehicles to predicting the trajectories of spacecraft.\n- **Everyday Phenomena**: It explains why objects accelerate when pushed (e.g., a car speeding up), why heavier objects require more force to move, and how forces combine (e.g., friction opposing motion).\n- **Planetary Motion**: Combined with Newton's law of gravitation, it explains the orbits of planets and satellites.\n\n### Example:\nIf a 2 kg object experiences a net force of 10 N to the right, its acceleration is:\n\\[ a = \\frac{F_{\\text{net}}}{m} = \\frac{10 \\, \\text{N}}{2 \\, \\text{kg}} = 5 \\, \\text{m/s}^2 \\]\nThe object accelerates at 5 m/s\u00b2 in the direction of the force.\n\nIn summary, Newton's second law quantifies how forces influence motion, linking cause (force) to effect (acceleration) while accounting for the object's resistance to change (mass). It is a cornerstone of classical physics.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "Newton's second law",
+              "net force",
+              "vector",
+              "inertia",
+              "momentum",
+              "dynamics"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "accelerate",
+              "accelerates",
+              "accounting",
+              "accounts",
+              "achieve"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 474,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 474,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.06044561424986228,
+    "CSI_stderr": 0.15584154717455395,
+    "R_squared": 0.0477520352573912,
+    "C_h": 0.02,
+    "mean_score": 0.95,
+    "score_variance": 0.09999999999999999,
+    "min_score": 0.75,
+    "max_score": 1.0,
+    "decay_direction": "decay",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Low R\u00b2 (0.048). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

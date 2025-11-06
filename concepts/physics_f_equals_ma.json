@@ -1,0 +1,87 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "abstraction_level": 2,
+  "corpus": [
+    {
+      "compression_level": 0,
+      "text": "force-acceleration relation",
+      "probes": {
+        "recall": "F = ma expresses the relation between...",
+        "application": "To double acceleration with same mass, you must...",
+        "transfer": "In economics, 'force' of market pressure is like...",
+        "counterfactual": "If force weren't proportional to mass, what would happen?"
+      },
+      "expected_keywords": [
+        "force",
+        "acceleration"
+      ]
+    },
+    {
+      "compression_level": 1,
+      "text": "force equals mass times acceleration",
+      "probes": {
+        "recall": "State Newton's second law in words.",
+        "application": "A 2kg object with 3m/s² acceleration experiences...",
+        "transfer": "How does F=ma apply to rocket propulsion?",
+        "counterfactual": "If mass didn't matter for force, how would physics change?"
+      },
+      "expected_keywords": [
+        "force",
+        "mass",
+        "acceleration"
+      ]
+    },
+    {
+      "compression_level": 2,
+      "text": "F = ma: Net force on object equals its mass multiplied by acceleration. Vector equation.",
+      "probes": {
+        "recall": "Write Newton's second law mathematically.",
+        "application": "Calculate force needed to accelerate 5kg at 2m/s².",
+        "transfer": "How does this relate to momentum (p=mv)?",
+        "counterfactual": "What if force were proportional to velocity instead?"
+      },
+      "expected_keywords": [
+        "F=ma",
+        "net force",
+        "vector",
+        "mass"
+      ]
+    },
+    {
+      "compression_level": 3,
+      "text": "Newton's second law: Net force equals mass times acceleration (F=ma). Force and acceleration are vectors in same direction. Implies: heavier objects need more force for same acceleration; force causes acceleration, not velocity.",
+      "probes": {
+        "recall": "What are the key implications of F=ma?",
+        "application": "Why does a truck need more braking force than a car?",
+        "transfer": "Apply F=ma to circular motion with centripetal force.",
+        "counterfactual": "In a universe where F=ma², how would motion differ?"
+      },
+      "expected_keywords": [
+        "Newton",
+        "net force",
+        "vector",
+        "mass",
+        "acceleration"
+      ]
+    },
+    {
+      "compression_level": 4,
+      "text": "Newton's second law states that the net force acting on an object equals the product of its mass and acceleration: F_net = ma. This vector equation means force and acceleration point in the same direction. Key insights: (1) Acceleration is proportional to force for fixed mass, (2) Acceleration is inversely proportional to mass for fixed force, (3) Forces are additive vectors - net force is vector sum, (4) Explains inertia - massive objects resist acceleration. In component form: F_x=ma_x, F_y=ma_y, F_z=ma_z. Connects to momentum: F=dp/dt where p=mv. Foundation for dynamics, engineering, and explains everything from car crashes to planetary orbits.",
+      "probes": {
+        "recall": "Provide a complete explanation of Newton's second law.",
+        "application": "Analyze forces on a block sliding down an inclined plane.",
+        "transfer": "How does F=ma generalize in special relativity?",
+        "counterfactual": "If inertial mass differed from gravitational mass, what would break?"
+      },
+      "expected_keywords": [
+        "Newton's second law",
+        "net force",
+        "vector",
+        "inertia",
+        "momentum",
+        "dynamics"
+      ]
+    }
+  ]
+}

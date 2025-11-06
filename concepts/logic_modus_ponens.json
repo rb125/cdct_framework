@@ -1,0 +1,87 @@
+{
+  "concept": "modus_ponens",
+  "domain": "logic",
+  "abstraction_level": 3,
+  "corpus": [
+    {
+      "compression_level": 0,
+      "text": "affirming antecedent",
+      "probes": {
+        "recall": "Modus ponens is the rule of...",
+        "application": "If it rains, streets are wet. It's raining. Therefore...",
+        "transfer": "How do computer programs use if-then logic?",
+        "counterfactual": "Without modus ponens, could we make logical deductions?"
+      },
+      "expected_keywords": [
+        "affirming",
+        "antecedent"
+      ]
+    },
+    {
+      "compression_level": 1,
+      "text": "if P then Q; P; therefore Q",
+      "probes": {
+        "recall": "State the modus ponens inference pattern.",
+        "application": "Given 'If you study, you pass' and 'You studied', conclude...",
+        "transfer": "How is modus ponens used in mathematical proofs?",
+        "counterfactual": "What if we affirmed Q instead of P?"
+      },
+      "expected_keywords": [
+        "if",
+        "then",
+        "therefore"
+      ]
+    },
+    {
+      "compression_level": 2,
+      "text": "Modus ponens: From 'P implies Q' and 'P is true', deduce 'Q is true'. Valid inference rule.",
+      "probes": {
+        "recall": "Explain modus ponens formally.",
+        "application": "Validate: 'All birds fly. Robins are birds. So robins fly.'",
+        "transfer": "How does modus ponens relate to causation?",
+        "counterfactual": "Is the reverse (Q true, therefore P true) valid?"
+      },
+      "expected_keywords": [
+        "implies",
+        "deduce",
+        "valid",
+        "inference"
+      ]
+    },
+    {
+      "compression_level": 3,
+      "text": "Modus ponens is a valid argument form: Given conditional 'If P then Q' and affirmation of antecedent 'P', conclude consequent 'Q'. Symbolically: ((P→Q) ∧ P) ⊢ Q. Fundamental to deductive reasoning, cannot lead from true premises to false conclusion.",
+      "probes": {
+        "recall": "What makes modus ponens a valid deductive argument?",
+        "application": "Check validity: 'If it's a mammal, it's warm-blooded. It's a dog. Therefore...'",
+        "transfer": "How do expert systems use modus ponens for inference?",
+        "counterfactual": "In paraconsistent logic, does modus ponens always hold?"
+      },
+      "expected_keywords": [
+        "conditional",
+        "antecedent",
+        "consequent",
+        "valid",
+        "deductive"
+      ]
+    },
+    {
+      "compression_level": 4,
+      "text": "Modus ponens (Latin: 'method of affirming') is a fundamental rule of inference in propositional logic. Form: From premises (1) P→Q (conditional/implication) and (2) P (antecedent), validly conclude Q (consequent). Symbolic notation: ((P→Q) ∧ P) ⊢ Q or {P→Q, P} ⊢ Q. Truth-preserving: if premises true, conclusion must be true. Natural deduction: elimination rule for implication. Distinction from fallacies: (a) Affirming consequent: ((P→Q) ∧ Q) ⊢ P is INVALID, (b) Denying antecedent: ((P→Q) ∧ ¬P) ⊢ ¬Q is INVALID. Related valid form: modus tollens ((P→Q) ∧ ¬Q) ⊢ ¬P. Applications: mathematical proofs, automated theorem proving, expert systems, legal reasoning. In AI: forward chaining in rule-based systems. Philosophical significance: embodies core of deductive reasoning, Kant called it 'analytic'. Limitations: assumes classical logic, in quantum logic may not hold. Historical: known to Stoics, formalized by medieval scholastics, central to modern symbolic logic.",
+      "probes": {
+        "recall": "Provide a complete explanation of modus ponens.",
+        "application": "Construct a complex argument using modus ponens multiple times.",
+        "transfer": "How does modus ponens work in fuzzy logic with partial truths?",
+        "counterfactual": "In a three-valued logic (true/false/unknown), how would modus ponens change?"
+      },
+      "expected_keywords": [
+        "rule of inference",
+        "conditional",
+        "antecedent",
+        "consequent",
+        "truth-preserving",
+        "deductive reasoning"
+      ]
+    }
+  ]
+}

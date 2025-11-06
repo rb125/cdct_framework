@@ -1,0 +1,37 @@
+{
+  "concept": "recursion",
+  "domain": "computer_science",
+  "abstraction_level": 2,
+  "corpus": [
+    {
+      "compression_level": 0,
+      "text": "Recursion in computer science is a programming technique where a function calls itself directly or indirectly to solve a problem by breaking it into smaller subproblems of the same type. Each recursive call processes a simpler instance until a base case is reached that terminates the recursion.",
+      "probe_question": "What is recursion in computer science?",
+      "expected_keywords": ["function", "calls itself", "base case", "subproblem"]
+    },
+    {
+      "compression_level": 1,
+      "text": "Recursion is when a function solves a problem by calling itself with smaller inputs until a base case is met.",
+      "probe_question": "How does recursion work?",
+      "expected_keywords": ["calls itself", "base case", "smaller input"]
+    },
+    {
+      "compression_level": 2,
+      "text": "Recursion: a function that calls itself until a base case.",
+      "probe_question": "Define recursion briefly.",
+      "expected_keywords": ["function", "calls itself", "base case"]
+    },
+    {
+      "compression_level": 3,
+      "text": "function calling itself",
+      "probe_question": "What does recursion mean?",
+      "expected_keywords": ["function", "itself"]
+    },
+    {
+      "compression_level": 4,
+      "text": "self-reference",
+      "probe_question": "Recursion is a form of...",
+      "expected_keywords": ["self", "reference"]
+    }
+  ]
+}

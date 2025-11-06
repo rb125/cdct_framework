@@ -1,0 +1,287 @@
+{
+  "concept": "harm_principle",
+  "domain": "ethics",
+  "model": "DeepSeek-V3-0324",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 3,
+      "response_length": 3,
+      "score": 0.5,
+      "verdict": "fair",
+      "hallucinated": [],
+      "response": "actions harm others.",
+      "detailed_eval": {
+        "final_score": 0.5,
+        "components": {
+          "strict": {
+            "score": 0.5,
+            "found": [
+              "harm"
+            ],
+            "missing": [
+              "liberty"
+            ],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 3,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 3,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 8,
+      "response_length": 21,
+      "score": 0.6666666666666666,
+      "verdict": "fair",
+      "hallucinated": [
+        "based",
+        "freedom",
+        "information",
+        "justified",
+        "provided"
+      ],
+      "response": "Individual freedom can be limited only to prevent harm to others. No other restrictions are justified based on the provided information.",
+      "detailed_eval": {
+        "final_score": 0.6666666666666666,
+        "components": {
+          "strict": {
+            "score": 0.6666666666666666,
+            "found": [
+              "harm",
+              "others"
+            ],
+            "missing": [
+              "restrict"
+            ],
+            "hallucinated": [
+              "based",
+              "freedom",
+              "information",
+              "justified",
+              "provided"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 21,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 21,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 15,
+      "response_length": 239,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "about",
+        "allow",
+        "apply",
+        "argues",
+        "autonomy"
+      ],
+      "response": "Based on Mill's principle, paternalistic laws\u2014those that restrict an individual's liberty for their own good, rather than to prevent harm to others\u2014are generally unjustified. Mill argues that individuals should have the freedom to make their own decisions about their lives, even if those decisions might be harmful or unwise, as long as they do not harm others. \n\n### Key Points:\n1. **Harm Principle**: Mill's core idea is that the only justification for limiting someone's liberty is to prevent harm to others. Paternalistic laws violate this principle because they interfere with personal choices solely for the individual's own benefit.\n   \n2. **Individual Autonomy**: Mill strongly values personal autonomy and self-determination. He believes people should be free to make their own mistakes and learn from them, as long as they do not infringe on the rights of others.\n\n3. **Exceptions**: While Mill is generally opposed to paternalism, he does allow for some exceptions, such as restrictions on children or individuals who are not capable of rational decision-making (e.g., those with severe cognitive impairments). \n\n4. **Critique of Paternalism**: Mill warns that paternalistic laws can lead to overreach by the state, stifling individuality and personal growth. He argues that individuals are generally the best judges of their own interests.\n\nIn summary, Mill rejects paternalistic laws unless they apply to individuals who lack the capacity to make informed decisions. His philosophy prioritizes liberty and opposes state interference in personal choices that affect only the individual.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "Mill",
+              "liberty",
+              "harm others",
+              "own good"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "about",
+              "allow",
+              "apply",
+              "argues",
+              "autonomy"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.7111111111111111,
+            "response_words": 239,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 239,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 36,
+      "response_length": 174,
+      "score": 0.8,
+      "verdict": "good",
+      "hallucinated": [
+        "according",
+        "action",
+        "aspect",
+        "autonomy",
+        "being"
+      ],
+      "response": "According to John Stuart Mill's harm principle, the only types of harm that justify restricting an individual's liberty are those that involve **harm to others**. \n\n### Key Points:\n1. **Harm to Others**: Restrictions on liberty are legitimate if an action causes direct, tangible harm to other individuals or society. Examples include physical violence, theft, fraud, or actions that infringe on others' rights or well-being.  \n\n2. **Self-Regarding Actions**: Actions that only affect the individual (self-harm) or merely cause offense to others do **not** justify interference. For instance, personal choices like risky hobbies, unconventional lifestyles, or unpopular opinions are protected from coercion, even if others disapprove.  \n\n3. **Distinction from Offense**: Mere offense, disgust, or moral disapproval does not count as \"harm\" under Mill's framework. Only concrete, demonstrable damage to others' interests warrants intervention.  \n\n### Foundational Liberal Idea:  \nThe harm principle is central to classical liberalism, emphasizing individual autonomy and limiting state or societal overreach into private conduct. It prioritizes freedom unless clear harm to others is at stake.  \n\nWould you like further clarification on any aspect?",
+      "detailed_eval": {
+        "final_score": 0.8,
+        "components": {
+          "strict": {
+            "score": 0.8,
+            "found": [
+              "Mill",
+              "harm to others",
+              "self-regarding",
+              "liberalism"
+            ],
+            "missing": [
+              "restrict"
+            ],
+            "hallucinated": [
+              "according",
+              "action",
+              "aspect",
+              "autonomy",
+              "being"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 174,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 174,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 137,
+      "response_length": 333,
+      "score": 0.8333333333333334,
+      "verdict": "good",
+      "hallucinated": [
+        "action",
+        "among",
+        "articulated",
+        "assault",
+        "authority"
+      ],
+      "response": "John Stuart Mill's **harm principle**, articulated in his 1859 work *On Liberty*, is a foundational concept in liberal political philosophy. It establishes the limits of societal or governmental authority over individual actions, prioritizing personal liberty while recognizing the need to prevent harm to others. Below is a comprehensive breakdown:\n\n### **Core Tenets of the Harm Principle**  \n1. **Self-Regarding Actions**:  \n   - Actions that **only affect the individual** (e.g., self-harm, drug use, risky hobbies) should **never be restricted**, even if they are foolish or harmful to the person.  \n   - Rationale: Competent adults are the best judges of their own well-being; paternalistic interference undermines autonomy.  \n\n2. **Other-Regarding Actions**:  \n   - Society may intervene **only** to prevent actions that cause **direct harm to others** (e.g., assault, theft, fraud).  \n   - Restrictions must be justified by tangible harm, not mere disapproval.  \n\n3. **Harm vs. Offense**:  \n   - **Harm** involves measurable damage (physical, economic, or severe psychological injury).  \n   - Mere **offense, disgust, or moral objections** (e.g., blasphemy, unconventional lifestyles) do not justify intervention.  \n\n4. **Competence and Autonomy**:  \n   - Applies only to **rational adults**; children and mentally incapacitated individuals may be protected paternalistically.  \n\n### **Implications**  \n- **Opposes Paternalism**: Rejects laws mandating \"self-protection\" (e.g., seatbelt laws, drug prohibitions).  \n- **Free Speech**: Protects offensive or unpopular speech unless it incites violence (\"clear and present danger\").  \n- **Consensual Acts**: Permits any behavior among consenting adults (e.g., prostitution, polyamory) if no third parties are harmed.  \n\n### **Challenges & Criticisms**  \n- **Defining Harm**: Is psychological distress harm? Do economic externalities (e.g., smoking burdening healthcare) count?  \n- **Indirect Effects**: Can any action truly be \"self-regarding\" in an interconnected society?  \n- **Communitarian Critique**: Critics argue it ignores the social nature of humans, prioritizing individualism over collective good.  \n\n### **Legacy**  \n- Influenced **First Amendment** protections in the U.S. and debates on \"victimless crimes.\"  \n- Remains central to discussions on **civil liberties, drug legalization, and censorship**.  \n\nIn essence, the harm principle seeks to **maximize individual freedom** while setting a minimal threshold for societal intervention: **your liberty ends where harm to others begins**.",
+      "detailed_eval": {
+        "final_score": 0.8333333333333334,
+        "components": {
+          "strict": {
+            "score": 0.8333333333333334,
+            "found": [
+              "John Stuart Mill",
+              "On Liberty",
+              "self-regarding",
+              "other-regarding",
+              "paternalism"
+            ],
+            "missing": [
+              "liberal philosophy"
+            ],
+            "hallucinated": [
+              "action",
+              "among",
+              "articulated",
+              "assault",
+              "authority"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 333,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 333,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.14930080046291838,
+    "CSI_stderr": 0.2518129244995737,
+    "R_squared": 0.10488768845986876,
+    "C_h": 0.10948905109489052,
+    "mean_score": 0.76,
+    "score_variance": 0.16786237749352229,
+    "min_score": 0.5,
+    "max_score": 1.0,
+    "decay_direction": "decay",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Low R\u00b2 (0.105). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

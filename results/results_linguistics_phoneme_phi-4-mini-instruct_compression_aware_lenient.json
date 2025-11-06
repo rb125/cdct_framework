@@ -1,0 +1,283 @@
+{
+  "concept": "phoneme",
+  "domain": "linguistics",
+  "model": "Phi-4-mini-instruct",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 2,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "meaning-distinguishing sound",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "meaning",
+              "sound"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 2,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 2,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 5,
+      "response_length": 18,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "because",
+        "special",
+        "units"
+      ],
+      "response": "Phonemes are special because they are the smallest sound units that can change the meaning of a word.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "smallest",
+              "sound",
+              "meaning"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "because",
+              "special",
+              "units"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 18,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 18,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 15,
+      "response_length": 96,
+      "score": 0.25,
+      "verdict": "memorized",
+      "hallucinated": [
+        "alter",
+        "articulation",
+        "being",
+        "bilabial",
+        "contains"
+      ],
+      "response": "A phoneme is the smallest unit of sound in a language that can change the meaning of a word. For instance, the phonemes /b/ and /p/ are distinct sounds that can alter the meaning of a word when substituted for one another. The word 'bat' contains the phoneme /b/, while 'pat' contains the phoneme /p/. These two phonemes are different in their place of articulation, with /b/ being a voiced bilabial stop and /p/ being a voiceless bilabial stop. The difference in voicing between these two phonemes is what distinguishes the meanings of 'bat' and 'pat'.",
+      "detailed_eval": {
+        "final_score": 0.25,
+        "components": {
+          "strict": {
+            "score": 0.25,
+            "found": [
+              "meaning"
+            ],
+            "missing": [
+              "minimal",
+              "sound unit",
+              "distinguish"
+            ],
+            "hallucinated": [
+              "alter",
+              "articulation",
+              "being",
+              "bilabial",
+              "contains"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 96,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "memorized",
+        "response_length": 96,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 44,
+      "response_length": 156,
+      "score": 0.4,
+      "verdict": "memorized",
+      "hallucinated": [
+        "actual",
+        "audible",
+        "categorize",
+        "mentally",
+        "phone"
+      ],
+      "response": "Phones and phonemes are both related to the sounds of language, but they refer to different concepts. Phones are the actual physical sounds that are produced when speaking. They are the audible, tangible sounds that we hear when someone speaks. For example, the sound you hear when someone says the word \"cat\" is a phone.\n\nPhonemes, on the other hand, are the mental categories of these sounds. They are the abstract units that distinguish meaning between words in a language. Phonemes are not the actual sounds themselves, but rather the way we mentally categorize and distinguish between different sounds. For example, the sounds /k/ and /g/ are different phonemes in English because they can change the meaning of a word, as in \"cat\" (/k\u00e6t/) and \"gat\" (/g\u00e6t/).\n\nIn summary, phones are the actual sounds we hear, while phonemes are the mental categories we use to distinguish between those sounds and understand their meaning in a language.",
+      "detailed_eval": {
+        "final_score": 0.4,
+        "components": {
+          "strict": {
+            "score": 0.4,
+            "found": [
+              "distinguish meaning",
+              "mental categories"
+            ],
+            "missing": [
+              "smallest unit",
+              "language-specific",
+              "inventory"
+            ],
+            "hallucinated": [
+              "actual",
+              "audible",
+              "categorize",
+              "mentally",
+              "phone"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 156,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "memorized",
+        "response_length": 156,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 143,
+      "response_length": 387,
+      "score": 0.6666666666666666,
+      "verdict": "fair",
+      "hallucinated": [
+        "ability",
+        "about",
+        "actual",
+        "allophone",
+        "alter"
+      ],
+      "response": "Phonemes are the fundamental building blocks of language, representing the smallest units of sound that can distinguish meaning between words. They are abstract mental representations, not directly observable, but they are crucial for understanding how language works. Phonemes are different from phones, which are the actual physical sounds we hear and produce. For instance, the phoneme /p/ can be realized as [p] in 'pat' or as [b] in 'bat', but both are considered the same phoneme in English because they do not change the meaning of the words.\n\nAllophones are variations of a single phoneme that do not alter the word's meaning. For example, the aspirated [p\u02b0] in 'pin' and the unaspirated [p] in 'spin' are allophones of the phoneme /p/ in English. These variations are governed by phonological rules and are context-dependent, meaning they are not interchangeable in all positions within words.\n\nMinimal pairs are pairs of words that differ by only one phoneme, such as 'bit' /b\u026at/ and 'pit' /p\u026at/. The presence of a single phonemic difference between these words demonstrates the phonemic status of the sounds in question, as changing the phoneme results in a change of meaning.\n\nPhoneme inventories, or the set of phonemes used in a particular language, can vary widely. English, for example, has around 44 phonemes, while the Khoisan language !X\u00f3\u00f5 has about 160. A sound that is phonemic in one language may be an allophone in another, highlighting the language-specific nature of phonemes.\n\nPhonological rules describe how allophones are distributed and how they relate to their underlying phonemes. These rules are part of the larger system of phonology, which studies the patterns and structures of sounds in languages.\n\nInfants are born with the ability to distinguish all phonemes, but as they grow, they specialize in the phonemes of their native language. By around 12 months, infants typically lose the ability to distinguish phonemes that are not part of their native language's phonemic inventory.\n\nPhonological processing deficits, such as those seen in dyslexia, can affect an individual's ability to read and process phonemes, which can have a significant impact on their literacy development.\n\nOver time, languages can undergo phonological changes, with phonemes merging, splitting, or shifting. These changes can be gradual and may eventually lead to significant differences in the phonemic structure of a language compared to its historical form.",
+      "detailed_eval": {
+        "final_score": 0.6666666666666666,
+        "components": {
+          "strict": {
+            "score": 0.6666666666666666,
+            "found": [
+              "allophones",
+              "minimal pairs",
+              "language-specific",
+              "phonological"
+            ],
+            "missing": [
+              "contrastive unit",
+              "mental representation"
+            ],
+            "hallucinated": [
+              "ability",
+              "about",
+              "actual",
+              "allophone",
+              "alter"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 387,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 387,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.1538054684428077,
+    "CSI_stderr": 0.4701310588039588,
+    "R_squared": 0.03444769880315578,
+    "C_h": 0.013986013986013986,
+    "mean_score": 0.6633333333333333,
+    "score_variance": 0.30557777696975574,
+    "min_score": 0.25,
+    "max_score": 1.0,
+    "decay_direction": "improvement",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Performance improves significantly with compression. Model may be ignoring compression constraints or evaluation is too lenient.",
+      "WARNING: Low R\u00b2 (0.034). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

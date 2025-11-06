@@ -1,0 +1,284 @@
+{
+  "concept": "phoneme",
+  "domain": "linguistics",
+  "model": "DeepSeek-V3-0324",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 4,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "smallest meaning-distinguishing sound unit.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "meaning",
+              "sound"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 4,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 4,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 5,
+      "response_length": 24,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "because",
+        "different",
+        "special",
+        "units"
+      ],
+      "response": "Phonemes are special because they are the smallest sound units that can change the meaning of words. They distinguish different words in a language.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "smallest",
+              "sound",
+              "meaning"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "because",
+              "different",
+              "special",
+              "units"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 24,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 24,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 15,
+      "response_length": 140,
+      "score": 0.5,
+      "verdict": "fair",
+      "hallucinated": [
+        "across",
+        "because",
+        "changing",
+        "consonant",
+        "difference"
+      ],
+      "response": "A **phoneme** is the smallest unit of sound in a language that can distinguish meaning between words. It is not a physical sound itself but an abstract representation of sounds that are perceived as functionally equivalent in a language. Changing a phoneme in a word can result in a word with a different meaning.  \n\n**Example:**  \nIn English, the sounds /b/ and /p/ are separate phonemes because they differentiate words like:  \n- **bat** (/b\u00e6t/)  \n- **pat** (/p\u00e6t/)  \n\nHere, the only difference is the initial consonant (/b/ vs. /p/), which changes the meaning entirely. Thus, /b/ and /p/ are distinct phonemes in English.  \n\nOther examples include:  \n- /k/ vs. /g/ in \"cot\" (/k\u0252t/) vs. \"got\" (/g\u0252t/)  \n- /s/ vs. /z/ in \"sip\" (/s\u026ap/) vs. \"zip\" (/z\u026ap/)  \n\nPhonemes vary across languages\u2014what may be distinct phonemes in one language might not be in another.",
+      "detailed_eval": {
+        "final_score": 0.5,
+        "components": {
+          "strict": {
+            "score": 0.5,
+            "found": [
+              "distinguish",
+              "meaning"
+            ],
+            "missing": [
+              "minimal",
+              "sound unit"
+            ],
+            "hallucinated": [
+              "across",
+              "because",
+              "changing",
+              "consonant",
+              "difference"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.9861111111111112,
+            "response_words": 140,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 140,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 44,
+      "response_length": 229,
+      "score": 0.4,
+      "verdict": "memorized",
+      "hallucinated": [
+        "about",
+        "actual",
+        "allow",
+        "approximant",
+        "around"
+      ],
+      "response": "The difference between **phones** and **phonemes** lies in their role in language:  \n\n1. **Phonemes** are abstract, mental categories of sounds that distinguish meaning in a language. They are not the actual sounds themselves but the cognitive representations that allow speakers to recognize contrasts between words. For example:  \n   - In English, /p/ and /b/ are separate phonemes because they differentiate words like *pat* and *bat*.  \n   - The exact number of phonemes varies by language (e.g., English has around 44, while Hawaiian has about 13).  \n\n2. **Phones** are the actual physical sounds produced in speech, regardless of their role in meaning. They include all possible variations (allophones) of a phoneme. For example:  \n   - The English phoneme /t/ can be realized as different phones: an aspirated [t\u02b0] in *top*, an unaspirated [t] in *stop*, or a flap [\u027e] in *water* (in some dialects). These variations don\u2019t change word meanings in English but are perceptible as slight differences in pronunciation.  \n\n**Key distinction**:  \n- Phonemes are **meaningful** (change word meanings if swapped).  \n- Phones are **concrete** (observable sounds, including non-contrastive variants).  \n\nFor example, in Spanish, [b] and [\u03b2] (a softer, approximant sound) are phones of the same phoneme /b/, as they don\u2019t distinguish words. In English, however, [b] and [p] are separate phonemes because swapping them creates different words (*bat* vs. *pat*).  \n\nIn short: **Phonemes are in the mind; phones are in the mouth.**",
+      "detailed_eval": {
+        "final_score": 0.4,
+        "components": {
+          "strict": {
+            "score": 0.4,
+            "found": [
+              "distinguish meaning",
+              "mental categories"
+            ],
+            "missing": [
+              "smallest unit",
+              "language-specific",
+              "inventory"
+            ],
+            "hallucinated": [
+              "about",
+              "actual",
+              "allow",
+              "approximant",
+              "around"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.9489583333333333,
+            "response_words": 229,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "memorized",
+        "response_length": 229,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 143,
+      "response_length": 610,
+      "score": 0.8333333333333334,
+      "verdict": "good",
+      "hallucinated": [
+        "about",
+        "acquire",
+        "across",
+        "actual",
+        "allophone"
+      ],
+      "response": "Certainly! Below is a comprehensive explanation of **phonemes** and related concepts, based on the provided information:\n\n### **1. Phonemes: The Abstract Sound Units**\nA **phoneme** is the smallest contrastive unit in a language's sound system that can distinguish meaning between words. Phonemes are **abstract mental representations** of sounds, not the actual physical sounds themselves.  \n- **Notation:** Phonemes are written between slashes (e.g., /p/, /t/).  \n- **Example:** In English, /p/ and /b/ are separate phonemes because they distinguish words like **\"pat\" (/p\u00e6t/)** and **\"bat\" (/b\u00e6t/)**.  \n\n### **2. Phones: The Physical Sounds**\nA **phone** is the actual physical realization of a sound in speech. Unlike phonemes, phones are concrete and can vary in pronunciation.  \n- **Notation:** Phones are written in square brackets (e.g., [p], [p\u02b0]).  \n- **Example:** The English /p/ phoneme can be realized as:  \n  - **Aspirated [p\u02b0]** (as in \"**pin**\" [p\u02b0\u026an])  \n  - **Unaspirated [p]** (as in \"**spin**\" [sp\u026an])  \n\n### **3. Allophones: Predictable Variations of a Phoneme**\n**Allophones** are different pronunciations of the **same phoneme** that do not change word meaning. Their occurrence is usually governed by **phonological rules** (e.g., aspiration in English).  \n- **Example:**  \n  - The /t/ phoneme in English has multiple allophones:  \n    - **Aspirated [t\u02b0]** (\"top\" [t\u02b0\u0252p])  \n    - **Flapped [\u027e]** (\"butter\" [\u02c8b\u028c\u027e\u025a] in American English)  \n    - **Glottal stop [\u0294]** (\"button\" [\u02c8b\u028c\u0294n\u0329])  \n- **Distribution:** Allophones are in **complementary distribution** (they appear in different environments without overlapping).  \n\n### **4. Minimal Pairs: Proving Phonemic Contrast**\nA **minimal pair** consists of two words that differ by **one phoneme**, proving that the differing sounds are separate phonemes.  \n- **Example:**  \n  - **/s\u026ap/ (sip)** vs. **/z\u026ap/ (zip)** \u2192 /s/ and /z/ are distinct phonemes in English.  \n  - **/b\u026at/ (bit)** vs. **/p\u026at/ (pit)** \u2192 /b/ and /p/ are distinct phonemes.  \n\n### **5. Language-Specific Nature of Phonemes**\n- **Phoneme inventories vary** across languages.  \n  - English has about **44 phonemes**, while !X\u00f3\u00f5 (a Khoisan language) has around **160**.  \n- **What is phonemic in one language may be allophonic in another.**  \n  - Example:  \n    - In English, [p] and [p\u02b0] are allophones of /p/.  \n    - In Hindi, [p] and [p\u02b0] are separate phonemes (e.g., **\u092a\u0932 [p\u0259l] (moment)** vs. **\u092b\u0932 [p\u02b0\u0259l] (fruit)**).  \n\n### **6. Phonological Rules: Governing Allophonic Variation**\nThese rules describe how phonemes are realized as different phones in different contexts.  \n- **Example:**  \n  - **Aspiration Rule in English:** Voiceless stops (/p, t, k/) are aspirated at the start of a stressed syllable (e.g., \"**pin**\" [p\u02b0\u026an] vs. \"**spin**\" [sp\u026an]).  \n\n### **7. Phoneme Acquisition in Infants**\n- **Newborns** can distinguish all possible phonemes across languages.  \n- By **12 months**, they specialize in their native language\u2019s phonemic system, losing sensitivity to non-native contrasts.  \n\n### **8. Phonological Disorders & Reading**\n- **Phonological processing deficits** (e.g., difficulty distinguishing phonemes) are linked to **dyslexia** and speech disorders.  \n\n### **9. Historical Phoneme Change**\nPhonemes evolve over time through:  \n- **Mergers** (two phonemes become one, e.g., \"cot\" and \"caught\" merging in some dialects).  \n- **Splits** (one phoneme divides into two, e.g., /f/ and /v/ in Old English).  \n- **Shifts** (systematic sound changes, e.g., the Great Vowel Shift in English).  \n\n### **Summary Table**\n| Concept | Definition | Example |\n|---------|------------|---------|\n| **Phoneme** | Abstract sound unit that distinguishes meaning | /p/ vs. /b/ in \"pat\" vs. \"bat\" |\n| **Phone** | Physical sound realization | [p\u02b0], [p] |\n| **Allophone** | Predictable variant of a phoneme | [p\u02b0] and [p] for /p/ |\n| **Minimal Pair** | Words differing by one phoneme | \"bit\" vs. \"pit\" |\n| **Phonological Rule** | Governs allophonic variation | Aspiration of /p/ at syllable onset |\n\nThis framework helps linguists analyze how sounds function in different languages, how children acquire them, and how they change historically. Would you like further clarification on any part?",
+      "detailed_eval": {
+        "final_score": 0.8333333333333334,
+        "components": {
+          "strict": {
+            "score": 0.8333333333333334,
+            "found": [
+              "contrastive unit",
+              "allophones",
+              "minimal pairs",
+              "language-specific",
+              "phonological"
+            ],
+            "missing": [
+              "mental representation"
+            ],
+            "hallucinated": [
+              "about",
+              "acquire",
+              "across",
+              "actual",
+              "allophone"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 610,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 610,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.04923420701825048,
+    "CSI_stderr": 0.39313845464522873,
+    "R_squared": 0.005200643489898462,
+    "C_h": 0.013986013986013986,
+    "mean_score": 0.7466666666666667,
+    "score_variance": 0.25174943451332277,
+    "min_score": 0.4,
+    "max_score": 1.0,
+    "decay_direction": "decay",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Low R\u00b2 (0.005). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

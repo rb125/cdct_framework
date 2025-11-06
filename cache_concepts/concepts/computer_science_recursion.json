@@ -1,0 +1,75 @@
+{
+  "concept": "recursion",
+  "domain": "computer_science",
+  "abstraction_level": 4,
+  "corpus": [
+    {
+      "compression_level": 0,
+      "text": "self-calling function",
+      "probe_question": "What is recursion?",
+      "expected_keywords": [
+        "self-calling",
+        "function",
+        "javascript"
+      ]
+    },
+    {
+      "compression_level": 1,
+      "text": "self-calling function with base case",
+      "probe_question": "Describe recursion briefly",
+      "expected_keywords": [
+        "self-calling",
+        "function",
+        "base case",
+        "recursion"
+      ]
+    },
+    {
+      "compression_level": 2,
+      "text": "Recursion is a self-calling function with a base case, allowing problems to be solved by breaking them into smaller, similar tasks until reaching a simple solution.",
+      "probe_question": "Explain recursion",
+      "expected_keywords": [
+        "recursion",
+        "self-calling function",
+        "base case",
+        "problem solving",
+        "smaller tasks",
+        "simple solution"
+      ]
+    },
+    {
+      "compression_level": 3,
+      "text": "Recursion in computer science involves a function calling itself to solve a problem, with each call working on a smaller instance until a base case is reached, preventing infinite loops. For example, calculating factorials or traversing tree data structures uses recursion. Key terms include recursive calls, base case, and stack overflow, which occurs if the base case is missing or improperly defined, leading to excessive memory use.",
+      "probe_question": "Provide a detailed explanation of recursion",
+      "expected_keywords": [
+        "recursion",
+        "function",
+        "base case",
+        "recursive calls",
+        "stack overflow",
+        "factorials",
+        "tree traversal",
+        "memory use"
+      ]
+    },
+    {
+      "compression_level": 4,
+      "text": "Recursion, in computer science, is a method of solving problems where a function calls itself directly or indirectly to break down complex tasks into simpler subproblems. The key principles of recursion include the base case, which terminates the recursive process, and the recursive case, which reduces the problem\u2019s complexity with each call. Properly defined base cases prevent infinite loops and stack overflows. Recursion leverages the call stack to manage function calls and intermediate states. It is particularly effective for problems exhibiting self-similarity, such as tree traversals, factorial computation, and the Fibonacci sequence. Recursion simplifies code for algorithms like quicksort, mergesort, and depth-first search in graphs. However, excessive recursion may lead to performance issues due to stack limitations. Understanding recursion is fundamental for algorithm design, enabling elegant solutions to problems that are naturally recursive in structure.",
+      "probe_question": "Provide a comprehensive explanation of recursion",
+      "expected_keywords": [
+        "recursion",
+        "base case",
+        "recursive case",
+        "call stack",
+        "subproblems",
+        "self-similarity",
+        "tree traversal",
+        "factorial",
+        "fibonacci sequence",
+        "quicksort",
+        "mergesort",
+        "depth-first search"
+      ]
+    }
+  ]
+}

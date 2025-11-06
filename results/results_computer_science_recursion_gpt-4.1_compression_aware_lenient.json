@@ -1,0 +1,285 @@
+{
+  "concept": "recursion",
+  "domain": "computer_science",
+  "model": "gpt-4.1",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 2,
+      "score": 0.0,
+      "verdict": "poor",
+      "hallucinated": [
+        "itself"
+      ],
+      "response": "calls itself",
+      "detailed_eval": {
+        "final_score": 0.0,
+        "components": {
+          "strict": {
+            "score": 0.0,
+            "found": [],
+            "missing": [
+              "self",
+              "calling"
+            ],
+            "hallucinated": [
+              "itself"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 2,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "poor",
+        "response_length": 2,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 6,
+      "response_length": 21,
+      "score": 0.5,
+      "verdict": "fair",
+      "hallucinated": [
+        "calling",
+        "parts",
+        "stops"
+      ],
+      "response": "The two essential parts of recursion are the function calling itself and the base case. The base case stops the recursion.",
+      "detailed_eval": {
+        "final_score": 0.5,
+        "components": {
+          "strict": {
+            "score": 0.5,
+            "found": [
+              "base case"
+            ],
+            "missing": [
+              "calls itself"
+            ],
+            "hallucinated": [
+              "calling",
+              "parts",
+              "stops"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 21,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 21,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 14,
+      "response_length": 98,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "breaks",
+        "combined",
+        "condition",
+        "directly",
+        "divides"
+      ],
+      "response": "A recursive solution is structured with two main components:\n\n1. **Base Case:** This is the condition under which the problem is simple enough to be solved directly, without further recursion. It prevents infinite recursion by providing an explicit stopping point.\n\n2. **Recursive Case:** This part breaks the original problem into smaller, similar subproblems and calls the same function to solve them. The results of these subproblems are then combined to solve the overall problem.\n\nIn summary, a recursive solution repeatedly divides a problem into smaller instances, solves them recursively, and uses a base case to terminate the process.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "subproblems",
+              "base case",
+              "recursive case",
+              "smaller"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "breaks",
+              "combined",
+              "condition",
+              "directly",
+              "divides"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 98,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 98,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 33,
+      "response_length": 137,
+      "score": 0.6,
+      "verdict": "fair",
+      "hallucinated": [
+        "about",
+        "accumulate",
+        "after",
+        "allowing",
+        "completes"
+      ],
+      "response": "Recursive calls are managed in memory using a structure called the call stack. Each time a function calls itself recursively, a new stack frame is created to store information about that specific call, such as its parameters, local variables, and the point to return to after completion. As recursion progresses, these stack frames accumulate, with each new call placed on top of the previous one. When a base case is reached, the recursion stops, and the stack frames are removed one by one as each function call completes and returns its result. This process ensures that each recursive call has its own separate context, allowing the program to keep track of where it is in the computation. If recursion goes too deep without reaching a base case, the stack can overflow, leading to a stack overflow error.",
+      "detailed_eval": {
+        "final_score": 0.6,
+        "components": {
+          "strict": {
+            "score": 0.6,
+            "found": [
+              "base case",
+              "stack",
+              "parameters"
+            ],
+            "missing": [
+              "call themselves",
+              "recursive case"
+            ],
+            "hallucinated": [
+              "about",
+              "accumulate",
+              "after",
+              "allowing",
+              "completes"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 137,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 137,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 110,
+      "response_length": 467,
+      "score": 0.8333333333333334,
+      "verdict": "good",
+      "hallucinated": [
+        "algorithms",
+        "approach",
+        "avoid",
+        "because",
+        "break"
+      ],
+      "response": "Recursion is a fundamental concept in computer science where a problem is solved by breaking it down into smaller, simpler instances of the same problem. This approach involves a function calling itself with modified parameters until it reaches a condition where the answer is known directly.\n\n**Key Components of Recursion:**\n\n1. **Base Case(s):**  \n   The base case is the simplest version of the problem, where the solution can be provided directly without further recursion. It is essential because it prevents infinite loops and ensures that the recursive process eventually stops. For example, in computing the factorial of a number, the base case is factorial(0) = 1.\n\n2. **Recursive Case:**  \n   In the recursive case, the function calls itself with a smaller or simpler input, gradually reducing the problem size. The results of these recursive calls are then combined to form the solution to the original problem. For instance, factorial(n) is defined as n * factorial(n-1).\n\n**How Recursion Works:**\n\nWhen a recursive function is called, each invocation is placed on the call stack, which keeps track of the function\u2019s state and local variables. As the function calls itself repeatedly, new stack frames are created. Once the base case is reached, the stack unwinds, and the results are combined as the function returns from each call.\n\n**Examples:**\n\n- **Factorial Calculation:**  \n  factorial(n) = n * factorial(n-1), with factorial(0) = 1 as the base case.\n- **Tree Traversal:**  \n  To visit all nodes in a tree, a function can visit the current node and then recursively visit each child node.\n\n**Advantages of Recursion:**\n\n- **Elegance:** Recursive solutions are often more concise and easier to understand, especially for problems that are naturally self-similar, such as tree structures or fractals.\n- **Divide-and-Conquer:** Recursion is a natural fit for algorithms that break problems into smaller subproblems, solve them independently, and combine their results.\n\n**Disadvantages of Recursion:**\n\n- **Stack Overflow Risk:** Each recursive call uses stack space. Deep recursion can exhaust the call stack, causing a stack overflow error.\n- **Efficiency:** Recursive solutions may be less efficient than iterative ones due to the overhead of multiple function calls.\n\n**Optimization:**\n\n- **Tail Recursion:** Some recursive functions can be optimized by tail recursion, where the recursive call is the last operation in the function. This allows some compilers or interpreters to convert recursion into iteration, reducing stack usage.\n\n**Mathematical Foundation:**\n\nRecursion\u2019s correctness is often proven using **structural induction**, a mathematical technique that shows a property holds for the base case and is preserved through the recursive step.\n\n**Summary:**\n\nRecursion is a powerful technique for solving problems that can be defined in terms of smaller versions of themselves. It relies on base cases to terminate and recursive cases to break down the problem. While elegant and natural for certain problems, recursion must be used carefully to avoid inefficiency and stack overflow.",
+      "detailed_eval": {
+        "final_score": 0.8333333333333334,
+        "components": {
+          "strict": {
+            "score": 0.8333333333333334,
+            "found": [
+              "base case",
+              "recursive case",
+              "call stack",
+              "self-similar",
+              "induction"
+            ],
+            "missing": [
+              "smaller instances"
+            ],
+            "hallucinated": [
+              "algorithms",
+              "approach",
+              "avoid",
+              "because",
+              "break"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 467,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 467,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.4365079365079366,
+    "CSI_stderr": 0.48107542680853416,
+    "R_squared": 0.21533746781271534,
+    "C_h": 0.12727272727272726,
+    "mean_score": 0.5866666666666667,
+    "score_variance": 0.3416300793418389,
+    "min_score": 0.0,
+    "max_score": 1.0,
+    "decay_direction": "decay",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Low R\u00b2 (0.215). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

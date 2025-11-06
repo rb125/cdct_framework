@@ -1,0 +1,87 @@
+{
+  "concept": "derivative",
+  "domain": "mathematics",
+  "abstraction_level": 2,
+  "corpus": [
+    {
+      "compression_level": 0,
+      "text": "rate of change",
+      "probes": {
+        "recall": "A derivative measures...",
+        "application": "To find velocity from position, you need the...",
+        "transfer": "Stock price trends are analyzed using...",
+        "counterfactual": "Without derivatives, calculus would lack..."
+      },
+      "expected_keywords": [
+        "rate",
+        "change"
+      ]
+    },
+    {
+      "compression_level": 1,
+      "text": "instantaneous slope of curve",
+      "probes": {
+        "recall": "What does a derivative represent geometrically?",
+        "application": "At x=2 on a curve, the derivative gives you...",
+        "transfer": "The steepness of a hill at any point is like a...",
+        "counterfactual": "If derivatives were always zero, functions would be..."
+      },
+      "expected_keywords": [
+        "slope",
+        "curve",
+        "instantaneous"
+      ]
+    },
+    {
+      "compression_level": 2,
+      "text": "The derivative f'(x) = lim[h→0] (f(x+h)-f(x))/h measures instantaneous rate of change.",
+      "probes": {
+        "recall": "State the limit definition of derivative.",
+        "application": "Calculate f'(3) for f(x)=x² using the definition.",
+        "transfer": "How would you define acceleration using this concept?",
+        "counterfactual": "What if we didn't take the limit as h→0?"
+      },
+      "expected_keywords": [
+        "limit",
+        "instantaneous",
+        "rate",
+        "change"
+      ]
+    },
+    {
+      "compression_level": 3,
+      "text": "The derivative measures instantaneous rate of change of a function. Geometrically, it's the slope of the tangent line. Common rules: power rule d/dx[x^n]=nx^(n-1), product rule, chain rule.",
+      "probes": {
+        "recall": "What are the main differentiation rules?",
+        "application": "Find the derivative of x³sin(x).",
+        "transfer": "How do derivatives relate to optimization problems?",
+        "counterfactual": "If the power rule didn't reduce the exponent, what would happen?"
+      },
+      "expected_keywords": [
+        "tangent",
+        "slope",
+        "power rule",
+        "chain rule",
+        "instantaneous"
+      ]
+    },
+    {
+      "compression_level": 4,
+      "text": "The derivative of a function measures sensitivity to change of the output with respect to the input. Formally: f'(x) = lim[h→0] (f(x+h)-f(x))/h when this limit exists. It represents the slope of the tangent line at any point. Key rules: power rule d/dx[x^n]=nx^(n-1), product rule d/dx[fg]=(f'g+fg'), chain rule d/dx[f(g(x))]=f'(g(x))·g'(x). Applications include velocity (derivative of position), optimization (finding maxima/minima where f'(x)=0), and approximation via linearization.",
+      "probes": {
+        "recall": "Explain the complete concept of derivatives.",
+        "application": "Find critical points of f(x)=x³-3x²+2.",
+        "transfer": "How do partial derivatives extend this concept to multiple variables?",
+        "counterfactual": "In a discrete world without continuity, how would rates of change work?"
+      },
+      "expected_keywords": [
+        "limit",
+        "tangent",
+        "slope",
+        "differentiation",
+        "power rule",
+        "chain rule"
+      ]
+    }
+  ]
+}

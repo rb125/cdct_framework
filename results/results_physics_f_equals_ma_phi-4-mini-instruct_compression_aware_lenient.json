@@ -1,0 +1,282 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "model": "Phi-4-mini-instruct",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 2,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "force-acceleration relation",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "force",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 2,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 2,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 5,
+      "response_length": 23,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "applied",
+        "equal",
+        "multiplied"
+      ],
+      "response": "Newton's second law states that the force applied to an object is equal to the mass of the object multiplied by its acceleration.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "force",
+              "mass",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "applied",
+              "equal",
+              "multiplied"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 23,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 23,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 15,
+      "response_length": 78,
+      "score": 0.75,
+      "verdict": "good",
+      "hallucinated": [
+        "applied",
+        "directly",
+        "experiences",
+        "expressed",
+        "mathematically"
+      ],
+      "response": "Newton's second law can be mathematically expressed as F = ma, where F represents the net force applied to an object, m is the mass of the object, and a is the acceleration that the object experiences. This vector equation indicates that the acceleration of an object is directly proportional to the net force acting upon it and inversely proportional to its mass. The direction of the acceleration is the same as the direction of the net force.",
+      "detailed_eval": {
+        "final_score": 0.75,
+        "components": {
+          "strict": {
+            "score": 0.75,
+            "found": [
+              "net force",
+              "vector",
+              "mass"
+            ],
+            "missing": [
+              "F=ma"
+            ],
+            "hallucinated": [
+              "applied",
+              "directly",
+              "experiences",
+              "expressed",
+              "mathematically"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 78,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 78,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 32,
+      "response_length": 272,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "achieve",
+        "addresses",
+        "affecting",
+        "affects",
+        "applied"
+      ],
+      "response": "The key implications of Newton's second law, F=ma, are as follows:\n\n1. Relationship between force, mass, and acceleration: The law establishes a direct relationship between the net force applied to an object, its mass, and the resulting acceleration. This means that the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.\n\n2. Force and acceleration are vectors: Force and acceleration are both vector quantities, which means they have both magnitude and direction. In the context of F=ma, this implies that the direction of the net force applied to an object will determine the direction of its acceleration.\n\n3. Heavier objects require more force for the same acceleration: Since acceleration is inversely proportional to mass, heavier objects (with greater mass) will require more force to achieve the same acceleration as lighter objects. This is because the mass term in the equation acts as a resistance to acceleration.\n\n4. Force causes acceleration, not velocity: Newton's second law specifically addresses the relationship between force and acceleration, not velocity. While force can cause an object to change its velocity (which includes both speed and direction), the law itself does not directly explain how force affects velocity. Instead, it focuses on how force influences the rate of change of an object's velocity, which is acceleration.\n\nIn summary, Newton's second law, F=ma, highlights the fundamental relationship between force, mass, and acceleration, emphasizing the vector nature of these quantities and the fact that heavier objects require more force to achieve the same acceleration. It also clarifies that force is responsible for causing acceleration, rather than directly affecting velocity.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "Newton",
+              "net force",
+              "vector",
+              "mass",
+              "acceleration"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "achieve",
+              "addresses",
+              "affecting",
+              "affects",
+              "applied"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.9041666666666667,
+            "response_words": 272,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 272,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 100,
+      "response_length": 411,
+      "score": 0.8333333333333334,
+      "verdict": "good",
+      "hallucinated": [
+        "affect",
+        "along",
+        "analysis",
+        "analyzing",
+        "applications"
+      ],
+      "response": "Newton's second law of motion is a fundamental principle in classical mechanics that describes the relationship between the net force acting on an object, its mass, and the resulting acceleration. The law is concisely expressed by the equation F_net = ma, where F_net represents the net force applied to the object, m is the mass of the object, and a is the acceleration that the object experiences as a result of the net force.\n\n\nThe law implies that the acceleration of an object is directly proportional to the net force acting upon it, provided that the mass of the object remains constant. This means that if you apply a greater force to an object, its acceleration will increase proportionally, assuming the mass does not change. Conversely, for a given force, the acceleration of an object is inversely proportional to its mass. In other words, a more massive object will experience less acceleration when the same force is applied compared to a less massive object.\n\n\nThe direction of the acceleration is the same as the direction of the net force, which is a vector quantity. This means that not only the magnitude but also the direction of the force must be considered when determining the acceleration. Forces are vector quantities, and they can be broken down into components along the x, y, and z axes, leading to the component form of the equation: F_x = ma_x, F_y = ma_y, and F_z = ma_z, where F_x, F_y, and F_z are the components of the net force, and a_x, a_y, and a_z are the components of the acceleration.\n\n\nNewton's second law also connects to the concept of momentum, which is the product of an object's mass and its velocity (p = mv). The law can be expressed in terms of momentum as F = dp/dt, where dp/dt represents the rate of change of momentum with respect to time. This form of the law is particularly useful in analyzing situations where an object's velocity changes, such as in collisions or when a force is applied over a period of time.\n\n\nIn essence, Newton's second law provides a quantitative description of how forces affect the motion of objects. It is a cornerstone of dynamics, the branch of physics that deals with the motion of objects, and it has wide-ranging applications in engineering, from the design of vehicles and structures to the analysis of celestial mechanics, such as the orbits of planets and the trajectories of spacecraft.",
+      "detailed_eval": {
+        "final_score": 0.8333333333333334,
+        "components": {
+          "strict": {
+            "score": 0.8333333333333334,
+            "found": [
+              "Newton's second law",
+              "net force",
+              "vector",
+              "momentum",
+              "dynamics"
+            ],
+            "missing": [
+              "inertia"
+            ],
+            "hallucinated": [
+              "affect",
+              "along",
+              "analysis",
+              "analyzing",
+              "applications"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 411,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 411,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.11604537756830095,
+    "CSI_stderr": 0.15443272425935334,
+    "R_squared": 0.15840194038073074,
+    "C_h": 0.02,
+    "mean_score": 0.9166666666666666,
+    "score_variance": 0.10540925533894598,
+    "min_score": 0.75,
+    "max_score": 1.0,
+    "decay_direction": "improvement",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Performance improves significantly with compression. Model may be ignoring compression constraints or evaluation is too lenient.",
+      "WARNING: Low R\u00b2 (0.158). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "concept": "derivative",
+  "domain": "mathematics",
+  "model": "gpt-4.1",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 3,
+      "response_length": 3,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "rate of change",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "rate",
+              "change"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 3,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 3,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 4,
+      "response_length": 21,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "geometrically",
+        "specific",
+        "steep"
+      ],
+      "response": "Geometrically, a derivative represents the instantaneous slope of a curve. It indicates how steep the curve is at a specific point.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "slope",
+              "curve",
+              "instantaneous"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "geometrically",
+              "specific",
+              "steep"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 21,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 21,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 11,
+      "response_length": 56,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "amount",
+        "approaches",
+        "calculates",
+        "definition",
+        "expresses"
+      ],
+      "response": "The limit definition of the derivative is:\n\nf'(x) = lim\u208d\u2095\u2192\u2080\u208e [f(x + h) - f(x)] / h\n\nThis formula expresses the instantaneous rate of change of the function f at the point x. It calculates how f(x) changes as x increases by a very small amount h, and then takes the limit as h approaches zero.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "limit",
+              "instantaneous",
+              "rate",
+              "change"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "amount",
+              "approaches",
+              "calculates",
+              "definition",
+              "expresses"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 56,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 56,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 27,
+      "response_length": 129,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "calculate",
+        "composite",
+        "differentiating",
+        "differentiation",
+        "functions"
+      ],
+      "response": "The main differentiation rules are methods used to find the derivative of various types of functions:\n\n1. **Power Rule**: For any function of the form \\( x^n \\), the derivative is \\( nx^{n-1} \\). This rule is useful for polynomials and powers of \\( x \\).\n\n2. **Product Rule**: When differentiating the product of two functions, \\( f(x) \\cdot g(x) \\), the derivative is \\( f'(x)g(x) + f(x)g'(x) \\).\n\n3. **Chain Rule**: For composite functions, where one function is inside another (like \\( f(g(x)) \\)), the derivative is \\( f'(g(x)) \\cdot g'(x) \\).\n\nThese rules help calculate the instantaneous rate of change (the derivative) for a wide variety of functions. Geometrically, the derivative at a point gives the slope of the tangent line to the function at that point.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "tangent",
+              "slope",
+              "power rule",
+              "chain rule",
+              "instantaneous"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "calculate",
+              "composite",
+              "differentiating",
+              "differentiation",
+              "functions"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 129,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 129,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 63,
+      "response_length": 249,
+      "score": 0.8333333333333334,
+      "verdict": "good",
+      "hallucinated": [
+        "allow",
+        "analyzing",
+        "approximate",
+        "behavior",
+        "calculating"
+      ],
+      "response": "A derivative is a fundamental concept in calculus that describes how a function changes as its input changes. In other words, it measures the rate at which the output of a function responds to small changes in the input. Formally, the derivative of a function f at a point x is defined as:\n\nf'(x) = lim[h\u21920] (f(x+h) - f(x)) / h\n\nThis limit, if it exists, gives the instantaneous rate of change of the function at x. Geometrically, the derivative represents the slope of the tangent line to the graph of the function at that point.\n\nThere are several important rules for calculating derivatives:\n\n- **Power Rule:** For functions of the form x^n, the derivative is d/dx[x^n] = n x^(n-1).\n- **Product Rule:** For the product of two functions f(x) and g(x), the derivative is d/dx[fg] = f'(x)g(x) + f(x)g'(x).\n- **Chain Rule:** For a composition of functions f(g(x)), the derivative is d/dx[f(g(x))] = f'(g(x)) \u00b7 g'(x).\n\nDerivatives have many practical applications:\n\n- **Velocity:** The derivative of position with respect to time gives velocity, showing how position changes over time.\n- **Optimization:** Derivatives are used to find maxima and minima of functions, which occur where the derivative equals zero (f'(x) = 0).\n- **Approximation:** Derivatives allow us to approximate functions near a point using linearization, which uses the tangent line as a simple model of the function's behavior.\n\nIn summary, derivatives provide a powerful tool for understanding and analyzing how quantities change, both in mathematics and in real-world applications.",
+      "detailed_eval": {
+        "final_score": 0.8333333333333334,
+        "components": {
+          "strict": {
+            "score": 0.8333333333333334,
+            "found": [
+              "limit",
+              "tangent",
+              "slope",
+              "power rule",
+              "chain rule"
+            ],
+            "missing": [
+              "differentiation"
+            ],
+            "hallucinated": [
+              "allow",
+              "analyzing",
+              "approximate",
+              "behavior",
+              "calculating"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 249,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 249,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.17310449187639368,
+    "CSI_stderr": 0.04146277614865588,
+    "R_squared": 0.8531578528193691,
+    "C_h": 0.047619047619047616,
+    "mean_score": 0.9666666666666666,
+    "score_variance": 0.06666666666666665,
+    "min_score": 0.8333333333333334,
+    "max_score": 1.0,
+    "decay_direction": "improvement",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Performance improves significantly with compression. Model may be ignoring compression constraints or evaluation is too lenient."
+    ]
+  }
+}

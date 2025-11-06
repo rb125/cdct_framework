@@ -1,0 +1,75 @@
+{
+  "concept": "derivative",
+  "domain": "mathematics",
+  "abstraction_level": 4,
+  "corpus": [
+    {
+      "compression_level": 0,
+      "text": "rate of change",
+      "probe_question": "What is derivative?",
+      "expected_keywords": [
+        "rate",
+        "change",
+        "calculation"
+      ]
+    },
+    {
+      "compression_level": 1,
+      "text": "instantaneous rate of change at point",
+      "probe_question": "Describe derivative briefly",
+      "expected_keywords": [
+        "instantaneous",
+        "rate of change",
+        "point",
+        "derivative"
+      ]
+    },
+    {
+      "compression_level": 2,
+      "text": "A derivative measures the instantaneous rate of change at a point, helping us understand how a function\u2019s output responds to small input changes, which is crucial in physics and engineering.",
+      "probe_question": "Explain derivative",
+      "expected_keywords": [
+        "derivative",
+        "instantaneous rate",
+        "function output",
+        "input changes",
+        "physics",
+        "engineering"
+      ]
+    },
+    {
+      "compression_level": 3,
+      "text": "A derivative measures the instantaneous rate of change at a point, helping us understand how a function\u2019s output responds to small input changes, which is crucial in physics and engineering. For example, the derivative of position with respect to time gives velocity. In calculus, the derivative is often denoted as f\u2009'(x) or df/dx, and is used to analyze slopes, optimize functions, and model dynamic systems.",
+      "probe_question": "Provide a detailed explanation of derivative",
+      "expected_keywords": [
+        "derivative",
+        "rate of change",
+        "function",
+        "calculus",
+        "velocity",
+        "slope",
+        "optimize",
+        "dynamic systems"
+      ]
+    },
+    {
+      "compression_level": 4,
+      "text": "In mathematics, the **derivative** of a function quantifies the rate at which the function\u2019s value changes with respect to changes in its independent variable. Formally, the derivative of a function \\( f(x) \\) at a point \\( x \\) is defined as the limit:\n\n\\[\nf'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}\n\\]\n\nprovided this limit exists. The derivative embodies the concept of instantaneous rate of change and is fundamental to differential calculus. Key principles include linearity, the product and quotient rules, and the chain rule for composite functions. Geometrically, the derivative at a point corresponds to the slope of the tangent line to the graph of the function at that point. Applications of derivatives are widespread, including optimization, motion analysis, curve sketching, and modeling dynamic systems in physics, engineering, and economics.",
+      "probe_question": "Provide a comprehensive explanation of derivative",
+      "expected_keywords": [
+        "derivative",
+        "function",
+        "rate of change",
+        "independent variable",
+        "limit",
+        "differential calculus",
+        "linearity",
+        "product rule",
+        "quotient rule",
+        "chain rule",
+        "tangent line",
+        "optimization"
+      ]
+    }
+  ]
+}

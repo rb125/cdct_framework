@@ -1,0 +1,87 @@
+{
+  "concept": "natural_selection",
+  "domain": "biology",
+  "abstraction_level": 2,
+  "corpus": [
+    {
+      "compression_level": 0,
+      "text": "differential survival",
+      "probes": {
+        "recall": "Natural selection is based on...",
+        "application": "Antibiotic resistance develops through...",
+        "transfer": "How do companies 'evolve' in free markets?",
+        "counterfactual": "If all organisms survived equally, what would happen?"
+      },
+      "expected_keywords": [
+        "differential",
+        "survival"
+      ]
+    },
+    {
+      "compression_level": 1,
+      "text": "advantageous traits increase reproduction",
+      "probes": {
+        "recall": "How do beneficial traits spread?",
+        "application": "Why do peppered moths change color in polluted areas?",
+        "transfer": "How is selective breeding similar to natural selection?",
+        "counterfactual": "What if disadvantageous traits increased reproduction?"
+      },
+      "expected_keywords": [
+        "traits",
+        "reproduction",
+        "advantageous"
+      ]
+    },
+    {
+      "compression_level": 2,
+      "text": "Natural selection: organisms with beneficial traits survive and reproduce more, passing traits to offspring.",
+      "probes": {
+        "recall": "Describe the mechanism of natural selection.",
+        "application": "Explain giraffe neck length evolution.",
+        "transfer": "How do memes 'evolve' on social media?",
+        "counterfactual": "If traits weren't heritable, would selection work?"
+      },
+      "expected_keywords": [
+        "beneficial traits",
+        "survive",
+        "reproduce",
+        "offspring"
+      ]
+    },
+    {
+      "compression_level": 3,
+      "text": "Darwin's natural selection: differential survival and reproduction based on heritable traits. Process: (1) Variation exists, (2) Some traits aid survival, (3) Better adapted organisms reproduce more, (4) Traits pass to offspring. Drives evolution.",
+      "probes": {
+        "recall": "What are the requirements for natural selection?",
+        "application": "How does natural selection create pesticide resistance?",
+        "transfer": "Apply natural selection principles to language evolution.",
+        "counterfactual": "Without genetic variation, could evolution occur?"
+      },
+      "expected_keywords": [
+        "Darwin",
+        "differential survival",
+        "heritable",
+        "variation",
+        "evolution"
+      ]
+    },
+    {
+      "compression_level": 4,
+      "text": "Natural selection, proposed by Charles Darwin and Alfred Russel Wallace, is the differential survival and reproduction of individuals due to differences in phenotype. Key requirements: (1) Variation - individuals differ in traits, (2) Heritability - traits passed to offspring through genes, (3) Selection pressure - environmental factors favor certain traits, (4) Differential fitness - trait differences affect survival/reproduction rates. Mechanisms: directional (shifts mean), stabilizing (reduces variation), disruptive (favors extremes). Time scales: microevolution (within species) to macroevolution (speciation). Evidence: fossil record, comparative anatomy, molecular biology, observed evolution (bacteria, finches). Explains adaptation, biodiversity, complexity without design. Modern synthesis combines with genetics: evolution = change in allele frequencies. Misconceptions: not 'survival of strongest', no predetermined direction, acts on existing variation only.",
+      "probes": {
+        "recall": "Provide a comprehensive explanation of natural selection.",
+        "application": "Analyze COVID variant emergence through natural selection.",
+        "transfer": "How do evolutionary algorithms in AI mirror natural selection?",
+        "counterfactual": "In a stable environment with infinite resources, would natural selection cease?"
+      },
+      "expected_keywords": [
+        "Darwin",
+        "differential survival",
+        "heritability",
+        "variation",
+        "fitness",
+        "evolution"
+      ]
+    }
+  ]
+}

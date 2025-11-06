@@ -1,0 +1,86 @@
+{
+  "concept": "recursion",
+  "domain": "computer_science",
+  "abstraction_level": 2,
+  "corpus": [
+    {
+      "compression_level": 0,
+      "text": "self-calling function",
+      "probes": {
+        "recall": "Recursion means a function that...",
+        "application": "To compute factorial recursively, the function must...",
+        "transfer": "Russian dolls demonstrate recursion because...",
+        "counterfactual": "Without recursion, tree traversal would require..."
+      },
+      "expected_keywords": [
+        "self",
+        "calling"
+      ]
+    },
+    {
+      "compression_level": 1,
+      "text": "function calls itself with base case",
+      "probes": {
+        "recall": "What are the two essential parts of recursion?",
+        "application": "Write the base case for factorial(n).",
+        "transfer": "How is mathematical induction like recursion?",
+        "counterfactual": "What happens without a base case?"
+      },
+      "expected_keywords": [
+        "calls itself",
+        "base case"
+      ]
+    },
+    {
+      "compression_level": 2,
+      "text": "Recursion: solving problems by breaking into smaller subproblems. Requires base case and recursive case.",
+      "probes": {
+        "recall": "Define the structure of a recursive solution.",
+        "application": "Identify base and recursive cases in fibonacci(n).",
+        "transfer": "How does divide-and-conquer use recursion?",
+        "counterfactual": "If recursion couldn't reduce problem size, would it work?"
+      },
+      "expected_keywords": [
+        "subproblems",
+        "base case",
+        "recursive case",
+        "smaller"
+      ]
+    },
+    {
+      "compression_level": 3,
+      "text": "Recursion is a programming technique where functions call themselves with modified parameters. Structure: (1) Base case - termination condition, (2) Recursive case - breaks problem into smaller instances. Stack frames track each call.",
+      "probes": {
+        "recall": "Explain how recursive calls are managed in memory.",
+        "application": "Trace the call stack for factorial(4).",
+        "transfer": "Convert an iterative loop to recursive function.",
+        "counterfactual": "With infinite stack space, would base cases still matter?"
+      },
+      "expected_keywords": [
+        "call themselves",
+        "base case",
+        "recursive case",
+        "stack",
+        "parameters"
+      ]
+    },
+    {
+      "compression_level": 4,
+      "text": "Recursion in computer science is a method where solutions are defined in terms of smaller instances of the same problem. Essential components: (1) Base case(s) - simplest form with direct answer, prevents infinite recursion, (2) Recursive case - reduces problem to smaller version(s) and combines results. Implementation uses call stack to maintain state across recursive calls. Examples: factorial(n) = n * factorial(n-1) with base factorial(0)=1; tree traversal visits node then recursively visits children. Advantages: elegant for self-similar problems (trees, fractals), natural for divide-and-conquer. Disadvantages: stack overflow risk, often less efficient than iteration due to function call overhead. Tail recursion optimization can convert to iteration. Mathematical foundation: structural induction proves correctness.",
+      "probes": {
+        "recall": "Provide a comprehensive explanation of recursion.",
+        "application": "Implement merge sort using recursion.",
+        "transfer": "How do recursive data structures (linked lists, trees) relate?",
+        "counterfactual": "In a language without iteration, how essential would recursion be?"
+      },
+      "expected_keywords": [
+        "base case",
+        "recursive case",
+        "call stack",
+        "smaller instances",
+        "self-similar",
+        "induction"
+      ]
+    }
+  ]
+}

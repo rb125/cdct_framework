@@ -1,0 +1,272 @@
+{
+  "concept": "modus_ponens",
+  "domain": "logic",
+  "model": "Phi-4-mini-instruct",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 2,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "Affirming antecedent",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "affirming",
+              "antecedent"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 2,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 2,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 7,
+      "response_length": 7,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "If P then Q; P; therefore Q.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "if",
+              "then",
+              "therefore"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 7,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 7,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 17,
+      "response_length": 139,
+      "score": 0.25,
+      "verdict": "memorized",
+      "hallucinated": [
+        "affirms",
+        "argument",
+        "asserts",
+        "because",
+        "detachment"
+      ],
+      "response": "Modus ponens, also known as the rule of detachment or the law of implication, is a valid form of argument in propositional logic. It can be formally stated as follows:\n\n\n1. If P, then Q (P \u2192 Q)\n\n2. P\n\n3. Therefore, Q\n\n\nIn this form, 'P' and 'Q' are propositional variables, which can be thought of as placeholders for any well-formed formula. The first statement (1) is a conditional statement, which asserts that if the proposition 'P' is true, then the proposition 'Q' must also be true. The second statement (2) affirms that 'P' is indeed true. From these two premises, modus ponens allows us to infer that 'Q' must be true, which is the conclusion (3). This form of argument is valid because it preserves truth; if the premises are true, the conclusion must also be true.",
+      "detailed_eval": {
+        "final_score": 0.25,
+        "components": {
+          "strict": {
+            "score": 0.25,
+            "found": [
+              "valid"
+            ],
+            "missing": [
+              "implies",
+              "deduce",
+              "inference"
+            ],
+            "hallucinated": [
+              "affirms",
+              "argument",
+              "asserts",
+              "because",
+              "detachment"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.9888888888888889,
+            "response_words": 139,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "memorized",
+        "response_length": 139,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 39,
+      "response_length": 119,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "accepted",
+        "adherence",
+        "affirmed",
+        "argumentation",
+        "because"
+      ],
+      "response": "Modus ponens is a valid deductive argument because it follows a strict logical form that ensures the conclusion necessarily follows from the premises. The structure of modus ponens is as follows: If a conditional statement 'If P then Q' (P\u2192Q) is accepted, and the antecedent 'P' is affirmed, then the consequent 'Q' must logically follow. This is symbolically represented as ((P\u2192Q) \u2227 P) \u22a2 Q. The validity of modus ponens lies in its adherence to the rules of deductive reasoning, which dictate that if the premises are true, the conclusion cannot be false. In other words, the truth of the premises guarantees the truth of the conclusion, making modus ponens a reliable and sound method of argumentation in logic.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "conditional",
+              "antecedent",
+              "consequent",
+              "valid",
+              "deductive"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "accepted",
+              "adherence",
+              "affirmed",
+              "argumentation",
+              "because"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 119,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 119,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 139,
+      "response_length": 317,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "affirmation",
+        "argument",
+        "arguments",
+        "arrive",
+        "artificial"
+      ],
+      "response": "Modus ponens, also known as the method of affirming, is a rule of inference in propositional logic that allows one to derive a conclusion from a conditional statement and its antecedent. The structure of modus ponens is as follows: given a conditional statement (P\u2192Q) and the affirmation of the antecedent (P), one can validly conclude the consequent (Q). In symbolic terms, this is represented as ((P\u2192Q) \u2227 P) \u22a2 Q, or in a more informal notation, {P\u2192Q, P} \u22a2 Q. This rule is considered truth-preserving, meaning that if the premises are true, the conclusion must also be true.\n\n\nModus ponens is an elimination rule for the implication (P\u2192Q), which means that it is used to eliminate the conditional statement and its antecedent to arrive at the consequent. It is a fundamental component of deductive reasoning and is used in various applications, such as mathematical proofs, automated theorem proving, and expert systems. In the field of artificial intelligence, it is particularly relevant in forward chaining, a rule-based reasoning process where conclusions are drawn from a set of known facts and rules.\n\n\nThe philosophical significance of modus ponens is that it embodies the core of deductive reasoning, which was famously called 'analytic' by the philosopher Immanuel Kant. It is a valid form of argument that is distinct from several common fallacies. For instance, affirming the consequent ((P\u2192Q) \u2227 Q) \u22a2 P is an invalid form of reasoning, as well as denying the antecedent ((P\u2192Q) \u2227 \u00acP) \u22a2 \u00acQ, which are both fallacious arguments.\n\n\nHistorically, modus ponens has been known since the time of the Stoics and was later formalized by medieval scholastics. It has become a central concept in modern symbolic logic, which is the study of formal systems of logic. However, it is important to note that modus ponens is based on classical logic, and its validity may not hold in other logical systems, such as quantum logic.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "rule of inference",
+              "conditional",
+              "antecedent",
+              "consequent",
+              "truth-preserving",
+              "deductive reasoning"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "affirmation",
+              "argument",
+              "arguments",
+              "arrive",
+              "artificial"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 317,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 317,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.1929234573276935,
+    "CSI_stderr": 0.46145539438517713,
+    "R_squared": 0.05505489549639214,
+    "C_h": 0.014388489208633094,
+    "mean_score": 0.85,
+    "score_variance": 0.30000000000000004,
+    "min_score": 0.25,
+    "max_score": 1.0,
+    "decay_direction": "decay",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Low R\u00b2 (0.055). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}

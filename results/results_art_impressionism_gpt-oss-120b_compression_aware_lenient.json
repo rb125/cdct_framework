@@ -1,0 +1,282 @@
+{
+  "concept": "impressionism",
+  "domain": "art",
+  "model": "gpt-oss-120b",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 3,
+      "response_length": 3,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "capturing light's moment",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "light",
+              "moment"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 3,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 3,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 6,
+      "response_length": 10,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "capture",
+        "impressionist",
+        "painters"
+      ],
+      "response": "Impressionist painters aim to capture fleeting light and color impressions.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "light",
+              "color",
+              "impressions"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "capture",
+              "impressionist",
+              "painters"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 10,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 10,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 18,
+      "response_length": 482,
+      "score": 0.75,
+      "verdict": "good",
+      "hallucinated": [
+        "achieved",
+        "across",
+        "alive",
+        "alters",
+        "applied"
+      ],
+      "response": "**Impressionist painting techniques**\n\nImpressionist artists developed a set of methods that let them convey the fleeting effects of light, atmosphere, and color rather than render a scene with meticulous detail. The core techniques include:\n\n| Technique | What it does | How it\u2019s achieved |\n|-----------|--------------|-------------------|\n| **Rapid, loose brushstrokes** | Creates a sense of movement and immediacy, suggesting rather than defining forms. | Paint is applied in short, visible strokes that often overlap; the brush is moved quickly across the canvas, leaving a \u201csketch\u2011like\u201d texture. |\n| **Broken (or \u201coptical\u201d) color** | Allows the eye to blend colors, producing vibrant, luminous effects. | Instead of mixing pigments on the palette, artists place pure, unmixed colors side\u2011by\u2011side (e.g., blues next to yellows) so that from a distance the viewer perceives the intended hue. |\n| **Emphasis on light and its changing qualities** | Captures the way light alters the appearance of objects over time. | Paintings are often done outdoors (en plein air) to observe natural light directly; shadows are rendered with warm tones, and highlights may be painted with complementary colors rather than pure white. |\n| **Plein\u2011air painting** | Enables the artist to record the momentary atmosphere of a scene. | Artists work outside, setting up easels quickly and completing studies on the spot, often finishing the work in the studio later. |\n| **Limited detail and suggestion of form** | Focuses on overall impression rather than exact representation. | Fine lines and intricate modeling are minimized; forms are suggested through the arrangement of color patches and brushwork. |\n| **Use of a lighter, more fluid palette** | Enhances the airy, transient feeling of the scene. | Artists favor pastel hues, diluted pigments, and sometimes watery washes to convey vapor, haze, or reflected light. |\n| **Dynamic composition** | Reflects the spontaneity of a moment. | Cropped edges, unusual viewpoints, and off\u2011center focal points are common, echoing the way the eye naturally scans a scene. |\n\n### Putting it together\n\nWhen an Impressionist painter sets up an easel in a garden, a bustling street, or beside a river, they observe how sunlight dapples the foliage, how a cloud\u2019s shadow shifts, or how a reflected glint flickers on water. Rather than painstakingly rendering each leaf or brick, they:\n\n1. **Lay down a quick underpainting** to block out the general shapes.\n2. **Apply short, lively strokes of pure color** directly onto the canvas, letting the colors \u201cmix\u201d in the viewer\u2019s eye.\n3. **Capture the changing light** by using warm yellows, pinks, or blues for highlights and cooler tones for shadows, often avoiding black.\n4. **Leave visible brushwork** so the surface itself suggests movement and texture.\n\nThe result is a painting that feels immediate and alive\u2014an \u201cimpression\u201d of a moment rather than a static, detailed replica. This approach revolutionized art by shifting the focus from exact representation to the sensory experience of seeing.",
+      "detailed_eval": {
+        "final_score": 0.75,
+        "components": {
+          "strict": {
+            "score": 0.75,
+            "found": [
+              "light",
+              "momentary",
+              "brushstrokes"
+            ],
+            "missing": [
+              "visual sensation"
+            ],
+            "hallucinated": [
+              "achieved",
+              "across",
+              "alive",
+              "alters",
+              "applied"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.3,
+            "response_words": 482,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 482,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 48,
+      "response_length": 480,
+      "score": 0.8,
+      "verdict": "good",
+      "hallucinated": [
+        "abandoned",
+        "academies",
+        "across",
+        "actually",
+        "alters"
+      ],
+      "response": "**Techniques that set Impressionist paintings apart**\n\nImpressionism broke with the academic tradition of the 19th\u2011century art academies, and its distinctive look comes from a handful of deliberate techniques:\n\n| Technique | What the artists did | Why it matters for the Impressionist aim |\n|-----------|----------------------|------------------------------------------|\n| **Visible, rapid brushstrokes** | Paint was applied in loose, often short, \u201cdabbed\u201d or \u201cstroked\u201d marks that remain evident on the canvas. | The brushwork conveys movement and the fleeting quality of a scene, rather than smoothing everything into a polished finish. |\n| **Broken (or \u201coptical\u201d) color** | Instead of mixing pigments on the palette, artists placed pure colors side\u2011by\u2011side. From a distance the eye blends them, creating luminous effects. | This technique captures the way light actually breaks up colors in nature\u2014e.g., the sparkle of sunlight on water or the shimmer of a sky. |\n| **En plein air painting** | Artists worked outdoors, directly in front of their subjects, using portable easels and paint tubes. | Working on site forces quick decisions, encouraging the rapid, spontaneous brushwork that records the momentary play of light and atmosphere. |\n| **Emphasis on light and its changing qualities** | Paintings focus on how light alters color, tone, and mood at a specific time of day or weather condition. Shadows are often colored rather than just darkened. | Light becomes the central subject; the goal is to depict its transient effects rather than a static, idealized scene. |\n| **Open, often asymmetrical composition** | Scenes are arranged with cropped edges, off\u2011center focal points, and a sense of \u201csnapshot\u201d framing, similar to a photograph. | This creates a more immediate, informal feeling, as if the viewer has just happened upon the moment. |\n| **Unusual visual angles and viewpoints** | Artists experimented with high or low viewpoints, side\u2011on perspectives, and diagonal lines that lead the eye across the canvas. | These angles break the conventional, \u201cheroic\u201d perspective of academic painting and help convey the spontaneity of everyday life. |\n| **Ordinary, contemporary subjects** | Rather than grand historical or mythological scenes, Impressionists painted caf\u00e9s, streets, parks, railway stations, and domestic interiors. | By focusing on modern life, they could explore how light interacts with everyday objects and people, reinforcing the movement\u2019s democratic, realistic ethos. |\n| **Loose handling of detail** | Fine, precise rendering of forms is abandoned in favor of suggestion; edges are softened, and forms may be hinted at rather than fully defined. | This reinforces the idea that the painting is a momentary impression, not a meticulous record. |\n\n**In summary**, what makes an Impressionist work instantly recognizable is the combination of rapid, visible brushwork, a focus on capturing the fleeting effects of light, painting outdoors, and a compositional freedom that embraces everyday subjects and unconventional viewpoints. These techniques together create a vivid, atmospheric \u201cimpression\u201d of a scene rather than a detailed, finished narrative.",
+      "detailed_eval": {
+        "final_score": 0.8,
+        "components": {
+          "strict": {
+            "score": 0.8,
+            "found": [
+              "brushstrokes",
+              "plein air",
+              "momentary",
+              "academic tradition"
+            ],
+            "missing": [
+              "light qualities"
+            ],
+            "hallucinated": [
+              "abandoned",
+              "academies",
+              "across",
+              "actually",
+              "alters"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.6875,
+            "response_words": 480,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 480,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 145,
+      "response_length": 1045,
+      "score": 0.6666666666666666,
+      "verdict": "fair",
+      "hallucinated": [
+        "abandon",
+        "ability",
+        "absinthe",
+        "acceptance",
+        "according"
+      ],
+      "response": "**Impressionism \u2013 A Comprehensive Overview**\n\nImpressionism was a revolutionary art movement that arose in France in the 1860s and fundamentally altered the way painters approached reality, light, and modern life. Below is a detailed explanation of its origins, core principles, major figures, influences, reception, and lasting legacy.\n\n---\n\n## 1. Historical Context\n\n| Aspect | Details |\n|--------|---------|\n| **Time & Place** | Mid\u20111860s, Paris, France. The movement coalesced around a group of young artists who exhibited together outside the official Salon. |\n| **Cultural Climate** | Rapid industrialisation, the expansion of railways, the rise of caf\u00e9s and leisure activities, and a growing middle class created new visual subjects. |\n| **Naming** | The term *Impressionism* derives from Claude Monet\u2019s painting **\u201cImpression, Sunrise\u201d** (1872). Critics initially used it mockingly, suggesting the works were unfinished sketches rather than finished paintings. |\n\n---\n\n## 2. Core Principles & Techniques\n\n| Principle | What It Means | How It Was Executed |\n|-----------|---------------|--------------------|\n| **1. Light and Color as Primary Elements** | Rather than modelling forms with chiaroscuro (light\u2011dark contrast) using black or brown, Impressionists sought to depict the *actual* colors that light creates on surfaces. Shadows become blues, purples, or greens, not just black. | Paintings are bathed in natural light; colors shift according to time of day, weather, and season. |\n| **2. Broken (or \u201cSeparate\u201d) Color** | Colors are placed side\u2011by\u2011side in small, unmixed strokes. The viewer\u2019s eye optically mixes them, creating a luminous, shimmering effect. | Instead of blending pigments on the palette, artists apply pure hues directly on the canvas (e.g., a patch of orange next to a patch of blue to suggest a violet shadow). |\n| **3. Visible, Short Brushstrokes** | Brushwork is loose, rapid, and often left conspicuously visible, conveying movement, atmosphere, and the fleeting nature of the moment. | Strokes are often \u201cdabbed\u201d or \u201cdotted,\u201d giving a sense of immediacy\u2014think of Monet\u2019s quick, flickering strokes in his water\u2011lily series. |\n| **4. En Plein Air (Outdoor) Painting** | Artists left the studio to paint directly outdoors, observing light and atmosphere in real time. This was made possible by portable paint tubes (invented 1841) and lightweight easels. | Paintings such as Renoir\u2019s \u201cLuncheon of the Boating Party\u201d capture the dappled sunlight filtered through trees, rendered on the spot. |\n| **5. Modern Life as Subject Matter** | Rejecting historical, mythological, or religious themes, Impressionists depicted contemporary scenes: caf\u00e9s, railway stations, urban streets, leisure activities, and rural labor. | Monet\u2019s series of **Haystacks**, **Rouen Cathedral**, and **Railway Bridge at Argenteuil** illustrate everyday subjects under varying light conditions. |\n\n---\n\n## 3. Key Artists & Representative Works\n\n| Artist | Notable Works | Distinctive Contributions |\n|--------|---------------|----------------------------|\n| **Claude Monet** | *Impression, Sunrise* (1872), *Haystacks* series, *Rouen Cathedral* series, *Water Lilies* | Master of serial paintings that explore the same subject under different lighting; champion of atmospheric effects. |\n| **Pierre-Auguste Renoir** | *Dance at Le Moulin de la Galette* (1876), *Luncheon of the Boating Party* (1881) | Expert at rendering warm, dappled light and the sensuality of social gatherings. |\n| **Edgar Degas** | *The Ballet Class* (c. 1874), *The Absinthe Drinker* (1876) | Focused on movement and unusual viewpoints; often painted indoors, using pastels and unusual cropping. |\n| **Camille Pissarro** | *The Harvest* (1882), *Boulevard Montmartre* (1897) | Chronicler of both urban and rural life; emphasized the democratic, everyday aspects of modern France. |\n| **Alfred Sisley** | *The Bridge at Moret-sur-Loing* (1893) | Dedicated to pure landscape, capturing atmospheric conditions with subtle color harmonies. |\n\n---\n\n## 4. Influences on the Movement\n\n| Influence | How It Shaped Impressionism |\n|-----------|-----------------------------|\n| **Photography** | The camera\u2019s ability to capture a \u201csnapshot\u201d of a moment encouraged painters to depict fleeting instants and spontaneous compositions. |\n| **Japanese Woodblock Prints (Ukiyo\u2011e)** | Introduced new compositional strategies: bold cropping, flat color areas, asymmetrical layouts, and emphasis on pattern. |\n| **Scientific Color Theory (Michel Eug\u00e8ne Chevreul, 1839)** | Chevreul\u2019s work on simultaneous contrast and complementary colors informed the broken\u2011color technique and the optical mixing that defines Impressionist palettes. |\n| **Industrial Advances** | Portable paint tubes, portable easels, and cheap canvas made it feasible to paint outdoors quickly. |\n\n---\n\n## 5. Reception & Opposition\n\n* **Salon Rejection** \u2013 The official Paris Salon, the academic art establishment, dismissed Impressionist works as unfinished, sloppy, and lacking moral seriousness. Their loose brushwork and bright palette were seen as a breach of \u201cproper\u201d technique.\n* **Critical Derision** \u2013 The term *Impressionism* itself was coined by critic **Louis Leroy** in a satirical review, implying that the paintings were mere \u201cimpressions\u201d rather than finished artworks.\n* **Independent Exhibitions** \u2013 In response, the group organized their own shows (the first in 1874) outside the Salon, gradually gaining public and critical acceptance.\n\n---\n\n## 6. Legacy and Evolution\n\n| Development | Connection to Impressionism |\n|-------------|------------------------------|\n| **Post\u2011Impressionism** (1880s\u20111890s) | Artists such as **Georges Seurat**, **Paul C\u00e9zanne**, and **Vincent van Gogh** built on Impressionist concerns with color and perception but introduced greater structural or emotional emphasis. |\n| **Neo\u2011Impressionism / Pointillism** (Seurat, 1884) | Systematized color theory by applying tiny dots of pure color that blend optically at a distance, a logical extension of broken\u2011color technique. |\n| **Fauvism** (early 20th\u202fc.) | Embraced the liberated use of vivid, non\u2011naturalistic color first explored by the Impressionists. |\n| **Abstract Art** | The emphasis on perception over representation paved the way for artists to abandon recognizable subjects altogether. |\n| **Modern Photography & Film** | The Impressionist focus on momentary light and atmosphere anticipated cinematic techniques of capturing fleeting impressions. |\n\n---\n\n## 7. Summation\n\nImpressionism represents a **radical shift** from the academic tradition of meticulously rendered, narrative paintings to a **sensory, moment\u2011based approach** that prioritized:\n\n1. **Direct observation of light** and its effect on color.\n2. **Optical mixing** through juxtaposed, unmixed pigments.\n3. **Visible, energetic brushwork** that conveys immediacy.\n4. **Painting outdoors** to capture the atmosphere of the natural world.\n5. **Depicting contemporary life**, reflecting the social and technological changes of the late\u201119th\u2011century world.\n\nThrough these innovations, Impressionist artists liberated color from its purely descriptive role, foregrounded the act of seeing, and opened the door for a cascade of modernist movements that continue to shape visual culture today.",
+      "detailed_eval": {
+        "final_score": 0.6666666666666666,
+        "components": {
+          "strict": {
+            "score": 0.6666666666666666,
+            "found": [
+              "plein air",
+              "optical mixing",
+              "Monet",
+              "light conditions"
+            ],
+            "missing": [
+              "broken color",
+              "academic painting"
+            ],
+            "hallucinated": [
+              "abandon",
+              "ability",
+              "absinthe",
+              "acceptance",
+              "according"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 1045,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 1045,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.2892828268416798,
+    "CSI_stderr": 0.1324585620402062,
+    "R_squared": 0.613881523615638,
+    "C_h": 0.020689655172413793,
+    "mean_score": 0.8433333333333334,
+    "score_variance": 0.13482498944104457,
+    "min_score": 0.6666666666666666,
+    "max_score": 1.0,
+    "decay_direction": "improvement",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Performance improves significantly with compression. Model may be ignoring compression constraints or evaluation is too lenient."
+    ]
+  }
+}

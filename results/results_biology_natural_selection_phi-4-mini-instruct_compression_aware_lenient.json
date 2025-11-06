@@ -1,0 +1,285 @@
+{
+  "concept": "natural_selection",
+  "domain": "biology",
+  "model": "Phi-4-mini-instruct",
+  "prompt_strategy": "compression_aware",
+  "evaluation_mode": "lenient",
+  "performance": [
+    {
+      "compression_level": 0,
+      "context_length": 2,
+      "response_length": 2,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [],
+      "response": "differential survival",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "differential",
+              "survival"
+            ],
+            "missing": [],
+            "hallucinated": [],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 0.5,
+            "response_words": 2,
+            "expected_range": [
+              10.0,
+              30.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 2,
+        "compression_level": 0
+      }
+    },
+    {
+      "compression_level": 1,
+      "context_length": 4,
+      "response_length": 21,
+      "score": 0.6666666666666666,
+      "verdict": "fair",
+      "hallucinated": [
+        "become",
+        "beneficial",
+        "common",
+        "leading",
+        "population"
+      ],
+      "response": "Beneficial traits increase reproduction, leading to more offspring with those traits. Over time, these traits become more common in the population.",
+      "detailed_eval": {
+        "final_score": 0.6666666666666666,
+        "components": {
+          "strict": {
+            "score": 0.6666666666666666,
+            "found": [
+              "traits",
+              "reproduction"
+            ],
+            "missing": [
+              "advantageous"
+            ],
+            "hallucinated": [
+              "become",
+              "beneficial",
+              "common",
+              "leading",
+              "population"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 21,
+            "expected_range": [
+              20.0,
+              60.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "fair",
+        "response_length": 21,
+        "compression_level": 1
+      }
+    },
+    {
+      "compression_level": 2,
+      "context_length": 14,
+      "response_length": 118,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "advantageous",
+        "because",
+        "become",
+        "better",
+        "common"
+      ],
+      "response": "Natural selection is a fundamental mechanism of evolution, where organisms with traits that are advantageous for survival and reproduction in their environment are more likely to pass these traits on to their offspring. Over time, this process can lead to the adaptation of species to their environment, as beneficial traits become more common within the population. This occurs because individuals with these traits are more likely to survive and reproduce, thereby increasing the frequency of these traits in the gene pool. As a result, the population evolves, and species may become better suited to their habitats. This process is driven by the differential survival and reproduction of individuals due to variations in their traits, which are often heritable.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "beneficial traits",
+              "survive",
+              "reproduce",
+              "offspring"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "advantageous",
+              "because",
+              "become",
+              "better",
+              "common"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 118,
+            "expected_range": [
+              30.0,
+              90.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 118,
+        "compression_level": 2
+      }
+    },
+    {
+      "compression_level": 3,
+      "context_length": 33,
+      "response_length": 147,
+      "score": 0.8,
+      "verdict": "good",
+      "hallucinated": [
+        "adapt",
+        "advantage",
+        "advantageous",
+        "among",
+        "become"
+      ],
+      "response": "The requirements for natural selection, as outlined in the context provided, are as follows:\n\n1. Variation: There must be differences among individuals in a population. These differences can be in physical characteristics, behaviors, or other traits.\n\n2. Differential Survival and Reproduction: Some of these variations must confer an advantage in terms of survival or reproduction. Individuals with advantageous traits are more likely to survive and reproduce.\n\n3. Heritability: The traits that aid in survival and reproduction must be heritable, meaning they can be passed on to the next generation through genetic inheritance.\n\n4. Reproduction of Better Adapted Organisms: Over time, the individuals with advantageous traits are more likely to reproduce, passing these traits on to their offspring. This leads to a gradual change in the population, as these traits become more common.\n\nThese requirements drive the process of evolution, as populations adapt to their environments over generations.",
+      "detailed_eval": {
+        "final_score": 0.8,
+        "components": {
+          "strict": {
+            "score": 0.8,
+            "found": [
+              "differential survival",
+              "heritable",
+              "variation",
+              "evolution"
+            ],
+            "missing": [
+              "Darwin"
+            ],
+            "hallucinated": [
+              "adapt",
+              "advantage",
+              "advantageous",
+              "among",
+              "become"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 147,
+            "expected_range": [
+              40.0,
+              120.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "good",
+        "response_length": 147,
+        "compression_level": 3
+      }
+    },
+    {
+      "compression_level": 4,
+      "context_length": 118,
+      "response_length": 489,
+      "score": 1.0,
+      "verdict": "excellent",
+      "hallucinated": [
+        "ability",
+        "about",
+        "adapt",
+        "advantage",
+        "advantageous"
+      ],
+      "response": "Natural selection is a fundamental mechanism of evolution, first described by Charles Darwin and Alfred Russel Wallace. It explains how species adapt and evolve over time through the differential survival and reproduction of individuals due to variations in their traits. The process of natural selection can be broken down into several key components and mechanisms:\n\n\n1. Variation: Within any given population, individuals exhibit differences in their physical and behavioral traits. These variations are often due to genetic differences, which can arise from mutations, gene shuffling during sexual reproduction, and other genetic processes.\n\n\n2. Heritability: For natural selection to occur, the traits that vary among individuals must be heritable, meaning they can be passed from parents to offspring through genes. This ensures that advantageous traits can be inherited by the next generation.\n\n\n3. Selection pressure: The environment exerts pressures that influence which traits are advantageous for survival and reproduction. These pressures can include factors like predation, competition for resources, climate, and disease. Traits that confer an advantage in a given environment are more likely to be passed on to the next generation.\n\n\n4. Differential fitness: The concept of fitness in evolutionary biology refers to an individual's ability to survive and reproduce. Traits that enhance an individual's fitness will become more common in the population over time, as those individuals are more likely to pass on their genes.\n\n\nNatural selection operates through different mechanisms, including:\n\n\n- Directional selection: This occurs when one extreme phenotype is favored over other phenotypes, causing a shift in the population's trait distribution over time. An example is the evolution of antibiotic resistance in bacteria.\n\n- Stabilizing selection: This type of selection reduces variation by favoring the average phenotype and selecting against extreme variations. It tends to maintain the status quo within a population.\n\n- Disruptive selection: This favors individuals at both extremes of the phenotypic range, potentially leading to a bimodal distribution of traits. It can result in the formation of new species if the extremes become sufficiently distinct.\n\n\nNatural selection can lead to microevolution, which involves small-scale changes within a species, or macroevolution, which encompasses larger-scale changes that can result in the emergence of new species, or speciation.\n\n\nEvidence for natural selection comes from various sources, including the fossil record, which shows a historical sequence of life forms; comparative anatomy, which reveals homologous structures; molecular biology, which uncovers genetic similarities and differences; and observed evolution, such as the changes in beak size among finches in the Gal\u00e1pagos Islands.\n\n\nThe modern synthesis of evolutionary theory integrates natural selection with the principles of genetics, showing that evolution is essentially a change in allele frequencies within a population's gene pool. This synthesis has helped to clarify misconceptions about natural selection, such as the idea that it favors the \"strongest\" individuals or that it has a predetermined direction. It also emphasizes that natural selection acts on existing variation within a population and does not create new traits from scratch.",
+      "detailed_eval": {
+        "final_score": 1.0,
+        "components": {
+          "strict": {
+            "score": 1.0,
+            "found": [
+              "Darwin",
+              "differential survival",
+              "heritability",
+              "variation",
+              "fitness",
+              "evolution"
+            ],
+            "missing": [],
+            "hallucinated": [
+              "ability",
+              "about",
+              "adapt",
+              "advantage",
+              "advantageous"
+            ],
+            "hallucination_penalty": 0.0
+          },
+          "length": {
+            "score": 1.0,
+            "response_words": 489,
+            "expected_range": [
+              50.0,
+              150.0
+            ]
+          }
+        },
+        "weights": {
+          "keyword": 1.0,
+          "hallucination": 0.0,
+          "length": 0.0
+        },
+        "verdict": "excellent",
+        "response_length": 489,
+        "compression_level": 4
+      }
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.12964636989027234,
+    "CSI_stderr": 0.20252296354376276,
+    "R_squared": 0.12018305555466167,
+    "C_h": 0.01694915254237288,
+    "mean_score": 0.8933333333333333,
+    "score_variance": 0.13727506854649335,
+    "min_score": 0.6666666666666666,
+    "max_score": 1.0,
+    "decay_direction": "decay",
+    "n_compression_levels": 5,
+    "warnings": [
+      "WARNING: Low R\u00b2 (0.120). Non-linear decay pattern. Consider additional analysis."
+    ]
+  }
+}
