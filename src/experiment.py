@@ -3,6 +3,11 @@ Experiment runner - Orchestrates CDCT experiments
 """
 from typing import Dict, Any
 import json
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 try:
     from . import concept as concept_loader

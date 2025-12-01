@@ -114,3 +114,32 @@ def create_simple_prompt(context: str, question: str) -> str:
 Question: {question}
 
 Answer:"""
+
+
+def create_minimal_prompt(context: str, question: str) -> str:
+    """
+    Ablation prompt: Remove RLHF helpfulness cues.
+    
+    Tests if "be helpful" alignment signal is the cause of CC failure at c=0.5.
+    Removes social framing ("You are being tested") that might trigger
+    learned alignment behaviors that conflict with constraint adherence.
+    
+    Args:
+        context: The compressed text
+        question: The probe question
+    
+    Returns:
+        Minimal prompt without helpfulness cues
+    """
+    prompt = f"""AVAILABLE INFORMATION:
+{context}
+
+IMPORTANT: Answer using ONLY the information provided above.
+Keep your response brief (2-3 sentences max). Do not add details
+not present in the context.
+
+QUESTION: {question}
+
+ANSWER:"""
+    
+    return prompt

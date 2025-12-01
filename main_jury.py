@@ -1,6 +1,6 @@
 """
-Main entry point for CDCT experiments
-Configuration-driven model setup based on DDFT approach
+Main entry point for CDCT experiments with jury-based evaluation
+Runs subject model with consensus evaluation from 3 judges
 """
 import argparse
 import json
@@ -15,50 +15,47 @@ load_dotenv()
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from src import agent as agent_loader
-from src.experiment import run_experiment, compare_strategies, quick_test
+from src.experiment_jury import run_experiment_with_jury, compare_jury_strategies
 from src.compression_validator import validate_compression_protocol
-from src.analysis import analyze_multi_concept
 from models_config import SUBJECT_MODELS_CONFIG, JURY_MODELS_CONFIG
+
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Run CDCT experiments with improved evaluation",
+        description="Run CDCT experiments with jury-based evaluation",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  # Run single experiment
-  python main.py --concept concepts/derivative.json --model gpt-4.1 --deployment gpt-4-deployment
+  # Run jury evaluation
+  python main_jury.py --concept concepts/derivative.json --model gpt-4.1
   
-  # Compare prompt strategies
-  python main.py --concept concepts/derivative.json --model gpt-4.1 --deployment gpt-4-deployment --compare-strategies
-  
-  # Use strict evaluation mode
-  python main.py --concept concepts/derivative.json --model gpt-4.1 --deployment gpt-4-deployment --evaluation-mode strict
+  # Compare prompt strategies with jury
+  python main_jury.py --concept concepts/derivative.json --model gpt-4.1 --compare-strategies
   
   # Validate compression protocol only
-  python main.py --concept concepts/derivative.json --validate-only
+  python main_jury.py --concept concepts/derivative.json --validate-only
         """
     )
     
     parser.add_argument("--concept", type=str, required=True, 
                        help="Path to the concept JSON file")
     parser.add_argument("--model", type=str,
-                       help="Name of the model to use (e.g., gpt-5, phi-4, claude-haiku-4-5)")
+                       help="Name of the subject model to test")
     
     # Experiment options
     parser.add_argument("--prompt-strategy", type=str, 
                        default="compression_aware",
                        choices=["simple", "compression_aware", "few_shot"],
                        help="Prompting strategy to use")
-    parser.add_argument("--evaluation-mode", type=str,
-                       default="balanced",
-                       choices=["strict", "balanced", "lenient"],
-                       help="Evaluation strictness")
+    parser.add_argument("--ablation-type", type=str,
+                       choices=["baseline", "no_helpfulness"],
+                       default=None,
+                       help="Prompt variant for ablation study (RLHF hypothesis)")
     parser.add_argument("--compare-strategies", action="store_true",
-                       help="Compare all prompt strategies")
+                       help="Compare all prompt strategies with jury evaluation")
     parser.add_argument("--validate-only", action="store_true",
                        help="Only validate compression protocol, don't run experiment")
-    parser.add_argument("--output-dir", type=str, default="results",
+    parser.add_argument("--output-dir", type=str, default="results_jury",
                        help="Directory to save results")
     parser.add_argument("--quiet", action="store_true",
                        help="Suppress verbose output")
@@ -94,65 +91,102 @@ Examples:
         if args.validate_only:
             return
     
-    # Instantiate agent using config-driven approach
+    # Create output directory
+    os.makedirs(args.output_dir, exist_ok=True)
+    
+    # Build API keys dictionary from environment
+    api_keys = {
+        "AZURE_API_KEY": os.getenv("AZURE_API_KEY"),
+        "AZURE_OPENAI_API_ENDPOINT": os.getenv("AZURE_OPENAI_API_ENDPOINT"),
+        "DDFT_MODELS_ENDPOINT": os.getenv("DDFT_MODELS_ENDPOINT"),
+        "AZURE_ANTHROPIC_API_ENDPOINT": os.getenv("AZURE_ANTHROPIC_API_ENDPOINT"),
+    }
+    
+    # Initialize subject model
     if not args.model:
         print("ERROR: --model is required for running experiments")
         return
     
     try:
-        # Find model config
-        all_configs = SUBJECT_MODELS_CONFIG + JURY_MODELS_CONFIG
-        model_config = None
-        for config in all_configs:
+        # Find subject model config
+        subject_config = None
+        for config in SUBJECT_MODELS_CONFIG:
             if config["model_name"].lower() == args.model.lower():
-                model_config = config
+                subject_config = config
                 break
         
-        if not model_config:
-            print(f"ERROR: Model '{args.model}' not found in configuration")
+        if not subject_config:
+            print(f"ERROR: Subject model '{args.model}' not found in SUBJECT_MODELS_CONFIG")
             return
         
-        # Build API keys dictionary from environment
-        api_keys = {
-            "AZURE_API_KEY": os.getenv("AZURE_API_KEY"),
-            "AZURE_OPENAI_API_ENDPOINT": os.getenv("AZURE_OPENAI_API_ENDPOINT"),
-            "DDFT_MODELS_ENDPOINT": os.getenv("DDFT_MODELS_ENDPOINT"),
-            "AZURE_ANTHROPIC_API_ENDPOINT": os.getenv("AZURE_ANTHROPIC_API_ENDPOINT"),
-        }
+        # Create subject agent
+        subject_agent = agent_loader.create_agent(subject_config, api_keys)
         
-        # Create agent using config
-        agent = agent_loader.create_agent(model_config, api_keys)
-    except ValueError as e:
+        # Initialize jury members
+        print(f"\n{'='*70}")
+        print("INITIALIZING JURY MEMBERS")
+        print(f"{'='*70}\n")
+        
+        jury_agents = {}
+        jury_models = ["claude-opus-4-1-2", "gpt-5.1", "deepseek-v3.1"]
+        
+        for jury_model in jury_models:
+            # Find jury model config
+            jury_config = None
+            for config in JURY_MODELS_CONFIG:
+                if config["model_name"].lower() == jury_model.lower():
+                    jury_config = config
+                    break
+            
+            if not jury_config:
+                print(f"⚠ WARNING: Jury model '{jury_model}' not found in JURY_MODELS_CONFIG")
+                continue
+            
+            try:
+                jury_agent = agent_loader.create_agent(jury_config, api_keys)
+                jury_agents[jury_model] = jury_agent
+                print(f"✓ Initialized {jury_model}")
+            except Exception as e:
+                print(f"✗ Failed to initialize {jury_model}: {e}")
+        
+        if not jury_agents or len(jury_agents) < 2:
+            print("ERROR: Need at least 2 jury members. Check JURY_MODELS_CONFIG and API credentials.")
+            return
+        
+        print(f"\nJury ready: {list(jury_agents.keys())}")
+        
+    except Exception as e:
         print(f"ERROR: {e}")
+        import traceback
+        traceback.print_exc()
         return
-    
-    # Create output directory
-    os.makedirs(args.output_dir, exist_ok=True)
     
     concept_name = os.path.splitext(os.path.basename(args.concept))[0]
     
     # Run experiments
     if args.compare_strategies:
         print(f"\n{'#'*70}")
-        print("COMPARING PROMPT STRATEGIES")
+        print("COMPARING PROMPT STRATEGIES WITH JURY EVALUATION")
         print(f"{'#'*70}\n")
         
-        results = compare_strategies(args.concept, agent)
+        results = compare_jury_strategies(args.concept, subject_agent, jury_agents)
         
         # Save comparison
         output_path = os.path.join(
             args.output_dir,
-            f"comparison_{concept_name}_{args.model.replace('/', '_')}.json"
+            f"jury_comparison_{concept_name}_{args.model.replace('/', '_')}.json"
         )
         
         comparison_summary = {
             "concept": concept_name,
-            "model": args.model,
+            "subject_model": args.model,
+            "jury_models": list(jury_agents.keys()),
+            "evaluation_system": "jury",
             "strategies": {
                 strategy: {
                     "CSI": result["analysis"]["CSI"],
-                    "C_h": result["analysis"]["C_h"],
                     "mean_score": result["analysis"]["mean_score"],
+                    "mean_agreement": result["analysis"]["mean_agreement"],
                     "decay_direction": result["analysis"]["decay_direction"]
                 }
                 for strategy, result in results.items()
@@ -166,7 +200,7 @@ Examples:
         for strategy, result in results.items():
             full_path = os.path.join(
                 args.output_dir,
-                f"results_{concept_name}_{args.model.replace('/', '_')}_{strategy}.json"
+                f"jury_results_{concept_name}_{args.model.replace('/', '_')}_{strategy}.json"
             )
             with open(full_path, 'w') as f:
                 json.dump(result, f, indent=2)
@@ -174,19 +208,24 @@ Examples:
         print(f"\nResults saved to {args.output_dir}/")
         
     else:
-        # Run single experiment
-        results = run_experiment(
+        # Run single experiment with jury
+        ablation_suffix = ""
+        if args.ablation_type == "no_helpfulness":
+            ablation_suffix = "_no_helpfulness"
+        
+        results = run_experiment_with_jury(
             concept_path=args.concept,
-            agent=agent,
+            subject_agent=subject_agent,
+            jury_agents=jury_agents,
             prompt_strategy=args.prompt_strategy,
-            evaluation_mode=args.evaluation_mode,
+            ablation_type=args.ablation_type if args.ablation_type != "baseline" else None,
             verbose=not args.quiet
         )
         
         # Save results
         output_filename = (
-            f"results_{concept_name}_{args.model.replace('/', '_')}_"
-            f"{args.prompt_strategy}_{args.evaluation_mode}.json"
+            f"jury_results_{concept_name}_{args.model.replace('/', '_')}_"
+            f"{args.prompt_strategy}{ablation_suffix}.json"
         )
         output_path = os.path.join(args.output_dir, output_filename)
         
@@ -194,50 +233,6 @@ Examples:
             json.dump(results, f, indent=2)
         
         print(f"\nResults saved to {output_path}")
-        
-        # Print summary
-        if not args.quiet:
-            print_summary(results)
-
-
-def print_summary(results: dict):
-    """Print a nice summary of results."""
-    analysis = results['analysis']
-    
-    print(f"\n{'='*70}")
-    print("EXPERIMENT SUMMARY")
-    print(f"{'='*70}")
-    print(f"Concept:      {results['concept']}")
-    print(f"Domain:       {results['domain']}")
-    print(f"Model:        {results['model']}")
-    print(f"Strategy:     {results.get('prompt_strategy', 'N/A')}")
-    print(f"Eval Mode:    {results.get('evaluation_mode', 'N/A')}")
-    print(f"\nMETRICS:")
-    print(f"  CSI:              {analysis['CSI']:.4f}")
-    print(f"  C_h:              {analysis['C_h']}")
-    print(f"  Mean Score:       {analysis['mean_score']:.3f}")
-    print(f"  Score Variance:   {analysis['score_variance']:.3f}")
-    print(f"  Decay Direction:  {analysis['decay_direction']}")
-    if analysis.get('R_squared'):
-        print(f"  R²:               {analysis['R_squared']:.3f}")
-    
-    # Performance breakdown
-    print(f"\nPERFORMANCE BY COMPRESSION LEVEL:")
-    print(f"{'Level':<10} {'Score':<10} {'Verdict':<12} {'Response Length'}")
-    print("-" * 70)
-    for p in results['performance']:
-        print(f"{p['compression_level']:<10} "
-              f"{p['score']:<10.3f} "
-              f"{p.get('verdict', 'N/A'):<12} "
-              f"{p.get('response_length', 0)} words")
-    
-    # Warnings
-    if 'warnings' in analysis:
-        print(f"\nWARNINGS:")
-        for w in analysis['warnings']:
-            print(f"  ⚠ {w}")
-    
-    print(f"{'='*70}\n")
 
 
 if __name__ == "__main__":

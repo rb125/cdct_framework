@@ -1,86 +1,74 @@
 {
   "concept": "modus_ponens",
   "domain": "logic",
-  "abstraction_level": 3,
+  "abstraction_level": 5,
   "corpus": [
     {
-      "compression_level": 0,
-      "text": "affirming antecedent",
-      "probes": {
-        "recall": "Modus ponens is the rule of...",
-        "application": "If it rains, streets are wet. It's raining. Therefore...",
-        "transfer": "How do computer programs use if-then logic?",
-        "counterfactual": "Without modus ponens, could we make logical deductions?"
-      },
+      "compression_level": 0.0,
+      "text": "if-then inference",
+      "probe_question": "What is modus_ponens?",
       "expected_keywords": [
-        "affirming",
-        "antecedent"
-      ]
-    },
-    {
-      "compression_level": 1,
-      "text": "if P then Q; P; therefore Q",
-      "probes": {
-        "recall": "State the modus ponens inference pattern.",
-        "application": "Given 'If you study, you pass' and 'You studied', conclude...",
-        "transfer": "How is modus ponens used in mathematical proofs?",
-        "counterfactual": "What if we affirmed Q instead of P?"
-      },
-      "expected_keywords": [
-        "if",
-        "then",
-        "therefore"
-      ]
-    },
-    {
-      "compression_level": 2,
-      "text": "Modus ponens: From 'P implies Q' and 'P is true', deduce 'Q is true'. Valid inference rule.",
-      "probes": {
-        "recall": "Explain modus ponens formally.",
-        "application": "Validate: 'All birds fly. Robins are birds. So robins fly.'",
-        "transfer": "How does modus ponens relate to causation?",
-        "counterfactual": "Is the reverse (Q true, therefore P true) valid?"
-      },
-      "expected_keywords": [
-        "implies",
-        "deduce",
-        "valid",
-        "inference"
-      ]
-    },
-    {
-      "compression_level": 3,
-      "text": "Modus ponens is a valid argument form: Given conditional 'If P then Q' and affirmation of antecedent 'P', conclude consequent 'Q'. Symbolically: ((P→Q) ∧ P) ⊢ Q. Fundamental to deductive reasoning, cannot lead from true premises to false conclusion.",
-      "probes": {
-        "recall": "What makes modus ponens a valid deductive argument?",
-        "application": "Check validity: 'If it's a mammal, it's warm-blooded. It's a dog. Therefore...'",
-        "transfer": "How do expert systems use modus ponens for inference?",
-        "counterfactual": "In paraconsistent logic, does modus ponens always hold?"
-      },
-      "expected_keywords": [
+        "inference",
         "conditional",
+        "logic"
+      ]
+    },
+    {
+      "compression_level": 0.25,
+      "text": "if-then inference with affirmation",
+      "probe_question": "Describe modus_ponens briefly",
+      "expected_keywords": [
+        "if-then",
+        "inference",
+        "affirmation",
+        "logic"
+      ]
+    },
+    {
+      "compression_level": 0.5,
+      "text": "Modus ponens lets us deduce a conclusion when we know a general rule (\"if-then\") and confirm its condition is true, making logical reasoning clear and reliable.",
+      "probe_question": "Explain modus_ponens",
+      "expected_keywords": [
+        "modus ponens",
+        "deduction",
+        "general rule",
+        "logical reasoning",
+        "conclusion",
+        "condition"
+      ]
+    },
+    {
+      "compression_level": 0.75,
+      "text": "Modus ponens is a fundamental inference rule in propositional logic. It states that if a conditional statement (\"If P, then Q\") is true and its antecedent (P) holds, we can validly infer the consequent (Q). For example, given \"If it rains, the ground gets wet\" and \"It is raining,\" we conclude \"The ground gets wet.\" This rule underpins deductive reasoning and formal proofs.",
+      "probe_question": "Provide a detailed explanation of modus_ponens",
+      "expected_keywords": [
+        "modus ponens",
+        "inference rule",
+        "propositional logic",
+        "conditional statement",
         "antecedent",
         "consequent",
-        "valid",
-        "deductive"
+        "deductive reasoning",
+        "formal proofs"
       ]
     },
     {
-      "compression_level": 4,
-      "text": "Modus ponens (Latin: 'method of affirming') is a fundamental rule of inference in propositional logic. Form: From premises (1) P→Q (conditional/implication) and (2) P (antecedent), validly conclude Q (consequent). Symbolic notation: ((P→Q) ∧ P) ⊢ Q or {P→Q, P} ⊢ Q. Truth-preserving: if premises true, conclusion must be true. Natural deduction: elimination rule for implication. Distinction from fallacies: (a) Affirming consequent: ((P→Q) ∧ Q) ⊢ P is INVALID, (b) Denying antecedent: ((P→Q) ∧ ¬P) ⊢ ¬Q is INVALID. Related valid form: modus tollens ((P→Q) ∧ ¬Q) ⊢ ¬P. Applications: mathematical proofs, automated theorem proving, expert systems, legal reasoning. In AI: forward chaining in rule-based systems. Philosophical significance: embodies core of deductive reasoning, Kant called it 'analytic'. Limitations: assumes classical logic, in quantum logic may not hold. Historical: known to Stoics, formalized by medieval scholastics, central to modern symbolic logic.",
-      "probes": {
-        "recall": "Provide a complete explanation of modus ponens.",
-        "application": "Construct a complex argument using modus ponens multiple times.",
-        "transfer": "How does modus ponens work in fuzzy logic with partial truths?",
-        "counterfactual": "In a three-valued logic (true/false/unknown), how would modus ponens change?"
-      },
+      "compression_level": 1.0,
+      "text": "**Modus ponens** is a fundamental rule of inference in propositional logic, often referred to as \"affirming the antecedent.\" It states that if a conditional statement (\"If P, then Q\") is accepted as true, and its antecedent (P) is also true, then the consequent (Q) must necessarily be true. Formally, modus ponens is represented as:\n\n1. P \u2192 Q (If P, then Q)\n2. P (P is true)\n3. \u2234 Q (Therefore, Q is true)\n\nThis rule is valid and preserves truth from premises to conclusion, making it essential for deductive reasoning. Modus ponens underpins mathematical proofs, computer science algorithms, and formal systems, enabling the derivation of conclusions from established premises. Its reliability and simplicity make it a cornerstone in logic, ensuring that arguments constructed using modus ponens are both sound and logically consistent.",
+      "probe_question": "Provide a comprehensive explanation of modus_ponens",
       "expected_keywords": [
-        "rule of inference",
-        "conditional",
+        "modus ponens",
+        "inference",
+        "propositional logic",
         "antecedent",
         "consequent",
-        "truth-preserving",
-        "deductive reasoning"
+        "conditional statement",
+        "deductive reasoning",
+        "mathematical proofs",
+        "computer science",
+        "formal systems",
+        "truth preservation",
+        "logical consistency"
       ]
     }
   ]

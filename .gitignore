@@ -89,12 +89,24 @@ celerybeat-schedule
 
 # Environments
 .env
+.env.local
+.env*.local
 .venv
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+
+# API Keys and secrets
+*.key
+*.pem
+*.secret
+.secrets/
+secrets.json
+api_keys.json
+credentials.json
+openai_key.txt
 
 # Spyder project settings
 .spyderproject
@@ -138,3 +150,9 @@ data/
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.zip
+*.pdf
+*.tar.gz\n# Ignore generated results
+results_jury/
+results_jury_ablation/
+verification_results/

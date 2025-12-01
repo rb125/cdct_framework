@@ -1,86 +1,74 @@
 {
   "concept": "harm_principle",
   "domain": "ethics",
-  "abstraction_level": 4,
+  "abstraction_level": 3,
   "corpus": [
     {
-      "compression_level": 0,
-      "text": "liberty unless harm",
-      "probes": {
-        "recall": "The harm principle limits actions when...",
-        "application": "Can society ban dangerous sports under this principle?",
-        "transfer": "How does this apply to hate speech regulation?",
-        "counterfactual": "Without the harm principle, how would laws differ?"
-      },
+      "compression_level": 0.0,
+      "text": "preventing harm",
+      "probe_question": "What is harm_principle?",
       "expected_keywords": [
-        "liberty",
-        "harm"
+        "prevention",
+        "safety",
+        "risk"
       ]
     },
     {
-      "compression_level": 1,
-      "text": "restrict actions only to prevent harm to others",
-      "probes": {
-        "recall": "When can individual freedom be limited?",
-        "application": "Should seatbelt laws exist under the harm principle?",
-        "transfer": "Apply this to environmental regulations.",
-        "counterfactual": "What if 'harm' included offense or discomfort?"
-      },
+      "compression_level": 0.25,
+      "text": "preventing harm to others",
+      "probe_question": "Describe harm_principle briefly",
       "expected_keywords": [
-        "restrict",
+        "preventing",
         "harm",
-        "others"
+        "others",
+        "safety"
       ]
     },
     {
-      "compression_level": 2,
-      "text": "Mill's principle: Individual liberty limited only when actions harm others, not for person's own good.",
-      "probes": {
-        "recall": "What does Mill say about paternalistic laws?",
-        "application": "Analyze drug prohibition through this lens.",
-        "transfer": "How does this relate to positive vs negative liberty?",
-        "counterfactual": "If self-harm affected society indirectly, would Mill's principle apply?"
-      },
+      "compression_level": 0.5,
+      "text": "The harm principle states that people\u2019s actions should only be limited to prevent harm to others, protecting individual freedom while ensuring safety and well-being in society.",
+      "probe_question": "Explain harm_principle",
       "expected_keywords": [
-        "Mill",
-        "liberty",
-        "harm others",
-        "own good"
+        "harm principle",
+        "individual freedom",
+        "prevent harm",
+        "safety",
+        "well-being",
+        "society"
       ]
     },
     {
-      "compression_level": 3,
-      "text": "John Stuart Mill's harm principle: Actions should only be restricted to prevent harm to others. Self-regarding actions are protected from interference. Distinguishes harm to others (legitimate restriction) from self-harm or offense (not legitimate). Foundational to liberalism.",
-      "probes": {
-        "recall": "What types of harm justify restricting liberty?",
-        "application": "Should vaccine mandates be allowed under this principle?",
-        "transfer": "Compare Mill's harm principle to Kant's categorical imperative.",
-        "counterfactual": "In a collectivist society, would the harm principle make sense?"
-      },
+      "compression_level": 0.75,
+      "text": "The harm principle, central to liberal ethics and articulated by John Stuart Mill, asserts that individual liberty should only be restricted to prevent harm to others, not for paternalistic or moral reasons. For example, laws against assault or theft are justified, while prohibiting self-destructive behavior is not. This principle guides debates on free speech, drug use, and public policy, balancing autonomy with societal protection.",
+      "probe_question": "Provide a detailed explanation of harm_principle",
       "expected_keywords": [
-        "Mill",
-        "restrict",
-        "harm to others",
-        "self-regarding",
-        "liberalism"
+        "harm principle",
+        "individual liberty",
+        "john stuart mill",
+        "liberal ethics",
+        "autonomy",
+        "societal protection",
+        "free speech",
+        "public policy"
       ]
     },
     {
-      "compression_level": 4,
-      "text": "John Stuart Mill's harm principle from 'On Liberty' (1859) states that individual actions should only be limited by society to prevent harm to others. Core tenets: (1) Self-regarding actions - those affecting only oneself - should never be restricted even if harmful to the individual, (2) Other-regarding actions can be restricted only to prevent direct harm to others, (3) Mere offense, disgust, or moral disapproval don't constitute 'harm', (4) Competent adults are best judges of their own interests. Implications: opposes paternalistic laws (seatbelts, drugs), supports free speech even if offensive, permits any consensual adult behavior. Challenges: defining 'harm' (physical only? economic? psychological?), indirect effects (do all actions affect others?), children and incompetent persons exempt. Central to liberal political philosophy, influenced First Amendment jurisprudence, debates on victimless crimes. Critics argue it's too individualistic, ignores social nature of humans.",
-      "probes": {
-        "recall": "Explain Mill's harm principle comprehensively.",
-        "application": "Analyze COVID mask mandates using the harm principle.",
-        "transfer": "How does the harm principle relate to modern debates on platform content moderation?",
-        "counterfactual": "If Mill included 'harm to society's moral fabric,' how would applications change?"
-      },
+      "compression_level": 1.0,
+      "text": "The harm principle is a foundational concept in ethics, most notably articulated by philosopher John Stuart Mill. It asserts that the actions of individuals should only be limited to prevent harm to others; personal liberty may be justifiably restricted only when one's conduct poses a risk of significant injury or detriment to another person. Key principles include the prioritization of autonomy, the distinction between self-regarding and other-regarding actions, and the necessity of demonstrable harm for intervention. The harm principle underpins legal and moral frameworks, guiding policies on free speech, drug use, and public health by delineating the boundary between personal freedom and societal protection. Its application requires careful analysis of what constitutes \"harm,\" balancing individual rights with collective welfare, and ensuring that restrictions are proportionate and justified by actual, not hypothetical, threats to others.",
+      "probe_question": "Provide a comprehensive explanation of harm_principle",
       "expected_keywords": [
-        "John Stuart Mill",
-        "On Liberty",
-        "self-regarding",
-        "other-regarding",
-        "paternalism",
-        "liberal philosophy"
+        "harm principle",
+        "john stuart mill",
+        "autonomy",
+        "personal liberty",
+        "self-regarding actions",
+        "other-regarding actions",
+        "demonstrable harm",
+        "legal frameworks",
+        "moral frameworks",
+        "free speech",
+        "societal protection",
+        "collective welfare"
       ]
     }
   ]

@@ -1,86 +1,74 @@
 {
   "concept": "derivative",
   "domain": "mathematics",
-  "abstraction_level": 2,
+  "abstraction_level": 4,
   "corpus": [
     {
-      "compression_level": 0,
+      "compression_level": 0.0,
       "text": "rate of change",
-      "probes": {
-        "recall": "A derivative measures...",
-        "application": "To find velocity from position, you need the...",
-        "transfer": "Stock price trends are analyzed using...",
-        "counterfactual": "Without derivatives, calculus would lack..."
-      },
+      "probe_question": "What is derivative?",
       "expected_keywords": [
         "rate",
-        "change"
+        "change",
+        "calculation"
       ]
     },
     {
-      "compression_level": 1,
-      "text": "instantaneous slope of curve",
-      "probes": {
-        "recall": "What does a derivative represent geometrically?",
-        "application": "At x=2 on a curve, the derivative gives you...",
-        "transfer": "The steepness of a hill at any point is like a...",
-        "counterfactual": "If derivatives were always zero, functions would be..."
-      },
+      "compression_level": 0.25,
+      "text": "instantaneous rate of change at point",
+      "probe_question": "Describe derivative briefly",
       "expected_keywords": [
-        "slope",
-        "curve",
-        "instantaneous"
-      ]
-    },
-    {
-      "compression_level": 2,
-      "text": "The derivative f'(x) = lim[h→0] (f(x+h)-f(x))/h measures instantaneous rate of change.",
-      "probes": {
-        "recall": "State the limit definition of derivative.",
-        "application": "Calculate f'(3) for f(x)=x² using the definition.",
-        "transfer": "How would you define acceleration using this concept?",
-        "counterfactual": "What if we didn't take the limit as h→0?"
-      },
-      "expected_keywords": [
-        "limit",
         "instantaneous",
-        "rate",
-        "change"
+        "rate of change",
+        "point",
+        "derivative"
       ]
     },
     {
-      "compression_level": 3,
-      "text": "The derivative measures instantaneous rate of change of a function. Geometrically, it's the slope of the tangent line. Common rules: power rule d/dx[x^n]=nx^(n-1), product rule, chain rule.",
-      "probes": {
-        "recall": "What are the main differentiation rules?",
-        "application": "Find the derivative of x³sin(x).",
-        "transfer": "How do derivatives relate to optimization problems?",
-        "counterfactual": "If the power rule didn't reduce the exponent, what would happen?"
-      },
+      "compression_level": 0.5,
+      "text": "A derivative measures the instantaneous rate of change at a point, helping us understand how a function\u2019s output responds to small input changes, which is crucial in physics and engineering.",
+      "probe_question": "Explain derivative",
       "expected_keywords": [
-        "tangent",
+        "derivative",
+        "instantaneous rate",
+        "function",
+        "output",
+        "physics",
+        "engineering"
+      ]
+    },
+    {
+      "compression_level": 0.75,
+      "text": "A derivative measures the instantaneous rate of change at a point, helping us understand how a function\u2019s output responds to small input changes, which is crucial in physics and engineering. For example, the derivative of position with respect to time gives velocity. In calculus, the derivative is often denoted as f'(x) or dy/dx, and it is fundamental for analyzing slopes, optimizing functions, and modeling dynamic systems.",
+      "probe_question": "Provide a detailed explanation of derivative",
+      "expected_keywords": [
+        "derivative",
+        "rate of change",
+        "function",
+        "calculus",
+        "velocity",
         "slope",
-        "power rule",
-        "chain rule",
-        "instantaneous"
+        "optimization",
+        "dynamic systems"
       ]
     },
     {
-      "compression_level": 4,
-      "text": "The derivative of a function measures sensitivity to change of the output with respect to the input. Formally: f'(x) = lim[h→0] (f(x+h)-f(x))/h when this limit exists. It represents the slope of the tangent line at any point. Key rules: power rule d/dx[x^n]=nx^(n-1), product rule d/dx[fg]=(f'g+fg'), chain rule d/dx[f(g(x))]=f'(g(x))·g'(x). Applications include velocity (derivative of position), optimization (finding maxima/minima where f'(x)=0), and approximation via linearization.",
-      "probes": {
-        "recall": "Explain the complete concept of derivatives.",
-        "application": "Find critical points of f(x)=x³-3x²+2.",
-        "transfer": "How do partial derivatives extend this concept to multiple variables?",
-        "counterfactual": "In a discrete world without continuity, how would rates of change work?"
-      },
+      "compression_level": 1.0,
+      "text": "In mathematics, the **derivative** of a function quantifies its instantaneous rate of change with respect to its independent variable. Formally, for a function \\( f(x) \\), the derivative at point \\( x \\) is defined as the limit \\( f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\), provided this limit exists. Key principles include linearity, the product and quotient rules, and the chain rule for composite functions. The derivative represents the slope of the tangent line to the graph of the function at a given point. Derivatives are fundamental in calculus and are widely applied in physics (e.g., velocity as the derivative of position), engineering (e.g., rates of change in systems), economics (e.g., marginal cost), and optimization problems. Higher-order derivatives describe curvature and acceleration, further extending their utility in mathematical analysis and modeling.",
+      "probe_question": "Provide a comprehensive explanation of derivative",
       "expected_keywords": [
+        "derivative",
+        "function",
+        "rate of change",
+        "independent variable",
         "limit",
-        "tangent",
-        "slope",
-        "differentiation",
-        "power rule",
-        "chain rule"
+        "tangent line",
+        "calculus",
+        "product rule",
+        "quotient rule",
+        "chain rule",
+        "higher-order derivatives",
+        "optimization"
       ]
     }
   ]

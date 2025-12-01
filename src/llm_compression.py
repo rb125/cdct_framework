@@ -12,7 +12,7 @@ from dataclasses import dataclass, asdict
 @dataclass
 class CompressionLevel:
     """Represents one level in the compression protocol."""
-    compression_level: int
+    compression_level: float
     text: str
     probe_question: str
     expected_keywords: List[str]
@@ -137,7 +137,7 @@ Your 1-3 word phrase:"""
         keywords = self._extract_keywords(response, max_keywords=3)
         
         return CompressionLevel(
-            compression_level=0,
+            compression_level=0.0,
             text=response,
             probe_question=f"What is {concept}?",
             expected_keywords=keywords,
@@ -174,7 +174,7 @@ Your 3-6 word phrase:"""
         keywords = self._extract_keywords(response, max_keywords=4)
         
         return CompressionLevel(
-            compression_level=1,
+            compression_level=0.25,
             text=response,
             probe_question=f"Describe {concept} briefly",
             expected_keywords=keywords,
@@ -212,7 +212,7 @@ Your 15-30 word explanation:"""
         keywords = self._extract_keywords(response, max_keywords=6)
         
         return CompressionLevel(
-            compression_level=2,
+            compression_level=0.5,
             text=response,
             probe_question=f"Explain {concept}",
             expected_keywords=keywords,
@@ -254,7 +254,7 @@ Your 40-80 word explanation:"""
         keywords = self._extract_keywords(response, max_keywords=8)
         
         return CompressionLevel(
-            compression_level=3,
+            compression_level=0.75,
             text=response,
             probe_question=f"Provide a detailed explanation of {concept}",
             expected_keywords=keywords,
@@ -295,7 +295,7 @@ Your comprehensive explanation:"""
         keywords = self._extract_keywords(response, max_keywords=12)
         
         return CompressionLevel(
-            compression_level=4,
+            compression_level=1.0,
             text=response,
             probe_question=f"Provide a comprehensive explanation of {concept}",
             expected_keywords=keywords,
