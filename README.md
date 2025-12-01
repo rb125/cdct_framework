@@ -1,6 +1,6 @@
-# Concept-Dependent Comprehension Test (CDCT) Framework
+# Compression Decay Comprehension Test (CDCT) Framework
 
-This repository contains the source code and data for the research paper "The Concept-Dependent Comprehension Test (CDCT): An Information-Theoretic Benchmark for Measuring Machine Comprehension." The framework is designed to evaluate and analyze the comprehension capabilities of various language models through a series of structured experiments.
+This repository contains the source code and data for the research paper "The Compression Decay Comprehension Test (CDCT)." The framework is designed to evaluate and analyze the comprehension capabilities of various language models through a series of structured experiments.
 
 ## Features
 
@@ -103,17 +103,4 @@ To calculate the final CDCT metrics:
 
 ```bash
 python calculate_cdct_metrics.py
-```
-
-## Citation
-
-If you use this framework in your research, please cite our paper:
-
-```bibtex
-@article{your_paper_citation,
-  title={The Concept-Dependent Comprehension Test (CDCT): An Information-Theoretic Benchmark for Measuring Machine Comprehension},
-  author={Your Name, et al.},
-  journal={Transactions on Machine Learning Research},
-  year={2025}
-}
 ```
