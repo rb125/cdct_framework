@@ -8,11 +8,19 @@
   ],
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/sse",
       "headers": [
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,OPTIONS" },
-        { "key": "Access-Control-Allow-Headers", "value": "Content-Type, Authorization, x-mcp-protocol-version" }
+        { "key": "Content-Type", "value": "text/event-stream" },
+        { "key": "Cache-Control", "value": "no-cache" },
+        { "key": "Connection", "value": "keep-alive" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/messages",
+      "headers": [
+        { "key": "Content-Type", "value": "application/json" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
       ]
     }
   ]
