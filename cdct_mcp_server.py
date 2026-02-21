@@ -65,10 +65,6 @@ def get_model_score(model: str) -> str:
 def run_experiment(model: str, concepts: Optional[List[str]] = None) -> str:
     """
     Run a fresh CDCT diagnostic battery against a model.
-    
-    Args:
-        model: The name of the model to evaluate.
-        concepts: Optional list of concepts.
     """
     model_exists = any(config["model_name"].lower() == model.lower() for config in SUBJECT_MODELS_CONFIG)
     
