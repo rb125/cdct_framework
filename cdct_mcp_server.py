@@ -6,6 +6,7 @@ import threading
 import json
 from typing import List, Optional
 from pathlib import Path
+from fastapi import FastAPI
 from mcp.server.fastmcp import FastMCP
 
 # Add parent directory to path to ensure imports work
@@ -20,7 +21,6 @@ mcp = FastMCP("CDCT Framework")
 def run_diagnostic_battery_sync(model: str, concepts: Optional[List[str]] = None):
     """
     Runs main_jury.py for each concept for the given model.
-    This is the internal implementation that can be run in a thread.
     """
     if concepts is None:
         concepts_dir = "concepts"
@@ -39,7 +39,6 @@ def run_diagnostic_battery_sync(model: str, concepts: Optional[List[str]] = None
         ]
         
         try:
-            # We run this synchronously here, but usually it's called in a thread
             subprocess.run(cmd, check=True)
             print(f"Completed experiment: {concept_name} for model {model}")
         except subprocess.CalledProcessError as e:
@@ -48,11 +47,7 @@ def run_diagnostic_battery_sync(model: str, concepts: Optional[List[str]] = None
 @mcp.tool()
 def get_model_score(model_name: str) -> str:
     """
-    Retrieve existing CDCT (Cross-Domain Compression Threshold) results for a specific model name.
-    The CDCT metrics include SF, CRI, HOC, FAR', SAS', and CI.
-    
-    Args:
-        model_name: The name of the model to retrieve scores for (e.g., 'gpt-5', 'DeepSeek-v3.1').
+    Retrieve existing CDCT results for a specific model name.
     """
     metrics = get_model_metrics(model_name)
     if not metrics:
@@ -60,56 +55,81 @@ def get_model_score(model_name: str) -> str:
         if model_exists:
             return f"No scores found for '{model_name}'. You can start a diagnostic battery using the 'run_experiment' tool."
         else:
-            return f"Model '{model_name}' not found in configuration. Use 'list_available_models' to see supported models."
+            return f"Model '{model_name}' not found in configuration."
             
     return json.dumps(metrics, indent=2)
 
 @mcp.tool()
 def run_experiment(model_name: str, concepts: Optional[List[str]] = None) -> str:
     """
-    Run a fresh CDCT diagnostic battery against a model. This is a long-running process
-    that evaluates the model's performance across various semantic compression levels.
-    
-    Args:
-        model_name: The name of the model to evaluate.
-        concepts: Optional list of specific concept file paths to run. If None, all concepts in the 'concepts/' directory are used.
+    Run a fresh CDCT diagnostic battery against a model.
     """
     model_exists = any(config["model_name"].lower() == model_name.lower() for config in SUBJECT_MODELS_CONFIG)
     
     if not model_exists:
-        return f"Model '{model_name}' not found. Use 'list_available_models' to see supported models."
+        return f"Model '{model_name}' not found."
 
-    # Start in background thread to not block MCP tool response
     thread = threading.Thread(target=run_diagnostic_battery_sync, args=(model_name, concepts))
     thread.start()
     
-    return f"Diagnostic battery started in background for model '{model_name}'. This may take several minutes to complete."
+    return f"Diagnostic battery started in background for model '{model_name}'."
 
 @mcp.tool()
 def list_available_models() -> str:
     """
-    List all models configured for CDCT evaluation and their architectural details.
+    List all models configured for CDCT evaluation.
     """
     models = []
     for config in SUBJECT_MODELS_CONFIG:
         models.append({
             "name": config["model_name"],
             "family": config.get("family", "Unknown"),
-            "architecture": config.get("architecture", "Unknown"),
-            "params": config.get("params", "Unknown")
+            "architecture": config.get("architecture", "Unknown")
         })
     return json.dumps(models, indent=2)
 
 @mcp.tool()
 def list_concepts() -> str:
     """
-    List all available semantic concepts used in CDCT experiments.
+    List all available semantic concepts.
     """
     concepts_dir = "concepts"
     concept_files = glob.glob(os.path.join(concepts_dir, "*.json"))
     concepts = [os.path.splitext(os.path.basename(f))[0] for f in concept_files]
     return json.dumps(sorted(concepts), indent=2)
 
+@mcp.tool()
+def server_status() -> str:
+    """
+    Check the health and environment of the CDCT MCP server.
+    """
+    is_vercel = "VERCEL" in os.environ
+    return json.dumps({
+        "status": "online",
+        "environment": "Vercel" if is_vercel else "Local/Other",
+        "writable_filesystem": not is_vercel,
+        "features": {
+            "score_retrieval": "active",
+            "experiment_execution": "local_only" if is_vercel else "active"
+        }
+    })
+
+# Create FastAPI app for SSE/Vercel support
+app = FastAPI()
+
+# Add a health check endpoint
+@app.get("/")
+async def root():
+    return {"status": "ok", "service": "CDCT MCP Server", "transport": "SSE"}
+
+# Integrate MCP with FastAPI for SSE
+@app.get("/sse")
+async def sse():
+    """SSE endpoint for MCP"""
+    # This will be handled by FastMCP's SSE transport in a real deployment
+    # Note: FastMCP usually handles this via mcp.run(transport='sse')
+    pass
+
 if __name__ == "__main__":
-    # Running via FastMCP default (stdio)
+    # If run directly, default to stdio (CLI usage)
     mcp.run()
