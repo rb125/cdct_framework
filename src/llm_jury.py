@@ -40,17 +40,8 @@ class LLMJury:
     
     # Jury composition: model name → configuration
     JURY_CONFIG = {
-        "claude-opus-4-1-2": {
-            "display_name": "Claude Opus 4.1-2 (Conservative Factuality)",
-            "axis": "factuality_conservatism",
-            "weights": {
-                "CC": 0.30,   # Secondary on compliance
-                "SA": 0.40,   # Primary on semantic accuracy
-                "FC": 0.30
-            }
-        },
-        "gpt-5.1": {
-            "display_name": "GPT-5.1 (Stable Reasoning)",
+        "gpt-5.2": {
+            "display_name": "GPT-5.2 (Stable Reasoning)",
             "axis": "reasoning_stability",
             "weights": {
                 "CC": 0.35,   # Moderate on compliance
@@ -58,8 +49,8 @@ class LLMJury:
                 "FC": 0.30
             }
         },
-        "deepseek-v3.1": {
-            "display_name": "DeepSeek-V3.1 (Logical Consistency)",
+        "DeepSeek-v3.2": {
+            "display_name": "DeepSeek-V3.2 (Logical Consistency)",
             "axis": "logical_consistency",
             "weights": {
                 "CC": 0.40,   # Primary on compliance detection
@@ -72,19 +63,16 @@ class LLMJury:
     # Aggregate weights for consensus (priority weighting)
     CONSENSUS_WEIGHTS = {
         "CC": {
-            "deepseek-v3.1": 0.40,       # DeepSeek primary on compliance
-            "gpt-5.1": 0.35,             # GPT-5.1 strong
-            "claude-opus-4-1-2": 0.25    # Claude secondary
+            "DeepSeek-v3.2": 0.60,       # DeepSeek primary on compliance
+            "gpt-5.2": 0.40              # GPT-5.2 secondary
         },
         "SA": {
-            "claude-opus-4-1-2": 0.40,   # Claude primary on semantic accuracy
-            "gpt-5.1": 0.35,             # GPT-5.1 strong
-            "deepseek-v3.1": 0.25        # DeepSeek secondary
+            "gpt-5.2": 0.60,             # GPT-5.2 primary on semantic accuracy
+            "DeepSeek-v3.2": 0.40        # DeepSeek secondary
         },
         "FC": {
-            "claude-opus-4-1-2": 0.33,   # Equal weight
-            "gpt-5.1": 0.33,
-            "deepseek-v3.1": 0.34
+            "gpt-5.2": 0.50,             # Equal weight
+            "DeepSeek-v3.2": 0.50
         }
     }
     
@@ -514,16 +502,16 @@ Respond with ONLY valid JSON containing a single "score" key (no markdown, no ex
             sa_scores.append(verdict.get("SA"))
             fc_scores.append(verdict.get("FC"))
         
-        # If fewer than 2 valid judges, return error
-        if len(valid_judges) < 2:
+        # If no valid judges, return error
+        if len(valid_judges) < 1:
             return {
                 "CC": None,
                 "SA": None,
                 "FC": None,
                 "agreement_score": 0.0,
-                "judge_count": len(valid_judges),
-                "error": "Insufficient valid judges",
-                "recommendation": "FAILED - Too many judge errors"
+                "judge_count": 0,
+                "error": "No valid judges",
+                "recommendation": "FAILED - No valid judge results"
             }
         
         # Compute weighted consensus for CC
@@ -561,7 +549,9 @@ Respond with ONLY valid JSON containing a single "score" key (no markdown, no ex
         agreement_score = min(1.0, agreement_score)
         
         # Determine recommendation based on agreement
-        if agreement_score > 0.85:
+        if len(valid_judges) == 1:
+            recommendation = "SINGLE JUDGE - No consensus possible"
+        elif agreement_score > 0.85:
             recommendation = "ROBUST - Unanimous jury"
         elif agreement_score > 0.65:
             recommendation = "MODERATE - Jury consensus with variation"

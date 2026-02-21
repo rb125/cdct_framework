@@ -128,7 +128,8 @@ Examples:
         print(f"{'='*70}\n")
         
         jury_agents = {}
-        jury_models = ["claude-opus-4-1-2", "gpt-5.1", "deepseek-v3.1"]
+        # Use all models defined in JURY_MODELS_CONFIG
+        jury_models = [config["model_name"] for config in JURY_MODELS_CONFIG]
         
         for jury_model in jury_models:
             # Find jury model config
@@ -149,8 +150,8 @@ Examples:
             except Exception as e:
                 print(f"✗ Failed to initialize {jury_model}: {e}")
         
-        if not jury_agents or len(jury_agents) < 2:
-            print("ERROR: Need at least 2 jury members. Check JURY_MODELS_CONFIG and API credentials.")
+        if not jury_agents:
+            print("ERROR: No jury members initialized. Check JURY_MODELS_CONFIG and API credentials.")
             return
         
         print(f"\nJury ready: {list(jury_agents.keys())}")

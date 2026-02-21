@@ -150,7 +150,7 @@ def calculate_ci(hoc: float, cri: float, far_prime: float, sas_prime: float) -> 
 
 # --- Main Logic ---
 
-def process_jury_results(results_dir: Path):
+def process_jury_results(results_dir: Path, model_name: str = None):
     all_metrics = []
     
     for file_path in results_dir.glob('*.json'):
@@ -159,6 +159,11 @@ def process_jury_results(results_dir: Path):
                 data = json.load(f)
             
             subject_model = data.get('subject_model', 'unknown_model')
+            
+            # If model_name is provided, filter results
+            if model_name and subject_model.lower() != model_name.lower():
+                continue
+
             concept = data.get('concept', 'unknown_concept')
             performance_data = data.get('performance', [])
             
@@ -188,6 +193,14 @@ def process_jury_results(results_dir: Path):
             print(f"Error processing {file_path.name}: {e}")
             
     return all_metrics
+
+def get_model_metrics(model_name: str):
+    # Use the root results_jury directory instead of the local one
+    results_dir = Path('/home/rahul/arXiv/CDCT/results_jury')
+    if not results_dir.exists():
+        # Fallback to local for development/portability if absolute path fails
+        results_dir = Path('results_jury')
+    return process_jury_results(results_dir, model_name)
 
 def export_metrics_to_csv(metrics_data: list, output_dir: Path):
     output_dir.mkdir(parents=True, exist_ok=True)
