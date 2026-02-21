@@ -6,7 +6,6 @@ import threading
 import json
 from typing import List, Optional
 from pathlib import Path
-from fastapi import FastAPI
 from mcp.server.fastmcp import FastMCP
 
 # Add parent directory to path to ensure imports work
@@ -45,34 +44,41 @@ def run_diagnostic_battery_sync(model: str, concepts: Optional[List[str]] = None
             print(f"Failed experiment: {concept_name} for model {model}. Error: {e}")
 
 @mcp.tool()
-def get_model_score(model_name: str) -> str:
+def get_model_score(model: str) -> str:
     """
     Retrieve existing CDCT results for a specific model name.
+    
+    Args:
+        model: The name of the model to retrieve scores for.
     """
-    metrics = get_model_metrics(model_name)
+    metrics = get_model_metrics(model)
     if not metrics:
-        model_exists = any(config["model_name"].lower() == model_name.lower() for config in SUBJECT_MODELS_CONFIG)
+        model_exists = any(config["model_name"].lower() == model.lower() for config in SUBJECT_MODELS_CONFIG)
         if model_exists:
-            return f"No scores found for '{model_name}'. You can start a diagnostic battery using the 'run_experiment' tool."
+            return f"No scores found for '{model}'. You can start a diagnostic battery using the 'run_experiment' tool."
         else:
-            return f"Model '{model_name}' not found in configuration."
+            return f"Model '{model}' not found in configuration."
             
     return json.dumps(metrics, indent=2)
 
 @mcp.tool()
-def run_experiment(model_name: str, concepts: Optional[List[str]] = None) -> str:
+def run_experiment(model: str, concepts: Optional[List[str]] = None) -> str:
     """
     Run a fresh CDCT diagnostic battery against a model.
+    
+    Args:
+        model: The name of the model to evaluate.
+        concepts: Optional list of concepts.
     """
-    model_exists = any(config["model_name"].lower() == model_name.lower() for config in SUBJECT_MODELS_CONFIG)
+    model_exists = any(config["model_name"].lower() == model.lower() for config in SUBJECT_MODELS_CONFIG)
     
     if not model_exists:
-        return f"Model '{model_name}' not found."
+        return f"Model '{model}' not found."
 
-    thread = threading.Thread(target=run_diagnostic_battery_sync, args=(model_name, concepts))
+    thread = threading.Thread(target=run_diagnostic_battery_sync, args=(model, concepts))
     thread.start()
     
-    return f"Diagnostic battery started in background for model '{model_name}'."
+    return f"Diagnostic battery started in background for model '{model}'."
 
 @mcp.tool()
 def list_available_models() -> str:
@@ -113,22 +119,6 @@ def server_status() -> str:
             "experiment_execution": "local_only" if is_vercel else "active"
         }
     })
-
-# Create FastAPI app for SSE/Vercel support
-app = FastAPI()
-
-# Add a health check endpoint
-@app.get("/")
-async def root():
-    return {"status": "ok", "service": "CDCT MCP Server", "transport": "SSE"}
-
-# Integrate MCP with FastAPI for SSE
-@app.get("/sse")
-async def sse():
-    """SSE endpoint for MCP"""
-    # This will be handled by FastMCP's SSE transport in a real deployment
-    # Note: FastMCP usually handles this via mcp.run(transport='sse')
-    pass
 
 if __name__ == "__main__":
     # If run directly, default to stdio (CLI usage)
