@@ -8,23 +8,10 @@
   ],
   "headers": [
     {
-      "source": "/sse",
+      "source": "/(.*)",
       "headers": [
-        { "key": "Content-Type", "value": "text/event-stream" },
-        { "key": "Cache-Control", "value": "no-cache" },
-        { "key": "Connection", "value": "keep-alive" },
-        { "key": "X-Accel-Buffering", "value": "no" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "GET,OPTIONS" },
-        { "key": "Access-Control-Allow-Headers", "value": "*" }
-      ]
-    },
-    {
-      "source": "/messages",
-      "headers": [
-        { "key": "Content-Type", "value": "application/json" },
-        { "key": "Access-Control-Allow-Origin", "value": "*" },
-        { "key": "Access-Control-Allow-Methods", "value": "POST,OPTIONS" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET,POST,OPTIONS" },
         { "key": "Access-Control-Allow-Headers", "value": "*" }
       ]
     }
