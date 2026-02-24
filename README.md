@@ -1,6 +1,12 @@
 # Compression Decay Comprehension Test (CDCT) Framework
 
-This repository contains the source code and data for the research paper "The Compression Decay Comprehension Test (CDCT)." The framework is designed to evaluate and analyze the comprehension capabilities of various language models through a series of structured experiments.
+This repository contains the source code and data for the research paper "The Compression Decay Comprehension Test (CDCT)." It measures how model comprehension decays under compression and aggregates results into CDCT metrics.
+
+## API (Vercel)
+
+The Vercel deployment serves precomputed metrics from `results_jury/`.
+*   `GET /score/{model_name}`: Return CDCT metrics for a model.
+*   `POST /run_experiment`: Disabled on Vercel; run locally or on a worker, then commit results.
 
 ## Features
 

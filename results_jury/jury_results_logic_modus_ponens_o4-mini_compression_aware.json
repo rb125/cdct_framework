@@ -1,0 +1,196 @@
+{
+  "concept": "modus_ponens",
+  "domain": "logic",
+  "subject_model": "o4-mini",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 2,
+      "response": "If-then inference",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "response_length": 8,
+      "response": "Modus ponens is an if-then inference with affirmation.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "response_length": 165,
+      "response": "Modus ponens is one of the most fundamental rules of logical inference.  It allows you to move from a general conditional statement plus the fact that its \u201cif-part\u201d is true, directly to the \u201cthen-part.\u201d  \n\nHow it works  \n\u2022  Premise 1 (conditional): \u201cIf P then Q.\u201d  \n\u2022  Premise 2 (affirmation): \u201cP is true.\u201d  \n\u2022  Conclusion: \u201cTherefore, Q is true.\u201d  \n\nKey points  \n\u2022  \u201cP \u2192 Q\u201d expresses a general rule: whenever P holds, Q follows.  \n\u2022  By separately establishing that P indeed holds, you are entitled to assert Q.  \n\u2022  This pattern of inference is sometimes called \u201caffirming the antecedent.\u201d  \n\nExample  \n1.  If it is raining, then the ground will be wet.  \n2.  It is raining.  \n3.  Therefore, the ground will be wet.  \n\nWhy it matters  \n\u2022  Clarity: it spells out exactly what you must know and what you can conclude.  \n\u2022  Reliability: as long as the premises are true, the conclusion cannot be false.  \n\u2022  Ubiquity: used in everyday reasoning, mathematics, computer science and formal proofs.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 63,
+      "response_length": 390,
+      "response": "Modus ponens is one of the simplest and most widely used rules of inference in propositional logic.  At its heart it captures the idea that \u201cif a conditional claim is true, and its \u2018if-part\u2019 is true, then its \u2018then-part\u2019 must also be true.\u201d\n\n1. Basic Form  \n   \u2022 Premise 1: P \u2192 Q   (\u201cIf P then Q\u201d)  \n   \u2022 Premise 2: P      (\u201cP is true\u201d)  \n   \u2022 Conclusion: Q     (\u201cTherefore, Q is true\u201d)\n\n2. Key Terms  \n   \u2022 Conditional (P \u2192 Q): a statement that asserts \u201cwhenever P holds, Q will hold.\u201d  \n   \u2022 Antecedent (P): the \u201cif-part\u201d of the conditional.  \n   \u2022 Consequent (Q): the \u201cthen-part\u201d of the conditional.\n\n3. Why It\u2019s Valid  \n   \u2022 Truth-preserving: whenever both P \u2192 Q and P are true, Q must be true.  \n   \u2022 You can check this on a truth table: the only way for the premises to be true and the conclusion false never happens.  \n   \u2022 In formal notation we write: {P \u2192 Q, P} \u22a2 Q, meaning Q is a logical consequence of the two premises.\n\n4. Everyday Example  \n   \u2022 \u201cIf it rains, the ground gets wet.\u201d (P \u2192 Q)  \n   \u2022 \u201cIt is raining.\u201d (P)  \n   \u2022 \u201cTherefore, the ground gets wet.\u201d (Q)\n\n5. Role in Deductive Proofs  \n   \u2022 Building block: most formal proofs in mathematics and logic rely heavily on modus ponens to move from established assumptions to new conclusions.  \n   \u2022 Chain of reasoning: you can apply modus ponens repeatedly to a series of implications, e.g. from P\u2192Q and Q\u2192R and P to derive R in two steps.\n\n6. Soundness and Completeness  \n   \u2022 Soundness: whenever you apply modus ponens to true premises, you never get a false conclusion.  \n   \u2022 Completeness (with other rules): together with a small set of additional inference rules or axioms, modus ponens is enough to derive every logically valid propositional statement.\n\n7. Comparison with Other Rules  \n   \u2022 Modus tollens: from P\u2192Q and \u00acQ infer \u00acP.  \n   \u2022 Affirming the consequent (invalid): from P\u2192Q and Q trying to infer P is a fallacy. Modus ponens avoids that mistake by always requiring the antecedent, not the consequent, as a premise.\n\nIn sum, modus ponens embodies the simplest form of logical \u201cdetachment\u201d: once you\u2019ve committed to \u201cif P then Q\u201d and you\u2019ve secured P, you\u2019re logically bound to accept Q. This small step underlies the power and rigor of deductive reasoning in mathematics, computer science, and philosophy.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 133,
+      "response_length": 355,
+      "response": "Modus ponens (\u201caffirming the antecedent\u201d) is one of the simplest and most widely used rules of inference in propositional logic.  At its core, modus ponens lets you move from a conditional statement and its satisfied antecedent to the consequent.  Here is a step-by-step breakdown:\n\n1.   The Conditional (P \u2192 Q)  \n     \u2022  This is an \u201cIf\u2013then\u201d statement.  \n     \u2022  P is called the antecedent (or premise) and Q is called the consequent (or conclusion).  \n     \u2022  Semantically, P \u2192 Q is false only when P is true and Q is false; in all other cases it is true.\n\n2.   The Affirmation of the Antecedent (P)  \n     \u2022  You establish separately that P is in fact true.  \n     \u2022  This gives you the hook you need to trigger the implication.\n\n3.   The Inference (\u2234 Q)  \n     \u2022  By modus ponens, from \u201cP \u2192 Q\u201d and \u201cP\u201d you may validly infer \u201cQ.\u201d  \n     \u2022  The rule guarantees truth preservation: if both premises are true, the conclusion must also be true.\n\nFormal notation:  \n  1.  P \u2192 Q  \n  2.  P  \n  \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500  \n  \u2234 Q  \n\nWhy it works:  \n\u2022  Truth-Table Perspective  \n   \u2013 P \u2192 Q is only false in the single case where P = T and Q = F.  \n   \u2013 If we know P \u2192 Q is true and we know P is true, the only consistent assignment forces Q to be true.  \n\n\u2022  Proof\u2013Theoretic Perspective  \n   \u2013 In natural deduction systems, modus ponens is an introduction/elimination rule for the conditional.  \n   \u2013 It is the engine that lets you \u201cuse\u201d a proven conditional as soon as you have its antecedent.\n\nApplications and Importance:  \n\u2022  Mathematics: Building blocks for almost every proof by implication.  \n\u2022  Computer Science: Core of automated theorem provers, logic programming, type-checking.  \n\u2022  Formal Systems: Underlies sequent calculus, Hilbert systems, resolution methods.  \n\u2022  Everyday Reasoning: Any argument of the form \u201cIf A, then B; A; therefore B.\u201d\n\nExample in ordinary language:  \n  1.  If it is raining, the sidewalk will be wet.  \n  2.  It is raining.  \n  \u2234 The sidewalk is wet.\n\nBecause of its simplicity, clarity, and absolute reliability in preserving truth, modus ponens remains a cornerstone of deductive reasoning in logic, mathematics, computer science, and beyond.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.0,
+    "mean_agreement": 0.0,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "agreement_scores": []
+  }
+}

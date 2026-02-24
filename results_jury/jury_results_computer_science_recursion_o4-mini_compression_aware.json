@@ -1,0 +1,196 @@
+{
+  "concept": "recursion",
+  "domain": "computer_science",
+  "subject_model": "o4-mini",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 2,
+      "response": "self-calling function",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 14,
+      "response": "Recursion is a self-calling function. It includes a base case to stop the calls.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 314,
+      "response": "Recursion is a programming technique in which a function solves a problem by calling itself on smaller or simpler versions of that same problem. It rests on two key ideas:\n\n1. Base case  \n   \u2013 The simplest instance of the problem, which can be answered directly without further recursion.  \n   \u2013 Prevents infinite loops by stopping further self-calls.  \n\n2. Recursive case  \n   \u2013 The part of the function that breaks the original problem into one (or more) smaller sub-problems.  \n   \u2013 Each sub-problem is then solved by another call to the same function, moving it closer to the base case.\n\nHow it works in practice  \n\u2022 You invoke your recursive function with an initial input.  \n\u2022 The function checks: \u201cAm I at the base case?\u201d  \n   \u2013 If yes, return the simple result immediately.  \n   \u2013 If no, perform some work, then call itself with a reduced input.  \n\u2022 Each recursive call sits on the call stack until it reaches the base case. Then the calls unwind in reverse order, combining partial results into the final answer.\n\nExample: Factorial of n (denoted n!)  \n\u2022 Base case: 0! = 1  \n\u2022 Recursive case: n! = n \u00d7 (n\u20131)!  \nImplementation sketch:  \n   if n == 0  \n     return 1  \n   else  \n     return n * factorial(n \u2013 1)\n\nBenefits of recursion  \n\u2022 Elegant, concise code for problems that naturally divide into similar sub-problems (e.g. tree traversals, divide-and-conquer algorithms).  \n\u2022 Makes it easy to express solutions where each step follows the same pattern.\n\nThings to watch out for  \n\u2022 Infinite recursion if no proper base case or if recursive calls don\u2019t approach it.  \n\u2022 Potential for high memory use due to deep call stacks (can sometimes be mitigated by tail-call optimization, where supported).\n\nIn summary, recursion tackles a big problem by repeatedly calling the same function on progressively smaller inputs, stopping at a clearly defined base case, and then combining those simple solutions into the full answer.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 65,
+      "response_length": 532,
+      "response": "Recursion is a programming technique where a function solves a problem by calling itself on smaller or simpler versions of that same problem. Each recursive call breaks the original problem down until it reaches one or more trivial cases\u2014called base cases\u2014which can be answered directly without further recursion. Once a base case is reached, the calls \u201cunwind,\u201d combining their partial results into a final answer.\n\nKey components of recursion:\n\n1. Recursive Case  \n   - The part of the function that reduces the problem\u2019s size and calls itself.  \n   - Example (factorial): to compute n!, call factorial(n \u2013 1).\n\n2. Base Case  \n   - A condition under which the function returns a simple, direct result instead of making another recursive call.  \n   - Essential to prevent infinite recursion and eventually terminate.  \n   - Example: factorial(0) = 1.\n\n3. Call Stack  \n   - Each time a function calls itself, a new stack frame holds that call\u2019s parameters and local variables.  \n   - When a base case returns a value, the stack \u201cunwinds,\u201d passing results back up through earlier calls.\n\nCommon examples of recursion:\n\n\u2022 Factorial  \n  Pseudocode:  \n    function factorial(n):  \n      if n == 0 then return 1       \u2190 base case  \n      else return n * factorial(n\u22121) \u2190 recursive case\n\n\u2022 Fibonacci Numbers  \n  Pseudocode:  \n    function fib(n):  \n      if n \u2264 1 then return n         \u2190 base cases: fib(0)=0, fib(1)=1  \n      else return fib(n\u22121) + fib(n\u22122)\n\n\u2022 Tree Traversal  \n  To traverse a binary tree in-order:  \n    function inOrder(node):  \n      if node is null then return   \u2190 base case  \n      inOrder(node.left)            \u2190 recurse on left subtree  \n      visit(node)  \n      inOrder(node.right)           \u2190 recurse on right subtree\n\n\u2022 Divide-and-Conquer Sorting (Quicksort & Mergesort)  \n  \u2022 Quicksort picks a pivot, partitions the array into elements less than and greater than the pivot, then recursively sorts each partition.  \n  \u2022 Mergesort divides the array in half, recursively sorts each half, and merges the sorted halves.\n\nAdvantages of recursion:\n\n- Clarity: Recursive code often mirrors the problem\u2019s natural, self-similar structure.  \n- Modularity: You can focus separately on smaller subproblems.  \n- Ease of use: Problems like tree or graph traversals map very naturally to recursive definitions.\n\nDrawbacks and considerations:\n\n- Overhead: Each recursive call consumes stack space; deep recursion can lead to stack overflow.  \n- Performance: Some naive recursive solutions (e.g., the naive Fibonacci) recompute the same values repeatedly. Memoization or transforming into iteration may be needed for efficiency.  \n- Tail Recursion: If a language/compiler supports tail-call optimization, a purely tail-recursive function can run in constant stack space, effectively behaving like a loop.\n\nWhen to use recursion:\n\n- The problem can be broken into smaller instances of the same problem.  \n- You need to traverse hierarchical or nested data (trees, nested lists, combinatorial structures).  \n- A divide-and-conquer strategy applies: split the data, recursively solve each part, then combine results.\n\nRecursion versus iteration:\n\n- Iteration explicitly uses loops and mutable state; recursion uses function calls and relies on the call stack.  \n- Some problems are cleaner or more intuitive recursively; others benefit from iterative approaches for performance or simplicity.\n\nIn summary, recursion is a powerful technique that leverages a function\u2019s ability to call itself, solving complex problems by reduction to simpler cases. Properly designed recursive algorithms include clear base cases, ensure progress toward those bases, and are mindful of performance and memory implications.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 139,
+      "response_length": 471,
+      "response": "Recursion is a programming technique in which a function solves a problem by calling itself one or more times with simpler or smaller inputs. Each recursive call works on a smaller piece of the original problem until it reaches a case so simple that it can be solved directly. The main components and considerations of recursion are:\n\n1. Base Case  \n   \u2013 Definition: The simplest instance of the problem, which can be answered without further recursion.  \n   \u2013 Purpose: To stop further recursive calls and prevent infinite loops or stack overflows.  \n   \u2013 Example: In computing n!, the base case is when n = 0 or 1, returning 1 directly.\n\n2. Recursive Case  \n   \u2013 Definition: The part of the function where it calls itself with modified arguments that move the problem toward the base case.  \n   \u2013 Purpose: To break the original problem down into smaller, more manageable subproblems.  \n   \u2013 Example: For factorial, the recursive case is n! = n \u00d7 (n \u2013 1)!.\n\n3. Call Stack Mechanics  \n   \u2013 Each recursive call is pushed onto the call stack, storing its own parameters and local variables.  \n   \u2013 When a base case is reached, calls begin returning in reverse order, unwinding the stack and combining results.  \n   \u2013 Risk: Deep or unbounded recursion can exhaust the stack, causing a stack overflow.\n\n4. Common Use Cases  \n   \u2013 Mathematical sequences: factorial, Fibonacci numbers.  \n   \u2013 Data structures: traversing binary trees (inorder, preorder, postorder), searching graphs with depth-first search.  \n   \u2013 Divide-and-conquer algorithms: quicksort, mergesort, binary search.  \n   \u2013 Combinatorial problems: generating permutations, subsets, solving the Tower of Hanoi.\n\n5. Advantages of Recursion  \n   \u2013 Code clarity: Recursion often mirrors natural problem definitions and can be easier to read and reason about.  \n   \u2013 Elegance: Complex operations (like tree traversals) can be expressed in just a few lines.  \n   \u2013 Self-similarity: Recursion is a perfect fit for problems that break down into smaller versions of themselves.\n\n6. Limitations and Alternatives  \n   \u2013 Performance overhead: Every function call consumes time and memory for stack frames.  \n   \u2013 Stack limits: Deep recursion risks stack overflow.  \n   \u2013 Iterative solutions: Loops and explicit stacks can sometimes be more efficient and safer in terms of memory usage.  \n   \u2013 Tail recursion optimization: Some languages or compilers can convert certain \u201ctail-recursive\u201d functions into loops under the hood, reducing stack use.\n\n7. Best Practices  \n   \u2013 Always define a clear, reachable base case.  \n   \u2013 Ensure each recursive step makes progress toward the base case.  \n   \u2013 Consider the maximum recursion depth and whether an iterative approach might be more appropriate.  \n   \u2013 Use memoization or dynamic programming for problems (like Fibonacci) where na\u00efve recursion would repeat the same calculations many times.\n\nIn summary, recursion is a powerful and intuitive technique for solving problems that exhibit a self-similar structure. When used with well-defined base cases and mindful of performance and stack limits, it can lead to concise, maintainable, and elegant code.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.0,
+    "mean_agreement": 0.0,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "agreement_scores": []
+  }
+}

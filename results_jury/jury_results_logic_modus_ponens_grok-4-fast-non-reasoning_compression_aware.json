@@ -1,0 +1,48 @@
+{
+  "concept": "modus_ponens",
+  "domain": "logic",
+  "subject_model": "grok-4-fast-non-reasoning",
+  "jury_models": [
+    "claude-opus-4-1-2",
+    "gpt-5.1",
+    "deepseek-v3.1"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [],
+  "failed_levels": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "error": "Model returned a None response"
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "error": "Model returned a None response"
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "error": "Model returned a None response"
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 63,
+      "error": "Model returned a None response"
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 133,
+      "error": "Model returned a None response"
+    }
+  ],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.0,
+    "mean_agreement": 0.0,
+    "decay_direction": "N/A",
+    "error": "No valid performance data"
+  }
+}

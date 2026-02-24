@@ -1,0 +1,196 @@
+{
+  "concept": "derivative",
+  "domain": "mathematics",
+  "subject_model": "o4-mini",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 3,
+      "response": "rate of change",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 6,
+      "response_length": 33,
+      "response": "The derivative of a function at a point is its instantaneous rate of change at that point. It measures how the function\u2019s value changes in response to an infinitesimal change in the input.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 30,
+      "response_length": 288,
+      "response": "A derivative captures how a function\u2019s output changes in response to a very small change in its input.  In more concrete terms:\n\n1. Definition by limit  \n   If \\(f(x)\\) is a function, its derivative at the point \\(x\\), written \\(f'(x)\\) or \\(\\dfrac{df}{dx}\\bigl|_{x}\\), is  \n   \\[  \n     f'(x) \\;=\\; \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}.  \n   \\]  \n   This limit, when it exists, gives the \u201cinstantaneous\u201d rate of change of the function at \\(x\\).\n\n2. Geometric interpretation  \n   \u2013 The derivative at \\(x\\) is the slope of the tangent line to the curve \\(y = f(x)\\) at that point.  \n   \u2013 If \\(f'(x)\\) is large and positive, the curve is rising steeply; if \\(f'(x)\\) is negative, the curve is falling.\n\n3. Physical interpretation  \n   \u2013 In physics, if \\(s(t)\\) represents an object\u2019s position at time \\(t\\), then the derivative \\(s\u2032(t)\\) is its velocity\u2014how fast and in what direction it is moving at that exact instant.  \n   \u2013 A second derivative, \\(s\u2033(t)\\), is the rate of change of velocity, i.e. acceleration.\n\n4. Why it matters  \n   \u2013 Understanding instantaneous rates of change is key to modeling real\u2010world systems\u2014whether in engineering (stress-strain relationships, current-voltage characteristics) or natural sciences (population growth rates, chemical reaction rates).  \n   \u2013 Derivatives allow us to find maxima and minima (critical points), optimize processes, and solve differential equations that describe how systems evolve.\n\n5. Basic rules of differentiation (for common functions)  \n   \u2013 Power rule: \\(\\frac{d}{dx} [x^n] = n\\,x^{n-1}\\)  \n   \u2013 Sum rule: \\(\\frac{d}{dx}[f(x) + g(x)] = f'(x) + g'(x)\\)  \n   \u2013 Product rule: \\(\\frac{d}{dx}[f(x)\\,g(x)] = f'(x)\\,g(x) + f(x)\\,g'(x)\\)  \n   \u2013 Chain rule: \\(\\frac{d}{dx}[f(g(x))] = f'(g(x))\\cdot g'(x)\\)\n\nIn summary, the derivative is a fundamental tool that tells us how a small change in input produces a small change in output\u2014crucial for predicting and controlling behavior in mathematics, physics, and engineering.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 488,
+      "response": "A derivative captures how a function\u2019s output changes in response to an infinitesimal change in its input. It is one of the cornerstones of calculus and has both a precise mathematical definition and a wide array of interpretations and applications.\n\n1. Formal (Limit) Definition  \n   \u2022 If y = f(x), the derivative of f at x is defined as  \n     f\u2009\u2032(x) = lim (h\u21920) [f(x + h) \u2013 f(x)] / h  \n   \u2022 This \u201cdifference quotient\u201d measures the average rate of change over a tiny interval h, and taking the limit as h\u21920 gives the instantaneous rate of change.  \n\n2. Geometric Interpretation  \n   \u2022 On the graph of y = f(x), the derivative f\u2009\u2032(x) is the slope of the tangent line at the point (x, f(x)).  \n   \u2022 A positive derivative means the curve is rising at that point; a negative derivative means it is falling; zero derivative indicates a horizontal tangent (potential maximum, minimum, or inflection point).\n\n3. Notation  \n   \u2022 Leibniz notation: dy/dx, emphasizing the ratio of infinitely small changes in y to changes in x.  \n   \u2022 Lagrange notation: f\u2009\u2032(x).  \n   \u2022 Euler notation (for higher derivatives): Df, D\u00b2f, etc.\n\n4. Basic Differentiation Rules  \n   \u2022 Constant rule: d/dx [c] = 0  \n   \u2022 Power rule: d/dx [x\u207f] = n\u00b7x\u207f\u207b\u00b9  \n   \u2022 Sum/difference rule: d/dx [f + g] = f\u2009\u2032 + g\u2009\u2032  \n   \u2022 Product rule: d/dx [f\u00b7g] = f\u2009\u2032\u00b7g + f\u00b7g\u2009\u2032  \n   \u2022 Quotient rule: d/dx [f/g] = (f\u2009\u2032g \u2013 fg\u2009\u2032)/g\u00b2  \n   \u2022 Chain rule (composition): d/dx [f(g(x))] = f\u2009\u2032(g(x)) \u00b7 g\u2009\u2032(x)\n\n5. Physical Interpretation  \n   \u2022 In physics, if s(t) is an object\u2019s position as a function of time, then v(t) = ds/dt is its velocity: the instantaneous speed and direction.  \n   \u2022 The second derivative, d\u00b2s/dt\u00b2, gives acceleration, which is the rate of change of velocity.\n\n6. Applications  \n   \u2022 Optimization: find maxima or minima of functions by setting f\u2009\u2032(x) = 0 and analyzing sign changes.  \n   \u2022 Motion and dynamics: modeling how quantities evolve over time (population growth, heat flow, electrical circuits).  \n   \u2022 Engineering design: determining stresses and strains (via derivatives of displacement fields) or rates in chemical reactions.  \n   \u2022 Economics: marginal cost and marginal revenue as derivatives of cost and revenue functions, guiding pricing and production decisions.\n\n7. Example Calculations  \n   \u2022 Example 1: f(x) = x\u00b3 \u2013 5x \u21d2 f\u2009\u2032(x) = 3x\u00b2 \u2013 5  \n   \u2022 Example 2: g(x) = e^(2x) \u21d2 g\u2009\u2032(x) = 2e^(2x)  \n   \u2022 Example 3: h(x) = sin(x\u00b2) \u21d2 h\u2009\u2032(x) = cos(x\u00b2) \u00b7 2x  (by the chain rule)\n\n8. Why It Matters  \n   \u2022 Understanding how small changes affect a system is critical in science and technology.  \n   \u2022 Derivatives allow precise prediction, control, and optimization in dynamic systems.  \n   \u2022 They form the basis for more advanced topics\u2014differential equations, multivariable calculus, and numerical methods.\n\nIn summary, the derivative is the fundamental tool for measuring instantaneous change, understanding the shape and behavior of functions, and solving real-world problems in physics, engineering, economics, and beyond.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 434,
+      "response": "A derivative measures how a function\u2019s output changes as its input changes\u2014in other words, its instantaneous rate of change or the slope of its graph at any given point. Below is a comprehensive overview.\n\n1. Definition and Geometric Interpretation  \n   \u2022 Formal limit definition:  \n     f\u2032(x) = lim\u2095\u21920 [f(x + h) \u2013 f(x)] / h  \n     provided this limit exists.  \n   \u2022 Geometric meaning: f\u2032(x) is the slope of the tangent line to y = f(x) at the point (x, f(x)).  \n   \u2022 If f\u2032(x) > 0, the function is increasing at x; if f\u2032(x) < 0, it is decreasing; if f\u2032(x) = 0, the tangent is horizontal.\n\n2. Basic Differentiation Rules  \n   These rules let you find derivatives without returning to the limit every time.  \n   \u2022 Linearity: (af + bg)\u2032 = a f\u2032 + b g\u2032  \n   \u2022 Power rule: (x\u207f)\u2032 = n x\u207f\u207b\u00b9 for any real n  \n   \u2022 Constant rule: (c)\u2032 = 0 for constant c  \n   \u2022 Sum/difference: (f \u00b1 g)\u2032 = f\u2032 \u00b1 g\u2032\n\n3. Product, Quotient, and Chain Rules  \n   \u2022 Product rule: (f\u00b7g)\u2032 = f\u2032\u00b7g + f\u00b7g\u2032  \n   \u2022 Quotient rule: (f/g)\u2032 = (f\u2032\u00b7g \u2013 f\u00b7g\u2032) / g\u00b2, provided g(x) \u2260 0  \n   \u2022 Chain rule (for composites): if y = f(u) and u = g(x), then dy/dx = f\u2032(u)\u00b7g\u2032(x).  \n     This is essential for handling nested or composite functions.\n\n4. Higher-Order Derivatives  \n   \u2022 The second derivative f\u2033(x) = (f\u2032(x))\u2032 measures curvature or concavity\u2014how the slope itself is changing.  \n   \u2022 Third and higher derivatives appear in Taylor series expansions, differential equations, and more.  \n\n5. Common Examples  \n   \u2022 Polynomial: if f(x) = 3x\u00b3 \u2013 5x + 2, then f\u2032(x) = 9x\u00b2 \u2013 5  \n   \u2022 Exponential: if f(x) = e\u02e3, then f\u2032(x) = e\u02e3 (the function is its own derivative)  \n   \u2022 Trigonometric: if f(x) = sin x, then f\u2032(x) = cos x; if f(x) = cos x, then f\u2032(x) = \u2013sin x  \n\n6. Practical Applications  \n   \u2022 Physics: velocity = derivative of position; acceleration = second derivative of position  \n   \u2022 Economics: marginal cost/revenue = derivative of cost/revenue functions  \n   \u2022 Engineering: rates of change in circuits, heat flow, fluid dynamics  \n   \u2022 Optimization: critical points f\u2032(x) = 0 help locate maxima or minima  \n\n7. Why Derivatives Matter  \n   \u2022 They turn complex change problems into algebraic ones you can manipulate.  \n   \u2022 They underpin much of modern science and engineering by describing dynamic behavior.  \n   \u2022 They form the basis for differential equations, which model natural and engineered systems.\n\nIn summary, the derivative is a foundational tool that translates the concept of \u201cchange\u201d into a precise, calculable quantity. Mastery of derivative rules and interpretations opens the door to modeling, analyzing, and optimizing virtually any process that evolves continuously.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.0,
+    "mean_agreement": 0.0,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "agreement_scores": []
+  }
+}

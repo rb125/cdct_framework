@@ -1,0 +1,47 @@
+{
+  "concept": "impressionism",
+  "domain": "art",
+  "subject_model": "DeepSeek-v3.1",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [],
+  "failed_levels": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "error": "Model returned a None response"
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 6,
+      "error": "Model returned a None response"
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 18,
+      "error": "Model returned a None response"
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 48,
+      "error": "Model returned a None response"
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "error": "Model returned a None response"
+    }
+  ],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.0,
+    "mean_agreement": 0.0,
+    "decay_direction": "N/A",
+    "error": "No valid performance data"
+  }
+}

@@ -195,11 +195,8 @@ def process_jury_results(results_dir: Path, model_name: str = None):
     return all_metrics
 
 def get_model_metrics(model_name: str):
-    # Use the root results_jury directory instead of the local one
-    results_dir = Path('/home/rahul/arXiv/CDCT/results_jury')
-    if not results_dir.exists():
-        # Fallback to local for development/portability if absolute path fails
-        results_dir = Path('results_jury')
+    # Prefer the repo-local results_jury directory (works on Vercel and locally)
+    results_dir = Path('results_jury')
     return process_jury_results(results_dir, model_name)
 
 def export_metrics_to_csv(metrics_data: list, output_dir: Path):

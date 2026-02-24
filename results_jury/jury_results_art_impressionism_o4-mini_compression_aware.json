@@ -1,0 +1,196 @@
+{
+  "concept": "impressionism",
+  "domain": "art",
+  "subject_model": "o4-mini",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 3,
+      "response": "Capturing light\u2019s moment.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 6,
+      "response_length": 13,
+      "response": "Impressionism is an art movement focused on painting fleeting light and color impressions.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 18,
+      "response_length": 271,
+      "response": "Impressionism is a 19th-century art movement that changed the way artists approached painting by focusing on immediate sensory impressions rather than precise detail. Its main characteristics and innovations include:\n\n\u2022 Emphasis on light and atmosphere  \n  \u2013 Artists sought to record how light alters color and form at different times of day or under varying weather conditions.  \n  \u2013 Shifts in brightness, shadow and reflection became the central subject, rather than finely drawn outlines.  \n\n\u2022 Quick, loose brushwork  \n  \u2013 Short, visible strokes of pure pigment capture the essence of a scene in a few moments.  \n  \u2013 This technique allows colors to blend optically in the viewer\u2019s eye, producing a vibrant, shimmering effect.  \n\n\u2022 Momentary visual sensations  \n  \u2013 Paintings often feel \u201csketch-like,\u201d reflecting the artist\u2019s instantaneous response to a particular moment.  \n  \u2013 Instead of studio\u2010based, highly finished compositions, many Impressionists painted en plein air (outdoors) to directly observe nature.  \n\n\u2022 Palette of bright, unmixed colors  \n  \u2013 Blacks and browns were largely replaced by dark blues, purples or complementary hues to convey shadow.  \n  \u2013 Juxtapositions of contrasting colors intensify the sense of light and movement.  \n\n\u2022 Everyday subjects  \n  \u2013 Scenes of urban life, leisure activities, landscapes and rural labor replaced historical, mythological or religious themes favored by academic art.  \n  \u2013 This choice reinforced the idea that beauty lies in ordinary, fleeting moments.  \n\nKey figures such as Claude Monet, Pierre-Auguste Renoir, Edgar Degas and Camille Pissarro led exhibitions outside the official Salon in the 1870s, sparking public debate and ultimately influencing generations of modern artists. By valuing perception over precise form, Impressionism opened the door to many later developments in art, from Post-Impressionism to modern abstraction.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 48,
+      "response_length": 415,
+      "response": "Impressionism was a radical break with mid-19th-century academic painting. Rather than staging grand historical, mythological or religious tableaux with smooth, highly finished surfaces, Impressionist artists sought to record the fleeting effects of light and atmosphere on ordinary scenes. They wanted viewers to feel the momentariness of a sunrise, the sparkle of sunlight on water, or the haze of a summer afternoon\u2014often in the very place where the scene occurred.\n\nKey features of Impressionism  \n\u2022 Visible, loose brushstrokes: Instead of hiding brushwork under multiple smooth layers, Impressionists applied paint in short, broken strokes. This technique lets colors blend optically in the viewer\u2019s eye, producing a vibrant, shimmering effect.  \n\u2022 Open composition: Compositions often appear cropped or cut off, as if the viewer is seeing just a slice of a larger scene. This gives a sense of spontaneity and immediacy.  \n\u2022 Emphasis on light and color: Shadows are not rendered in black or gray but in complementary colors (for example, blue or purple shadows on a sunlit wall). Highlights might be left as dabs of pure white or yellow.  \n\u2022 Ordinary, modern subjects: Instead of gods, heroes, or historical battles, Impressionists chose caf\u00e9s, parks, railways, bustling boulevards, gardens, riversides\u2014everyday life in mid-19th-century France.  \n\u2022 Unusual visual angles and cropping: Borrowing ideas later associated with photography and Japanese prints, they sometimes tilted horizons, framed scenes asymmetrically or used high vantage points.  \n\u2022 Plein-air painting: Many Impressionists carried their easels outdoors (\u201cen plein air\u201d) to observe and capture the changing quality of natural light directly, often continuing studies in the studio to refine composition or color.\n\nOrigins and Impact  \n\u2022 The name \u201cImpressionism\u201d was coined by a critic in response to Claude Monet\u2019s Impression, Soleil Levant (1872). At first meant as a derogatory label, the group embraced it, staging independent exhibitions from 1874 onward.  \n\u2022 Key figures include Claude Monet, Pierre-Auguste Renoir, Edgar Degas, Camille Pissarro and Berthe Morisot, among others. Each brought a personal approach\u2014Degas favored dancers and unusual indoors viewpoints, Monet focused relentlessly on light and color variations.  \n\u2022 By rejecting the academic insistence on precise detail and historical subjects, Impressionism paved the way for later modern movements. It shifted the art world\u2019s attention to perception, color theory and individual expression, influencing Post-Impressionists, Fauves and eventually abstract art.\n\nIn summary, Impressionism is defined by its attempt to render the visual impression of a moment: the shifting play of light and color on ordinary forms, captured with rapid, visible brushwork and a fresh, unpretentious approach to subject matter.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 596,
+      "response": "Impressionism was a radical art movement that began in France in the 1860s as a direct challenge to the highly polished, detail-driven works favored by the official Salon jury. Rather than striving for photographic realism or grand historical subjects, Impressionist painters focused on everyday life, the fleeting effects of light, and the artist\u2019s sensory experience of a scene. Their innovations not only transformed 19th-century painting but also paved the way for virtually all modern art that followed.\n\nKey Principles and Techniques  \n1. Light and Color Primacy  \n   - Artists observed how light changed the appearance of objects throughout the day.  \n   - Shadows were painted in complementary or broken colors instead of simple grays or blacks, creating more luminous, vibrant surfaces.  \n\n2. Broken Color (Optical Mixing)  \n   - Rather than blending pigments smoothly on the palette, painters applied small touches of pure, unmixed color directly to the canvas.  \n   - From a distance, the viewer\u2019s eye optically \u201cmixes\u201d these strokes, producing richer, more dynamic hues.  \n\n3. Visible Brushwork  \n   - Short, rapid, and often textured strokes convey the sense of movement and immediacy.  \n   - The \u201cunfinished\u201d appearance was deliberate: each brushstroke records the artist\u2019s direct response to a moment in time.  \n\n4. En Plein Air Painting  \n   - Working outdoors allowed Impressionists to capture natural light and atmospheric conditions on the spot.  \n   - Portable paint tubes and collapsible easels made field painting practical for the first time.  \n\n5. Modern Life Subjects  \n   - Rejecting mythological or historical scenes, they depicted urban leisure (caf\u00e9s, parks, boulevards), railways, submarine villages and seashores.  \n   - This focus aligned painting with contemporary social experiences and the rapidly changing industrial world.  \n\nMajor Figures  \n\u2022 Claude Monet \u2013 Known for serial studies (haystacks, Rouen Cathedral, water lilies) that record subtle shifts in light and color at different times of day or under varying weather.  \n\u2022 Pierre-Auguste Renoir \u2013 Celebrated for warm, dappled light filtering through leaves, lively social scenes, and sensuous figures.  \n\u2022 Edgar Degas \u2013 Employed unusual viewpoints and compositions to depict ballet dancers, horse races and everyday interiors, emphasizing line and movement.  \n\u2022 Camille Pissarro \u2013 The \u201cdean\u201d of Impressionists, he painted rural landscapes and village life with a calm, observational eye.  \n\nInfluences on Impressionism  \n\u2022 Photography \u2013 The camera\u2019s ability to freeze moments encouraged artists to explore spontaneous compositions and cropping.  \n\u2022 Japanese Prints (Ukiyo-e) \u2013 Inspired asymmetrical layouts, flat color areas, bold outlines and unconventional perspectives.  \n\u2022 Scientific Color Theory \u2013 Chemists such as Michel Eug\u00e8ne Chevreul demonstrated how juxtaposed colors affect perception, underpinning the broken-color method.  \n\nReception and Opposition  \n\u2022 Early Impressionist works were often rejected by the traditional Salon, derided as sketchy, unfinished and lacking moral seriousness.  \n\u2022 Critics used the term \u201cImpressionists\u201d mockingly after Monet\u2019s 1872 painting Impression, Sunrise, but the artists soon embraced the label.  \n\u2022 In 1874 they organized independent exhibitions to show their work outside official channels.  \n\nLegacy  \n\u2022 Freed color from mere descriptive duty, validating subjective perception as a legitimate artistic aim.  \n\u2022 Emphasized momentary impressions over exact detail, anticipating later explorations of light and movement.  \n\u2022 Opened the door to Post-Impressionism (Van Gogh, Gauguin), Neo-Impressionism or Pointillism (Seurat), Fauvism (Matisse) and, ultimately, various forms of abstraction.  \n\u2022 Cemented the idea that painting could be an active, experimental process rather than a polished reproduction of reality.\n\nIn sum, Impressionism redefined what painting could be by celebrating the artist\u2019s direct sensory encounter with the world, using innovative color and brushwork to evoke the lived experience of light, movement and modern life. Its success in challenging academic conventions laid the groundwork for virtually every major art development of the 20th century.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.0,
+    "mean_agreement": 0.0,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "agreement_scores": []
+  }
+}

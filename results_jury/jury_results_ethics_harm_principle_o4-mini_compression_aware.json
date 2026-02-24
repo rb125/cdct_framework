@@ -1,0 +1,196 @@
+{
+  "concept": "harm_principle",
+  "domain": "ethics",
+  "subject_model": "o4-mini",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 2,
+      "response": "preventing harm",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "response_length": 27,
+      "response": "The harm principle holds that the only valid reason to restrict someone\u2019s actions is to prevent harm to others. It focuses solely on preventing harm to others.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "response_length": 417,
+      "response": "The harm principle is a guiding idea in political philosophy and ethics\u2014most famously articulated by John Stuart Mill\u2014that says the only justification for using coercive power (for example, laws or regulations) over a person\u2019s actions is to prevent harm to others. In other words, each individual is free to think, speak, and act however they choose, so long as those choices do not inflict real, demonstrable harm on other people.  \n\nKey elements of the harm principle  \n\u2022 Individual liberty: People should generally be left free to pursue their own interests and experiments in living. Personal autonomy is respected.  \n\u2022 Limitation only for protection: The state or society may intervene only when an action would cause harm to others, whether physical, financial, or in extreme cases psychological.  \n\u2022 Minimal interference: Restrictions on private behavior must be as limited as possible\u2014only enough to avert the harm in question.  \n\u2022 Burden of proof: Those who call for a restriction must show clear evidence of likely harm; personal distaste or moral disapproval alone is not enough.  \n\nWhy it matters  \n\u2022 Balancing freedom and safety: It offers a clear rule for deciding when laws are appropriate (to stop fraud, violence, or pollution) and when they are overreaching (censoring speech, criminalizing victimless behavior).  \n\u2022 Guarding against paternalism: People often disagree about what is \u201cgood\u201d for someone else. The harm principle pushes back on the idea that the state should force individuals to do things for their own supposed benefit (like mandatory lifestyle rules) if those actions don\u2019t harm others.  \n\u2022 Promoting tolerance: By focusing on harm rather than moral judgment, societies can become more pluralistic and open to differing ways of life.  \n\nExamples in practice  \n\u2022 Traffic laws: Speed limits exist because speeding endangers others on the road.  \n\u2022 Anti-smoking restrictions in public spaces: These protect bystanders from second-hand smoke.  \n\u2022 Laws against theft, assault, or libel: They punish actions that directly harm someone\u2019s person, property, or reputation.  \n\nLimitations and challenges  \n\u2022 Defining harm: People can disagree about what constitutes serious harm (emotional distress? economic disadvantage?).  \n\u2022 Indirect or long-term harms: Environmental damage or systemic injustice may be harder to link directly to individual actions.  \n\u2022 Collective vs. individual harm: Sometimes individual acts aren\u2019t harmful alone but become so in large numbers (overfishing, climate change).  \n\nIn sum, the harm principle draws a clear line around individual freedom\u2014it allows people to live as they please until their choices begin to injure others, at which point society may step in to preserve safety and well-being.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 64,
+      "response_length": 517,
+      "response": "The harm principle is a cornerstone of liberal political philosophy, most famously articulated by John Stuart Mill in his 1859 essay On Liberty. At its core, it holds that:\n\n  \u2022  Individual freedom should be curtailed only to prevent harm to others.  \n  \u2022  Society or government has no legitimate authority to interfere with a person\u2019s actions purely for that person\u2019s own good (paternalism) or to enforce a particular moral code (moralism).\n\nKey Elements of the Harm Principle  \n1. Other-Regarding vs. Self-Regarding Actions  \n   \u2013 Other-regarding actions are those that risk harming other people or infringing on their rights (e.g., assaulting someone, damaging another\u2019s property).  \n   \u2013 Self-regarding actions affect only the individual performing them (e.g., choosing to smoke, to drink heavily, or to practice a risky extreme sport). Under the harm principle, the state may justly prohibit or punish the former but not the latter.  \n\n2. Definition of \u201cHarm\u201d  \n   \u2013 Harm typically means physical injury or a direct violation of someone\u2019s legal rights (bodily integrity, property, contractual rights).  \n   \u2013 Mere offense or disgust is not sufficient grounds for legal prohibition.  \n\n3. Limits of State Power  \n   \u2013 Paternalistic laws (e.g., forbidding adults from buying particular foods to protect them from themselves) are rejected.  \n   \u2013 Laws based solely on moral disapproval (e.g., banning consensual private behavior) are also unjustified unless they protect others from harm.  \n\nIllustrative Examples  \n  \u2022 Justified Restrictions (other-regarding):  \n    \u2013 Laws against assault, battery, or murder  \n    \u2013 Regulations preventing environmental pollution that damages public health or property  \n    \u2013 Theft, fraud, and other violations of personal or economic rights  \n  \u2022 Unjustified Restrictions (self-regarding):  \n    \u2013 Criminalizing suicide or self-harm  \n    \u2013 Banning consensual adult drug use purely to \u201cprotect\u201d users  \n    \u2013 Prohibiting private, victimless behaviors deemed immoral by some (e.g., certain sexual practices)  \n\nApplications in Contemporary Debates  \n  \u2022 Free Speech: The harm principle supports broad protection of speech, limiting restrictions to cases where speech directly incites violence or defames an individual in a damaging way. Mere offense or political dissent is not enough to justify censorship.  \n  \u2022 Drug Policy: Under a strict harm-principle framework, laws should focus on preventing drug-related harm to others\u2014drunk driving, drug-deal violence\u2014rather than punishing private use that harms only the user.  \n  \u2022 Public Health Measures: Governments can require vaccinations or quarantine when individuals\u2019 refusal poses a clear risk to the health of others (e.g., during an epidemic), but may not justify broad restrictions on bodily autonomy absent such risk.  \n\nChallenges and Qualifications  \n  \u2022 Defining and Measuring Harm: Identifying what counts as direct harm, and proving causation, can be difficult in complex social settings.  \n  \u2022 Risk and Precaution: Some argue that the state must act on reasonable precautions against potential harm, even if harm is not certain. Mill was cautious about \u201cover-zealous\u201d intervention.  \n  \u2022 Vulnerable Populations: Protecting children or those lacking capacity raises questions about when paternalistic intervention is appropriate\u2014most liberals accept some limits here.  \n\nIn sum, the harm principle demands a careful balance: it defends maximum individual liberty while recognizing the legitimate role of laws in preventing clear, direct harm to others. It remains a powerful guide in debates over free speech, personal autonomy, public health, and criminal justice.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 441,
+      "response": "The harm principle, most famously articulated by John Stuart Mill, holds that individuals should be free to act as they wish so long as their actions do not cause harm to others. It serves as a guiding rule for both ethical decision-making and the crafting of laws or policies. A comprehensive explanation includes the following elements:\n\n1. Core Idea  \n   - Personal liberty is the default condition: people may make their own choices about their lives, bodies, beliefs, and speech.  \n   - The only legitimate reason to interfere with someone\u2019s freedom is to prevent harm to other people.\n\n2. Autonomy and Self-Regarding Actions  \n   - Autonomy refers to an individual\u2019s right to govern their own life.  \n   - Self-regarding actions are those that affect only the person performing them (for example, private consumption of art or personal religious devotion). Such actions generally should not be interfered with, even if they seem unwise or self-destructive.\n\n3. Other-Regarding Actions and Demonstrable Harm  \n   - Other-regarding actions are those that can negatively impact others (for example, driving recklessly, defaming someone, polluting shared resources).  \n   - Intervention \u2013 whether social disapproval, regulation, or legal penalty \u2013 is justified only if there is clear, demonstrable harm. Mere offense, discomfort, or hypothetical risks do not meet the threshold.\n\n4. Defining \u201cHarm\u201d  \n   - Physical injury, property damage, or violations of others\u2019 rights are obvious forms of harm.  \n   - Economic harm (e.g. fraud), psychological harm (e.g. threats or harassment), and public-health risks (e.g. spreading contagious disease) also count, provided they cause real detriment.\n\n5. Proportionality and Justification  \n   - Any restriction on liberty must be proportionate to the seriousness of the harm being prevented.  \n   - Governments and institutions must show evidence of actual harm, not merely speculate about what could go wrong.\n\n6. Applications in Law and Policy  \n   - Free Speech: Speech that directly incites violence or defames someone may be restricted; unpopular but harmless speech should be protected.  \n   - Drug Use: Self-use of a substance that harms only the user is often viewed as outside the state\u2019s legitimate concern, whereas drug dealing or distribution that endangers others can be regulated.  \n   - Public Health: Quarantines or vaccination mandates may be justified if an individual\u2019s choices pose a clear risk of spreading disease.\n\n7. Balancing Individual Rights and Collective Welfare  \n   - Policymakers must carefully assess when the protection of society outweighs personal freedom.  \n   - The harm principle insists on minimal intrusion\u2014only the least restrictive means should be used to prevent clear, significant harm.\n\nBy setting \u201cdo no harm to others\u201d as the limiting factor on freedom, the harm principle strikes a balance between respect for individual autonomy and the need to protect society from real, demonstrable injury.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.0,
+    "mean_agreement": 0.0,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "agreement_scores": []
+  }
+}

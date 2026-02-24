@@ -1,0 +1,202 @@
+{
+  "concept": "derivative",
+  "domain": "mathematics",
+  "subject_model": "Phi-4",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 6,
+      "response": "Derivative is the rate of change.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "DeepSeek-v3.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 6,
+      "response_length": 51,
+      "response": "The derivative of a function at a point represents the instantaneous rate of change at that point. It measures how the function's output value changes as its input value changes infinitesimally around that point. Essentially, it provides the slope of the tangent line to the function's graph at the specified point.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 0.5,
+            "SA": 0.85,
+            "FC": 0.9
+          },
+          "DeepSeek-v3.2": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.4
+          }
+        },
+        "consensus": {
+          "CC": 0.44,
+          "SA": 0.91,
+          "FC": 0.65,
+          "agreement_score": 0.75,
+          "judge_variance_CC": 0.05,
+          "judge_variance_SA": 0.075,
+          "judge_variance_FC": 0.25,
+          "judge_count": 2,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.67
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 30,
+      "response_length": 194,
+      "response": "A derivative is a mathematical concept that represents the instantaneous rate of change of a function at a specific point. In simpler terms, it tells us how a function's output value changes in response to a small change in its input value. This is akin to finding the slope of the tangent line to the function's graph at a particular point.\n\nIn practical terms, derivatives are crucial because they allow us to understand and predict how systems behave when conditions change slightly. For example, in physics, the derivative of a position function with respect to time gives us the velocity, which tells us how fast an object is moving at any given moment. Similarly, the derivative of velocity with respect to time gives us acceleration, indicating how the speed of the object is changing.\n\nIn engineering, derivatives are used to model and analyze systems, optimize processes, and design components that respond predictably to changes in input. By understanding the rate at which outputs change, engineers can make informed decisions to improve efficiency, safety, and performance.\n\nOverall, derivatives provide a powerful tool for analyzing dynamic systems and understanding the relationships between variables in various fields.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 0.15,
+            "SA": 0.8,
+            "FC": 1.0
+          },
+          "DeepSeek-v3.2": {
+            "CC": 0.2,
+            "SA": 1.0,
+            "FC": 0.7
+          }
+        },
+        "consensus": {
+          "CC": 0.18,
+          "SA": 0.88,
+          "FC": 0.85,
+          "agreement_score": 0.8167,
+          "judge_variance_CC": 0.025,
+          "judge_variance_SA": 0.1,
+          "judge_variance_FC": 0.15,
+          "judge_count": 2,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.5940000000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 402,
+      "response": "A derivative is a fundamental concept in calculus that represents the rate at which a function's output changes with respect to changes in its input. It essentially measures how a small change in the input of a function affects the output, providing insight into the function's behavior at any given point.\n\nTo understand this better, consider a function \\( f(x) \\), which maps inputs \\( x \\) to outputs \\( f(x) \\). The derivative of this function, often denoted as \\( f'(x) \\) or \\(\\frac{dy}{dx}\\), quantifies the instantaneous rate of change of \\( f(x) \\) with respect to \\( x \\). This is akin to finding the slope of the tangent line to the curve of the function at a specific point. The tangent line represents the best linear approximation of the function near that point.\n\nIn practical terms, derivatives are used to analyze how quantities change. For example, in physics, if \\( f(t) \\) represents the position of an object at time \\( t \\), then the derivative \\( f'(t) \\) gives the velocity of the object at time \\( t \\). This is because velocity is defined as the rate of change of position with respect to time. Similarly, the derivative of velocity with respect to time gives acceleration, which is the rate of change of velocity.\n\nDerivatives are crucial in various fields such as physics, engineering, economics, and beyond. They are used to:\n\n1. **Analyze Slopes**: By determining the slope of a function at any point, derivatives help in understanding the direction and steepness of the function's graph.\n\n2. **Optimize Functions**: Derivatives are used to find local maxima and minima of functions, which is essential in optimization problems. By setting the derivative equal to zero, one can find critical points where the function's slope is zero, indicating potential maxima, minima, or saddle points.\n\n3. **Model Dynamic Systems**: In engineering and physics, derivatives are used to model systems that change over time, such as the motion of objects, the flow of fluids, and the behavior of electrical circuits.\n\n4. **Predict Behavior**: By understanding how a function changes, derivatives allow us to predict future behavior of systems modeled by the function.\n\nIn summary, the derivative is a powerful tool in calculus that provides a precise way to measure how a function changes at any given point, offering insights into the function's behavior and enabling the analysis and optimization of dynamic systems.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "DeepSeek-v3.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.96,
+          "SA": 0.94,
+          "FC": 1.0,
+          "agreement_score": 0.9333,
+          "judge_variance_CC": 0.05,
+          "judge_variance_SA": 0.05,
+          "judge_variance_FC": 0.0,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.96
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 497,
+      "response": "A derivative in mathematics is a fundamental concept that measures how a function changes as its input changes. It provides a precise way to quantify the rate of change of a function with respect to its independent variable. This concept is central to calculus and has numerous applications across various fields such as physics, engineering, economics, and more.\n\n### Definition and Interpretation\n\nFor a function \\( f(x) \\), the derivative at a point \\( x \\) is defined as the limit:\n\n\\[\nf'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}\n\\]\n\nThis expression represents the slope of the tangent line to the graph of the function at the point \\( x \\). The tangent line is a straight line that just \"touches\" the curve at that point and has the same slope as the curve at that point. The derivative, therefore, gives us the instantaneous rate of change of the function at \\( x \\).\n\n### Key Principles\n\n1. **Linearity**: The derivative operator is linear, meaning that for any two functions \\( f(x) \\) and \\( g(x) \\), and constants \\( a \\) and \\( b \\), the derivative of their linear combination is:\n\n   \\[\n   (af(x) + bg(x))' = af'(x) + bg'(x)\n   \\]\n\n2. **Product Rule**: If you have two functions \\( u(x) \\) and \\( v(x) \\), the derivative of their product is given by:\n\n   \\[\n   (u(x)v(x))' = u'(x)v(x) + u(x)v'(x)\n   \\]\n\n3. **Quotient Rule**: For the quotient of two functions \\( u(x) \\) and \\( v(x) \\), the derivative is:\n\n   \\[\n   \\left(\\frac{u(x)}{v(x)}\\right)' = \\frac{u'(x)v(x) - u(x)v'(x)}{(v(x))^2}\n   \\]\n\n4. **Chain Rule**: For composite functions, where one function is nested inside another, the chain rule provides a way to differentiate:\n\n   \\[\n   (f(g(x)))' = f'(g(x)) \\cdot g'(x)\n   \\]\n\n### Applications\n\n- **Physics**: Derivatives are used to describe motion. For example, velocity is the derivative of position with respect to time, and acceleration is the derivative of velocity.\n  \n- **Engineering**: In systems analysis, derivatives help in understanding rates of change, such as the rate of heat transfer or the rate of change of pressure in a fluid.\n\n- **Economics**: Derivatives are used to determine marginal cost, which is the cost of producing one additional unit of a good.\n\n- **Optimization**: Derivatives are crucial in finding maximum and minimum values of functions, which is essential in optimization problems.\n\n### Higher-Order Derivatives\n\nBeyond the first derivative, higher-order derivatives provide additional insights:\n\n- **Second Derivative**: This measures the rate of change of the rate of change, often related to curvature or acceleration. For example, in physics, the second derivative of position with respect to time is acceleration.\n\n- **Higher-Order Derivatives**: These can describe more complex behaviors and are used in Taylor series expansions and in solving differential equations.\n\nIn summary, derivatives are a powerful tool in mathematics that allow us to analyze and understand the behavior of functions in a precise and detailed manner. They are indispensable in both theoretical and applied contexts, providing insights into the dynamics of systems and processes.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 1.0,
+            "SA": 0.95,
+            "FC": 1.0
+          },
+          "DeepSeek-v3.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.97,
+          "FC": 1.0,
+          "agreement_score": 0.9833,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.025,
+          "judge_variance_FC": 0.0,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.988
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8423999999999999,
+    "mean_agreement": 0.89666,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      1.0,
+      0.67,
+      0.5940000000000001,
+      0.96,
+      0.988
+    ],
+    "agreement_scores": [
+      1.0,
+      0.75,
+      0.8167,
+      0.9333,
+      0.9833
+    ]
+  }
+}

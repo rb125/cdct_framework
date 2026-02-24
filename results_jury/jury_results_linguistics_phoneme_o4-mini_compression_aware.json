@@ -1,0 +1,196 @@
+{
+  "concept": "phoneme",
+  "domain": "linguistics",
+  "subject_model": "o4-mini",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 4,
+      "response": "A distinctive sound unit.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 9,
+      "response": "A phoneme is a distinctive sound unit in language.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 243,
+      "response": "A phoneme is the smallest unit of sound in a language that can distinguish one word from another. In English, for example, the sounds /p/ and /b/ are separate phonemes because \u201cpat\u201d and \u201cbat\u201d differ in meaning only by that initial sound.  \n\nKey points about phonemes:  \n\u2022 Distinctive sound units: Phonemes aren\u2019t letters but speech sounds. The word \u201ckite\u201d has three phonemes\u2014/k/, /a\u026a/ (the vowel sound in \u201ceye\u201d), and /t/\u2014even though it\u2019s written with four letters.  \n\u2022 Meaning-changing: Substituting one phoneme for another can create a new word or render the string meaningless (e.g., \u201cpin\u201d \u2192 change /p/ to /b/ \u2192 \u201cbin\u201d).  \n\u2022 Language-specific inventories: Different languages use different sets of phonemes. Japanese, for instance, doesn\u2019t distinguish the English /r/ and /l/ as separate phonemes, which is why learners sometimes have difficulty hearing or producing that contrast.  \n\u2022 Allophones vs. phonemes: A single phoneme can have slightly different pronunciations (allophones) depending on context, yet listeners still perceive them as the same sound. For example, the English /t/ in \u201ctop\u201d (with a strong burst of air) and in \u201cstop\u201d (softer) are allophones of the same phoneme /t/.  \n\u2022 Importance for learning: Phonemic awareness\u2014knowing and manipulating phonemes\u2014is crucial for reading and spelling. Children who can identify and blend phonemes tend to become more successful readers.  \n\nBy analyzing a language\u2019s phonemes, linguists can map out how sound patterns work, explain why certain words rhyme, and understand how people process and distinguish spoken words in real time.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 63,
+      "response_length": 466,
+      "response": "A phoneme is an idealized, mental category for a speech sound that serves to distinguish one word from another in a given language.  Here is a detailed breakdown of what that means and why it matters:\n\n1. Phoneme versus Phone  \n   \u2013 A phoneme is an abstract unit of sound (often written between slashes, e.g. /p/, /b/, /i/).  \n   \u2013 A phone is any actual speech sound you hear or articulate (often written between brackets, e.g. [p\u02b0], [p], [b]).  \n   \u2013 One phoneme can be realized by several different phones (its \u201callophones\u201d) without changing word meaning.  \n\n2. Contrastive Function  \n   \u2013 Phonemes are defined by their ability to contrast meaning. For example:  \n     \u2022 \u201cpat\u201d /p\u00e6t/  \n     \u2022 \u201cbat\u201d /b\u00e6t/  \n   \u2013 The change from /p/ to /b/ makes a different word, so /p/ and /b/ are separate phonemes in English.  \n\n3. Minimal Pairs  \n   \u2013 A minimal pair is a pair of words differing by only one phoneme, illustrating that those sounds are separate phonemes.  \n   \u2013 Examples in English:  \n     \u2022 \u201csip\u201d /s\u026ap/ vs. \u201czip\u201d /z\u026ap/ (shows /s/ vs. /z/)  \n     \u2022 \u201ccat\u201d /k\u00e6t/ vs. \u201ccap\u201d /k\u00e6p/ (shows /t/ vs. /p/)  \n\n4. Phoneme Inventory  \n   \u2013 Every language has its own set of phonemes\u2014its phoneme inventory.  \n   \u2013 English has about 44 phonemes (24 consonants, 20 vowels/diphthongs).  \n   \u2013 Other languages vary: Hawaiian has only about a dozen phonemes; !X\u00f3\u00f5 (a Khoisan language) has over a hundred.  \n\n5. Phonological Features  \n   \u2013 Phonemes can be described in terms of articulatory features, such as:  \n     \u2022 Voicing (voiced vs. voiceless: /b/ vs. /p/)  \n     \u2022 Place of articulation (bilabial, alveolar, velar, etc.)  \n     \u2022 Manner of articulation (stop, fricative, nasal, etc.)  \n\n6. Allophonic Variation  \n   \u2013 Although /p/ is one phoneme, an English speaker actually produces several variants:  \n     \u2022 Aspirated [p\u02b0] at the start of \u201cpat\u201d  \n     \u2022 Unaspirated [p] after /s/, as in \u201cspat\u201d  \n     \u2022 More lightly released [p\u031a] at the end of \u201clap\u201d  \n   \u2013 None of these differences creates a new word in English, so they are allophones of the same phoneme /p/.  \n\n7. Phonemes in Language Learning  \n   \u2013 Phonological awareness\u2014recognizing and manipulating phonemes\u2014is a key skill in learning to read and spell.  \n   \u2013 In second-language acquisition, correctly perceiving and producing new phonemes (e.g. the English /\u03b8/ in \u201cthin\u201d) improves intelligibility and listening comprehension.  \n\n8. Applications in Linguistics  \n   \u2013 Comparing phoneme inventories helps linguists classify languages and trace their histories.  \n   \u2013 Phonological rules describe how phonemes interact (e.g. plural /s/ in \u201ccats\u201d is [s], but in \u201cdogs\u201d it\u2019s [z]).  \n   \u2013 Understanding phonemes supports speech-technology applications such as automatic speech recognition and synthesis.  \n\nIn sum, phonemes are the fundamental building blocks of a language\u2019s sound system. They are not the exact sounds you hear but the abstract categories that speakers use to differentiate words. Understanding phonemes and their real-world realizations (phones) is central to phonological theory, literacy development, and successful pronunciation in additional languages.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 126,
+      "response_length": 371,
+      "response": "A phoneme is the smallest abstract unit of sound in a given language that can distinguish one word from another. Unlike the physical sounds we hear (which are called phones), phonemes are mental categories: they represent the way speakers of a language organize and interpret sounds to convey meaning.\n\nKey concepts and principles\n\n1. Contrastiveness  \n   \u2013 Phonemes serve to create differences in meaning.  \n   \u2013 When two sounds can appear in the same position in a word and swapping them changes the word\u2019s meaning, they are different phonemes.  \n   \u2013 Example: English /p/ versus /b/ in \u201cpat\u201d vs. \u201cbat.\u201d\n\n2. Minimal pairs  \n   \u2013 Pairs of words differing by exactly one phoneme, such as \u201cseat\u201d vs. \u201csit,\u201d illustrate contrastiveness directly.  \n   \u2013 They are a primary tool for identifying phonemes in a language.\n\n3. Allophones and complementary distribution  \n   \u2013 Allophones are the context\u2010dependent variants of a phoneme that do not change meaning.  \n   \u2013 Example: The /t/ in \u201ctop\u201d (aspirated [t\u02b0]) versus the /t/ in \u201cstop\u201d (unaspirated [t]).  \n   \u2013 These variants are in complementary distribution if each appears only in specific phonetic environments.\n\n4. Phonological rules  \n   \u2013 Formal descriptions of how and when phonemes are realized as their various allophones.  \n   \u2013 Rules may account for processes like assimilation (a sound becoming more like a neighboring sound), insertion, deletion, or devoicing.\n\nWhy phonemes matter\n\n\u2022 Phonological analysis: They allow linguists to map out the sound system of any language, describing which contrasts are meaningful.  \n\u2022 Language acquisition: Children learn the inventory of phonemes in their native language before they master the precise articulations of each allophone.  \n\u2022 Orthography development: Knowing phonemes guides the creation of writing systems (grapheme\u2013phoneme correspondences).  \n\u2022 Speech technology: Automatic speech recognition and text\u2010to\u2010speech systems rely on accurate phoneme models to convert between sound and text.  \n\u2022 Language teaching: Explicit instruction in phonemes helps learners notice differences that may not exist in their first language.  \n\u2022 Clinical assessment: Speech-language pathologists assess phoneme production to diagnose and treat speech disorders.\n\nIn sum, phonemes are the foundational building blocks of a language\u2019s sound system. By focusing on their contrastive functions, their patterned variants (allophones), and the rules that govern their realization, linguists and practitioners gain powerful tools for analyzing, teaching, and applying knowledge about human speech.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.0,
+    "mean_agreement": 0.0,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "agreement_scores": []
+  }
+}

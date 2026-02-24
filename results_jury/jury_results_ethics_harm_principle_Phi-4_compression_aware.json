@@ -1,0 +1,202 @@
+{
+  "concept": "harm_principle",
+  "domain": "ethics",
+  "subject_model": "Phi-4",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 4,
+      "response": "Preventing harm to others.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 0.8,
+            "SA": 0.85,
+            "FC": 0.9
+          },
+          "DeepSeek-v3.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.3
+          }
+        },
+        "consensus": {
+          "CC": 0.92,
+          "SA": 0.91,
+          "FC": 0.6,
+          "agreement_score": 0.6833,
+          "judge_variance_CC": 0.1,
+          "judge_variance_SA": 0.075,
+          "judge_variance_FC": 0.3,
+          "judge_count": 2,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8520000000000001
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "response_length": 45,
+      "response": "The harm principle suggests that actions should be prevented if they cause harm to others. It emphasizes the importance of protecting individuals from actions that could negatively impact their well-being. This principle serves as a guideline for determining when intervention is justified to prevent harm.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.6
+          },
+          "gpt-5.2": {
+            "CC": 0.5,
+            "SA": 0.85,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.44,
+          "SA": 0.91,
+          "FC": 0.75,
+          "agreement_score": 0.8167,
+          "judge_variance_CC": 0.05,
+          "judge_variance_SA": 0.075,
+          "judge_variance_FC": 0.15,
+          "judge_count": 2,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.6900000000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "response_length": 198,
+      "response": "The harm principle is a philosophical concept that suggests the actions of individuals should only be restricted to prevent harm to others. This principle is rooted in the idea of balancing individual freedom with the safety and well-being of society. It posits that people should be free to act as they wish, provided their actions do not cause harm to other individuals. \n\nThe harm principle serves as a guideline for determining the limits of personal liberty and the role of government or societal intervention. It implies that any restriction on personal freedom should be justified only if it is necessary to prevent harm to others. This principle is often used in discussions about laws and regulations, such as those concerning free speech, drug use, and public health measures, where the challenge is to find a balance between individual rights and the protection of the community.\n\nBy focusing on preventing harm, the harm principle aims to protect individual autonomy while ensuring that one person's freedom does not infringe upon the rights and safety of others. It is a foundational concept in liberal political philosophy, advocating for minimal interference in personal choices unless those choices pose a risk to others.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": 0.3,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "gpt-5.2": {
+            "CC": 0.2,
+            "SA": 0.75,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.26,
+          "SA": 0.85,
+          "FC": 1.0,
+          "agreement_score": 0.8833,
+          "judge_variance_CC": 0.05,
+          "judge_variance_SA": 0.125,
+          "judge_variance_FC": 0.0,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.6440000000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 64,
+      "response_length": 298,
+      "response": "The harm principle is a foundational concept in liberal ethics, primarily articulated by the philosopher John Stuart Mill. It serves as a guideline for determining the limits of individual liberty and the role of government or societal intervention. According to the harm principle, the only justifiable reason for restricting an individual's freedom is to prevent harm to others. This principle is rooted in the belief that individuals should have the autonomy to make their own choices, even if those choices are potentially harmful to themselves, as long as they do not harm others.\n\nThe harm principle is significant in various ethical and legal debates, as it helps balance personal freedom with the need to protect society. For instance, laws against actions like assault or theft are justified under the harm principle because these actions directly harm other individuals. In contrast, laws that prohibit self-destructive behaviors, such as drug use or certain lifestyle choices, are not justified under this principle, as they primarily affect the individual engaging in the behavior rather than others.\n\nThis principle is particularly relevant in discussions about free speech, where it supports the idea that individuals should be free to express their opinions, even if those opinions are unpopular or offensive, as long as they do not incite violence or harm others. Similarly, in debates about drug use, the harm principle would argue against criminalizing drug consumption for personal use, as it primarily affects the user, not others, unless it can be shown that such use directly harms others.\n\nOverall, the harm principle emphasizes the importance of individual autonomy while recognizing the necessity of societal protection. It provides a framework for evaluating when it is appropriate to limit personal freedoms in the interest of preventing harm to others, thereby guiding public policy and legal standards.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "DeepSeek-v3.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.94,
+          "FC": 1.0,
+          "agreement_score": 0.9667,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.05,
+          "judge_variance_FC": 0.0,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.976
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 303,
+      "response": "The harm principle is a key ethical concept primarily associated with the philosopher John Stuart Mill. It serves as a guideline for determining when it is appropriate to limit individual freedoms in order to prevent harm to others. According to this principle, personal liberty should only be restricted if an individual's actions pose a significant risk of injury or detriment to another person. This principle emphasizes the importance of autonomy, suggesting that individuals should be free to act as they wish, provided their actions do not harm others.\n\nA central aspect of the harm principle is the distinction between self-regarding and other-regarding actions. Self-regarding actions are those that primarily affect the individual performing them, while other-regarding actions have consequences for other people. The harm principle suggests that society should not interfere with self-regarding actions, as they do not harm others. However, other-regarding actions that cause harm to others may be subject to regulation or intervention.\n\nThe application of the harm principle requires a careful analysis of what constitutes \"harm.\" This involves determining whether an action genuinely poses a risk to others and ensuring that any restrictions on personal freedom are proportionate and justified by actual threats, rather than hypothetical ones. The principle is used to guide legal and moral frameworks, influencing policies on issues such as free speech, drug use, and public health. It helps delineate the boundary between personal freedom and societal protection, balancing individual rights with the collective welfare of the community.\n\nIn practice, applying the harm principle involves evaluating the potential consequences of actions, considering the severity and likelihood of harm, and ensuring that any limitations on freedom are necessary and appropriate. This requires a nuanced understanding of both individual rights and the broader social context, aiming to protect individuals from harm while respecting their autonomy as much as possible.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "DeepSeek-v3.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8324,
+    "mean_agreement": 0.8699999999999999,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.8520000000000001,
+      0.6900000000000001,
+      0.6440000000000001,
+      0.976,
+      1.0
+    ],
+    "agreement_scores": [
+      0.6833,
+      0.8167,
+      0.8833,
+      0.9667,
+      1.0
+    ]
+  }
+}

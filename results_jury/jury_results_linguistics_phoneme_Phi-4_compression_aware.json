@@ -1,0 +1,202 @@
+{
+  "concept": "phoneme",
+  "domain": "linguistics",
+  "subject_model": "Phi-4",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 6,
+      "response": "Phoneme is a distinctive sound unit.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "DeepSeek-v3.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 31,
+      "response": "A phoneme is a distinctive sound unit in a language that can differentiate meaning between words. It is the smallest unit of sound that can change the meaning of a word.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 0.4,
+            "SA": 0.8,
+            "FC": 0.85
+          },
+          "DeepSeek-v3.2": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.4,
+          "SA": 0.88,
+          "FC": 0.925,
+          "agreement_score": 0.8833,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.1,
+          "judge_variance_FC": 0.075,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.6970000000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 182,
+      "response": "A phoneme is a fundamental unit of sound in a language that serves to distinguish one word from another. It is the smallest segment of sound that can change the meaning of a word. For example, in English, the words \"bat\" and \"pat\" differ by only one phoneme: /b/ and /p/. This single change in sound alters the meaning of the word entirely, demonstrating the role of phonemes in language.\n\nPhonemes are crucial for understanding how languages organize sounds. Each language has a specific set of phonemes that are used to construct words. These sets can vary significantly between languages, which is why some sounds in one language may not exist in another, and vice versa.\n\nUnderstanding phonemes is also essential for explaining how people distinguish between words. When we speak or listen, we process these distinct sounds to recognize and produce words correctly. This ability to differentiate between phonemes allows us to understand spoken language and communicate effectively.\n\nIn summary, phonemes are the building blocks of spoken language, playing a critical role in word formation, meaning differentiation, and overall language comprehension.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": 0.3,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "gpt-5.2": {
+            "CC": 0.2,
+            "SA": 0.85,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.26,
+          "SA": 0.91,
+          "FC": 0.95,
+          "agreement_score": 0.8833,
+          "judge_variance_CC": 0.05,
+          "judge_variance_SA": 0.075,
+          "judge_variance_FC": 0.05,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.6580000000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 63,
+      "response_length": 369,
+      "response": "A phoneme is a fundamental concept in the study of linguistics, particularly in the field of phonology, which is the branch of linguistics concerned with the systematic organization of sounds in languages. Phonemes are the smallest units of sound that can distinguish meaning between words in a given language. For example, in English, the words \"pat\" and \"bat\" differ only in their initial sounds, /p/ and /b/, respectively. This difference in sound changes the meaning of the words, illustrating how phonemes function to create distinct meanings.\n\nPhonemes are abstract entities, meaning they are not tied to any specific sound but rather represent a set of sounds that are perceived as equivalent by speakers of the language. These sounds are known as \"allophones.\" For instance, the /p/ sound in \"pat\" and the slightly aspirated /p/ sound in \"spat\" are allophones of the same phoneme /p/ in English. Despite the slight difference in pronunciation, they do not change the meaning of the words and are thus considered the same phoneme.\n\nLinguists study phoneme inventories, which are the sets of phonemes that a particular language uses. By comparing these inventories across different languages, linguists can gain insights into the sound patterns and structures that characterize languages, as well as the historical and evolutionary relationships between them.\n\nPhonemes play a crucial role in phonological awareness, which is the ability to recognize and manipulate the sound structures of language. This awareness is essential for literacy development, as it underpins skills such as reading and spelling. For example, understanding that the word \"cat\" is composed of the phonemes /k/, /\u00e6/, and /t/ helps learners decode and spell the word.\n\nIn the context of second language acquisition, mastering the phonemes of a new language is vital for achieving accurate pronunciation. Learners must be able to perceive and produce the phonemes of the target language, which may differ significantly from those of their native language. This can be challenging, as some phonemes may not exist in the learner's first language, requiring them to develop new auditory and articulatory skills.\n\nOverall, phonemes are essential building blocks of language, serving as the smallest sound units that convey meaning and enabling the rich diversity of spoken communication across different languages.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 0.85,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "DeepSeek-v3.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.94,
+          "SA": 0.94,
+          "FC": 1.0,
+          "agreement_score": 0.9167,
+          "judge_variance_CC": 0.075,
+          "judge_variance_SA": 0.05,
+          "judge_variance_FC": 0.0,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.952
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 126,
+      "response_length": 479,
+      "response": "A phoneme is a fundamental concept in the study of linguistics, representing the smallest unit of sound that can distinguish meaning between words in a language. Unlike individual sounds, phonemes are abstract entities that are defined by their functional role in a language's sound system rather than by their specific physical articulation. This means that phonemes are not tied to a single sound but rather to a set of sounds that can vary depending on the context, known as allophones.\n\n### Key Concepts Related to Phonemes:\n\n1. **Contrastiveness**: \n   - Phonemes are contrastive in nature, meaning they can create minimal pairs\u2014pairs of words that differ by only one phoneme and have different meanings. For example, in English, the words \"pat\" and \"bat\" differ only in their initial sounds /p/ and /b/, which are distinct phonemes. This contrastiveness is crucial because it shows how phonemes function to differentiate meaning.\n\n2. **Complementary Distribution**:\n   - Allophones are the context-dependent variants of a phoneme. They occur in complementary distribution, meaning they never appear in the same phonetic environment. For instance, the English phoneme /t/ can be pronounced as a flap [\u027e] in \"butter\" (in American English) or as a glottal stop [\u0294] in \"button,\" but these variations do not change the meaning of the word. The allophones are different realizations of the same phoneme.\n\n3. **Phonological Rules**:\n   - These are the rules that govern how phonemes are realized as allophones in different contexts. Phonological rules help explain why certain sounds change in specific environments, contributing to the systematic nature of a language's sound system.\n\n### Importance of Phonemes:\n\n- **Phonological Analysis**: Phonemes are central to phonological analysis, which involves describing and understanding the sound systems of languages. By identifying phonemes, linguists can map out how sounds function within a language, aiding in the study of language structure and evolution.\n\n- **Language Acquisition**: Understanding phonemes is crucial in analyzing how children acquire language. It helps in identifying the stages of phonological development and the challenges learners may face in distinguishing and producing phonemes.\n\n- **Orthography Development**: Phonemes play a key role in developing writing systems (orthographies) for languages, especially those that are unwritten. By understanding the phonemic structure, linguists can create alphabets that accurately represent the sounds of a language.\n\n- **Applied Linguistics**: In applied contexts, phonemes are essential for speech recognition technology, which relies on distinguishing phonemes to accurately transcribe spoken language. They are also important in language teaching, where understanding phonemic differences can aid in pronunciation training. Additionally, in clinical settings, phonemes are used to assess and treat speech disorders, helping clinicians identify and address issues related to sound production.\n\nIn summary, phonemes are foundational to both theoretical and applied linguistics, providing a framework for understanding how sounds function to convey meaning in language. They are integral to analyzing sound systems, developing writing systems, and applying linguistic knowledge in technology and clinical practice.",
+      "jury_evaluation": {
+        "judges": {
+          "gpt-5.2": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "DeepSeek-v3.2": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.94,
+          "FC": 1.0,
+          "agreement_score": 0.9667,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.05,
+          "judge_variance_FC": 0.0,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.976
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8566,
+    "mean_agreement": 0.93,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      1.0,
+      0.6970000000000001,
+      0.6580000000000001,
+      0.952,
+      0.976
+    ],
+    "agreement_scores": [
+      1.0,
+      0.8833,
+      0.8833,
+      0.9167,
+      0.9667
+    ]
+  }
+}

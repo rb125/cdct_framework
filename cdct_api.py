@@ -28,6 +28,14 @@ async def get_score(model_name: str, background_tasks: BackgroundTasks):
         model_exists = any(config["model_name"].lower() == model_name.lower() for config in SUBJECT_MODELS_CONFIG)
         
         if model_exists:
+            if os.getenv("VERCEL") or os.getenv("VERCEL_ENV"):
+                return {
+                    "status": "error",
+                    "message": (
+                        f"No scores found for '{model_name}'. Background scoring is disabled on Vercel. "
+                        "Commit results to results_jury/ or run scoring on a worker."
+                    ),
+                }
             background_tasks.add_task(run_diagnostic_battery, model_name)
             return {"status": "started", "message": f"No scores found for '{model_name}'. Diagnostic battery started in background."}
         else:
@@ -74,8 +82,14 @@ async def run_experiment(request: ExperimentRequest, background_tasks: Backgroun
     if not model_exists:
         raise HTTPException(status_code=400, detail=f"Model '{request.model}' not found in SUBJECT_MODELS_CONFIG")
 
+    if os.getenv("VERCEL") or os.getenv("VERCEL_ENV"):
+        return {
+            "status": "error",
+            "model": request.model,
+            "message": "Background scoring is disabled on Vercel. Run on a worker or locally, then commit results.",
+        }
+
     background_tasks.add_task(run_diagnostic_battery, request.model, request.concepts)
-    
     return {"status": "started", "model": request.model, "message": "Diagnostic battery started in background."}
 
 if __name__ == "__main__":

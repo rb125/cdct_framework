@@ -1,0 +1,196 @@
+{
+  "concept": "natural_selection",
+  "domain": "biology",
+  "subject_model": "o4-mini",
+  "jury_models": [
+    "gpt-5.2",
+    "DeepSeek-v3.2"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 2,
+      "response": "survival advantage",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 24,
+      "response": "Natural selection is the process by which a survival advantage is passed to offspring. It operates through the survival advantage being passed to offspring.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 296,
+      "response": "Natural selection is the process by which populations of organisms change over time because individuals with certain heritable traits tend to survive and reproduce more successfully than others. Here\u2019s how it works:\n\n1. Variation exists in every population  \n   \u2022 Individuals differ in physical characteristics (size, color, shape) and behaviors.  \n   \u2022 Much of this variation is due to differences in genes.\n\n2. Some traits help individuals survive or reproduce  \n   \u2022 A \u201chelpful\u201d trait might let an animal find food more easily, escape predators, or tolerate extreme temperatures.  \n   \u2022 In plants, a helpful trait might be deeper roots to reach water or leaves shaped to catch more sunlight.\n\n3. Differential survival and reproduction  \n   \u2022 Individuals with advantageous traits (higher \u201cfitness\u201d) tend to live longer and produce more offspring.  \n   \u2022 Those offspring inherit many of the same advantageous traits.\n\n4. Traits become more common over generations  \n   \u2022 As each generation passes, the helpful traits accumulate in the population.  \n   \u2022 Less helpful or harmful traits become rarer.\n\n5. Populations adapt to their environments  \n   \u2022 Over many generations, the population as a whole becomes better suited to its environment.  \n   \u2022 If environments change, new traits may become advantageous and be selected for.\n\nExample:  \n\u2022 Peppered moths in 19th-century England were originally light-colored and well camouflaged against light tree bark. When industrial soot darkened the bark, darker moths survived predation more often than light moths. Over time, the population shifted toward the dark form.  \n\u2022 Once pollution controls cleaned the trees again, the lighter form regained its advantage.\n\nKey points to remember:  \n\u2022 Natural selection requires variation, heritability, and differences in reproductive success.  \n\u2022 It acts on individuals but its consequences appear in populations over many generations.  \n\u2022 It is the driving force behind adaptation and the diversity of life on Earth.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 60,
+      "response_length": 304,
+      "response": "Natural selection is the process by which populations become better suited to their environments over successive generations. It works through four key principles:\n\n1. Variation  \n   \u2022 Individuals in a population differ from one another (size, coloration, disease resistance, etc.).  \n   \u2022 Much of this variation is genetic\u2014passed from parents to offspring.\n\n2. Heritability  \n   \u2022 Beneficial traits must be heritable so they can be passed on.  \n   \u2022 If a trait improves survival or reproduction, offspring are more likely to inherit it.\n\n3. Differential Survival and Reproduction  \n   \u2022 Organisms with advantageous traits tend to survive longer and produce more offspring.  \n   \u2022 Those without the traits leave fewer descendants.\n\n4. Change in Allele Frequencies  \n   \u2022 Over generations, alleles that confer an advantage increase in frequency within the gene pool.  \n   \u2022 Less advantageous alleles become rarer.\n\nExample: Peppered Moths  \n\u2022 Before industrial pollution, light-colored moths blended in with lichened trees and avoided predators.  \n\u2022 As soot darkened tree bark, dark-colored (\u201cmelanic\u201d) moths had better camouflage.  \n\u2022 Dark moths survived at higher rates, reproduced more, and their genes became common.\n\nTypes of Natural Selection  \n\u2022 Directional Selection \u2013 Favors one extreme of a trait (e.g., darker coloration).  \n\u2022 Stabilizing Selection \u2013 Favors intermediate traits and reduces extremes (e.g., average birth weight).  \n\u2022 Disruptive Selection \u2013 Favors extremes at both ends (e.g., very large or very small beaks).\n\nOutcomes of Natural Selection  \n\u2022 Adaptation: Populations develop features that fit their environments (camouflage, toxin resistance, drought tolerance).  \n\u2022 Speciation: Given enough time and isolation, accumulated differences can lead to new species.  \n\u2022 Environmental Response: Populations can shift allele frequencies in response to changing conditions (climate change, new predators or diseases).\n\nIn sum, natural selection is the engine of evolutionary change. By favoring heritable traits that enhance survival and reproduction, it shapes the diversity of life and drives the emergence of new species.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 135,
+      "response_length": 327,
+      "response": "Natural selection is the process by which heritable traits that confer a survival or reproductive advantage become more common in a population over successive generations. Here\u2019s how it works and why it matters:\n\n1. Variation  \n   \u2022 Within any population, individuals differ genetically\u2014for example, in coloration, size, metabolism or behavior.  \n   \u2022 These differences arise through mutations, gene shuffling during sexual reproduction, and other genetic processes.\n\n2. Inheritance  \n   \u2022 Many of these trait differences are passed from parents to offspring via DNA.  \n   \u2022 Only heritable (genetic) traits can be shaped directly by natural selection.\n\n3. Differential Survival and Reproduction (Fitness)  \n   \u2022 In a given environment, some trait variants help individuals survive longer or reproduce more effectively.  \n   \u2022 \u201cFitness\u201d is a measure of an individual\u2019s reproductive success relative to others in the population.  \n   \u2022 Individuals with higher fitness leave more offspring, so the genes underlying their advantageous traits increase in frequency.\n\n4. Adaptation  \n   \u2022 Over multiple generations, the cumulative effect of favoring beneficial traits leads a population to become better suited\u2014or adapted\u2014to its environment.  \n   \u2022 Adaptations can be anatomical (e.g., thicker fur in cold climates), physiological (e.g., enzyme variants that break down toxins), or behavioral (e.g., mating displays that attract partners).\n\n5. Long-Term Outcomes  \n   \u2022 Complex adaptations can evolve through a series of small, advantageous changes.  \n   \u2022 Natural selection can drive speciation: when populations of the same species become reproductively isolated and diverge genetically, new species may form.  \n   \u2022 It contributes to the vast biodiversity we observe today.\n\n6. Real-World Examples and Applications  \n   \u2022 Medicine: Overuse of antibiotics selects for resistant bacterial strains. Understanding these dynamics guides better treatment protocols.  \n   \u2022 Agriculture: Plant and animal breeders harness natural variation to develop high-yield or disease-resistant crops and livestock.  \n   \u2022 Conservation Biology: Knowing which traits are advantageous in changing habitats helps manage endangered species and preserve genetic diversity.\n\nBy continually \u201cweeding out\u201d less favorable variations and amplifying traits that improve survival and reproduction, natural selection shapes life\u2019s diversity and drives evolutionary change.",
+      "jury_evaluation": {
+        "judges": {
+          "DeepSeek-v3.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          },
+          "gpt-5.2": {
+            "CC": null,
+            "SA": null,
+            "FC": null,
+            "error": "Agent error for CC: 'NoneType' object is not subscriptable; Agent error for SA: 'NoneType' object is not subscriptable; Agent error for FC: 'NoneType' object is not subscriptable"
+          }
+        },
+        "consensus": {
+          "CC": null,
+          "SA": null,
+          "FC": null,
+          "agreement_score": 0.0,
+          "judge_count": 0,
+          "error": "No valid judges",
+          "recommendation": "FAILED - No valid judge results"
+        }
+      },
+      "score": 0.0
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.0,
+    "mean_agreement": 0.0,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "agreement_scores": []
+  }
+}
