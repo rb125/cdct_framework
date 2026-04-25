@@ -1,6 +1,8 @@
 # Compression Decay Comprehension Test (CDCT) Framework
 
-This repository contains the source code and data for the research paper "The Compression Decay Comprehension Test (CDCT)." It measures how model comprehension decays under compression and aggregates results into CDCT metrics.
+This repository contains the source code and data for the research paper "The Compression Decay Comprehension Test (CDCT)." It measures how model comprehension decays under progressive information compression and aggregates results into CDCT metrics.
+
+**Live results:** [rb125.github.io/cdct_framework](https://rb125.github.io/cdct_framework/)
 
 ## API (Vercel)
 
@@ -8,105 +10,110 @@ The Vercel deployment serves precomputed metrics from `results_jury/`.
 *   `GET /score/{model_name}`: Return CDCT metrics for a model.
 *   `POST /run_experiment`: Disabled on Vercel; run locally or on a worker, then commit results.
 
-## Features
+## Subject Models (11 Contestants)
 
-*   **Modular and Extensible:** Easily add new concepts, models, and evaluation metrics.
-*   **Comprehensive Evaluation:** Includes a suite of tools for running experiments, analyzing results, and generating figures.
-*   **Reproducibility:** The entire pipeline, from data generation to analysis, is scriptable and easy to run.
-*   **Jury-Based Evaluation:** Implements a jury-based evaluation system to assess model performance on complex concepts.
+| Model | Family | Provider |
+|---|---|---|
+| GPT-5.4 | OpenAI | Azure OpenAI |
+| DeepSeek-V3.2 | DeepSeek | Azure AI Foundry |
+| Mistral-Large-3 | Mistral | Azure AI Foundry |
+| Grok-4-20-Reasoning | xAI | Azure AI Foundry |
+| Phi-4 | Microsoft | Azure AI Foundry |
+| Llama-4-Maverick-17B-128E | Meta | Azure AI Foundry |
+| Kimi-K2.5 | Moonshot | Azure AI Foundry |
+| Gemma-4-27B-IT | Google | Modal (vLLM) |
+| Nova Pro | Amazon | AWS Bedrock |
+| Claude Sonnet 4.6 | Anthropic | AWS Bedrock |
+| MiniMax M2.5 | MiniMax | AWS Bedrock |
+
+## Jury Models (3 Judges — Zero Family Overlap)
+
+| Model | Family | Primary Axis |
+|---|---|---|
+| Qwen3-32B | Alibaba | SA (Semantic Accuracy) |
+| GLM-5 | Zhipu AI | CC (Constraint Compliance) |
+| Nemotron Super 3 120B | NVIDIA | FC (Functional Completeness) |
+
+The jury evaluates each response on three orthogonal dimensions:
+- **CC (Constraint Compliance):** Did the model follow length/content restrictions?
+- **SA (Semantic Accuracy):** Is the content factually correct given the context?
+- **FC (Functional Completeness):** Did it answer the question adequately?
+
+## Ablation Study
+
+The `no_helpfulness` ablation removes RLHF alignment cues from the prompt to test whether the CC dip at CL=0.50 is caused by learned helpfulness behavior or is an intrinsic compression boundary.
+
+- **Baseline:** `results_jury/` — compression-aware prompts with level-specific constraints
+- **Ablation:** `results_jury_ablation/` — minimal prompts stripped of social framing
 
 ## Project Structure
 
-The repository is organized as follows:
-
 ```
 /
-├── concepts/                  # JSON definitions for each concept
-├── results_jury/              # Raw results from the jury-based evaluations
-├── results_jury_ablation/     # Results for ablation studies
-├── results_jury_unaware_compression/ # Results for unaware compression experiments
-├── src/                       # Source code for the CDCT framework
-│   ├── agent.py               # Handles interactions with different language models
-│   ├── analysis.py            # Tools for analyzing experiment results
-│   ├── compression.py         # Implements the compression algorithm
-│   ├── concept.py             # Loads and manages concept definitions
-│   ├── evaluation.py          # Core evaluation logic
-│   ├── experiment_jury.py     # Manages the jury-based experiment pipeline
-│   ├── llm_jury.py            # Implements the language model-based jury
+├── concepts/                  # JSON definitions for each concept (8 domains)
+├── results_jury/              # Baseline jury evaluation results (88 files)
+├── results_jury_ablation/     # RLHF ablation results (88 files)
+├── src/
+│   ├── agent.py               # Model agents (Azure OpenAI, Azure AI, Bedrock)
+│   ├── llm_jury.py            # 3-model jury with weighted consensus
+│   ├── experiment_jury.py     # Jury-based experiment pipeline
+│   ├── prompting.py           # Prompt strategies (compression_aware, minimal)
+│   ├── compression.py         # Compression algorithm
+│   ├── retry_handler.py       # Exponential backoff with error classification
 │   └── ...
-├── scripts/                   # Various scripts for generation, analysis, and reporting
-├── main.py                    # Main entry point to run a single experiment
-├── main_jury.py               # Main entry point for jury-based evaluations
-├── run_all.py                 # Runs all experiments for all models and concepts
-├── run_all_jury.py            # Runs all jury-based evaluations
-├── analyze_jury_results.py    # Analyzes the results from the jury evaluations
-├── calculate_cdct_metrics.py  # Calculates the final CDCT metrics
-├── models_config.py           # Configuration for language model APIs
-└── README.md                  # This file
+├── main.py                    # Single experiment entry point
+├── main_jury.py               # Jury evaluation entry point
+├── run_all_jury.py            # Batch: all models × all concepts
+├── run_all_jury_ablation.py   # Batch: ablation study
+├── models_config.py           # Model registry and provider configuration
+├── index.html                 # GitHub Pages results dashboard
+└── README.md
 ```
 
 ## Setup and Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/cdct-framework.git
-    cd cdct-framework
+    git clone https://github.com/rb125/cdct_framework.git
+    cd cdct_framework
     ```
 
-2.  **Create and activate a virtual environment:**
+2.  **Install dependencies:**
     ```bash
     python3 -m venv .venv
     source .venv/bin/activate
-    ```
-
-3.  **Install the required dependencies:**
-    ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Configure the language models:**
-    -   Add your API keys and any other necessary configurations to `models_config.py`.
+3.  **Configure credentials** in `.env`:
+    ```
+    AZURE_API_KEY=<your-key>
+    AZURE_OPENAI_API_ENDPOINT=https://<resource>.cognitiveservices.azure.com/
+    FOUNDRY_MODELS_ENDPOINT=https://<resource>.services.ai.azure.com/openai/v1/
+    AWS_BEARER_TOKEN_BEDROCK=<your-absk-token>
+    GEMMA_BASE_URL=<your-modal-endpoint>
+    GEMMA_API_KEY=not-needed
+    ```
 
 ## Usage
 
-### Running Experiments
-
-To run a single experiment, use `main.py`:
+### Run full evaluation battery
 
 ```bash
-python main.py --model <model_name> --concept <concept_name>
+python3 run_all_jury.py            # 11 models × 8 concepts = 88 runs
+python3 run_all_jury_ablation.py   # Same, with no_helpfulness ablation
 ```
 
-To run all experiments for all models and concepts:
+### Run a single experiment
 
 ```bash
-python run_all.py
+python3 main_jury.py --concept concepts/mathematics_derivative.json --model gpt-5.4
+python3 main_jury.py --concept concepts/mathematics_derivative.json --model gpt-5.4 --ablation-type no_helpfulness --output-dir results_jury_ablation
 ```
 
-### Jury-Based Evaluation
-
-To run a jury-based evaluation for a single experiment:
+### Analyze results
 
 ```bash
-python main_jury.py --model <model_name> --concept <concept_name>
-```
-
-To run all jury-based evaluations:
-
-```bash
-python run_all_jury.py
-```
-
-### Analysis
-
-To analyze the results of the jury evaluations:
-
-```bash
-python analyze_jury_results.py
-```
-
-To calculate the final CDCT metrics:
-
-```bash
-python calculate_cdct_metrics.py
+python3 analyze_jury_results.py
+python3 calculate_cdct_metrics.py
 ```
