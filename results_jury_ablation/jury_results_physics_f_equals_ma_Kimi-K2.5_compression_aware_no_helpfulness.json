@@ -1,0 +1,228 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "subject_model": "Kimi-K2.5",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 5,
+      "response": "f_equals_ma is the force-motion relationship.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 1.0,
+          "agreement_score": 0.9686,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.98
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 10,
+      "response": "f_equals_ma describes the principle that force causes mass to accelerate.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 31,
+      "response": "The expression f_equals_ma represents the relationship where a force acting on an object causes the object's mass to accelerate. This relationship helps predict and understand motion in everyday life and engineering.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 65,
+      "response": "Newton's second law of motion states that force equals mass times acceleration (F = ma), meaning applying a greater force to an object results in a higher acceleration when mass remains constant. For example, pushing a car requires more force than pushing a bicycle due to their different masses, and engineers use this principle to design vehicles, predict motion, and ensure safety in transportation systems.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 0.675,
+          "SA": 0.95,
+          "FC": 0.8333,
+          "agreement_score": 0.6803,
+          "judge_variance_CC": 0.2625,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.17,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.81666
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 76,
+      "response": "F = ma represents Newton's Second Law of Motion, which states that the net force acting on an object equals the product of its mass and acceleration, indicating that acceleration is directly proportional to net force and inversely proportional to mass. This vector relationship, which requires considering all forces to determine the net force, serves as the cornerstone of classical mechanics and enables precise modeling of physical systems including vehicle dynamics, planetary motion, and engineering structures.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.6,
+            "SA": 1.0,
+            "FC": 0.85
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.825,
+          "SA": 0.95,
+          "FC": 0.8833,
+          "agreement_score": 0.7986,
+          "judge_variance_CC": 0.17,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.085,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.88666
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.9293319999999999,
+    "mean_agreement": 0.8706400000000001,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.98,
+      1.0,
+      0.9633400000000001,
+      0.81666,
+      0.88666
+    ],
+    "agreement_scores": [
+      0.9686,
+      1.0,
+      0.9057,
+      0.6803,
+      0.7986
+    ]
+  }
+}

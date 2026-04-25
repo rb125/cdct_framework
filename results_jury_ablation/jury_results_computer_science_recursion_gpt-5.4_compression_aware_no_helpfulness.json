@@ -1,0 +1,228 @@
+{
+  "concept": "recursion",
+  "domain": "computer_science",
+  "subject_model": "gpt-5.4",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 13,
+      "response": "Recursion is a self-calling function. It refers to a function that calls itself.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.7,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.825,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.854,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.90334
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 10,
+      "response": "Recursion is a self-calling function. It includes a base case.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9733400000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 25,
+      "response": "Recursion is a self-calling function with a base case. It solves complex problems by breaking them into smaller, similar tasks until reaching a simple solution.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 65,
+      "response_length": 65,
+      "response": "Recursion in computer science is when a function calls itself to solve a problem, with each call handling a smaller instance of the same problem until a base case is reached to prevent infinite loops. It is commonly used in algorithms like quicksort and mergesort, in calculating factorials, and in traversing data structures such as trees, often simplifying code for problems with repetitive, self-similar sub-tasks.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.3,
+            "SA": 1.0,
+            "FC": 0.7
+          }
+        },
+        "consensus": {
+          "CC": 0.625,
+          "SA": 1.0,
+          "FC": 0.8667,
+          "agreement_score": 0.7108,
+          "judge_variance_CC": 0.3091,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8233400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 139,
+      "response_length": 81,
+      "response": "Recursion is a method in computer science where a function calls itself directly or indirectly to solve a problem by breaking it into smaller, more manageable subproblems. It relies on a base case to stop the recursive calls and a recursive case to reduce the problem\u2019s complexity, using the call stack to maintain state; it is useful for self-similar problems like tree traversals, factorial, Fibonacci, quicksort, mergesort, and depth-first search, though excessive recursion can cause performance issues due to stack limitations.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          }
+        },
+        "consensus": {
+          "CC": 0.875,
+          "SA": 0.95,
+          "FC": 0.9,
+          "agreement_score": 0.831,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.91
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.922004,
+    "mean_agreement": 0.8665800000000001,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.90334,
+      0.9733400000000001,
+      1.0,
+      0.8233400000000001,
+      0.91
+    ],
+    "agreement_scores": [
+      0.854,
+      0.9371,
+      1.0,
+      0.7108,
+      0.831
+    ]
+  }
+}

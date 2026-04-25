@@ -1,0 +1,228 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "subject_model": "Phi-4",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 47,
+      "response": "The force-motion relationship, often expressed as \\( f = ma \\), indicates that force (\\( f \\)) is equal to mass (\\( m \\)) multiplied by acceleration (\\( a \\)). This equation describes how the motion of an object is influenced by the forces acting upon it.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.4,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 0.4,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.45,
+          "SA": 0.8,
+          "FC": 0.8,
+          "agreement_score": 0.6993,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.2625,
+          "judge_variance_FC": 0.1414,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.6600000000000001
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 47,
+      "response": "The equation \\( F = ma \\) describes the relationship where force (\\( F \\)) causes a mass (\\( m \\)) to accelerate (\\( a \\)). It indicates that the force applied to an object is equal to the mass of the object multiplied by its acceleration.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.4,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.4,
+          "SA": 0.95,
+          "FC": 0.8,
+          "agreement_score": 0.8743,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.1414,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.7000000000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 43,
+      "response": "The equation \\( F = ma \\) describes the relationship where a force (\\( F \\)) acting on an object causes its mass (\\( m \\)) to accelerate (\\( a \\)). This relationship is fundamental in predicting and understanding motion in various contexts.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9433400000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 58,
+      "response": "Newton\u2019s second law of motion, expressed as \\( F = ma \\), indicates that the force applied to an object is equal to its mass multiplied by its acceleration. This means that for a constant mass, increasing the force results in greater acceleration. This principle is used by engineers to design vehicles and ensure safety in transportation systems.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.875,
+          "SA": 0.95,
+          "FC": 0.8667,
+          "agreement_score": 0.8226,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.90334
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 78,
+      "response": "F = ma represents Newton\u2019s Second Law of Motion, stating that the net force (F) acting on an object equals the product of its mass (m) and acceleration (a). This law indicates that acceleration is directly proportional to the net force and inversely proportional to mass, requiring consideration of all forces acting on the object to determine the net force. It is a fundamental equation in classical mechanics used to model and predict the motion of physical systems.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.8,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 0.5,
+          "SA": 0.9,
+          "FC": 0.7333,
+          "agreement_score": 0.7911,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7066600000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.782668,
+    "mean_agreement": 0.8186,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.6600000000000001,
+      0.7000000000000001,
+      0.9433400000000001,
+      0.90334,
+      0.7066600000000001
+    ],
+    "agreement_scores": [
+      0.6993,
+      0.8743,
+      0.9057,
+      0.8226,
+      0.7911
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "concept": "harm_principle",
+  "domain": "ethics",
+  "subject_model": "MiniMax-M2.5",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 29,
+      "response": "\n\nThe harm principle is the idea that individuals should be free to act unless their actions harm others. Based on the limited information provided, it relates to preventing harm.",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.6,
+            "FC": 0.3
+          },
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.7,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 0.7,
+            "FC": 0.8
+          }
+        },
+        "consensus": {
+          "CC": 0.5,
+          "SA": 0.675,
+          "FC": 0.6333,
+          "agreement_score": 0.7283,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.2357,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.59666
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "response_length": 32,
+      "response": "\n\nThe harm principle is the idea that individuals should be free to act unless their actions prevent harm to others. It emphasizes preventing harm to others as a limit on personal freedom.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.6,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.4,
+            "SA": 0.7,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.45,
+          "SA": 0.8,
+          "FC": 0.8667,
+          "agreement_score": 0.8114,
+          "judge_variance_CC": 0.0943,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.6733400000000002
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "response_length": 27,
+      "response": "\n\nThe harm principle states that people's actions should only be limited to prevent harm to others. It protects individual freedom while ensuring safety and well-being in society.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9686,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9933400000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 64,
+      "response_length": 68,
+      "response": "\n\nThe harm principle, articulated by John Stuart Mill, is a central concept in liberal ethics asserting that individual liberty should only be restricted to prevent harm to others, not for paternalistic or moral reasons. This principle justifies laws against actions like assault or theft while opposing prohibitions on self-destructive behavior. It guides debates on free speech, drug use, and public policy by balancing personal autonomy with societal protection.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 1.0,
+          "FC": 0.9333,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9766600000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 86,
+      "response": "\n\nThe harm principle, articulated by John Stuart Mill, asserts that individual actions should only be limited to prevent harm to others, meaning personal liberty may be justifiably restricted only when one's conduct poses a risk of significant injury or detriment to another person. It prioritizes autonomy, distinguishes between self-regarding and other-regarding actions, and requires demonstrable harm for intervention, guiding policies on free speech, drug use, and public health while balancing individual rights with collective welfare through proportionate, justified restrictions based on actual rather than hypothetical threats.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.95,
+          "FC": 0.9,
+          "agreement_score": 0.8199,
+          "judge_variance_CC": 0.1414,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.93
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.834,
+    "mean_agreement": 0.8530599999999999,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.59666,
+      0.6733400000000002,
+      0.9933400000000001,
+      0.9766600000000001,
+      0.93
+    ],
+    "agreement_scores": [
+      0.7283,
+      0.8114,
+      0.9686,
+      0.9371,
+      0.8199
+    ]
+  }
+}

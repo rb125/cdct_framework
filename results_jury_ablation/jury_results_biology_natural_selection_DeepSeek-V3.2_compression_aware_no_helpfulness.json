@@ -1,0 +1,230 @@
+{
+  "concept": "natural_selection",
+  "domain": "biology",
+  "subject_model": "DeepSeek-V3.2",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 18,
+      "response": "Natural_selection is the process where traits offering a survival advantage become more common in a population over generations.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": null,
+            "error": "Parse error: Expecting ',' delimiter: line 1 column 14 (char 13"
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.8,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.6,
+          "SA": 0.8667,
+          "FC": 0.95,
+          "agreement_score": 0.7333,
+          "judge_variance_CC": 0.3,
+          "judge_variance_SA": 0.05,
+          "judge_variance_FC": 0.05,
+          "judge_count": 2,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.77668
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 23,
+      "response": "Natural_selection is the process where a survival advantage is passed to offspring. This leads to those advantageous traits becoming more common over time.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.8,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.8,
+            "SA": 0.8,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.6,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.725,
+          "SA": 0.85,
+          "FC": 0.9333,
+          "agreement_score": 0.8199,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.81666
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 29,
+      "response": "Natural selection is when individuals with helpful traits survive and reproduce more. These traits are then passed to offspring, which over time shapes populations to adapt to their environment.",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9686,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9933400000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 60,
+      "response_length": 34,
+      "response": "Natural selection is the evolutionary mechanism where organisms with advantageous adaptations, like camouflage, are more likely to survive and reproduce. This process increases the frequency of beneficial alleles in the gene pool over generations.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": null,
+            "error": "Parse error: Extra data: line 1 column 15 (char 14)"
+          },
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 0.5,
+          "SA": 0.9333,
+          "FC": 0.7,
+          "agreement_score": 0.8,
+          "judge_variance_CC": 0.15,
+          "judge_variance_SA": 0.05,
+          "judge_variance_FC": 0.1,
+          "judge_count": 2,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7133200000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 135,
+      "response_length": 45,
+      "response": "Natural selection is the differential survival and reproduction of organisms due to variations in their heritable traits, where advantageous phenotypes enhance fitness. Its key principles are variation, inheritance, differential survival and reproduction, and adaptation. Over time, this process leads to adaptation, speciation, and increased biodiversity.",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.6
+          },
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 0.7
+          }
+        },
+        "consensus": {
+          "CC": 0.5,
+          "SA": 0.95,
+          "FC": 0.7,
+          "agreement_score": 0.831,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7200000000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.804,
+    "mean_agreement": 0.83056,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.77668,
+      0.81666,
+      0.9933400000000001,
+      0.7133200000000001,
+      0.7200000000000001
+    ],
+    "agreement_scores": [
+      0.7333,
+      0.8199,
+      0.9686,
+      0.8,
+      0.831
+    ]
+  }
+}

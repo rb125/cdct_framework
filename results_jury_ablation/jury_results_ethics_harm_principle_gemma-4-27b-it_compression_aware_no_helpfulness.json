@@ -1,0 +1,228 @@
+{
+  "concept": "harm_principle",
+  "domain": "ethics",
+  "subject_model": "gemma-4-27b-it",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 13,
+      "response": "The provided information does not define the harm_principle. It only mentions preventing harm.",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.7
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 0.8,
+          "agreement_score": 0.8743,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.1414,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9400000000000001
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "response_length": 8,
+      "response": "The harm principle involves preventing harm to others.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "response_length": 27,
+      "response": "The harm principle states that people\u2019s actions should only be limited to prevent harm to others. This protects individual freedom while ensuring safety and well-being in society.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 64,
+      "response_length": 48,
+      "response": "The harm principle, articulated by John Stuart Mill, asserts that individual liberty should only be restricted to prevent harm to others rather than for paternalistic or moral reasons. This principle balances autonomy with societal protection and guides debates on issues like free speech, drug use, and public policy.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.6
+          },
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          }
+        },
+        "consensus": {
+          "CC": 0.575,
+          "SA": 0.95,
+          "FC": 0.7333,
+          "agreement_score": 0.7924,
+          "judge_variance_CC": 0.17,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.75666
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 62,
+      "response": "The harm principle asserts that individual actions should only be limited to prevent harm to others, prioritizing autonomy and distinguishing between self-regarding and other-regarding actions. It serves as a foundation for legal and moral frameworks by delineating the boundary between personal freedom and societal protection. Application requires ensuring that restrictions are proportionate and justified by demonstrable, rather than hypothetical, threats to others.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.8
+          }
+        },
+        "consensus": {
+          "CC": 0.5,
+          "SA": 0.95,
+          "FC": 0.8,
+          "agreement_score": 0.8854,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.7400000000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.887332,
+    "mean_agreement": 0.91042,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.9400000000000001,
+      1.0,
+      1.0,
+      0.75666,
+      0.7400000000000001
+    ],
+    "agreement_scores": [
+      0.8743,
+      1.0,
+      1.0,
+      0.7924,
+      0.8854
+    ]
+  }
+}

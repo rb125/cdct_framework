@@ -1,0 +1,228 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "subject_model": "DeepSeek-V3.2",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 2,
+      "response": "force-motion relationship",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 1.0,
+          "agreement_score": 0.9686,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.98
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 18,
+      "response": "Based on the provided information, f_equals_ma is not described. The statement only says force causes mass to accelerate.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.6
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.4
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.3
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 0.4333,
+          "agreement_score": 0.8854,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.86666
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 179,
+      "response": "Based on the available information, the explanation of **f_equals_ma** is as follows:\n\nThe statement describes Newton's second law of motion. It means that the **force (f)** applied to an object is equal to the **mass (m)** of that object multiplied by the **acceleration (a)** it experiences.\n\nIn simpler terms:\n*   **Force** is what pushes or pulls an object.\n*   **Mass** is the measure of how much \"stuff\" is in the object, or its resistance to changing motion.\n*   **Acceleration** is how quickly the object's velocity changes (speeding up, slowing down, or changing direction).\n\nThe law, written as **F = m \u00d7 a**, shows a direct relationship:\n1.  A larger force on the same mass results in greater acceleration.\n2.  The same force on a larger mass results in smaller acceleration.\n\nThis fundamental relationship is why we can predict how objects will move. For example, in engineering, it allows for the calculation of the force needed to launch a rocket (large acceleration of a large mass requires a huge force) or the braking force needed to stop a car safely.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.3,
+            "SA": 0.7,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 0.7,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.4,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.2,
+          "SA": 0.625,
+          "FC": 0.7667,
+          "agreement_score": 0.7884,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.1414,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.48334000000000005
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 448,
+      "response": "Based on the available information, here is a detailed explanation of **F = ma** (Newton's Second Law of Motion):\n\n**Core Statement:** The law is expressed as **Force = mass \u00d7 acceleration (F = ma)**. This is a fundamental quantitative relationship in physics that describes how an object's motion changes when a force is applied.\n\n**Detailed Breakdown:**\n\n1.  **The Variables:**\n    *   **Force (F):** A push or pull acting on an object. The law states that the *net force* (the overall force after combining all pushes and pulls) is what causes a change in motion.\n    *   **Mass (m):** A measure of an object's inertia, or its resistance to changes in its state of motion. It is a scalar quantity (magnitude only).\n    *   **Acceleration (a):** The rate of change of velocity. It is the direct result of the applied net force and occurs in the same direction as that net force. It is a vector quantity (has both magnitude and direction).\n\n2.  **The Causal Relationship:** The equation shows that:\n    *   **Acceleration is directly proportional to the net force.** If you apply a greater force to the same object (constant mass), you get a greater acceleration. This is implied by the statement, \"applying a greater force... results in a higher acceleration.\"\n    *   **Acceleration is inversely proportional to mass.** For the same applied force, an object with a larger mass will experience a smaller acceleration. This is illustrated by the example: a car (large mass) requires more force to achieve the same acceleration as a bicycle (small mass).\n\n3.  **Practical Implications & Applications:**\n    *   **Predicting Motion:** Engineers can use **F = ma** to calculate how a vehicle will accelerate when its engine produces a known force, or to determine the braking force needed to stop in a certain distance.\n    *   **Design & Safety:** The principle is crucial in designing vehicles and transportation systems. For instance:\n        *   It informs the needed engine power (force) for a loaded truck versus a passenger car.\n        *   It underlies the design of crumple zones and seatbelts. In a collision (a rapid deceleration, or negative acceleration), these safety features work to *increase the time* over which the stop occurs, which *reduces the average force (F)* experienced by the passengers (since **a = \u0394v/\u0394t**, a larger \u0394t means a smaller **a**, and thus a smaller **F** for a given mass).\n\n**In essence, F = ma is not just a formula; it is a law of nature that links the cause (a net force) to the effect (an acceleration) for any object, with the object's mass determining the magnitude of that effect.** It allows us to move from qualitative descriptions of pushes and pulls to precise calculations and predictions about motion.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.8,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.875,
+          "FC": 0.9667,
+          "agreement_score": 0.8827,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.91334
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 482,
+      "response": "Based on the provided information, **F = ma** (Newton's Second Law of Motion) is the fundamental quantitative relationship that governs how forces change the motion of an object.\n\nHere is a comprehensive explanation structured around its core principles:\n\n**1. The Core Statement:**  \nThe net force (**F**) applied to an object equals the product of that object's mass (**m**) and the acceleration (**a**) it experiences: **F = ma**. This means force is what causes a change in an object's velocity (acceleration), not its speed alone.\n\n**2. Key Interpretations and Principles:**\n*   **Cause and Effect:** The equation shows that **acceleration is the direct result of a net force**. If there is a net force, there *must* be acceleration in the same direction.\n*   **Proportionality:**\n    *   **Directly Proportional to Force:** For a fixed mass, doubling the net force doubles the acceleration.\n    *   **Inversely Proportional to Mass:** For a fixed net force, doubling the mass halves the acceleration. Mass here is **inertial mass**\u2014a measure of an object's resistance to changes in its motion.\n*   **Vector Nature:** Both force (**F**) and acceleration (**a**) are vectors, meaning they have both magnitude and direction. The acceleration vector points in the *exact same direction* as the net force vector.\n*   **Net Force is Crucial:** The \"F\" in the equation is the **vector sum of all forces** acting on the object. If multiple forces cancel each other out (net force = 0), then acceleration = 0, and the object's velocity remains constant (which could be zero or a constant non-zero speed), as described by Newton's First Law.\n\n**3. Applications and Significance:**  \nAs the cornerstone of classical mechanics, **F = ma** is the essential tool for:\n*   **Analyzing Motion:** Calculating how vehicles, projectiles, or planets will move under known forces.\n*   **Engineering Design:** Determining the forces structures must withstand or the thrust needed for rockets.\n*   **Understanding Everyday Phenomena:** Explaining why pushing a heavy cart requires more force than pushing a light one (mass difference) or why a car accelerates faster when you press the accelerator harder (force change).\n\n**4. Elaboration on Implied Concepts:**\n*   **Units:** The equation defines the Newton (N) as the standard unit of force: **1 N = 1 kg\u00b7m/s\u00b2**. A one Newton force gives a 1 kg mass an acceleration of 1 m/s\u00b2.\n*   **Predictive Power:** The law is not just descriptive but predictive. If you know any two of the variables (net force, mass, acceleration), you can solve for the third, allowing precise modeling of physical systems.\n*   **Scope:** The provided context places it within **classical mechanics**, meaning it is extraordinarily accurate for everyday objects and speeds much slower than the speed of light. It does not apply at quantum scales or at relativistic speeds.\n\nIn essence, **F = ma** is the mathematical engine that translates forces\u2014pushes and pulls from interactions\u2014into predictable changes in motion, forming the foundational link between the concepts of force, matter, and motion.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9099,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0408,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8413360000000001,
+    "mean_agreement": 0.8870000000000001,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.98,
+      0.86666,
+      0.48334000000000005,
+      0.91334,
+      0.9633400000000001
+    ],
+    "agreement_scores": [
+      0.9686,
+      0.8854,
+      0.7884,
+      0.8827,
+      0.9099
+    ]
+  }
+}

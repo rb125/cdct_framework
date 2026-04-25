@@ -1,0 +1,228 @@
+{
+  "concept": "modus_ponens",
+  "domain": "logic",
+  "subject_model": "gpt-5.4",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 2,
+      "response": "if-then inference",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.4
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.875,
+          "FC": 0.7,
+          "agreement_score": 0.7536,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.2449,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.89
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "response_length": 16,
+      "response": "Modus ponens is if-then inference with affirmation. It uses an if-then statement and affirms the condition.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 0.6,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.8,
+          "SA": 0.875,
+          "FC": 0.9667,
+          "agreement_score": 0.7597,
+          "judge_variance_CC": 0.1886,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8633400000000002
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "response_length": 92,
+      "response": "Modus ponens is a basic rule of logic that means:\n\n- If a statement of the form \u201cIf P, then Q\u201d is true\n- And P is true\n- Then Q must also be true\n\nFormally:\n\n1. If P, then Q  \n2. P  \n3. Therefore, Q\n\nExample:\n- If it is raining, then the ground is wet.\n- It is raining.\n- Therefore, the ground is wet.\n\nIt is considered a clear and reliable form of reasoning because it applies a known rule to a confirmed fact to reach a valid conclusion.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.3,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.6,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.6,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.325,
+          "SA": 0.85,
+          "FC": 0.9333,
+          "agreement_score": 0.7105,
+          "judge_variance_CC": 0.17,
+          "judge_variance_SA": 0.17,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.65666
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 63,
+      "response_length": 313,
+      "response": "Modus ponens is one of the most basic and important valid argument forms in logic.\n\n### Core idea\nIt has this structure:\n\n1. **If P, then Q**\n2. **P**\n3. **Therefore, Q**\n\nIn symbols:\n\n- \\( P \\rightarrow Q \\)\n- \\( P \\)\n- **\u2234 \\( Q \\)**\n\n### What it means\nA conditional statement says that whenever **P** is true, **Q** must also be true.  \nIf we also know that **P** is actually true, then we are justified in concluding **Q**.\n\n### Example\n- If it rains, the ground gets wet.\n- It is raining.\n- Therefore, the ground gets wet.\n\nThis is a valid inference because the second statement satisfies the condition named in the first statement.\n\n### Why it matters\nModus ponens is a foundation of deductive reasoning. It is used in:\n\n- formal logic\n- mathematics\n- computer science\n- everyday reasoning\n\nWhenever we apply a rule and then recognize that the rule\u2019s condition is met, we are using modus ponens.\n\n### Important note\nIts validity depends on the truth of both premises:\n\n- the conditional: **If P, then Q**\n- the antecedent: **P**\n\nIf both are accepted, then concluding **Q** is logically valid.\n\n### Contrast with a common mistake\nModus ponens is **not** the same as this invalid form:\n\n1. If P, then Q\n2. Q\n3. Therefore, P\n\nThat mistake is called **affirming the consequent**.\n\nExample:\n- If it rains, the ground gets wet.\n- The ground is wet.\n- Therefore, it is raining.\n\nThis is invalid because there may be other reasons the ground is wet.\n\n### Summary\nModus ponens is the rule that allows us to infer the consequent of a conditional when its antecedent is known to be true:\n\n**If P \u2192 Q, and P, then Q.**\n\nIt is a central rule in logic because it captures a basic pattern of sound deduction.",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 133,
+      "response_length": 315,
+      "response": "Modus ponens is a basic and essential rule of deductive reasoning in propositional logic. It is the rule that allows us to move from a conditional statement and its confirmed starting condition to a necessary conclusion.\n\nIts form is:\n\n1. **P \u2192 Q** \u2014 If P, then Q  \n2. **P** \u2014 P is true  \n3. **Therefore, Q** \u2014 Q is true\n\nThis is why it is often called **\u201caffirming the antecedent.\u201d**  \n- The **antecedent** is the \u201cif\u201d part, P.  \n- The **consequent** is the \u201cthen\u201d part, Q.\n\nSo if we know that \u201cIf P happens, then Q follows,\u201d and we also know that P really does happen, then we are justified in concluding Q.\n\n### Example\n- If it is raining, then the ground is wet.  \n- It is raining.  \n- Therefore, the ground is wet.\n\nThis is a valid argument form because if both premises are true, the conclusion cannot be false.\n\n### Why it matters\nModus ponens is important because it **preserves truth**: true premises lead to a true conclusion. That makes it one of the core building blocks of:\n- **mathematical proofs**\n- **formal logic**\n- **computer science**\n- **algorithms and programming**\n- **philosophical argumentation**\n\n### Formal significance\nIn logic, modus ponens is considered a **valid inference rule**. It does not merely suggest that Q is probably true; it shows that Q **must** be true, given the premises.\n\n### Difference from invalid reasoning\nModus ponens should not be confused with invalid forms such as:\n- If P, then Q  \n- Q  \n- Therefore, P  \n\nThis is called **affirming the consequent**, and it is not logically valid.\n\n### Summary\nModus ponens is the rule:\n- **If P implies Q**\n- **and P is true**\n- **then Q must be true**\n\nBecause of its simplicity and certainty, it is one of the most fundamental principles in deductive logic and a cornerstone of rigorous reasoning.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8673360000000001,
+    "mean_agreement": 0.80704,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.89,
+      0.8633400000000002,
+      0.65666,
+      0.9633400000000001,
+      0.9633400000000001
+    ],
+    "agreement_scores": [
+      0.7536,
+      0.7597,
+      0.7105,
+      0.9057,
+      0.9057
+    ]
+  }
+}

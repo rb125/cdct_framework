@@ -3,8 +3,9 @@
   "domain": "logic",
   "subject_model": "Phi-4",
   "jury_models": [
-    "gpt-5.2",
-    "DeepSeek-v3.2"
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
   ],
   "evaluation_system": "jury",
   "prompt_strategy": "compression_aware",
@@ -17,30 +18,35 @@
       "response": "If P, then Q. P is true, therefore Q is true.",
       "jury_evaluation": {
         "judges": {
-          "gpt-5.2": {
+          "Qwen3-32B": {
             "CC": 1.0,
-            "SA": 0.85,
+            "SA": 0.9,
             "FC": 1.0
           },
-          "DeepSeek-v3.2": {
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.0,
+            "SA": 0.3,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 1.0,
-          "SA": 0.91,
+          "CC": 0.5,
+          "SA": 0.775,
           "FC": 1.0,
-          "agreement_score": 0.95,
-          "judge_variance_CC": 0.0,
-          "judge_variance_SA": 0.075,
+          "agreement_score": 0.4796,
+          "judge_variance_CC": 0.4714,
+          "judge_variance_SA": 0.3091,
           "judge_variance_FC": 0.0,
-          "judge_count": 2,
-          "recommendation": "ROBUST - Unanimous jury"
+          "judge_count": 3,
+          "recommendation": "CAUTION - Jury disagreement (brittle response?)"
         }
       },
-      "score": 0.964
+      "score": 0.71
     },
     {
       "compression_level": 0.25,
@@ -49,134 +55,154 @@
       "response": "Modus ponens is a form of if-then inference where, given a conditional statement \"if P then Q\" and an affirmation of the antecedent \"P,\" one can conclude \"Q.\" It involves affirming the first part of the conditional to derive the second part.",
       "jury_evaluation": {
         "judges": {
-          "gpt-5.2": {
-            "CC": 0.5,
-            "SA": 0.9,
-            "FC": 0.85
-          },
-          "DeepSeek-v3.2": {
+          "Nemotron-Super-3-120B": {
             "CC": 0.4,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.6,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.5,
             "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.44,
-          "SA": 0.94,
-          "FC": 0.925,
-          "agreement_score": 0.8833,
-          "judge_variance_CC": 0.05,
-          "judge_variance_SA": 0.05,
-          "judge_variance_FC": 0.075,
-          "judge_count": 2,
+          "CC": 0.5,
+          "SA": 0.95,
+          "FC": 0.9333,
+          "agreement_score": 0.8513,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.7370000000000001
+      "score": 0.7666600000000001
     },
     {
       "compression_level": 0.5,
       "context_length": 26,
-      "response_length": 230,
-      "response": "Modus ponens is a fundamental rule of inference in logic that allows us to derive a conclusion from a conditional statement and a premise that affirms the antecedent of that statement. The structure of modus ponens can be outlined as follows:\n\n1. **Conditional Statement (If-Then Statement):** This is a statement of the form \"If P, then Q,\" where P is the antecedent and Q is the consequent. It establishes a relationship between two propositions, suggesting that if P is true, then Q must also be true.\n\n2. **Affirmation of the Antecedent:** This is a statement that asserts the truth of the antecedent, P. In other words, we have evidence or knowledge that P is indeed true.\n\n3. **Conclusion:** Given the truth of the conditional statement and the affirmation of the antecedent, we can logically conclude that Q must be true.\n\nThe process of modus ponens can be summarized in a logical form:\n\n- Premise 1: If P, then Q.\n- Premise 2: P is true.\n- Conclusion: Therefore, Q is true.\n\nThis form of reasoning is considered valid because it follows a clear and reliable logical structure. By confirming the condition (P) of the \"if-then\" statement, we are able to deduce the outcome (Q) with certainty, assuming the initial conditional statement is true. Modus ponens is widely used in mathematical proofs, computer science, and everyday reasoning to establish logical conclusions.",
+      "response_length": 231,
+      "response": "Modus ponens is a fundamental rule of inference in logic that allows us to derive a conclusion from a conditional statement and a premise that affirms the antecedent of that statement. The structure of modus ponens can be outlined as follows:\n\n1. **Conditional Statement (If-Then Statement):** This is a statement of the form \"If P, then Q,\" where P is the antecedent and Q is the consequent. It establishes a relationship between two propositions, suggesting that if P is true, then Q must also be true.\n\n2. **Affirmation of the Antecedent:** This is a statement that asserts the truth of the antecedent, P. It confirms that the condition specified in the conditional statement is indeed true.\n\n3. **Conclusion:** From the above two components, modus ponens allows us to conclude that Q is true. This conclusion is logically valid because the truth of P guarantees the truth of Q, given the initial conditional statement.\n\nIn summary, modus ponens is a logical process that involves:\n- Starting with a conditional statement (\"If P, then Q\").\n- Confirming that the antecedent (P) is true.\n- Concluding that the consequent (Q) must also be true.\n\nThis form of reasoning is clear and reliable because it directly follows from the logical structure of the conditional statement. It is widely used in mathematical proofs, computer science, and everyday reasoning to establish valid conclusions based on given premises.",
       "jury_evaluation": {
         "judges": {
-          "gpt-5.2": {
+          "Nemotron-Super-3-120B": {
             "CC": 0.1,
-            "SA": 0.85,
-            "FC": 0.95
+            "SA": 0.7,
+            "FC": 0.8
           },
-          "DeepSeek-v3.2": {
+          "Qwen3-32B": {
+            "CC": 0.3,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "GLM-5": {
             "CC": 0.2,
-            "SA": 1.0,
-            "FC": 0.6
+            "SA": 0.6,
+            "FC": 0.4
           }
         },
         "consensus": {
-          "CC": 0.16,
-          "SA": 0.91,
-          "FC": 0.775,
-          "agreement_score": 0.8,
-          "judge_variance_CC": 0.05,
-          "judge_variance_SA": 0.075,
-          "judge_variance_FC": 0.175,
-          "judge_count": 2,
+          "CC": 0.2,
+          "SA": 0.775,
+          "FC": 0.6333,
+          "agreement_score": 0.7491,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.17,
+          "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.5830000000000001
+      "score": 0.5166600000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 63,
-      "response_length": 360,
-      "response": "Modus ponens is a fundamental rule of inference in propositional logic, which is a branch of logic that deals with propositions and their relationships. It is a key component of deductive reasoning, allowing us to derive conclusions from given premises in a logically valid manner.\n\nThe structure of modus ponens involves two main components:\n\n1. **A Conditional Statement**: This is typically expressed in the form \"If P, then Q,\" where P is the antecedent and Q is the consequent. The statement asserts that whenever P is true, Q must also be true. It's important to note that this does not imply that Q is true only if P is true; rather, it specifies a necessary condition for Q.\n\n2. **The Antecedent**: This is the proposition P, which is asserted to be true. In the context of modus ponens, the truth of P is a given or has been established through other means.\n\nUsing these components, modus ponens allows us to infer the consequent (Q) as follows:\n\n- **Premise 1**: \"If P, then Q\" (the conditional statement)\n- **Premise 2**: \"P\" (the antecedent is true)\n- **Conclusion**: \"Q\" (the consequent must be true)\n\nThe reasoning behind modus ponens is straightforward: if the conditional statement is true and the antecedent is true, then the consequent must logically follow. This is because the truth of the conditional guarantees that whenever P occurs, Q will also occur. Therefore, if we know P is true, we can confidently conclude Q.\n\nFor example, consider the following scenario:\n\n- **Premise 1**: \"If it rains, the ground gets wet.\"\n- **Premise 2**: \"It is raining.\"\n- **Conclusion**: \"The ground gets wet.\"\n\nIn this example, the conditional statement establishes a relationship between rain and the ground being wet. The second premise confirms that it is indeed raining. Given these premises, modus ponens allows us to conclude that the ground must be wet.\n\nModus ponens is widely used in mathematical proofs, computer science, and everyday reasoning because it provides a clear and reliable method for drawing conclusions from known facts. Its validity is a cornerstone of logical systems, ensuring that conclusions derived through this rule are sound and logically consistent.",
+      "response_length": 352,
+      "response": "Modus ponens is a fundamental rule of inference in propositional logic, which is a branch of logic that deals with propositions and their relationships. It is a key component of deductive reasoning, allowing us to derive conclusions from given premises in a logically valid manner.\n\nThe structure of modus ponens involves two main components:\n\n1. **A Conditional Statement**: This is typically expressed in the form \"If P, then Q,\" where P is the antecedent and Q is the consequent. The statement asserts that whenever P is true, Q must also be true. It's important to note that this does not imply that Q is true only if P is true; rather, it establishes a one-way implication from P to Q.\n\n2. **The Antecedent**: This is the proposition P, which is asserted to be true. In the context of modus ponens, the truth of P is a given or established fact.\n\nUsing these components, modus ponens allows us to infer the consequent (Q) as follows:\n\n- **Premise 1**: \"If P, then Q\" (the conditional statement)\n- **Premise 2**: \"P\" (the antecedent is true)\n- **Conclusion**: \"Q\" (the consequent is inferred to be true)\n\nThe reasoning behind modus ponens is straightforward: if the conditional statement \"If P, then Q\" is true, and we know that P is true, then it logically follows that Q must also be true. This is because the truth of P guarantees the truth of Q under the condition set by the first premise.\n\nFor example, consider the following scenario:\n\n- **Premise 1**: \"If it rains, the ground gets wet.\"\n- **Premise 2**: \"It is raining.\"\n- **Conclusion**: \"The ground gets wet.\"\n\nIn this example, the conditional statement establishes a relationship between raining and the ground getting wet. Given that it is indeed raining (the antecedent is true), we can validly conclude that the ground gets wet.\n\nModus ponens is widely used in mathematical proofs, computer science, and everyday reasoning because it provides a clear and reliable method for drawing conclusions from known facts. It is a cornerstone of logical systems and is essential for constructing valid arguments and proofs.",
       "jury_evaluation": {
         "judges": {
-          "DeepSeek-v3.2": {
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
-          "gpt-5.2": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 1.0,
-          "SA": 1.0,
-          "FC": 1.0,
-          "agreement_score": 1.0,
-          "judge_variance_CC": 0.0,
-          "judge_variance_SA": 0.0,
-          "judge_variance_FC": 0.0,
-          "judge_count": 2,
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 1.0
+      "score": 0.9633400000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 133,
-      "response_length": 397,
-      "response": "Modus ponens is a fundamental rule of inference in propositional logic, serving as a cornerstone for deductive reasoning. It is often referred to as \"affirming the antecedent\" because it involves affirming the truth of the antecedent in a conditional statement to derive the truth of the consequent. The structure of modus ponens can be broken down into three key components:\n\n1. **Conditional Statement (P \u2192 Q):** This is a logical statement that asserts a relationship between two propositions, P and Q. It can be read as \"If P, then Q.\" Here, P is the antecedent, and Q is the consequent. The conditional statement is considered true if whenever P is true, Q is also true.\n\n2. **Antecedent (P):** This is the proposition that is affirmed or assumed to be true. In the context of modus ponens, the truth of P is a given or established fact.\n\n3. **Consequent (Q):** This is the proposition that is concluded to be true as a result of the truth of the antecedent and the conditional statement. The rule of modus ponens allows us to infer Q from the truth of P and the conditional statement P \u2192 Q.\n\nThe formal representation of modus ponens is as follows:\n\n1. P \u2192 Q (If P, then Q)\n2. P (P is true)\n3. \u2234 Q (Therefore, Q is true)\n\nThe validity of modus ponens lies in its ability to preserve truth from premises to conclusion. If the premises (the conditional statement and the antecedent) are true, then the conclusion (the consequent) must also be true. This makes modus ponens a reliable and essential tool in logical reasoning, ensuring that arguments constructed using it are both sound and logically consistent.\n\nModus ponens is widely used in various fields, including mathematics, computer science, and formal systems. In mathematics, it is fundamental to constructing proofs, where a series of logical steps are used to derive a conclusion from axioms and previously established theorems. In computer science, modus ponens underpins algorithms and programming logic, enabling the development of reliable and efficient software. In formal systems, it ensures the consistency and soundness of logical frameworks, allowing for the derivation of conclusions from established rules and premises.\n\nOverall, modus ponens is a simple yet powerful rule of inference that plays a crucial role in deductive reasoning, enabling the derivation of conclusions from established premises in a logically consistent manner.",
+      "response_length": 431,
+      "response": "Modus ponens is a fundamental rule of inference in propositional logic, serving as a cornerstone for deductive reasoning. It is often referred to as \"affirming the antecedent\" because it involves affirming the truth of the antecedent in a conditional statement to derive the truth of the consequent. Here's a detailed breakdown of its components and significance:\n\n### Structure of Modus Ponens\n\n1. **Conditional Statement (If P, then Q):** \n   - This is a logical statement that asserts a relationship between two propositions, P and Q. It is denoted as \\( P \\rightarrow Q \\), meaning \"if P is true, then Q must also be true.\"\n\n2. **Antecedent (P):**\n   - The antecedent is the first part of the conditional statement. In modus ponens, we assume or establish that P is true.\n\n3. **Consequent (Q):**\n   - The consequent is the second part of the conditional statement. Modus ponens allows us to conclude that Q is true if both the conditional statement and the antecedent are true.\n\n### Formal Representation\n\nThe formal structure of modus ponens can be represented as follows:\n\n1. \\( P \\rightarrow Q \\) (Premise: If P, then Q)\n2. \\( P \\) (Premise: P is true)\n3. \\( \\therefore Q \\) (Conclusion: Therefore, Q is true)\n\n### Validity and Truth Preservation\n\n- **Validity:** Modus ponens is a valid form of argument, meaning that if the premises are true, the conclusion must also be true. This validity is crucial for ensuring logical consistency in arguments.\n  \n- **Truth Preservation:** The rule preserves truth from premises to conclusion. If the premises (the conditional statement and the antecedent) are true, the conclusion (the consequent) is guaranteed to be true.\n\n### Applications\n\n- **Mathematical Proofs:** Modus ponens is widely used in mathematical proofs to derive conclusions from established premises, ensuring the logical flow of arguments.\n  \n- **Computer Science Algorithms:** In computer science, modus ponens is used in algorithm design and verification, where logical conditions and their implications are crucial for correct program execution.\n\n- **Formal Systems:** It underpins formal systems in logic, providing a reliable method for constructing sound arguments and ensuring consistency within logical frameworks.\n\n### Importance\n\nThe simplicity and reliability of modus ponens make it an essential tool in logic. It allows for clear and straightforward reasoning, enabling the derivation of conclusions from known truths. Its role in various fields highlights its fundamental importance in both theoretical and practical applications of logic.\n\nIn summary, modus ponens is a powerful and essential rule of inference that ensures logical consistency and truth preservation in deductive reasoning, making it indispensable in logic, mathematics, computer science, and beyond.",
       "jury_evaluation": {
         "judges": {
-          "gpt-5.2": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
-            "SA": 0.95,
+            "SA": 1.0,
             "FC": 1.0
           },
-          "DeepSeek-v3.2": {
+          "GLM-5": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 1.0,
-          "SA": 0.97,
-          "FC": 1.0,
-          "agreement_score": 0.9833,
-          "judge_variance_CC": 0.0,
-          "judge_variance_SA": 0.025,
-          "judge_variance_FC": 0.0,
-          "judge_count": 2,
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.988
+      "score": 0.9633400000000001
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8544,
-    "mean_agreement": 0.92332,
-    "decay_direction": "\u2192 Stable",
+    "mean_score": 0.784,
+    "mean_agreement": 0.77828,
+    "decay_direction": "\u2191 Improvement with compression",
     "compression_levels": [
       0.0,
       0.25,
@@ -185,18 +211,18 @@
       1.0
     ],
     "scores": [
-      0.964,
-      0.7370000000000001,
-      0.5830000000000001,
-      1.0,
-      0.988
+      0.71,
+      0.7666600000000001,
+      0.5166600000000001,
+      0.9633400000000001,
+      0.9633400000000001
     ],
     "agreement_scores": [
-      0.95,
-      0.8833,
-      0.8,
-      1.0,
-      0.9833
+      0.4796,
+      0.8513,
+      0.7491,
+      0.9057,
+      0.9057
     ]
   }
 }

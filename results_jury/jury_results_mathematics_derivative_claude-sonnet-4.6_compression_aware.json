@@ -1,0 +1,228 @@
+{
+  "concept": "derivative",
+  "domain": "mathematics",
+  "subject_model": "claude-sonnet-4.6",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 5,
+      "response": "Derivative is rate of change.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 6,
+      "response_length": 30,
+      "response": "Based on the available information, a derivative represents the **instantaneous rate of change at a point**. It measures how a function changes at a specific point in time or location.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.55,
+          "SA": 0.875,
+          "FC": 0.9667,
+          "agreement_score": 0.8226,
+          "judge_variance_CC": 0.0943,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7633400000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 30,
+      "response_length": 221,
+      "response": "# Understanding Derivatives\n\n## Core Definition\nA derivative measures the **instantaneous rate of change** of a function at a specific point. It tells us precisely how a function's output value responds when its input value changes by an infinitely small amount.\n\n---\n\n## Breaking It Down\n\n### Rate of Change\nThink of it this way:\n- An **average** rate of change measures change over an interval\n- A **derivative** (instantaneous rate) captures change at a **single exact moment**\n\n### A Practical Example\nConsider a moving car:\n- Its **position** is a function of time\n- The **derivative** of that position function gives you the **exact speed** at any given instant\n- Not the average speed over a trip \u2014 but the precise speed *right now*\n\n---\n\n## Why It Matters\n\n| Field | Application |\n|-------|-------------|\n| **Physics** | Calculating velocity and acceleration |\n| **Engineering** | Analyzing stress on materials at specific points |\n| **General Math** | Understanding how functions behave and change |\n\n---\n\n## Key Takeaway\n\nThe derivative essentially answers the question:\n\n> *\"If I change my input by a tiny amount, how dramatically does my output respond?\"*\n\nA **large derivative** means the function changes rapidly, while a **small derivative** means it changes gradually \u2014 giving us powerful insight into the behavior of mathematical and real-world systems.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 1.0,
+            "FC": 0.5
+          },
+          "Qwen3-32B": {
+            "CC": 0.3,
+            "SA": 0.8,
+            "FC": 0.6
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.6,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.2,
+          "SA": 0.8,
+          "FC": 0.6667,
+          "agreement_score": 0.7234,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.1633,
+          "judge_variance_FC": 0.17,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.53334
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 539,
+      "response": "# Understanding Derivatives: A Detailed Explanation\n\n## What Is a Derivative?\n\nA derivative is a **fundamental mathematical concept** that measures the **instantaneous rate of change** of a function at any given point. In simpler terms, it tells us exactly how quickly or slowly a function's output value is changing in response to a tiny change in its input value.\n\n---\n\n## The Core Idea\n\nImagine you are watching a car move along a road. At any specific moment, the car has an **exact speed** \u2014 this is not an average over a long trip, but rather the precise speed *at that instant*. This is exactly what a derivative captures mathematically.\n\n- **Input changes slightly** \u2192 the derivative tells you **how much the output responds**\n- It essentially describes the **sensitivity** of a function to its inputs\n\n---\n\n## Mathematical Notation\n\nDerivatives are commonly expressed in two equivalent ways:\n\n| Notation | Meaning |\n|----------|---------|\n| **f'(x)** | The derivative of function f at point x |\n| **dy/dx** | The rate of change of y with respect to x |\n\nBoth notations represent the same concept, simply written differently depending on context.\n\n---\n\n## Geometric Interpretation: The Slope\n\nVisually, the derivative at a point represents the **slope of the tangent line** to a curve at that specific point.\n\n- A **positive derivative** means the function is **increasing**\n- A **negative derivative** means the function is **decreasing**\n- A **zero derivative** means the function is at a **flat point** (potentially a peak or valley)\n\n---\n\n## Real-World Example: Position and Velocity\n\nOne of the most intuitive examples comes directly from **physics**:\n\n> *The derivative of position with respect to time gives velocity*\n\nBreaking this down:\n- **Position** describes *where* an object is\n- **Time** is the input variable changing\n- **Velocity** is how rapidly position changes at any instant\n\nThis relationship can be extended further:\n- Derivative of **velocity** \u2192 gives **acceleration**\n- Showing how derivatives can be applied **repeatedly** to gain deeper insight\n\n---\n\n## Key Applications\n\n### 1. **Analyzing Slopes**\nDerivatives allow us to understand the behavior of curves \u2014 whether they rise, fall, or level off at any given point.\n\n### 2. **Optimizing Functions**\nBy finding where the derivative **equals zero**, we can identify:\n- **Maximum values** (peaks)\n- **Minimum values** (valleys)\n\nThis is enormously useful in economics, engineering, and science for finding the *best* solution to a problem.\n\n### 3. **Modeling Dynamic Systems**\nIn **physics and engineering**, derivatives are essential for modeling systems that change over time, such as:\n- Electrical circuits\n- Fluid dynamics\n- Population growth\n- Structural stress analysis\n\n---\n\n## Summary\n\n| Concept | Description |\n|---------|-------------|\n| **Definition** | Instantaneous rate of change at a point |\n| **Notation** | f'(x) or dy/dx |\n| **Geometric meaning** | Slope of the tangent line |\n| **Physical example** | Velocity as derivative of position |\n| **Primary uses** | Slope analysis, optimization, dynamic modeling |\n\n---\n\nIn essence, the derivative is a **powerful analytical tool** that transforms our ability to understand change \u2014 moving beyond simple averages to capture the precise behavior of functions at every single point, making it one of the most important concepts in all of mathematics and science.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 586,
+      "response": "# Comprehensive Explanation of Derivatives\n\n## Core Definition\n\nA **derivative** measures the **instantaneous rate of change** of a function with respect to its independent variable. Intuitively, it answers the question: *\"How fast is this quantity changing at this exact moment?\"*\n\nFormally, for a function **f(x)**, the derivative is defined as:\n\n$$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$$\n\nThis expression represents what happens when you examine the change in a function over a shrinking interval **h**, ultimately reducing that interval to an infinitesimally small value.\n\n---\n\n## Geometric Interpretation\n\nGeometrically, the derivative represents the **slope of the tangent line** to a function's graph at any given point. To understand this:\n\n- Consider two points on a curve separated by a distance **h**\n- The line connecting them is called a **secant line**\n- As **h approaches zero**, the secant line rotates and converges into the **tangent line**\n- The slope of that tangent line **is** the derivative at that point\n\nThis means a **positive derivative** indicates the function is rising, a **negative derivative** indicates it is falling, and a **zero derivative** indicates a flat point, often a maximum or minimum.\n\n---\n\n## Key Rules and Principles\n\n### 1. Linearity\nDerivatives follow linear behavior:\n- The derivative of a **sum** is the sum of derivatives\n- **Constants** can be factored out\n\n### 2. Product Rule\nWhen two functions are multiplied together, their combined derivative accounts for both functions changing simultaneously.\n\n### 3. Quotient Rule\nWhen one function is divided by another, a specific rule governs how the derivative is computed, accounting for the interaction between numerator and denominator.\n\n### 4. Chain Rule\nFor **composite functions** (functions within functions), the chain rule states that you differentiate the outer function and multiply by the derivative of the inner function. This is arguably one of the most powerful and widely used rules in calculus.\n\n---\n\n## Higher-Order Derivatives\n\nDerivatives can be applied **repeatedly**:\n\n| Order | Name | Describes |\n|-------|------|-----------|\n| 1st | First Derivative | Rate of change / slope |\n| 2nd | Second Derivative | Curvature / concavity |\n| 3rd+ | Higher-Order | More complex behaviors |\n\nFor example, the **second derivative** tells you whether a curve is bending upward (concave up) or downward (concave down), which is critical in identifying true maxima and minima.\n\n---\n\n## Real-World Applications\n\n### Physics\n- **Velocity** is the derivative of position with respect to time\n- **Acceleration** is the derivative of velocity (second derivative of position)\n- This forms the mathematical backbone of classical mechanics\n\n### Engineering\n- Analyzing **rates of change** in electrical circuits, fluid dynamics, and structural stress\n- Modeling how systems respond and evolve over time\n\n### Economics\n- **Marginal cost** and **marginal revenue** are derivatives of total cost and revenue functions\n- They reveal the cost or gain of producing one additional unit\n\n### Optimization\n- Setting the derivative equal to zero identifies **critical points** where a function reaches its maximum or minimum\n- This is fundamental in fields ranging from machine learning to logistics\n\n---\n\n## Summary\n\n> The derivative is one of the most powerful tools in mathematics. It transforms the static description of a function into a **dynamic portrait of change**, enabling precise analysis of motion, growth, optimization, and behavior across virtually every quantitative discipline.\n\nWhether measuring the speed of a moving object, maximizing profit, or modeling the curvature of a surface, derivatives provide the mathematical language to describe **how things change** \u2014 making them indispensable in both theory and practice.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.975,
+          "FC": 1.0,
+          "agreement_score": 0.9529,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0236,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.98
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8480040000000001,
+    "mean_agreement": 0.88092,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      1.0,
+      0.7633400000000001,
+      0.53334,
+      0.9633400000000001,
+      0.98
+    ],
+    "agreement_scores": [
+      1.0,
+      0.8226,
+      0.7234,
+      0.9057,
+      0.9529
+    ]
+  }
+}

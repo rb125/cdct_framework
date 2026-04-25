@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 import sys # Import sys
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
 
 # Import models config
 from models_config import SUBJECT_MODELS_CONFIG, JURY_MODELS_CONFIG

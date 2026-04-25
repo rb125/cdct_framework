@@ -1,0 +1,228 @@
+{
+  "concept": "harm_principle",
+  "domain": "ethics",
+  "subject_model": "claude-sonnet-4.6",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 44,
+      "response": "Based on the available information provided, I can only see the phrase \"preventing harm\" \u2014 there is not enough detail to define the **harm_principle** specifically.\n\nI cannot provide a accurate definition without more context, as adding further details would go beyond the information given.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.4,
+            "SA": 0.8,
+            "FC": 0.7
+          },
+          "Qwen3-32B": {
+            "CC": 0.4,
+            "SA": 0.9,
+            "FC": 0.6
+          },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.45,
+          "SA": 0.9,
+          "FC": 0.7333,
+          "agreement_score": 0.831,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0816,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.68666
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "response_length": 33,
+      "response": "Based on the available information, the harm principle is about **preventing harm to others**. It serves as a guideline or boundary focused on protecting individuals from being harmed by the actions of others.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.3,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.7,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.6,
+            "SA": 0.8,
+            "FC": 0.7
+          }
+        },
+        "consensus": {
+          "CC": 0.425,
+          "SA": 0.825,
+          "FC": 0.9,
+          "agreement_score": 0.7394,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.1414,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.68
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "response_length": 30,
+      "response": "The harm principle states that people's actions should only be limited to prevent harm to others. It aims to protect individual freedom while also ensuring safety and well-being in society.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9833400000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 64,
+      "response_length": 62,
+      "response": "The harm principle, articulated by John Stuart Mill, states that individual liberty should only be restricted to prevent harm to others, not for paternalistic or moral reasons. Laws against assault or theft are justified under this principle, while prohibiting self-destructive behavior is not. It is applied in debates on free speech, drug use, and public policy, balancing personal autonomy with societal protection.",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.8333,
+          "agreement_score": 0.8743,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.93666
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 97,
+      "response": "The harm principle, most notably articulated by John Stuart Mill, asserts that individual actions should only be limited to prevent harm to others, with personal liberty justifiably restricted only when one's conduct poses a risk of significant injury or detriment to another person. Its key principles include the prioritization of autonomy, the distinction between self-regarding and other-regarding actions, and the requirement of demonstrable harm for intervention. It underpins legal and moral frameworks across areas such as free speech, drug use, and public health, requiring that restrictions be proportionate and justified by actual, not hypothetical, threats to others.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.95,
+          "FC": 0.9,
+          "agreement_score": 0.8597,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.93
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.843332,
+    "mean_agreement": 0.8483,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.68666,
+      0.68,
+      0.9833400000000001,
+      0.93666,
+      0.93
+    ],
+    "agreement_scores": [
+      0.831,
+      0.7394,
+      0.9371,
+      0.8743,
+      0.8597
+    ]
+  }
+}

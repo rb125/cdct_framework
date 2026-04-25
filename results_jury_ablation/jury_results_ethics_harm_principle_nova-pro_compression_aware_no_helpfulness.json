@@ -1,0 +1,228 @@
+{
+  "concept": "harm_principle",
+  "domain": "ethics",
+  "subject_model": "nova-pro",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 9,
+      "response": "Harm principle is a concept that emphasizes preventing harm.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.7,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.7,
+          "SA": 0.775,
+          "FC": 0.9,
+          "agreement_score": 0.6627,
+          "judge_variance_CC": 0.2828,
+          "judge_variance_SA": 0.1414,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7700000000000001
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "response_length": 12,
+      "response": "The harm principle is a concept that justifies preventing harm to others.",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 0.6,
+            "SA": 0.7,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.8,
+          "SA": 0.875,
+          "FC": 0.9667,
+          "agreement_score": 0.7597,
+          "judge_variance_CC": 0.1886,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8633400000000002
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "response_length": 19,
+      "response": "The harm principle limits actions only to prevent harm to others, balancing individual freedom with societal safety and well-being.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9686,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9933400000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 64,
+      "response_length": 31,
+      "response": "The harm principle, articulated by John Stuart Mill, asserts that individual liberty should only be restricted to prevent harm to others, guiding debates on free speech, drug use, and public policy.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 0.5,
+          "SA": 0.95,
+          "FC": 0.6667,
+          "agreement_score": 0.854,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.7133400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 33,
+      "response": "The harm principle, articulated by John Stuart Mill, asserts that individual actions should only be limited to prevent harm to others, balancing personal liberty with societal protection by requiring demonstrable harm for intervention.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.8,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.2,
+            "SA": 1.0,
+            "FC": 0.6
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 0.425,
+          "SA": 0.9,
+          "FC": 0.6333,
+          "agreement_score": 0.7687,
+          "judge_variance_CC": 0.2055,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.65666
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.799336,
+    "mean_agreement": 0.80274,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.7700000000000001,
+      0.8633400000000002,
+      0.9933400000000001,
+      0.7133400000000001,
+      0.65666
+    ],
+    "agreement_scores": [
+      0.6627,
+      0.7597,
+      0.9686,
+      0.854,
+      0.7687
+    ]
+  }
+}

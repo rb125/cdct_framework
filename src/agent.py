@@ -389,6 +389,45 @@ class BasetenAgent(Agent):
         return call_with_retry(_call, self.retry_config, log_prefix=f"[{self.model_name}]")
 
 
+class BedrockAgent(Agent):
+    """Agent for AWS Bedrock models using the Converse API with ABSK API key auth."""
+    def __init__(self, model_name: str, model_id: str, api_key: str,
+                 region: str = "us-east-1", max_tokens: int = 4096,
+                 retry_config: RetryConfig = None):
+        super().__init__(model_name)
+        self.model_id = model_id
+        self.api_key = api_key
+        self.max_tokens = max_tokens
+        self.url = f"https://bedrock-runtime.{region}.amazonaws.com/model/{model_id}/converse"
+        self.retry_config = retry_config or RetryConfig(
+            max_retries=5, base_delay=5.0, max_delay=120.0
+        )
+
+    def query(self, prompt: str) -> str:
+        return self.chat([{"role": "user", "content": prompt}])
+
+    def chat(self, messages: list) -> str:
+        def _call():
+            import requests
+            body = {
+                "messages": [{"role": m["role"], "content": [{"text": m["content"]}]} for m in messages],
+                "inferenceConfig": {"temperature": 0.0, "maxTokens": self.max_tokens},
+            }
+            resp = requests.post(
+                self.url,
+                headers={"Content-Type": "application/json", "Authorization": f"Bearer {self.api_key}"},
+                json=body, timeout=300,
+            )
+            resp.raise_for_status()
+            content = resp.json()["output"]["message"]["content"]
+            for block in content:
+                if "text" in block:
+                    return block["text"]
+            return content[0].get("text", str(content))
+
+        return call_with_retry(_call, self.retry_config, log_prefix=f"[{self.model_name}]")
+
+
 class AzureOpenAICompletionAgent(Agent):
     """Agent for Azure OpenAI models that use the legacy completions API."""
     def __init__(self, model_name: str, deployment_name: str = None, 
@@ -503,6 +542,18 @@ def create_agent(subject_config: dict, api_keys: dict) -> Agent:
         if not api_key: 
             raise ValueError(f"API key not provided for Google AI via {api_key_env_var}")
         return GoogleAIAgent(model_name=model_name, api_key=api_key)
+    elif provider == "bedrock":
+        model_id = subject_config.get("model_id", deployment_name)
+        region = subject_config.get("region", "us-east-1")
+        bedrock_key = api_keys.get("AWS_BEARER_TOKEN_BEDROCK") or os.environ.get("AWS_BEARER_TOKEN_BEDROCK")
+        if not bedrock_key:
+            raise ValueError("AWS_BEARER_TOKEN_BEDROCK not set")
+        return BedrockAgent(
+            model_name=model_name,
+            model_id=model_id,
+            api_key=bedrock_key,
+            region=region
+        )
     elif provider == "baseten":
         if not api_key: 
             raise ValueError(f"API key not provided for Baseten via {api_key_env_var}")

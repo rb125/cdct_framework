@@ -1,0 +1,229 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "subject_model": "nova-pro",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 11,
+      "response": "f_equals_ma represents the force-motion relationship, where force equals mass times acceleration.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": null,
+            "SA": 1.0,
+            "FC": 1.0,
+            "error": "Parse error: Expecting ',' delimiter: line 1 column 25 (char 24"
+          },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.6667,
+          "SA": 0.8333,
+          "FC": 1.0,
+          "agreement_score": 0.7667,
+          "judge_variance_CC": 0.25,
+          "judge_variance_SA": 0.1,
+          "judge_variance_FC": 0.0,
+          "judge_count": 2,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 10,
+      "response": "F_equals_ma represents the relationship where force causes mass to accelerate.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 18,
+      "response": "When a force acts on an object, it causes the object\u2019s mass to accelerate, demonstrating the relationship f=ma.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9733400000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 37,
+      "response": "Newton\u2019s second law of motion states that force equals mass times acceleration (F = ma), meaning a greater force results in higher acceleration if mass is constant. Engineers use this principle to design vehicles and ensure safety.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 0.5,
+          "SA": 0.95,
+          "FC": 0.6667,
+          "agreement_score": 0.854,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.7133400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 33,
+      "response": "F = ma represents Newton\u2019s Second Law of Motion, stating that the net force (F) on an object equals the product of its mass (m) and acceleration (a), describing how forces influence motion.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.2,
+            "SA": 1.0,
+            "FC": 0.5
+          },
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.8,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 1.0,
+            "FC": 0.4
+          }
+        },
+        "consensus": {
+          "CC": 0.325,
+          "SA": 0.9,
+          "FC": 0.5333,
+          "agreement_score": 0.6969,
+          "judge_variance_CC": 0.2357,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.5966600000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8166680000000002,
+    "mean_agreement": 0.8509399999999999,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.8,
+      1.0,
+      0.9733400000000001,
+      0.7133400000000001,
+      0.5966600000000001
+    ],
+    "agreement_scores": [
+      0.7667,
+      1.0,
+      0.9371,
+      0.854,
+      0.6969
+    ]
+  }
+}

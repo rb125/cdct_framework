@@ -1,0 +1,228 @@
+{
+  "concept": "phoneme",
+  "domain": "linguistics",
+  "subject_model": "Mistral-Large-3",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 21,
+      "response": "A phoneme is a distinctive sound unit in a language. It is the smallest unit that can distinguish meaning between words.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.6,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.8,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.725,
+          "SA": 0.875,
+          "FC": 0.9667,
+          "agreement_score": 0.831,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.83334
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 33,
+      "response": "A phoneme is the smallest distinctive sound unit in a language that can change the meaning of a word. It distinguishes one word from another, like /p/ in \"pat\" and /b/ in \"bat.\"",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.3,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.6,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.45,
+          "SA": 0.85,
+          "FC": 0.9,
+          "agreement_score": 0.6791,
+          "judge_variance_CC": 0.17,
+          "judge_variance_SA": 0.17,
+          "judge_variance_FC": 0.1414,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7000000000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 34,
+      "response": "A phoneme is a distinct sound unit in a language that can alter the meaning of a word. It helps show how languages structure sounds and how people differentiate words based on these sounds.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.8827,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9433400000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 63,
+      "response_length": 50,
+      "response": "A phoneme is the smallest abstract unit of sound in a language that can change the meaning of words, like /p/ and /b/ in \"pat\" and \"bat.\" It is a theoretical concept, realized as actual speech sounds (phones) when spoken. Linguists study phonemes to compare languages and understand sound patterns.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.8,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.9,
+          "SA": 0.95,
+          "FC": 0.8,
+          "agreement_score": 0.8513,
+          "judge_variance_CC": 0.0943,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 126,
+      "response_length": 63,
+      "response": "A **phoneme** is the smallest abstract unit of sound in a language that distinguishes meaning between words (e.g., /p/ vs. /b/ in \"pat\" and \"bat\"). It operates under principles like **contrastiveness** (creating minimal pairs) and **complementary distribution** (where allophones vary by context), governed by **phonological rules**. Phonemes are central to analyzing sound systems, language acquisition, and practical applications like speech technology and teaching.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.8,
+          "SA": 0.95,
+          "FC": 0.8333,
+          "agreement_score": 0.8002,
+          "judge_variance_CC": 0.2055,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8666600000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.848668,
+    "mean_agreement": 0.8088599999999999,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.83334,
+      0.7000000000000001,
+      0.9433400000000001,
+      0.9,
+      0.8666600000000001
+    ],
+    "agreement_scores": [
+      0.831,
+      0.6791,
+      0.8827,
+      0.8513,
+      0.8002
+    ]
+  }
+}

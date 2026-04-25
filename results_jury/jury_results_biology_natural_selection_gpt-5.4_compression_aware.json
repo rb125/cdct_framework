@@ -1,0 +1,228 @@
+{
+  "concept": "natural_selection",
+  "domain": "biology",
+  "subject_model": "gpt-5.4",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 2,
+      "response": "survival advantage",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.775,
+          "FC": 0.6667,
+          "agreement_score": 0.8743,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.1414,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.8433400000000001
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 20,
+      "response": "Natural selection is when a survival advantage is passed to offspring. This means traits linked to survival advantage are inherited.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.7,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.8,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.8,
+            "SA": 0.9,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.8,
+          "SA": 0.875,
+          "FC": 0.9333,
+          "agreement_score": 0.8283,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0816,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8566600000000002
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 102,
+      "response": "Natural selection is the process by which traits that help an organism survive and reproduce become more common in a population over generations.\n\nHere\u2019s how it works:\n- Individuals in a population are not all exactly the same.\n- Some have traits that give them an advantage in their environment.\n- Those individuals are more likely to survive and have offspring.\n- Their offspring inherit those helpful traits.\n- Over time, these traits spread through the population.\n\nAs a result, natural selection shapes populations and helps them become better adapted to their environment. It is one of the main mechanisms of evolution.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.4,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.45,
+          "SA": 0.95,
+          "FC": 0.9333,
+          "agreement_score": 0.8743,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.7466600000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 60,
+      "response_length": 291,
+      "response": "Natural selection is the process by which certain inherited traits become more common in a population because they help organisms survive and reproduce more successfully.\n\n### How it works\nWithin any population, individuals are not exactly the same. They vary in traits such as color, size, speed, or resistance to disease. Some of these differences are genetic, meaning they can be passed from parents to offspring.\n\nIf a particular trait gives an advantage in a specific environment, individuals with that trait are more likely to:\n- survive longer,\n- avoid predators,\n- resist illness,\n- find food more effectively,\n- and reproduce successfully.\n\nBecause they leave more offspring, the beneficial version of the gene, or **allele**, becomes more frequent in the **gene pool** over many generations.\n\n### Key idea\nNatural selection does **not** mean organisms choose to adapt. Instead, the environment \u201cselects\u201d which inherited traits are more favorable. Over time, this changes the population.\n\n### Example: peppered moths\nA classic example is the **peppered moth**. In cleaner environments, lighter-colored moths were better camouflaged against lichen-covered trees, so they were less likely to be eaten. In polluted areas, tree bark became darker, and darker moths were better hidden. As a result, darker moths survived and reproduced more often, so dark coloration became more common.\n\n### Why natural selection matters\nNatural selection is a major mechanism of **evolution**. It helps populations:\n- adapt to environmental pressures,\n- become better suited to their surroundings,\n- and sometimes diverge enough to form new species, a process called **speciation**.\n\n### In summary\nNatural selection is the gradual increase of advantageous inherited traits in a population because individuals with those traits have higher reproductive success. It explains how populations evolve and respond to changes in their environment.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9333,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9566600000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 135,
+      "response_length": 397,
+      "response": "Natural selection is one of the main mechanisms that drives evolution. It explains how populations of organisms change over time based on differences in traits that affect survival and reproduction.\n\n### Core idea\nWithin any population, individuals are not all identical. They vary in many heritable traits, such as size, color, speed, disease resistance, or behavior. If some of these traits help individuals survive or reproduce more successfully in a particular environment, those individuals are more likely to leave offspring. Because the traits are heritable, their offspring are also more likely to carry them. Over generations, these advantageous traits become more common in the population.\n\n### Main principles of natural selection\n\n1. **Variation**  \n   Individuals in a population differ from one another. These differences often arise from genetic variation.\n\n2. **Inheritance**  \n   Some traits are passed from parents to offspring. For natural selection to have lasting evolutionary effects, the beneficial traits must be heritable.\n\n3. **Differential survival and reproduction**  \n   Not all individuals survive equally well or reproduce equally successfully. Those with traits better suited to the environment tend to have higher **fitness**, meaning greater reproductive success.\n\n4. **Adaptation**  \n   As advantageous traits accumulate over time, populations become better suited to their environments. This process produces **adaptations**, which are traits that improve survival or reproduction.\n\n### How the process works\nNatural selection does not act with purpose or intention. It is not trying to create \u201cperfect\u201d organisms. Instead, it is a natural outcome of:\n- heritable variation,\n- environmental pressures,\n- and differences in reproductive success.\n\nIf the environment changes, the traits favored by natural selection may also change.\n\n### Long-term effects\nOver many generations, natural selection can lead to:\n- the evolution of complex traits,\n- better adaptation to ecological conditions,\n- divergence between populations,\n- **speciation**, where new species arise,\n- and greater **biodiversity**.\n\n### Examples and applications\nNatural selection has important practical significance:\n\n- **Medicine**: Bacteria with resistance to antibiotics survive treatment and reproduce, leading to antibiotic-resistant populations.\n- **Agriculture**: Understanding selection helps improve crops and manage pests.\n- **Conservation biology**: Knowledge of evolutionary dynamics helps protect endangered species and manage changing environments.\n\n### Summary\nNatural selection is the process by which heritable traits that improve fitness become more common in a population over time. It depends on variation, inheritance, and differential reproductive success, and it is a central explanation for adaptation, evolution, and the diversity of life.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.975,
+          "FC": 0.9667,
+          "agreement_score": 0.9214,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0236,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9733400000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.875332,
+    "mean_agreement": 0.8808,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.8433400000000001,
+      0.8566600000000002,
+      0.7466600000000001,
+      0.9566600000000001,
+      0.9733400000000001
+    ],
+    "agreement_scores": [
+      0.8743,
+      0.8283,
+      0.8743,
+      0.9057,
+      0.9214
+    ]
+  }
+}

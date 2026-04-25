@@ -1,0 +1,228 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "subject_model": "gemma-4-27b-it",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 2,
+      "response": "force-motion relationship",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 1.0,
+          "agreement_score": 0.9686,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.98
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 5,
+      "response": "Force causes mass to accelerate.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 145,
+      "response": "Based on the provided text, **$F=ma$** (Force equals mass times acceleration) is the mathematical representation of the relationship described: that a force acting on an object causes its mass to accelerate.\n\nHere is a breakdown of the components based on the context:\n\n*   **Force ($F$):** The external influence or push/pull acting upon an object.\n*   **Mass ($m$):** The amount of matter in the object being acted upon.\n*   **Acceleration ($a$):** The resulting change in the object's motion caused by the force.\n\n**Explanation:**\nThe relationship implies that acceleration is dependent on both the amount of force applied and the mass of the object. In practical terms, as the text suggests, this principle is a fundamental tool used to **predict and understand motion**, allowing scientists and engineers to calculate exactly how much an object will move or speed up when a specific force is applied to it.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.4,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.2,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.7,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.25,
+          "SA": 0.875,
+          "FC": 0.8,
+          "agreement_score": 0.7996,
+          "judge_variance_CC": 0.0943,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.6100000000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 279,
+      "response": "Based on the provided text, **$F = ma$** (Newton\u2019s second law of motion) is a mathematical formula used to describe the relationship between force, mass, and acceleration. \n\nHere is a detailed explanation of the components and the principle:\n\n### 1. The Components of the Formula\n*   **Force ($F$):** This represents the push or pull applied to an object. The text indicates that the amount of force required is directly related to the object's mass.\n*   **Mass ($m$):** This refers to the amount of matter in an object. The text illustrates this through the comparison of a car and a bicycle; because a car has a much larger mass than a bicycle, it requires a significantly greater force to move it.\n*   **Acceleration ($a$):** This is the rate at which an object's velocity changes. \n\n### 2. The Core Principle\nThe law establishes a direct relationship between force and acceleration: **if the mass of an object remains constant, applying a greater force will result in a higher acceleration.** \n\nIn simpler terms, if you want something to speed up faster, you must apply more strength to it. Conversely, if you apply the same amount of force to two different objects, the one with the smaller mass will accelerate more quickly.\n\n### 3. Practical Application\nThis principle is not just theoretical; it is a fundamental tool used in the real world, specifically by **engineers**. They utilize $F = ma$ to:\n*   **Design vehicles:** Determining how much power an engine needs to move a vehicle of a certain weight.\n*   **Predict motion:** Calculating how objects will move under specific conditions.\n*   **Ensure safety:** Designing transportation systems that can handle forces safely to protect passengers.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 325,
+      "response": "Based on the provided text, **$F = ma$** is the mathematical representation of **Newton\u2019s Second Law of Motion**, a cornerstone of classical mechanics used to describe how forces influence the motion of objects.\n\nA comprehensive explanation of the formula involves the following components:\n\n### 1. The Variables\nThe equation defines the relationship between three fundamental physical quantities:\n*   **$F$ (Net Force):** The total force acting upon an object. It is important to note that this must be the *net* force, meaning all individual forces acting on the object must be considered to determine the final resultant force.\n*   **$m$ (Mass):** The amount of matter in an object.\n*   **$a$ (Acceleration):** The rate at which an object's velocity changes.\n\n### 2. The Mathematical Relationships\nThe law establishes two specific types of proportionality:\n*   **Direct Proportionality ($F \\propto a$):** Acceleration is directly proportional to the net force. If you increase the force applied to an object, its acceleration will increase accordingly.\n*   **Inverse Proportionality ($a \\propto 1/m$):** Acceleration is inversely proportional to the mass. This means that as an object becomes heavier (increased mass), it becomes harder to accelerate; more force is required to achieve the same acceleration as a lighter object.\n\n### 3. Key Physical Principles\n*   **Vector Nature:** Both force and acceleration are vectors, meaning they have both magnitude and direction. The direction of the acceleration will align with the direction of the net force.\n*   **Predictive Modeling:** Because this equation quantitatively describes motion, it allows scientists and engineers to model and predict the behavior of physical systems with high precision.\n\n### 4. Real-World Applications\nThe principles of $F = ma$ are applied across various scales of science and engineering, including:\n*   **Engineering:** Designing stable structures and analyzing vehicle dynamics (how cars move and respond to forces).\n*   **Astronomy:** Predicting the motion of planets within a solar system.\n*   **Everyday Life:** Understanding basic physical phenomena, such as the mechanics of walking or driving a vehicle.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.975,
+          "FC": 0.9667,
+          "agreement_score": 0.9214,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0236,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9733400000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.9053360000000001,
+    "mean_agreement": 0.91906,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.98,
+      1.0,
+      0.6100000000000001,
+      0.9633400000000001,
+      0.9733400000000001
+    ],
+    "agreement_scores": [
+      0.9686,
+      1.0,
+      0.7996,
+      0.9057,
+      0.9214
+    ]
+  }
+}

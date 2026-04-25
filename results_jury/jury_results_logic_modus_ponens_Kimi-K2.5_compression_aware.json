@@ -3,45 +3,226 @@
   "domain": "logic",
   "subject_model": "Kimi-K2.5",
   "jury_models": [
-    "gpt-5.2",
-    "DeepSeek-v3.2"
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
   ],
   "evaluation_system": "jury",
   "prompt_strategy": "compression_aware",
   "ablation_type": null,
-  "performance": [],
-  "failed_levels": [
+  "performance": [
     {
       "compression_level": 0.0,
       "context_length": 2,
-      "error": "Model returned a None response"
+      "response_length": 2,
+      "response": "if-then inference",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.875,
+          "FC": 0.6667,
+          "agreement_score": 0.8854,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.88334
     },
     {
       "compression_level": 0.25,
       "context_length": 4,
-      "error": "Model returned a None response"
+      "response_length": 7,
+      "response": "Modus ponens is if-then inference with affirmation.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
     },
     {
       "compression_level": 0.5,
       "context_length": 26,
-      "error": "Model returned a None response"
+      "response_length": 221,
+      "response": "**Modus ponens** is a fundamental rule of logical inference that allows us to draw a definite conclusion by combining a conditional statement with factual confirmation.\n\nAs described, it operates through three essential steps:\n\n1.  **The General Rule (Conditional):** You begin with an \"if-then\" statement that establishes a relationship between two propositions. This takes the form: *If P, then Q* (where P is the condition/antecedent and Q is the consequence/consequent).\n\n2.  **Confirmation of Condition:** You verify or establish that the initial condition (the \"if\" part) is actually true. That is, you confirm that *P is true*.\n\n3.  **Deduction of Conclusion:** Because the condition has been satisfied, modus ponens permits you to validly conclude that the consequence must also be true. Therefore, *Q is true*.\n\n**Why it is reliable:** This form of reasoning is considered \"clear and reliable\" because it is **deductively valid**\u2014meaning that if the premises (the general rule and the confirmation) are true, the conclusion is guaranteed to be true. There is no logical gap between the premises and the conclusion.\n\n**Example:**\n*   **General Rule:** If it is raining, then the ground is wet.\n*   **Confirmed Condition:** It is raining.\n*   **Conclusion:** Therefore, the ground is wet.\n\nBy affirming the condition stated in the rule, modus ponens forces the conclusion to follow necessarily, eliminating ambiguity and ensuring the reasoning is sound.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "Qwen3-32B": {
+            "CC": 0.0,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.7,
+            "FC": 0.4
+          }
+        },
+        "consensus": {
+          "CC": 0.125,
+          "SA": 0.875,
+          "FC": 0.6333,
+          "agreement_score": 0.7491,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.17,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.52666
     },
     {
       "compression_level": 0.75,
       "context_length": 63,
-      "error": "Model returned a None response"
+      "response_length": 334,
+      "response": "**Modus Ponens** (Latin for \"mode that affirms\") is a foundational rule of inference that serves as a cornerstone of logical deduction. Operating within propositional logic, it provides a valid mechanism for deriving new truths from established premises through a specific, structured pattern of reasoning.\n\n## Logical Structure\n\nThe rule follows a strict syllogistic form involving three components:\n\n1.  **The Conditional Premise**: A statement of the form \"If P, then Q\" (symbolically: P \u2192 Q), establishing a logical relationship where P is the **antecedent** (the condition) and Q is the **consequent** (the result).\n2.  **The Asserted Premise**: An affirmation that the antecedent P is true.\n3.  **The Conclusion**: The valid derivation that the consequent Q must therefore be true.\n\nFormally represented:\n- Premise 1: P \u2192 Q\n- Premise 2: P\n- Conclusion: \u2234 Q\n\n## Mechanism of Validity\n\nModus ponens functions as a **truth-preserving** operation. When the conditional statement holds true and the antecedent is affirmed, the conclusion necessarily follows. This validity stems from the definition of material implication: a conditional \"If P, then Q\" is only false when P is true and Q is false; therefore, if P is true and the conditional holds, Q cannot be false.\n\nConsider the provided example:\n- **Conditional**: \"If it rains, the ground gets wet\" (Raining \u2192 Wet ground)\n- **Assertion**: \"It is raining\" (Raining)\n- **Inference**: \"The ground gets wet\" (Wet ground)\n\nThe rule compels acceptance of the conclusion once both premises are granted, eliminating any logical alternative where the antecedent and conditional are true while the consequent is false.\n\n## Role in Deductive Systems\n\nAs an engine of **deductive reasoning**, modus ponens enables the construction of formal proofs by allowing step-by-step derivation of complex conclusions from initial axioms or assumptions. Each application extends the chain of known truths while maintaining logical certainty, making it indispensable in mathematical proofs, philosophical argumentation, and computational logic. Its reliability ensures that if the foundational premises are true, every conclusion derived through successive applications of modus ponens remains necessarily true.",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9833400000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 133,
-      "error": "Model returned a None response"
+      "response_length": 428,
+      "response": "**Modus ponens** (Latin for \"mode that by affirming affirms\") is a foundational rule of inference in propositional logic that enables valid deductive reasoning through a specific three-step structure. Often called \"affirming the antecedent,\" this logical principle establishes how we can necessarily derive true conclusions from true premises.\n\n## Formal Structure and Mechanism\n\nThe rule operates on a conditional statement (an \"if-then\" proposition) and follows this precise logical form:\n\n1. **P \u2192 Q** (If P, then Q) \u2014 The conditional premise establishes that the truth of P guarantees the truth of Q\n2. **P** (P is true) \u2014 The categorical premise affirms the antecedent (the \"if\" part)\n3. **\u2234 Q** (Therefore, Q is true) \u2014 The conclusion necessarily follows\n\nIn this structure, **P** represents the *antecedent* (the condition or premise), while **Q** represents the *consequent* (the result or outcome). Modus ponens works by affirming that when we accept both the conditional relationship between P and Q *and* the actual truth of P, we cannot logically deny Q without contradiction.\n\n## Logical Properties\n\n**Validity and Truth Preservation:** Modus ponens is a *valid* argument form, meaning that if the premises are true, the conclusion must be true. This truth-preserving quality ensures that the logical structure itself guarantees the conclusion whenever the premises hold, eliminating any possibility of true premises leading to a false conclusion.\n\n**Deductive Necessity:** Unlike probabilistic reasoning, modus ponens provides certainty. The acceptance of \"If P then Q\" combined with \"P\" creates a logical compulsion to accept \"Q.\" This necessity makes it essential for rigorous deductive reasoning where conclusions must follow inevitably from their premises.\n\n## Applications and Significance\n\n**Mathematical Proofs:** In mathematics, modus ponens allows theorems to be built sequentially. If one proposition implies another, and the first is established, the second follows automatically, enabling the step-by-step construction of complex proofs.\n\n**Computer Science and Formal Systems:** Algorithms and programming logic rely heavily on modus ponens to execute conditional commands. When a specific condition is met (P), the system executes the corresponding action (Q), making this rule fundamental to computational processing and automated reasoning systems.\n\n**Logical Consistency:** As a cornerstone of logic, modus ponens ensures that arguments remain both *sound* (valid form with true premises) and internally consistent. Its reliability and simplicity make it indispensable across all formal systems requiring precise inference, from philosophical argumentation to artificial intelligence.\n\nIn essence, modus ponens serves as the logical bridge that allows knowledge to expand systematically: once we establish that one fact implies another, and we verify the first fact, we gain certain knowledge of the second through this elegant, truth-preserving mechanism.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9833400000000001
     }
   ],
+  "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.0,
-    "mean_agreement": 0.0,
-    "decay_direction": "N/A",
-    "error": "No valid performance data"
+    "mean_score": 0.8753360000000001,
+    "mean_agreement": 0.90174,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.88334,
+      1.0,
+      0.52666,
+      0.9833400000000001,
+      0.9833400000000001
+    ],
+    "agreement_scores": [
+      0.8854,
+      1.0,
+      0.7491,
+      0.9371,
+      0.9371
+    ]
   }
 }

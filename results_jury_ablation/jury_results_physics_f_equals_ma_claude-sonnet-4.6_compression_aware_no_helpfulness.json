@@ -1,0 +1,228 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "subject_model": "claude-sonnet-4.6",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 45,
+      "response": "Based on the available information, **f_equals_ma** refers to the **force-motion relationship**, which describes how force (f) is related to mass (m) and acceleration (a). This is the mathematical expression of how a net force applied to an object produces motion (acceleration) proportional to that force.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.4,
+            "SA": 0.7,
+            "FC": 0.6
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.4,
+            "SA": 0.7,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 0.6,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.45,
+          "SA": 0.675,
+          "FC": 0.7333,
+          "agreement_score": 0.854,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.5966600000000001
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 36,
+      "response": "Based on the available information, force causes mass to accelerate. This relationship connects force, mass, and acceleration together. However, the specific equation \"f = ma\" is not described in the provided information beyond that basic relationship.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.6,
+            "SA": 0.8,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.2,
+            "SA": 0.8,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.9,
+            "FC": 0.8
+          }
+        },
+        "consensus": {
+          "CC": 0.3,
+          "SA": 0.825,
+          "FC": 0.7333,
+          "agreement_score": 0.8114,
+          "judge_variance_CC": 0.1886,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.59666
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 39,
+      "response": "Based on the provided information, when a force acts on an object, it causes the object's mass to accelerate. This relationship between force, mass, and acceleration allows us to predict and understand motion in everyday life and engineering applications.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 64,
+      "response": "Newton's second law of motion states that force equals mass times acceleration (F = ma), meaning a greater force applied to an object results in higher acceleration when mass stays constant. A practical example is that pushing a car requires more force than pushing a bicycle because of their different masses. Engineers apply this principle to design vehicles, predict motion, and ensure transportation safety.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9333,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9566600000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 78,
+      "response": "**F = ma** represents Newton's Second Law of Motion, stating that the net force acting on an object equals the product of its mass and acceleration. Acceleration is directly proportional to net force and inversely proportional to mass, meaning heavier objects require more force to achieve the same acceleration as lighter ones. Key considerations include the vector nature of force and acceleration, and that all forces acting on the object must be considered to determine the net force.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 0.8,
+          "SA": 0.95,
+          "FC": 0.7333,
+          "agreement_score": 0.7687,
+          "judge_variance_CC": 0.2055,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8466600000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.791996,
+    "mean_agreement": 0.8491,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.5966600000000001,
+      0.59666,
+      0.9633400000000001,
+      0.9566600000000001,
+      0.8466600000000001
+    ],
+    "agreement_scores": [
+      0.854,
+      0.8114,
+      0.9057,
+      0.9057,
+      0.7687
+    ]
+  }
+}

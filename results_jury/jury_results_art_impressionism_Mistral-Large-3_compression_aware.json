@@ -1,0 +1,228 @@
+{
+  "concept": "impressionism",
+  "domain": "art",
+  "subject_model": "Mistral-Large-3",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 3,
+      "response": "Capturing light's moment.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 0.8667,
+          "agreement_score": 0.8854,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9533400000000001
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 6,
+      "response_length": 22,
+      "response": "Impressionism is an art style focused on capturing fleeting light and color impressions. It emphasizes momentary visual effects rather than precise details.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.6,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.8,
+            "SA": 0.8,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.775,
+          "SA": 0.9,
+          "FC": 0.9667,
+          "agreement_score": 0.831,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0816,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8633400000000002
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 18,
+      "response_length": 501,
+      "response": "**Explanation of Impressionism:**\n\nImpressionism was a groundbreaking **19th-century art movement** that shifted the focus of painting away from **detailed realism** and toward **capturing fleeting moments, light, and atmosphere**. Instead of meticulously rendering precise forms, Impressionist artists aimed to convey the **immediate sensory experience** of a scene\u2014how light, color, and movement interact in a single glance.\n\n### **Key Concepts of Impressionism:**\n1. **Emphasis on Light & Color**\n   - Impressionists studied how **natural light** changes the appearance of objects, often painting outdoors (*en plein air*) to observe these effects firsthand.\n   - They used **bright, unmixed colors** (e.g., pure blues, yellows, greens) applied in **short, visible brushstrokes** to create vibrancy and luminosity.\n   - Shadows were not just black or gray but filled with **complementary colors** (e.g., a shadow on snow might contain blues and purples).\n\n2. **Momentary Sensations (The \"Impression\")**\n   - The movement prioritized **spontaneity** over perfection. Artists tried to capture a **split-second impression**\u2014like the way sunlight flickers on water or how a crowd appears in motion.\n   - This often resulted in **blurred or unfinished-looking** compositions, which were initially criticized as \"sketchy\" or \"unrefined.\"\n\n3. **Loose, Expressive Brushwork**\n   - Instead of smooth, invisible strokes, Impressionists used **quick, thick dabs of paint** to suggest form and texture. Up close, a painting might look abstract, but from a distance, the eye blends the colors into a cohesive image.\n   - This technique gave their work a **dynamic, lively quality**, as if the scene were alive and changing.\n\n4. **Everyday Subjects & Modern Life**\n   - Impressionists often painted **ordinary scenes**\u2014caf\u00e9s, parks, landscapes, city streets, and leisure activities\u2014rather than historical or religious themes.\n   - They celebrated **modernity**, depicting trains, bridges, and urban life, reflecting the rapid changes of the Industrial Revolution.\n\n5. **Rejection of Traditional Rules**\n   - The movement challenged the **academic standards** of the time, which demanded polished, highly detailed works. Impressionists were initially rejected by the official art establishment (e.g., the *Salon de Paris*) but later gained recognition.\n   - They also **avoided black paint** for shadows, using color theory instead to create depth and dimension.\n\n### **Why It Matters:**\nImpressionism marked a **radical departure** from classical art, paving the way for **modern movements** like Post-Impressionism, Fauvism, and even abstract art. By focusing on **perception over precision**, it redefined what art could be\u2014less about perfect representation and more about **emotion, movement, and the beauty of the ephemeral**.\n\n### **Famous Impressionist Artists:**\n- **Claude Monet** (*Water Lilies*, *Impression, Sunrise* \u2013 the painting that gave the movement its name)\n- **Pierre-Auguste Renoir** (*Luncheon of the Boating Party*, *Dance at Le Moulin de la Galette*)\n- **\u00c9douard Manet** (*A Bar at the Folies-Berg\u00e8re*, *Olympia*)\n- **Edgar Degas** (*The Dance Class*, *Little Dancer Aged Fourteen*)\n- **Camille Pissarro** (*Boulevard Montmartre at Night*)\n- **Berthe Morisot** (*The Cradle*, *Summer\u2019s Day*)\n\n### **Legacy:**\nToday, Impressionism is one of the most **beloved and recognizable** art styles, celebrated for its **joyful, light-filled** depictions of life. Its influence extends beyond painting into **photography, film, and even digital art**, where capturing a \"moment\" remains a powerful creative goal.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.0,
+            "SA": 0.8,
+            "FC": 0.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.0,
+            "SA": 0.7,
+            "FC": 0.1
+          },
+          "GLM-5": {
+            "CC": 0.1,
+            "SA": 0.4,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.05,
+          "SA": 0.675,
+          "FC": 0.3667,
+          "agreement_score": 0.5555,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.17,
+          "judge_variance_FC": 0.4497,
+          "judge_count": 3,
+          "recommendation": "CAUTION - Jury disagreement (brittle response?)"
+        }
+      },
+      "score": 0.36334000000000005
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 48,
+      "response_length": 1125,
+      "response": "**Impressionism: A Detailed Explanation**\n\nImpressionism was a groundbreaking **19th-century art movement** that emerged in France in the 1870s, fundamentally challenging the conventions of traditional European art. It prioritized the **capture of fleeting moments, natural light, and sensory impressions** over rigid, idealized representations. Below is a detailed breakdown of its key concepts and characteristics:\n\n---\n\n### **1. Core Philosophy: Capturing the \"Impression\"**\nThe name *Impressionism* derives from Claude Monet\u2019s 1872 painting *Impression, Sunrise* (French: *Impression, soleil levant*), which critics initially mocked for its \"unfinished\" appearance. The movement\u2019s central idea was to **depict not the object itself, but the artist\u2019s immediate perception of it**\u2014how light, atmosphere, and movement transformed a scene in a single glance. This marked a shift from **representational accuracy** to **subjective experience**.\n\n- **Momentary Effects**: Impressionists sought to freeze transient moments\u2014rippling water, shifting shadows, or the play of sunlight\u2014rather than static, timeless scenes.\n- **Perception Over Precision**: They valued the *feeling* of a scene (e.g., the warmth of sunlight, the haze of fog) over meticulous detail, aligning with contemporary scientific theories about human vision and optics.\n\n---\n\n### **2. Key Characteristics**\n#### **A. Visible Brushstrokes**\n- **Technique**: Impressionists used **short, thick, and often unblended brushstrokes** (sometimes applied with a palette knife) to create texture and movement. This was a radical departure from the smooth, invisible brushwork of academic art.\n- **Purpose**: The strokes mimicked the way the eye perceives light and color in fragments, rather than as a uniform whole. Up close, the painting might appear abstract, but from a distance, the colors and forms coalesce into a cohesive image.\n- **Example**: Monet\u2019s *Water Lilies* series or Renoir\u2019s *Bal du moulin de la Galette* showcase this technique, where individual strokes suggest shimmering light or dancing figures.\n\n#### **B. Open Composition**\n- **Asymmetry and Cropping**: Impressionist compositions often felt **unposed and spontaneous**, as if the viewer had stumbled upon a scene. Figures might be cut off at the edges (e.g., Degas\u2019 ballet dancers), or the horizon line might be placed unusually high or low.\n- **Influence of Photography**: The rise of photography in the 19th century inspired artists to adopt **unconventional framing**, mimicking candid snapshots rather than staged tableaux.\n- **Example**: Edgar Degas\u2019 *The Dance Class* (1874) uses diagonal lines and off-center figures to create a sense of dynamic movement.\n\n#### **C. Emphasis on Light and Color**\n- **Natural Light**: Impressionists were obsessed with **how light altered color and form**. They studied the way sunlight, shadows, and reflections interacted, often painting the same subject at different times of day to capture changing effects (e.g., Monet\u2019s *Haystacks* or *Rouen Cathedral* series).\n- **Color Theory**: They rejected the use of black for shadows, instead mixing **complementary colors** (e.g., blue and orange) to create vibrancy. Shadows were painted in purples, blues, or greens, not gray or black.\n- **Optical Mixing**: Rather than blending colors on the palette, they placed **pure, unmixed colors side by side** (e.g., dots of red and yellow to suggest orange), allowing the viewer\u2019s eye to \"mix\" them\u2014a technique later adopted by Pointillists like Seurat.\n\n#### **D. Ordinary Subjects**\n- **Rejection of Grand Themes**: Unlike academic art, which favored **historical, religious, or mythological scenes**, Impressionists painted **everyday life**: landscapes, city streets, caf\u00e9s, picnics, and domestic interiors.\n- **Modernity**: They celebrated the **beauty of the mundane**, from Monet\u2019s gardens to Manet\u2019s *Luncheon on the Grass* (1863), which depicted a contemporary picnic with a nude woman\u2014a scandalous subject at the time.\n- **Urban and Rural Scenes**: Artists like Camille Pissarro captured bustling Parisian boulevards, while others, like Alfred Sisley, focused on tranquil rivers and fields.\n\n#### **E. Unusual Visual Angles**\n- **Innovative Perspectives**: Impressionists experimented with **bird\u2019s-eye views, low angles, and tilted horizons** to create a sense of immediacy. This was partly influenced by Japanese woodblock prints (ukiyo-e), which became popular in Europe after trade opened with Japan in the 1850s.\n- **Example**: Degas\u2019 *The Absinthe Drinker* (1876) uses a steep, off-kilter perspective to immerse the viewer in the scene, while Monet\u2019s *Gare Saint-Lazare* (1877) captures the energy of a train station from an unconventional vantage point.\n\n#### **F. En Plein Air (Outdoor Painting)**\n- **Technological Advances**: The invention of **portable paint tubes** (1841) and **collapsible easels** allowed artists to paint outdoors (*en plein air*), directly observing nature rather than working in studios from sketches.\n- **Challenges**: Painting outdoors required quick work to capture changing light and weather. Artists often completed paintings in a single session, leading to the loose, spontaneous style.\n- **Example**: Monet\u2019s *Poppy Field* (1873) was likely painted on-site, with its vibrant red flowers and hazy background reflecting the fleeting effects of sunlight.\n\n---\n\n### **3. Rejection of Academic Tradition**\nImpressionism was a **rebellion against the rigid rules of the French Academy**, which dominated art in the 19th century. The Academy\u2019s standards included:\n- **Historical or Mythological Subjects**: Grand narratives were prized over everyday scenes.\n- **Precise Detail**: Paintings were expected to be highly finished, with invisible brushstrokes and smooth surfaces.\n- **Idealized Beauty**: Figures and landscapes were often romanticized or dramatized.\n\nImpressionists **flouted these rules**, leading to their exclusion from the prestigious **Salon de Paris** (the official art exhibition). In response, they organized their own **independent exhibitions** (1874\u20131886), where their work was met with both ridicule and fascination.\n\n---\n\n### **4. Legacy and Influence**\n- **Paved the Way for Modern Art**: Impressionism\u2019s focus on perception and abstraction influenced later movements like **Post-Impressionism** (Van Gogh, C\u00e9zanne), **Fauvism** (Matisse), and even **Abstract Expressionism**.\n- **Democratization of Art**: By elevating ordinary life, Impressionism made art more accessible and relatable to the middle class.\n- **Technical Innovations**: Their experiments with color, light, and brushwork revolutionized painting techniques, inspiring generations of artists.\n\n---\n\n### **5. Notable Impressionist Artists**\nWhile the movement included many artists, the most famous figures are:\n- **Claude Monet**: The quintessential Impressionist, known for his *Water Lilies* and *Haystacks* series.\n- **Pierre-Auguste Renoir**: Celebrated for his vibrant portraits and scenes of Parisian leisure (e.g., *Luncheon of the Boating Party*).\n- **\u00c9douard Manet**: A bridge between Realism and Impressionism, his *Olympia* (1863) shocked audiences with its modern, unidealized nude.\n- **Edgar Degas**: Focused on ballet dancers, horse races, and urban life, often using unusual compositions.\n- **Camille Pissarro**: A mentor to many Impressionists, known for his rural landscapes and cityscapes.\n- **Berthe Morisot**: One of the few prominent female Impressionists, she painted intimate domestic scenes and portraits.\n\n---\n\n### **Conclusion**\nImpressionism was not just an art movement\u2014it was a **revolution in seeing**. By prioritizing **light, color, and fleeting moments** over rigid tradition, Impressionists captured the **essence of modernity**: the speed of urban life, the beauty of the everyday, and the subjective nature of perception. Their work remains beloved for its **vibrancy, spontaneity, and emotional resonance**, making it one of the most influential movements in art history.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 0.85,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.8,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.8625,
+          "FC": 0.9667,
+          "agreement_score": 0.8869,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0408,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9083400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 1111,
+      "response": "### **Comprehensive Explanation of Impressionism**\n\nImpressionism was a revolutionary art movement that emerged in **1860s France**, fundamentally challenging the rigid conventions of **academic painting** (the dominant, state-sanctioned art of the time). It prioritized **perception, spontaneity, and the fleeting effects of light** over precise, idealized representation. Below is a detailed breakdown of its key principles, techniques, influences, and legacy.\n\n---\n\n## **1. Core Principles of Impressionism**\n\n### **(1) Primacy of Light and Color**\n- Impressionists rejected the traditional use of **black for shadows**, instead depicting them with **complementary colors** (e.g., blues and purples in shadows).\n- They captured **changing light conditions**\u2014how sunlight shifts throughout the day, creating different moods and atmospheres.\n- Example: Monet\u2019s *Haystacks* series (1890\u201391) shows the same subject under varying light, from dawn to dusk.\n\n### **(2) Broken Color Technique (Optical Mixing)**\n- Instead of blending colors on the palette, Impressionists placed **unmixed, pure colors side-by-side** in small strokes.\n- The viewer\u2019s eye **optically mixes** these colors from a distance, creating a more vibrant effect than pre-mixed paint.\n- Example: Renoir\u2019s *Bal du moulin de la Galette* (1876) uses dappled light with small strokes of pink, blue, and yellow to simulate sunlight filtering through trees.\n\n### **(3) Visible Brushwork (Short, Broken Strokes)**\n- Impressionists used **quick, loose brushstrokes** to convey **movement, energy, and spontaneity**.\n- This was a stark contrast to the **smooth, polished surfaces** of academic art, which aimed for an \"invisible\" technique.\n- Example: Degas\u2019 *The Dance Class* (1874) uses dynamic, sketch-like strokes to capture the fluidity of dancers in motion.\n\n### **(4) En Plein Air (Outdoor Painting)**\n- Artists worked **directly outdoors** (rather than in studios) to observe and capture **natural light and atmosphere** in real time.\n- This required **portable easels and pre-mixed paints in tubes** (a new invention), allowing for quick, on-the-spot work.\n- Example: Monet\u2019s *Water Lilies* series was painted outdoors in his garden at Giverny.\n\n### **(5) Modern Life as Subject Matter**\n- Impressionists rejected **historical, mythological, or religious themes** in favor of **contemporary urban and suburban life**.\n- Common subjects included:\n  - **Caf\u00e9s, dance halls, and social gatherings** (Renoir\u2019s *Luncheon of the Boating Party*)\n  - **Railways and industrialization** (Monet\u2019s *Gare Saint-Lazare*)\n  - **Leisure activities** (Pissarro\u2019s rural scenes, Degas\u2019 ballet dancers)\n  - **Everyday people** (unidealized, candid moments)\n\n---\n\n## **2. Key Artists and Their Contributions**\n| **Artist**       | **Key Works** | **Contribution** |\n|------------------|--------------|------------------|\n| **Claude Monet** | *Impression, Sunrise* (1872), *Water Lilies*, *Rouen Cathedral* series | Master of light and serial paintings (same subject in different conditions) |\n| **Pierre-Auguste Renoir** | *Bal du moulin de la Galette*, *Luncheon of the Boating Party* | Captured dappled light, joyful social scenes, and sensual figures |\n| **Edgar Degas** | *The Dance Class*, *Little Dancer of Fourteen Years* | Unusual angles, movement, and candid moments (especially ballet and horse racing) |\n| **Camille Pissarro** | *Boulevard Montmartre at Night*, rural landscapes | \"Father of Impressionism,\" focused on urban and rural scenes with loose brushwork |\n| **Berthe Morisot** | *The Cradle*, *Summer\u2019s Day* | One of the few prominent female Impressionists, known for intimate domestic scenes |\n| **Alfred Sisley** | *Flood at Port-Marly*, landscapes | Pure landscape painter, emphasizing atmosphere and weather effects |\n\n---\n\n## **3. Origins of the Name \"Impressionism\"**\n- The term **\"Impressionism\"** came from **Monet\u2019s *Impression, Sunrise* (1872)**, a hazy, sketch-like painting of Le Havre harbor.\n- Art critic **Louis Leroy** derisively called the 1874 exhibition (where the painting was shown) the **\"Exhibition of the Impressionists\"**, mocking its \"unfinished\" look.\n- The artists **embraced the term**, turning a criticism into a defining label.\n\n---\n\n## **4. Influences on Impressionism**\nImpressionism was shaped by several **technological, cultural, and scientific developments**:\n\n### **(1) Photography (1839\u2013)**\n- **Spontaneity & Cropping**: Photographs captured **fleeting moments** and **unconventional compositions** (e.g., partial figures, off-center framing), which Impressionists adopted.\n- **Movement**: Early photography (like Eadweard Muybridge\u2019s motion studies) influenced Degas\u2019 dynamic figures.\n\n### **(2) Japanese Woodblock Prints (Ukiyo-e)**\n- **Flattened Perspective**: Japanese prints (e.g., Hokusai, Hiroshige) used **bold outlines, flat colors, and unusual angles**, inspiring Impressionists to break from Western linear perspective.\n- **Cropping & Asymmetry**: Prints often cut off figures at the edges, influencing Degas and Manet.\n\n### **(3) Scientific Color Theory (Michel Eug\u00e8ne Chevreul, 1839)**\n- **Simultaneous Contrast**: Chevreul\u2019s research showed that colors **appear more vibrant when placed next to their complements** (e.g., red next to green).\n- **Optical Mixing**: Impressionists applied this by using **small strokes of pure color** rather than blending.\n\n### **(4) Industrialization & Urbanization**\n- The **rise of railways, caf\u00e9s, and modern leisure** provided new subjects for artists.\n- The **Haussmannization of Paris** (1850s\u201370s) transformed the city into a modern metropolis, inspiring urban scenes.\n\n---\n\n## **5. Opposition & Criticism**\n- The **Salon (France\u2019s official art exhibition)** rejected Impressionist works for being:\n  - **\"Unfinished\"** (visible brushstrokes, lack of detail)\n  - **\"Vulgar\"** (depicting modern life instead of noble themes)\n  - **\"Radical\"** (challenging academic traditions)\n- Critics called them **\"lunatics\"** and **\"a threat to art.\"**\n- Despite this, the Impressionists **organized their own independent exhibitions** (1874\u20131886), gaining gradual acceptance.\n\n---\n\n## **6. Legacy & Impact on Later Movements**\nImpressionism **liberated art from rigid conventions**, paving the way for modern art:\n\n### **(1) Post-Impressionism (1880s\u20131900s)**\n- Artists like **Van Gogh, C\u00e9zanne, Gauguin, and Seurat** took Impressionism further:\n  - **Van Gogh**: Expressive, emotional brushwork (*Starry Night*)\n  - **C\u00e9zanne**: Structured, geometric approach (*Mont Sainte-Victoire*)\n  - **Seurat**: **Pointillism** (systematized broken color into tiny dots)\n\n### **(2) Fauvism (1905)**\n- **Matisse, Derain** pushed color to **wild, non-naturalistic extremes**, inspired by Impressionism\u2019s bold hues.\n\n### **(3) Abstract Art (20th Century)**\n- Impressionism\u2019s **emphasis on perception over representation** influenced **Kandinsky, Mondrian, and Pollock**, who moved toward pure abstraction.\n\n### **(4) Modern Photography & Cinema**\n- The **candid, snapshot-like quality** of Impressionism influenced **street photography and early film** (e.g., the Lumi\u00e8re brothers).\n\n---\n\n## **7. Neo-Impressionism & Pointillism (1880s\u20131890s)**\n- **Georges Seurat** and **Paul Signac** **systematized** Impressionism\u2019s broken color technique into **Pointillism**\u2014using **tiny, precise dots of pure color** to create optical mixing.\n- Example: Seurat\u2019s *A Sunday Afternoon on the Island of La Grande Jatte* (1884\u201386).\n\n---\n\n## **Conclusion: Why Impressionism Matters**\nImpressionism was a **radical shift** in art history because it:\n\u2705 **Prioritized perception over realism** (how we *see* vs. how things *are*).\n\u2705 **Liberated color from descriptive roles** (shadows could be blue, not just black).\n\u2705 **Embraced modernity** (trains, caf\u00e9s, urban life as worthy subjects).\n\u2705 **Influenced nearly all subsequent art movements**, from Post-Impressionism to Abstract Expressionism.\n\nBy breaking from tradition, Impressionism **redefined what art could be**\u2014not just a mirror of the world, but a **personal, fleeting impression** of it.\n\nWould you like a deeper dive into any specific aspect (e.g., a particular artist, technique, or influence)?",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.85,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.9375,
+          "FC": 1.0,
+          "agreement_score": 0.927,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0624,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9650000000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8106720000000001,
+    "mean_agreement": 0.81716,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.9533400000000001,
+      0.8633400000000002,
+      0.36334000000000005,
+      0.9083400000000001,
+      0.9650000000000001
+    ],
+    "agreement_scores": [
+      0.8854,
+      0.831,
+      0.5555,
+      0.8869,
+      0.927
+    ]
+  }
+}

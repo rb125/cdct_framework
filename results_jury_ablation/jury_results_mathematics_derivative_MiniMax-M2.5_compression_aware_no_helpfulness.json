@@ -1,0 +1,228 @@
+{
+  "concept": "derivative",
+  "domain": "mathematics",
+  "subject_model": "MiniMax-M2.5",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 25,
+      "response": "\n\nA derivative is the rate of change of a function with respect to a variable. It measures how a quantity changes at any given point.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.8,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.7,
+          "SA": 0.875,
+          "FC": 0.9667,
+          "agreement_score": 0.8023,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.82334
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 6,
+      "response_length": 30,
+      "response": "\n\nThe derivative represents the instantaneous rate of change of a function at a specific point. It measures how the function's output changes as its input changes at that particular point.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.55,
+          "SA": 0.875,
+          "FC": 0.9667,
+          "agreement_score": 0.8226,
+          "judge_variance_CC": 0.0943,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7633400000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 30,
+      "response_length": 34,
+      "response": "\n\nA derivative measures the instantaneous rate of change at a point, showing how a function's output responds to small input changes. This concept is crucial in physics and engineering for analyzing how quantities change.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9686,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9933400000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 55,
+      "response": "\n\nA derivative measures the instantaneous rate of change at a point, showing how a function's output responds to small input changes. In calculus, it's denoted as f'(x) or dy/dx and is fundamental for analyzing slopes, optimizing functions, and modeling dynamic systems, such as using the derivative of position with respect to time to calculate velocity.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.875,
+          "SA": 0.95,
+          "FC": 0.8667,
+          "agreement_score": 0.8226,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.90334
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 88,
+      "response": "\n\nThe derivative of a function quantifies its instantaneous rate of change with respect to its independent variable, formally defined as the limit \\( f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\). It represents the slope of the tangent line to the graph at a given point and follows key principles such as linearity, the product and quotient rules, and the chain rule for composite functions. Derivatives are fundamental in calculus and widely applied in physics, engineering, economics, and optimization problems, with higher-order derivatives describing curvature and acceleration.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.875,
+          "SA": 0.95,
+          "FC": 0.9,
+          "agreement_score": 0.831,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.91
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8786720000000001,
+    "mean_agreement": 0.84942,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.82334,
+      0.7633400000000001,
+      0.9933400000000001,
+      0.90334,
+      0.91
+    ],
+    "agreement_scores": [
+      0.8023,
+      0.8226,
+      0.9686,
+      0.8226,
+      0.831
+    ]
+  }
+}

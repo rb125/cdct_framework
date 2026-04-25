@@ -1,0 +1,228 @@
+{
+  "concept": "f_equals_ma",
+  "domain": "physics",
+  "subject_model": "Mistral-Large-3",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 33,
+      "response": "Based on the force-motion relationship, *f = ma* means force (*f*) is equal to mass (*m*) multiplied by acceleration (*a*). It describes how an object's motion changes when a force acts on it.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.6,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.3,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.6,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.425,
+          "SA": 0.85,
+          "FC": 0.8333,
+          "agreement_score": 0.7204,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.17,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.67666
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 32,
+      "response": "Based on the given information, *f_equals_ma* means that a force (*f*) applied to a mass (*m*) causes it to accelerate (*a*). The relationship shows how force, mass, and acceleration are directly connected.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.3,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "Qwen3-32B": {
+            "CC": 0.6,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.425,
+          "SA": 0.95,
+          "FC": 0.8333,
+          "agreement_score": 0.8023,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7166600000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 39,
+      "response": "The expression *f = ma* means that the force (*f*) acting on an object equals its mass (*m*) multiplied by the acceleration (*a*) it produces. It describes how force causes an object\u2019s motion to change based on its mass.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.675,
+          "SA": 0.875,
+          "FC": 0.9667,
+          "agreement_score": 0.7104,
+          "judge_variance_CC": 0.2625,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8133400000000002
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 66,
+      "response_length": 54,
+      "response": "Newton\u2019s second law, *F = ma*, means that the force (*F*) acting on an object equals its mass (*m*) multiplied by its acceleration (*a*). If mass stays the same, a larger force causes greater acceleration, while a smaller force results in less acceleration. This relationship helps predict how objects move when forces are applied.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.8
+          }
+        },
+        "consensus": {
+          "CC": 0.875,
+          "SA": 0.95,
+          "FC": 0.8,
+          "agreement_score": 0.8854,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.89
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 65,
+      "response": "**F = ma** is Newton\u2019s Second Law of Motion, stating that the net force (**F**) on an object equals its mass (**m**) multiplied by its acceleration (**a**). It shows that acceleration depends directly on force and inversely on mass, meaning greater force or smaller mass increases acceleration. The law applies to all forces acting on an object and is foundational for analyzing motion in physics.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.8,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 0.7
+          }
+        },
+        "consensus": {
+          "CC": 0.5,
+          "SA": 0.9,
+          "FC": 0.7,
+          "agreement_score": 0.854,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.7000000000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.759332,
+    "mean_agreement": 0.7945,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.67666,
+      0.7166600000000001,
+      0.8133400000000002,
+      0.89,
+      0.7000000000000001
+    ],
+    "agreement_scores": [
+      0.7204,
+      0.8023,
+      0.7104,
+      0.8854,
+      0.854
+    ]
+  }
+}

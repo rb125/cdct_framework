@@ -152,7 +152,11 @@ ehthumbs.db
 Thumbs.db
 *.zip
 *.pdf
-*.tar.gz\n# Ignore generated results
-#results_jury/
-#results_jury_ablation/
-#verification_results/
+*.tar.gz
+
+# Stale/backup results
+results_jury_old_feb20/
+
+# Vim swap files
+*.swp
+*.swo

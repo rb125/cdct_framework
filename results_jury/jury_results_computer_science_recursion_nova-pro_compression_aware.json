@@ -1,0 +1,228 @@
+{
+  "concept": "recursion",
+  "domain": "computer_science",
+  "subject_model": "nova-pro",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 4,
+      "response": "Function calling itself repeatedly.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.925,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 10,
+      "response": "Recursion is a self-calling function that includes a base case.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 553,
+      "response": "Certainly! Let's break down the concept of recursion using the provided information and elaborate on it further.\n\n### Explanation of Recursion\n\n**Recursion** is a programming technique where a function calls itself in order to solve a problem. This might sound a bit circular at first, but it's a powerful way to handle complex problems by breaking them down into smaller, more manageable sub-problems.\n\n### Key Components of Recursion\n\n1. **Self-Calling Function**:\n   - A recursive function is one that calls itself within its own definition. This self-reference allows the function to repeat its logic until the problem is solved.\n\n2. **Base Case**:\n   - The base case is a critical part of any recursive function. It serves as the stopping condition that prevents the function from calling itself indefinitely. When the function reaches a state where the problem is simple enough to solve directly, it returns the solution without making further recursive calls.\n\n3. **Breaking Down Problems**:\n   - Recursion works by dividing a complex problem into smaller instances of the same problem. Each smaller instance is solved using the same recursive function, which continues to break down the problem until it reaches the base case.\n\n### How Recursion Works\n\nLet's consider a simple example to illustrate how recursion works: calculating the factorial of a number.\n\n#### Factorial Example\n\nThe factorial of a non-negative integer \\( n \\) (denoted as \\( n! \\)) is the product of all positive integers less than or equal to \\( n \\). For example:\n- \\( 5! = 5 \\times 4 \\times 3 \\times 2 \\times 1 = 120 \\)\n\nA recursive function to calculate the factorial can be defined as follows:\n\n```python\ndef factorial(n):\n    # Base case: factorial of 0 or 1 is 1\n    if n == 0 or n == 1:\n        return 1\n    # Recursive case: n! = n * (n-1)!\n    else:\n        return n * factorial(n-1)\n```\n\n#### Step-by-Step Breakdown\n\n1. **Initial Call**:\n   - Suppose we call `factorial(5)`.\n\n2. **Recursive Calls**:\n   - `factorial(5)` calls `factorial(4)`.\n   - `factorial(4)` calls `factorial(3)`.\n   - `factorial(3)` calls `factorial(2)`.\n   - `factorial(2)` calls `factorial(1)`.\n\n3. **Base Case Reached**:\n   - `factorial(1)` returns 1 (base case).\n\n4. **Unwinding the Calls**:\n   - `factorial(2)` returns \\( 2 \\times 1 = 2 \\).\n   - `factorial(3)` returns \\( 3 \\times 2 = 6 \\).\n   - `factorial(4)` returns \\( 4 \\times 6 = 24 \\).\n   - `factorial(5)` returns \\( 5 \\times 24 = 120 \\).\n\n### Benefits of Recursion\n\n- **Simplicity**: Recursive solutions can be more elegant and easier to understand than their iterative counterparts, especially for problems that have a natural recursive structure (like tree traversals or divide-and-conquer algorithms).\n- **Reduced Code**: Often, recursive solutions require fewer lines of code compared to iterative solutions.\n\n### Challenges of Recursion\n\n- **Performance**: Recursive solutions can be less efficient in terms of time and space complexity due to the overhead of function calls and the potential for redundant calculations.\n- **Stack Overflow**: If the recursion depth is too large, it can lead to a stack overflow error, where the call stack exceeds its limit.\n\n### Conclusion\n\nRecursion is a valuable tool in a programmer's toolkit, allowing for the elegant solution of complex problems by breaking them down into simpler sub-problems. However, it requires careful design to ensure that the base case is properly defined to avoid infinite recursion and that the solution is efficient.",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 0.1,
+            "SA": 0.4,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 0.7,
+            "FC": 0.1
+          },
+          "Qwen3-32B": {
+            "CC": 0.0,
+            "SA": 0.8,
+            "FC": 0.3
+          }
+        },
+        "consensus": {
+          "CC": 0.075,
+          "SA": 0.675,
+          "FC": 0.4667,
+          "agreement_score": 0.598,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.17,
+          "judge_variance_FC": 0.3859,
+          "judge_count": 3,
+          "recommendation": "CAUTION - Jury disagreement (brittle response?)"
+        }
+      },
+      "score": 0.39334
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 65,
+      "response_length": 599,
+      "response": "Certainly! Let's delve into a detailed explanation of recursion based on the provided context.\n\n### Definition of Recursion\nRecursion in computer science is a method where a function calls itself as a subroutine. This self-referential process is used to break down complex problems into simpler, more manageable sub-problems of the same type. \n\n### Key Components of Recursion\n1. **Function Calling Itself**:\n   - The core idea of recursion is that a function invokes itself within its own definition. This might sound circular, but it\u2019s structured in a way that each call works on a reduced version of the original problem.\n\n2. **Base Case**:\n   - To prevent infinite recursion, which would lead to a stack overflow, recursion must have a **base case**. This is a condition that stops the recursion when the problem is simple enough to solve directly. For example, in calculating the factorial of a number, the base case is when the number is 0 or 1, both of which have a factorial of 1.\n\n3. **Smaller Instance**:\n   - Each recursive call should work on a smaller or simpler instance of the original problem. This gradual reduction ensures that the recursion will eventually reach the base case.\n\n### Common Uses of Recursion\nRecursion is particularly useful in scenarios where the problem can be naturally divided into similar sub-problems. Here are a few common applications:\n\n1. **Sorting Algorithms**:\n   - **Quicksort** and **Mergesort** are classic examples. In quicksort, the array is partitioned into two smaller sub-arrays, and the process is repeated on these sub-arrays until the base case (an array of zero or one element) is reached.\n   - Mergesort divides the array into two halves, sorts each half recursively, and then merges the sorted halves.\n\n2. **Calculating Factorials**:\n   - The factorial of a number \\( n \\) (denoted as \\( n! \\)) is the product of all positive integers less than or equal to \\( n \\). The recursive definition is \\( n! = n \\times (n-1)! \\), with the base case being \\( 0! = 1 \\).\n\n3. **Traversing Data Structures**:\n   - Trees and graphs are often traversed using recursive algorithms. For example, in a binary tree, you might recursively visit the left subtree, the right subtree, and the current node.\n\n### Advantages of Recursion\n- **Simplicity**: Recursive solutions can be more elegant and easier to understand than their iterative counterparts, especially for problems that have a natural recursive structure.\n- **Reduced Code**: Recursive algorithms often require fewer lines of code compared to iterative solutions.\n\n### Disadvantages of Recursion\n- **Performance**: Recursive solutions can be less efficient in terms of both time and space. Each recursive call adds a layer to the call stack, which can lead to stack overflow for deep recursion.\n- **Overhead**: There is additional overhead associated with function calls, including saving the state and context of the function.\n\n### Example: Calculating Factorial\nHere\u2019s a simple example to illustrate recursion:\n\n```python\ndef factorial(n):\n    # Base case: if n is 0 or 1, return 1\n    if n == 0 or n == 1:\n        return 1\n    # Recursive case: n * factorial of (n-1)\n    else:\n        return n * factorial(n-1)\n```\n\nIn this example:\n- The base case is when \\( n \\) is 0 or 1, returning 1.\n- The recursive case multiplies \\( n \\) by the factorial of \\( n-1 \\).\n\n### Conclusion\nRecursion is a powerful technique in computer science that allows for the elegant and efficient solution of problems with repetitive, self-similar sub-tasks. By understanding and implementing recursion correctly, developers can write cleaner, more maintainable code for a variety of algorithms and data structure traversals.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.925,
+          "FC": 0.9667,
+          "agreement_score": 0.8827,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9333400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 139,
+      "response_length": 638,
+      "response": "Certainly! Recursion is a powerful and elegant technique in computer science where a function solves a problem by calling itself. This method breaks down a complex problem into smaller, more manageable subproblems of the same type, which are then solved in a similar manner. Here\u2019s a detailed explanation of the key concepts and principles of recursion:\n\n### Core Concepts of Recursion\n\n1. **Recursive Function**:\n   - A function that calls itself either directly or indirectly to solve a problem.\n   - Example: A function to compute the factorial of a number \\( n \\) (denoted as \\( n! \\)) can call itself to compute \\( (n-1)! \\).\n\n2. **Base Case**:\n   - The condition that stops the recursion. It is essential to define one or more base cases to prevent infinite recursion.\n   - Example: In the factorial function, the base case is when \\( n \\) is 0 or 1, both of which return 1.\n\n3. **Recursive Case**:\n   - The part of the function that reduces the problem\u2019s size and calls the function again.\n   - Example: In the factorial function, the recursive case is \\( n \\times (n-1)! \\).\n\n### How Recursion Works\n\nWhen a recursive function is called, it adds a new frame to the call stack. This frame contains the function\u2019s local variables and the point to which the function should return after the call completes. The process continues until the base case is reached, at which point the stack begins to unwind, returning values and executing the remaining code in each frame.\n\n### Advantages of Recursion\n\n1. **Elegance and Clarity**:\n   - Recursive solutions can be more straightforward and easier to understand than their iterative counterparts, especially for problems that naturally exhibit self-similarity.\n   - Example: Tree traversals (pre-order, in-order, post-order) are more intuitively expressed using recursion.\n\n2. **Problem-Solving**:\n   - Recursion is particularly effective for divide-and-conquer algorithms, where a problem is divided into subproblems of the same type.\n   - Examples include quicksort, mergesort, and algorithms for traversing graphs (e.g., depth-first search).\n\n### Common Examples of Recursion\n\n1. **Factorial Computation**:\n   ```python\n   def factorial(n):\n       if n == 0 or n == 1:  # Base case\n           return 1\n       else:                 # Recursive case\n           return n * factorial(n - 1)\n   ```\n\n2. **Fibonacci Sequence**:\n   ```python\n   def fibonacci(n):\n       if n <= 1:  # Base case\n           return n\n       else:       # Recursive case\n           return fibonacci(n-1) + fibonacci(n-2)\n   ```\n\n3. **Tree Traversal**:\n   ```python\n   class Node:\n       def __init__(self, value, left=None, right=None):\n           self.value = value\n           self.left = left\n           self.right = right\n\n   def pre_order_traversal(node):\n       if node is not None:\n           print(node.value)         # Visit the node\n           pre_order_traversal(node.left)  # Traverse left subtree\n           pre_order_traversal(node.right) # Traverse right subtree\n   ```\n\n### Challenges and Considerations\n\n1. **Stack Overflow**:\n   - Excessive recursion can lead to stack overflow errors if the call stack depth exceeds its limit.\n   - Example: Computing large Fibonacci numbers using naive recursion can quickly exhaust the stack.\n\n2. **Performance**:\n   - Recursive solutions can be less efficient than iterative ones due to the overhead of function calls and stack management.\n   - Example: The naive recursive Fibonacci algorithm has exponential time complexity, whereas an iterative approach or one using memoization can achieve linear time complexity.\n\n3. **Tail Recursion**:\n   - A special form of recursion where the recursive call is the last operation in the function. Some compilers can optimize tail-recursive functions to use constant stack space.\n   - Example:\n     ```python\n     def factorial_tail_recursive(n, accumulator=1):\n         if n == 0:\n             return accumulator\n         else:\n             return factorial_tail_recursive(n - 1, n * accumulator)\n     ```\n\n### Conclusion\n\nRecursion is a fundamental concept in computer science that allows for the creation of concise and elegant solutions to complex problems. By understanding and properly implementing base cases and recursive cases, developers can leverage recursion to handle a wide range of algorithmic challenges. However, it\u2019s important to be mindful of potential performance issues and stack limitations, sometimes opting for iterative solutions or employing techniques like memoization to enhance efficiency.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.975,
+          "FC": 0.9667,
+          "agreement_score": 0.9214,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0236,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9733400000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8526720000000001,
+    "mean_agreement": 0.86784,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.9633400000000001,
+      1.0,
+      0.39334,
+      0.9333400000000001,
+      0.9733400000000001
+    ],
+    "agreement_scores": [
+      0.9371,
+      1.0,
+      0.598,
+      0.8827,
+      0.9214
+    ]
+  }
+}

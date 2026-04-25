@@ -1,0 +1,228 @@
+{
+  "concept": "natural_selection",
+  "domain": "biology",
+  "subject_model": "claude-sonnet-4.6",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 16,
+      "response": "Natural selection is a **survival advantage** \u2014 traits providing survival advantage persist and spread through populations.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.8,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.8,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.7,
+          "SA": 0.85,
+          "FC": 0.9,
+          "agreement_score": 0.6942,
+          "judge_variance_CC": 0.2828,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 30,
+      "response": "Based on the available information, natural selection involves a survival advantage being passed to offspring. This means that traits which help an organism survive are transmitted to the next generation.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.8,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 0.9,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.55,
+          "SA": 0.875,
+          "FC": 0.8667,
+          "agreement_score": 0.8199,
+          "judge_variance_CC": 0.0943,
+          "judge_variance_SA": 0.0816,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7433400000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 214,
+      "response": "# Natural Selection\n\n## Core Concept\nNatural selection is the process by which **certain individuals within a population survive and reproduce more successfully** than others, based on the traits they possess.\n\n---\n\n## How It Works\n\n### 1. **Variation Exists**\nIndividuals within a population are not identical \u2014 they carry **different traits**, some of which may be more useful than others in a given environment.\n\n### 2. **Helpful Traits Provide Advantage**\nIndividuals with traits that are **better suited to their environment** are more likely to:\n- Survive long enough to reproduce\n- Successfully raise offspring\n\n### 3. **Traits Are Passed Down**\nBecause these advantageous traits are **inherited by offspring**, the next generation carries a higher proportion of those beneficial characteristics.\n\n### 4. **Population Changes Over Time**\nAs this process repeats across **many generations**, the population gradually shifts, becoming increasingly well-adapted to its environment.\n\n---\n\n## A Simple Example\n> A population of rabbits lives in a snowy environment. White rabbits are harder for predators to spot than brown rabbits. White rabbits survive more, reproduce more, and eventually **white fur becomes dominant** in the population.\n\n---\n\n## Key Takeaway\nNatural selection is essentially **nature \"favoring\" what works** \u2014 not through conscious choice, but through the simple mechanism of survival and reproduction driving change over time.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.0,
+            "SA": 0.9,
+            "FC": 0.6
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 1.0,
+            "FC": 0.5
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.6,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.125,
+          "SA": 0.85,
+          "FC": 0.7,
+          "agreement_score": 0.6882,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.17,
+          "judge_variance_FC": 0.216,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.53
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 60,
+      "response_length": 252,
+      "response": "# Natural Selection: A Detailed Explanation\n\n## Core Definition\nNatural selection is a **fundamental driving mechanism of evolution** in which organisms possessing traits better suited to their environment have a greater likelihood of surviving and successfully reproducing.\n\n---\n\n## How It Works: The Basic Process\n\n### 1. **Variation Exists**\nWithin any population, individuals possess **different traits and genetic variations** (alleles). These differences arise through mutation and genetic recombination.\n\n### 2. **Differential Survival**\nNot all individuals survive equally. Those with **advantageous adaptations** \u2014 such as:\n- Better **camouflage** to avoid predators\n- **Disease resistance** to fight infections\n- Superior speed, strength, or intelligence\n\n...are more likely to **survive long enough to reproduce**.\n\n### 3. **Inheritance and Propagation**\nBeneficial traits are passed to offspring. Over generations, these **advantageous alleles become increasingly common** in the gene pool, while less beneficial traits may diminish or disappear.\n\n---\n\n## Real-World Example: The Peppered Moth\n> In polluted industrial areas, **darker-colored moths** survived better against soot-darkened trees, while lighter moths were more visible to predators. Over time, the darker coloration became dominant in the population.\n\n---\n\n## Broader Implications\n\n| Outcome | Description |\n|--------|-------------|\n| **Speciation** | Populations diverge into entirely new species |\n| **Environmental Response** | Populations adapt to changing conditions |\n| **Gene Pool Shifts** | Beneficial alleles accumulate over generations |\n\n---\n\n## Key Takeaway\nNatural selection is essentially **nature's filtering system** \u2014 continuously shaping populations by favoring traits that enhance survival and reproduction, ultimately driving the diversity of life we observe today.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 135,
+      "response_length": 714,
+      "response": "# Natural Selection: A Comprehensive Explanation\n\n## Definition and Core Concept\n\nNatural selection is one of the **primary driving mechanisms of evolution**, describing how certain heritable traits become more or less common within a population over successive generations. At its foundation, it operates on a straightforward principle: **organisms with traits better suited to their environment are more likely to survive, reproduce, and pass those traits to their offspring**.\n\n---\n\n## The Four Key Principles\n\n### 1. \ud83d\udd2c Variation\nWithin any given population, individuals are **not identical**. Genetic differences exist among organisms, producing a diverse range of physical and behavioral characteristics, known as **phenotypes**. This variation is the raw material upon which natural selection acts. Without variation, there would be no differential outcomes \u2014 every individual would have an equal chance of survival.\n\n### 2. \ud83e\uddec Inheritance\nFor natural selection to produce lasting change, traits must be **heritable** \u2014 meaning they can be transmitted from parents to offspring through genetic material. Traits that are purely environmental or accidental and cannot be passed down do not contribute to evolutionary change. Inheritance ensures that advantageous traits persist and accumulate across generations.\n\n### 3. \u2696\ufe0f Differential Survival and Reproduction (Fitness)\nNot all individuals survive or reproduce equally. **Fitness**, in evolutionary terms, refers to an organism's ability to survive *and* successfully reproduce in its specific environment. Individuals with advantageous phenotypes have **higher fitness**, meaning they contribute more offspring to the next generation. This is the selective pressure that shapes populations over time.\n\n### 4. \ud83c\udf3f Adaptation\nOver many generations, the cumulative effect of natural selection leads to **adaptation** \u2014 the process by which populations become increasingly well-suited to their environment. Adaptations can be structural (e.g., a bird's beak shape), physiological (e.g., efficient oxygen use at high altitudes), or behavioral (e.g., migration patterns).\n\n---\n\n## How Natural Selection Works: The Process\n\nThe mechanism can be understood as a cycle:\n\n```\nGenetic Variation Exists in Population\n            \u2193\nEnvironmental Pressures Create Challenges\n            \u2193\nIndividuals with Advantageous Traits Survive Better\n            \u2193\nThose Individuals Reproduce More Successfully\n            \u2193\nAdvantageous Traits Become More Frequent in Population\n            \u2193\nPopulation Gradually Adapts Over Generations\n```\n\nIt is important to note that natural selection **does not have a goal or direction** \u2014 it is a passive process driven entirely by environmental conditions at any given time.\n\n---\n\n## Long-Term Outcomes\n\n### \ud83c\udf31 Complex Adaptations\nOver extended periods, natural selection can produce remarkably sophisticated biological structures and behaviors \u2014 such as the human eye, echolocation in bats, or camouflage in insects \u2014 through the gradual accumulation of small, beneficial changes.\n\n### \ud83c\udf0d Speciation\nWhen populations of the same species become isolated and face different environmental pressures, natural selection can drive them to diverge so significantly that they eventually become **separate species**. This process contributes to the vast **biodiversity** observed on Earth.\n\n---\n\n## Real-World Applications\n\nUnderstanding natural selection has profound practical implications across multiple fields:\n\n| Field | Application | Example |\n|-------|-------------|---------|\n| **Medicine** | Managing disease evolution | Antibiotic resistance in bacteria |\n| **Agriculture** | Crop and livestock improvement | Selective breeding for yield/disease resistance |\n| **Conservation Biology** | Managing endangered species | Maintaining genetic diversity in small populations |\n\n### Antibiotic Resistance \u2014 A Critical Example\nWhen antibiotics are used, bacteria with random mutations conferring resistance **survive and reproduce**, while susceptible bacteria die. Over time, the resistant strain dominates the population. This is natural selection occurring in real time and explains why antibiotic overuse is a serious global health concern.\n\n---\n\n## Common Misconceptions\n\n- \u274c **\"Survival of the fittest\" means the strongest survive** \u2014 Fitness refers to *reproductive success*, not physical strength.\n- \u274c **Organisms evolve intentionally** \u2014 Evolution has no foresight; selection acts only on present conditions.\n- \u274c **Natural selection acts on individuals** \u2014 While selection acts on individuals, **evolution occurs at the population level** over generations.\n\n---\n\n## Summary\n\nNatural selection is an elegant yet powerful mechanism that explains how life on Earth has diversified and adapted over billions of years. By acting on heritable variation and favoring traits that enhance reproductive success, it continuously shapes populations in response to their environments. Its relevance extends far beyond theoretical biology, offering critical insights into medicine, agriculture, and conservation \u2014 making it one of the most important concepts in all of science.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.975,
+          "FC": 1.0,
+          "agreement_score": 0.9529,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0236,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.98
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.803336,
+    "mean_agreement": 0.81218,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.8,
+      0.7433400000000001,
+      0.53,
+      0.9633400000000001,
+      0.98
+    ],
+    "agreement_scores": [
+      0.6942,
+      0.8199,
+      0.6882,
+      0.9057,
+      0.9529
+    ]
+  }
+}

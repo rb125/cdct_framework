@@ -1,0 +1,228 @@
+{
+  "concept": "recursion",
+  "domain": "computer_science",
+  "subject_model": "MiniMax-M2.5",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 27,
+      "response": "\n\nRecursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller, similar subproblems until reaching a base case.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.6,
+            "SA": 0.7,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.2,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.425,
+          "SA": 0.675,
+          "FC": 0.9667,
+          "agreement_score": 0.6283,
+          "judge_variance_CC": 0.216,
+          "judge_variance_SA": 0.2944,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "CAUTION - Jury disagreement (brittle response?)"
+        }
+      },
+      "score": 0.63334
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 35,
+      "response": "\n\nRecursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller, similar subproblems. It requires a base case to stop the self-calling and prevent infinite loops.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.6,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.3,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.3,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.375,
+          "SA": 0.875,
+          "FC": 0.9,
+          "agreement_score": 0.7283,
+          "judge_variance_CC": 0.1414,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.1414,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.68
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 40,
+      "response": "\n\nRecursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller, similar subproblems. It requires a base case to stop the recursion and prevent infinite loops, eventually reaching a simple solution.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.875,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.8827,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.92334
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 65,
+      "response_length": 71,
+      "response": "\n\nRecursion in computer science is a technique where a function calls itself to solve a problem, with each successive call working on a smaller instance of the problem until a base case is reached, which prevents infinite loops. This approach is commonly used in algorithms like quicksort and mergesort, as well as in calculating factorials or traversing tree data structures, and it often simplifies code for problems involving repetitive, self-similar sub-tasks.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 139,
+      "response_length": 82,
+      "response": "\n\nRecursion is a method in computer science where a function calls itself directly or indirectly to solve a problem by breaking it down into smaller, more manageable subproblems. It requires a base case to terminate the recursive calls and a recursive case that reduces the problem's complexity at each step, leveraging the call stack to maintain state across function invocations. While effective for self-similar problems like tree traversals and factorial computation, excessive recursion may lead to performance issues due to stack limitations.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.6,
+            "SA": 1.0,
+            "FC": 0.85
+          },
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.85,
+            "FC": 0.8
+          }
+        },
+        "consensus": {
+          "CC": 0.675,
+          "SA": 0.925,
+          "FC": 0.8167,
+          "agreement_score": 0.8827,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0707,
+          "judge_variance_FC": 0.0236,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.8033400000000002
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8006720000000002,
+    "mean_agreement": 0.80554,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.63334,
+      0.68,
+      0.92334,
+      0.9633400000000001,
+      0.8033400000000002
+    ],
+    "agreement_scores": [
+      0.6283,
+      0.7283,
+      0.8827,
+      0.9057,
+      0.8827
+    ]
+  }
+}

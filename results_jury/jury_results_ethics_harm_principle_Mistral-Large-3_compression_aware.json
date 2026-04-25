@@ -1,0 +1,228 @@
+{
+  "concept": "harm_principle",
+  "domain": "ethics",
+  "subject_model": "Mistral-Large-3",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 4,
+      "response": "Preventing harm to others.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.3
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.825,
+          "FC": 0.7,
+          "agreement_score": 0.7206,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.2944,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.87
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "response_length": 30,
+      "response": "The harm principle states that the only justification for limiting individual freedom is to prevent harm to others. It focuses on actions that negatively affect people beyond the individual acting.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 0.6,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.55,
+          "SA": 0.85,
+          "FC": 0.9667,
+          "agreement_score": 0.7924,
+          "judge_variance_CC": 0.0943,
+          "judge_variance_SA": 0.17,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7533400000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "response_length": 636,
+      "response": "The **harm principle** is a foundational concept in political philosophy, most famously articulated by the 19th-century philosopher **John Stuart Mill** in his work *On Liberty* (1859). It provides a framework for determining when and how a government or society may justifiably restrict an individual\u2019s freedom of action.\n\n### **Core Definition:**\nThe harm principle states that:\n> *The only legitimate reason for interfering with an individual\u2019s liberty is to prevent harm to others.*\n\nIn other words, a person\u2019s actions should only be limited if they pose a direct and significant risk of harm to other people\u2014not merely because the action is considered immoral, offensive, or harmful to the individual themselves.\n\n---\n\n### **Key Components of the Harm Principle:**\n1. **Focus on Harm to Others:**\n   - The principle does **not** justify restricting actions that only harm the individual performing them (e.g., self-destructive behaviors like smoking or extreme sports).\n   - It **does** justify restrictions when actions harm others (e.g., violence, theft, fraud, or reckless endangerment).\n\n2. **Protection of Individual Freedom:**\n   - The principle prioritizes **autonomy**\u2014people should be free to live as they choose, as long as they do not infringe on the rights or well-being of others.\n   - This aligns with liberal democratic values, where personal liberty is a central tenet.\n\n3. **Limits on State or Social Interference:**\n   - Governments or societies should **not** intervene in private matters (e.g., religious practices, personal relationships, or lifestyle choices) unless those actions harm others.\n   - Example: A government cannot ban a religion just because it is unpopular, but it **can** ban human sacrifice if it harms others.\n\n4. **Distinction Between Harm and Offense:**\n   - The principle distinguishes between **harm** (physical, economic, or psychological damage) and **offense** (discomfort, disgust, or moral disapproval).\n   - Example: Hate speech may be offensive, but unless it incites violence (harm), the harm principle would not support banning it.\n\n---\n\n### **Examples of the Harm Principle in Action:**\n\u2705 **Justified Restrictions (Harm to Others):**\n   - Laws against murder, assault, or theft.\n   - Regulations on pollution (harming public health).\n   - Traffic laws (preventing accidents that endanger others).\n\n\u274c **Unjustified Restrictions (No Harm to Others):**\n   - Banning same-sex marriage (no harm to others).\n   - Prohibiting recreational drug use (if it only harms the user).\n   - Censoring unpopular political opinions (unless they incite violence).\n\n---\n\n### **Criticisms and Challenges:**\n1. **Defining \"Harm\":**\n   - What counts as harm? Is emotional distress enough? (e.g., cyberbullying, hate speech)\n   - Some argue that indirect harms (e.g., secondhand smoke, climate change) should also justify restrictions.\n\n2. **Paternalism vs. Liberty:**\n   - Some believe the state **should** intervene to protect people from self-harm (e.g., seatbelt laws, drug bans).\n   - The harm principle rejects this, arguing that adults should have the right to make their own (even risky) choices.\n\n3. **Cultural and Moral Relativism:**\n   - What one society considers \"harmful\" (e.g., blasphemy, gender roles), another may not.\n   - The principle risks being applied inconsistently across cultures.\n\n4. **Collective Harm:**\n   - Some actions (e.g., tax evasion, environmental damage) harm society as a whole, not just individuals.\n   - Does this justify broader restrictions?\n\n---\n\n### **Why the Harm Principle Matters:**\n- **Balances Freedom and Safety:** It provides a clear rule for when liberty should be limited, preventing arbitrary or oppressive laws.\n- **Supports Pluralism:** Allows diverse lifestyles and beliefs to coexist as long as they don\u2019t harm others.\n- **Limits Government Overreach:** Prevents authorities from controlling private behavior without justification.\n\n### **Conclusion:**\nThe harm principle is a **liberal** (in the classical sense) guideline that seeks to maximize individual freedom while ensuring that society remains safe and functional. It rejects moral or paternalistic justifications for restricting liberty, insisting that the only valid reason to limit someone\u2019s actions is to protect others from harm. However, its application requires careful consideration of what constitutes \"harm\" and how to balance competing values in a diverse society.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.0,
+            "SA": 0.7,
+            "FC": 0.1
+          },
+          "Qwen3-32B": {
+            "CC": 0.0,
+            "SA": 0.7,
+            "FC": 0.0
+          },
+          "GLM-5": {
+            "CC": 0.1,
+            "SA": 0.4,
+            "FC": 0.2
+          }
+        },
+        "consensus": {
+          "CC": 0.05,
+          "SA": 0.625,
+          "FC": 0.1,
+          "agreement_score": 0.8199,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.1414,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.29000000000000004
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 64,
+      "response_length": 917,
+      "response": "### **Detailed Explanation of the Harm Principle**\n\nThe **harm principle** is a foundational concept in **liberal political and ethical philosophy**, most famously articulated by **John Stuart Mill** in his 1859 work *On Liberty*. It establishes a **moral and legal boundary** for when society or the state is justified in restricting an individual\u2019s freedom. The principle can be summarized as follows:\n\n> **\"The only legitimate reason for interfering with an individual\u2019s liberty is to prevent harm to others. Self-regarding actions\u2014those that affect only the individual\u2014should not be restricted, even if they are harmful to the person performing them.\"**\n\n---\n\n### **Key Components of the Harm Principle**\n\n1. **Distinction Between Self-Regarding and Other-Regarding Actions**\n   - **Self-regarding actions** are behaviors that **primarily affect the individual** (e.g., personal choices like drug use, gambling, or refusing medical treatment).\n   - **Other-regarding actions** are behaviors that **directly harm or risk harming others** (e.g., assault, theft, fraud, or reckless driving).\n   - The harm principle **only justifies restrictions on other-regarding actions**.\n\n2. **Harm as the Sole Justification for Coercion**\n   - The state or society may **only intervene** (through laws, punishments, or social pressure) if an action **causes tangible harm to others**.\n   - **Paternalistic interventions** (restricting freedom \"for the person\u2019s own good\") are **not justified** under this principle.\n   - **Moralistic interventions** (restricting behavior because it is deemed \"immoral\" or \"offensive\") are also **not justified**.\n\n3. **Autonomy vs. Protection of Society**\n   - The principle **prioritizes individual autonomy**\u2014the right to make one\u2019s own choices, even if they are unwise or self-destructive.\n   - However, it **balances autonomy with the need to protect others** from harm, ensuring that freedom does not come at the expense of collective well-being.\n\n---\n\n### **Examples of the Harm Principle in Action**\n\n| **Justified Restrictions (Harm to Others)** | **Unjustified Restrictions (No Harm to Others)** |\n|--------------------------------------------|------------------------------------------------|\n| Laws against **assault, murder, theft** (direct harm to others) | Laws banning **drug use, suicide, or risky hobbies** (self-harm only) |\n| **Traffic regulations** (preventing accidents that endanger others) | **Bans on \"immoral\" but harmless acts** (e.g., blasphemy, consensual adult relationships) |\n| **Fraud and deception laws** (economic harm to others) | **Paternalistic laws** (e.g., mandatory seatbelts, helmet laws\u2014though some argue these prevent societal costs) |\n| **Defamation and hate speech laws** (if they incite violence or discrimination) | **Censorship of offensive speech** (if it does not directly harm others) |\n\n---\n\n### **Debates and Criticisms of the Harm Principle**\n\n1. **What Counts as \"Harm\"?**\n   - **Physical harm** (e.g., violence) is clear, but **psychological, economic, or social harm** is debated.\n     - Example: Does **hate speech** cause enough harm to justify restrictions?\n     - Does **secondhand smoke** justify banning smoking in public?\n   - Some argue that **indirect harms** (e.g., societal costs of drug addiction) should justify restrictions, while others say this stretches the principle too far.\n\n2. **Paternalism vs. Autonomy**\n   - Critics argue that **some self-harming behaviors** (e.g., drug addiction, extreme risk-taking) **do affect others** (e.g., family, healthcare costs, lost productivity).\n   - Mill\u2019s strict version rejects this, but **modern liberal democracies often blend harm principle logic with limited paternalism** (e.g., mandatory vaccinations, seatbelt laws).\n\n3. **Moral and Cultural Relativism**\n   - Some societies **restrict behavior based on morality** (e.g., blasphemy laws, bans on LGBTQ+ relationships), which the harm principle rejects.\n   - Others argue that **offense or disgust** (e.g., public nudity, controversial art) should not count as \"harm,\" but some laws still restrict such acts.\n\n4. **Free Speech and the Harm Principle**\n   - Mill defended **near-absolute free speech**, arguing that **only speech that incites violence** should be restricted.\n   - Modern debates (e.g., **hate speech, misinformation**) test whether **psychological or social harm** justifies censorship.\n\n5. **Public Health and Collective Harm**\n   - **Pandemic restrictions** (e.g., lockdowns, mask mandates) raise questions: Do they prevent harm to others, or are they **paternalistic overreach**?\n   - **Environmental regulations** (e.g., carbon taxes) are justified under the harm principle if pollution harms others, but some argue they infringe on economic freedom.\n\n---\n\n### **Why the Harm Principle Matters in Modern Society**\n\n1. **Foundation of Liberal Democracies**\n   - The principle underpins **constitutional rights** (e.g., free speech, privacy) and limits **government overreach**.\n   - It justifies **criminal law** (punishing harm to others) while rejecting **moral policing** (e.g., bans on \"sinful\" but harmless acts).\n\n2. **Guides Policy Debates**\n   - **Drug legalization**: Should drug use be legal if it only harms the user?\n   - **Assisted suicide**: Should terminally ill patients have the right to end their lives?\n   - **Gun control**: Do restrictions prevent harm to others, or infringe on self-defense rights?\n   - **Social media regulation**: Should misinformation be censored if it causes societal harm?\n\n3. **Balances Individual Rights and Social Order**\n   - Without the harm principle, governments could **justify any restriction** (e.g., banning \"unhealthy\" foods, censoring \"dangerous\" ideas).\n   - With it, **personal freedom is maximized**, but **society is protected from genuine threats**.\n\n---\n\n### **Conclusion: The Harm Principle\u2019s Legacy**\nThe harm principle remains **one of the most influential ideas in political philosophy** because it provides a **clear, principled limit on state power** while allowing necessary protections for society. However, its application is **not always straightforward**\u2014defining \"harm,\" balancing autonomy with collective well-being, and navigating cultural differences make it a **continuously debated concept**.\n\nIn essence, the harm principle asks:\n- **Is this restriction truly about protecting others, or is it about controlling individuals?**\n- **Does this action cause real, tangible harm, or is it just offensive or unwise?**\n- **How much freedom should we sacrifice for safety?**\n\nThese questions ensure that the harm principle remains **central to discussions on liberty, law, and ethics** in the modern world.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.9,
+          "FC": 0.9667,
+          "agreement_score": 0.9686,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9533400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 1211,
+      "response": "### **Comprehensive Explanation of the Harm Principle**\n\nThe **harm principle** is a central idea in liberal political and ethical philosophy, most famously articulated by **John Stuart Mill** in his 1859 work *On Liberty*. It establishes a fundamental boundary between **individual freedom** and **state or societal authority**, arguing that the only legitimate reason to restrict a person\u2019s liberty is to **prevent harm to others**. In other words, individuals should be free to act as they wish\u2014so long as their actions do not cause significant harm to other people.\n\nThis principle serves as a cornerstone for modern liberal democracies, influencing laws, policies, and moral debates on issues like **free speech, drug use, public health, and personal behavior**. Below is a detailed breakdown of its key components, implications, and challenges.\n\n---\n\n## **1. Core Tenets of the Harm Principle**\n### **(A) Autonomy and Individual Liberty**\n- The harm principle is rooted in the belief that **individuals are the best judges of their own interests** and should have the **freedom to make choices** about their own lives, even if those choices are unwise or self-destructive.\n- Mill argues that **society or the state has no right to interfere** in purely **self-regarding actions** (actions that affect only the individual).\n- Example: If a person chooses to engage in risky hobbies (e.g., skydiving) or unhealthy habits (e.g., smoking), the state should not intervene unless those actions harm others.\n\n### **(B) Distinction Between Self-Regarding and Other-Regarding Actions**\n- **Self-regarding actions** are those that **primarily affect the individual** (e.g., personal beliefs, lifestyle choices, private behavior).\n  - *Example:* A person\u2019s decision to practice a religion, follow a vegan diet, or engage in consensual adult relationships.\n- **Other-regarding actions** are those that **affect others** (e.g., violence, fraud, pollution, public endangerment).\n  - *Example:* Drunk driving, defamation, or spreading infectious diseases.\n- The harm principle **only justifies restrictions on other-regarding actions** that cause harm.\n\n### **(C) The Necessity of Demonstrable Harm**\n- **Not all negative effects justify intervention.** The harm must be:\n  - **Real and tangible** (not just offensive, immoral, or hypothetical).\n  - **Significant** (minor inconveniences do not count).\n  - **Direct** (not indirect or speculative).\n- Example:\n  - **Harmful:** A factory polluting a river (directly harms public health).\n  - **Not harmful (under the principle):** A person wearing offensive clothing (may cause discomfort but not tangible harm).\n\n### **(D) Proportionality and Justification**\n- Any restriction on liberty must be **proportionate** to the harm it prevents.\n- The burden of proof lies on those seeking to restrict freedom\u2014they must **demonstrate actual harm**, not just moral disapproval.\n- Example:\n  - **Justified restriction:** Banning drunk driving (prevents clear harm to others).\n  - **Unjustified restriction:** Banning all alcohol (affects only self-regarding behavior).\n\n---\n\n## **2. Applications of the Harm Principle**\nThe harm principle has been influential in shaping laws and policies in several areas:\n\n### **(A) Free Speech and Censorship**\n- Mill strongly defended **free speech**, arguing that even false or offensive ideas should not be censored unless they **incite violence or direct harm**.\n- Example:\n  - **Allowed:** Criticizing a government (even if offensive).\n  - **Restricted:** Shouting \"Fire!\" in a crowded theater (creates a dangerous panic).\n\n### **(B) Drug Use and Personal Behavior**\n- The harm principle supports **decriminalization of drugs** if their use is primarily self-regarding.\n- Example:\n  - **Portugal\u2019s drug policy** (decriminalized personal use, focusing on treatment rather than punishment).\n  - **Opposition to prohibition** (if drug use harms only the user, the state has no right to intervene).\n\n### **(C) Public Health and Safety**\n- The principle justifies **public health measures** when individual actions harm others.\n- Example:\n  - **Mandatory vaccinations** (prevents spread of disease to others).\n  - **Smoking bans in public places** (secondhand smoke harms non-smokers).\n  - **Seatbelt laws** (unbuckled passengers can become projectiles in a crash, harming others).\n\n### **(D) Economic and Environmental Regulation**\n- The harm principle supports **regulations that prevent harm to society**.\n- Example:\n  - **Pollution controls** (factories harming air/water quality).\n  - **Consumer protection laws** (fraudulent business practices harm buyers).\n\n### **(E) Sexual and Personal Relationships**\n- The principle defends **consensual adult relationships**, even if they are unconventional or frowned upon.\n- Example:\n  - **Same-sex marriage** (harms no one, so should be allowed).\n  - **Polygamy** (if all parties consent, the state has no right to ban it).\n\n---\n\n## **3. Criticisms and Challenges**\nWhile the harm principle is influential, it faces several critiques:\n\n### **(A) What Counts as \"Harm\"?**\n- The definition of harm is **subjective and debated**.\n  - *Example:* Does **hate speech** cause harm? Some argue it incites violence; others say it\u2019s just offensive.\n  - *Example:* Does **pornography** harm society? Some claim it objectifies women; others say it\u2019s a personal choice.\n- **Psychological harm** (e.g., emotional distress) is harder to measure than physical harm.\n\n### **(B) The \"Slippery Slope\" Problem**\n- If the state can restrict actions that *might* cause harm, where does it stop?\n  - *Example:* Should **junk food** be banned because it contributes to obesity (which strains healthcare systems)?\n  - *Example:* Should **extreme sports** be banned because they risk injury (which may burden public healthcare)?\n\n### **(C) Paternalism vs. Autonomy**\n- Some argue that **preventing self-harm is justified** (e.g., banning suicide, mandating helmets).\n- Mill **rejects paternalism**, but modern laws often **do restrict self-regarding behavior** (e.g., seatbelt laws, drug bans).\n- *Question:* Should the state protect people from themselves?\n\n### **(D) Collective vs. Individual Rights**\n- Some harms are **cumulative** (e.g., climate change from individual carbon footprints).\n- *Example:* Should **gas-guzzling cars** be banned if they contribute to global warming (which harms future generations)?\n\n### **(E) Cultural and Moral Relativism**\n- What one society considers \"harmful,\" another may not.\n  - *Example:* **Blasphemy laws** in some countries (seen as protecting religious harmony; others see them as censorship).\n  - *Example:* **Female genital mutilation** (some cultures see it as tradition; others see it as a human rights violation).\n\n---\n\n## **4. Modern Relevance and Debates**\nThe harm principle remains **highly relevant** in contemporary discussions:\n\n### **(A) Digital and Online Harms**\n- **Cyberbullying, misinformation, and deepfakes**\u2014do they cause enough harm to justify regulation?\n- **Social media algorithms**\u2014do they manipulate users in harmful ways?\n\n### **(B) Vaccine Mandates and Public Health**\n- **COVID-19 policies** (lockdowns, mask mandates, vaccine passports) raised debates on **individual freedom vs. collective safety**.\n\n### **(C) Cancel Culture and Free Speech**\n- Does **public shaming** (e.g., deplatforming, boycotts) count as harm?\n- Should **offensive speech** be restricted if it causes emotional distress?\n\n### **(D) Climate Change and Individual Responsibility**\n- Should **carbon taxes** or **meat bans** be imposed to prevent long-term harm to the planet?\n\n---\n\n## **5. Conclusion: The Harm Principle in Practice**\nThe harm principle provides a **powerful framework** for balancing **individual freedom** and **societal protection**. Its key strengths are:\n\u2705 **Respects personal autonomy** (people should be free to make their own choices).\n\u2705 **Prevents arbitrary restrictions** (only justifies intervention when harm is clear).\n\u2705 **Guides fair and proportional laws** (restrictions must be necessary and evidence-based).\n\nHowever, its **limitations**\u2014such as the **ambiguity of \"harm\"** and the **tension between individual and collective rights**\u2014mean that its application requires **careful, case-by-case analysis**.\n\nUltimately, the harm principle remains a **cornerstone of liberal thought**, shaping how societies navigate the **boundaries between freedom and responsibility**. Its enduring relevance ensures that it will continue to influence **legal, ethical, and political debates** for years to come.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.95
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.925,
+          "FC": 0.9833,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0236,
+          "judge_variance_FC": 0.0236,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9566600000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.7646680000000001,
+    "mean_agreement": 0.84772,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.87,
+      0.7533400000000001,
+      0.29000000000000004,
+      0.9533400000000001,
+      0.9566600000000001
+    ],
+    "agreement_scores": [
+      0.7206,
+      0.7924,
+      0.8199,
+      0.9686,
+      0.9371
+    ]
+  }
+}

@@ -9,7 +9,7 @@ import sys
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
-load_dotenv()
+load_dotenv(override=True)
 
 # Add parent directory to path if needed
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -98,8 +98,10 @@ Examples:
     api_keys = {
         "AZURE_API_KEY": os.getenv("AZURE_API_KEY"),
         "AZURE_OPENAI_API_ENDPOINT": os.getenv("AZURE_OPENAI_API_ENDPOINT"),
-        "DDFT_MODELS_ENDPOINT": os.getenv("DDFT_MODELS_ENDPOINT"),
-        "AZURE_ANTHROPIC_API_ENDPOINT": os.getenv("AZURE_ANTHROPIC_API_ENDPOINT"),
+        "FOUNDRY_MODELS_ENDPOINT": os.getenv("FOUNDRY_MODELS_ENDPOINT"),
+        "GEMMA_BASE_URL": os.getenv("GEMMA_BASE_URL"),
+        "GEMMA_API_KEY": os.getenv("GEMMA_API_KEY", "not-needed"),
+        "AWS_BEARER_TOKEN_BEDROCK": os.getenv("AWS_BEARER_TOKEN_BEDROCK"),
     }
     
     # Initialize subject model

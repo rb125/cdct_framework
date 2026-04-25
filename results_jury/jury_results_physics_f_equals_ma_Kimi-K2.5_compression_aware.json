@@ -3,45 +3,226 @@
   "domain": "physics",
   "subject_model": "Kimi-K2.5",
   "jury_models": [
-    "gpt-5.2",
-    "DeepSeek-v3.2"
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
   ],
   "evaluation_system": "jury",
   "prompt_strategy": "compression_aware",
   "ablation_type": null,
-  "performance": [],
-  "failed_levels": [
+  "performance": [
     {
       "compression_level": 0.0,
       "context_length": 2,
-      "error": "Model returned a None response"
+      "response_length": 2,
+      "response": "force-motion relationship",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 1.0,
+          "agreement_score": 0.9686,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.98
     },
     {
       "compression_level": 0.25,
       "context_length": 5,
-      "error": "Model returned a None response"
+      "response_length": 12,
+      "response": "It is the mathematical expression stating that force causes mass to accelerate.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9686,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9933400000000001
     },
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "error": "Model returned a None response"
+      "response_length": 179,
+      "response": "\"f_equals_ma\" refers to **Newton's Second Law of Motion**, mathematically expressed as:\n\n**F = ma**\n\nThis equation quantifies the relationship described in the context, where:\n\n*   **F** represents **Force** (the push or pull acting on the object)\n*   **m** represents **Mass** (the amount of matter in the object)\n*   **a** represents **Acceleration** (the rate at which the object's velocity changes)\n\n**The Relationship:**\nThe equation establishes that acceleration is directly proportional to the net force acting on an object and inversely proportional to its mass. This means:\n*   Doubling the force on the same mass doubles its acceleration\n*   Doubling the mass while keeping force constant cuts the acceleration in half\n\n**Practical Application:**\nAs noted in the context, this relationship is fundamental for predicting motion. By knowing any two variables, engineers and physicists can solve for the third\u2014calculating exactly how much force is required to accelerate a specific mass (such as a vehicle or structural component) to a desired speed, or determining how much acceleration a given force will produce. This enables precise design and safety calculations in everyday engineering applications.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.3,
+            "SA": 0.8,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.2,
+          "SA": 0.825,
+          "FC": 0.8333,
+          "agreement_score": 0.7793,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.5766600000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 66,
-      "error": "Model returned a None response"
+      "response_length": 452,
+      "response": "**f_equals_ma** refers to Newton's Second Law of Motion, mathematically expressed as **F = ma**, where **F** represents force, **m** represents mass, and **a** represents acceleration. This fundamental equation establishes the quantitative relationship between the motion of an object and the forces acting upon it.\n\n## Core Components\n\n**Force (F)** is the push or pull applied to an object, measured in Newtons (N). It represents the external influence that causes an object to change its state of motion.\n\n**Mass (m)** is the measure of an object's inertia or resistance to changes in motion, typically measured in kilograms (kg). As noted in the comparison between vehicles, mass is an intrinsic property that determines how much force is required to achieve a given change in motion.\n\n**Acceleration (a)** is the rate at which an object's velocity changes over time, measured in meters per second squared (m/s\u00b2). This encompasses speeding up, slowing down, or changing direction.\n\n## Mathematical Relationships\n\nThe equation reveals two critical proportional relationships:\n\n1. **Direct Proportionality between Force and Acceleration**: When mass remains constant, acceleration is directly proportional to the applied net force. This means doubling the force applied to an object doubles its resulting acceleration, while halving the force produces half the acceleration.\n\n2. **Inverse Relationship with Mass**: Rearranging the equation to **a = F/m** reveals that for a constant force, acceleration is inversely proportional to mass. Consequently, objects with greater mass (like the car mentioned in the context) require substantially more force to achieve the same acceleration as lighter objects (like the bicycle).\n\n## Practical Illustration\n\nThe comparison between pushing a car versus a bicycle exemplifies this principle. A car possesses significantly greater mass than a bicycle. Therefore, to achieve equivalent acceleration\u2014or even to overcome static friction and begin moving\u2014the car demands a proportionally greater force input. Conversely, applying identical pushing forces to both vehicles would result in the bicycle achieving much higher acceleration while the car barely moves, demonstrating how mass acts as resistance to changes in motion.\n\n## Engineering Applications\n\nEngineers leverage this principle across multiple domains:\n\n- **Vehicle Design**: Calculating the engine force required to achieve desired acceleration rates while accounting for vehicle mass, or designing braking systems that can decelerate heavy masses safely within specific distances.\n\n- **Motion Prediction**: Determining trajectory, stopping distances, and collision dynamics by calculating how forces interact with vehicle masses.\n\n- **Safety Systems**: Designing crumple zones, restraint systems, and impact barriers that manage the forces experienced during collisions, ensuring that the accelerations transmitted to passengers remain within survivable limits despite rapid changes in velocity.\n\nIn summary, **F = ma** serves as the foundational equation for classical mechanics, enabling the calculation and prediction of how objects respond to applied forces based on their mass.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.925,
+          "FC": 0.9667,
+          "agreement_score": 0.8827,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9333400000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 145,
-      "error": "Model returned a None response"
+      "response_length": 371,
+      "response": "**F = ma** (Newton's Second Law of Motion) constitutes the fundamental quantitative relationship in classical mechanics that describes how forces affect the motion of physical objects. This equation establishes that the **net force** (**F**) acting upon an object equals the product of the object's **mass** (**m**) and its resulting **acceleration** (**a**).\n\n## Core Mathematical Relationships\n\nThe law reveals two critical proportionalities that govern mechanical motion:\n\n**Direct Proportionality**: Acceleration is directly proportional to the net force applied. When mass remains constant, doubling the force doubles the acceleration, indicating that greater forces produce more rapid changes in velocity.\n\n**Inverse Proportionality**: Acceleration is inversely proportional to mass. For a constant force, an object with twice the mass will experience half the acceleration. This explains why heavier objects require substantially more force to achieve the same acceleration as lighter ones\u2014mass serves as a quantitative measure of an object's inertia, or its resistance to changes in motion.\n\n## Vector Nature and Net Force\n\nA crucial aspect of **F = ma** is that both force and acceleration are **vector quantities**, meaning they possess both magnitude and direction. The acceleration vector always points in the same direction as the net force vector. \n\nThe concept of **net force** requires that all individual forces acting on the object be vectorially summed. This includes gravitational forces, normal forces, friction, tension, and any other interactions. Only the resultant vector determines the object's acceleration; balanced forces (equal and opposite) yield zero net force and therefore zero acceleration, while unbalanced forces produce motion changes.\n\n## Practical Applications\n\nThis law enables precise analysis across diverse domains:\n\n- **Vehicle Dynamics**: Calculating stopping distances, engine requirements, and collision forces\n- **Celestial Mechanics**: Predicting planetary orbits and gravitational interactions\n- **Structural Engineering**: Determining load capacities and stress distributions in buildings and bridges\n- **Everyday Phenomena**: Explaining the mechanics of walking (friction propulsion), driving (acceleration and braking), and object manipulation\n\n## Theoretical Significance\n\nAs the cornerstone of classical mechanics, **F = ma** provides the mathematical framework for modeling physical systems with predictive precision. By quantifying the relationship between applied forces and motion outcomes, this equation allows physicists and engineers to calculate trajectories, design mechanical systems, and understand the dynamic behavior of objects ranging from subatomic particles to astronomical bodies.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.975,
+          "FC": 0.9667,
+          "agreement_score": 0.9214,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0236,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9733400000000001
     }
   ],
+  "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.0,
-    "mean_agreement": 0.0,
-    "decay_direction": "N/A",
-    "error": "No valid performance data"
+    "mean_score": 0.8913360000000001,
+    "mean_agreement": 0.90412,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.98,
+      0.9933400000000001,
+      0.5766600000000001,
+      0.9333400000000001,
+      0.9733400000000001
+    ],
+    "agreement_scores": [
+      0.9686,
+      0.9686,
+      0.7793,
+      0.8827,
+      0.9214
+    ]
   }
 }

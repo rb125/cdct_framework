@@ -3,46 +3,226 @@
   "domain": "logic",
   "subject_model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
   "jury_models": [
-    "claude-opus-4-1-2",
-    "gpt-5.1",
-    "deepseek-v3.1"
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
   ],
   "evaluation_system": "jury",
   "prompt_strategy": "compression_aware",
   "ablation_type": null,
-  "performance": [],
-  "failed_levels": [
+  "performance": [
     {
       "compression_level": 0.0,
       "context_length": 2,
-      "error": "Model returned a None response"
+      "response_length": 2,
+      "response": "if-then inference",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.875,
+          "FC": 0.6667,
+          "agreement_score": 0.8854,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.88334
     },
     {
       "compression_level": 0.25,
       "context_length": 4,
-      "error": "Model returned a None response"
+      "response_length": 17,
+      "response": "Modus ponens is represented by the given \"if-then inference with affirmation\". It is a rule of inference.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 0.6,
+            "SA": 0.9,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.8,
+          "SA": 0.925,
+          "FC": 0.9,
+          "agreement_score": 0.7884,
+          "judge_variance_CC": 0.1886,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8700000000000002
     },
     {
       "compression_level": 0.5,
       "context_length": 26,
-      "error": "Model returned a None response"
+      "response_length": 354,
+      "response": "## Step 1: Understand the concept of Modus Ponens\nModus ponens is a rule of logical reasoning that allows us to deduce a conclusion based on a general rule and the confirmation of the condition that triggers that rule. It is often represented as \"if p, then q\" (p \u2192 q), where if p is true, we can conclude that q is true.\n\n## Step 2: Break down the components of Modus Ponens\nThe components are: a conditional statement (if-then statement), the affirmation of the antecedent (the \"if\" part), and the conclusion that follows from affirming the antecedent. For example, \"If it is raining, then the streets will be wet\" is a conditional statement. If we know \"it is raining,\" we can conclude \"the streets will be wet.\"\n\n## Step 3: Explain how Modus Ponens works\nTo apply modus ponens, we first need a conditional statement (p \u2192 q). Then, if we establish that p is true, modus ponens allows us to infer that q is true. This logical rule is fundamental in deductive reasoning because it provides a clear and reliable method to derive conclusions from given premises.\n\n## Step 4: Provide an example to illustrate Modus Ponens\nLet's consider an example: \"If a number is greater than 10, then it is greater than 5.\" Here, p = \"a number is greater than 10\" and q = \"it is greater than 5.\" If we know a number is indeed greater than 10, then using modus ponens, we can conclude it is greater than 5.\n\n## Step 5: Summarize the significance of Modus Ponens\nModus ponens is significant because it is a basic rule of inference that helps in constructing logical arguments. It ensures that if the premises are true, the conclusion derived using modus ponens will also be true, thus maintaining the validity of the argument.\n\nThe final answer is: $\\boxed{Modus ponens is a logical rule that allows us to conclude that if a condition is true, and we have a rule that states \"if this condition is true, then a certain outcome follows,\" we can logically deduce that the outcome is true.}$",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 1.0,
+            "FC": 0.5
+          },
+          "Qwen3-32B": {
+            "CC": 0.0,
+            "SA": 0.9,
+            "FC": 0.3
+          },
+          "GLM-5": {
+            "CC": 0.1,
+            "SA": 0.7,
+            "FC": 0.2
+          }
+        },
+        "consensus": {
+          "CC": 0.075,
+          "SA": 0.875,
+          "FC": 0.3333,
+          "agreement_score": 0.8023,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.44666
     },
     {
       "compression_level": 0.75,
       "context_length": 63,
-      "error": "Model returned a None response"
+      "response_length": 368,
+      "response": "## Step 1: Understanding Modus Ponens\nModus ponens is a rule of inference in propositional logic that allows us to draw a conclusion based on a conditional statement and its antecedent. The conditional statement is of the form \"If P, then Q,\" where P is the antecedent and Q is the consequent.\n\n## Step 2: Breaking Down the Components\nTo apply modus ponens, we need two premises: a conditional statement (\"If P, then Q\") and the assertion that the antecedent (P) is true. The conditional statement implies that if the condition P is met, then Q must be true.\n\n## Step 3: Applying Modus Ponens\nGiven that \"If P, then Q\" is true and P is true, modus ponens states that we can infer Q. This is a fundamental principle because it provides a straightforward method to deduce a conclusion (Q) from a given condition (P) and a rule that connects them (\"If P, then Q\").\n\n## Step 4: Example Application\nTo illustrate, consider the statements \"If it rains, the ground gets wet\" and \"It is raining.\" Here, \"It rains\" is P, and \"the ground gets wet\" is Q. The first statement is the conditional (\"If P, then Q\"), and the second statement asserts P (\"It is raining\"). Using modus ponens, we conclude Q (\"The ground gets wet\").\n\n## Step 5: Significance in Deductive Reasoning\nModus ponens is crucial in deductive reasoning and formal proofs because it enables the derivation of conclusions from given premises in a logically sound manner. It is one of the basic rules that underpin more complex logical arguments and is used extensively in mathematics, philosophy, and computer science.\n\n## Step 6: Formal Representation\nFormally, modus ponens can be represented as:\n1. P \u2192 Q (If P, then Q)\n2. P\n\u2234 Q (Therefore, Q)\n\nThis formal representation highlights the rule's simplicity and its role in logical deduction.\n\nThe final answer is: $\\boxed{Modus ponens is a fundamental inference rule in propositional logic that allows us to infer the consequent (Q) of a conditional statement (\"If P, then Q\") when the antecedent (P) is true. It is a crucial component of deductive reasoning, enabling the derivation of conclusions from premises in a logically valid manner.}$",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9833400000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 133,
-      "error": "Model returned a None response"
+      "response_length": 392,
+      "response": "## Step 1: Understanding Modus Ponens\nModus ponens is a rule of inference in propositional logic that allows us to derive a conclusion from two premises. It is based on a conditional statement and the affirmation of the antecedent of that statement.\n\n## Step 2: Breaking Down the Components\nThe rule involves a conditional statement \"If P, then Q\" (P \u2192 Q), where P is the antecedent and Q is the consequent. The first premise is this conditional statement, and the second premise is the assertion that P is true.\n\n## Step 3: Applying Modus Ponens\nTo apply modus ponens, we first accept that \"If P, then Q\" is true. Then, if we know P is true, we can conclude Q is true. This is represented formally as:\n1. P \u2192 Q\n2. P\n3. \u2234 Q\n\n## Step 4: Explaining the Validity and Importance\nModus ponens is considered valid because it preserves truth. If the premises (P \u2192 Q and P) are true, then the conclusion (Q) must also be true. This makes it a fundamental tool in deductive reasoning, used extensively in mathematical proofs, computer science, and formal logic systems.\n\n## Step 5: Elaborating on Its Applications\nThe applications of modus ponens are vast. In mathematics, it is used to prove theorems by deriving conclusions from axioms and previously proven statements. In computer science, it underlies the logic used in programming and algorithm design. Its simplicity and reliability make it a cornerstone of logical reasoning.\n\n## Step 6: Providing a Comprehensive Explanation\nModus ponens, or \"affirming the antecedent,\" is a basic yet powerful rule of inference. It enables the derivation of a conclusion (Q) from a conditional statement (If P, then Q) and the truth of the antecedent (P). Its validity ensures that if the premises are true, the conclusion will also be true, making it indispensable for constructing sound and logically consistent arguments.\n\nThe final answer is: $\\boxed{Modus ponens is a fundamental rule of inference in propositional logic that states if a conditional statement \"If P, then Q\" is true and its antecedent P is true, then the consequent Q must be true. It is formally represented as: 1. P \u2192 Q, 2. P, \u2234 Q. This rule is valid, preserves truth, and is essential for deductive reasoning, underpinning various fields such as mathematics, computer science, and formal logic.}$",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9833400000000001
     }
   ],
+  "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.0,
-    "mean_agreement": 0.0,
-    "decay_direction": "N/A",
-    "error": "No valid performance data"
+    "mean_score": 0.8333360000000001,
+    "mean_agreement": 0.87006,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.88334,
+      0.8700000000000002,
+      0.44666,
+      0.9833400000000001,
+      0.9833400000000001
+    ],
+    "agreement_scores": [
+      0.8854,
+      0.7884,
+      0.8023,
+      0.9371,
+      0.9371
+    ]
   }
 }

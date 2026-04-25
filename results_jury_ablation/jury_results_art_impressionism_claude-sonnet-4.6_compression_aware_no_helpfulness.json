@@ -1,0 +1,229 @@
+{
+  "concept": "impressionism",
+  "domain": "art",
+  "subject_model": "claude-sonnet-4.6",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": "no_helpfulness",
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 23,
+      "response": "Based on the available information, impressionism is about **capturing light's moment**. That is the only detail provided about impressionism in the given context.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.7,
+            "SA": 1.0,
+            "FC": null,
+            "error": "Parse error: Expecting ',' delimiter: line 1 column 44 (char 43"
+          },
+          "GLM-5": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.8333,
+          "SA": 0.9333,
+          "FC": 0.9,
+          "agreement_score": 0.8667,
+          "judge_variance_CC": 0.05,
+          "judge_variance_SA": 0.05,
+          "judge_variance_FC": 0.1,
+          "judge_count": 2,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.8866400000000002
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 6,
+      "response_length": 22,
+      "response": "Impressionism is an art style focused on painting fleeting light and color impressions. It captures momentary, transient effects rather than precise details.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.5,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 0.8,
+            "SA": 0.8,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.7,
+          "SA": 0.9,
+          "FC": 0.9667,
+          "agreement_score": 0.831,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0816,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.83334
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 18,
+      "response_length": 25,
+      "response": "Impressionism is an art movement that emphasizes light, color, and momentary visual sensations rather than detailed realism. Artists use quick brushstrokes to capture changing conditions.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 48,
+      "response_length": 53,
+      "response": "Impressionism was a 19th-century art movement focused on accurately depicting light and its changing qualities, characterized by visible brushstrokes, open composition, and emphasis on ordinary subjects and unusual visual angles. Artists painted en plein air (outdoors) to capture momentary lighting effects. The movement rejected academic tradition's focus on historical subjects and precise detail.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 93,
+      "response": "Impressionism emerged in 1860s France as a radical departure from academic painting, characterized by core principles including the primacy of light and color, broken color technique, visible brushwork, en plein air painting, and a focus on modern life subjects like cafes and railways. Named from Monet's \"Impression, Sunrise\" (1872), the movement was influenced by photography, Japanese prints, and scientific color theory, while facing opposition from the Salon for its \"unfinished\" appearance. Its legacy includes liberating color from pure description, emphasizing perception over representation, and paving the way for Post-Impressionism, Fauvism, and Abstract art.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "Qwen3-32B": {
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.875,
+          "SA": 0.95,
+          "FC": 0.9,
+          "agreement_score": 0.831,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.91
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.918664,
+    "mean_agreement": 0.88688,
+    "decay_direction": "\u2191 Improvement with compression",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.8866400000000002,
+      0.83334,
+      1.0,
+      0.9633400000000001,
+      0.91
+    ],
+    "agreement_scores": [
+      0.8667,
+      0.831,
+      1.0,
+      0.9057,
+      0.831
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "concept": "modus_ponens",
+  "domain": "logic",
+  "subject_model": "DeepSeek-V3.2",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 8,
+      "response": "if antecedent then consequent. antecedent true. consequent true.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.8,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.825,
+          "FC": 0.9,
+          "agreement_score": 0.8624,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0816,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.91
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 4,
+      "response_length": 16,
+      "response": "Modus ponens is an if-then inference. It involves affirmation of the antecedent to conclude the consequent.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.7,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.7486,
+          "judge_variance_CC": 0.2828,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.85334
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 26,
+      "response_length": 184,
+      "response": "Based on the available information, here is a clear explanation of **modus ponens**:\n\n**Modus ponens** is a fundamental rule of logical deduction. It works in two clear steps:\n\n1.  You must know a general conditional rule, stated as an **\"if-then\"** proposition (e.g., \"If it is raining, then the ground is wet\").\n2.  You must also know or confirm that the **condition** (the \"if\" part) of that rule is **true** (e.g., \"It is raining\").\n\nWhen these two pieces of information are present, modus ponens allows you to **deduce the conclusion** (the \"then\" part) with certainty. The result is a logical inference that is **clear and reliable** because the truth of the premises guarantees the truth of the conclusion.\n\n**Elaboration:**\nThe power of modus ponens lies in its straightforward structure, which forms the backbone of much logical reasoning and argumentation. It can be represented symbolically as:\n*   If **P**, then **Q**.\n*   **P** is true.\n*   Therefore, **Q** is true.\n\nBecause the reasoning is **valid** (the conclusion follows necessarily from the premises), it provides a reliable method for building knowledge from established rules and observed facts.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.3,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.6,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 1.0,
+            "FC": 0.7
+          }
+        },
+        "consensus": {
+          "CC": 0.2,
+          "SA": 0.85,
+          "FC": 0.8,
+          "agreement_score": 0.738,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.17,
+          "judge_variance_FC": 0.1414,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.5800000000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 63,
+      "response_length": 415,
+      "response": "Based on the available information, here is a detailed explanation of **modus ponens**:\n\n**1. Core Definition:**  \nModus ponens is a fundamental, valid inference rule in propositional logic and deductive reasoning. Its structure is:\n*   If **P**, then **Q**.  (This is a conditional statement.)\n*   **P** is true.          (This is the affirmation of the antecedent.)\n*   Therefore, **Q** is true. (This is the logically derived conclusion.)\n\n**2. Breakdown of Components:**\n*   **Conditional Statement (\"If P, then Q\"):** This is the major premise. It establishes a logical relationship where the truth of **P** guarantees the truth of **Q**.\n*   **Antecedent (P):** This is the \"if\" part of the conditional. In modus ponens, we have a second, separate premise that affirms that **P** is indeed true.\n*   **Consequent (Q):** This is the \"then\" part of the conditional. The rule allows us to validly detach and conclude that **Q** must also be true, given the truth of the conditional and its antecedent.\n\n**3. The Provided Example, Analyzed:**\n*   Conditional: \"If it rains (**P**), then the ground gets wet (**Q**).\"\n*   Affirmation of Antecedent: \"It is raining (**P** is true).\"\n*   Valid Conclusion via Modus Ponens: \"Therefore, the ground gets wet (**Q** is true).\"\n\n**4. Its Role in Reasoning:**\nAs stated, modus ponens \"underpins deductive reasoning and formal proofs.\" This means:\n*   It is a basic building block for constructing sound arguments.\n*   In formal proofs (like in mathematics, philosophy, or computer science), it is often an explicitly permitted step for deriving new true statements from established axioms and prior steps.\n*   Its validity is purely structural\u2014if the premises (the conditional and the affirmation of **P**) are true, the conclusion (**Q**) **cannot** be false. This makes it a cornerstone of logical certainty.\n\n**5. Important Distinction (Elaboration Beyond the Text):**\nIt is crucial to distinguish modus ponens from invalid forms of reasoning:\n*   **Modus Ponens (Valid):** \"If P then Q. P is true. Therefore, Q.\"\n*   **Affirming the Consequent (Invalid):** \"If P then Q. Q is true. Therefore, P.\" (This is a fallacy. Using the example: \"If it rains, the ground gets wet. The ground is wet. Therefore, it rained.\" This fails because the ground could be wet for another reason, like a sprinkler.)\n\nIn summary, modus ponens is the direct, valid application of a conditional rule: when the \"if\" condition is met, we are logically compelled to accept that the \"then\" outcome follows. It is a primary mechanism for moving from general principles to specific conclusions in a guaranteed way.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.925,
+          "FC": 0.9667,
+          "agreement_score": 0.8827,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9333400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 133,
+      "response_length": 361,
+      "response": "**Modus ponens** (Latin for \"mode that affirms\") is a foundational rule of logical deduction. It is a direct method for deriving a conclusion from a conditional (if-then) statement and the affirmation of its antecedent.  \n\n### Core Structure\nThe rule is formally expressed as:  \n1. **P \u2192 Q** (If P is true, then Q is true)  \n2. **P** (P is true)  \n3. **\u2234 Q** (Therefore, Q is true)  \n\nHere, **P** is the *antecedent*, **Q** is the *consequent*, and **P \u2192 Q** is the conditional statement.  \n\n### Why It Works\nModus ponens is **valid** \u2014 if the premises are true, the conclusion cannot be false. This validity stems from the definition of the conditional **P \u2192 Q**, which is only false when **P** is true and **Q** is false. Since premise 2 asserts **P** is true, and premise 1 asserts that when **P** is true, **Q** must be true, **Q** necessarily follows.  \n\n### Example\n- Premise 1: If it is raining (**P**), then the ground is wet (**Q**).  \n- Premise 2: It is raining (**P**).  \n- Conclusion: Therefore, the ground is wet (**Q**).  \n\n### Importance and Applications\n1. **Mathematical Proofs** \u2013 Used to chain implications, e.g., if a theorem states \"If x is even, then x\u00b2 is even,\" and we show x is even, we conclude x\u00b2 is even.  \n2. **Computer Science** \u2013 Underpins rule-based systems, automated reasoning, and program logic (e.g., if a condition holds, execute a certain step).  \n3. **Philosophy & Formal Logic** \u2013 Serves as a basic building block for sound deductive arguments, ensuring conclusions follow with certainty from premises.  \n\n### Distinguishing from Fallacies\nModus ponens is often confused with invalid forms like **affirming the consequent** (If P \u2192 Q and Q, then P) \u2014 which is a fallacy \u2014 or **denying the antecedent** (If P \u2192 Q and not P, then not Q) \u2014 also invalid. Modus ponens is uniquely valid because it follows the conditional\u2019s direction.  \n\n### Broader Context\nIn axiomatic systems and natural deduction, modus ponens is frequently an inference rule that, alongside axioms, allows the derivation of new truths. Its reliability ensures that logical, mathematical, and computational processes preserve truth, making it indispensable for structured reasoning.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.975,
+          "FC": 0.9667,
+          "agreement_score": 0.9214,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0236,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9733400000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.850004,
+    "mean_agreement": 0.83062,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.91,
+      0.85334,
+      0.5800000000000001,
+      0.9333400000000001,
+      0.9733400000000001
+    ],
+    "agreement_scores": [
+      0.8624,
+      0.7486,
+      0.738,
+      0.8827,
+      0.9214
+    ]
+  }
+}

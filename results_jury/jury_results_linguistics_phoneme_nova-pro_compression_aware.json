@@ -1,0 +1,228 @@
+{
+  "concept": "phoneme",
+  "domain": "linguistics",
+  "subject_model": "nova-pro",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 4,
+      "response": "Distinctive sound unit language.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.7,
+            "SA": 0.7,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.9,
+          "SA": 0.8,
+          "FC": 0.8667,
+          "agreement_score": 0.7709,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8533400000000002
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 9,
+      "response": "A phoneme is a distinctive sound unit in language.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 372,
+      "response": "Certainly! Let's delve into the concept of a phoneme using the provided context.\n\n### Explanation of Phoneme\n\nA **phoneme** is a fundamental and distinctive sound unit in a language. Each phoneme represents a specific sound that can differentiate one word from another. In other words, phonemes are the smallest units of sound that carry meaning.\n\n#### Key Points:\n\n1. **Distinctive Sound Unit**:\n   - A phoneme is not just any sound but a sound that can change the meaning of a word. For example, in English, the words \"bat\" and \"pat\" differ by just one phoneme: /b/ in \"bat\" and /p/ in \"pat\". This single phoneme change alters the meaning of the word.\n\n2. **Change in Word Meaning**:\n   - The primary function of phonemes is to distinguish between words. If you change one phoneme in a word, you often get a different word. For instance, changing the phoneme /t/ to /k/ in the word \"tap\" results in \"cap,\" a completely different word with a different meaning.\n\n3. **Organization of Sounds in Language**:\n   - Languages have their own set of phonemes, and the way these phonemes are organized and used can vary significantly between languages. For example, English has around 44 phonemes, while other languages may have more or fewer.\n   - The organization of phonemes helps linguists understand how sounds are patterned and used in speech.\n\n4. **Distinguishing Words**:\n   - People use their understanding of phonemes to distinguish between different words. This is a critical skill in both speaking and listening. When you hear someone say a word, your brain processes the phonemes to understand which word is being spoken.\n\n### Example to Illustrate Phonemes:\n\nConsider the words \"ship\" and \"chip\":\n- **Ship**: /\u0283/ /\u026a/ /p/\n- **Chip**: /t\u0283/ /\u026a/ /p/\n\nHere, the initial phonemes /\u0283/ (as in \"sh\") and /t\u0283/ (as in \"ch\") are different, which changes the meaning of the words entirely.\n\n### Conclusion:\n\nUnderstanding phonemes is essential for comprehending how languages work at a fundamental level. It helps explain why certain sounds are crucial in differentiating words and how these sounds are organized within a language. This knowledge is not only vital for linguists but also for language learners, speech therapists, and anyone interested in the mechanics of speech and language.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.1,
+            "SA": 0.8,
+            "FC": 0.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 0.8,
+            "FC": 0.3
+          },
+          "GLM-5": {
+            "CC": 0.1,
+            "SA": 0.6,
+            "FC": 0.4
+          }
+        },
+        "consensus": {
+          "CC": 0.1,
+          "SA": 0.75,
+          "FC": 0.2333,
+          "agreement_score": 0.8238,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.17,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.3866600000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 63,
+      "response_length": 501,
+      "response": "Certainly! Let's delve into a detailed explanation of the concept of a phoneme, based on the provided context.\n\n### Definition and Basic Concept\nA **phoneme** is the smallest unit of sound in a language that can change the meaning of a word. This means that phonemes are the fundamental building blocks of spoken language, and they help distinguish one word from another. For example, in English, the words \"pat\" and \"bat\" differ by just one phoneme: /p/ in \"pat\" and /b/ in \"bat.\" This single phoneme change alters the meaning of the word entirely.\n\n### Abstract Nature of Phonemes\nPhonemes are abstract representations. They are not the actual sounds we produce when we speak but rather the mental categories we use to classify those sounds. When we speak, these abstract phonemes are realized as **phones**\u2014the actual sounds produced. For instance, the phoneme /t/ can be realized in different ways depending on its position in a word and the surrounding sounds. In the word \"stop,\" the /t/ is aspirated (pronounced with a burst of air), whereas in the word \"stay,\" it is unaspirated.\n\n### Phoneme Inventories\nLinguists study phoneme inventories to understand the range of sounds used in different languages. Each language has its own set of phonemes, and these can vary significantly from one language to another. For example, English has around 44 phonemes, including both consonants and vowels, while other languages may have more or fewer. By comparing phoneme inventories, linguists can identify unique sound patterns and characteristics of different languages.\n\n### Importance in Phonological Awareness and Literacy\nMastery of phonemes is essential for **phonological awareness**, which is the ability to recognize and manipulate the sound structures of language. This skill is crucial for literacy development. When children learn to read and write, they must understand how phonemes correspond to letters and letter combinations (graphemes). For instance, the phoneme /k/ can be represented by the letters \"c\" as in \"cat,\" \"k\" as in \"kite,\" or \"ck\" as in \"back.\" Strong phonological awareness helps children decode words when reading and encode them when writing.\n\n### Role in Second Language Acquisition\nIn the context of second language acquisition, accurate pronunciation is heavily dependent on the learner\u2019s ability to perceive and produce the phonemes of the target language. Many challenges in second language learning arise from differences in phoneme inventories between the learner\u2019s native language and the target language. For example, a native speaker of Japanese may find it difficult to distinguish between the English phonemes /r/ and /l/ because these sounds do not exist as separate phonemes in Japanese. Therefore, focused practice on these phonemes is often necessary for achieving native-like pronunciation.\n\n### Summary\nIn summary, phonemes are the smallest units of sound that distinguish meaning in a language. They are abstract categories realized as actual sounds (phones) in speech. Linguists analyze phoneme inventories to compare languages and study sound patterns. Mastery of phonemes is vital for phonological awareness, which in turn supports literacy development and accurate pronunciation in second language acquisition.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.8,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.9,
+          "FC": 0.9667,
+          "agreement_score": 0.8597,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0816,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.92334
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 126,
+      "response_length": 567,
+      "response": "Certainly! Let's delve into a comprehensive explanation of the concept of a phoneme, incorporating the key principles and applications mentioned.\n\n### Definition and Basic Concept\nA **phoneme** is the smallest unit of sound in a language that can change the meaning of a word. Unlike individual sounds that may vary slightly in different contexts, phonemes are abstract units that represent categories of sounds. For instance, in English, the sounds /p/ and /b/ are distinct phonemes because they differentiate words such as \"pat\" and \"bat.\" Even though the physical articulation of these sounds may vary slightly depending on the surrounding sounds or the speaker's accent, they are perceived as distinct units of sound by native speakers.\n\n### Key Principles\n\n1. **Contrastiveness**:\n   - Phonemes are defined by their ability to create **minimal pairs**. A minimal pair consists of two words that differ by only one phoneme, leading to a difference in meaning. For example, \"bit\" and \"pit\" form a minimal pair in English, where the phonemes /b/ and /p/ distinguish the words.\n   \n2. **Complementary Distribution**:\n   - Allophones are variant pronunciations of a single phoneme that occur in different contexts. For example, the English phoneme /t/ can be pronounced as a clear \"t\" in \"top\" or as a flapped \"t\" in \"butter.\" These variations are allophones of the same phoneme because they do not change the meaning of the word. They are in complementary distribution, meaning they occur in different phonetic environments but are perceived as the same phoneme by speakers of the language.\n   \n3. **Phonological Rules**:\n   - Phonological rules govern how phonemes are realized in speech. These rules dictate the conditions under which allophones appear. For example, the rule for aspirated vs. unaspirated /p/ in English specifies that /p/ is aspirated at the beginning of a stressed syllable (as in \"pin\") but unaspirated after /s/ (as in \"spin\").\n\n### Phonological Analysis\nPhonemes are central to **phonological analysis**, which is the study of the sound systems of languages. By identifying and categorizing phonemes, linguists can:\n- Describe the sound inventory of a language.\n- Analyze patterns of sound change and variation.\n- Understand how sounds function in the language.\n  \nThis analysis is crucial for several applied contexts:\n- **Language Acquisition**: Understanding phonemes helps in studying how children learn to produce and perceive the sounds of their native language.\n- **Orthography Development**: Phonemic awareness is essential in creating writing systems that accurately represent the sounds of a language.\n- **Speech Recognition Technology**: Algorithms for speech recognition rely on phonemic distinctions to accurately transcribe spoken language into text.\n- **Language Teaching**: Educators use phonemic principles to teach pronunciation and listening skills, especially in second language acquisition.\n- **Clinical Assessment**: Speech-language pathologists assess and treat speech disorders by analyzing a patient's phonemic inventory and production.\n\n### Practical Applications\nUnderstanding phonemes has several practical applications:\n- **Speech Recognition and Synthesis**: Technologies like virtual assistants and text-to-speech systems depend on accurate phonemic representations to function effectively.\n- **Language Instruction**: Teaching the phonemic structure of a language aids in pronunciation training and helps learners distinguish between similar-sounding words.\n- **Linguistic Research**: Phonemic analysis contributes to broader research in sociolinguistics, historical linguistics, and language documentation.\n\nIn summary, phonemes are fundamental units of sound in language that distinguish meaning. They are governed by principles like contrastiveness, complementary distribution, and phonological rules, and they play a critical role in both theoretical linguistic analysis and practical applications across various fields.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8253360000000001,
+    "mean_agreement": 0.87202,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.8533400000000002,
+      1.0,
+      0.3866600000000001,
+      0.92334,
+      0.9633400000000001
+    ],
+    "agreement_scores": [
+      0.7709,
+      1.0,
+      0.8238,
+      0.8597,
+      0.9057
+    ]
+  }
+}

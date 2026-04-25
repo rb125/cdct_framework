@@ -1,0 +1,228 @@
+{
+  "concept": "impressionism",
+  "domain": "art",
+  "subject_model": "DeepSeek-V3.2",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 3,
+      "response": "capturing light's moment",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 0.8667,
+          "agreement_score": 0.8854,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9533400000000001
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 6,
+      "response_length": 16,
+      "response": "Impressionism is a style of painting. It focuses on capturing fleeting impressions of light and color.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.6,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.8,
+          "SA": 0.925,
+          "FC": 0.9667,
+          "agreement_score": 0.8114,
+          "judge_variance_CC": 0.1886,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.8833400000000002
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 18,
+      "response_length": 253,
+      "response": "Based on the available information, Impressionism was an art movement defined by its core emphasis on:\n\n1.  **Capturing Light and Color:** Instead of painting the precise, detailed form of objects, Impressionist artists focused on how light and atmosphere affect the appearance of color and shape in a given moment.\n\n2.  **Momentary Visual Sensations:** The goal was to record the immediate, fleeting impression of a scene\u2014how it looked at a specific instant under particular conditions, like the glare of midday sun or the haze of dusk.\n\n3.  **Technique of Quick Brushstrokes:** To achieve this, artists used rapid, visible, and often broken brushstrokes. These distinct dabs of paint would blend in the viewer's eye from a distance, creating a vibrant sense of movement and changing light, rather than being blended smoothly on the canvas.\n\n4.  **Rejection of Detailed Realism:** This approach was a deliberate move away from the traditional, polished studio paintings that aimed for precise, finished realism. Impressionism prioritized the artist's sensory experience over meticulous detail.\n\n**Elaboration:**  \nThis method meant that shadows were rarely black or gray but were painted with complementary colors, and outlines were suggested by contrasts of color rather than drawn lines. Common subjects were modern life\u2014street scenes, cafes, landscapes\u2014painted outdoors (*en plein air*) to directly observe these transient effects. The name \"Impressionism\" itself came from a critic's dismissive review of Claude Monet's painting *Impression, Sunrise*, which he said looked like a mere sketch or \"impression,\" not a finished work. The artists adopted the term, as it perfectly described their intent.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.3,
+            "SA": 0.8,
+            "FC": 0.6
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 0.7,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.1,
+            "SA": 0.4,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.15,
+          "SA": 0.675,
+          "FC": 0.7667,
+          "agreement_score": 0.7105,
+          "judge_variance_CC": 0.0943,
+          "judge_variance_SA": 0.17,
+          "judge_variance_FC": 0.17,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.48334000000000005
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 48,
+      "response_length": 346,
+      "response": "Based on the provided information, Impressionism was a revolutionary 19th-century art movement defined by its core goal: **the accurate depiction of light and its transient, changing qualities.**\n\nHere is a detailed explanation built from the available context:\n\n**1. Core Philosophy & Technique:**\nThe Impressionists sought to capture a momentary, sensory impression of a scene\u2014how it looked at a specific instant under particular light and weather conditions. To achieve this, they developed distinct techniques:\n*   **Visible Brushstrokes:** They abandoned the smooth, blended finish of academic painting. Instead, they used short, thick, and distinct strokes of unmixed color, allowing the viewer's eye to blend them from a distance.\n*   **Painting *En Plein Air*:** While not entirely new, this practice became central. Artists worked outdoors (\"in the open air\") to directly observe and immediately record the effects of sunlight, shadow, and atmosphere, rather than finishing paintings in a studio from sketches.\n\n**2. Key Characteristics:**\n*   **Emphasis on Light's Effects:** The true subject of an Impressionist painting is often light itself. They meticulously studied how light altered the perception of color, form, and texture throughout the day and across seasons.\n*   **Ordinary Subject Matter:** They rejected the traditional hierarchy of subjects that valued historical, religious, or mythological scenes. Instead, they depicted modern life\u2014leisure activities in parks and caf\u00e9s, landscapes, cityscapes, and domestic scenes.\n*   **Unusual Visual Angles:** Their compositions often appeared candid, like a snapshot, with cropped forms and asymmetrical arrangements that suggested a fleeting glimpse rather than a staged tableau.\n*   **Open Composition:** Scenes often extended beyond the canvas, implying continuity, which further enhanced the sense of a captured moment.\n\n**3. Rejection of Tradition:**\nThe movement was a direct challenge to the established **academic tradition**, which prioritized:\n*   Historical or noble subjects.\n*   Precise, detailed rendering and finish.\n*   Studio work and idealized forms.\n*   The use of somber tones and strict rules of composition.\n\nBy contrast, Impressionism celebrated contemporary life, optical sensation, spontaneous technique, and the vibrant, shifting palette of the natural world. This shift moved painting's focus from storytelling and idealization to the direct experience of perception.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 145,
+      "response_length": 488,
+      "response": "Based on the provided information, Impressionism was a revolutionary art movement originating in 1860s France that fundamentally changed the course of Western painting by prioritizing the artist's immediate visual perception over detailed realism.\n\n**Core Principles & Techniques:**\n1.  **Primacy of Light and Color:** Impressionists sought to capture the fleeting effects of light and atmosphere at a specific moment. A radical technical shift was painting shadows using colored hues (blues, purples, greens) instead of blacks or grays, making light the true subject of the painting.\n2.  **Broken Color & Optical Mixing:** Instead of mixing pigments smoothly on a palette, they applied pure, unmixed colors in short, distinct strokes or dabs side-by-side. These colors would then \"mix\" in the viewer's eye from a distance, creating a more vibrant, luminous effect.\n3.  **Visible, Energetic Brushwork:** The brushstrokes were left visible\u2014short, broken, and rapid\u2014conveying a sense of movement and immediacy. This contributed to the contemporary criticism that their works looked \"unfinished.\"\n4.  ***En Plein Air* Painting:** While not invented by them, Impressionists embraced painting outdoors (*en plein air*) to directly observe and transcribe the effects of sunlight and changing weather conditions onto the canvas.\n5.  **Subjects of Modern Life:** They rejected traditional academic subjects like history and mythology. Instead, they depicted contemporary urban and suburban scenes\u2014railways, caf\u00e9s, boulevards, boating, and informal leisure activities of the rising middle class.\n\n**Key Artists & Examples:**\n*   **Claude Monet:** Epitomized the movement's goals, painting series of the same subject (like haystacks or Rouen Cathedral) at different times of day to study changing light. His painting *Impression, Sunrise* (1872) gave the movement its name, initially used as a derogatory term by a critic.\n*   **Pierre-Auguste Renoir:** Known for his dappled light effects, particularly in scenes of social enjoyment.\n*   **Edgar Degas:** Focused on movement and unusual, off-center angles, often in depictions of dancers and racetracks.\n*   **Camille Pissarro:** Painted serene rural and urban landscapes, experimenting with light and atmosphere.\n\n**Influences & Opposition:**\n*   **Influences:** The movement was shaped by scientific color theory (like Chevreul's), the spontaneity and cropping of **photography**, and the flat areas of color and composition found in **Japanese woodblock prints**.\n*   **Opposition:** The official Paris **Salon** repeatedly rejected their work for its unconventional style and apparent lack of finish, leading them to hold independent exhibitions.\n\n**Legacy:**\nImpressionism's greatest legacy was **liberating color and brushwork from the strict duty of descriptive realism**. It shifted artistic focus from representing an object itself to representing the **perception of that object** under specific conditions of light. This emphasis on the artist's subjective vision directly paved the way for later avant-garde movements, including:\n*   **Post-Impressionism** (artists like C\u00e9zanne and Van Gogh, who built upon but moved beyond its focus).\n*   **Neo-Impressionism/Pointillism** (Seurat and Signac, who systematized its color science into the dot-based technique of Pointillism).\n*   **Fauvism** (which further emancipated color).\n*   Ultimately, the seeds of **Abstract art**, where the formal qualities of paint itself could become the subject.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.975,
+          "FC": 0.9667,
+          "agreement_score": 0.9214,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0236,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9733400000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.8513400000000001,
+    "mean_agreement": 0.84688,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.9533400000000001,
+      0.8833400000000002,
+      0.48334000000000005,
+      0.9633400000000001,
+      0.9733400000000001
+    ],
+    "agreement_scores": [
+      0.8854,
+      0.8114,
+      0.7105,
+      0.9057,
+      0.9214
+    ]
+  }
+}

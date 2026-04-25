@@ -3,45 +3,226 @@
   "domain": "ethics",
   "subject_model": "Kimi-K2.5",
   "jury_models": [
-    "gpt-5.2",
-    "DeepSeek-v3.2"
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
   ],
   "evaluation_system": "jury",
   "prompt_strategy": "compression_aware",
   "ablation_type": null,
-  "performance": [],
-  "failed_levels": [
+  "performance": [
     {
       "compression_level": 0.0,
       "context_length": 2,
-      "error": "Model returned a None response"
+      "response_length": 2,
+      "response": "Preventing harm",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.3,
+            "FC": 0.3
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.675,
+          "FC": 0.6667,
+          "agreement_score": 0.6177,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.2867,
+          "judge_variance_FC": 0.2867,
+          "judge_count": 3,
+          "recommendation": "CAUTION - Jury disagreement (brittle response?)"
+        }
+      },
+      "score": 0.80334
     },
     {
       "compression_level": 0.25,
       "context_length": 4,
-      "error": "Model returned a None response"
+      "response_length": 17,
+      "response": "The harm principle involves preventing harm to others. It focuses on the prevention of harm to others.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.8,
+            "FC": 0.8
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.9,
+          "FC": 0.9333,
+          "agreement_score": 0.8743,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.0943,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9466600000000001
     },
     {
       "compression_level": 0.5,
       "context_length": 26,
-      "error": "Model returned a None response"
+      "response_length": 129,
+      "response": "The **harm principle** is a foundational ethical guideline asserting that society may only restrict an individual's actions when those actions would cause harm to other people. \n\nThis concept establishes a critical balance between **personal liberty** and **social protection**: individuals possess broad freedom to make their own choices and live according to their own values, but this autonomy ends where it begins to injure others. By limiting interference exclusively to preventing harm to third parties, the principle ensures that authority is not used to control personal behavior that affects only the individual concerned. \n\nUltimately, the harm principle serves dual purposes: it **protects individual freedom** by preventing unnecessary or paternalistic restrictions, while simultaneously **ensuring safety and well-being** by allowing necessary intervention when one's actions threaten the welfare of others in society.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.4,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.8,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.4,
+          "SA": 0.9,
+          "FC": 0.9,
+          "agreement_score": 0.8513,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0816,
+          "judge_variance_FC": 0.1414,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.7000000000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 64,
-      "error": "Model returned a None response"
+      "response_length": 390,
+      "response": "The **harm principle** is a foundational doctrine in liberal political philosophy, most famously articulated by the 19th-century philosopher **John Stuart Mill** in his work *On Liberty*. It establishes the moral boundary between individual freedom and state or social intervention.\n\n## Core Assertion\nThe principle holds that **the only legitimate reason to restrict an individual's liberty is to prevent harm to other people**. Coercion\u2014whether through laws, social pressure, or physical force\u2014cannot be justified merely to protect individuals from themselves or to enforce a particular moral code. Liberty is presumptively inviolable unless its exercise directly injures, violates the rights of, or imposes costs on third parties.\n\n## The Prohibition Against Paternalism and Moralism\nCentral to the harm principle is its **negative dimension**: it explicitly rejects two common justifications for restricting freedom:\n- **Paternalism**: Interfering with someone's choices \"for their own good\" (e.g., banning smoking or dangerous sports to protect the participant)\n- **Moralism**: Restricting behavior because society finds it offensive, sinful, or degrading, even if no one else is harmed (e.g., prohibiting certain religious practices or private consensual acts)\n\n## Practical Applications\nThe principle creates a clear dichotomy for evaluating policy:\n- **Justified restrictions**: Laws against **assault**, **theft**, or fraud are legitimate because these actions directly violate the rights and security of others.\n- **Unjustified restrictions**: Prohibitions on **self-destructive behavior**\u2014such as drug use, unhealthy eating, or risky recreational activities\u2014are not justified under this framework, provided the user does not endanger anyone else.\n\n## Contemporary Debates\nThe harm principle serves as the primary framework for modern controversies involving:\n- **Free speech**: Determining when expression crosses the line from offensive or hateful into direct incitement of violence or tangible harm\n- **Drug policy**: Distinguishing between drug use that affects only the user versus distribution or behavior that creates public safety risks\n- **Public health**: Balancing individual autonomy against collective harms (such as vaccine mandates or smoking bans in public spaces)\n\n## The Balance\nUltimately, the harm principle attempts to **balance autonomy with societal protection**. It prioritizes individual sovereignty over one's own body, mind, and choices while maintaining that society retains the right\u2014and obligation\u2014to intervene when those choices threaten the welfare of others. This creates a \"sphere of liberty\" where individuals are free to experiment, fail, and live according to their own values, provided they remain within the bounds of not injuring their fellow citizens.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 134,
-      "error": "Model returned a None response"
+      "response_length": 362,
+      "response": "Based on the provided context, the **harm principle** is a foundational ethical doctrine, most prominently formulated by the philosopher **John Stuart Mill**, that establishes the boundary between individual liberty and societal intervention.\n\n## Core Assertion\nThe principle asserts that **the actions of individuals should only be limited to prevent harm to others**. Personal liberty may be justifiably restricted solely when one's conduct poses a risk of significant injury or detriment to another person. This establishes a presumption in favor of individual freedom, permitting external constraints only under specific, justified conditions.\n\n## Key Components\n\n**1. Prioritization of Autonomy**\nThe principle places individual autonomy at the center of ethical and legal consideration, presuming that adults should be free to make their own choices regarding their lives and conduct.\n\n**2. The Self-Regarding vs. Other-Regarding Distinction**\nCentral to the principle is the differentiation between:\n- **Self-regarding actions**: Conduct that affects only the individual undertaking it (or consenting others), which should remain free from interference\n- **Other-regarding actions**: Conduct that poses risks or causes damage to non-consenting others, which may warrant restriction\n\n**3. Requirement of Demonstrable Harm**\nIntervention cannot be based on mere dislike, moral disapproval, or potential indirect effects. There must be **actual, not hypothetical**, evidence of harm to others to justify limiting liberty.\n\n## Application and Implementation\nThe harm principle serves as a guiding framework for legal and moral policy-making, particularly in areas such as:\n- **Free speech**: Determining when expression crosses into causing direct harm\n- **Drug use**: Balancing personal choice against public safety concerns\n- **Public health**: Justifying quarantines or health mandates only when demonstrable harm to others exists\n\n## Critical Requirements for Application\nWhen applying the harm principle, careful analysis must ensure that:\n- **Proportionality**: Restrictions must be proportionate to the actual risk posed\n- **Balancing**: Individual rights must be weighed against collective welfare without automatically privileging the latter\n- **Evidence-based justification**: Restrictions must be grounded in actual threats rather than speculative or potential harms\n\nIn essence, the harm principle functions as a protective barrier for individual liberty, permitting societal intervention only when necessary to prevent tangible damage to others, thereby delineating the legitimate scope of both personal freedom and state authority.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
     }
   ],
+  "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.0,
-    "mean_agreement": 0.0,
-    "decay_direction": "N/A",
-    "error": "No valid performance data"
+    "mean_score": 0.8753360000000001,
+    "mean_agreement": 0.83094,
+    "decay_direction": "\u2192 Stable",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.80334,
+      0.9466600000000001,
+      0.7000000000000001,
+      0.9633400000000001,
+      0.9633400000000001
+    ],
+    "agreement_scores": [
+      0.6177,
+      0.8743,
+      0.8513,
+      0.9057,
+      0.9057
+    ]
   }
 }

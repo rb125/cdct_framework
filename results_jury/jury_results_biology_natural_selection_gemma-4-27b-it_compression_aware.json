@@ -1,0 +1,228 @@
+{
+  "concept": "natural_selection",
+  "domain": "biology",
+  "subject_model": "gemma-4-27b-it",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 2,
+      "response_length": 2,
+      "response": "survival advantage",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.7,
+            "FC": 0.6
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.775,
+          "FC": 0.6667,
+          "agreement_score": 0.8743,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.1414,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.8433400000000001
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 9,
+      "response": "Natural selection is a survival advantage passed to offspring.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 0.8,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 0.9,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9533400000000001
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 142,
+      "response": "**Natural selection** is a biological process through which populations adapt to their environments over time. It functions based on three core principles:\n\n1.  **Survival of the Fittest (Helpful Traits):** Within any population, individuals possess different characteristics (traits). Some of these traits provide a functional advantage\u2014such as better camouflage, faster speed, or improved resistance to disease\u2014that helps the individual survive in its specific environment.\n2.  **Reproduction and Inheritance:** Survival alone is not enough; for natural selection to occur, those individuals with helpful traits must also reproduce. When they do, they pass these advantageous genetic traits down to their offspring.\n3.  **Population Adaptation:** Because the individuals with helpful traits are more successful at reproducing, those specific traits become more common in the next generation. Over many generations, this continuous cycle shapes the entire population, allowing it to become better suited (adapted) to its surroundings.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.3,
+            "SA": 0.9,
+            "FC": 0.6
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.2,
+            "SA": 1.0,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.7,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.225,
+          "SA": 0.875,
+          "FC": 0.8,
+          "agreement_score": 0.7766,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.1633,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.6000000000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 60,
+      "response_length": 267,
+      "response": "Based on the provided text, **natural selection** is a core mechanism of evolution that dictates how populations change over time in response to their environment. The process can be broken down into several key components:\n\n**1. Advantageous Adaptations**\nThe process begins with specific traits, known as adaptations, that provide an organism with a survival benefit. The text highlights two specific examples:\n* **Camouflage:** Helping an organism blend into its surroundings to avoid predators.\n* **Disease Resistance:** Allowing an organism to survive illnesses that might otherwise kill it.\n\n**2. Differential Survival and Reproduction**\nNatural selection is not just about survival, but about the ability to pass traits to the next generation. Organisms possessing these advantageous adaptations are more likely to survive environmental pressures. Because they survive longer, they are more likely to reproduce, passing their beneficial genetic information to their offspring.\n\n**3. Changes in the Gene Pool**\nThe mechanism operates at a genetic level through **alleles** (different versions of a gene). As individuals with beneficial traits reproduce more successfully, these specific alleles become increasingly common within the population's **gene pool** over successive generations.\n\n**4. Real-World Application: The Peppered Moth**\nThe text illustrates this through the example of peppered moths. In environments affected by pollution, moths with darker coloration gained a survival advantage (likely through better camouflage), leading to a shift in the population's dominant color.\n\n**5. Evolutionary Outcomes**\nUltimately, natural selection serves two major evolutionary functions:\n* **Environmental Response:** It allows populations to adapt to changing pressures in their habitat.\n* **Speciation:** By driving these continuous changes, natural selection can eventually lead to the formation of new species.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.8827,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9433400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 135,
+      "response_length": 300,
+      "response": "Based on the provided text, **natural selection** is a fundamental biological mechanism of evolution that drives the change in populations over time through the differential survival and reproduction of organisms.\n\nA comprehensive explanation of this process involves several key components and outcomes:\n\n### 1. The Core Mechanism\nNatural selection operates on the principle that individuals within a population are not identical. Because of **variation** (genetic differences), certain individuals possess specific **phenotypes** (observable traits) that provide an advantage in their specific environment. These advantageous traits enhance an organism's **fitness**, meaning they increase the individual's likelihood of surviving and successfully reproducing.\n\n### 2. Key Principles\nFor natural selection to occur, four essential conditions must be met:\n*   **Variation:** There must be existing genetic differences among individuals in a population.\n*   **Inheritance:** These traits must be heritable, meaning they can be transmitted from parents to their offspring.\n*   **Differential Survival and Reproduction (Fitness):** Not all individuals will survive or reproduce equally; those with advantageous traits will have a higher success rate.\n*   **Adaptation:** As advantageous traits are passed down through generations, the population as a whole becomes better suited to its environment.\n\n### 3. Evolutionary Outcomes\nOver extended periods, the continuous process of natural selection leads to significant biological shifts, including:\n*   **Complex Adaptations:** The development of intricate traits that serve specific functions for survival.\n*   **Speciation:** The emergence of new and distinct species.\n*   **Increased Biodiversity:** The expansion of the variety of life on Earth.\n\n### 4. Practical Applications\nUnderstanding the dynamics of natural selection is not merely theoretical; it is applied to solve real-world biological challenges in various fields:\n*   **Medicine:** Understanding how bacteria evolve **antibiotic resistance**.\n*   **Agriculture:** Utilizing evolutionary principles for **crop improvement**.\n*   **Conservation Biology:** Developing strategies for the **management of endangered species** by understanding their evolutionary needs.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9833400000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.864672,
+    "mean_agreement": 0.8752800000000001,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      0.8433400000000001,
+      0.9533400000000001,
+      0.6000000000000001,
+      0.9433400000000001,
+      0.9833400000000001
+    ],
+    "agreement_scores": [
+      0.8743,
+      0.9057,
+      0.7766,
+      0.8827,
+      0.9371
+    ]
+  }
+}

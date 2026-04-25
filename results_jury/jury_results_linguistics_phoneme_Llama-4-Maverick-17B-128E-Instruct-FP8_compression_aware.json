@@ -3,46 +3,226 @@
   "domain": "linguistics",
   "subject_model": "Llama-4-Maverick-17B-128E-Instruct-FP8",
   "jury_models": [
-    "claude-opus-4-1-2",
-    "gpt-5.1",
-    "deepseek-v3.1"
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
   ],
   "evaluation_system": "jury",
   "prompt_strategy": "compression_aware",
   "ablation_type": null,
-  "performance": [],
-  "failed_levels": [
+  "performance": [
     {
       "compression_level": 0.0,
       "context_length": 3,
-      "error": "Model returned a None response"
+      "response_length": 3,
+      "response": "distinctive sound unit",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
     },
     {
       "compression_level": 0.25,
       "context_length": 5,
-      "error": "Model returned a None response"
+      "response_length": 19,
+      "response": "A phoneme is a distinctive sound unit in language. It is a fundamental concept. No additional details are available.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 0.6,
+            "SA": 0.7,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.7,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.7,
+          "SA": 0.875,
+          "FC": 0.9667,
+          "agreement_score": 0.8023,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.82334
     },
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "error": "Model returned a None response"
+      "response_length": 205,
+      "response": "## Step 1: Understand the definition of a phoneme\nA phoneme is defined as a distinctive sound unit in language.\n\n## Step 2: Explain the role of phonemes in changing word meaning\nPhonemes are crucial because they can change the meaning of words. For example, the difference between \"pat\" and \"bat\" lies in the initial phoneme (/p/ vs /b/), which distinguishes between the two words.\n\n## Step 3: Discuss how phonemes help in understanding language organization\nUnderstanding phonemes helps explain how languages organize sounds. Different languages have different sets of phonemes, and the way these phonemes are combined determines the possible words in a language.\n\n## Step 4: Elaborate on how phonemes aid in distinguishing words\nPhonemes are essential for distinguishing between words. The ability to recognize and produce different phonemes allows speakers to convey different meanings and listeners to understand the intended meaning.\n\n## Step 5: Summarize the concept of phonemes\nIn summary, phonemes are the basic sound units that distinguish one word from another and are fundamental to understanding how language works.\n\nThe final answer is: A phoneme is a unit of sound in a language that distinguishes one word from another and plays a crucial role in determining the meaning of words.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.3,
+            "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 0.7,
+            "FC": 0.9
+          }
+        },
+        "consensus": {
+          "CC": 0.2,
+          "SA": 0.875,
+          "FC": 0.8667,
+          "agreement_score": 0.7793,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.1247,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.6033400000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 63,
-      "error": "Model returned a None response"
+      "response_length": 392,
+      "response": "## Step 1: Define Phoneme\nA phoneme is defined as the smallest unit of sound in a language that can distinguish meaning between words. This means that phonemes are the basic sound units that differentiate one word from another.\n\n## Step 2: Explain the Role of Phonemes in Language\nPhonemes are abstract representations. They are not the actual sounds (phones) that are heard when someone speaks, but rather the mental representations of those sounds. For example, the sounds /p/ and /b/ are phonemes because they distinguish between words like \"pat\" and \"bat.\"\n\n## Step 3: Discuss the Realization of Phonemes as Phones\nPhonemes are realized as phones in speech. This means that when we speak, the abstract phonemes are manifested as actual sounds (phones) that can be heard. The same phoneme can be realized differently depending on the context or the speaker's accent, but it remains the same phoneme as long as it distinguishes meaning in the same way.\n\n## Step 4: Elaborate on the Importance of Phonemes in Linguistics and Language Acquisition\nLinguists analyze phoneme inventories (the collection of phonemes in a language) to compare languages and study sound patterns. Understanding phonemes is crucial for several aspects of language study and acquisition:\n- **Phonological Awareness**: Mastery of phonemes is essential for phonological awareness, which is the ability to hear and manipulate the sounds in words. This skill is critical for reading and spelling.\n- **Literacy Development**: Phonemic awareness is a foundational skill for learning to read and spell. Being able to distinguish and manipulate phonemes helps learners decode and encode words.\n- **Second Language Acquisition**: Accurate pronunciation in a second language requires mastery of its phonemes. Learners must be able to distinguish and produce the phonemes of the target language to communicate effectively.\n\n## Step 5: Summarize the Concept of Phoneme\nIn summary, phonemes are the fundamental sound units of language that distinguish one word from another. They are abstract and are realized as actual sounds (phones) in speech. Understanding and mastering phonemes are crucial for linguistic analysis, literacy development, and successful language acquisition.\n\nThe final answer is: \nA phoneme is the smallest distinctive unit of sound in a language that distinguishes one word from another, serving as an abstract representation realized as actual sounds (phones) in speech, and is crucial for phonological awareness, literacy, and accurate pronunciation in language acquisition.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.8827,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9433400000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 126,
-      "error": "Model returned a None response"
+      "response_length": 500,
+      "response": "## Step 1: Define Phoneme\nA phoneme is the smallest unit of sound in a language that distinguishes meaning between words. It is an abstract representation of a speech sound, categorized by its functional role rather than its physical articulation.\n\n## Step 2: Explain the Role of Phonemes in Linguistics\nPhonemes are crucial in linguistics as they help differentiate between words. For instance, /p/ and /b/ are distinct phonemes in English because they distinguish between words like \"pat\" and \"bat.\" This distinction is fundamental to understanding the sound system of a language.\n\n## Step 3: Discuss Key Principles Related to Phonemes\nThere are several key principles related to phonemes:\n1. **Contrastiveness**: Phonemes are contrastive, meaning they can create minimal pairs. Minimal pairs are words that differ by only one phoneme, such as \"pat\" and \"bat,\" which differ by /p/ and /b/.\n2. **Complementary Distribution**: Allophones, which are variants of phonemes, occur in complementary distribution. This means that the occurrence of an allophone is predictable based on its context within a word. For example, the /p/ sound in \"pat\" and \"top\" might be realized slightly differently due to its position, but they are considered the same phoneme because they are in complementary distribution.\n3. **Phonological Rules**: These rules govern how phonemes are realized in different contexts. They can affect the pronunciation of words based on the phonemes they contain and their position within the word.\n\n## Step 4: Elaborate on the Importance of Phonemes in Phonological Analysis\nPhonemes are central to phonological analysis. By identifying the phonemes of a language, linguists can describe its sound system, analyze how children and adults acquire the sound system of their native language, and develop writing systems (orthographies) that represent the language's sounds.\n\n## Step 5: Discuss the Practical Applications of Understanding Phonemes\nUnderstanding phonemes has several practical applications:\n1. **Speech Recognition Technology**: Knowing the phonemes of a language can help in developing more accurate speech recognition systems.\n2. **Language Teaching**: Phoneme awareness is crucial for language learners, as it helps them distinguish between similar sounds in the target language.\n3. **Clinical Assessment of Speech Disorders**: Phoneme-based assessments can help diagnose and treat speech disorders, as certain disorders may involve difficulties with specific phonemes.\n\n## Step 6: Summarize the Significance of Phonemes\nPhonemes are foundational to the study and practical application of linguistic sound systems. They are essential for understanding the structure of language, facilitating language acquisition and teaching, and developing technologies that interact with spoken language.\n\nThe final answer is: \nA phoneme is the smallest distinctive unit of sound in a language that distinguishes one word from another. It is an abstract representation of speech sounds and is crucial for phonological analysis, language acquisition, and various practical applications such as speech recognition technology and clinical assessment of speech disorders. Phonemes are characterized by their contrastiveness, the complementary distribution of their allophones, and the phonological rules that govern their realization. Understanding phonemes is vital for describing sound systems, developing orthographies, and informing language teaching practices.",
+      "jury_evaluation": {
+        "judges": {
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.975,
+          "FC": 0.9667,
+          "agreement_score": 0.9214,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0236,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9733400000000001
     }
   ],
+  "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.0,
-    "mean_agreement": 0.0,
-    "decay_direction": "N/A",
-    "error": "No valid performance data"
+    "mean_score": 0.8686720000000001,
+    "mean_agreement": 0.87714,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      1.0,
+      0.82334,
+      0.6033400000000001,
+      0.9433400000000001,
+      0.9733400000000001
+    ],
+    "agreement_scores": [
+      1.0,
+      0.8023,
+      0.7793,
+      0.8827,
+      0.9214
+    ]
   }
 }

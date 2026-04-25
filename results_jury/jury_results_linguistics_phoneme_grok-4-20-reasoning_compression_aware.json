@@ -1,0 +1,228 @@
+{
+  "concept": "phoneme",
+  "domain": "linguistics",
+  "subject_model": "grok-4-20-reasoning",
+  "jury_models": [
+    "Qwen3-32B",
+    "GLM-5",
+    "Nemotron-Super-3-120B"
+  ],
+  "evaluation_system": "jury",
+  "prompt_strategy": "compression_aware",
+  "ablation_type": null,
+  "performance": [
+    {
+      "compression_level": 0.0,
+      "context_length": 3,
+      "response_length": 3,
+      "response": "distinctive sound unit",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.25,
+      "context_length": 5,
+      "response_length": 15,
+      "response": "A phoneme is a distinctive sound unit in language. \n\n**ANSWER:** distinctive sound unit in language",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 1.0
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 109,
+      "response": "**ANSWER:** \n\nA phoneme is a distinctive sound unit in language that can change word meaning. In other words, it is the smallest unit of sound that speakers of a language treat as contrastive\u2014swapping one phoneme for another can turn one word into a completely different word. \n\nUnderstanding phonemes therefore helps explain two key aspects of language: (1) how languages organize their inventory of sounds into a structured system, and (2) how listeners are able to reliably distinguish one word from another despite the continuous stream of speech they hear. \n\nThis concept is central to phonology, the branch of linguistics that studies the systematic patterns of sound in human languages.",
+      "jury_evaluation": {
+        "judges": {
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 0.7,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.4,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.4,
+            "SA": 0.9,
+            "FC": 0.7
+          }
+        },
+        "consensus": {
+          "CC": 0.45,
+          "SA": 0.875,
+          "FC": 0.9,
+          "agreement_score": 0.7911,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.1414,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.7100000000000001
+    },
+    {
+      "compression_level": 0.75,
+      "context_length": 63,
+      "response_length": 250,
+      "response": "**A phoneme** is the smallest unit of sound in a language that can distinguish meaning between words. \n\nFor example, the phonemes /p/ and /b/ are what allow English speakers to tell the difference between the words \u201cpat\u201d and \u201cbat.\u201d If you replace one with the other, the meaning of the word changes entirely. This ability to create meaningful contrasts is the defining characteristic of a phoneme.\n\nPhonemes are **abstract representations** rather than actual physical sounds. When we speak, these abstract units are realized as concrete sounds called **phones**. The same phoneme can be pronounced slightly differently depending on the speaker, the surrounding sounds, or the language variety, yet native speakers still recognize them as the same unit.\n\nLinguists study the complete set of phonemes in a language\u2014known as its **phoneme inventory**\u2014to compare languages and analyze their sound patterns. These inventories reveal how languages organize their sound systems differently and help researchers understand phonological rules and structures.\n\nMastery of phonemes is essential for several practical reasons:\n- It underpins **phonological awareness**, the ability to recognize and manipulate sounds in spoken language.\n- It plays a critical role in **literacy development**, as understanding that words are made of distinct sound units helps children learn to read and spell.\n- In **second language acquisition**, accurately perceiving and producing the phonemes of the new language is key to clear pronunciation and avoiding misunderstandings.\n\nIn short, phonemes are the fundamental building blocks of spoken language that allow us to encode and decode meaning through sound.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9833400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 126,
+      "response_length": 312,
+      "response": "**A comprehensive explanation of a phoneme:**\n\nA **phoneme** is the smallest unit of sound in a language that can distinguish meaning between words. It functions as an abstract representation of speech sounds, defined not by its precise physical articulation but by its role in the language system\u2014specifically, whether it can create contrasts in meaning.\n\n### Core Principles\n\n1. **Contrastiveness**  \n   Phonemes are contrastive units. They create **minimal pairs**\u2014words that differ by only one sound but have completely different meanings. The provided example illustrates this clearly: in English, /p/ and /b/ are separate phonemes because substituting one for the other changes \u201cpat\u201d into \u201cbat.\u201d This contrastive function is the primary test for determining whether two sounds are distinct phonemes in a language.\n\n2. **Complementary Distribution**  \n   Sounds that do not contrast with each other are typically **allophones** (context-dependent variants) of the same phoneme. These variants appear in mutually exclusive environments and do not change word meaning. Their distribution is predictable and governed by the language\u2019s rules.\n\n3. **Phonological Rules**  \n   These are the systematic principles that determine how phonemes are realized as actual speech sounds in different contexts. Phonological rules explain the mapping between the abstract phoneme and its concrete phonetic forms.\n\n### Role in Linguistic Analysis and Application\n\nPhonemes are the foundation of **phonological analysis**. By identifying the phoneme inventory of a language, linguists can:\n- Describe the overall sound system,\n- Study how children acquire language,\n- Design effective writing systems (orthographies).\n\nIn practical domains, phonemic understanding is essential for:\n- Developing speech recognition technology,\n- Teaching languages effectively,\n- Diagnosing and treating speech disorders in clinical settings.\n\nIn summary, a phoneme is not merely a sound but a functional, contrastive unit within a language\u2019s sound system. Its significance lies in both theoretical linguistics\u2014where it enables systematic analysis of sound patterns\u2014and in real-world applications that depend on accurate modeling of how sounds convey meaning.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 1.0,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9833400000000001
+    }
+  ],
+  "failed_levels": [],
+  "analysis": {
+    "CSI": 0.0,
+    "mean_score": 0.9353360000000001,
+    "mean_agreement": 0.93306,
+    "decay_direction": "\u2193 Graceful (expected)",
+    "compression_levels": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "scores": [
+      1.0,
+      1.0,
+      0.7100000000000001,
+      0.9833400000000001,
+      0.9833400000000001
+    ],
+    "agreement_scores": [
+      1.0,
+      1.0,
+      0.7911,
+      0.9371,
+      0.9371
+    ]
+  }
+}

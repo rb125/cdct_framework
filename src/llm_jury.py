@@ -1,21 +1,15 @@
 """
-LLM Jury module for CDCT - VERSION 2.1 with separated metrics.
+LLM Jury module for CDCT - VERSION 3.0 with 3-model zero-overlap jury.
 
-CRITICAL IMPROVEMENT: Separates Constraint Compliance from Semantic Accuracy.
-
-Previous versions conflated:
-- "Did you follow the constraint?" (behavioral/compliance)
-- "Is your content correct?" (semantic/accuracy)
-
-This version measures THREE INDEPENDENT dimensions:
+Measures THREE INDEPENDENT dimensions:
 1. CC (Constraint Compliance): Length and content restriction adherence
 2. SA (Semantic Accuracy): Factual correctness given available context
 3. FC (Functional Completeness): Answer quality given constraint
 
-Jury members:
-- Claude Opus 4.1-2: Conservative factuality assessment
-- GPT-5.1: Stable reasoning evaluation  
-- DeepSeek-V3.1: Logical consistency validation
+Jury members (zero family overlap with contestants):
+- GLM 5: Semantic accuracy (SA primary)
+- GLM 4.7: Constraint compliance (CC primary)
+- NVIDIA Nemotron Super 3 120B: Functional completeness (FC primary)
 """
 
 import json
@@ -40,22 +34,31 @@ class LLMJury:
     
     # Jury composition: model name → configuration
     JURY_CONFIG = {
-        "gpt-5.2": {
-            "display_name": "GPT-5.2 (Stable Reasoning)",
-            "axis": "reasoning_stability",
+        "Qwen3-32B": {
+            "display_name": "Qwen3 32B (Semantic Accuracy)",
+            "axis": "semantic_accuracy",
             "weights": {
-                "CC": 0.35,   # Moderate on compliance
-                "SA": 0.35,   # Moderate on semantic accuracy
+                "CC": 0.25,
+                "SA": 0.45,
                 "FC": 0.30
             }
         },
-        "DeepSeek-v3.2": {
-            "display_name": "DeepSeek-V3.2 (Logical Consistency)",
-            "axis": "logical_consistency",
+        "GLM-5": {
+            "display_name": "GLM 5 (Constraint Compliance)",
+            "axis": "constraint_compliance",
             "weights": {
-                "CC": 0.40,   # Primary on compliance detection
-                "SA": 0.30,   # Secondary on accuracy
+                "CC": 0.45,
+                "SA": 0.25,
                 "FC": 0.30
+            }
+        },
+        "Nemotron-Super-3-120B": {
+            "display_name": "NVIDIA Nemotron Super 3 120B (Functional Completeness)",
+            "axis": "functional_completeness",
+            "weights": {
+                "CC": 0.30,
+                "SA": 0.30,
+                "FC": 0.40
             }
         }
     }
@@ -63,16 +66,19 @@ class LLMJury:
     # Aggregate weights for consensus (priority weighting)
     CONSENSUS_WEIGHTS = {
         "CC": {
-            "DeepSeek-v3.2": 0.60,       # DeepSeek primary on compliance
-            "gpt-5.2": 0.40              # GPT-5.2 secondary
+            "GLM-5": 0.50,
+            "Qwen3-32B": 0.25,
+            "Nemotron-Super-3-120B": 0.25
         },
         "SA": {
-            "gpt-5.2": 0.60,             # GPT-5.2 primary on semantic accuracy
-            "DeepSeek-v3.2": 0.40        # DeepSeek secondary
+            "Qwen3-32B": 0.50,
+            "GLM-5": 0.25,
+            "Nemotron-Super-3-120B": 0.25
         },
         "FC": {
-            "gpt-5.2": 0.50,             # Equal weight
-            "DeepSeek-v3.2": 0.50
+            "Nemotron-Super-3-120B": 0.40,
+            "GLM-5": 0.30,
+            "Qwen3-32B": 0.30
         }
     }
     
