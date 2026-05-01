@@ -23,30 +23,30 @@
             "SA": 0.9,
             "FC": 1.0
           },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 0.7,
+            "FC": 1.0
+          },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
-          },
-          "GLM-5": {
-            "CC": 0.0,
-            "SA": 0.7,
-            "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.5,
+          "CC": 0.75,
           "SA": 0.875,
           "FC": 1.0,
-          "agreement_score": 0.6026,
-          "judge_variance_CC": 0.4714,
+          "agreement_score": 0.7597,
+          "judge_variance_CC": 0.2357,
           "judge_variance_SA": 0.1247,
           "judge_variance_FC": 0.0,
           "judge_count": 3,
-          "recommendation": "CAUTION - Jury disagreement (brittle response?)"
+          "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.75
+      "score": 0.8500000000000001
     },
     {
       "compression_level": 0.25,
@@ -66,30 +66,30 @@
             "FC": 0.7
           },
           "GLM-5": {
-            "CC": 0.5,
+            "CC": 0.4,
             "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.45,
+          "CC": 0.4,
           "SA": 0.95,
           "FC": 0.8,
-          "agreement_score": 0.8429,
-          "judge_variance_CC": 0.0471,
+          "agreement_score": 0.8743,
+          "judge_variance_CC": 0.0,
           "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.1414,
           "judge_count": 3,
-          "recommendation": "MODERATE - Jury consensus with variation"
+          "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.7200000000000001
+      "score": 0.7000000000000001
     },
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "response_length": 302,
-      "response": "The equation \\( F = ma \\) is a fundamental principle in physics known as Newton's Second Law of Motion. It describes the relationship between force (\\( F \\)), mass (\\( m \\)), and acceleration (\\( a \\)).\n\nHere's a breakdown of the components:\n\n1. **Force (\\( F \\))**: This is a push or pull acting upon an object. It is a vector quantity, meaning it has both magnitude and direction. Forces can cause objects to start moving, stop moving, change direction, or change speed.\n\n2. **Mass (\\( m \\))**: This is a measure of the amount of matter in an object. It is a scalar quantity, meaning it only has magnitude and no direction. Mass is a measure of an object's resistance to acceleration when a force is applied.\n\n3. **Acceleration (\\( a \\))**: This is the rate of change of velocity of an object. It is also a vector quantity, indicating how quickly an object speeds up, slows down, or changes direction.\n\nThe equation \\( F = ma \\) states that the force applied to an object is equal to the mass of the object multiplied by the acceleration produced. This means:\n\n- If you apply a greater force to an object, it will accelerate more, assuming the mass remains constant.\n- If the mass of an object is greater, more force is required to achieve the same acceleration.\n- Acceleration is directly proportional to the force applied and inversely proportional to the mass of the object.\n\nThis relationship is crucial for predicting and understanding how objects move in response to forces, which is essential in both everyday life and engineering applications. For example, when designing vehicles, engineers use this principle to determine how much force is needed to achieve desired accelerations, taking into account the mass of the vehicle.",
+      "response_length": 343,
+      "response": "The equation \\( F = ma \\) is a fundamental principle in physics known as Newton's Second Law of Motion. It describes the relationship between force (\\( F \\)), mass (\\( m \\)), and acceleration (\\( a \\)).\n\nHere's a breakdown of the components:\n\n1. **Force (\\( F \\))**: This is a push or pull acting upon an object. It is a vector quantity, meaning it has both magnitude and direction. Forces can cause objects to start moving, stop moving, change direction, or change speed.\n\n2. **Mass (\\( m \\))**: This is a measure of the amount of matter in an object. It is a scalar quantity, meaning it only has magnitude and no direction. Mass is a measure of an object's inertia, or its resistance to changes in motion.\n\n3. **Acceleration (\\( a \\))**: This is the rate at which an object's velocity changes over time. It is also a vector quantity, with both magnitude and direction. Acceleration can occur as a change in speed, a change in direction, or both.\n\nThe equation \\( F = ma \\) states that the force acting on an object is equal to the mass of the object multiplied by its acceleration. This implies that:\n\n- For a given force, a larger mass will result in a smaller acceleration, and a smaller mass will result in a larger acceleration. This is because mass is a measure of how much an object resists acceleration.\n  \n- For a given mass, a larger force will result in a larger acceleration, and a smaller force will result in a smaller acceleration. This shows that force is directly responsible for changing the motion of an object.\n\nIn practical terms, this relationship allows us to predict how objects will move when forces are applied. For example, if you know the mass of a car and the force applied by its engine, you can calculate how quickly the car will accelerate. This principle is crucial in engineering and everyday life, helping us design vehicles, understand the motion of celestial bodies, and much more.",
       "jury_evaluation": {
         "judges": {
           "Nemotron-Super-3-120B": {
@@ -98,35 +98,35 @@
             "FC": 0.7
           },
           "Qwen3-32B": {
-            "CC": 0.3,
+            "CC": 0.1,
             "SA": 0.8,
-            "FC": 0.7
+            "FC": 0.6
           },
           "GLM-5": {
             "CC": 0.1,
             "SA": 0.4,
-            "FC": 0.4
+            "FC": 0.9
           }
         },
         "consensus": {
-          "CC": 0.15,
+          "CC": 0.1,
           "SA": 0.675,
-          "FC": 0.6,
-          "agreement_score": 0.7296,
-          "judge_variance_CC": 0.0943,
+          "FC": 0.7333,
+          "agreement_score": 0.8035,
+          "judge_variance_CC": 0.0,
           "judge_variance_SA": 0.17,
-          "judge_variance_FC": 0.1414,
+          "judge_variance_FC": 0.1247,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.45
+      "score": 0.45666000000000007
     },
     {
       "compression_level": 0.75,
       "context_length": 66,
-      "response_length": 444,
-      "response": "Newton's second law of motion, often expressed as \\( F = ma \\), is a fundamental principle in physics that describes the relationship between force, mass, and acceleration. Here's a detailed explanation of this concept:\n\n1. **Force (\\( F \\))**: In this equation, force is the push or pull exerted on an object. It is a vector quantity, meaning it has both magnitude and direction. Force is measured in newtons (N) in the International System of Units (SI).\n\n2. **Mass (\\( m \\))**: Mass is a measure of the amount of matter in an object, and it is a scalar quantity, meaning it only has magnitude and no direction. Mass is measured in kilograms (kg) in the SI system. It is a measure of an object's inertia, or its resistance to changes in motion.\n\n3. **Acceleration (\\( a \\))**: Acceleration is the rate of change of velocity of an object. It is also a vector quantity, with both magnitude and direction. Acceleration is measured in meters per second squared (m/s\u00b2) in the SI system.\n\nThe equation \\( F = ma \\) states that the force applied to an object is equal to the mass of the object multiplied by its acceleration. This relationship implies several key points:\n\n- **Direct Proportionality**: The force applied to an object is directly proportional to the acceleration it experiences, assuming the mass remains constant. This means that if you double the force applied to an object, its acceleration will also double, provided the mass does not change.\n\n- **Influence of Mass**: For a given force, an object with a larger mass will experience a smaller acceleration compared to an object with a smaller mass. This is because mass acts as a measure of an object's resistance to acceleration. For example, it is harder to accelerate a car than a bicycle with the same amount of force because the car has a greater mass.\n\n- **Practical Applications**: Engineers and scientists use this principle to design and analyze systems involving motion. For instance, in vehicle design, understanding how different forces affect acceleration helps in optimizing performance and safety. In transportation systems, ensuring that vehicles can accelerate and decelerate safely under various conditions is crucial for passenger safety.\n\n- **Predicting Motion**: By knowing the mass of an object and the forces acting upon it, one can predict how the object will move. This is essential in fields ranging from aerospace engineering to biomechanics.\n\nIn summary, Newton's second law of motion provides a quantitative description of how forces affect the motion of objects. It is a cornerstone of classical mechanics and is essential for understanding and predicting the behavior of objects in motion.",
+      "response_length": 462,
+      "response": "Newton's second law of motion, often expressed as \\( F = ma \\), is a fundamental principle in physics that describes the relationship between force, mass, and acceleration. Here's a detailed explanation of this concept:\n\n1. **Force (\\( F \\))**: In this equation, force is the external influence that causes an object to change its velocity, i.e., to accelerate. Force is a vector quantity, meaning it has both magnitude and direction. It is measured in newtons (N) in the International System of Units (SI).\n\n2. **Mass (\\( m \\))**: Mass is a measure of the amount of matter in an object and is a scalar quantity, meaning it only has magnitude and no direction. It is measured in kilograms (kg) in the SI system. Mass is a measure of an object's inertia, which is its resistance to changes in motion.\n\n3. **Acceleration (\\( a \\))**: Acceleration is the rate of change of velocity of an object. It is also a vector quantity, with both magnitude and direction, and is measured in meters per second squared (m/s\u00b2) in the SI system.\n\nThe equation \\( F = ma \\) states that the force applied to an object is equal to the mass of the object multiplied by the acceleration produced. This relationship implies several key points:\n\n- **Direct Proportionality**: The force applied to an object is directly proportional to the acceleration it experiences, assuming the mass remains constant. This means that if you double the force applied to an object, its acceleration will also double, provided the mass does not change.\n\n- **Inverse Proportionality**: For a given force, the acceleration is inversely proportional to the mass. This means that if you have two objects with different masses and apply the same force to both, the object with the smaller mass will experience a greater acceleration.\n\n- **Practical Implications**: In practical terms, this principle is used extensively in engineering and physics. For example, when designing vehicles, engineers must consider the mass of the vehicle and the forces that will act upon it, such as friction, air resistance, and engine force, to predict how the vehicle will accelerate. This understanding is crucial for ensuring the safety and efficiency of transportation systems.\n\n- **Example**: Consider pushing a car versus a bicycle. The car has a much larger mass than the bicycle. To achieve the same acceleration, you would need to apply a much greater force to the car than to the bicycle. This is because the car's greater mass requires more force to overcome its inertia.\n\nIn summary, Newton's second law of motion provides a quantitative description of the dynamics of objects. It allows us to predict how objects will move when forces are applied, which is essential for understanding and designing systems in the physical world.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -162,19 +162,19 @@
     {
       "compression_level": 1.0,
       "context_length": 145,
-      "response_length": 473,
-      "response": "Newton's Second Law of Motion, represented by the equation \\( F = ma \\), is a fundamental principle in physics that describes the relationship between the forces acting on an object, its mass, and the resulting acceleration. Here's a comprehensive explanation of the concepts involved:\n\n1. **Net Force (\\( F \\))**: This is the total force acting on an object. It is a vector quantity, meaning it has both magnitude and direction. The net force is the vector sum of all individual forces acting on the object. If multiple forces are acting on an object, they must be combined to determine the net force, taking into account their directions.\n\n2. **Mass (\\( m \\))**: Mass is a measure of the amount of matter in an object and is a scalar quantity, meaning it has magnitude but no direction. It is a measure of an object's inertia, or resistance to changes in its state of motion. In the equation \\( F = ma \\), mass acts as a proportionality constant that relates force and acceleration.\n\n3. **Acceleration (\\( a \\))**: Acceleration is the rate of change of velocity of an object. Like force, it is a vector quantity, having both magnitude and direction. Acceleration occurs when an object speeds up, slows down, or changes direction.\n\n4. **Proportionality**: The equation \\( F = ma \\) indicates that acceleration is directly proportional to the net force applied to an object and inversely proportional to its mass. This means:\n   - For a constant mass, if the net force increases, the acceleration increases proportionally.\n   - For a constant force, if the mass increases, the acceleration decreases.\n\n5. **Vector Nature**: Both force and acceleration are vectors, so the direction of the net force determines the direction of the acceleration. This is crucial in understanding how objects move in different directions under various forces.\n\n6. **Applications**: The law is widely applicable in various fields:\n   - **Vehicle Dynamics**: Engineers use \\( F = ma \\) to design vehicles that can accelerate efficiently and safely.\n   - **Planetary Motion**: Astronomers apply the law to predict the motion of planets and other celestial bodies.\n   - **Engineering Structures**: It helps in analyzing forces in structures to ensure stability and safety.\n   - **Everyday Phenomena**: Understanding how forces affect motion helps explain activities like walking, driving, or playing sports.\n\n7. **Classical Mechanics**: Newton's Second Law is a cornerstone of classical mechanics, providing a framework for modeling and predicting the behavior of physical systems. It allows for precise calculations and predictions about how objects will move under various forces.\n\nIn summary, \\( F = ma \\) is a powerful tool in physics that quantifies how forces affect the motion of objects, taking into account their mass and the resulting acceleration. It is essential for understanding and predicting the dynamics of physical systems in both theoretical and practical contexts.",
+      "response_length": 522,
+      "response": "Newton's Second Law of Motion, represented by the equation \\( F = ma \\), is a fundamental principle in classical mechanics that describes the relationship between the forces acting on an object, its mass, and the resulting acceleration. Here's a comprehensive explanation of the concepts involved:\n\n1. **Net Force (\\( F \\))**: This is the total force acting on an object, taking into account all individual forces. It is a vector quantity, meaning it has both magnitude and direction. The net force is the vector sum of all forces acting on the object. If multiple forces are acting on an object, they must be combined to determine the net force.\n\n2. **Mass (\\( m \\))**: Mass is a measure of the amount of matter in an object and is a scalar quantity, meaning it has magnitude but no direction. It is a measure of an object's inertia, or resistance to changes in its state of motion. In the equation \\( F = ma \\), mass acts as a proportionality constant that relates force and acceleration.\n\n3. **Acceleration (\\( a \\))**: Acceleration is the rate of change of velocity of an object. It is also a vector quantity, having both magnitude and direction. According to Newton's Second Law, acceleration is directly proportional to the net force acting on an object and inversely proportional to its mass. This means that for a given force, a more massive object will experience less acceleration than a less massive one.\n\n4. **Proportionality**: The law states that acceleration is directly proportional to the net force. This means that if the net force on an object is doubled, its acceleration will also double, assuming the mass remains constant. Conversely, if the mass of the object is doubled while the force remains constant, the acceleration will be halved.\n\n5. **Vector Nature**: Both force and acceleration are vectors, which means they have both magnitude and direction. The direction of the acceleration is the same as the direction of the net force. This vector nature is crucial for accurately predicting the motion of objects.\n\n6. **Applications**: The equation \\( F = ma \\) is widely used in various fields. In vehicle dynamics, it helps in understanding how forces like friction and engine thrust affect a car's motion. In engineering, it is used to design structures that can withstand forces. In astronomy, it aids in predicting the motion of planets and other celestial bodies. Everyday phenomena, such as walking or driving, can also be analyzed using this law.\n\n7. **Cornerstone of Classical Mechanics**: Newton's Second Law is a cornerstone of classical mechanics, providing a framework for modeling and predicting the behavior of physical systems. It allows scientists and engineers to calculate the effects of forces on objects, leading to advancements in technology and a deeper understanding of the physical world.\n\nIn summary, \\( F = ma \\) encapsulates the idea that the motion of an object is determined by the forces acting upon it and its mass. It provides a quantitative tool for analyzing and predicting how objects will move under various force conditions, making it essential for both theoretical and applied physics.",
       "jury_evaluation": {
         "judges": {
-          "Qwen3-32B": {
-            "CC": 0.9,
-            "SA": 0.95,
-            "FC": 0.9
-          },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
           },
           "GLM-5": {
             "CC": 1.0,
@@ -200,9 +200,9 @@
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.769336,
-    "mean_agreement": 0.80044,
-    "decay_direction": "\u2191 Improvement with compression",
+    "mean_score": 0.786668,
+    "mean_agreement": 0.8529199999999999,
+    "decay_direction": "\u2192 Stable",
     "compression_levels": [
       0.0,
       0.25,
@@ -211,16 +211,16 @@
       1.0
     ],
     "scores": [
-      0.75,
-      0.7200000000000001,
-      0.45,
+      0.8500000000000001,
+      0.7000000000000001,
+      0.45666000000000007,
       0.9533400000000001,
       0.9733400000000001
     ],
     "agreement_scores": [
-      0.6026,
-      0.8429,
-      0.7296,
+      0.7597,
+      0.8743,
+      0.8035,
       0.9057,
       0.9214
     ]

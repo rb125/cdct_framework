@@ -26,7 +26,7 @@
           "Qwen3-32B": {
             "CC": 1.0,
             "SA": 0.9,
-            "FC": 0.9
+            "FC": 0.7
           },
           "GLM-5": {
             "CC": 1.0,
@@ -37,84 +37,84 @@
         "consensus": {
           "CC": 1.0,
           "SA": 0.95,
-          "FC": 0.8667,
-          "agreement_score": 0.8854,
+          "FC": 0.8,
+          "agreement_score": 0.8743,
           "judge_variance_CC": 0.0,
           "judge_variance_SA": 0.0471,
-          "judge_variance_FC": 0.1247,
+          "judge_variance_FC": 0.1414,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9533400000000001
+      "score": 0.9400000000000001
     },
     {
       "compression_level": 0.25,
       "context_length": 5,
-      "response_length": 19,
-      "response": "Recursion involves a self-calling function with a base case. The function calls itself repeatedly until reaching the base case.",
+      "response_length": 21,
+      "response": "Recursion is a self-calling function that includes a base case. The base case prevents infinite self-calls by providing a termination condition.",
       "jury_evaluation": {
         "judges": {
-          "Nemotron-Super-3-120B": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 1.0
-          },
           "Qwen3-32B": {
-            "CC": 1.0,
+            "CC": 0.9,
             "SA": 0.9,
             "FC": 0.9
           },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.7,
+            "SA": 1.0,
+            "FC": 1.0
+          },
           "GLM-5": {
-            "CC": 0.5,
+            "CC": 0.8,
             "SA": 0.7,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.75,
+          "CC": 0.8,
           "SA": 0.875,
           "FC": 0.9667,
-          "agreement_score": 0.7283,
-          "judge_variance_CC": 0.2357,
+          "agreement_score": 0.831,
+          "judge_variance_CC": 0.0816,
           "judge_variance_SA": 0.1247,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.8433400000000002
+      "score": 0.8633400000000002
     },
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "response_length": 186,
-      "response": "Recursion is a programming technique where a function calls itself repeatedly to solve problems. It operates through two essential mechanisms: a **base case** and the **recursive process**.\n\nThe **base case** serves as the termination condition\u2014it defines the simplest version of the problem that can be solved directly without further self-reference. This prevents infinite loops by providing a concrete stopping point where the function returns a definite answer.\n\nThe **recursive process** occurs when the function calls itself with modified parameters, systematically breaking a complex problem into smaller, similar subproblems. Each self-call works on a reduced or simpler instance of the original task, progressively moving toward the base case.\n\nThis creates a chain of delegation: the function addresses a large problem by asking itself to solve a slightly smaller version of that same problem, continuing this pattern until reaching the base case. Once the simplest solution is found, the results propagate back upward through each level of the call stack, combining to resolve the original complex task. This approach is particularly powerful for problems with inherent recursive structures, such as navigating hierarchical data, mathematical sequences, or divide-and-conquer algorithms.",
+      "response_length": 262,
+      "response": "Recursion is a programming technique where a **function calls itself** repeatedly to solve a problem, structured around two essential components that work together to prevent infinite loops while decomposing complexity.\n\n**Self-Calling Mechanism**\nAt its core, recursion operates through a function that invokes itself within its own definition. Rather than solving an entire problem in one execution, the function handles a small piece of the task and delegates the remainder to a new call of itself. This creates a chain of execution where each instance works on a progressively smaller, similar version of the original problem.\n\n**The Base Case**\nCrucially, a recursive function must include a **base case**\u2014a specific condition that stops the self-calling process. This acts as a safety mechanism that prevents the function from calling itself indefinitely. The base case represents the simplest possible form of the problem, one that can be solved directly and immediately without requiring further recursion.\n\n**Problem Decomposition**\nThe strategy relies on **breaking complex problems into smaller, similar subtasks** until reaching a state simple enough to solve directly (the base case). Once the deepest recursive call hits this simple solution, each preceding call returns its result back up the chain, combining the solutions of the smaller subproblems to construct the answer to the original complex challenge.\n\nFor instance, calculating 5 factorial (5!) recursively involves multiplying 5 by the factorial of 4, which calls itself to find the factorial of 3, and so on, until reaching 1 (the base case), at which point the calculations resolve backward: 1 \u00d7 2 \u00d7 3 \u00d7 4 \u00d7 5 = 120.",
       "jury_evaluation": {
         "judges": {
+          "Qwen3-32B": {
+            "CC": 0.3,
+            "SA": 0.9,
+            "FC": 0.7
+          },
           "Nemotron-Super-3-120B": {
-            "CC": 0.2,
+            "CC": 0.1,
             "SA": 1.0,
             "FC": 1.0
           },
-          "Qwen3-32B": {
-            "CC": 0.3,
-            "SA": 0.8,
-            "FC": 0.7
-          },
           "GLM-5": {
             "CC": 0.2,
-            "SA": 0.8,
+            "SA": 0.7,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.225,
-          "SA": 0.85,
+          "CC": 0.2,
+          "SA": 0.875,
           "FC": 0.9,
-          "agreement_score": 0.8114,
-          "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0943,
+          "agreement_score": 0.7681,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.1247,
           "judge_variance_FC": 0.1414,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
@@ -125,15 +125,10 @@
     {
       "compression_level": 0.75,
       "context_length": 65,
-      "response_length": 533,
-      "response": "Recursion is a fundamental problem-solving technique in computer science where a function solves a problem by breaking it down into smaller, self-similar subproblems and invoking itself to handle each subset. Rather than solving the entire problem at once, recursion employs a \"divide and conquer\" strategy that continues until the problem becomes trivially simple.\n\n## Core Mechanism\n\nThe recursive process relies on two essential components working in tandem:\n\n**The Base Case**: This is the termination condition that stops the recursion. It represents the smallest possible instance of the problem that can be solved directly without further function calls. Without a properly defined base case, the function would call itself indefinitely, resulting in a stack overflow error.\n\n**The Recursive Case**: This is where the function calls itself, but crucially, it must pass a modified version of the original problem\u2014one that is strictly smaller or simpler than the previous iteration. Each recursive call moves progressively closer to the base case, creating a chain of deferred operations that eventually unwind when the base case is reached.\n\n## Execution Flow\n\nWhen a recursive function executes, the programming language maintains a **call stack**\u2014a data structure that tracks each incomplete function call along with its local variables and parameters. The process unfolds in two phases:\n\n1. **Winding Phase**: The function repeatedly calls itself, pushing new stack frames onto the call stack with progressively smaller inputs until the base case is satisfied.\n2. **Unwinding Phase**: Once the base case returns a value, the stack frames pop off in reverse order, with each returning result feeding into the previous call's computation until the original caller receives the final answer.\n\n## Practical Applications\n\n**Mathematical Computation**: Calculating factorials exemplifies recursion perfectly. To compute *n!*, the function returns *n* multiplied by the factorial of *(n-1)*, with the base case defined as *0! = 1*. Each call reduces the problem size by one until reaching the base case, then multiplies the values on the return journey.\n\n**Sorting Algorithms**: Both quicksort and mergesort leverage recursion to achieve efficiency. Quicksort recursively sorts partitions of an array around a pivot element, while mergesort recursively divides an array in half, sorts each half, and merges the results. The self-similar nature of \"sorting a list\" applies equally to sublists of any size.\n\n**Data Structure Traversal**: Tree structures are inherently recursive\u2014a tree consists of nodes that contain subtrees. Recursive traversal naturally follows this architecture: process the current node (base case logic), then recursively process the left and right children. This approach elegantly handles arbitrary tree depths without complex iterative bookkeeping.\n\n## Strategic Advantages\n\nRecursion excels when problems exhibit **self-similarity**\u2014when the solution to the whole problem resembles the solution to its parts. It often produces code that is more readable, maintainable, and mathematically elegant than iterative alternatives. By delegating the complexity of state management to the system stack, programmers can focus on the logical relationship between a problem and its subproblems rather than manual loop control and temporary variable tracking.\n\nHowever, recursion carries trade-offs: each function call consumes memory and processing overhead, and deeply recursive algorithms may hit stack depth limits. For performance-critical applications with large input sizes, iterative solutions or tail-recursion optimization (where supported) may be preferable despite the reduced code clarity.",
+      "response_length": 471,
+      "response": "Recursion is a fundamental problem-solving technique in computer science where a function invokes itself to decompose a complex problem into progressively smaller, self-similar subproblems. This approach leverages the principle that certain problems can be defined in terms of themselves, but with reduced complexity, until reaching a trivial instance that can be solved directly.\n\n## Core Mechanism\n\nThe recursive process operates through two essential components working in tandem:\n\n**The Base Case** serves as the termination condition that halts the self-referential chain. Without this safeguard, the function would call itself indefinitely, creating an infinite loop and eventually causing a stack overflow. The base case represents the simplest possible instance of the problem\u2014one that can be solved without further decomposition.\n\n**The Recursive Step** involves the function calling itself with a modified input that represents a smaller or simpler version of the original problem. Each recursive call operates on this diminished scope, carrying the computation forward while assuming the deeper call will handle the reduced subproblem correctly.\n\n## Execution Dynamics\n\nWhen a recursive function executes, the runtime environment maintains a **call stack**\u2014a data structure that tracks each active function call. Each recursive invocation pushes a new stack frame containing local variables and the return address onto this stack. The computation \"drills down\" through successive calls until hitting the base case. At that point, the stack begins to \"unwind,\" with each returning value propagating back up the chain, combining results until the original call receives the final solution.\n\n## Practical Applications\n\nThe context highlights several domains where recursion proves particularly elegant:\n\n**Mathematical Computation (Factorials):** Calculating $n!$ exemplifies recursion naturally\u2014$n! = n \\times (n-1)!$, with the base case defined as $0! = 1$. Each call reduces the integer by one, creating a cascade of multiplications that resolve when reaching zero.\n\n**Sorting Algorithms:** Both quicksort and mergesort employ divide-and-conquer recursion. Quicksort recursively sorts partitions of an array around a pivot element, while mergesort recursively divides arrays in half until reaching single elements, then merges the sorted halves. The \"smaller instance\" here is literally a smaller portion of the dataset.\n\n**Tree Traversal:** Hierarchical data structures like trees inherently exhibit self-similarity\u2014each subtree is itself a tree. Recursive traversal (in-order, pre-order, post-order) naturally follows this structure, treating each child node as the root of a new sub-tree without requiring explicit stack management by the programmer.\n\n## Strategic Advantages\n\nRecursion simplifies code for problems exhibiting **fractal-like self-similarity**, where the solution pattern repeats at different scales. Rather than implementing complex iterative loops with manual stack management, recursive solutions mirror the mathematical definition of the problem, often resulting in more readable, maintainable code that aligns with inductive reasoning. However, this elegance trades against memory overhead (due to call stack usage) and potential performance costs, making it essential to ensure each recursive step genuinely progresses toward the base case with a measurably smaller problem instance.",
       "jury_evaluation": {
         "judges": {
-          "Nemotron-Super-3-120B": {
-            "CC": 1.0,
-            "SA": 0.9,
-            "FC": 1.0
-          },
           "Qwen3-32B": {
             "CC": 0.9,
             "SA": 0.9,
@@ -143,36 +138,41 @@
             "CC": 1.0,
             "SA": 0.9,
             "FC": 1.0
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 0.9,
+            "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.975,
+          "CC": 0.925,
           "SA": 0.9,
           "FC": 0.9667,
-          "agreement_score": 0.9371,
-          "judge_variance_CC": 0.0471,
+          "agreement_score": 0.9141,
+          "judge_variance_CC": 0.0816,
           "judge_variance_SA": 0.0,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9433400000000001
+      "score": 0.92334
     },
     {
       "compression_level": 1.0,
       "context_length": 139,
-      "response_length": 500,
-      "response": "Recursion is a fundamental problem-solving methodology in computer science wherein a function invokes itself\u2014either directly or through intermediate functions\u2014to decompose a complex problem into progressively smaller, self-similar subproblems. This approach leverages the principle that a problem can be solved by solving smaller instances of the same problem and combining their results.\n\n## Core Mechanisms\n\n**The Base Case and Recursive Case**\nAt the heart of recursion lie two indispensable components. The **base case** serves as the termination condition that halts the recursive chain, returning a concrete value without further self-invocation. Without properly defined base cases, recursion would trigger infinite loops and culminate in stack overflow errors as the system exhausts available memory. Conversely, the **recursive case** systematically reduces the problem's complexity or size at each step, ensuring that every successive call moves closer to the base case. This gradual convergence guarantees that the recursion eventually terminates.\n\n**The Call Stack**\nRecursion operates through the **call stack**, a specialized data structure that maintains the state of each function invocation. When a recursive function calls itself, the current execution context\u2014including local variables and the return address\u2014is pushed onto the stack. As base cases are reached and functions return, contexts are popped from the stack in reverse order (Last-In-First-Out), allowing the computation to unwind and aggregate results across all levels of the recursion.\n\n## Applicability and Self-Similarity\n\nRecursion proves particularly effective for problems exhibiting **self-similarity**, where the overall structure mirrors its constituent parts. This characteristic appears prominently in:\n\n- **Mathematical sequences**: Computing factorials (where *n!* depends on *(n-1)!*) or generating Fibonacci numbers (where each term derives from the sum of two preceding terms)\n- **Tree traversals**: Processing hierarchical data structures where each subtree possesses the same structural properties as the parent tree\n- **Graph algorithms**: Implementing depth-first search (DFS), which explores each branch to its completion before backtracking, naturally mirroring the recursive pattern of investigating subproblems before returning to broader contexts\n\n## Practical Applications\n\nBeyond theoretical constructs, recursion underpins elegant implementations of sophisticated algorithms. **Divide-and-conquer** sorting algorithms such as **quicksort** and **mergesort** exemplify this utility: they recursively partition data into smaller segments, sort each segment, and merge the results. Similarly, recursive approaches simplify code for parsing nested structures, generating permutations, and navigating complex graph topologies where the depth and structure are unknown beforehand.\n\n## Limitations and Considerations\n\nDespite its elegance, recursion demands careful consideration of computational constraints. Each recursive call consumes stack memory to preserve execution context; excessive recursion depth can exhaust stack space, causing program crashes. Additionally, the overhead of function calls and stack management may introduce performance penalties compared to iterative solutions, particularly for simple linear processes or when recursion depth is unpredictable. Consequently, while recursion offers conceptual clarity and concise code for inherently hierarchical problems, iterative alternatives may be preferred in resource-constrained environments or for deeply nested computations.\n\nIn summary, recursion represents a powerful paradigm for expressing solutions to complex computational problems by embracing self-reference and progressive simplification, provided that developers carefully engineer base cases and remain mindful of system stack limitations.",
+      "response_length": 487,
+      "response": "**Recursion** is a fundamental problem-solving methodology in computer science wherein a function invokes itself\u2014either directly or through a chain of other functions\u2014to decompose a complex problem into progressively smaller, more manageable subproblems. This self-referential approach is particularly powerful for tasks exhibiting **self-similarity**, where the structure of the problem repeats at different scales.\n\n## Core Mechanisms\n\nThe implementation of recursion relies on two indispensable principles:\n\n**1. The Base Case**\nThis is the termination condition that halts the recursive chain. Without a properly defined base case, the function would call itself indefinitely, resulting in an infinite loop and ultimately a **stack overflow error** as the system exhausts its memory allocation for the call stack. The base case represents the simplest instance of the problem that can be solved without further decomposition.\n\n**2. The Recursive Case**\nThis component reduces the problem's complexity at each step, moving the computation closer to the base case. Each recursive invocation operates on a smaller subset of the original data, ensuring that the process converges toward termination.\n\n## Technical Implementation\n\nRecursion leverages the **call stack**\u2014a specialized data structure that manages function invocations. When a recursive function calls itself, the system pushes a new **stack frame** onto the call stack, preserving the current function's state (including local variables and parameters) before executing the new instance. This stacking continues until the base case is reached, at which point the stack \"unwinds\": each frame returns its result to the previous caller, aggregating solutions until the original invocation receives the final answer.\n\n## Applications and Examples\n\nRecursion proves especially effective for problems with inherently recursive structures:\n\n*   **Mathematical Computations**: Calculating a **factorial** (n! = n \u00d7 (n-1)!) or generating the **Fibonacci sequence**, where each term depends on previous terms following the same rule.\n*   **Tree Traversals**: Navigating hierarchical data structures where each child node is itself the root of a subtree, requiring identical processing logic at every level.\n*   **Graph Algorithms**: Implementing **depth-first search (DFS)**, which explores as far as possible along each branch before backtracking\u2014a pattern that maps naturally to recursive function calls.\n*   **Divide-and-Conquer Sorting**: Algorithms like **quicksort** and **mergesort** recursively partition arrays into smaller segments, sort them, and combine the results, simplifying code that would otherwise require complex iterative state management.\n\n## Limitations and Considerations\n\nDespite its elegance, recursion carries practical constraints. Each recursive call consumes stack memory, and **excessive recursion** can exhaust available stack space, causing program crashes. Additionally, the overhead of repeated function calls and stack management may introduce performance penalties compared to **iterative solutions**. Consequently, while recursion offers clarity and conciseness for logically recursive problems, iterative approaches may be preferred in resource-constrained environments or when processing extremely deep data structures.\n\nIn summary, recursion is a cornerstone computational technique that enables elegant, readable solutions to complex problems by mirroring the self-similar nature of the challenges it addresses, provided that developers carefully implement base cases to ensure termination and remain mindful of system stack limitations.",
       "jury_evaluation": {
         "judges": {
-          "Nemotron-Super-3-120B": {
-            "CC": 1.0,
+          "Qwen3-32B": {
+            "CC": 0.9,
             "SA": 1.0,
             "FC": 1.0
           },
-          "Qwen3-32B": {
-            "CC": 0.9,
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
@@ -200,8 +200,8 @@
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8680040000000002,
-    "mean_agreement": 0.86616,
+    "mean_score": 0.8653360000000001,
+    "mean_agreement": 0.8712199999999999,
     "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
       0.0,
@@ -211,17 +211,17 @@
       1.0
     ],
     "scores": [
-      0.9533400000000001,
-      0.8433400000000002,
+      0.9400000000000001,
+      0.8633400000000002,
       0.6100000000000001,
-      0.9433400000000001,
+      0.92334,
       0.99
     ],
     "agreement_scores": [
-      0.8854,
-      0.7283,
-      0.8114,
-      0.9371,
+      0.8743,
+      0.831,
+      0.7681,
+      0.9141,
       0.9686
     ]
   }

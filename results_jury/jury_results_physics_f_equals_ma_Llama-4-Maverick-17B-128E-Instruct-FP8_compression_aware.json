@@ -20,7 +20,7 @@
         "judges": {
           "Qwen3-32B": {
             "CC": 1.0,
-            "SA": 0.9,
+            "SA": 0.7,
             "FC": 1.0
           },
           "Nemotron-Super-3-120B": {
@@ -36,71 +36,71 @@
         },
         "consensus": {
           "CC": 1.0,
-          "SA": 0.95,
+          "SA": 0.85,
           "FC": 1.0,
-          "agreement_score": 0.9686,
+          "agreement_score": 0.9057,
           "judge_variance_CC": 0.0,
-          "judge_variance_SA": 0.0471,
+          "judge_variance_SA": 0.1414,
           "judge_variance_FC": 0.0,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.98
+      "score": 0.94
     },
     {
       "compression_level": 0.25,
       "context_length": 5,
       "response_length": 17,
-      "response": "Force causes mass to accelerate. This is represented by f = ma. Force equals mass times acceleration.",
+      "response": "Force causes mass to accelerate. This is represented as f = ma. Force equals mass times acceleration.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.9,
+            "CC": 0.7,
             "SA": 0.9,
             "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
-            "CC": 1.0,
+            "CC": 0.7,
             "SA": 1.0,
             "FC": 1.0
           },
           "GLM-5": {
-            "CC": 0.5,
+            "CC": 0.7,
             "SA": 0.7,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.725,
+          "CC": 0.7,
           "SA": 0.875,
           "FC": 0.9667,
-          "agreement_score": 0.7414,
-          "judge_variance_CC": 0.216,
+          "agreement_score": 0.8854,
+          "judge_variance_CC": 0.0,
           "judge_variance_SA": 0.1247,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
-          "recommendation": "MODERATE - Jury consensus with variation"
+          "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.83334
+      "score": 0.82334
     },
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "response_length": 319,
-      "response": "## Step 1: Understand the given context\nThe given context mentions that when a force acts on an object, it causes the object\u2019s mass to accelerate, and this relationship is crucial for understanding motion.\n\n## Step 2: Identify the concept referred to by \"f_equals_ma\"\nThe notation \"f_equals_ma\" refers to the equation F = ma, which is Newton's second law of motion. This law relates the force (F) applied to an object, its mass (m), and the resulting acceleration (a).\n\n## Step 3: Explain Newton's second law of motion (F = ma)\nNewton's second law states that the acceleration of an object is directly proportional to the net force acting upon the object and inversely proportional to its mass. The equation is F = ma, where F is the net force applied to the object, m is the mass of the object, and a is the acceleration produced.\n\n## Step 4: Elaborate on the concepts mentioned\nThe equation F = ma implies that the more force applied to an object, the greater its resulting acceleration will be, assuming its mass remains constant. Conversely, the greater the mass of an object, the less it will accelerate when a given force is applied. This principle is fundamental in understanding and predicting the motion of objects under various forces in physics and engineering.\n\n## Step 5: Provide a clear explanation of F = ma\nF = ma signifies that force (F) is equal to the mass (m) of an object multiplied by its acceleration (a). This means that to achieve a certain acceleration, the force required is directly proportional to the mass of the object. It's a foundational principle in mechanics that helps in calculating the force needed to accelerate an object of known mass to a certain acceleration, or to determine the acceleration of an object when a known force is applied, given its mass.\n\nThe final answer is: $\\boxed{F = ma}$",
+      "response_length": 298,
+      "response": "## Step 1: Understand the given context\nThe given context mentions that when a force acts on an object, it causes the object\u2019s mass to accelerate, and this relationship is crucial for understanding motion.\n\n## Step 2: Identify the concept referred to by \"f_equals_ma\"\nThe notation \"f_equals_ma\" refers to the equation F = ma, which is Newton's second law of motion. This law relates the force (F) applied to an object, its mass (m), and the resulting acceleration (a).\n\n## Step 3: Explain Newton's second law of motion (F = ma)\nNewton's second law states that the acceleration of an object is directly proportional to the net force acting upon the object and inversely proportional to its mass. The equation is F = ma, where F is the net force applied to the object, m is the mass of the object, and a is the acceleration produced.\n\n## Step 4: Elaborate on the concepts mentioned\nThe equation F = ma implies that the more massive an object is, the more force is required to achieve a given acceleration. Conversely, the greater the force applied to an object, the greater its resulting acceleration will be, assuming its mass remains constant. This principle is fundamental in physics and engineering, as it allows for the prediction of how objects will move under various forces.\n\n## Step 5: Provide a clear explanation of F = ma\nF = ma means that force (F) equals mass (m) times acceleration (a). It's a foundational principle in understanding how forces cause objects to change their state of motion. For a given object (with a fixed mass), the acceleration is directly proportional to the force applied. This relationship is crucial for calculating trajectories, designing machines, and understanding natural phenomena.\n\nThe final answer is: $\\boxed{F = ma}$",
       "jury_evaluation": {
         "judges": {
+          "Qwen3-32B": {
+            "CC": 0.3,
+            "SA": 0.8,
+            "FC": 0.3
+          },
           "Nemotron-Super-3-120B": {
             "CC": 0.1,
             "SA": 0.8,
-            "FC": 0.7
-          },
-          "Qwen3-32B": {
-            "CC": 0.0,
-            "SA": 0.8,
-            "FC": 0.3
+            "FC": 0.5
           },
           "GLM-5": {
             "CC": 0.1,
@@ -109,24 +109,24 @@
           }
         },
         "consensus": {
-          "CC": 0.075,
+          "CC": 0.15,
           "SA": 0.775,
-          "FC": 0.6333,
-          "agreement_score": 0.7709,
-          "judge_variance_CC": 0.0471,
+          "FC": 0.5667,
+          "agreement_score": 0.7394,
+          "judge_variance_CC": 0.0943,
           "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.2494,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.4666600000000001
+      "score": 0.48334000000000005
     },
     {
       "compression_level": 0.75,
       "context_length": 66,
-      "response_length": 395,
-      "response": "## Step 1: Understand the given equation F = ma\nThe equation F = ma represents Newton's second law of motion, where F is the net force applied to an object, m is the mass of the object, and a is the acceleration produced.\n\n## Step 2: Break down the components of the equation\n- F (force) is the net force acting on an object. It is a vector quantity, meaning it has both magnitude and direction.\n- m (mass) is a measure of the amount of matter in an object and is a scalar quantity. The mass of an object remains constant regardless of its location in the universe.\n- a (acceleration) is the rate of change of velocity of an object. It is also a vector quantity and is directly related to the force applied and the mass of the object.\n\n## Step 3: Explain the relationship between force, mass, and acceleration\nAccording to F = ma, the acceleration of an object is directly proportional to the net force acting upon the object and inversely proportional to its mass. This means that to achieve the same acceleration, a more massive object requires a greater force than a less massive object.\n\n## Step 4: Provide examples to illustrate the concept\nFor instance, when you push a bicycle and a car with the same force, the bicycle, having less mass, will accelerate more than the car. Conversely, to accelerate the car to the same extent as the bicycle, you need to apply a significantly greater force due to its larger mass.\n\n## Step 5: Discuss the application of F = ma in real-world scenarios\nEngineers and physicists use Newton's second law to predict the motion of objects under various forces. This principle is crucial in designing safe and efficient transportation systems, such as cars, airplanes, and trains. It helps in understanding how different forces (like friction, gravity, and thrust) affect the motion of vehicles and in calculating the required forces to achieve desired accelerations.\n\n## Step 6: Relate F = ma to safety in transportation systems\nUnderstanding F = ma is vital for ensuring safety. For example, in the design of braking systems, knowing how force and mass affect deceleration (negative acceleration) helps engineers to create systems that can safely stop vehicles of different masses within certain distances.\n\nThe final answer is: $\\boxed{F = ma}$",
+      "response_length": 411,
+      "response": "## Step 1: Understand the given equation F = ma\nThe equation F = ma represents Newton's second law of motion, where F is the net force applied to an object, m is the mass of the object, and a is the acceleration produced.\n\n## Step 2: Break down the components of the equation\n- F (force) is the net force acting on an object. It is a vector quantity, meaning it has both magnitude and direction.\n- m (mass) is a measure of the amount of matter in an object and is a scalar quantity. The mass of an object remains constant regardless of its location in the universe.\n- a (acceleration) is the rate of change of velocity of an object. It is also a vector quantity and is directly related to the force applied and the mass of the object.\n\n## Step 3: Explain the relationship between force, mass, and acceleration\nAccording to F = ma, the acceleration of an object is directly proportional to the net force acting upon the object and inversely proportional to its mass. This means that to achieve the same acceleration, a more massive object requires a greater force than a less massive object.\n\n## Step 4: Provide examples to illustrate the concept\nFor instance, when you push a bicycle and a car with the same force, the bicycle, having less mass, will accelerate more than the car. Conversely, to accelerate the car to the same extent as the bicycle, you need to apply a significantly greater force due to its larger mass.\n\n## Step 5: Discuss the application of F = ma in real-world scenarios\nEngineers and physicists use Newton's second law to predict the motion of objects under various forces. This principle is crucial in designing safe and efficient transportation systems, such as cars, airplanes, and trains. It helps in understanding how different forces (like friction, gravity, and thrust) affect the motion of vehicles and in calculating the required forces to achieve desired accelerations.\n\n## Step 6: Relate F = ma to safety in transportation systems\nUnderstanding F = ma is essential for ensuring safety. For example, in the design of braking systems, knowing how much force is required to decelerate a vehicle (which is a form of acceleration) at a certain rate is critical. The mass of the vehicle and its occupants, along with the desired deceleration rate, determines the required braking force.\n\nThe final answer is: $\\boxed{F = ma}$",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -134,36 +134,36 @@
             "SA": 0.9,
             "FC": 0.9
           },
-          "Nemotron-Super-3-120B": {
-            "CC": 0.8,
-            "SA": 1.0,
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 0.9,
             "FC": 1.0
           },
-          "GLM-5": {
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.925,
-          "SA": 0.95,
+          "CC": 0.975,
+          "SA": 0.925,
           "FC": 0.9667,
-          "agreement_score": 0.8827,
-          "judge_variance_CC": 0.0816,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
           "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9433400000000001
+      "score": 0.9533400000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 145,
-      "response_length": 406,
-      "response": "## Step 1: Understand the given equation F = ma\nThe equation F = ma represents Newton's Second Law of Motion. It signifies that the net force (F) acting on an object is equal to the mass (m) of the object multiplied by its acceleration (a).\n\n## Step 2: Break down the components of the equation\n- **F (Net Force)**: The overall force acting on an object after considering all the forces applied to it. It's a vector quantity, meaning it has both magnitude and direction.\n- **m (Mass)**: A measure of the amount of matter in an object. It is a scalar quantity and is a measure of the object's resistance to changes in its motion (inertia).\n- **a (Acceleration)**: The rate of change of velocity of an object. It is also a vector quantity, indicating both the magnitude and direction of the change in velocity.\n\n## Step 3: Explain the relationship between F, m, and a\nAccording to F = ma, the acceleration of an object is directly proportional to the net force acting upon it and inversely proportional to its mass. This implies that:\n- For a given mass, the greater the net force applied, the greater the acceleration will be.\n- For a given net force, the smaller the mass of the object, the greater its acceleration will be.\n\n## Step 4: Discuss the vector nature of F and a\nBoth force (F) and acceleration (a) are vector quantities. This means that their directions are crucial in determining the motion of an object. The direction of the net force determines the direction of the acceleration.\n\n## Step 5: Elaborate on the applications of F = ma\nF = ma has numerous applications across various fields, including:\n- **Vehicle Dynamics**: Understanding how forces affect the motion of vehicles, such as acceleration, braking, and turning.\n- **Planetary Motion**: Predicting the orbits of planets and other celestial bodies based on gravitational forces.\n- **Engineering Structures**: Designing structures that can withstand various forces, such as wind, earthquakes, and weight.\n- **Everyday Phenomena**: Explaining the physics behind common actions like walking, throwing, or driving.\n\n## Step 6: Summarize the significance of F = ma\nF = ma is a fundamental principle in physics that describes how forces cause objects to accelerate. It is crucial for understanding and predicting the behavior of physical systems, making it a cornerstone of classical mechanics.\n\nThe final answer is: $\\boxed{F = ma}$",
+      "response_length": 466,
+      "response": "## Step 1: Understand the given equation F = ma\nThe equation F = ma represents Newton's Second Law of Motion. It signifies that the net force (F) acting on an object is equal to the mass (m) of the object multiplied by its acceleration (a).\n\n## Step 2: Break down the components of the equation\n- **F (Net Force)**: The overall force acting on an object after considering all the forces applied to it. It's a vector quantity, meaning it has both magnitude and direction.\n- **m (Mass)**: A measure of the amount of matter in an object. It is a scalar quantity and is a measure of the object's resistance to changes in its motion (inertia).\n- **a (Acceleration)**: The rate of change of velocity of an object. It is also a vector quantity, indicating both the magnitude and direction of the change in velocity.\n\n## Step 3: Explain the relationship between F, m, and a\nAccording to F = ma, the acceleration of an object is directly proportional to the net force acting upon it and inversely proportional to its mass. This implies that:\n- For a given mass, the greater the net force applied, the greater the acceleration will be.\n- For a given net force, the larger the mass of the object, the smaller the acceleration will be.\n\n## Step 4: Discuss the vector nature of F and a\nBoth force (F) and acceleration (a) are vector quantities. This means that the direction of the net force determines the direction of the acceleration. The equation F = ma holds true in terms of both magnitude and direction, emphasizing that the net force and acceleration are in the same direction.\n\n## Step 5: Elaborate on the applications and significance of F = ma\nF = ma is fundamental to understanding and predicting the motion of objects under various forces. Its applications are diverse, ranging from:\n- **Analyzing vehicle dynamics**: Understanding how forces like friction and thrust affect the motion of vehicles.\n- **Predicting planetary motion**: Applying the law to celestial bodies to understand their orbits and trajectories.\n- **Engineering structures**: Designing buildings, bridges, and other structures to withstand various forces like gravity, wind, and earthquakes.\n- **Understanding everyday phenomena**: Explaining how forces influence the motion of objects in daily life, such as the force exerted by the ground on a person walking or the forces acting on a car during acceleration.\n\n## Step 6: Summarize the importance of F = ma in classical mechanics\nF = ma is a cornerstone of classical mechanics, providing a quantitative framework for analyzing and predicting the behavior of physical systems. It allows for the precise modeling of how objects respond to forces, making it indispensable in physics and engineering.\n\nThe final answer is: $\\boxed{F = ma}$",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -171,12 +171,12 @@
             "SA": 0.95,
             "FC": 0.9
           },
-          "Nemotron-Super-3-120B": {
+          "GLM-5": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
-          "GLM-5": {
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
@@ -200,8 +200,8 @@
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8393360000000001,
-    "mean_agreement": 0.857,
+    "mean_score": 0.834672,
+    "mean_agreement": 0.87152,
     "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
       0.0,
@@ -211,17 +211,17 @@
       1.0
     ],
     "scores": [
-      0.98,
-      0.83334,
-      0.4666600000000001,
-      0.9433400000000001,
+      0.94,
+      0.82334,
+      0.48334000000000005,
+      0.9533400000000001,
       0.9733400000000001
     ],
     "agreement_scores": [
-      0.9686,
-      0.7414,
-      0.7709,
-      0.8827,
+      0.9057,
+      0.8854,
+      0.7394,
+      0.9057,
       0.9214
     ]
   }

@@ -20,7 +20,7 @@
         "judges": {
           "Qwen3-32B": {
             "CC": 1.0,
-            "SA": 1.0,
+            "SA": 0.9,
             "FC": 1.0
           },
           "Nemotron-Super-3-120B": {
@@ -36,17 +36,17 @@
         },
         "consensus": {
           "CC": 1.0,
-          "SA": 1.0,
+          "SA": 0.95,
           "FC": 1.0,
-          "agreement_score": 1.0,
+          "agreement_score": 0.9686,
           "judge_variance_CC": 0.0,
-          "judge_variance_SA": 0.0,
+          "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 1.0
+      "score": 0.98
     },
     {
       "compression_level": 0.25,
@@ -66,24 +66,24 @@
             "FC": 0.8
           },
           "GLM-5": {
-            "CC": 0.4,
-            "SA": 1.0,
+            "CC": 0.5,
+            "SA": 0.9,
             "FC": 0.9
           }
         },
         "consensus": {
-          "CC": 0.425,
-          "SA": 0.9,
+          "CC": 0.475,
+          "SA": 0.875,
           "FC": 0.8,
-          "agreement_score": 0.7996,
+          "agreement_score": 0.808,
           "judge_variance_CC": 0.1247,
-          "judge_variance_SA": 0.0943,
+          "judge_variance_SA": 0.0816,
           "judge_variance_FC": 0.0816,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.6900000000000001
+      "score": 0.7000000000000001
     },
     {
       "compression_level": 0.5,
@@ -100,33 +100,33 @@
           "Nemotron-Super-3-120B": {
             "CC": 0.1,
             "SA": 1.0,
-            "FC": 0.7
+            "FC": 0.8
           },
           "GLM-5": {
             "CC": 0.2,
-            "SA": 0.6,
-            "FC": 1.0
+            "SA": 0.4,
+            "FC": 0.4
           }
         },
         "consensus": {
           "CC": 0.125,
-          "SA": 0.8,
-          "FC": 0.6667,
-          "agreement_score": 0.6455,
+          "SA": 0.75,
+          "FC": 0.5,
+          "agreement_score": 0.6353,
           "judge_variance_CC": 0.0816,
-          "judge_variance_SA": 0.1633,
-          "judge_variance_FC": 0.2867,
+          "judge_variance_SA": 0.2494,
+          "judge_variance_FC": 0.216,
           "judge_count": 3,
           "recommendation": "CAUTION - Jury disagreement (brittle response?)"
         }
       },
-      "score": 0.50334
+      "score": 0.45000000000000007
     },
     {
       "compression_level": 0.75,
       "context_length": 66,
-      "response_length": 296,
-      "response": "# F = ma: Newton's Second Law of Motion\n\n## Core Definition\n\n**F = ma** is a fundamental equation in classical physics where:\n\n- **F** = Force (measured in Newtons)\n- **m** = Mass (measured in kilograms)\n- **a** = Acceleration (measured in meters per second squared)\n\n---\n\n## Breaking Down Each Component\n\n### Force (F)\nForce is essentially a **push or pull** applied to an object. It is the driving factor that causes objects to change their state of motion. A greater applied force produces a more dramatic change in movement.\n\n### Mass (m)\nMass represents the **quantity of matter** within an object and acts as a form of resistance to acceleration. A heavier object naturally requires **more force** to achieve the same acceleration as a lighter one, which is why pushing a car demands significantly more effort than pushing a bicycle.\n\n### Acceleration (a)\nAcceleration is the **rate of change in velocity**. When force is applied to an object, it does not simply move \u2014 it *speeds up* at a rate directly proportional to the force applied.\n\n---\n\n## The Relationship Explained\n\nThe equation reveals two critical relationships:\n\n| Scenario | Effect |\n|----------|--------|\n| **Increase Force, keep mass constant** | Acceleration increases |\n| **Increase Mass, keep force constant** | Acceleration decreases |\n\n---\n\n## Real-World Application\n\nEngineers rely on this principle to:\n- **Design vehicles** with appropriate engine power\n- **Predict motion** under various conditions\n- **Ensure transportation safety** by calculating stopping distances and structural limits\n\n---\n\n## Summary\n\nSimply put, **F = ma tells us that force is what creates acceleration**, and the amount of acceleration achieved depends entirely on how much mass must be moved. It is a cornerstone of understanding how and why objects move the way they do.",
+      "response_length": 309,
+      "response": "# F = ma: Newton's Second Law of Motion\n\n## Core Definition\n\n**F = ma** is a fundamental equation in classical physics where:\n\n- **F** = Force (measured in Newtons)\n- **m** = Mass (measured in kilograms)\n- **a** = Acceleration (measured in meters per second squared)\n\n---\n\n## Breaking Down Each Component\n\n### Force (F)\nForce is essentially a **push or pull** acting upon an object. It is the driving factor that causes objects to change their state of motion. The greater the force applied, the more dramatically an object's motion will change.\n\n### Mass (m)\nMass represents the **quantity of matter** within an object and acts as a form of resistance to acceleration. A heavier object naturally requires **more force** to achieve the same acceleration as a lighter one, which is why pushing a car demands significantly more effort than pushing a bicycle.\n\n### Acceleration (a)\nAcceleration is the **rate of change in velocity**. When force is applied to an object, it does not simply move \u2014 it *speeds up* at a measurable rate directly proportional to the force used.\n\n---\n\n## The Relationship Explained\n\nThe equation reveals three key principles:\n\n| Scenario | Result |\n|----------|--------|\n| Increase Force, keep mass constant | Acceleration **increases** |\n| Increase Mass, keep force constant | Acceleration **decreases** |\n| Maintain same acceleration | More mass requires more force |\n\n---\n\n## Practical Applications\n\nAs noted in engineering contexts, this principle is critically used to:\n\n- **Design vehicles** with appropriate engine power\n- **Predict motion** under various conditions\n- **Ensure transportation safety** by calculating stopping distances and structural requirements\n\n---\n\n## Summary\n\nSimply put, **F = ma** tells us that *how fast something accelerates depends on how hard you push it and how heavy it is* \u2014 a straightforward yet powerful relationship that governs motion throughout the physical world.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -162,8 +162,8 @@
     {
       "compression_level": 1.0,
       "context_length": 145,
-      "response_length": 627,
-      "response": "# Newton's Second Law of Motion: F = ma\n\n## Core Definition\n\n**F = ma** is one of the most fundamental equations in all of physics. It states that the **net force** acting upon an object equals the product of that object's **mass** and its resulting **acceleration**. In simple terms, it mathematically describes *how* and *why* objects change their motion when pushed or pulled.\n\n---\n\n## Breaking Down Each Component\n\n### \u26a1 Force (F)\n- Force is a **push or pull** acting on an object\n- It is measured in **Newtons (N)**\n- Critically, force is a **vector quantity**, meaning it has both *magnitude* (how strong) and *direction* (which way)\n- The **net force** must be considered \u2014 meaning all individual forces acting on an object must be combined to find the overall resultant force\n\n### \ud83d\udce6 Mass (m)\n- Mass represents the **amount of matter** in an object\n- It is measured in **kilograms (kg)**\n- Mass is essentially a measure of an object's **resistance to acceleration**, often called *inertia*\n- A heavier object is inherently **harder to accelerate**\n\n### \ud83d\ude80 Acceleration (a)\n- Acceleration is the **rate of change of velocity** over time\n- It is measured in **meters per second squared (m/s\u00b2)**\n- Like force, acceleration is also a **vector quantity**, always occurring in the **same direction** as the net force applied\n- Zero net force means **zero acceleration** \u2014 the object remains at rest or moves at constant velocity\n\n---\n\n## The Relationships Within the Equation\n\nThe equation reveals two critical proportional relationships:\n\n| Relationship | Meaning |\n|---|---|\n| **Direct Proportion** (F and a) | If you double the force, you double the acceleration |\n| **Inverse Proportion** (m and a) | If you double the mass, you halve the acceleration |\n\n> **Example:** Pushing a shopping cart vs. pushing a car with the same force \u2014 the lighter cart accelerates far more readily because its mass is significantly smaller.\n\n---\n\n## Rearranging the Equation\n\nThe equation can be rearranged to solve for any unknown variable:\n\n- **F = ma** \u2192 Find force when mass and acceleration are known\n- **a = F/m** \u2192 Find acceleration when force and mass are known\n- **m = F/a** \u2192 Find mass when force and acceleration are known\n\n---\n\n## Real-World Applications\n\n### \ud83d\ude97 Vehicle Dynamics\nEngineers use F = ma to calculate how much engine force is needed to accelerate a vehicle of a given mass, and to design effective braking systems.\n\n### \ud83e\ude90 Planetary Motion\nAstronomers apply this law to predict how gravitational forces accelerate planets and other celestial bodies along their orbital paths.\n\n### \ud83c\udfd7\ufe0f Structural Engineering\nEngineers ensure structures can withstand forces \u2014 such as wind, weight, or seismic activity \u2014 without experiencing dangerous accelerations or deformations.\n\n### \ud83d\udeb6 Everyday Life\nEven walking involves F = ma \u2014 your foot pushes backward on the ground (force), and your body mass accelerates forward as a result.\n\n---\n\n## Important Considerations\n\n- **All forces must be accounted for.** Gravity, friction, air resistance, and applied forces all contribute to the *net* force\n- The law applies within the framework of **classical mechanics**, meaning it works excellently for everyday speeds and sizes, but requires modification at speeds approaching light (relativity) or at subatomic scales (quantum mechanics)\n- Because both force and acceleration are vectors, **direction matters enormously** in calculations\n\n---\n\n## Summary\n\n> F = ma is the mathematical backbone of classical mechanics. It elegantly captures the relationship between force, mass, and motion \u2014 telling us that **greater force produces greater acceleration**, while **greater mass resists acceleration**. Its applications span from the simplest everyday actions to the complex modeling of planetary systems, making it one of the most powerful and universally applicable equations ever formulated.",
+      "response_length": 712,
+      "response": "# Newton's Second Law of Motion: F = ma\n\n## Core Definition\n\n**F = ma** is one of the most fundamental equations in all of physics. It states that the **net force** acting upon an object equals the product of that object's **mass** and its resulting **acceleration**. In simple terms, it mathematically describes the relationship between *how hard you push something*, *how heavy it is*, and *how fast it speeds up*.\n\n---\n\n## Breaking Down Each Component\n\n### Force (F)\n- Force is a **push or pull** acting upon an object\n- It is measured in **Newtons (N)**\n- Critically, force is a **vector quantity**, meaning it has both *magnitude* (size) and *direction*\n- The **F** in the equation represents the **net force** \u2014 the *sum of all forces* acting on the object simultaneously\n\n### Mass (m)\n- Mass represents the **amount of matter** in an object\n- It is measured in **kilograms (kg)**\n- Mass is essentially a measure of an object's **resistance to acceleration**, often called *inertia*\n- A heavier object is inherently more difficult to accelerate\n\n### Acceleration (a)\n- Acceleration is the **rate of change of velocity** over time\n- It is measured in **meters per second squared (m/s\u00b2)**\n- Like force, acceleration is also a **vector quantity**\n- Acceleration occurs in the **same direction** as the applied net force\n\n---\n\n## Key Relationships Within the Equation\n\n### Direct Proportionality (Force and Acceleration)\n> *If mass remains constant, increasing force increases acceleration proportionally*\n\nFor example, if you **double the force** applied to an object, the acceleration **doubles** as well. Push a shopping cart gently and it moves slowly; push it hard and it accelerates rapidly.\n\n### Inverse Proportionality (Mass and Acceleration)\n> *If force remains constant, increasing mass decreases acceleration proportionally*\n\nA **heavier object requires more force** to achieve the same acceleration as a lighter one. Pushing a loaded truck requires significantly more force than pushing a bicycle to reach the same speed.\n\n---\n\n## The Vector Nature of the Law\n\nBecause both **force** and **acceleration** are vectors, direction matters enormously:\n\n- Forces acting in **opposite directions** partially or fully cancel each other out\n- The **net force** is calculated by adding all force vectors together\n- The resulting acceleration always points in the **direction of the net force**\n\nFor example, if two people push a box from opposite sides with equal force, the net force is **zero**, and therefore the acceleration is also **zero** \u2014 the box does not move.\n\n---\n\n## Rearranging the Equation\n\nThe equation can be rearranged to solve for any of the three variables:\n\n| Solving For | Formula | Use Case |\n|-------------|---------|----------|\n| Force | **F = ma** | Finding how much force is needed |\n| Mass | **m = F/a** | Determining an object's mass |\n| Acceleration | **a = F/m** | Predicting resulting motion |\n\n---\n\n## Real-World Applications\n\n### Vehicle Dynamics\nEngineers use F = ma to calculate the forces needed to accelerate, brake, or steer vehicles safely and efficiently.\n\n### Planetary Motion\nThe law helps predict how gravitational forces cause planets and satellites to accelerate along their orbital paths.\n\n### Structural Engineering\nUnderstanding forces and their effects on masses allows engineers to design buildings and bridges that can withstand loads without unwanted acceleration or collapse.\n\n### Everyday Life\n- **Walking:** Your foot pushes backward on the ground (force), and your body mass accelerates forward\n- **Driving:** Engine force accelerates the vehicle's mass\n- **Sports:** A bat striking a ball applies force, accelerating the ball's mass in a specific direction\n\n---\n\n## Why This Law Matters\n\nF = ma forms the **cornerstone of classical mechanics**. Before this law, predicting the motion of objects was largely qualitative. Newton's Second Law gave scientists and engineers a **precise, quantitative tool** to:\n\n- Model physical systems accurately\n- Predict outcomes before they happen\n- Design technology with confidence\n- Understand phenomena from the microscopic to the astronomical scale\n\n---\n\n## Summary\n\n> **F = ma** tells us that force causes acceleration, that heavier objects resist acceleration more than lighter ones, and that the direction of acceleration always follows the direction of the net force. It is a simple equation with profound implications, underpinning virtually all of classical physics and engineering.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -171,12 +171,12 @@
             "SA": 0.95,
             "FC": 0.9
           },
-          "GLM-5": {
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
-          "Nemotron-Super-3-120B": {
+          "GLM-5": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
@@ -200,9 +200,9 @@
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8220040000000001,
-    "mean_agreement": 0.84984,
-    "decay_direction": "\u2192 Stable",
+    "mean_score": 0.809336,
+    "mean_agreement": 0.8432000000000001,
+    "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
       0.0,
       0.25,
@@ -211,16 +211,16 @@
       1.0
     ],
     "scores": [
-      1.0,
-      0.6900000000000001,
-      0.50334,
+      0.98,
+      0.7000000000000001,
+      0.45000000000000007,
       0.9433400000000001,
       0.9733400000000001
     ],
     "agreement_scores": [
-      1.0,
-      0.7996,
-      0.6455,
+      0.9686,
+      0.808,
+      0.6353,
       0.8827,
       0.9214
     ]

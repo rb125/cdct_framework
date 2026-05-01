@@ -51,8 +51,8 @@
     {
       "compression_level": 0.25,
       "context_length": 6,
-      "response_length": 13,
-      "response": "Impressionism is an art style focused on painting fleeting light and color impressions.",
+      "response_length": 9,
+      "response": "Impressionism captures fleeting light and color impressions in painting.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -88,17 +88,12 @@
     {
       "compression_level": 0.5,
       "context_length": 18,
-      "response_length": 374,
-      "response": "Certainly! Impressionism is an art movement that emerged in the late 19th century, primarily in France. It represents a significant departure from the traditional, academic styles of painting that emphasized detailed realism, historical subjects, and classical techniques.\n\n### Key Characteristics of Impressionism:\n\n1. **Emphasis on Light and Color**:\n   - Impressionist artists focused on capturing the effects of light and the changing qualities of color throughout the day and in different weather conditions. They sought to depict the transient, fleeting moments of beauty in everyday scenes.\n   \n2. **Momentary Visual Sensations**:\n   - Rather than creating highly detailed and finished works, Impressionists aimed to capture the immediate impression or sensation of a scene. This often meant painting outdoors (en plein air) to directly observe and react to the natural environment.\n\n3. **Quick Brushstrokes**:\n   - The technique involved loose, visible brushstrokes that did not blend seamlessly. This approach allowed the viewer to see the individual strokes, emphasizing the process of painting and the artist's perception of the subject.\n   \n4. **Ordinary Subjects**:\n   - Impressionists often chose everyday subjects and scenes from modern life, such as landscapes, urban settings, and leisure activities. This was a shift from the grand historical, mythological, and religious themes that dominated earlier art.\n\n5. **Use of Pure Color**:\n   - Artists used pure, unmixed colors and allowed the viewer's eye to mix them optically. This created a vibrant and dynamic effect, enhancing the sense of light and atmosphere.\n\n### Notable Artists:\n- **Claude Monet**: Known for his series of paintings like \"Water Lilies\" and \"Impression, Sunrise,\" which gave the movement its name.\n- **Pierre-Auguste Renoir**: Famous for his depictions of people in social settings, such as \"Dance at Le Moulin de la Galette.\"\n- **Edgar Degas**: Although more associated with capturing movement, his work often shares Impressionistic qualities, especially in his use of light and color.\n- **Berthe Morisot**: One of the few prominent female Impressionists, known for her delicate and intimate portrayals of domestic life.\n\n### Impact and Legacy:\nImpressionism challenged the conventions of art and paved the way for future movements such as Post-Impressionism, Fauvism, and eventually Abstract art. It encouraged artists to explore new ways of seeing and representing the world, emphasizing personal perception and emotional response over strict adherence to realistic depiction.",
+      "response_length": 410,
+      "response": "Certainly! Impressionism is an art movement that emerged in the late 19th century, primarily in France. It represents a significant departure from the traditional, academic styles of painting that preceded it. Here\u2019s a detailed explanation based on the provided context:\n\n### Emphasis on Light and Color\nImpressionism places a strong emphasis on the effects of light and color. Unlike earlier art movements that focused on detailed realism and precise representation, Impressionist artists sought to capture the fleeting and transient effects of light and atmosphere. This means they were more interested in how subjects appeared under specific lighting conditions rather than in their exact, detailed form.\n\n### Momentary Visual Sensations\nImpressionist painters aimed to capture the immediate visual impression of a scene. They were fascinated by how things looked at a particular moment, rather than how they are conventionally understood to look. This approach often resulted in paintings that convey a sense of spontaneity and immediacy.\n\n### Quick Brushstrokes\nTo achieve these effects, Impressionist artists employed quick, visible brushstrokes. These brushstrokes were often applied in a loose, spontaneous manner, allowing the texture of the paint and the individual strokes to remain evident. This technique helped to convey the changing conditions and transient nature of the scene being depicted.\n\n### Changing Conditions\nImpressionism often involves painting outdoors (en plein air) to directly observe and capture the effects of natural light as it changes throughout the day. This practice allowed artists to study how light and color interact with subjects under different conditions, such as morning, afternoon, or evening light.\n\n### Key Characteristics\n- **Light and Atmosphere:** Focus on the quality of light and its effects on color.\n- **Transient Moments:** Capture of fleeting moments and changing conditions.\n- **Loose Brushwork:** Visible, quick brushstrokes that convey movement and spontaneity.\n- **Outdoor Painting:** Emphasis on painting en plein air to observe natural light.\n\n### Notable Artists\nSome of the most famous Impressionist artists include Claude Monet, Pierre-Auguste Renoir, Edgar Degas, and Camille Pissarro. Each of these artists contributed to the movement in unique ways, but all shared a common goal of breaking away from traditional artistic conventions to explore new ways of seeing and representing the world.\n\nIn summary, Impressionism is an art movement that prioritizes the depiction of light, color, and the transient effects of the environment over detailed realism. It employs quick, visible brushstrokes to capture the immediacy and changing conditions of a scene, offering a fresh and innovative approach to painting.",
       "jury_evaluation": {
         "judges": {
-          "GLM-5": {
-            "CC": 0.1,
-            "SA": 0.4,
-            "FC": 0.3
-          },
           "Qwen3-32B": {
-            "CC": 0.0,
+            "CC": 0.1,
             "SA": 0.8,
             "FC": 0.0
           },
@@ -106,64 +101,69 @@
             "CC": 0.1,
             "SA": 0.7,
             "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.1,
+            "SA": 0.4,
+            "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.075,
+          "CC": 0.1,
           "SA": 0.675,
-          "FC": 0.3667,
-          "agreement_score": 0.6353,
-          "judge_variance_CC": 0.0471,
+          "FC": 0.6,
+          "agreement_score": 0.5987,
+          "judge_variance_CC": 0.0,
           "judge_variance_SA": 0.17,
-          "judge_variance_FC": 0.33,
+          "judge_variance_FC": 0.432,
           "judge_count": 3,
           "recommendation": "CAUTION - Jury disagreement (brittle response?)"
         }
       },
-      "score": 0.37334000000000006
+      "score": 0.43000000000000005
     },
     {
       "compression_level": 0.75,
       "context_length": 48,
-      "response_length": 634,
-      "response": "Certainly! Impressionism is a significant art movement that emerged in the 19th century, primarily in France, and it marked a radical departure from traditional academic art. Here\u2019s a detailed explanation of its key characteristics and concepts:\n\n### Core Principles of Impressionism\n\n1. **Accurate Depiction of Light and Its Changing Qualities**:\n   - Impressionist artists sought to capture the transient effects of light and atmosphere. They were fascinated by how light changes throughout the day and how it interacts with different surfaces and objects. This focus on light often led to a vibrant and dynamic portrayal of scenes.\n\n2. **Visible Brushstrokes**:\n   - Unlike the smooth, polished surfaces of academic paintings, Impressionist works often feature visible, individual brushstrokes. This technique adds texture and a sense of immediacy to the artwork, allowing viewers to see the artist\u2019s hand and the process of painting.\n\n3. **Open Composition**:\n   - Impressionist compositions tend to be more relaxed and informal compared to the structured, balanced compositions of academic art. Crops, asymmetrical arrangements, and a lack of a single focal point are common, giving the impression of a snapshot or a moment captured in time.\n\n4. **Emphasis on Light\u2019s Effects**:\n   - The movement placed a strong emphasis on the effects of light and color. Artists experimented with color theory, often using a bright and unconventional palette. They were interested in how colors appear under different lighting conditions and how they interact with one another.\n\n5. **Ordinary Subjects**:\n   - Impressionists often chose everyday subjects and scenes from modern life rather than the historical, mythological, or religious themes favored by the academic tradition. This included landscapes, urban scenes, leisure activities, and portraits of ordinary people.\n\n6. **Unusual Visual Angles**:\n   - To capture the essence of a moment, Impressionist artists frequently employed unconventional viewpoints. This might involve looking down from a height, up from below, or through a window or other frame, which added a sense of spontaneity and freshness to their work.\n\n### Painting En Plein Air\n\n- **En Plein Air** (French for \"in the open air\") was a crucial practice for Impressionist artists. By painting outdoors, they could directly observe and respond to the natural light and its changes. This approach allowed them to more accurately depict the fleeting effects of light and atmosphere, which were central to their artistic goals.\n\n### Rejection of Academic Tradition\n\n- Impressionism emerged as a reaction against the rigid conventions of the academic art world, particularly the teachings and standards set by institutions like the \u00c9cole des Beaux-Arts in Paris. Academic art emphasized historical and mythological subjects, precise anatomical detail, and a polished finish. In contrast, Impressionists valued personal expression, contemporary subjects, and the exploration of light and color.\n\n### Notable Artists and Works\n\n- Key figures in the Impressionist movement include Claude Monet, Pierre-Auguste Renoir, Edgar Degas, Camille Pissarro, and Mary Cassatt. \n  - **Claude Monet\u2019s** series of paintings, such as the \"Water Lilies\" and \"Impression, Sunrise,\" exemplify the movement\u2019s focus on light and atmosphere.\n  - **Pierre-Auguste Renoir** is known for his vibrant portrayals of social scenes and figures, such as \"Dance at Le Moulin de la Galette.\"\n  - **Edgar Degas**, while often associated with Impressionism, focused more on the themes of modern urban life and the world of dance, as seen in works like \"The Ballet Class.\"\n\n### Legacy\n\n- Impressionism had a profound impact on the art world, paving the way for future movements such as Post-Impressionism, Fauvism, and Modernism. It challenged artists to think differently about color, light, and the nature of perception, encouraging a more subjective and experimental approach to art-making.\n\nIn summary, Impressionism is characterized by its innovative techniques, emphasis on light and color, and its break from traditional artistic conventions. It celebrates the beauty of the ordinary and the ephemeral, inviting viewers to experience the world through a new and vibrant lens.",
+      "response_length": 543,
+      "response": "Certainly! Impressionism was a revolutionary art movement that emerged in the 19th century, primarily in France, and it marked a significant departure from the traditional academic art of the time. Here\u2019s a detailed explanation of Impressionism based on the provided context:\n\n### Core Principles of Impressionism\n\n1. **Accurate Depiction of Light and Its Changing Qualities**:\n   - Impressionist artists were fascinated by the way light interacts with objects and how it changes throughout the day. They sought to capture the transient effects of light and atmosphere in their paintings. This focus on light was a radical shift from the detailed, shadow-less approach of academic art.\n\n2. **Visible Brushstrokes**:\n   - Unlike the smooth, polished surfaces of traditional paintings, Impressionist works often feature visible, individual brushstrokes. This technique adds texture and a sense of immediacy to the artwork, allowing viewers to see the artist\u2019s hand at work.\n\n3. **Open Composition**:\n   - Impressionist compositions tend to be more relaxed and less structured compared to the tightly controlled arrangements of academic art. Crops, asymmetrical framing, and a lack of a single focal point are common, giving the paintings a more spontaneous and natural feel.\n\n4. **Emphasis on Light\u2019s Effects**:\n   - The movement placed a strong emphasis on the effects of light and color. Artists experimented with color theory, often using a vibrant palette and juxtaposing complementary colors to enhance the luminosity and dynamic quality of their works.\n\n5. **Ordinary Subjects**:\n   - Impressionists often chose everyday scenes and subjects over the grand historical, mythological, or religious themes favored by the academic tradition. This included landscapes, urban scenes, and moments of leisure, reflecting modern life.\n\n6. **Unusual Visual Angles**:\n   - To capture the fleeting impressions of a scene, Impressionist artists frequently adopted unconventional viewpoints. This could mean painting from above, below, or at an angle that offered a fresh perspective on familiar subjects.\n\n### Practice of Painting En Plein Air\n\n- **En Plein Air**:\n  - A defining practice of Impressionism was painting outdoors, or \"en plein air.\" This allowed artists to directly observe and capture the changing effects of natural light on their subjects. It also contributed to the spontaneous and immediate quality of their work.\n\n### Rejection of Academic Tradition\n\n- **Historical Subjects and Precise Detail**:\n  - Impressionists rejected the academic art world\u2019s emphasis on historical subjects and meticulous detail. They believed that art should reflect the contemporary world and the ephemeral beauty of everyday moments rather than glorifying the past through idealized representations.\n\n### Key Artists and Works\n\n- Prominent Impressionist artists include Claude Monet, Pierre-Auguste Renoir, Edgar Degas, and Camille Pissarro. \n- Famous works such as Monet\u2019s \u201cImpression, Sunrise\u201d (which actually gave the movement its name) and Renoir\u2019s \u201cDance at Le Moulin de la Galette\u201d exemplify the key characteristics of Impressionism.\n\n### Impact and Legacy\n\n- Impressionism had a profound impact on the art world, influencing subsequent movements such as Post-Impressionism, Fauvism, and Expressionism. It challenged conventional artistic norms and opened up new possibilities for how art could be created and experienced.\n\nIn summary, Impressionism was a groundbreaking art movement that prioritized the depiction of light, color, and everyday scenes over traditional academic values. Its emphasis on capturing fleeting moments and the practice of painting en plein air set it apart and continue to inspire artists today.",
       "jury_evaluation": {
         "judges": {
-          "Nemotron-Super-3-120B": {
-            "CC": 1.0,
-            "SA": 0.9,
-            "FC": 1.0
-          },
-          "GLM-5": {
-            "CC": 1.0,
-            "SA": 0.85,
-            "FC": 1.0
-          },
           "Qwen3-32B": {
             "CC": 0.9,
             "SA": 0.9,
             "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 0.9,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 0.5,
+            "SA": 0.8,
+            "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.975,
-          "SA": 0.8875,
+          "CC": 0.675,
+          "SA": 0.875,
           "FC": 0.9667,
-          "agreement_score": 0.9214,
-          "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0236,
+          "agreement_score": 0.8238,
+          "judge_variance_CC": 0.17,
+          "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
-          "recommendation": "ROBUST - Unanimous jury"
+          "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.93834
+      "score": 0.8133400000000002
     },
     {
       "compression_level": 1.0,
       "context_length": 145,
-      "response_length": 685,
-      "response": "Certainly! Impressionism is an art movement that originated in France during the 1860s, marking a significant and radical departure from the traditional conventions of academic painting. Academic painting, which dominated the art world at the time, emphasized historical, mythological, and religious themes, rendered with meticulous detail and smooth, polished finishes. In contrast, Impressionism sought to capture the fleeting effects of light and color, everyday modern life, and the subjective experience of the artist.\n\n### Core Principles of Impressionism\n\n1. **Primacy of Light and Color**: Impressionists prioritized the depiction of light and its changing qualities over detailed, realistic representation. They used color to capture the effects of natural light and shadow, often avoiding the use of black to create shadows. Instead, they employed complementary colors to suggest the play of light and shadow.\n\n2. **Broken Color Technique**: This involved placing unmixed colors side-by-side on the canvas. Rather than mixing colors on the palette, Impressionists allowed the viewer\u2019s eye to blend the colors optically. This technique created a vibrant, shimmering effect that captured the transient qualities of light and atmosphere.\n\n3. **Visible Brushwork**: Impressionists often used short, broken brushstrokes to convey a sense of movement and vitality. This approach added texture and dynamism to their paintings, emphasizing the process of painting and the artist\u2019s hand.\n\n4. **En Plein Air Painting**: Many Impressionists painted outdoors to observe and capture the direct effects of natural light on their subjects. This practice allowed them to study how light changes throughout the day and under different weather conditions, leading to more authentic and immediate representations.\n\n5. **Modern Life Subjects**: Unlike the grand themes of academic painting, Impressionists often chose subjects from everyday modern life. They depicted scenes from cafes, railway stations, suburban leisure activities, and landscapes, reflecting the contemporary urban and rural environments.\n\n### Key Artists and Their Contributions\n\n- **Claude Monet**: Often considered the leader of the Impressionist movement, Monet is renowned for his series paintings, such as the haystacks and cathedrals. These series explored the same subject under varying conditions of light and atmosphere, emphasizing the changing perceptions of the viewer.\n  \n- **Pierre-Auguste Renoir**: Known for his depictions of light dappled through trees and his vibrant portrayals of social scenes, Renoir\u2019s work often captured the joy and beauty of everyday life.\n  \n- **Edgar Degas**: Although primarily known for his depictions of dancers and horse races, Degas\u2019s use of unusual angles and emphasis on movement also aligned with Impressionist principles.\n  \n- **Camille Pissarro**: Pissarro frequently painted rural scenes and landscapes, bringing an Impressionist approach to the depiction of nature.\n\n### Origins of the Name\n\nThe term \"Impressionism\" was derived from the title of Monet\u2019s painting \"Impression, Sunrise\" (1872). When the painting was exhibited, a critic used the term \"impression\" in a derogatory manner to describe the work\u2019s perceived lack of finish and clarity. However, the artists embraced the term, using it to describe their innovative approach to art.\n\n### Influences\n\nImpressionism was influenced by several factors:\n- **Photography**: The spontaneity and candidness of photographic images inspired Impressionists to capture moments as they naturally occurred.\n- **Japanese Prints**: The flatness, cropping, and emphasis on decorative patterns in Japanese prints influenced the composition and style of Impressionist works.\n- **Scientific Color Theory**: The work of chemist Michel Eug\u00e8ne Chevreul on the optical mixing of colors informed the Impressionists\u2019 broken color technique.\n\n### Opposition and Legacy\n\nImpressionist works were initially met with opposition from the traditional art establishment, particularly the Paris Salon, which rejected their submissions for their \"unfinished\" appearance and departure from classical standards. However, the movement\u2019s emphasis on perception over representation and its liberation of color from descriptive purposes paved the way for subsequent art movements such as Post-Impressionism, Fauvism, and Abstract art. \n\nNeo-Impressionism, led by artists like Georges Seurat, further systematized color theory into a technique known as Pointillism, which involved placing discrete dots of pure color on the canvas to be optically mixed by the viewer\u2019s eye.\n\nIn summary, Impressionism revolutionized the art world by prioritizing light, color, and the artist\u2019s perception of the moment, thereby opening new avenues for artistic expression and influencing the course of modern art.",
+      "response_length": 690,
+      "response": "Certainly! Impressionism is an art movement that originated in France during the 1860s, marking a significant and radical departure from the traditional academic painting of the time. Academic painting was characterized by its adherence to classical themes, meticulous detail, and polished finish. In contrast, Impressionism introduced a fresh approach that focused on capturing the fleeting effects of light and color, everyday modern life, and the subjective experience of the artist.\n\n### Core Principles of Impressionism\n\n1. **Primacy of Light and Color**: Impressionists prioritized the depiction of light and its changing conditions over detailed, realistic representation. They used color to capture shadows and variations in light, rather than relying on black to define dark areas. This approach allowed them to convey the transient effects of natural light and atmosphere more effectively.\n\n2. **Broken Color Technique**: Instead of blending colors on the palette, Impressionists often placed unmixed colors side-by-side on the canvas. This technique, known as optical mixing, relied on the viewer\u2019s eye to blend the colors when seen from a distance. This method created a vibrant and dynamic visual effect.\n\n3. **Visible Brushwork**: Impressionists employed short, broken brushstrokes to convey a sense of movement and vitality. This technique not only added texture to their paintings but also emphasized the process of painting itself, making the artist\u2019s hand visible in the work.\n\n4. **En Plein Air Painting**: A distinctive feature of Impressionism was the practice of painting outdoors, or \"en plein air.\" This allowed artists to observe and capture the direct effects of natural light on their subjects in real-time, rather than working from sketches or in a studio.\n\n5. **Modern Life Subjects**: Unlike the historical, mythological, and religious themes favored by academic painters, Impressionists often chose subjects from modern life. They depicted scenes of cafes, railways, suburban leisure activities, and everyday moments, reflecting the contemporary urban experience.\n\n### Key Artists and Works\n\n- **Claude Monet**: One of the leading figures of Impressionism, Monet is renowned for his series paintings, such as the haystacks and cathedrals. These series explored the changing effects of light and atmosphere on the same subject at different times of day and under various weather conditions.\n  \n- **Pierre-Auguste Renoir**: Known for his depictions of dappled light filtering through trees, Renoir\u2019s work often featured social scenes and portraits that captured the elegance and joy of modern life.\n\n- **Edgar Degas**: Degas focused on movement and unusual angles, often portraying dancers, racehorses, and scenes of urban life with a sense of spontaneity and dynamism.\n\n- **Camille Pissarro**: Pissarro frequently painted rural scenes and landscapes, using Impressionist techniques to convey the beauty and tranquility of the countryside.\n\n### Origins of the Name\n\nThe term \"Impressionism\" was derived from the title of Claude Monet\u2019s painting \"Impression, Sunrise\" (1872). When the painting was exhibited, a critic used the term \"impression\" in a derogatory manner to describe the work\u2019s perceived lack of finish and clarity. However, the artists embraced the term, using it to identify their collective movement.\n\n### Influences\n\nImpressionism was influenced by several factors:\n- **Photography**: The advent of photography encouraged artists to explore new ways of capturing spontaneous moments and natural light.\n- **Japanese Prints**: The flatness, cropping, and decorative qualities of Japanese ukiyo-e prints inspired Impressionists to rethink composition and perspective.\n- **Scientific Color Theory**: The work of chemist Michel Eug\u00e8ne Chevreul on the laws of simultaneous contrast influenced Impressionists\u2019 use of color.\n\n### Opposition and Legacy\n\nImpressionist works were often rejected by the official Paris Salon, which favored academic standards. Critics deemed Impressionist paintings \"unfinished\" due to their loose brushwork and unconventional techniques. \n\nDespite this opposition, Impressionism had a profound impact on the art world. It liberated color from its descriptive role, emphasized perception over representation, and paved the way for subsequent movements such as Post-Impressionism, Fauvism, and Abstract art. \n\nAdditionally, Neo-Impressionism, led by artists like Georges Seurat, further systematized color theory into a technique known as Pointillism, which involved placing distinct dots of color in patterns to achieve optical mixing. \n\nIn summary, Impressionism represents a pivotal shift in the history of art, focusing on the ephemeral qualities of light, color, and modern life, and challenging traditional artistic conventions.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -200,8 +200,8 @@
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8516720000000001,
-    "mean_agreement": 0.88304,
+    "mean_score": 0.8380040000000001,
+    "mean_agreement": 0.8562,
     "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
       0.0,
@@ -213,15 +213,15 @@
     "scores": [
       0.9733400000000001,
       1.0,
-      0.37334000000000006,
-      0.93834,
+      0.43000000000000005,
+      0.8133400000000002,
       0.9733400000000001
     ],
     "agreement_scores": [
       0.9371,
       1.0,
-      0.6353,
-      0.9214,
+      0.5987,
+      0.8238,
       0.9214
     ]
   }

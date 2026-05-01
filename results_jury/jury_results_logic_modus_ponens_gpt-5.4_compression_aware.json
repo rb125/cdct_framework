@@ -18,11 +18,6 @@
       "response": "if-then inference",
       "jury_evaluation": {
         "judges": {
-          "GLM-5": {
-            "CC": 1.0,
-            "SA": 0.7,
-            "FC": 0.4
-          },
           "Qwen3-32B": {
             "CC": 1.0,
             "SA": 0.9,
@@ -31,115 +26,120 @@
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
-            "FC": 1.0
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
           }
         },
         "consensus": {
           "CC": 1.0,
-          "SA": 0.875,
-          "FC": 0.7,
-          "agreement_score": 0.7536,
+          "SA": 0.95,
+          "FC": 0.7667,
+          "agreement_score": 0.9057,
           "judge_variance_CC": 0.0,
-          "judge_variance_SA": 0.1247,
-          "judge_variance_FC": 0.2449,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0943,
           "judge_count": 3,
-          "recommendation": "MODERATE - Jury consensus with variation"
+          "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.89
+      "score": 0.9333400000000001
     },
     {
       "compression_level": 0.25,
       "context_length": 4,
-      "response_length": 16,
-      "response": "Modus ponens is if-then inference with affirmation. It uses an if-then statement and affirms the condition.",
+      "response_length": 15,
+      "response": "Modus ponens is if-then inference with affirmation. It affirms the antecedent to infer the consequent.",
       "jury_evaluation": {
         "judges": {
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
+          },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
-          "Qwen3-32B": {
-            "CC": 1.0,
-            "SA": 0.9,
-            "FC": 0.9
-          },
           "GLM-5": {
-            "CC": 0.6,
+            "CC": 0.4,
             "SA": 0.7,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.8,
-          "SA": 0.875,
+          "CC": 0.7,
+          "SA": 0.925,
           "FC": 0.9667,
-          "agreement_score": 0.7597,
-          "judge_variance_CC": 0.1886,
-          "judge_variance_SA": 0.1247,
+          "agreement_score": 0.6857,
+          "judge_variance_CC": 0.2828,
+          "judge_variance_SA": 0.1414,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.8633400000000002
+      "score": 0.84334
     },
     {
       "compression_level": 0.5,
       "context_length": 26,
-      "response_length": 92,
-      "response": "Modus ponens is a basic rule of logic that means:\n\n- If a statement of the form \u201cIf P, then Q\u201d is true\n- And P is true\n- Then Q must also be true\n\nFormally:\n\n1. If P, then Q  \n2. P  \n3. Therefore, Q\n\nExample:\n- If it is raining, then the ground is wet.\n- It is raining.\n- Therefore, the ground is wet.\n\nIt is considered a clear and reliable form of reasoning because it applies a known rule to a confirmed fact to reach a valid conclusion.",
+      "response_length": 107,
+      "response": "Modus ponens is a basic rule of logic.\n\nIt works like this:\n\n- If **P, then Q**\n- **P** is true\n- Therefore, **Q** is true\n\n### Example\n- If it is raining, then the ground is wet.\n- It is raining.\n- Therefore, the ground is wet.\n\nThe idea is that once you accept the rule and confirm the condition, the conclusion follows logically. That is why modus ponens is considered a clear and reliable form of reasoning.\n\n### Simple pattern\n1. General rule: **If A \u2192 B**\n2. Fact: **A**\n3. Conclusion: **B**\n\nIt is widely used in mathematics, philosophy, computer science, and everyday reasoning.",
       "jury_evaluation": {
         "judges": {
           "Nemotron-Super-3-120B": {
-            "CC": 0.3,
+            "CC": 0.4,
             "SA": 1.0,
             "FC": 1.0
           },
           "Qwen3-32B": {
-            "CC": 0.6,
+            "CC": 0.4,
             "SA": 0.9,
-            "FC": 0.8
+            "FC": 0.7
           },
           "GLM-5": {
-            "CC": 0.2,
-            "SA": 0.6,
+            "CC": 0.4,
+            "SA": 0.7,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.325,
-          "SA": 0.85,
-          "FC": 0.9333,
-          "agreement_score": 0.7105,
-          "judge_variance_CC": 0.17,
-          "judge_variance_SA": 0.17,
-          "judge_variance_FC": 0.0943,
+          "CC": 0.4,
+          "SA": 0.875,
+          "FC": 0.9,
+          "agreement_score": 0.8226,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.1414,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.65666
+      "score": 0.6900000000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 63,
-      "response_length": 313,
-      "response": "Modus ponens is one of the most basic and important valid argument forms in logic.\n\n### Core idea\nIt has this structure:\n\n1. **If P, then Q**\n2. **P**\n3. **Therefore, Q**\n\nIn symbols:\n\n- \\( P \\rightarrow Q \\)\n- \\( P \\)\n- **\u2234 \\( Q \\)**\n\n### What it means\nA conditional statement says that whenever **P** is true, **Q** must also be true.  \nIf we also know that **P** is actually true, then we are justified in concluding **Q**.\n\n### Example\n- If it rains, the ground gets wet.\n- It is raining.\n- Therefore, the ground gets wet.\n\nThis is a valid inference because the second statement satisfies the condition named in the first statement.\n\n### Why it matters\nModus ponens is a foundation of deductive reasoning. It is used in:\n\n- formal logic\n- mathematics\n- computer science\n- everyday reasoning\n\nWhenever we apply a rule and then recognize that the rule\u2019s condition is met, we are using modus ponens.\n\n### Important note\nIts validity depends on the truth of both premises:\n\n- the conditional: **If P, then Q**\n- the antecedent: **P**\n\nIf both are accepted, then concluding **Q** is logically valid.\n\n### Contrast with a common mistake\nModus ponens is **not** the same as this invalid form:\n\n1. If P, then Q\n2. Q\n3. Therefore, P\n\nThat mistake is called **affirming the consequent**.\n\nExample:\n- If it rains, the ground gets wet.\n- The ground is wet.\n- Therefore, it is raining.\n\nThis is invalid because there may be other reasons the ground is wet.\n\n### Summary\nModus ponens is the rule that allows us to infer the consequent of a conditional when its antecedent is known to be true:\n\n**If P \u2192 Q, and P, then Q.**\n\nIt is a central rule in logic because it captures a basic pattern of sound deduction.",
+      "response_length": 319,
+      "response": "Modus ponens is a basic valid rule of inference in logic. Its form is:\n\n- If P, then Q  \n- P  \n- Therefore, Q\n\nIn symbols:\n\n- \\( P \\rightarrow Q \\)\n- \\( P \\)\n- \\( \\therefore Q \\)\n\n### What it means\nA conditional statement says that whenever P is true, Q follows. If we also know that P is actually true, then we are justified in concluding Q.\n\n### Example\n- If it rains, the ground gets wet.\n- It is raining.\n- Therefore, the ground gets wet.\n\nHere:\n- **P** = \u201cIt is raining\u201d\n- **Q** = \u201cThe ground gets wet\u201d\n\nSince the conditional links P to Q, and P is confirmed, Q follows necessarily.\n\n### Why it is important\nModus ponens is one of the most fundamental tools in deductive reasoning. It appears in:\n\n- formal logic\n- mathematics\n- philosophy\n- computer science\n- everyday reasoning\n\nIt allows us to move step-by-step from accepted premises to a valid conclusion.\n\n### Why it is valid\nThe rule is valid because there is no case where both premises are true and the conclusion is false. If \u201cIf P, then Q\u201d is true, and P is true, then Q must be true.\n\n### Contrast with invalid reasoning\nModus ponens should not be confused with invalid forms such as:\n\n- If P, then Q  \n- Q  \n- Therefore, P  \n\nThis is called **affirming the consequent**, and it is not always valid.\n\nExample:\n- If it rains, the ground gets wet.\n- The ground is wet.\n- Therefore, it is raining.\n\nThis may be false because something else could have made the ground wet.\n\n### Summary\nModus ponens is the rule that lets us infer the consequent of a conditional once its antecedent is established. In short:\n\n- \u201cIf P, then Q\u201d\n- \u201cP\u201d\n- so, \u201cQ\u201d\n\nIt is a cornerstone of logical argument and formal proof.",
       "jury_evaluation": {
         "judges": {
-          "GLM-5": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 1.0
-          },
           "Qwen3-32B": {
             "CC": 0.9,
             "SA": 0.9,
             "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
@@ -162,21 +162,21 @@
     {
       "compression_level": 1.0,
       "context_length": 133,
-      "response_length": 315,
-      "response": "Modus ponens is a basic and essential rule of deductive reasoning in propositional logic. It is the rule that allows us to move from a conditional statement and its confirmed starting condition to a necessary conclusion.\n\nIts form is:\n\n1. **P \u2192 Q** \u2014 If P, then Q  \n2. **P** \u2014 P is true  \n3. **Therefore, Q** \u2014 Q is true\n\nThis is why it is often called **\u201caffirming the antecedent.\u201d**  \n- The **antecedent** is the \u201cif\u201d part, P.  \n- The **consequent** is the \u201cthen\u201d part, Q.\n\nSo if we know that \u201cIf P happens, then Q follows,\u201d and we also know that P really does happen, then we are justified in concluding Q.\n\n### Example\n- If it is raining, then the ground is wet.  \n- It is raining.  \n- Therefore, the ground is wet.\n\nThis is a valid argument form because if both premises are true, the conclusion cannot be false.\n\n### Why it matters\nModus ponens is important because it **preserves truth**: true premises lead to a true conclusion. That makes it one of the core building blocks of:\n- **mathematical proofs**\n- **formal logic**\n- **computer science**\n- **algorithms and programming**\n- **philosophical argumentation**\n\n### Formal significance\nIn logic, modus ponens is considered a **valid inference rule**. It does not merely suggest that Q is probably true; it shows that Q **must** be true, given the premises.\n\n### Difference from invalid reasoning\nModus ponens should not be confused with invalid forms such as:\n- If P, then Q  \n- Q  \n- Therefore, P  \n\nThis is called **affirming the consequent**, and it is not logically valid.\n\n### Summary\nModus ponens is the rule:\n- **If P implies Q**\n- **and P is true**\n- **then Q must be true**\n\nBecause of its simplicity and certainty, it is one of the most fundamental principles in deductive logic and a cornerstone of rigorous reasoning.",
+      "response_length": 411,
+      "response": "**Modus ponens** is a basic and essential rule of **deductive logic**. It describes a valid pattern of reasoning where, if you know that one statement implies another, and you also know the first statement is true, then you can conclude that the second statement is true.\n\n## Basic form\n\nModus ponens has this structure:\n\n1. **P \u2192 Q**  \n   \u201cIf P, then Q\u201d\n2. **P**  \n   \u201cP is true\u201d\n3. **Therefore, Q**  \n   \u201cQ is true\u201d\n\nHere:\n- **P** is called the **antecedent**\n- **Q** is called the **consequent**\n- **\u2192** means \u201cimplies\u201d or \u201cif...then...\u201d\n\n## Why it works\n\nThe reasoning is valid because the first premise says that whenever **P** is true, **Q** must follow. If the second premise confirms that **P** is in fact true, then **Q** must also be true. This is why modus ponens is considered **truth-preserving**: if the premises are true, the conclusion cannot be false.\n\n## Simple example\n\n1. If it is raining, then the ground is wet.  \n2. It is raining.  \n3. Therefore, the ground is wet.\n\nThis follows the exact form:\n- P = \u201cIt is raining\u201d\n- Q = \u201cThe ground is wet\u201d\n\n## Importance in logic\n\nModus ponens is one of the most fundamental inference rules in logic because it allows us to move from accepted premises to justified conclusions. It is used constantly in:\n\n- **Mathematics**: proving theorems from axioms and earlier results\n- **Computer science**: programming logic, automated theorem proving, and formal verification\n- **Philosophy**: analyzing arguments and reasoning clearly\n- **Formal systems**: deriving conclusions in symbolic logic\n\n## Why it is called \u201caffirming the antecedent\u201d\n\nIt is often called **affirming the antecedent** because the second premise affirms that the antecedent (**P**) is true. From that, the consequent (**Q**) is inferred.\n\n## Distinction from invalid reasoning\n\nModus ponens is valid, but similar-looking forms may be invalid. For example:\n\n1. If P, then Q  \n2. Q  \n3. Therefore, P\n\nThis is **not** modus ponens and is generally invalid. It is called **affirming the consequent**. For instance:\n\n1. If it is raining, the ground is wet.  \n2. The ground is wet.  \n3. Therefore, it is raining.\n\nThis may be false because the ground could be wet for another reason.\n\n## Summary\n\nModus ponens is the rule:\n\n- If **P implies Q**\n- and **P is true**\n- then **Q must be true**\n\nIt is a cornerstone of sound reasoning because it provides a simple, reliable, and universally used way to derive conclusions from premises.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
             "CC": 0.9,
-            "SA": 0.9,
+            "SA": 0.95,
             "FC": 0.9
           },
-          "GLM-5": {
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
-          "Nemotron-Super-3-120B": {
+          "GLM-5": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
@@ -184,24 +184,24 @@
         },
         "consensus": {
           "CC": 0.975,
-          "SA": 0.95,
+          "SA": 0.975,
           "FC": 0.9667,
-          "agreement_score": 0.9057,
+          "agreement_score": 0.9214,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0471,
+          "judge_variance_SA": 0.0236,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9633400000000001
+      "score": 0.9733400000000001
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8673360000000001,
-    "mean_agreement": 0.80704,
+    "mean_score": 0.880672,
+    "mean_agreement": 0.8482199999999999,
     "decay_direction": "\u2192 Stable",
     "compression_levels": [
       0.0,
@@ -211,18 +211,18 @@
       1.0
     ],
     "scores": [
-      0.89,
-      0.8633400000000002,
-      0.65666,
+      0.9333400000000001,
+      0.84334,
+      0.6900000000000001,
       0.9633400000000001,
-      0.9633400000000001
+      0.9733400000000001
     ],
     "agreement_scores": [
-      0.7536,
-      0.7597,
-      0.7105,
       0.9057,
-      0.9057
+      0.6857,
+      0.8226,
+      0.9057,
+      0.9214
     ]
   }
 }

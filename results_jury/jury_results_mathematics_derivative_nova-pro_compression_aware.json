@@ -14,39 +14,39 @@
     {
       "compression_level": 0.0,
       "context_length": 3,
-      "response_length": 4,
-      "response": "Instantaneous rate of change.",
+      "response_length": 5,
+      "response": "Rate of change, mathematical concept.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
             "CC": 1.0,
-            "SA": 1.0,
-            "FC": 1.0
+            "SA": 0.9,
+            "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
-            "FC": 1.0
+            "FC": 0.9
           },
           "GLM-5": {
-            "CC": 1.0,
-            "SA": 0.9,
+            "CC": 0.7,
+            "SA": 0.8,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 1.0,
-          "SA": 0.975,
-          "FC": 1.0,
-          "agreement_score": 0.9686,
-          "judge_variance_CC": 0.0,
-          "judge_variance_SA": 0.0471,
-          "judge_variance_FC": 0.0,
+          "CC": 0.85,
+          "SA": 0.9,
+          "FC": 0.9333,
+          "agreement_score": 0.8199,
+          "judge_variance_CC": 0.1414,
+          "judge_variance_SA": 0.0816,
+          "judge_variance_FC": 0.0471,
           "judge_count": 3,
-          "recommendation": "ROBUST - Unanimous jury"
+          "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.99
+      "score": 0.8866600000000001
     },
     {
       "compression_level": 0.25,
@@ -88,29 +88,29 @@
     {
       "compression_level": 0.5,
       "context_length": 30,
-      "response_length": 554,
-      "response": "Certainly! Let's delve into the concept of a derivative using the context provided.\n\n### Understanding the Derivative\n\nA **derivative** is a fundamental concept in calculus that measures the **instantaneous rate of change** of a function with respect to one of its variables. This is akin to determining how quickly or slowly the function's output is changing at any given point along its domain.\n\n### Key Concepts\n\n1. **Instantaneous Rate of Change**:\n   - Imagine you are driving a car, and you want to know your speed at a specific moment. Your speedometer gives you this information, which is essentially the rate at which your position is changing at that exact instant. In mathematical terms, this is what a derivative provides for a function.\n   \n2. **Function\u2019s Output Response**:\n   - Consider a function \\( f(x) \\). The derivative of this function, often denoted as \\( f'(x) \\) or \\( \\frac{df}{dx} \\), tells you how the output of the function \\( f(x) \\) changes as you make small changes to the input \\( x \\).\n   \n3. **Small Input Changes**:\n   - The derivative focuses on **small** changes in the input. For example, if you have a function that describes the position of a particle over time, the derivative will tell you the particle's velocity (rate of change of position) at any given moment.\n\n### Mathematical Formulation\n\nIf you have a function \\( f(x) \\), the derivative \\( f'(x) \\) at a point \\( x \\) is defined as the limit of the average rate of change as the change in \\( x \\) approaches zero. Mathematically, it is expressed as:\n\n\\[ f'(x) = \\lim_{\\Delta x \\to 0} \\frac{f(x + \\Delta x) - f(x)}{\\Delta x} \\]\n\nHere, \\( \\Delta x \\) represents a small change in \\( x \\), and \\( f(x + \\Delta x) - f(x) \\) represents the corresponding change in the function\u2019s output.\n\n### Importance in Physics and Engineering\n\n- **Physics**: In physics, derivatives are used to describe various rates of change. For instance:\n  - **Velocity**: The derivative of the position function with respect to time.\n  - **Acceleration**: The derivative of the velocity function with respect to time.\n  \n- **Engineering**: In engineering, derivatives help in:\n  - **Optimization**: Finding the maximum or minimum values of functions, which is critical in design and analysis.\n  - **Modeling**: Creating models that predict how systems behave under various conditions.\n\n### Example\n\nConsider a simple function \\( f(x) = x^2 \\). To find its derivative, we apply the definition:\n\n\\[ f'(x) = \\lim_{\\Delta x \\to 0} \\frac{(x + \\Delta x)^2 - x^2}{\\Delta x} \\]\n\nExpanding and simplifying:\n\n\\[ f'(x) = \\lim_{\\Delta x \\to 0} \\frac{x^2 + 2x\\Delta x + (\\Delta x)^2 - x^2}{\\Delta x} \\]\n\\[ f'(x) = \\lim_{\\Delta x \\to 0} \\frac{2x\\Delta x + (\\Delta x)^2}{\\Delta x} \\]\n\\[ f'(x) = \\lim_{\\Delta x \\to 0} (2x + \\Delta x) \\]\n\\[ f'(x) = 2x \\]\n\nSo, the derivative of \\( f(x) = x^2 \\) is \\( f'(x) = 2x \\), which tells us how the function \\( x^2 \\) is changing at any point \\( x \\).\n\n### Conclusion\n\nIn summary, a derivative is a powerful tool that allows us to understand and quantify the rate at which functions change. This concept is vital across various fields, especially in physics and engineering, where understanding dynamic changes is crucial for analysis and design.",
+      "response_length": 547,
+      "response": "Certainly! Let's delve into the concept of a derivative using the context provided.\n\n### Understanding the Derivative\n\nA **derivative** is a fundamental concept in calculus that measures the **instantaneous rate of change** of a function with respect to one of its variables. This is akin to determining how quickly or slowly the function's output is changing at any given point along its domain.\n\n### Key Concepts\n\n1. **Instantaneous Rate of Change**:\n   - Imagine you are driving a car, and you want to know your speed at a specific moment. Your speedometer gives you this information\u2014it tells you how fast you are going right now. In mathematical terms, this is what a derivative does for a function. It provides the rate at which the function\u2019s value is changing at a particular point.\n\n2. **Function\u2019s Output Response to Input Changes**:\n   - Consider a function \\( f(x) \\). The derivative of this function, often denoted as \\( f'(x) \\) or \\( \\frac{df}{dx} \\), tells us how \\( f(x) \\) changes as \\( x \\) changes. If \\( x \\) represents time and \\( f(x) \\) represents distance traveled, then the derivative \\( f'(x) \\) would represent speed\u2014the rate at which distance is changing over time.\n\n3. **Small Input Changes**:\n   - The derivative focuses on **small** changes in the input. Instead of looking at large intervals, it zooms in on what happens over tiny, almost infinitesimal, changes in \\( x \\). This is why the derivative is often described in terms of limits.\n\n### Mathematical Formulation\n\nThe derivative of a function \\( f(x) \\) at a point \\( x = a \\) is formally defined as:\n\\[ f'(a) = \\lim_{\\Delta x \\to 0} \\frac{f(a + \\Delta x) - f(a)}{\\Delta x} \\]\n\n- **\\( \\Delta x \\)**: A small change in \\( x \\).\n- **\\( f(a + \\Delta x) - f(a) \\)**: The change in the function\u2019s output corresponding to the change in input.\n- **\\( \\frac{f(a + \\Delta x) - f(a)}{\\Delta x} \\)**: The average rate of change over the interval \\( \\Delta x \\).\n- **\\( \\lim_{\\Delta x \\to 0} \\)**: As \\( \\Delta x \\) approaches zero, this expression gives us the instantaneous rate of change.\n\n### Importance in Physics and Engineering\n\n- **Physics**: In physics, derivatives are used to describe velocities and accelerations. For example, the derivative of the position function with respect to time gives velocity, and the derivative of velocity with respect to time gives acceleration.\n- **Engineering**: In engineering, derivatives help in optimizing designs, understanding system behaviors, and solving problems related to rates of change in various processes, such as fluid flow, electrical circuits, and mechanical systems.\n\n### Example\n\nConsider the function \\( f(x) = x^2 \\). \n- To find the derivative, we use the limit definition or rules of differentiation.\n- Using the power rule, the derivative is \\( f'(x) = 2x \\).\n\nThis means that for the function \\( f(x) = x^2 \\), the rate of change at any point \\( x \\) is \\( 2x \\). \n\n### Conclusion\n\nIn summary, a derivative is a powerful tool that allows us to understand how a function changes at any given point. It is essential in various fields, particularly in physics and engineering, where understanding rates of change is crucial for analysis and problem-solving.",
       "jury_evaluation": {
         "judges": {
-          "Nemotron-Super-3-120B": {
-            "CC": 0.0,
-            "SA": 0.7,
-            "FC": 0.0
-          },
           "Qwen3-32B": {
             "CC": 0.0,
             "SA": 0.8,
             "FC": 0.0
           },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.0,
+            "SA": 0.7,
+            "FC": 0.0
+          },
           "GLM-5": {
             "CC": 0.1,
-            "SA": 0.8,
+            "SA": 0.7,
             "FC": 0.2
           }
         },
         "consensus": {
           "CC": 0.05,
-          "SA": 0.775,
+          "SA": 0.75,
           "FC": 0.0667,
           "agreement_score": 0.8743,
           "judge_variance_CC": 0.0471,
@@ -120,13 +120,13 @@
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.3433400000000001
+      "score": 0.3333400000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 66,
-      "response_length": 532,
-      "response": "Certainly! Let's delve into the concept of a derivative with the context provided.\n\n### What is a Derivative?\n\nA **derivative** is a fundamental concept in calculus that measures the **instantaneous rate of change** of a function with respect to one of its variables. This means it tells us how a function's output value changes as its input value changes infinitesimally. \n\n### Key Aspects of a Derivative\n\n1. **Instantaneous Rate of Change**:\n   - The derivative provides the rate at which a function is changing at any given point. For example, if you have a function that describes the position of a car over time, the derivative of this function with respect to time will give you the car's velocity at any moment.\n\n2. **Notation**:\n   - The derivative of a function \\( f(x) \\) is commonly denoted as \\( f'(x) \\) or \\( \\frac{dy}{dx} \\). Here, \\( f'(x) \\) represents the derivative of \\( f \\) with respect to \\( x \\), and \\( \\frac{dy}{dx} \\) indicates the derivative of \\( y \\) with respect to \\( x \\).\n\n3. **Slope of the Tangent Line**:\n   - Geometrically, the derivative at a point gives the slope of the tangent line to the function's graph at that point. If you imagine drawing a curve on a graph, the derivative at any point on that curve is the slope of the line that just touches the curve at that point without cutting through it.\n\n### Applications of Derivatives\n\n1. **Physics**:\n   - In physics, derivatives are used to describe various rates of change. For instance:\n     - The derivative of position with respect to time is velocity.\n     - The derivative of velocity with respect to time is acceleration.\n\n2. **Engineering**:\n   - Engineers use derivatives to model and analyze the behavior of dynamic systems. For example, in electrical engineering, the derivative can describe how current changes over time in a circuit.\n\n3. **Optimization**:\n   - Derivatives are crucial in finding the maximum and minimum values of functions. This is particularly useful in economics for profit maximization and cost minimization, and in various fields for optimizing performance.\n\n4. **Modeling Dynamic Systems**:\n   - In any system where variables change over time, derivatives help in creating models that predict future behavior. This includes population growth models in biology, changes in stock prices in finance, and fluid dynamics in environmental science.\n\n### Example\n\nConsider a simple function \\( f(x) = x^2 \\). To find its derivative, we apply the power rule, which states that the derivative of \\( x^n \\) is \\( nx^{n-1} \\).\n\n- For \\( f(x) = x^2 \\):\n  \\[\n  f'(x) = 2x\n  \\]\n\nThis means that for any value of \\( x \\), the rate of change of \\( f(x) \\) is \\( 2x \\). If \\( x = 3 \\), the slope of the tangent line to the curve \\( f(x) = x^2 \\) at \\( x = 3 \\) is \\( 2 \\times 3 = 6 \\).\n\n### Conclusion\n\nIn summary, the derivative is a powerful tool in mathematics that allows us to understand and quantify how functions change. It has wide-ranging applications across science, engineering, economics, and beyond, making it an essential concept in both theoretical and applied contexts.",
+      "response_length": 483,
+      "response": "Certainly! Let's delve into the concept of a derivative using the context provided.\n\n### What is a Derivative?\n\nA **derivative** is a fundamental concept in calculus that measures the **instantaneous rate of change** of a function with respect to one of its variables. This means it tells us how a function\u2019s output value changes as its input value changes by an infinitesimally small amount. \n\n### Why are Derivatives Important?\n\n1. **Understanding Change**: Derivatives help us understand how quantities change. For example, in physics, the derivative of position with respect to time gives us velocity, which tells us how fast an object is moving at any given moment.\n   \n2. **Slopes of Curves**: In geometry, the derivative at a point gives the slope of the tangent line to the curve of the function at that point. This is crucial for understanding the behavior of functions graphically.\n\n3. **Optimization**: Derivatives are used to find the maximum and minimum values of functions. This is essential in various fields such as economics for profit maximization, engineering for cost minimization, and many others.\n\n4. **Modeling Dynamic Systems**: In engineering and the physical sciences, derivatives are used to model how systems evolve over time. For example, they can describe how the temperature in a room changes as a heater is turned on.\n\n### Mathematical Representation\n\nIn calculus, the derivative of a function \\( f(x) \\) with respect to \\( x \\) is often denoted as:\n- \\( f'(x) \\) (read as \"f prime of x\")\n- \\( \\frac{dy}{dx} \\) when \\( y = f(x) \\)\n\n### Formal Definition\n\nThe derivative of a function \\( f \\) at a point \\( x \\) is formally defined as the limit of the average rate of change of the function as the change in \\( x \\) approaches zero. Mathematically, it is expressed as:\n\\[ f'(x) = \\lim_{\\Delta x \\to 0} \\frac{f(x + \\Delta x) - f(x)}{\\Delta x} \\]\n\n### Example\n\nConsider a simple function \\( f(x) = x^2 \\). To find its derivative, we apply the limit definition or use derivative rules. Using the power rule, we get:\n\\[ f'(x) = 2x \\]\n\nThis tells us that for the function \\( f(x) = x^2 \\), the rate of change at any point \\( x \\) is \\( 2x \\). \n\n### Applications\n\n1. **Physics**: The derivative of the position function with respect to time gives the velocity function. Further differentiating velocity with respect to time gives acceleration.\n2. **Economics**: The derivative of a cost function with respect to the quantity produced can help find the marginal cost.\n3. **Biology**: The rate of change of a population over time can be modeled using derivatives.\n\n### Conclusion\n\nIn summary, derivatives are a powerful tool in mathematics that allow us to analyze and understand the rate at which things change. They are essential in various scientific and engineering disciplines for modeling, optimization, and understanding dynamic systems.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -135,7 +135,7 @@
             "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
-            "CC": 0.8,
+            "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
@@ -146,35 +146,35 @@
           }
         },
         "consensus": {
-          "CC": 0.925,
+          "CC": 0.975,
           "SA": 0.925,
           "FC": 0.9667,
-          "agreement_score": 0.8827,
-          "judge_variance_CC": 0.0816,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
           "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9333400000000001
+      "score": 0.9533400000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 134,
-      "response_length": 599,
-      "response": "Certainly! Let's delve into a comprehensive explanation of the concept of a derivative, based on the provided context.\n\n### Definition and Intuition\n\nIn mathematics, particularly in calculus, the **derivative** of a function is a measure of its instantaneous rate of change with respect to its independent variable. To put it simply, if you have a function \\( f(x) \\), the derivative tells you how \\( f(x) \\) changes as \\( x \\) changes.\n\n### Formal Definition\n\nFormally, the derivative of a function \\( f(x) \\) at a point \\( x \\) is defined as the limit:\n\\[ f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\]\nThis expression calculates the slope of the tangent line to the graph of the function at the point \\( x \\). The term \\( \\frac{f(x+h) - f(x)}{h} \\) represents the average rate of change of the function over the interval from \\( x \\) to \\( x + h \\). As \\( h \\) approaches zero, this average rate of change approaches the instantaneous rate of change, which is the derivative.\n\n### Key Principles\n\n1. **Linearity**:\n   - The derivative of a sum is the sum of the derivatives.\n   - The derivative of a constant times a function is the constant times the derivative of the function.\n   Mathematically, if \\( c \\) is a constant and \\( f(x) \\) and \\( g(x) \\) are functions, then:\n   \\[ \\frac{d}{dx} [cf(x) + g(x)] = c f'(x) + g'(x) \\]\n\n2. **Product Rule**:\n   - The derivative of a product of two functions is given by:\n   \\[ \\frac{d}{dx} [f(x)g(x)] = f'(x)g(x) + f(x)g'(x) \\]\n\n3. **Quotient Rule**:\n   - The derivative of a quotient of two functions is given by:\n   \\[ \\frac{d}{dx} \\left[ \\frac{f(x)}{g(x)} \\right] = \\frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2} \\]\n\n4. **Chain Rule**:\n   - The derivative of a composite function is given by:\n   \\[ \\frac{d}{dx} [f(g(x))] = f'(g(x)) \\cdot g'(x) \\]\n   This rule is essential for differentiating compositions of functions.\n\n### Geometric Interpretation\n\nThe derivative \\( f'(x) \\) represents the slope of the tangent line to the curve \\( y = f(x) \\) at the point \\( x \\). This slope indicates how steep the curve is at that particular point. \n\n### Applications\n\nDerivatives have vast applications across various fields:\n\n- **Physics**: Velocity is the derivative of position with respect to time. Acceleration is the derivative of velocity.\n- **Engineering**: Derivatives are used to determine rates of change in systems, such as the rate at which a tank fills or empties.\n- **Economics**: Marginal cost is the derivative of the cost function, representing the additional cost of producing one more unit of a good.\n- **Optimization**: Derivatives help find local maxima and minima of functions, which is crucial in optimization problems.\n\n### Higher-Order Derivatives\n\nThe second derivative, denoted as \\( f''(x) \\), is the derivative of the first derivative \\( f'(x) \\). It provides information about the curvature of the function. For example, if \\( f''(x) > 0 \\), the function is concave up at \\( x \\), and if \\( f''(x) < 0 \\), the function is concave down.\n\nHigher-order derivatives extend this concept further, offering deeper insights into the behavior of functions, such as jerk (the rate of change of acceleration) in physics.\n\n### Summary\n\nIn summary, the derivative is a powerful tool in calculus that quantifies the rate at which a function is changing at any given point. It is foundational for understanding and modeling dynamic systems in various scientific and engineering disciplines. Through principles like linearity, the product and quotient rules, and the chain rule, derivatives enable the analysis of complex functions and their behaviors.",
+      "response_length": 571,
+      "response": "Certainly! Let's delve into a comprehensive explanation of the concept of a derivative, based on the provided context.\n\n### Definition and Basic Concept\n\nIn mathematics, particularly in calculus, the **derivative** of a function is a measure of how the function's output value changes in response to changes in its input value. More formally, the derivative quantifies the **instantaneous rate of change** of the function with respect to its independent variable.\n\n### Formal Definition\n\nFor a function \\( f(x) \\), the derivative at a point \\( x \\) is defined as the limit:\n\\[ f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\]\nThis expression represents the slope of the tangent line to the graph of the function at the point \\( x \\). The limit process essentially examines what happens as the change in \\( x \\) (denoted as \\( h \\)) approaches zero, giving us the exact rate of change at that specific point.\n\n### Key Principles\n\n1. **Linearity**:\n   - The derivative of a sum of functions is the sum of their derivatives.\n   - The derivative of a constant times a function is the constant times the derivative of the function.\n   Formally, if \\( c \\) is a constant and \\( f \\) and \\( g \\) are functions, then:\n   \\[ (cf(x))' = c f'(x) \\]\n   \\[ (f(x) + g(x))' = f'(x) + g'(x) \\]\n\n2. **Product Rule**:\n   - The derivative of a product of two functions is given by:\n   \\[ (f(x)g(x))' = f'(x)g(x) + f(x)g'(x) \\]\n\n3. **Quotient Rule**:\n   - The derivative of the quotient of two functions is given by:\n   \\[ \\left( \\frac{f(x)}{g(x)} \\right)' = \\frac{f'(x)g(x) - f(x)g'(x)}{(g(x))^2} \\]\n\n4. **Chain Rule**:\n   - For composite functions, the chain rule states that if \\( h(x) = f(g(x)) \\), then:\n   \\[ h'(x) = f'(g(x)) \\cdot g'(x) \\]\n   This rule is essential for differentiating compositions of functions.\n\n### Geometric Interpretation\n\nThe derivative \\( f'(x) \\) at a point \\( x \\) represents the **slope of the tangent line** to the curve \\( y = f(x) \\) at that point. This geometric interpretation is crucial for understanding how the function behaves locally around \\( x \\).\n\n### Applications\n\nDerivatives have vast applications across various fields:\n\n- **Physics**: Velocity is the derivative of position with respect to time. Acceleration is the derivative of velocity.\n- **Engineering**: Derivatives are used to determine rates of change in systems, such as the flow of electricity in circuits or the stress on materials.\n- **Economics**: Marginal cost is the derivative of the cost function, representing the additional cost of producing one more unit of a good.\n- **Optimization**: Derivatives help find maximum and minimum values of functions, which is critical in fields like operations research and machine learning.\n\n### Higher-Order Derivatives\n\nThe second derivative, third derivative, and so on, are called higher-order derivatives. These derivatives provide information about the curvature and other properties of the function. For instance:\n\n- The **second derivative** \\( f''(x) \\) gives information about the concavity of the function. If \\( f''(x) > 0 \\), the function is concave up at \\( x \\); if \\( f''(x) < 0 \\), it is concave down.\n- In physics, the second derivative of position with respect to time gives acceleration.\n\n### Conclusion\n\nThe derivative is a fundamental concept in calculus that allows us to understand and model how functions change. Its applications are widespread, making it an indispensable tool in both theoretical and applied mathematics.",
       "jury_evaluation": {
         "judges": {
-          "Qwen3-32B": {
-            "CC": 0.9,
-            "SA": 0.95,
-            "FC": 0.9
-          },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
           },
           "GLM-5": {
             "CC": 1.0,
@@ -200,8 +200,8 @@
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8480040000000001,
-    "mean_agreement": 0.9294,
+    "mean_score": 0.829336,
+    "mean_agreement": 0.9042600000000001,
     "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
       0.0,
@@ -211,17 +211,17 @@
       1.0
     ],
     "scores": [
-      0.99,
+      0.8866600000000001,
       1.0,
-      0.3433400000000001,
-      0.9333400000000001,
+      0.3333400000000001,
+      0.9533400000000001,
       0.9733400000000001
     ],
     "agreement_scores": [
-      0.9686,
+      0.8199,
       1.0,
       0.8743,
-      0.8827,
+      0.9057,
       0.9214
     ]
   }

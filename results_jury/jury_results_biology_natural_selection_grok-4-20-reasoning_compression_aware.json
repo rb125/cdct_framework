@@ -88,47 +88,52 @@
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "response_length": 64,
-      "response": "Natural selection is the process by which individuals with helpful (advantageous) traits are more likely to survive and reproduce than others in the same population. Because they reproduce more successfully, those beneficial traits are passed on to their offspring. Over many generations, this differential survival and reproduction gradually shapes the characteristics of the entire population, enabling it to become better adapted to its environment.",
+      "response_length": 91,
+      "response": "Natural selection is the process in which individuals with helpful traits survive and reproduce more successfully than others, allowing them to pass those traits on to their offspring. Over multiple generations, this differential survival and reproduction gradually shapes the overall characteristics of populations, enabling them to adapt more effectively to their environment.\n\nThis occurs because helpful traits (those that improve survival or reproductive success in a given setting) become more common over time, while less helpful ones tend to diminish, resulting in populations that are better suited to their surroundings. \n\n\\confidence{70}",
       "jury_evaluation": {
         "judges": {
           "Nemotron-Super-3-120B": {
-            "CC": 0.5,
+            "CC": 0.4,
             "SA": 1.0,
-            "FC": 1.0
+            "FC": 0.8
           },
           "Qwen3-32B": {
-            "CC": 0.7,
+            "CC": 0.6,
             "SA": 0.9,
-            "FC": 0.9
+            "FC": 0.7
           },
           "GLM-5": {
-            "CC": 0.5,
+            "CC": 0.4,
             "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.55,
+          "CC": 0.45,
           "SA": 0.95,
-          "FC": 0.9667,
-          "agreement_score": 0.8743,
+          "FC": 0.8333,
+          "agreement_score": 0.8226,
           "judge_variance_CC": 0.0943,
           "judge_variance_SA": 0.0471,
-          "judge_variance_FC": 0.0471,
+          "judge_variance_FC": 0.1247,
           "judge_count": 3,
-          "recommendation": "ROBUST - Unanimous jury"
+          "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.7933400000000002
+      "score": 0.7266600000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 60,
-      "response_length": 224,
-      "response": "**Natural Selection**\n\nNatural selection is a fundamental mechanism of evolution. It is the process by which organisms possessing advantageous adaptations\u2014such as camouflage that helps them avoid predators or disease resistance that improves their health\u2014are more likely to survive long enough to reproduce and pass on their genes.\n\nBecause individuals with these beneficial traits have higher survival and reproductive success, the specific alleles (variants of genes) responsible for those advantages become more common in the gene pool of the population across successive generations. Over time, the frequency of these favorable traits increases while less advantageous traits become rarer.\n\nA classic illustration is the peppered moth population in industrialized areas of England. In heavily polluted environments, moths with darker coloration were better camouflaged against soot-covered trees and therefore less likely to be eaten by birds. As a result, the dark-colored variant became dominant in those regions through natural selection.\n\nBeyond changing trait frequencies within a single population, natural selection drives speciation\u2014the formation of new species\u2014by consistently favoring different adaptations in different environments. It also enables populations to respond to environmental pressures such as climate change, new predators, or disease outbreaks, allowing life to adapt continuously to shifting conditions.\n\nIn summary, natural selection is the non-random process that filters which genetic variations are retained and amplified in a population, shaping the characteristics of species over evolutionary time.",
+      "response_length": 208,
+      "response": "**Natural selection** is a fundamental mechanism of evolution. It occurs when organisms possessing advantageous adaptations\u2014such as camouflage that helps them avoid predators or disease resistance that improves their health\u2014are more likely to survive long enough to reproduce and pass on their genes. Over successive generations, the beneficial alleles (variants of genes) responsible for these advantages become more common in the population\u2019s gene pool.\n\nA classic illustration is the case of peppered moths in industrial-polluted areas of England. In environments darkened by soot, moths with darker coloration gained better camouflage against tree bark, making them less visible to birds. As a result, the dark-colored variant increased dramatically in frequency within just a few generations, demonstrating how natural selection can produce rapid, observable change in response to environmental pressures.\n\nBeyond favoring individual survival traits, natural selection plays a larger role in evolution: it drives speciation (the formation of new species) by gradually shaping populations to fit their ecological niches, and it enables species to adapt to changing conditions such as climate shifts, new predators, or emerging diseases. In essence, natural selection is the process by which \u201cnature\u201d non-randomly filters which heritable traits are preserved and amplified over time, leading to the diversity and functional fit we observe in living organisms.",
       "jury_evaluation": {
         "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
@@ -138,11 +143,6 @@
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
-          },
-          "Qwen3-32B": {
-            "CC": 0.9,
-            "SA": 0.9,
-            "FC": 0.9
           }
         },
         "consensus": {
@@ -162,10 +162,15 @@
     {
       "compression_level": 1.0,
       "context_length": 135,
-      "response_length": 271,
-      "response": "Natural selection is a fundamental mechanism of evolution in biology. It describes the differential survival and reproduction of organisms due to variations in their heritable traits. In any population, individuals possess different phenotypes\u2014observable traits that arise from genetic differences. Those organisms with advantageous phenotypes, meaning traits that enhance their fitness (overall ability to survive and reproduce) within a specific environment, are more likely to survive long enough to reproduce and successfully pass those beneficial traits on to their offspring.\n\nThis process rests on four key principles:\n- **Variation**: Genetic differences exist among individuals in a population.\n- **Inheritance**: Traits are transmitted from parents to offspring through genetic mechanisms.\n- **Differential survival and reproduction (fitness)**: Not all individuals survive or reproduce at the same rate; those with advantageous traits have higher fitness.\n- **Adaptation**: Over generations, the accumulation of these favored traits causes populations to become better suited to their environment.\n\nThrough repeated cycles of this process, natural selection can lead to the evolution of complex adaptations, the formation of new species (speciation), and greater overall biodiversity. These evolutionary dynamics have practical applications in several fields. In medicine, natural selection explains phenomena such as the rise of antibiotic resistance in bacteria. In agriculture, it informs strategies for crop improvement by selecting for desirable traits. In conservation biology, understanding natural selection helps in the management of endangered species by predicting how populations may respond to environmental changes and informing interventions that maintain genetic health.\n\nIn summary, natural selection acts as a non-random filter on existing genetic variation, consistently favoring traits that improve survival and reproductive success, thereby shaping the biological world over time.",
+      "response_length": 315,
+      "response": "**Natural Selection**\n\nNatural selection is a fundamental mechanism of evolution in biology. It describes the differential survival and reproduction of organisms that arises from variations in their heritable traits. In any population, individuals possess different phenotypes\u2014observable traits that result from genetic differences. Some of these phenotypes are advantageous in a given environment because they enhance an organism\u2019s fitness, meaning they improve its chances of surviving long enough to reproduce and pass those beneficial traits on to the next generation.\n\nThe process rests on four key principles:\n\n- **Variation**: Genetic differences exist among individuals in a population.\n- **Inheritance**: Traits are transmitted from parents to offspring through genetic material.\n- **Differential survival and reproduction (fitness)**: Not all individuals survive or reproduce at the same rate; those with advantageous traits tend to leave more offspring.\n- **Adaptation**: Over successive generations, the frequency of beneficial traits increases within the population, causing the population as a whole to become better suited to its environment.\n\nThrough this iterative process, natural selection can produce complex adaptations, drive speciation (the formation of new species), and contribute to increased biodiversity.\n\n**Practical Applications**\n\nBecause natural selection is an ongoing, observable process, it has direct relevance in several fields:\n- **Medicine**: Understanding natural selection helps explain and combat phenomena such as antibiotic resistance in bacteria.\n- **Agriculture**: Knowledge of selection principles guides crop improvement programs, allowing breeders to favor traits that increase yield, disease resistance, or nutritional value.\n- **Conservation biology**: Managing endangered species requires accounting for evolutionary dynamics, including how limited genetic variation or changing environments affect a species\u2019 ability to adapt.\n\nIn summary, natural selection is the mechanism by which advantageous heritable traits become more common over generations, shaping the diversity and adaptedness of life on Earth. Its principles of variation, inheritance, differential fitness, and adaptation provide both a foundational explanation for evolutionary change and a practical framework for addressing real-world biological challenges.",
       "jury_evaluation": {
         "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 1.0,
+            "FC": 1.0
+          },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
@@ -175,33 +180,28 @@
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
-          },
-          "Qwen3-32B": {
-            "CC": 0.9,
-            "SA": 1.0,
-            "FC": 0.9
           }
         },
         "consensus": {
           "CC": 0.975,
           "SA": 1.0,
-          "FC": 0.9667,
-          "agreement_score": 0.9371,
+          "FC": 1.0,
+          "agreement_score": 0.9686,
           "judge_variance_CC": 0.0471,
           "judge_variance_SA": 0.0,
-          "judge_variance_FC": 0.0471,
+          "judge_variance_FC": 0.0,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9833400000000001
+      "score": 0.99
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.9166720000000002,
-    "mean_agreement": 0.91828,
+    "mean_score": 0.904668,
+    "mean_agreement": 0.91424,
     "decay_direction": "\u2192 Stable",
     "compression_levels": [
       0.0,
@@ -213,16 +213,16 @@
     "scores": [
       0.8433400000000001,
       1.0,
-      0.7933400000000002,
+      0.7266600000000001,
       0.9633400000000001,
-      0.9833400000000001
+      0.99
     ],
     "agreement_scores": [
       0.8743,
       1.0,
-      0.8743,
+      0.8226,
       0.9057,
-      0.9371
+      0.9686
     ]
   }
 }
