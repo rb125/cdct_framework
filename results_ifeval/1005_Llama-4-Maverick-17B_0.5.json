@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "draft resume for first-job seeker, include 12 placeholders: [name], [address], etc.",
+  "compressed_word_count": 11,
+  "response": "Here's a draft resume for a first-job seeker with 12 placeholders:\n\n**[Name]**\n**[Address]**\n**[City, State Zip]**\n**[Phone Number]**\n**[Email Address]**\n\n**Objective:**\nTo secure an entry-level position in **[Industry/Field]** where I can apply my skills and knowledge to contribute to the success of **[Company/Organization]**.\n\n**Education:**\n- **[Degree]**, **[Major]**, **[University Name]**, **[Graduation Date]**\n  - Relevant Coursework: **[Relevant Course 1]**, **[Relevant Course 2]**, **[Relevant Course 3]**\n\n**Experience:**\n- **[Internship/Part-time Job Title]**, **[Company/Organization Name]**, **[Employment Dates]**\n  - Key Responsibilities: \n    - **[Responsibility 1]**\n    - **[Responsibility 2]**\n    - **[Responsibility 3]**\n- **[Project/Volunteer Title]**, **[Project/Organization Name]**, **[Project/Volunteer Dates]**\n  - Achievements:\n    - **[Achievement 1]**\n    - **[Achievement 2]**\n\n**Skills:**\n- **[Technical Skill 1]** (e.g., Python, Java)\n- **[Technical Skill 2]** (e.g., Microsoft Office, Adobe Creative Suite)\n- **[Soft Skill 1]** (e.g., Communication, Teamwork)\n- **[Soft Skill 2]** (e.g., Problem-solving, Time Management)\n\n**Certifications/Awards:**\n- **[Certification/Award Name]**, **[Issuing Organization]**, **[Date]**\n\n**References:**\nAvailable upon request.\n\nTo fill this template, you would replace the placeholders with your own information, such as:\n1. **[Name]** - Your full name.\n2. **[Address]** - Your street address.\n3. **[City, State Zip]** - Your city, state, and zip code.\n4. **[Phone Number]** - Your contact phone number.\n5. **[Email Address]** - Your professional email address.\n6. **[Industry/Field]** - The industry or field you're applying to.\n7. **[Company/Organization]** - The company or organization you're applying to or a general term if not specific.\n8. **[Degree]** - Your degree (e.g., Bachelor's, Associate's).\n9. **[Major]** - Your major or field of study.\n10. **[University Name]** - The name of your university or college.\n11. **[Graduation Date]** - The date you graduated or expect to graduate.\n12. **[Relevant Course 1]**, **[Relevant Course 2]**, etc. - Courses relevant to the job you're applying for.\n\nAnd similarly for the other placeholders like job titles, company names, skills, etc., tailoring them to your experiences and the job you're applying for.",
+  "response_word_count": 305,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

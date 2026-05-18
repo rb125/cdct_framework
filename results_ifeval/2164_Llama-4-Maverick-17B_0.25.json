@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "latex squeaker for all dogs, [placeholders]",
+  "compressed_word_count": 6,
+  "response": "**Latex Squeaker Toy for Canines: A Comprehensive Guide**\n===========================================================\n\n**Introduction**\n---------------\n\nLatex squeaker toys are a popular choice among dog owners, providing entertainment and stimulation for dogs of all breeds and sizes. In this guide, we will explore the benefits and features of latex squeaker toys, as well as provide information on [specific dog size/breed/life stage] and [specific needs/preferences].\n\n**Benefits of Latex Squeaker Toys**\n---------------------------------\n\n1. **Durable and Long-Lasting**: Latex squeaker toys are made from high-quality latex materials that are designed to withstand [aggressive chewing/destructive play].\n2. **Squeaker Functionality**: The squeaker inside the toy provides auditory stimulation, encouraging dogs to engage in play and exercise their natural hunting instincts.\n3. **Variety of Shapes and Sizes**: Latex squeaker toys come in a range of shapes and sizes, suitable for [small breeds/large breeds/puppies] and [specific needs/preferences].\n\n**Key Features to Consider**\n---------------------------\n\n1. **Material**: Made from [eco-friendly/non-toxic] latex materials, ensuring a safe and healthy play experience for dogs.\n2. **Squeaker Type**: [Single squeaker/multiple squeakers] provide varying levels of auditory stimulation, catering to different canine preferences.\n3. **Size and Shape**: [Specific size/shape] designed for [specific dog size/breed/life stage], ensuring a comfortable and enjoyable play experience.\n\n**Ideal for [Specific Dog Size/Breed/Life Stage]**\n----------------------------------------------\n\n1. **Puppies**: Latex squeaker toys are perfect for teething puppies, providing relief and entertainment during this critical developmental stage.\n2. **[Specific Breed]**: [Specific breed] dogs, known for their [high energy/strong prey drive], will love the challenge and stimulation provided by latex squeaker toys.\n3. **[Specific Life Stage]**: Dogs in [specific life stage], such as adolescence or adulthood, will benefit from the mental and physical stimulation offered by latex squeaker toys.\n\n**Tips for Safe Play**\n----------------------\n\n1. **Supervise Play**: Always supervise your dog during playtime to ensure their safety and the longevity of the toy.\n2. **Inspect the Toy**: Regularly inspect the toy for signs of wear and tear, replacing it if necessary to prevent choking hazards.\n3. **Choose the Right Size**: Select a toy that is suitable for your dog's size and breed, avoiding choking hazards and ensuring a comfortable play experience.\n\nBy considering these factors and features, you can provide your dog with a fun and engaging latex squeaker toy that meets their unique needs and preferences.",
+  "response_word_count": 366,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 0.6333333333333333,
+      "FC": 0.6333333333333333,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.18856180831641267,
+      "judge_variance_FC": 0.18856180831641267
+    }
+  }
+}

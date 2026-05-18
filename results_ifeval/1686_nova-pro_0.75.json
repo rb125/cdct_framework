@@ -1,0 +1,43 @@
+{
+  "key": 1686,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Repeat: Hello. I need to give a lecture to my students about the movie La La Land. Please help me write an engaging, informative lecture outline. No changes, no preamble.",
+  "compressed_word_count": 30,
+  "response": "**Lecture Outline: Exploring \"La La Land\"**\n\n**I. Introduction**\n- Brief overview of \"La La Land\"\n- Importance of musicals in cinema\n- Damien Chazelle\u2019s vision and impact\n\n**II. Plot Summary**\n- Mia and Sebastian\u2019s introduction\n- Their journey through love and ambition\n- Key moments: the rain scene, the audition, the jazz club\n\n**III. Characters**\n- Mia Dolan: Aspiring actress\n- Sebastian Wilder: Jazz pianist\n- Supporting characters: Mia\u2019s roommates, Sebastian\u2019s band\n\n**IV. Themes**\n- Pursuit of dreams vs. reality\n- Love and sacrifice\n- The passage of time\n\n**V. Cinematography**\n- Use of color and lighting\n- Iconic shots: the highway dance, the Griffith Observatory\n\n**VI. Music and Lyrics**\n- Analysis of key songs: \u201cAnother Day of Sun,\u201d \u201cCity of Stars\u201d\n- Integration of music into the narrative\n\n**VII. Direction and Screenplay**\n- Damien Chazelle\u2019s directorial style\n- Unique screenplay elements\n\n**VIII. Acting Performances**\n- Emma Stone and Ryan Gosling\u2019s chemistry\n- Supporting cast contributions\n\n**IX. Production Design**\n- Set design and costumes\n- Attention to detail in recreating different eras\n\n**X. Critical Reception**\n- Awards and nominations\n- Audience and critic reviews\n\n**XI. Cultural Impact**\n- Influence on modern musicals\n- Discussion of the film\u2019s legacy\n\n**XII. Conclusion**\n- Recap of key points\n- Open floor for student discussion and questions",
+  "response_word_count": 213,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

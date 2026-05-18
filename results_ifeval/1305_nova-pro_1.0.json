@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "List exactly 10 possible names for a new baby boy. Then add a postscript starting with P.P.S to the end of your response. Put the names into bullet points that are indicated by:\n* This is an example bullet",
+  "compressed_word_count": 39,
+  "response": "* Alexander\n* Benjamin\n* Christopher\n* Daniel\n* Ethan\n* Gabriel\n* Henry\n* Isaac\n* Julian\n* Michael\n\nP.P.S. Choosing a name for a baby is a significant decision, and it's important to consider the meaning, origin, and cultural significance of the name. Additionally, think about how the name will sound with your last name and any potential nicknames that may arise. Take your time and choose a name that you and your partner both love, as it will be a part of your child's identity for the rest of their life.",
+  "response_word_count": 94,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

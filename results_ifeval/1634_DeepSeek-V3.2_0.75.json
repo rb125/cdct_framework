@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "create a 4-point rubric for home theater targeting moms:\n* sound quality\n* ease of setup\n* child-friendly features\n* overall value",
+  "compressed_word_count": 22,
+  "response": "**4-Point Home Theater Rubric for Moms**\n\n**4 - Mom\u2019s Dream System**\n*   **Sound Quality:** Crystal clear dialogue so you never miss a line, immersive but not overwhelming for family movies, and excellent for music during chores or dance parties.\n*   **Ease of Setup:** Truly plug-and-play. Connects to the TV with one cable, pairs with devices instantly, and the app is intuitive for managing everything.\n*   **Child-Friendly Features:** Built-in volume limiters, durable/microfiber-cloth friendly materials, easy-to-clean remotes, and quick-access buttons for kid\u2019s streaming apps.\n*   **Overall Value:** A joy to use daily. Justifies its cost by being reliable, enhancing everyday life (movies, music, TV), and reducing tech-related family frustration.\n\n**3 - Family-Friendly Performer**\n*   **Sound Quality:** Great for movies and TV shows, with a \"night mode\" or clear voice enhancement feature. Music sounds good, but isn't its main strength.\n*   **Ease of Setup:** Requires following instructions but is manageable in under an hour. The main functions are easy, but some advanced features require the manual.\n*   **Child-Friendly Features:** Sturdy construction and maybe one helpful feature like a locked volume maximum or a simple, kid-proof remote.\n*   **Overall Value:** A solid purchase. Does its main job well without too much hassle. You\u2019re satisfied and feel you got what you paid for.\n\n**2 - High-Maintenance Project**\n*   **Sound Quality:** Inconsistent. Sometimes too boomy, dialogue can get lost, or it requires constant tweaking of settings for different shows.\n*   **Ease of Setup:** Confusing instructions, multiple calls to tech support or a savvy family member, and an app that is glitchy or non-intuitive.\n*   **Child-Friendly Features:** Fragile components, a remote with 50 tiny buttons, or volume that can jump too high too easily, causing scares.\n*   **Overall Value:** Causes occasional frustration. You use it but often think about the time and effort it cost. The benefits feel tempered by the annoyances.\n\n**1 - Tech Headache**\n*   **Sound Quality:** Worse than the TV speakers\u2014muffled, distorted, or impossible to balance for family viewing.\n*   **Ease of Setup:** Never worked correctly out of the box. Requires advanced technical knowledge to get basic functionality.\n*   **Child-Friendly Features:** Sharp edges, easily damaged materials, or complex controls that lead to constant \"help!\" moments from kids.\n*   **Overall Value:** A regrettable purchase. It collects dust, causes stress, and you\u2019d return it if you could. It actively makes your entertainment time harder.",
+  "response_word_count": 388,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

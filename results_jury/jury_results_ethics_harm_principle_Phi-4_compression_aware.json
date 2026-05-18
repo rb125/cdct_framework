@@ -20,7 +20,7 @@
         "judges": {
           "Qwen3-32B": {
             "CC": 1.0,
-            "SA": 0.7,
+            "SA": 0.8,
             "FC": 0.8
           },
           "Nemotron-Super-3-120B": {
@@ -31,22 +31,22 @@
           "GLM-5": {
             "CC": 1.0,
             "SA": 0.7,
-            "FC": 0.6
+            "FC": 0.4
           }
         },
         "consensus": {
           "CC": 1.0,
-          "SA": 0.775,
-          "FC": 0.8,
-          "agreement_score": 0.7969,
+          "SA": 0.825,
+          "FC": 0.7333,
+          "agreement_score": 0.7506,
           "judge_variance_CC": 0.0,
-          "judge_variance_SA": 0.1414,
-          "judge_variance_FC": 0.1633,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.2494,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.8700000000000001
+      "score": 0.87666
     },
     {
       "compression_level": 0.25,
@@ -56,7 +56,7 @@
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.4,
+            "CC": 0.6,
             "SA": 0.8,
             "FC": 0.6
           },
@@ -72,61 +72,98 @@
           }
         },
         "consensus": {
-          "CC": 0.45,
+          "CC": 0.5,
           "SA": 0.775,
           "FC": 0.8,
-          "agreement_score": 0.8283,
-          "judge_variance_CC": 0.0471,
+          "agreement_score": 0.8053,
+          "judge_variance_CC": 0.0816,
           "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.1633,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.6500000000000001
+      "score": 0.67
     },
     {
       "compression_level": 0.5,
       "context_length": 26,
-      "response_length": 183,
-      "response": "The harm principle is a philosophical concept that suggests the actions of individuals should only be restricted to prevent harm to others. This principle is rooted in the idea of balancing individual freedom with the safety and well-being of society. It posits that people should be free to act as they wish, provided their actions do not cause harm to other individuals. \n\nThe harm principle serves as a guideline for determining the limits of personal liberty and the role of government or societal intervention. It implies that any restriction on personal freedom should be justified only if it is necessary to prevent harm to others. This principle is often used in discussions about laws and regulations, particularly those concerning personal behavior, public health, and safety.\n\nBy emphasizing the prevention of harm, the harm principle seeks to protect individuals from actions that could negatively impact their well-being, while also respecting their autonomy and freedom to make personal choices. It is a foundational concept in liberal political philosophy, advocating for minimal interference in personal affairs unless there is a clear and present danger to others.",
+      "response_length": 283,
+      "response": "The harm principle is a philosophical concept that suggests the actions of individuals should only be restricted to prevent harm to others. This principle is rooted in the idea of balancing individual freedom with the need to ensure the safety and well-being of society as a whole. \n\nAccording to the harm principle, individuals should have the liberty to act as they wish, provided their actions do not cause harm to other people. This means that personal freedoms are paramount, but they are not absolute. The principle serves as a guideline for determining when it is appropriate for society, often through laws and regulations, to intervene in personal behavior.\n\nThe harm principle is often associated with the philosopher John Stuart Mill, who articulated it in his work \"On Liberty.\" Mill argued that the only justification for exercising power over any member of a civilized community, against their will, is to prevent harm to others. This principle is used to evaluate the legitimacy of laws and social norms, ensuring that they do not unnecessarily infringe on personal freedoms.\n\nIn practice, the harm principle helps to delineate the boundary between personal liberty and societal protection. For example, while individuals have the freedom to express their opinions, this freedom does not extend to making threats or inciting violence, as such actions could harm others. Similarly, while people can choose to engage in risky behaviors, they may be restricted from doing so in ways that could endanger others, such as driving under the influence of alcohol.\n\nOverall, the harm principle is a foundational concept in discussions about individual rights and societal responsibilities, aiming to create a balance where personal freedoms are respected while protecting the community from harm.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
             "CC": 0.3,
-            "SA": 0.8,
+            "SA": 0.7,
             "FC": 0.6
           },
           "Nemotron-Super-3-120B": {
-            "CC": 0.2,
-            "SA": 1.0,
-            "FC": 1.0
+            "CC": 0.1,
+            "SA": 0.9,
+            "FC": 0.5
           },
           "GLM-5": {
             "CC": 0.2,
-            "SA": 0.7,
-            "FC": 1.0
+            "SA": 0.6,
+            "FC": 0.4
           }
         },
         "consensus": {
-          "CC": 0.225,
-          "SA": 0.825,
-          "FC": 0.8667,
-          "agreement_score": 0.7597,
-          "judge_variance_CC": 0.0471,
+          "CC": 0.2,
+          "SA": 0.725,
+          "FC": 0.5,
+          "agreement_score": 0.808,
+          "judge_variance_CC": 0.0816,
           "judge_variance_SA": 0.1247,
-          "judge_variance_FC": 0.1886,
+          "judge_variance_FC": 0.0816,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.5933400000000001
+      "score": 0.47
     },
     {
       "compression_level": 0.75,
       "context_length": 64,
-      "response_length": 308,
-      "response": "The harm principle is a foundational concept in liberal ethics, primarily articulated by the philosopher John Stuart Mill. It serves as a guideline for determining the limits of individual liberty and the role of government or societal intervention. According to the harm principle, the only justifiable reason for restricting an individual's freedom is to prevent harm to others. This principle is rooted in the belief that individuals should have the autonomy to make their own choices, even if those choices are potentially harmful to themselves, as long as they do not harm others.\n\nThe harm principle is significant in various ethical and legal debates, as it helps balance personal freedom with the need to protect society. For instance, laws against actions like assault or theft are justified under the harm principle because these actions directly harm other individuals. In contrast, laws that prohibit self-destructive behaviors, such as drug use or certain lifestyle choices, are not justified under this principle, as they primarily affect the individual engaging in the behavior rather than others.\n\nIn practical terms, the harm principle influences discussions on issues like free speech, drug use, and public policy. For example, in debates about free speech, the harm principle might be used to argue against censorship, except in cases where speech directly incites violence or harm to others. Similarly, in discussions about drug use, the harm principle would support the argument that individuals should be free to use drugs if their actions do not harm others, even if the behavior is considered self-destructive.\n\nOverall, the harm principle emphasizes the importance of individual autonomy while recognizing the necessity of societal protection. It seeks to draw a clear line between personal liberty and the legitimate scope of intervention by others, ensuring that restrictions on freedom are only imposed when there is a direct threat to the well-being of others.",
+      "response_length": 372,
+      "response": "The harm principle is a foundational concept in liberal ethics, primarily articulated by the philosopher John Stuart Mill. It serves as a guideline for determining the limits of individual liberty and the role of government intervention. According to the harm principle, the actions of individuals should only be restricted to prevent harm to others. This means that personal freedom is paramount, and any interference by the state or society is only justified when an individual's actions pose a risk of harm to other people.\n\nThe principle is rooted in the idea of autonomy, emphasizing that individuals should have the freedom to make their own choices, even if those choices are potentially harmful to themselves. For instance, under the harm principle, laws against self-destructive behavior, such as drug use or risky personal activities, would not be justified solely on the grounds of protecting the individual from themselves. This is because such laws would be considered paternalistic, infringing on personal freedom for the individual's own good rather than to prevent harm to others.\n\nIn contrast, the harm principle supports laws that prevent actions causing harm to other people. Examples include laws against assault, theft, or any form of violence. These laws are justified because they protect individuals from being harmed by the actions of others, aligning with the principle's core tenet of preventing harm to others.\n\nThe harm principle is influential in various debates, particularly those concerning free speech, drug use, and public policy. In the context of free speech, it supports the idea that individuals should be free to express their opinions, even if those opinions are unpopular or offensive, as long as they do not incite harm to others. Similarly, in discussions about drug use, the harm principle would argue against criminalizing drug consumption if it does not directly harm others, while supporting measures that prevent drug-related harm to society, such as driving under the influence.\n\nOverall, the harm principle seeks to balance individual autonomy with the need for societal protection, advocating for minimal interference in personal liberties unless there is a clear and direct risk of harm to others. This balance is crucial in shaping laws and policies that respect personal freedom while ensuring the safety and well-being of the community.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.8,
+            "SA": 1.0,
+            "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.925,
+          "SA": 0.95,
+          "FC": 0.9333,
+          "agreement_score": 0.8827,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.93666
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 410,
+      "response": "The harm principle is a key ethical concept that seeks to balance individual freedom with the protection of others from harm. Articulated by philosopher John Stuart Mill, it posits that the actions of individuals should only be restricted to prevent harm to others. This principle is foundational in both legal and moral frameworks, influencing policies on issues such as free speech, drug use, and public health.\n\n### Key Components of the Harm Principle:\n\n1. **Autonomy and Personal Liberty**: \n   - The harm principle prioritizes individual autonomy, emphasizing that people should be free to act as they wish, provided their actions do not harm others. This underscores a respect for personal liberty and self-determination.\n\n2. **Self-Regarding vs. Other-Regarding Actions**:\n   - Actions are categorized as either self-regarding (affecting only the individual) or other-regarding (affecting others). The principle suggests that self-regarding actions should not be interfered with, as they do not harm others. In contrast, other-regarding actions that pose a risk of harm to others may warrant intervention.\n\n3. **Demonstrable Harm**:\n   - For any restriction on personal freedom to be justified, there must be clear and demonstrable harm to others. This requires a careful analysis to ensure that the harm is real and significant, not merely hypothetical or speculative.\n\n4. **Proportionality and Justification**:\n   - Any intervention to prevent harm must be proportionate to the threat posed. This means that restrictions should be the minimum necessary to prevent harm and should be justified by actual threats rather than potential or imagined ones.\n\n### Application in Policy and Society:\n\n- **Free Speech**: The harm principle guides the limits of free speech, allowing for restrictions only when speech directly incites violence or causes significant harm to others.\n  \n- **Drug Use**: Policies on drug use often reflect the harm principle by distinguishing between personal use (self-regarding) and actions that endanger others (other-regarding), such as driving under the influence.\n\n- **Public Health**: In public health, the harm principle supports measures like vaccination mandates or quarantine during pandemics, where individual actions can pose a risk to the broader community.\n\n### Balancing Individual Rights and Collective Welfare:\n\nThe harm principle requires a nuanced approach to balancing individual rights with the welfare of society. It necessitates a careful consideration of what constitutes \"harm\" and ensures that any limitations on personal freedom are justified, necessary, and proportionate to the actual risk posed to others. This balance is crucial in maintaining a society that respects personal liberties while protecting its members from significant harm.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -158,51 +195,14 @@
         }
       },
       "score": 0.9633400000000001
-    },
-    {
-      "compression_level": 1.0,
-      "context_length": 134,
-      "response_length": 286,
-      "response": "The harm principle is a key ethical concept primarily associated with the philosopher John Stuart Mill. It serves as a guideline for determining when it is appropriate to limit individual freedoms in order to prevent harm to others. According to this principle, personal liberty should only be restricted if an individual's actions pose a significant risk of injury or detriment to another person. This principle emphasizes the importance of autonomy, suggesting that individuals should be free to act as they wish, provided their actions do not harm others.\n\nA central aspect of the harm principle is the distinction between self-regarding and other-regarding actions. Self-regarding actions are those that primarily affect the individual performing them, while other-regarding actions have consequences for other people. The harm principle suggests that society should not interfere with self-regarding actions, as they do not harm others. However, other-regarding actions that cause harm to others may warrant intervention.\n\nThe application of the harm principle requires a careful analysis of what constitutes \"harm.\" This involves determining whether an action genuinely poses a threat to others and ensuring that any restrictions on personal freedom are proportionate and justified by actual, rather than hypothetical, threats. The principle is used to guide legal and moral frameworks, influencing policies on issues such as free speech, drug use, and public health. It helps delineate the boundary between personal freedom and societal protection, balancing individual rights with the collective welfare of the community.\n\nIn practice, applying the harm principle involves evaluating the potential consequences of actions and ensuring that any limitations on freedom are necessary and appropriate. This requires a nuanced understanding of the nature of harm and a commitment to protecting individual autonomy while safeguarding the well-being of others.",
-      "jury_evaluation": {
-        "judges": {
-          "Qwen3-32B": {
-            "CC": 0.9,
-            "SA": 0.9,
-            "FC": 0.9
-          },
-          "Nemotron-Super-3-120B": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 0.9
-          },
-          "GLM-5": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 1.0
-          }
-        },
-        "consensus": {
-          "CC": 0.975,
-          "SA": 0.95,
-          "FC": 0.9333,
-          "agreement_score": 0.9057,
-          "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0471,
-          "judge_variance_FC": 0.0471,
-          "judge_count": 3,
-          "recommendation": "ROBUST - Unanimous jury"
-        }
-      },
-      "score": 0.9566600000000001
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8066680000000002,
-    "mean_agreement": 0.83926,
-    "decay_direction": "\u2191 Improvement with compression",
+    "mean_score": 0.783332,
+    "mean_agreement": 0.8304600000000001,
+    "decay_direction": "\u2192 Stable",
     "compression_levels": [
       0.0,
       0.25,
@@ -211,17 +211,17 @@
       1.0
     ],
     "scores": [
-      0.8700000000000001,
-      0.6500000000000001,
-      0.5933400000000001,
-      0.9633400000000001,
-      0.9566600000000001
+      0.87666,
+      0.67,
+      0.47,
+      0.93666,
+      0.9633400000000001
     ],
     "agreement_scores": [
-      0.7969,
-      0.8283,
-      0.7597,
-      0.9057,
+      0.7506,
+      0.8053,
+      0.808,
+      0.8827,
       0.9057
     ]
   }

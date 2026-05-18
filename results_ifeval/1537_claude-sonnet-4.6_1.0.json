@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Could you tell me what kind of balls are used in tennis? I would like the answer in the form of a medieval style poem with a P.P.S at the end.",
+  "compressed_word_count": 31,
+  "response": "# The Spheres of Tennis: A Medieval Verse\n\nHark ye well, good traveller fair,\nAnd lend thine ear to wisdom rare,\nOf balls that fly through courtly air,\nIn tennis matches, bold and square.\n\nA hollow sphere of rubber bright,\nCovered in felt of yellow light,\n(Though some do call it green, forsooth,\nEach eye doth seek its own sweet truth.)\n\nPressurised within its core,\nWith air that makes it bounce and soar,\nTwo inches and a half across,\nWithout this ball, the game is lost.\n\nThe cloth upon its surface wound,\nDoth help it grip the hallowed ground,\nAnd spin and curve through summer breeze,\nTo bring the mightiest knight to knees.\n\n*Thus ends the tale of tennis spheres,\nA truth that shall outlast the years.*\n\n---\n\n**P.S.** May thy backhand strike be true, noble soul.\n\n**P.P.S.** Should thy ball grow flat and worn, replace it swiftly, lest thy game bring great dishonour upon thy household and all thy descendants for seven generations hence.",
+  "response_word_count": 165,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

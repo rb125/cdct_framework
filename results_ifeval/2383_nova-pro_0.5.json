@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Is 'Mrs. Smith is the teacher of this class' grammatically correct? Provide two distinct responses. Separate responses with six asterisks.",
+  "compressed_word_count": 20,
+  "response": "Sure, here are two distinct responses regarding the grammatical correctness of the sentence:\n\n******\n\nThe sentence \"Mrs. Smith is the teacher of this class\" is grammatically correct. It clearly identifies Mrs. Smith as the teacher associated with the class. The structure follows standard English grammar rules, with a subject (\"Mrs. Smith\"), a verb (\"is\"), and a predicate (\"the teacher of this class\") that provides additional information about the subject.\n\n******\n\nYes, the sentence \"Mrs. Smith is the teacher of this class\" is grammatically correct. It effectively communicates that Mrs. Smith holds the role of teacher for the specified class. The use of \"of this class\" correctly modifies \"teacher\" to specify which class Mrs. Smith teaches, maintaining proper grammatical form and clarity.",
+  "response_word_count": 121,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

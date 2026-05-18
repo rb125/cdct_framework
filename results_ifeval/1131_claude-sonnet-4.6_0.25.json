@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 4-section clown resume, no section titles.",
+  "compressed_word_count": 7,
+  "response": "# \ud83e\udd21\n\n**Bobo \"Thunderpants\" McGillicuddy**\n\ud83d\udccd Under the Big Top, Anywhere USA | \ud83d\udcde (555) HON-KHON | \u2709\ufe0f bobo@rednosepro.com\n\n---\n\nSeasoned professional clown with 14 years of experience bringing chaos, laughter, and mild panic to audiences of all ages. Internationally trained in the ancient arts of pratfalling, horn-honking, and emerging from undersized vehicles. Equally comfortable performing for birthday parties, corporate events, and courtroom appearances. Deeply committed to the craft. Cannot remove the nose. Have tried.\n\n---\n\n**Clown-in-Residence** | Gigglesworth Circus | 2018\u2013Present\nHeadlined 300+ performances annually before live audiences of up to 4,000 people. Supervised a team of 6 junior clowns. Reduced pie-related workplace injuries by 40%.\n\n**Freelance Birthday Clown** | Self-Employed | 2010\u20132018\nDelivered tailored comedic experiences for private clients. Maintained a 4.2-star rating despite the incident. Specialized in balloon animals, including the controversial \"existential dachshund.\"\n\n---\n\nJuggling (7 objects, 4 flaming) | Advanced Seltzer Deployment | Unicycle Operation | Mime (reluctantly) | Balloon Sculpture | Tiny Car Navigation | Emotional Resilience | Falling Down Stairs (intentionally)\n\n---\n\n*\"He made my son laugh so hard he cried. Then I cried. Then Bobo cried. We don't know why Bobo cried.\"*\n\u2014 Karen T., Verified Client\n\n*\"Arrived on time. Left eventually.\"*\n\u2014 Corporate Event Coordinator, Deloitte",
+  "response_word_count": 205,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.408248290463863,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

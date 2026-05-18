@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\n\"Craft two product descriptions for edible food wrap paper, emphasizing its versatility and safety for consumption.",
+  "compressed_word_count": 39,
+  "response": "Here are two alternative product descriptions for the edible food wrap paper:\n\n**Product Description 1: \"Wrap, Eat, Enjoy\"**\n\nIntroducing the revolutionary EdibleWrap - a game-changing, sustainable, and delicious way to package your favorite foods. Made from natural ingredients, our edible paper is designed to be both functional and consumable. Use it to wrap sandwiches, snacks, or leftovers, and then enjoy it as part of your meal. EdibleWrap is free from artificial additives, preservatives, and chemicals, ensuring a safe and healthy eating experience. Its versatility knows no bounds - use it to create fun food presentations, or as a creative way to serve appetizers and hors d'oeuvres. With EdibleWrap, the possibilities are endless, and the fun is edible!\n\n**Product Description 2: \"Savor the Flavor, Not the Waste\"**\n\nSay goodbye to single-use plastics and hello to a more sustainable food wrapping solution with our Edible Food Wrap Paper. Crafted from wholesome, food-grade materials, our edible paper is designed to be a seamless part of your dining experience. Not only is it safe to eat, but it's also free from artificial flavorings, colors, and preservatives. Use Edible Food Wrap Paper to wrap your favorite foods, from sushi to snacks, and enjoy the added bonus of reducing food packaging waste. With its neutral flavor and delicate texture, our edible paper complements a wide range of cuisines and cooking styles. Make the switch to Edible Food Wrap Paper today and indulge in a guilt-free, delicious, and sustainable food experience.",
+  "response_word_count": 244,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

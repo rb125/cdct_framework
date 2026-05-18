@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is the sentence \"Mrs. Smith is the teacher of this class.\" grammatically correct? Give me exactly two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+  "compressed_word_count": 31,
+  "response": "Yes, the sentence is grammatically correct as it follows the standard subject-verb-object (SVO) word order and uses proper noun capitalization and title (Mrs.).\n****** \nThe sentence is grammatically correct; it properly uses the possessive form is implied with \"of this class\" to show the relationship between Mrs. Smith and the class.",
+  "response_word_count": 51,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

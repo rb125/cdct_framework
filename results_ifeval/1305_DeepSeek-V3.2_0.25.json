@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "List 10 baby boy names; P.P.S postscript.",
+  "compressed_word_count": 7,
+  "response": "Of course! Here are 10 baby boy names, followed by a playful postscript.\n\n**10 Baby Boy Names:**\n\n1.  **Leo** \u2013 Meaning \"lion,\" it's strong, short, and classic.\n2.  **Elias** \u2013 A graceful and timeless name of Greek origin, meaning \"Yahweh is God.\"\n3.  **Felix** \u2013 Latin for \"happy\" or \"fortunate,\" it's cheerful and vintage-chic.\n4.  **Silas** \u2013 Meaning \"forest\" or \"wood,\" it has a gentle, natural feel with ancient roots.\n5.  **Jude** \u2013 A concise, cool name with a meaning of \"praised.\"\n6.  **Arlo** \u2013 Of uncertain origin, it feels modern, musical, and approachable.\n7.  **Theo** \u2013 A friendly and energetic short form of Theodore, meaning \"gift of God.\"\n8.  **Kai** \u2013 With multicultural roots (Hawaiian, Japanese, Norse), it often means \"sea\" and feels breezy and strong.\n9.  **Rowan** \u2013 A nature name referring to the tree, it's soft yet grounded.\n10. **Miles** \u2013 An enduring name with a stylish, scholarly vibe.\n\n***\n**P.P.S.** And if you're still deciding, remember that the best name is the one that feels right to you. Happy choosing",
+  "response_word_count": 174,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

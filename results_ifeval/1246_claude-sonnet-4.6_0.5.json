@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create a product poem, end with P.P.S. note",
+  "compressed_word_count": 8,
+  "response": "# Ode to the Blender\n\nIt sits upon the counter, sleek and bright,\nA whirling wizard ready for the fight,\nIt crushes ice and berries, thick and sweet,\nAnd turns the roughest vegetables to neat.\n\nWith blades that spin like dancers in the night,\nIt blends your morning smoothie just right,\nA symphony of motors, hum and whir,\nCreating liquid magic, smooth as fur.\n\nFrom soups to sauces, dips and creamy dreams,\nNothing is quite as simple as it seems,\nUntil this trusty gadget takes the stage,\nAnd turns your kitchen into something sage.\n\nSo raise a glass of something cold and bright,\nTo the humble blender, our delight,\nA product born of genius, built with care,\nA kitchen hero, beyond compare.\n\n---\n\n*Yours blendfully,*\n*A Devoted Smoothie Lover*\n\n**P.S.** \u2014 It also makes an excellent margarita. Just saying.\n\n**P.P.S.** \u2014 I may have blended an entire pizza once. The blender survived. I did not emotionally.",
+  "response_word_count": 156,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

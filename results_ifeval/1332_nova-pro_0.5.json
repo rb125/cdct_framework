@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "make 7-day itineraries for India & China, separate with 6 asterisks: *******",
+  "compressed_word_count": 12,
+  "response": "Certainly! Here are 7-day itineraries for India and China:\n\n******\n\n### 7-Day Itinerary for India\n\n**Day 1: Delhi**\n- Morning: Visit the Red Fort and Jama Masjid.\n- Afternoon: Explore Chandni Chowk (old market) and enjoy local street food.\n- Evening: Visit India Gate and take a light and sound show.\n\n**Day 2: Agra**\n- Morning: Take a train or drive to Agra. Visit the Taj Mahal at sunrise.\n- Afternoon: Explore Agra Fort and Mehtab Bagh.\n- Evening: Return to Delhi.\n\n**Day 3: Jaipur**\n- Morning: Take a train or drive to Jaipur. Visit Amber Fort.\n- Afternoon: Explore City Palace and Hawa Mahal.\n- Evening: Stroll through local markets.\n\n**Day 4: Jaipur**\n- Morning: Visit Jantar Mantar and Jal Mahal.\n- Afternoon: Explore local handicraft shops.\n- Evening: Enjoy a traditional Rajasthani dinner.\n\n**Day 5: Udaipur**\n- Morning: Take a flight or drive to Udaipur. Visit City Palace.\n- Afternoon: Explore Jagdish Temple and take a boat ride on Lake Pichola.\n- Evening: Enjoy dinner at a lakeside restaurant.\n\n**Day 6: Jodhpur**\n- Morning: Drive to Jodhpur. Visit Mehrangarh Fort.\n- Afternoon: Explore Umaid Bhawan Palace.\n- Evening: Visit local markets.\n\n**Day 7: Return to Delhi**\n- Morning: Drive back to Delhi.\n- Afternoon: Depending on your flight time, visit Qutub Minar or do some last-minute shopping.\n- Evening: Depart from Delhi.\n\n******\n\n### 7-Day Itinerary for China\n\n**Day 1: Beijing**\n- Morning: Visit the Great Wall of China ( Mutianyu section).\n- Afternoon: Explore the Summer Palace.\n- Evening: Stroll through the Hutongs and enjoy a Peking Duck dinner.\n\n**Day 2: Beijing**\n- Morning: Visit the Forbidden City.\n- Afternoon: Explore the Temple of Heaven.\n- Evening: Visit Tiananmen Square.\n\n**Day 3: Xi'an**\n- Morning: Take a flight to Xi'an. Visit the Terracotta Warriors.\n- Afternoon: Explore the Xi'an City Wall.\n- Evening: Visit the Muslim Quarter for dinner.\n\n**Day 4: Xi'an**\n- Morning: Visit the Big Wild Goose Pagoda.\n- Afternoon: Explore the Ancient City Wall and Muslim Quarter.\n- Evening: Enjoy local cuisine.\n\n**Day 5: Shanghai**\n- Morning: Take a flight to Shanghai. Visit The Bund.\n- Afternoon: Explore Nanjing Road.\n- Evening: Visit Yu Garden.\n\n**Day 6: Shanghai**\n- Morning: Visit Shanghai Tower and Shanghai World Financial Center.\n- Afternoon: Explore the French Concession area.\n- Evening: Enjoy a cruise on the Huangpu River.\n\n**Day 7: Return to Beijing**\n- Morning: Depending on your flight time, visit Zhujiajiao Water Town.\n- Afternoon: Return to Beijing.\n- Evening: Depart from Beijing.",
+  "response_word_count": 416,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "json list pros/cons supernatural powers markdown ticks",
+  "compressed_word_count": 7,
+  "response": "Here's a JSON list of pros and cons of having supernatural powers, formatted with Markdown ticks:\n\n```json\n{\n  \"supernatural_powers\": {\n    \"pros\": [\n      \"`Ability to help others in unique ways`\",\n      \"`Potential to solve problems beyond normal human capability`\",\n      \"`Enhanced self-protection and security`\",\n      \"`Unique perspective on reality`\",\n      \"`Possible financial advantages (if applicable)`\",\n      \"`Increased personal freedom and independence`\",\n      \"`Ability to explore realms beyond normal perception`\",\n      \"`Potential for personal growth through power mastery`\",\n      \"`Could advance scientific understanding`\",\n      \"`Might enable time/space manipulation`\"\n    ],\n    \"cons\": [\n      \"`Risk of power corruption or moral decay`\",\n      \"`Potential for government/military exploitation`\",\n      \"`Social isolation or being treated as 'other'`\",\n      \"`Difficulty maintaining normal relationships`\",\n      \"`Constant fear of discovery or persecution`\",\n      \"`Possible physical/mental health consequences`\",\n      \"`Ethical dilemmas about when/how to use powers`\",\n      \"`Risk of addiction to power usage`\",\n      \"`Could attract dangerous attention from others`\",\n      \"`Potential to disrupt natural order with unintended consequences`\",\n      \"`Burden of responsibility for power's effects`\",\n      \"`Possible loss of humanity or connection to ordinary life`\"\n    ]\n  }\n}\n```",
+  "response_word_count": 158,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

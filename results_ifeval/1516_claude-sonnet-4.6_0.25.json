@@ -1,0 +1,45 @@
+{
+  "key": 1516,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "binge-watch poem, netflix, aabba rhyme",
+  "compressed_word_count": 5,
+  "response": "# One More Episode\n\nThe couch has swallowed me whole tonight,\nThe remote control clutched warm and tight,\n\"Just one more,\" I swear,\nBut dawn fills the air,\nAnd Netflix asks, \"Are you still alright?\"",
+  "response_word_count": 35,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.6
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.7666666666666666,
+      "FC": 0.7000000000000001,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.21602468994692867
+    }
+  }
+}

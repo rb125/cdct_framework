@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "summarize nyc prospect park history in json, use markdown ticks",
+  "compressed_word_count": 10,
+  "response": "```json\n{\n  \"name\": \"Prospect Park\",\n  \"location\": \"Brooklyn, New York City\",\n  \"acreage\": 526,\n  \"designers\": [\n    \"Frederick Law Olmsted\",\n    \"Calvert Vaux\"\n  ],\n  \"timeline\": [\n    {\n      \"year\": 1866\",\n      \"event\": \"Land acquired by the City of Brooklyn; Olmsted and Vaux commissioned to design the park after their success with Central Park.\"\n    },\n    {\n      \"year\": 1867\",\n      \"event\": \"Construction begins.\"\n    },\n    {\n      \"year\": 1874\",\n      \"event\": \"Park officially opens to the public, though construction continues for years.\"\n    },\n    {\n      \"year\": 1890s\",\n      \"event\": \"Addition of the Prospect Park Zoo (originally a menagerie) and the Carousel.\"\n    },\n    {\n      \"year\": 20th Century\",\n      \"event\": \"Periods of decline and restoration, including significant damage from the 1930s-1970s.\"\n    },\n    {\n      \"year\": 1980\",\n      \"event\": \"Designated a National Historic Landmark.\"\n    },\n    {\n      \"year\": 1987\",\n      \"event\": \"Formation of the Prospect Park Alliance, a public-private partnership, to restore and manage the park.\"\n    },\n    {\n      \"year\": \"1990s-Present\",\n      \"event\": \"Major restoration projects revitalize the Long Meadow, Ravine, woodlands, and landmarks like the Audubon Center and LeFrak Center at Lakeside.\"\n    }\n  ],\n  \"key_features\": [\n    \"Long Meadow (90-acre urban meadow)\",\n    \"The Ravine (last remaining forest in Brooklyn)\",\n    \"Prospect Park Lake (60-acre lake)\",\n    \"Grand Army Plaza (formal entrance with Soldiers' and Sailors' Arch)\",\n    \"Prospect Park Zoo\",\n    \"Audubon Center (first urban Audubon center)\",\n    \"LeFrak Center at Lakeside (year-round skating and water play)\"\n  ],\n  \"significance\": \"Considered Olmsted and Vaux's masterpiece, improving upon their Central Park design with more seamless integration of pastoral, woodland, and aquatic elements. It serves as Brooklyn's primary public recreational space and a vital ecological refuge.\"\n}\n```",
+  "response_word_count": 246,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.7,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.8
+      }
+    },
+    "consensus": {
+      "CC": 0.7333333333333334,
+      "SA": 0.9333333333333332,
+      "FC": 0.9333333333333332,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

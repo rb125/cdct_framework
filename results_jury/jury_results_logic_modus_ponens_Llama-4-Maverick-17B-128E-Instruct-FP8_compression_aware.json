@@ -18,14 +18,14 @@
       "response": "if-then inference",
       "jury_evaluation": {
         "judges": {
-          "Nemotron-Super-3-120B": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 0.7
-          },
           "Qwen3-32B": {
             "CC": 1.0,
             "SA": 0.9,
+            "FC": 0.7
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
             "FC": 0.7
           },
           "GLM-5": {
@@ -51,87 +51,87 @@
     {
       "compression_level": 0.25,
       "context_length": 4,
-      "response_length": 17,
-      "response": "Modus ponens is represented by the given \"if-then inference with affirmation\". It is a rule of inference.",
+      "response_length": 24,
+      "response": "Modus ponens is represented by the \"if-then inference with affirmation\". It is a rule of inference. It is related to the given available information.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 1.0,
-            "SA": 0.8,
-            "FC": 0.8
+            "CC": 0.7,
+            "SA": 0.7,
+            "FC": 0.7
           },
           "Nemotron-Super-3-120B": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 0.9
-          },
-          "GLM-5": {
             "CC": 0.5,
             "SA": 0.7,
+            "FC": 0.8
+          },
+          "GLM-5": {
+            "CC": 0.8,
+            "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.75,
-          "SA": 0.825,
-          "FC": 0.9,
-          "agreement_score": 0.7053,
-          "judge_variance_CC": 0.2357,
-          "judge_variance_SA": 0.1247,
-          "judge_variance_FC": 0.0816,
+          "CC": 0.7,
+          "SA": 0.775,
+          "FC": 0.8333,
+          "agreement_score": 0.7394,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.1414,
+          "judge_variance_FC": 0.1247,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.8100000000000002
+      "score": 0.7566600000000001
     },
     {
       "compression_level": 0.5,
       "context_length": 26,
-      "response_length": 316,
-      "response": "## Step 1: Understand the concept of Modus Ponens\nModus ponens is a rule of inference in logic that allows us to draw a conclusion based on a given general rule and the affirmation of the condition that triggers the rule.\n\n## Step 2: Break down the components of Modus Ponens\nThe general form of modus ponens is: \"If P, then Q. P is true. Therefore, Q is true.\" Here, \"P\" is the condition or antecedent, and \"Q\" is the conclusion or consequent.\n\n## Step 3: Explain how Modus Ponens works\nTo apply modus ponens, we first need a conditional statement (\"if-then\" statement), which is \"If P, then Q.\" We then need to confirm that the condition \"P\" is true. Once \"P\" is confirmed to be true, modus ponens allows us to logically conclude that \"Q\" is also true.\n\n## Step 4: Provide an example to illustrate Modus Ponens\nFor example, consider the statement: \"If it is raining, then the streets will be wet.\" (If P, then Q, where P = \"it is raining\" and Q = \"the streets will be wet\"). If we observe that \"it is raining\" (P is true), then using modus ponens, we can conclude that \"the streets will be wet\" (Q is true).\n\n## Step 5: Relate the given information to the explanation\nThe given information states that modus ponens lets us deduce a conclusion when we know a general rule (\"if-then\") and confirm its condition is true. This directly aligns with the explanation of modus ponens as it highlights the two necessary components for applying modus ponens: a general \"if-then\" rule and the truth of the condition.\n\nThe final answer is: Modus ponens is a logical rule that allows us to conclude that if a condition is true and there's a rule stating that if the condition is true then a certain outcome follows, then that outcome is also true.",
+      "response_length": 303,
+      "response": "## Step 1: Understand the concept of Modus Ponens\nModus ponens is a rule of inference in logic that allows us to draw a conclusion based on a given general rule and the affirmation of the condition that triggers the rule.\n\n## Step 2: Break down the components of Modus Ponens\nThe general form of modus ponens is: \"If P, then Q. P is true. Therefore, Q is true.\" Here, \"P\" is the condition or antecedent, and \"Q\" is the conclusion or consequent.\n\n## Step 3: Explain how Modus Ponens works\nTo apply modus ponens, we first need a conditional statement (\"if-then\" statement), which is \"If P, then Q.\" We then need to confirm that the condition \"P\" is true. Once \"P\" is confirmed to be true, modus ponens allows us to logically conclude that \"Q\" is also true.\n\n## Step 4: Provide an example to illustrate Modus Ponens\nFor example, consider the statement: \"If it is raining, then the streets will be wet.\" (If P, then Q, where P = \"it is raining\" and Q = \"the streets will be wet\"). If we observe that \"it is raining\" (P is true), then using modus ponens, we can conclude that \"the streets will be wet\" (Q is true).\n\n## Step 5: Relate the given information to the explanation\nThe given information states that modus ponens lets us deduce a conclusion when we know a general rule (\"if-then\") and confirm its condition is true. This directly aligns with the explanation of modus ponens as it highlights the two necessary components for applying modus ponens: a general \"if-then\" rule and the truth of the condition.\n\nThe final answer is: $\\boxed{Modus ponens is a logical rule that allows us to conclude Q is true if we know \"If P, then Q\" and that P is true.}$",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
             "CC": 0.1,
             "SA": 0.9,
-            "FC": 0.7
+            "FC": 0.3
           },
           "Nemotron-Super-3-120B": {
             "CC": 0.1,
             "SA": 1.0,
-            "FC": 0.8
+            "FC": 1.0
           },
           "GLM-5": {
             "CC": 0.2,
-            "SA": 0.8,
-            "FC": 0.2
+            "SA": 0.7,
+            "FC": 1.0
           }
         },
         "consensus": {
           "CC": 0.15,
-          "SA": 0.9,
-          "FC": 0.5667,
-          "agreement_score": 0.7392,
+          "SA": 0.875,
+          "FC": 0.7667,
+          "agreement_score": 0.6654,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0816,
-          "judge_variance_FC": 0.2625,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.33,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.53334
+      "score": 0.5633400000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 63,
-      "response_length": 369,
-      "response": "## Step 1: Understanding Modus Ponens\nModus ponens is a rule of inference in propositional logic that allows us to draw a conclusion based on a conditional statement and its antecedent. The conditional statement is of the form \"If P, then Q,\" where P is the antecedent and Q is the consequent.\n\n## Step 2: Breaking Down the Components\nTo apply modus ponens, we need two premises: a conditional statement (\"If P, then Q\") and the assertion that the antecedent (P) is true. The conditional statement implies that if the condition P is met, then Q must be true.\n\n## Step 3: Applying Modus Ponens\nGiven that \"If P, then Q\" is true and P is true, modus ponens states that we can infer Q. This is a fundamental principle because it provides a straightforward method to deduce a conclusion (Q) from a given condition (P) and a conditional rule (\"If P, then Q\").\n\n## Step 4: Example Application\nTo illustrate, consider the statements \"If it rains, the ground gets wet\" (If P, then Q) and \"It is raining\" (P). Here, P = \"It rains\" and Q = \"The ground gets wet.\" Using modus ponens, since \"If it rains, the ground gets wet\" is true and \"It is raining\" is true, we conclude \"The ground gets wet\" (Q).\n\n## Step 5: Significance in Deductive Reasoning\nModus ponens is crucial in deductive reasoning and formal proofs because it enables the derivation of conclusions from given premises in a logically valid manner. It is one of the basic rules that underpin more complex logical arguments and is used extensively in mathematics, philosophy, and computer science.\n\n## Step 6: Formal Representation\nModus ponens can be formally represented as:\n1. P \u2192 Q (If P, then Q)\n2. P (P is true)\n\u2234 Q (Therefore, Q is true)\n\nThis formal structure highlights its simplicity and logical validity.\n\nThe final answer is: $\\boxed{Modus ponens is a fundamental inference rule in propositional logic that allows us to infer the consequent (Q) of a conditional statement (\"If P, then Q\") when the antecedent (P) is true. It is a crucial component of deductive reasoning, enabling the derivation of conclusions from premises in a logically valid way.}$",
+      "response_length": 373,
+      "response": "## Step 1: Understanding Modus Ponens\nModus ponens is a rule of inference in propositional logic that allows us to draw a conclusion based on a conditional statement and its antecedent. The conditional statement is of the form \"If P, then Q,\" where P is the antecedent and Q is the consequent.\n\n## Step 2: Breaking Down the Components\nTo apply modus ponens, we need two premises: a conditional statement (\"If P, then Q\") and the assertion that the antecedent (P) is true. The conditional statement implies that if the condition P is met, then Q must be true.\n\n## Step 3: Applying Modus Ponens\nGiven that \"If P, then Q\" is true and P is true, modus ponens states that we can infer Q. This is a fundamental principle because it provides a straightforward method to deduce a conclusion (Q) from a given condition (P) and a conditional rule (\"If P, then Q\").\n\n## Step 4: Example Application\nTo illustrate, consider the statements: \"If it rains, the ground gets wet\" (If P, then Q) and \"It is raining\" (P). Here, P = \"It rains\" and Q = \"The ground gets wet.\" Using modus ponens, since \"If it rains, the ground gets wet\" is true and \"It is raining\" is true, we conclude \"The ground gets wet\" (Q).\n\n## Step 5: Significance in Deductive Reasoning\nModus ponens is crucial in deductive reasoning and formal proofs because it enables the derivation of conclusions from given premises in a logically valid manner. It is one of the basic rules that underpin more complex logical arguments and is used extensively in mathematics, philosophy, and computer science.\n\n## Step 6: Formal Representation\nModus ponens can be formally represented as: If P \u2192 Q and P, then Q. In a more symbolic or logical notation, this is often written as: P \u2192 Q, P \u22a2 Q, where \"\u22a2\" denotes \"entails\" or \"proves.\"\n\nThe final answer is: $\\boxed{Modus ponens is a fundamental inference rule in propositional logic that allows us to infer the consequent (Q) of a conditional statement (\"If P, then Q\") when the antecedent (P) is true. It is a crucial component of deductive reasoning, enabling the derivation of conclusions from premises in a logically valid way.}$",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
             "CC": 0.9,
-            "SA": 1.0,
+            "SA": 0.9,
             "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
@@ -147,28 +147,28 @@
         },
         "consensus": {
           "CC": 0.975,
-          "SA": 1.0,
+          "SA": 0.95,
           "FC": 0.9667,
-          "agreement_score": 0.9371,
+          "agreement_score": 0.9057,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0,
+          "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9833400000000001
+      "score": 0.9633400000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 133,
-      "response_length": 392,
-      "response": "## Step 1: Understanding Modus Ponens\nModus ponens is a rule of inference in propositional logic that allows us to derive a conclusion from two premises. It is based on a conditional statement and the affirmation of the antecedent of that statement.\n\n## Step 2: Breaking Down the Components\nThe rule involves a conditional statement \"If P, then Q\" (P \u2192 Q), where P is the antecedent and Q is the consequent. The first premise is this conditional statement, and the second premise is the assertion that P is true.\n\n## Step 3: Applying Modus Ponens\nTo apply modus ponens, we first accept that \"If P, then Q\" is true. Then, if we know P is true, we can conclude Q is true. This is represented formally as:\n1. P \u2192 Q\n2. P\n3. \u2234 Q\n\n## Step 4: Explaining the Validity and Importance\nModus ponens is considered valid because it preserves truth. If the premises (P \u2192 Q and P) are true, then the conclusion (Q) must also be true. This makes it a fundamental tool in deductive reasoning, used extensively in mathematical proofs, computer science, and formal logic systems.\n\n## Step 5: Elaborating on Its Applications\nThe applications of modus ponens are vast. In mathematics, it is used to prove theorems by deriving conclusions from axioms and previously proven statements. In computer science, it underlies the logic used in programming and algorithm design. Its simplicity and reliability make it a cornerstone of logical reasoning.\n\n## Step 6: Providing a Comprehensive Explanation\nModus ponens, or \"affirming the antecedent,\" is a basic yet powerful rule of inference. It enables the derivation of a conclusion (Q) from a conditional statement (If P, then Q) and the truth of the antecedent (P). Its validity ensures that if the premises are true, the conclusion will also be true, making it indispensable for constructing sound and logically consistent arguments.\n\nThe final answer is: $\\boxed{Modus ponens is a fundamental rule of inference in propositional logic that states if a conditional statement \"If P, then Q\" is true and its antecedent P is true, then the consequent Q must be true. It is formally represented as: 1. P \u2192 Q, 2. P, \u2234 Q. This rule is valid, preserves truth, and is essential for deductive reasoning, underpinning various fields such as mathematics, computer science, and formal logic.}$",
+      "response_length": 410,
+      "response": "## Step 1: Understanding Modus Ponens\nModus ponens is a rule of inference in propositional logic that allows us to derive a conclusion from two premises. It is based on a conditional statement and the affirmation of the antecedent of that statement.\n\n## Step 2: Breaking Down the Components\nThe rule involves a conditional statement \"If P, then Q\" (P \u2192 Q), where P is the antecedent and Q is the consequent. The first premise is this conditional statement, and the second premise is the assertion that P is true.\n\n## Step 3: Applying Modus Ponens\nTo apply modus ponens, we first accept that \"If P, then Q\" is true. Then, if we know P is true, we can conclude Q is true. This is represented formally as:\n1. P \u2192 Q\n2. P\n3. \u2234 Q\n\n## Step 4: Explaining the Validity and Importance\nModus ponens is considered valid because it preserves truth. If the premises (P \u2192 Q and P) are true, then the conclusion (Q) must also be true. This makes it a fundamental tool in deductive reasoning, used extensively in mathematical proofs, computer science, and formal logic systems.\n\n## Step 5: Elaborating on Its Applications\nIn mathematical proofs, modus ponens is used to derive theorems from axioms and previously proven statements. In computer science, it is utilized in algorithms and programming logic to make decisions based on given conditions. Its simplicity and reliability make it a cornerstone of logical reasoning.\n\n## Step 6: Providing a Comprehensive Explanation\nModus ponens, or \"affirming the antecedent,\" is a basic yet powerful rule of inference. It enables the derivation of a conclusion (Q) when a conditional statement (If P, then Q) and its antecedent (P) are known to be true. This rule is essential for constructing sound and logically consistent arguments. Its application ensures that if the premises are true, the conclusion will also be true, making it a vital component of deductive reasoning across various disciplines.\n\nThe final answer is: $\\boxed{Modus ponens is a fundamental rule of inference in propositional logic that states if a conditional statement \"If P, then Q\" is true and P is true, then Q must be true. It is formally represented as: 1. P \u2192 Q, 2. P, \u2234 Q. This rule is valid, preserves truth, and is crucial for deductive reasoning in mathematics, computer science, and formal logic, enabling the derivation of conclusions from established premises in a sound and logically consistent manner.}$",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
             "CC": 0.9,
-            "SA": 1.0,
+            "SA": 0.9,
             "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
@@ -184,24 +184,24 @@
         },
         "consensus": {
           "CC": 0.975,
-          "SA": 1.0,
+          "SA": 0.95,
           "FC": 0.9667,
-          "agreement_score": 0.9371,
+          "agreement_score": 0.9057,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0,
+          "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9833400000000001
+      "score": 0.9633400000000001
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8386720000000001,
-    "mean_agreement": 0.8408200000000001,
+    "mean_score": 0.826004,
+    "mean_agreement": 0.8203199999999999,
     "decay_direction": "\u2192 Stable",
     "compression_levels": [
       0.0,
@@ -212,17 +212,17 @@
     ],
     "scores": [
       0.88334,
-      0.8100000000000002,
-      0.53334,
-      0.9833400000000001,
-      0.9833400000000001
+      0.7566600000000001,
+      0.5633400000000001,
+      0.9633400000000001,
+      0.9633400000000001
     ],
     "agreement_scores": [
       0.8854,
-      0.7053,
-      0.7392,
-      0.9371,
-      0.9371
+      0.7394,
+      0.6654,
+      0.9057,
+      0.9057
     ]
   }
 }

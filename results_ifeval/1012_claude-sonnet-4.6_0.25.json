@@ -1,0 +1,46 @@
+{
+  "key": 1012,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write email to boss with <<title>> no commas",
+  "compressed_word_count": 8,
+  "response": "I'd be happy to help write an email to your boss! However, it seems like your message contains a placeholder **<<title>>** that wasn't filled in.\n\nCould you please provide:\n\n- **The actual title/subject** you want to use\n- **The purpose** of the email\n- **Any specific details** you want included\n\nThen I can write the complete email for you! \ud83d\ude0a",
+  "response_word_count": 60,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0,
+        "parse_error": "{\"CC\": 0\u2026\u2026.\u201d\n\n\u2026\u2026.\u201d\n\n\u2026\u2026.\u201d\n\n\u2026\u2026.\u201d\n\n\u2026\u2026.\u201d\n\nWait, I need to output only JSON. Let me think.\n\nFirst, the original prompt says: Write an email to my boss telling him that I am quitting. The email must contain"
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

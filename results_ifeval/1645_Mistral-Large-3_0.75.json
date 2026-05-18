@@ -1,0 +1,43 @@
+{
+  "key": 1645,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "sheldon'S Riddle: whose name has three letters? all caps.",
+  "compressed_word_count": 9,
+  "response": "The answer to Sheldon's riddle is **\"GOD\"**.\n\n- **Three letters**: G, O, D.\n- **All caps**: As required.\n\nThis is a classic riddle referencing the name of the monotheistic deity in many religions.",
+  "response_word_count": 33,
+  "instruction_id_list": [
+    "change_case:english_capital"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

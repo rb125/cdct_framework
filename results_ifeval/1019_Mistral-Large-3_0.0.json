@@ -1,0 +1,43 @@
+{
+  "key": 1019,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "boys question?",
+  "compressed_word_count": 2,
+  "response": "Of course! If you're a boy (or just curious about boys' perspectives), feel free to ask anything\u2014whether it's about relationships, emotions, puberty, friendships, school, hobbies, or anything else. I\u2019m here to help with honest, respectful answers.\n\nWhat\u2019s on your mind? \ud83d\ude0a",
+  "response_word_count": 41,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

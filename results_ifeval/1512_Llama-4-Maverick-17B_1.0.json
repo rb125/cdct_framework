@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Generate a forum thread about several people waiting to hear the latest local news. All sentences should be short. Refrain from using any commas. Use placeholders to represent different usernames. Use square brackets for placeholders, like [username1], [username2]. Please include at least 20 placeholders in the thread.",
+  "compressed_word_count": 47,
+  "response": "[LocalLover] Waiting for news update.\n[NewsNancy] Me too. Want to know what's happening.\n[username123] Any news yet? Still nothing on TV.\n[BreakingBob] Checking website every minute.\n[CitySleuth] Heard rumors of big announcement.\n[TheLocal] Hopefully it's not another traffic jam.\n[SarahSays] Just saw tweet from mayor's office.\n[username456] What did it say? Anything new?\n[LocalNewsLover] Just a teaser. Says more to come.\n[BreakingNewsBob] Frustrating not knowing what's going on.\n[TheScoop] Maybe it's about new development plans.\n[username789] That would be huge for our town.\n[LocalLad] Would love to see some new businesses.\n[NewsHound] Still no update on website.\n[username1011] Checking social media for updates.\n[TheLocalEye] Saw post from local reporter.\n[username1213] What did they say? Anything?\n[LocalLove] Just that they're working on it.\n[username1415] Getting anxious for news.\n[TheNewsNetwork] Update should be soon.\n[username1617] Hope it's good news for once.\n[LocalLover23] Me too. Tired of bad news.\n[username1819] Just saw breaking news alert.\n[TheLocalNews] Finally. Let's see what's happening.\n[username2021] Oh it's just a traffic update.\n[LocalSigh] Not what I was hoping for.\n[username2223] Still waiting for real news.",
+  "response_word_count": 178,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

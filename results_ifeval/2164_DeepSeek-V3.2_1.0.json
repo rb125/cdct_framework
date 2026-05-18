@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a product description for a new line of dog toys, called \"the squeaker\". It's made of latex, and is designed for dogs of all ages and species. It's also available in a variety of colors and shapes. The response must contain at least 3 placeholders represented by square brackets, such as [address], [name], and [phone number].",
+  "compressed_word_count": 57,
+  "response": "**Introducing The Squeaker: Endless Joy in Every Shape and Color!**\n\nIs your dog bored with the same old toys? Meet The Squeaker, the innovative new line of dog toys designed to captivate canines of all ages and breeds! Crafted from durable, pet-safe latex, The Squeaker delivers an irresistible sound that triggers your pup\u2019s natural play instincts, providing hours of engaging entertainment and mental stimulation.\n\nWhether you have a playful puppy, an energetic adult, or a senior dog who\u2019s young at heart, The Squeaker is the perfect companion. Its resilient material is gentle on gums yet tough enough for enthusiastic chewers. Choose from a vibrant array of colors and fun shapes\u2014from classic bones and balls to whimsical animals\u2014to find the perfect match for your dog\u2019s personality.\n\n**Key Features:**\n*   **Universal Appeal:** Perfectly sized and designed for dogs of all species and life stages.\n*   **Irresistible Sound:** The high-quality, built-in squeaker keeps dogs engaged and active.\n*   **Durable & Safe:** Made from non-toxic, long-lasting latex for worry-free play.\n*   **Variety Pack:** Available in multiple exciting colors and shapes to keep playtime fresh.\n\nTo order your Squeaker toy collection or to request a catalog, please contact **[Customer Service Name]** at **[phone number]**. You can also visit our flagship store at **[address]** to see the full spectrum of colors and shapes in person!\n\nMake every playtime an adventure with The Squeaker\u2014where fun comes in every form!",
+  "response_word_count": 232,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

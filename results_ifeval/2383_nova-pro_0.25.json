@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Two responses for \"Mrs. Smith's class\" grammar? ******.",
+  "compressed_word_count": 8,
+  "response": "Certainly! Here are two responses that address the grammar of the phrase \"Mrs. Smith's class\":\n\n### Response 1: Confirming Correctness\n\"The phrase 'Mrs. Smith's class' is grammatically correct. It uses the possessive form to indicate that the class belongs to Mrs. Smith. The apostrophe followed by the's' (Smith's) correctly shows ownership.\"\n\n### Response 2: Offering an Alternative\n\"While 'Mrs. Smith's class' is correct, another way to phrase it without using the possessive form would be 'the class of Mrs. Smith.' Both versions are acceptable, but the possessive form is more commonly used in everyday language.\"",
+  "response_word_count": 95,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

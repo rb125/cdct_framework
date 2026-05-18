@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "create resume for matthias algiers in all caps for key abilities, limit to <10 highlighted words, enclose in double quotation marks.",
+  "compressed_word_count": 21,
+  "response": "\"LEADERSHIP, STRATEGY, INNOVATION, COMMUNICATION, ANALYTICS, COLLABORATION, ADAPTABILITY, RESULTS-ORIENTED, VISIONARY, EXECUTION\"",
+  "response_word_count": 10,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": false,
+    "startend:quotation_2": true
+  },
+  "heuristic_cc": 0.6666666666666666,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

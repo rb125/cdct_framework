@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Provide two distinct grammatically correct responses to \"Mrs. Smith is the teacher of this class.\" Responses should be separated by six asterisks.",
+  "compressed_word_count": 22,
+  "response": "\"Yes, she has been teaching us all semester.\"\n\n******\n\n\"I didn't realize she was the one in charge of this course.\"",
+  "response_word_count": 21,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.408248290463863,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

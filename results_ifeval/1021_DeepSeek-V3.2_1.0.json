@@ -1,0 +1,45 @@
+{
+  "key": 1021,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+  "compressed_word_count": 33,
+  "response": "PARAGRAPH 1\nTHIS STATEMENT IS A DANGEROUSLY SIMPLISTIC AND SUBJECTIVE PRINCIPLE. IT IGNORES THE FACT THAT SOCIETAL ORDER AND COLLECTIVE SAFETY OFTEN DEPEND ON A SHARED ADHERENCE TO A LEGAL SYSTEM, EVEN WHEN INDIVIDUAL LAWS ARE IMPERFECT. THE PHRASE \"BAD LAW\" IS HIGHLY AMBIGUOUS; ONE PERSON'S BAD LAW IS ANOTHER'S ESSENTIAL PROTECTION. THIS MAXIM, IF UNIVERSALLY APPLIED, COULD LEAD TO ANARCHY WHERE EVERY INDIVIDUAL BECOMES THE SOLE ARBITER OF WHICH LAWS TO OBEY, RENDERING THE CONCEPT OF LAW ITSELF MEANINGLESS AND MAKING SOCIETY UNGOVERNABLE.\n\nPARAGRAPH 2\nHOWEVER, THE SENTENCE TOUCHES ON A PROFOUND MORAL DILEMMA CENTRAL TO CIVIL DISOBEDIENCE AND HISTORICAL PROGRESS. FIGURES LIKE MARTIN LUTHER KING JR. ARGUED THAT THERE IS A HIGHER MORAL LAW, AND UNJUST LAWS CARRY NO LEGITIMATE AUTHORITY. THE CRITIQUE IS THAT THE STATEMENT IS TOO ABSOLUTE AND LACKS NECESSARY CONTEXT. A MORE NUANCED VIEW WOULD DISTINGUISH BETWEEN UNJUST LAWS THAT SHOULD BE PROTESTED AND CHANGED THROUGH CIVIL MEANS, AND THE BROAD PRINCIPLE OF LEGAL OBLIGATION THAT MAINTAINS A FUNCTIONING SOCIETY. THE ORIGINAL SENTENCE FAILS TO MAKE THIS CRITICAL DISTINCTION.",
+  "response_word_count": 175,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "detectable_format:multiple_sections_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

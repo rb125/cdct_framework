@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "missing classes",
+  "compressed_word_count": 2,
+  "response": "It seems like your message got cut off! Could you provide more details about what you mean by **\"missing classes\"**?\n\nFor example, are you asking about:\n\n- **School/college** \u2013 missed lectures or attendance issues?\n- **Programming** \u2013 missing class definitions in code?\n- **A specific subject** \u2013 catching up on missed content?\n- **Class not found errors** \u2013 in Java, Python, etc.?\n\nPlease share more context and I'll be happy to help! \ud83d\ude0a",
+  "response_word_count": 73,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

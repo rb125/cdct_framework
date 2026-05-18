@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+  "compressed_word_count": 63,
+  "response": "Here is a dialogue between two people, one dressed up in a ball gown and the other dressed down in sweats, as they prepare to go to a nightly event:\n\n[Setting: A luxurious living room. One person, Emily, is standing in front of a mirror, adjusting her ball gown. The other person, Jack, is sitting on the couch, wearing sweats and a t-shirt.]\n\nEmily: Jack, are you ready to go? We're going to be late for the gala.\nJack: I'm ready when you are. I just need to grab my wallet.\nEmily: You're not even dressed. What's going on?\nJack: I'm fine. It's just a charity event, right? I'm not going to be the only one dressed casually.\nEmily: Actually, it's a black-tie event. You can't go like that. Here are a few things you should know before we head out:\n* The event is being held at a luxurious hotel downtown.\n* There will be a lot of important people there, so try to make a good impression.\n* The charity is raising money for a good cause, so let's be sure to be respectful and generous.\n\nJack: (laughs) I had no idea it was that formal. I thought you said it was just a charity event.\nEmily: I did, but that doesn't mean it's not formal. Come on, let's get you changed.\nJack: (sighs) Fine. But I'm not wearing a tie.\n\nEmily: (smiling) I'll help you pick one out. It'll be fine, I promise.\n\nJack: (gets up and heads to the closet) Okay, let's get this over with.",
+  "response_word_count": 260,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

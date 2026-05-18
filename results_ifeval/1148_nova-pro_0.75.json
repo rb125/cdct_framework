@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "```json\ncompare pros/cons of supernatural powers; concise; json format; use markdown ticks ```\n```",
+  "compressed_word_count": 14,
+  "response": "```json\n{\n  \"supernatural_powers\": {\n    \"pros\": [\n      \"`Enhanced Abilities:` Increased strength, speed, or senses.\",\n      \"`Problem-Solving:` Easier to overcome challenges and obstacles.\",\n      \"`Influence:` Greater control over situations and people.\",\n      \"`Protection:` Enhanced self-defense capabilities.\",\n      \"`Adventure:` Opportunities for unique experiences and exploration.\"\n    ],\n    \"cons\": [\n      \"`Responsibility:` Pressure to use powers for good.\",\n      \"`Isolation:` Difficulty relating to normal people.\",\n      \"`Target:` Increased risk of being hunted or exploited.\",\n      \"`Moral Dilemmas:` Complex ethical decisions.\",\n      \"`Loss of Normalcy:` Struggle to maintain a regular life.\"\n    ]\n  }\n}\n```",
+  "response_word_count": 80,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

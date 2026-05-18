@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a rap about a new smartphone. At the end of your response add a postscript starting with P.P.S The response must contain at least 6 placeholders represented by square brackets.",
+  "compressed_word_count": 31,
+  "response": "Yo, listen up, gather 'round, I got a tale to spin,\n'Bout a gadget so fly, it'll make your heart grin.\nIn the tech world's arena, where gadgets compete,\nThere's a new contender, ready to beat.\n\n[Brand Name], the smartphone that's takin' the stage,\nWith features so dope, it'll turn the page.\nA [screen size] display, crystal clear and bright,\nIlluminating your world, day or night.\n\nUnder the hood, a [processor] brain,\nPowerin' through tasks, no strain, no pain.\n[RAM] gigs of memory, smooth as can be,\nMultitaskin' made easy, you'll see, you'll see.\n\nCapture life's moments with a [camera resolution] lens,\nSnappin' photos, no second chances, no amends.\n[Battery life] hours of power, never runnin' low,\nKeepin' you connected, wheresoever you go.\n\nWith [storage capacity] space, store all your stuff,\nApps, games, movies, more than enough.\nWireless chargin', fast as lightnin' speed,\nChargin' up your device, fulfillin' your need.\n\nSo, what you waitin' for? Get in the game,\nWith [Brand Name] smartphone, you'll never be the same.\nA tech revolution, a game-changin' feat,\nThis smartphone's the future, can't be beat.\n\nP.P.S Stay tuned for more updates and surprises,\nAs [Brand Name] continues to raise the bar with its techy prizes.",
+  "response_word_count": 201,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

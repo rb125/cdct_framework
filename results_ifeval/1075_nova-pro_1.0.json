@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Can you help me make an advertisement for a new product? It's a diaper that's designed to be more comfortable for babies and I want the entire output in JSON format.",
+  "compressed_word_count": 31,
+  "response": "Certainly! Below is an advertisement for your new comfortable baby diaper, formatted in JSON.\n\n```json\n{\n  \"advertisement\": {\n    \"title\": \"Introducing UltraComfort Baby Diapers: The Ultimate in Baby Care!\",\n    \"headline\": \"Give Your Baby the Comfort They Deserve\",\n    \"description\": \"Say goodbye to discomfort and hello to UltraComfort Baby Diapers. Designed with your baby's sensitive skin in mind, our new diapers offer unparalleled comfort, protection, and peace of mind.\",\n    \"features\": [\n      {\n        \"feature\": \"Soft, Breathable Material\",\n        \"detail\": \"Made from hypoallergenic, ultra-soft materials that allow your baby's skin to breathe.\"\n      },\n      {\n        \"feature\": \"Leak-Proof Protection\",\n        \"detail\": \"Double-layer protection ensures no leaks, keeping your baby dry and comfortable all day and night.\"\n      },\n      {\n        \"feature\": \"Stretchy Waistband\",\n        \"detail\": \"Adjustable, stretchy waistband provides a snug fit without causing any discomfort or redness.\"\n      },\n      {\n        \"feature\": \"Gentle on Skin\",\n        \"detail\": \"Free from harsh chemicals, dyes, and fragrances to protect your baby's delicate skin.\"\n      },\n      {\n        \"feature\": \"Eco-Friendly\",\n        \"detail\": \"Made with sustainable materials and processes to ensure a smaller environmental footprint.\"\n      }\n    ],\n    \"benefits\": [\n      {\n        \"benefit\": \"Enhanced Comfort\",\n        \"detail\": \"Your baby will feel more comfortable, leading to happier and more restful moments.\"\n      },\n      {\n        \"benefit\": \"Peace of Mind for Parents\",\n        \"detail\": \"Knowing your baby is in a safe, comfortable, and protective diaper allows you to focus on what matters most.\"\n      },\n      {\n        \"benefit\": \"Reduced Skin Irritation\",\n        \"detail\": \"Hypoallergenic materials reduce the risk of rashes and irritations.\"\n      }\n    ],\n    \"call_to_action\": {\n      \"text\": \"Try UltraComfort Baby Diapers Today!\",\n      \"url\": \"www.ultracomfortdiapers.com\"\n    },\n    \"testimonial\": {\n      \"quote\": \"'Since we switched to UltraComfort Diapers, our baby has been so much happier and more comfortable.'\",\n      \"author\": \"- Happy Parent\"\n    },\n    \"images\": [\n      {\n        \"url\": \"www.ultracomfortdiapers.com/images/diaper_front.jpg\",\n        \"alt_text\": \"Front view of UltraComfort Baby Diaper\"\n      },\n      {\n        \"url\": \"www.ultracomfortdiapers.com/images/baby_smiling.jpg\",\n        \"alt_text\": \"Happy baby wearing UltraComfort Diaper\"\n      }\n    ],\n    \"social_media_handles\": {\n      \"facebook\": \"www.facebook.com/ultracomfortdiapers\",\n      \"instagram\": \"www.instagram.com/ultracomfortdiapers\",\n      \"twitter\": \"www.twitter.com/ultracomfortdp\"\n    }\n  }\n}\n```",
+  "response_word_count": 302,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

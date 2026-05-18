@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "summarize nyc prospect park history in json, use markdown ticks",
+  "compressed_word_count": 10,
+  "response": "Here's a JSON summary of Prospect Park's history in Markdown ticks:\n\n```json\n{\n  \"name\": \"Prospect Park\",\n  \"location\": \"Brooklyn, New York City, USA\",\n  \"history\": {\n    \"creation\": {\n      \"year\": 1867,\n      \"designers\": [\"Frederick Law Olmsted\", \"Calvert Vaux\"],\n      \"inspiration\": \"Central Park (Manhattan)\",\n      \"purpose\": \"Provide a naturalistic escape for Brooklyn residents\"\n    },\n    \"key_milestones\": [\n      {\n        \"year\": 1866,\n        \"event\": \"Land acquisition begins for park construction\"\n      },\n      {\n        \"year\": 1867,\n        \"event\": \"Park officially opens (partial completion)\"\n      },\n      {\n        \"year\": 1873,\n        \"event\": \"Long Meadow and Ravine areas completed\"\n      },\n      {\n        \"year\": 1890,\n        \"event\": \"Prospect Park Zoo opens (originally a menagerie)\"\n      },\n      {\n        \"year\": 1912,\n        \"event\": \"Boathouse and Audubon Center added\"\n      },\n      {\n        \"year\": 1934,\n        \"event\": \"Robert Moses renovations (playgrounds, ball fields, etc.)\"\n      },\n      {\n        \"year\": 1960s-1970s,\n        \"event\": \"Decline due to city budget cuts and neglect\"\n      },\n      {\n        \"year\": 1987,\n        \"event\": \"Prospect Park Alliance formed to restore and maintain the park\"\n      },\n      {\n        \"year\": 2017,\n        \"event\": \"150th anniversary celebrated with major renovations\"\n      }\n    ],\n    \"notable_features\": [\n      \"Long Meadow (largest meadow in any NYC park)\",\n      \"Lake and Lullwater\",\n      \"Ravine (one of the few remaining urban forests)\",\n      \"Prospect Park Zoo\",\n      \"Brooklyn Botanic Garden (adjacent)\",\n      \"Grand Army Plaza entrance\"\n    ],\n    \"cultural_significance\": {\n      \"landmark_status\": \"Listed on the National Register of Historic Places (1975)\",\n      \"events\": \"Hosts concerts, festivals, and recreational activities\",\n      \"community_role\": \"Vital green space for Brooklyn residents\"\n    }\n  },\n  \"size\": \"526 acres (213 hectares)\",\n  \"current_management\": \"NYC Parks Department and Prospect Park Alliance\"\n}\n```",
+  "response_word_count": 231,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

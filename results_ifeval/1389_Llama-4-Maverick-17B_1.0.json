@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a letter to your friend who recently moved away. Your entire response should be in English, and in all capital letters. The letter o should appear at least 40 times.",
+  "compressed_word_count": 31,
+  "response": "DEAR FRIEND,\n\nI HOPE THIS LETTER FINDS YOU SETTLING IN WELL IN YOUR NEW PLACE. I OFTEN THOUGHT ABOUT YOU AND OUR OLD NEIGHBORHOOD AS I WALKED THROUGH THE OLD FAMILIAR SPOTS, NOTICING THE OLD OAK TREES STANDING TALL, THEIR OMINOUS BRANCHES OUTSTRETCHED TOWARDS THE OPEN SKY. I OFTEN OPEN THE OLD PHOTO ALBUMS AND LOOK AT THE PICTURES OF OUR TIME TOGETHER, REMEMBERING THE COUNTLESS OCCASIONS WE SPENT TOGETHER, OFTEN GOING OUT OF OUR WAY TO MAKE SURE THE OTHER WAS OKAY.\n\nI MISS OUR DAILY ROUTINE OF OPENING THE DOOR TOGETHER, OFTEN ORDERING FOOD FROM THAT NEW ORIENTAL RESTAURANT, AND OUR OCCASIONAL OUTINGS TO THE OCEAN. I OFTEN OCCUPY MY FREE TIME BY ORGANIZING OUR OLD PHOTOS, AND I OFTEN OPEN THE ONES WE TOOK TOGETHER ON OUR TRIP TO THE OZARKS. I OFTEN OFFER THANKS FOR THE GOOD TIMES WE HAD, AND I OFTEN OPEN MY HEART TO THE MEMORIES WE CREATED TOGETHER.\n\nI HOPE YOU'RE DOING OKAY IN YOUR NEW OFFICE, AND THAT YOU'RE NOT TOO OVERWHELMED WITH THE NEW RESPONSIBILITIES. I OFTEN OFFER MY SUPPORT, EVEN IF IT'S JUST A LISTENING EAR OVER THE PHONE. I OFTEN OPEN UP ABOUT MY OWN EXPERIENCES, HOPING THAT THEY MIGHT OFFER SOME COMFORT AND REASSURANCE.\n\nI OFTEN OBSERVE THE OLD OBJECTS WE USED TO SHARE, AND I OFTEN OPEN THEM UP, REMEMBERING THE OLD TIMES. I OFTEN OFFER A TOAST TO OUR FRIENDSHIP, AND I OFTEN OPEN A BOTTLE OF WINE TO CELEBRATE THE GOOD TIMES WE HAD.\n\nTAKE CARE, AND LET'S CATCH UP SOON. I OFTEN OPEN MY CALENDAR TO SEE WHEN WE CAN TALK AGAIN.\n\nBEST,\nYOUR FRIEND",
+  "response_word_count": 272,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

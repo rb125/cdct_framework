@@ -1,0 +1,45 @@
+{
+  "key": 1813,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Write a 30-word reflective essay on college life changes, all caps, no commas.",
+  "compressed_word_count": 13,
+  "response": "COLLEGE BROADENS YOUR WORLD VIEW\nNEW PEOPLE ENDLESS IDEAS CHALLENGES\nYOU GROW STRONGER AND MORE INDEPENDENT\nIT IS A RAPID AND WONDERFUL TRANSFORMATION",
+  "response_word_count": 23,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.75,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.5833333333333334,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.11785113019775792,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

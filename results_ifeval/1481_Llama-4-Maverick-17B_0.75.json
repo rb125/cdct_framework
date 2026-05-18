@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft an unconventional resume for Antonia Maj for a coffee co. job; marketing, customer service, sales exp; no coffee-related major. sections: 'section 1', 'section 2'. format: \n* quirky achievements\n* unique coffee-related hobbies",
+  "compressed_word_count": 33,
+  "response": "Here's a draft of an unconventional resume for Antonia Maj:\n\n**Section 1**\n* Caffeine Fueled Achievements:\n\t+ Survived a 3-day music festival on a diet of coffee and questionable life choices\n\t+ Successfully convinced 12 friends to try a new coffee shop with a ridiculous name, resulting in a 100% increase in their social media following\n\t+ Demonstrated expertise in \"coffee-fueled brainstorming sessions\" by coming up with 27 innovative marketing ideas in one sitting\n* Transferable Skills:\n\t+ 3+ years of experience in marketing, customer service, and sales, with a proven track record of thinking outside the box (or cup)\n\n**Section 2**\n* Coffee-Related Quirks:\n\t+ Maintains a \"Coffee Shop Hop\" journal, documenting visits to 50+ unique coffee shops and rating their atmosphere, coffee quality, and Wi-Fi strength\n\t+ Amateur coffee cupping enthusiast, with a discerning palate for notes of chocolate and caramel\n\t+ Secretly a latte art enthusiast, with a hidden talent for creating intricate designs on the surface of expertly crafted espresso drinks\n\nThis unconventional resume highlights Antonia's quirky personality, transferable skills, and unique coffee-related hobbies, making her a compelling candidate for a job at a coffee company.",
+  "response_word_count": 190,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

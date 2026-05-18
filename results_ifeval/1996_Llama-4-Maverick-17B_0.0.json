@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "truths, stress",
+  "compressed_word_count": 2,
+  "response": "It seems like you're referencing the song \"Truth Hurts\" by Lizzo, but with a slight modification to \"stress.\" That's an interesting connection! \"Truth Hurts\" is a popular song that became a huge hit. If you're looking to discuss the song or perhaps relate it to stress, I'd be happy to engage in a conversation. How are you feeling about the connection between truths and stress?",
+  "response_word_count": 65,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "ad template for portable camera, max 4 caps",
+  "compressed_word_count": 8,
+  "response": "Here's a clean ad template for a portable camera with a maximum of 4 capitalized words:\n\n---\n\n**Capture every moment.**\n\nLightweight. Powerful. Always ready.\n\n*Take it anywhere \u2014 miss nothing.*\n\n\ud83d\udcf7 **Shop now** | Free shipping\n\n---\n\nWant me to adjust the tone, style, or add specific features?",
+  "response_word_count": 48,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_sentences_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.7,
+        "FC": 0.6
+      },
+      "GLM-5": {
+        "CC": 0.3,
+        "SA": 0.8,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.5333333333333333,
+      "judge_variance_CC": 0.20548046676563259,
+      "judge_variance_SA": 0.12472191289246473,
+      "judge_variance_FC": 0.04714045207910316
+    }
+  }
+}

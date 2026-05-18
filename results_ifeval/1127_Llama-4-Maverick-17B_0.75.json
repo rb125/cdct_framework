@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Compose a 4-section poem expressing class absences, ending with 'Can I get my money back for the classes I missed?' Use section X markers.",
+  "compressed_word_count": 24,
+  "response": "Section 1\nThe alarm didn't ring, the bed was too warm\nI hit the snooze button, and the morning alarm\nFell on deaf ears, as I snuggled in tight\nAnd the day began without me, in the morning light\n\nSection 2\nThe rain poured down, and the roads were a mess\nI didn't want to venture out, I must confess\nThe couch was cozy, and the TV was bright\nI binge-watched my favorite show, through the day and night\n\nSection 3\nThe weather was fine, but my mood wasn't right\nI felt under the weather, and didn't want to fight\nThe crowded hallways, and the noisy classroom din\nI opted to stay home, and let the day slip within\n\nSection 4\nNow the semester's almost over, and I'm feeling quite blue\nI've missed so many classes, and I'm not sure what to do\nI've paid for a service, that I haven't fully received\nCan I get my money back for the classes I missed?",
+  "response_word_count": 164,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.75,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.75,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.2041241452319315,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

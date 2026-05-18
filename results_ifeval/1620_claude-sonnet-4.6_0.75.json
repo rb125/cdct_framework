@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft email to introduce luheng to lilith album; p.s. add brief note",
+  "compressed_word_count": 12,
+  "response": "Here's a draft email:\n\n---\n\n**Subject:** Introduction \u2013 Luheng & Lilith Album\n\nHi [Name],\n\nI hope this email finds you well!\n\nI wanted to take a moment to introduce you to **Luheng**, who I believe would be a wonderful connection for you regarding the **Lilith Album** project.\n\nLuheng brings [brief description of relevant skills/background], and I think there is a great deal of potential for collaboration and synergy between them and the work being done with Lilith Album.\n\nI'll let you both take it from here \u2014 I'm confident this introduction will be mutually valuable!\n\nPlease feel free to reach out to each other directly, and don't hesitate to loop me in if needed.\n\nWarm regards,\n[Your Name]\n\n---\n\n**P.S.** Really excited about where the Lilith Album is heading \u2014 looking forward to seeing how this connection unfolds! \ud83c\udfb6\n\n---\n\n*Feel free to let me know if you'd like to adjust the tone, add specific details, or personalize it further!*",
+  "response_word_count": 160,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.5,
+        "FC": 0.6
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 0.3333333333333333,
+      "FC": 0.3666666666666667,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.26246692913372704
+    }
+  }
+}

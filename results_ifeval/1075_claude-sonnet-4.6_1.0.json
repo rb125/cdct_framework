@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Can you help me make an advertisement for a new product? It's a diaper that's designed to be more comfortable for babies and I want the entire output in JSON format.",
+  "compressed_word_count": 31,
+  "response": "Here's a sample advertisement for your baby diaper product in JSON format:\n\n```json\n{\n  \"advertisement\": {\n    \"product\": {\n      \"name\": \"SoftCloud Diapers\",\n      \"tagline\": \"Because Every Baby Deserves the Best Comfort\",\n      \"category\": \"Baby Care\"\n    },\n    \"headline\": \"Introducing SoftCloud Diapers - The Ultimate Comfort Experience for Your Baby!\",\n    \"description\": \"Say goodbye to discomfort and irritation! SoftCloud Diapers are specially designed with your baby's comfort in mind, featuring ultra-soft materials and an innovative fit that keeps your little one happy all day long.\",\n    \"key_features\": [\n      {\n        \"feature\": \"Ultra-Soft Inner Lining\",\n        \"description\": \"Gentle on delicate baby skin, reducing irritation and redness\"\n      },\n      {\n        \"feature\": \"360-Degree Stretch Waistband\",\n        \"description\": \"Moves with your baby for unrestricted play and movement\"\n      },\n      {\n        \"feature\": \"Advanced Moisture Lock Technology\",\n        \"description\": \"Keeps baby dry for up to 12 hours\"\n      },\n      {\n        \"feature\": \"Breathable Outer Layer\",\n        \"description\": \"Promotes airflow to prevent heat and rashes\"\n      },\n      {\n        \"feature\": \"Hypoallergenic Materials\",\n        \"description\": \"Safe for sensitive skin, free from harsh chemicals\"\n      }\n    ],\n    \"target_audience\": \"Parents of newborns and toddlers aged 0-3 years\",\n    \"call_to_action\": {\n      \"primary\": \"Try SoftCloud Diapers Today!\",\n      \"secondary\": \"Get 20% off your first order\",\n      \"url\": \"www.softclouddiapers.com\"\n    },\n    \"available_sizes\": [\"Newborn\", \"Size 1\", \"Size 2\", \"Size 3\", \"Size 4\", \"Size 5\"],\n    \"price_range\": {\n      \"starting_price\": \"$9.99\",\n      \"currency\": \"USD\"\n    },\n    \"social_proof\": {\n      \"testimonial\": \"SoftCloud Diapers have been a game changer for our baby. No more fussing or discomfort!\",\n      \"reviewer\": \"Happy Parent\"\n    },\n    \"platforms\": [\"TV\", \"Social Media\", \"Print\", \"Online\"]\n  }\n}\n```\n\nFeel free to let me know if you would like to:\n- **Change the product name**\n- **Add or remove any features**\n- **Adjust the pricing or sizing**\n- **Modify the tone or messaging**",
+  "response_word_count": 268,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

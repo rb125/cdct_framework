@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "resume, caps",
+  "compressed_word_count": 2,
+  "response": "Here\u2019s a concise guide to formatting **resumes in ALL CAPS** (if required) and best practices for using **capitalization** in resumes:\n\n---\n\n### **1. Should You Use ALL CAPS in a Resume?**\n- **Avoid ALL CAPS for readability**: Resumes in all caps are harder to read and may appear unprofessional. Most employers prefer **title case** (e.g., \"Project Manager\") or **sentence case** (e.g., \"Managed a team of 5\").\n- **Exceptions**:\n  - **Section headers** (e.g., \"EDUCATION\", \"WORK EXPERIENCE\") can be in **bold + all caps** for emphasis.\n  - **Legal/technical documents** (e.g., military resumes) may require all caps for consistency.\n\n---\n\n### **2. Proper Capitalization Rules for Resumes**\n#### **A. Job Titles**\n- **Title Case**: Capitalize the first letter of each major word.\n  - \u2705 **Correct**: *Senior Marketing Manager*\n  - \u274c **Incorrect**: *senior marketing manager* (too informal) or *SENIOR MARKETING MANAGER* (all caps).\n\n#### **B. Company Names**\n- Follow the company\u2019s official branding (check their website).\n  - \u2705 **Examples**:\n    - *Google*\n    - *The Walt Disney Company*\n    - *eBay* (lowercase \"e\" is intentional).\n\n#### **C. Degrees/Certifications**\n- **Title Case** for formal degrees:\n  - \u2705 *Bachelor of Science in Computer Science*\n  - \u2705 *Certified Public Accountant (CPA)*\n- **Lowercase** for general terms:\n  - \u2705 *master\u2019s degree in psychology*\n  - \u2705 *certification in project management*.\n\n#### **D. Skills/Keywords**\n- **Title Case** for specific tools/technologies:\n  - \u2705 *Python, Adobe Photoshop, Salesforce CRM*\n- **Lowercase** for general skills:\n  - \u2705 *team leadership, data analysis*.\n\n#### **E. Bullet Points**\n- **Sentence case** (capitalize only the first word):\n  - \u2705 *Developed a new customer onboarding process, reducing churn by 20%.*\n  - \u274c *DEVELOPED A NEW CUSTOMER ONBOARDING PROCESS...* (all caps).\n\n---\n\n### **3. When ALL CAPS Might Be Required**\n- **Military/ATS Resumes**: Some applicant tracking systems (ATS) or military formats use all caps for uniformity.\n- **Legal Documents**: Contracts or formal filings may use all caps for clauses.\n- **Emphasis**: Use **bold** or **small caps** instead of all caps for headings.\n\n---\n\n### **4. Example Resume Formatting**\n```plaintext\n**JANE DOE**\n\ud83d\udcde (123) 456-7890 | \u2709\ufe0f jane.doe@email.com | \ud83d\udd17 linkedin.com/in/janedoe\n\n**PROFESSIONAL SUMMARY**\nResults-driven **Project Manager** with 5+ years of experience leading cross-functional teams in tech startups. Proficient in **Agile methodologies** and **Jira**.\n\n**WORK EXPERIENCE**\n**Tech Solutions Inc.** | *Senior Project Manager* | Jan 2020\u2013Present\n- Led a team of 8 developers to launch a SaaS product, increasing revenue by 30%.\n- Streamlined workflows using **Asana**, reducing project delivery time by 15%.\n\n**EDUCATION**\n**Master of Business Administration (MBA)**\nUniversity of California, Los Angeles | 2018\n\n**SKILLS**\nProject Management | Agile/Scrum | Risk Assessment | Stakeholder Communication\n```\n\n---\n\n### **5. Key Takeaways**\n- **Default**: Use **title case** for headings/titles and **sentence case** for bullet points.\n- **Avoid ALL CAPS** unless required (e.g., military, legal).\n- **Bold** or **small caps** are better for emphasis than all caps.\n- **Check ATS compatibility**: Some systems parse all caps poorly.\n\nWould you like a template tailored to a specific industry (e.g., tech, healthcare, military)?",
+  "response_word_count": 487,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

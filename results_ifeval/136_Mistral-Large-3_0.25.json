@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "9 bullet points on nucleus, <100 words.",
+  "compressed_word_count": 7,
+  "response": "Here are 9 concise bullet points on the **nucleus**:\n\n1. **Control Center** \u2013 Directs cell activities, including growth, metabolism, and reproduction.\n2. **DNA Storage** \u2013 Contains genetic material (DNA) organized into chromosomes.\n3. **Nuclear Envelope** \u2013 Double membrane with pores regulating molecule exchange.\n4. **Nucleolus** \u2013 Produces ribosomes (protein synthesis sites).\n5. **Gene Expression** \u2013 Transcribes DNA into RNA for protein production.\n6. **Cell Division** \u2013 Coordinates mitosis/meiosis for reproduction.\n7. **Eukaryotic Feature** \u2013 Present in plant, animal, and fungal cells (absent in prokaryotes).\n8. **Chromatin** \u2013 DNA-protein complex (condenses into chromosomes during division).\n9. **Signaling Hub** \u2013 Regulates responses to external stimuli and internal cues.",
+  "response_word_count": 106,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

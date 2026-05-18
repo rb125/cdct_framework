@@ -1,0 +1,45 @@
+{
+  "key": 152,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "draft 900-word essay on navigable freeways in english, no caps",
+  "compressed_word_count": 10,
+  "response": "# navigable freeways\n\nthe modern freeway is one of the most consequential inventions of the twentieth century. stretching across continents, cutting through mountains, and stitching together cities that once felt impossibly distant from one another, the freeway reshaped not only how people move but how they live, work, and understand the world around them. yet for all its power and reach, the freeway has always been a contested space \u2014 a place where the promise of freedom and the reality of constraint exist in constant tension. at the heart of this tension lies a deceptively simple question: what does it mean for a freeway to be truly navigable?\n\nnavigability, in the most basic sense, refers to the ease with which a driver can move through a road system without confusion, danger, or unnecessary delay. a navigable freeway is one that communicates clearly with its users, offering well-placed signage, logical interchange design, and predictable lane configurations. it anticipates the needs of the driver before those needs become urgent. it gives enough warning before an exit, enough space before a merge, and enough clarity at a junction that a person unfamiliar with the route can still find their way without panic. in this sense, navigability is fundamentally about design \u2014 about the relationship between infrastructure and the human mind.\n\nbut navigability is also about access. a freeway that is technically well-designed but surrounded by barriers \u2014 whether physical, economic, or social \u2014 is not truly navigable for everyone. the history of freeway construction in the united states, for example, is deeply marked by decisions that made certain roads navigable for some communities while making entire neighborhoods inaccessible or uninhabitable for others. urban freeways were frequently routed through low-income and minority communities, demolishing homes and severing the connective tissue of neighborhoods that had taken generations to build. the people displaced by these projects were rarely the people who would benefit most from the roads themselves. navigability, in this broader sense, is inseparable from questions of equity and justice.\n\nthe physical design of a navigable freeway draws on decades of research in traffic engineering, cognitive psychology, and human factors science. drivers process information quickly and under stress, which means that good freeway design must reduce cognitive load at every possible point. signs must be large enough to read at speed, positioned far enough in advance to allow for lane changes, and written in language that is immediately understood. interchanges must follow consistent logic so that a driver who has learned one system can apply that knowledge elsewhere. the geometry of on-ramps and off-ramps must allow for safe acceleration and deceleration without forcing abrupt maneuvers. when these elements work together, the freeway becomes almost invisible \u2014 a seamless extension of the driver's intention.\n\nwhen they fail, the consequences can be severe. poorly designed interchanges create confusion that leads to sudden braking, wrong turns, and collisions. inadequate signage forces drivers to make split-second decisions with incomplete information. missing or inconsistent lane markings contribute to uncertainty, especially in conditions of low visibility or heavy traffic. the cost of poor navigability is measured not only in accidents and delays but in the chronic stress that accumulates over years of difficult commuting. research consistently shows that long, unpredictable commutes are among the most reliable predictors of reduced wellbeing, and much of that unpredictability stems from navigability failures in the road network itself.\n\ntechnology has begun to transform what navigability means in practice. gps navigation systems and real-time traffic applications have given drivers access to information that was once available only to those who knew a route intimately. a visitor to an unfamiliar city can now navigate a complex freeway interchange with the same confidence as a local, guided by a voice that anticipates every turn. in this sense, digital tools have democratized navigability, extending its benefits to a far wider population. but this democratization comes with its own complications. drivers who rely entirely on navigation apps may lose the ability to read the road itself, becoming dependent on a system that can fail, lag, or give incorrect instructions. the relationship between human judgment and technological assistance on the freeway is still being negotiated.\n\nthere is also the question of what freeways are navigable toward. a road that efficiently moves cars from one suburb to another may be navigable in a narrow technical sense while contributing to patterns of sprawl, pollution, and car dependency that make life harder in other ways. navigability cannot be evaluated in isolation from the broader systems it serves. a truly navigable freeway network is one that connects people to the things they need \u2014 jobs, healthcare, education, community \u2014 in ways that are efficient, safe, and sustainable. by that standard, many existing freeways fall short, not because of poor signage or bad geometry, but because they were built around assumptions about how people live that no longer hold, if they ever did.\n\nthe freeway will remain a central feature of life in many parts of the world for the foreseeable future. the question is not whether to have freeways but how to make them work better \u2014 for drivers navigating complex interchanges, for communities living alongside elevated structures, and for societies trying to move toward a more equitable and sustainable future. navigability, understood in its fullest sense, is not just a technical standard. it is a measure of how well a society has thought through the relationship between infrastructure and human life. by that measure, there is still a great deal of work to be done.",
+  "response_word_count": 921,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.9333333333333332,
+      "FC": 0.9,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft 7-day itineraries for India and China, tabulating them separately, with 6 asterisks ******* in between.",
+  "compressed_word_count": 16,
+  "response": "**India 7-Day Itinerary**\n\n| Day | Location | Activities |\n| --- | --- | --- |\n| 1 | Delhi | Explore Red Fort, Qutub Minar |\n| 2 | Delhi | Visit India Gate, Humayun's Tomb |\n| 3 | Agra | Visit Taj Mahal, Agra Fort |\n| 4 | Agra | Explore Fatehpur Sikri, local markets |\n| 5 | Jaipur | Visit Amber Fort, City Palace |\n| 6 | Jaipur | Explore Jantar Mantar, Hawa Mahal |\n| 7 | Delhi | Return to Delhi, last-minute shopping |\n\n*******\n \n**China 7-Day Itinerary**\n\n| Day | Location | Activities |\n| --- | --- | --- |\n| 1 | Beijing | Visit Great Wall of China, Ming Tombs |\n| 2 | Beijing | Explore Forbidden City, Temple of Heaven |\n| 3 | Beijing | Visit Summer Palace, local markets |\n| 4 | Xi'an | Explore Terracotta Warriors, Xi'an City Wall |\n| 5 | Xi'an | Visit Big Wild Goose Pagoda, Muslim Quarter |\n| 6 | Shanghai | Visit Bund, Oriental Pearl Tower |\n| 7 | Shanghai | Explore French Concession, Shanghai Museum |",
+  "response_word_count": 195,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

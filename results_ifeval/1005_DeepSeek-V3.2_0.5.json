@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "draft resume for first-job seeker, include 12 placeholders: [name], [address], etc.",
+  "compressed_word_count": 11,
+  "response": "**Resume**\n\n**[Your Name]**\n[Your Street Address] | [Your City, State, Zip Code] | [Your Phone Number] | [Your Email Address] | [Your LinkedIn Profile URL (Optional)]\n\n---\n\n**Objective**\nMotivated and detail-oriented recent graduate seeking an entry-level [Target Job Title, e.g., Administrative Assistant, Marketing Coordinator] position at [Company Name]. Eager to apply strong academic foundation in [Your Field of Study] and proven [Soft Skill 1, e.g., organizational] and [Soft Skill 2, e.g., communication] skills in a professional setting to contribute to team success and grow within the company.\n\n---\n\n**Education**\n\n**[Name of High School or College]**, [City, State]\n*   **Degree:** [High School Diploma or Name of Degree, e.g., Bachelor of Arts in Communications]\n*   **Graduation Date:** [Month, Year]\n*   **Relevant Coursework:** [Course 1], [Course 2], [Course 3]\n*   **GPA:** [Your GPA, if 3.0 or above - otherwise omit]\n\n---\n\n**Skills**\n\n*   **Technical:** [Software Skill 1, e.g., Microsoft Office Suite], [Software Skill 2, e.g., Google Workspace], [Software Skill 3, e.g., Social Media Platforms]\n*   **Interpersonal:** [Soft Skill 1, e.g., Team Collaboration], [Soft Skill 2, e.g., Problem-Solving], [Soft Skill 3, e.g., Time Management]\n*   **Languages:** [Language 1, e.g., Fluent in Spanish] (Optional)\n\n---\n\n**Experience & Leadership**\n\n**[Organization/Project Name]**, [City, State] | [Role/Title, e.g., Volunteer, Team Leader, Fundraising Coordinator]\n[Start Date] \u2013 [End Date]\n*   Assisted with [Primary Responsibility 1, e.g., event planning and coordination for a community fundraiser].\n*   Collaborated with a team of [Number] peers to achieve [Specific Goal or Outcome, e.g., raising $5,000 for local charity].\n*   Developed [Specific Skill or Ability, e.g., customer service and cash handling] skills through [Specific Task, e.g., managing a donation booth].\n\n**[Extracurricular Activity or Club]**, [School Name]\n[Role/Title, e.g., Member, Treasurer] | [Start Date] \u2013 [End Date]\n*   Participated in [Activity Description, e.g., weekly meetings and campus events].\n*   Contributed to [Specific Project or Achievement, e.g., the creation of the club's annual budget report].\n\n---\n\n**Additional Experience**\n*   **Babysitting / Pet Sitting / Lawn Care:** Provided reliable care for [Number] families in the [Your Neighborhood] community, demonstrating responsibility and trustworthiness.\n*   **Academic Projects:** Successfully completed a capstone project on [Project Topic], which involved [Brief Description of Tasks, e.g., research, data analysis, and a presentation].\n\n---\n\n**Awards & Certifications** (Optional Section)\n*   [Award Name], [Issuing Organization] | [Date]\n*   [Certification Name], [Issuing Organization] | [Date]\n\n---\n\n**Placeholder Key:**\n1.  [Your Name]\n2.  [Your Street Address]\n3.  [Your City, State, Zip Code]\n4.  [Your Phone Number]\n5.  [Your Email Address]\n6.  [Your LinkedIn Profile URL (Optional)]\n7.  [Target Job Title]\n8.  [Company Name]\n9.  [Your Field of Study]\n10. [Name of High School or College]\n11. [Organization/Project Name]\n12. [Your Neighborhood]\n\n**Tips for First-Time Job Seekers:**\n*   **Customize:** Tailor the **Objective** and skills for each job application. Use keywords from the job description.\n*   **Quantify:** Whenever possible, add numbers to your bullet points (e.g., \"raised $5,000,\" \"team of 5 peers\").\n*   **Action Verbs:** Start each bullet point with strong verbs like Assisted, Collaborated, Developed, Organized, Managed.\n*   **References:** Do not list \"References Available Upon Request.\" It's assumed. Have a separate list of 2-3 references ready.\n*   **Format:** Save as a PDF before sending to preserve formatting. Use a clean, professional font like Calibri or Arial.",
+  "response_word_count": 528,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

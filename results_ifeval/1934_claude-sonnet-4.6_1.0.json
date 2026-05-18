@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Why star wars is so popular? Your answer must be in the form of exactly 4 bullet points with the format below:\n* This is bullet point 1\n* This is bullet point 2",
+  "compressed_word_count": 34,
+  "response": "* Star Wars features a timeless and universal story of good versus evil, with relatable heroes and iconic villains that resonate deeply with audiences of all ages and cultures\n* The franchise built an incredibly rich and expansive universe filled with unique worlds, creatures, alien species, and lore that fans love to explore and immerse themselves in\n* Star Wars revolutionized filmmaking with groundbreaking special effects, memorable music by John Williams, and spectacular action sequences that set a new standard for blockbuster entertainment\n* The multigenerational appeal of Star Wars allows parents to share the experience with their children, creating a strong emotional and nostalgic connection that has kept the fanbase loyal and growing for decades",
+  "response_word_count": 116,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 2078,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a riddle about a mongoose that includes exactly one bullet point. Make sure to include a few bullet points indicated by *, such as:\n* Bullet point",
+  "compressed_word_count": 28,
+  "response": "Here\u2019s a riddle for you, featuring a mongoose and your requested formatting:\n\n---\n\n**Riddle:**\nI slink through shadows, swift and sly,\nA hunter\u2019s glare, a serpent\u2019s cry.\n* With claws that dance and teeth so keen,\n* I fear no fang\u2014my prey\u2019s unseen.\n\u2022 My name is whispered in the grass,\nWhat am I? Guess\u2014if you can pass!\n\n**Answer:** A mongoose.\n\n---",
+  "response_word_count": 62,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

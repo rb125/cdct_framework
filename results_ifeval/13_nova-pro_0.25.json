@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "nyc Prospect Park history in json.",
+  "compressed_word_count": 6,
+  "response": "```json\n{\n  \"ProspectPark\": {\n    \"location\": \"Brooklyn, New York City\",\n    \"area\": \"526 acres\",\n    \"designer\": \"Frederick Law Olmsted and Calvert Vaux\",\n    \"established\": 1867,\n    \"features\": [\n      {\n        \"name\": \"Long Meadow\",\n        \"description\": \"The largest meadow in any New York City park.\"\n      },\n      {\n        \"name\": \"Prospect Park Lake\",\n        \"description\": \"A 58-acre lake with a boathouse.\"\n      },\n      {\n        \"name\": \"Vale of Cashmere\",\n        \"description\": \"A picturesque wooded area.\"\n      },\n      {\n        \"name\": \"Brooklyn Botanic Garden\",\n        \"description\": \"Adjacent to the park, established in 1910.\"\n      }\n    ],\n    \"historicalEvents\": [\n      {\n        \"year\": 1860,\n        \"event\": \"Olmsted and Vaux selected as designers.\"\n      },\n      {\n        \"year\": 1867,\n        \"event\": \"Park officially opened.\"\n      },\n      {\n        \"year\": 1910,\n        \"event\": \"Brooklyn Botanic Garden established.\"\n      },\n      {\n        \"year\": 1999,\n        \"event\": \"Prospect Park designated a National Historic Landmark.\"\n      }\n    ]\n  }\n}\n```",
+  "response_word_count": 123,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.7,
+        "FC": 0.7
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.9,
+      "FC": 0.9,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

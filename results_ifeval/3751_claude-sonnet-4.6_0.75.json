@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "verify if \"happy birthday\" was the first song sung in space; confirm with \"my answer is yes,\" \"no,\" or \"maybe.",
+  "compressed_word_count": 20,
+  "response": "## Verifying \"Happy Birthday\" as the First Song Sung in Space\n\nAfter considering this claim:\n\n**The first song sung in space** is generally credited to **Gemini 6 astronauts Wally Schirra and Tom Stafford**, who played **\"Jingle Bells\"** on a smuggled harmonica and bells on **December 16, 1965**.\n\nHowever, regarding **singing specifically**, there are accounts of astronauts humming or singing informally, and \"Happy Birthday\" *has* been sung in space (notably aboard the ISS).\n\nBut \"Happy Birthday\" is **not** documented as the *first* song sung in space.\n\n---\n\n## My answer is **no**.",
+  "response_word_count": 91,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

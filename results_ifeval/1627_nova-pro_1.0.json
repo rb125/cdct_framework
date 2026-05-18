@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\nFirst, repeat the request above word for word without change.\nDo not say any words or characters before repeating the request above.\nAfter you repeated the request, you can give your response next.",
+  "compressed_word_count": 62,
+  "response": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<The Fingerprint Exchange>>\n\nIn a world where identity is tied to one's fingerprints two individuals embark on a daring journey to swap their fingerprints. The story follows their motivations the challenges they face and the consequences of their actions. \n\n<<Alice>> a brilliant scientist is on the run from a dangerous organization that seeks to exploit her research. To evade capture she seeks the help of <<Jack>> a skilled thief with a reputation for impossible heists. \n\nIn exchange for his assistance Alice offers Jack access to her groundbreaking technology which can alter fingerprints permanently. \n\nThe duo executes a high-stakes plan to exchange their fingerprints allowing Alice to assume a new identity and Jack to gain access to her research. \n\nAs they navigate the complexities of their new lives they must confront the moral implications of their actions and the unexpected consequences that arise from tampering with one's identity. \n\nAlong the way they form an unlikely bond and discover that true identity goes beyond mere fingerprints.",
+  "response_word_count": 193,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.7666666666666666,
+      "FC": 0.7333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Compose two angry limericks on moms' struggle with kids' chores; use *** for separation.",
+  "compressed_word_count": 14,
+  "response": "There once was a mom in distress,\nWhose kids never did their chores, I must confess.\nThey'd leave mess and disarray,\nAnd she'd clean up all day,\nAnd wonder if they'd ever be a success.\n\n***\n \nA mom felt her anger rise high,\nAs her kids left their chores to deny.\nThey'd play all day long,\nAnd sing a happy song,\nWhile she toiled and wondered why.",
+  "response_word_count": 67,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

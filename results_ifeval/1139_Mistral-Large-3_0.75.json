@@ -1,0 +1,45 @@
+{
+  "key": 1139,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a funny haiku about moms, containing keywords \"mom\" and \"mother\" in your response.\ncreate a humorous haiku on moms, using \"mom\" and \"mother",
+  "compressed_word_count": 24,
+  "response": "Here are two silly mom haikus for you\u2014because moms deserve a laugh (and maybe a nap):\n\n---\n\n**1.**\n*\"Mom\u2019s superpower?*\n*Finding lost socks, keys, my will\u2014*\n*Motherhood\u2019s magic.\"*\n\n---\n\n**2.**\n*\"Mother says, \u2018Clean up!\u2019*\n*I swear my room just *sneezed*\u2014*\n*Mom sighs. Game over.\"*\n\n---",
+  "response_word_count": 45,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

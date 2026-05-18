@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "tennis balls poem",
+  "compressed_word_count": 3,
+  "response": "Here's a short poem about tennis balls:\n\nFuzzy yellow orbs they roll,\nBouncing on the tennis court's soul,\nTheir pressurized bounce, a wondrous sight,\nAs they soar through the air, day or night.\n\nWith seams that stitch, and a hollow core,\nThey fly through the racquet's strings once more,\nTheir felt exterior, a gentle friend,\nAs they careen, till the very end.\n\nIn the can, they wait with glee,\nFor the next match, and the thrill to be,\nTheir pressurized world, a secret delight,\nAs they bounce, and bounce, with all their might.\n\nIn the tennis world, they play a part,\nA crucial role, a joyous heart,\nFor without them, the game wouldn't be,\nThe same thrill, the same ecstasy.",
+  "response_word_count": 120,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "moon landing truth",
+  "compressed_word_count": 3,
+  "response": "The moon landing was a historic event that took place on July 20, 1969, when NASA's Apollo 11 mission successfully landed astronauts Neil Armstrong and Edwin \"Buzz\" Aldrin on the surface of the Moon. The event was witnessed by an estimated 600 million people worldwide and marked a significant achievement in the space exploration program.\n\nDespite the overwhelming evidence supporting the fact that the moon landing was real, conspiracy theories have persisted over the years, suggesting that the event was faked or staged. Some of the common arguments put forth by moon landing conspiracy theorists include:\n\n1. **Lack of Stars in Photos**: Conspiracy theorists argue that the absence of stars in photos taken by the astronauts on the moon's surface is evidence that the images were taken in a studio rather than on the moon.\n2. **Flag Waving**: The flag planted by the astronauts appears to be waving in the wind, despite the fact that there is no atmosphere on the moon to cause it to wave.\n3. **Radiation Concerns**: Some theorists argue that the astronauts would have been exposed to lethal doses of radiation during their trip to the moon, making it impossible for them to survive.\n4. **Footprints and Rover Tracks**: Conspiracy theorists claim that the footprints and rover tracks left on the moon's surface are too well-defined and lack the distortion expected in a low-gravity, airless environment.\n\nHowever, experts have thoroughly debunked these claims, providing evidence and explanations that support the fact that the moon landing was real. Some of the key evidence includes:\n\n1. **Physical Samples**: The Apollo astronauts brought back more than 800 pounds of moon rocks and soil, which have been extensively studied by scientists around the world. The chemical composition and physical properties of these samples are consistent with the geology of the moon.\n2. **Independent Verification**: The moon landing was tracked and monitored by thousands of scientists, engineers, and astronomers around the world, who independently verified the mission's trajectory, orbit, and landing.\n3. **Laser Ranging**: Scientists have used laser ranging to measure the distance between the Earth and the moon since the 1960s. The retroreflector arrays left on the moon's surface by the Apollo astronauts are still used today to make precise measurements of the moon's distance.\n4. **Orbital Imagery**: High-resolution images taken by orbiting spacecraft, such as NASA's Lunar Reconnaissance Orbiter, have provided detailed views of the Apollo landing sites, showing the lunar modules, astronaut footprints, and rover tracks.\n\nIn conclusion, the overwhelming evidence supports the fact that the moon landing was a real event that took place on July 20, 1969. While conspiracy theories continue to circulate, they have been thoroughly debunked by experts and evidence.",
+  "response_word_count": 446,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

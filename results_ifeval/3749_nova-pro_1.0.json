@@ -1,0 +1,43 @@
+{
+  "key": 3749,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is Roger Federer a better tennis player than Rafael Nadal? Answer with exactly one of the following phrases: \u201dMy answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+  "compressed_word_count": 30,
+  "response": "My answer is maybe.\n\nIt's important to recognize that comparing Roger Federer and Rafael Nadal is inherently subjective and can vary depending on the criteria used for evaluation. Both players have achieved remarkable success and have their own unique styles and strengths. Federer is often praised for his elegant and versatile playing style, while Nadal is renowned for his incredible athleticism and dominance on clay courts. Their head-to-head record, Grand Slam titles, and overall impact on the sport all contribute to the ongoing debate about who is the \"better\" player. Ultimately, it comes down to personal opinion and the specific aspects of tennis one values most.",
+  "response_word_count": 106,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.4714045207910317
+    }
+  }
+}

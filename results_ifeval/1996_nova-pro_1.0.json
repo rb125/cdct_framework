@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a story about the importance of understanding the truths that are not obvious. Add stress words which are capitalized. Limit those stress words for less than 20 times.",
+  "compressed_word_count": 29,
+  "response": "In a small village, there lived a WISE old man named Eldrin. He was KNOWN for his INSIGHTFUL advice and DEEP understanding of life. One day, a YOUNG boy approached him with a QUESTION.\n\n\"Eldrin, WHY do we need to UNDERSTAND truths that are NOT OBVIOUS?\" the boy ASKED.\n\nEldrin SMILED and led the boy to a NEARBY forest. They WALKED in SILENCE until they REACHED a HIDDEN clearing. There, Eldrin POINTED to a SMALL, unremarkable stone.\n\n\"LOOK closely,\" Eldrin SAID. The boy STARED but SAW nothing SPECIAL. Eldrin then PICKED up the stone and REVEALED a TINY, GLOWING crystal INSIDE.\n\n\"THIS,\" Eldrin EXPLAINED, \"is a SYMBOL. What seems ORDINARY often HIDES something EXTRAORDINARY. The TRUTH is often BEneath the SURFACE.\"\n\nThe boy's EYES WIDENed. He UNDERSTOOD that NOT everything is as it SEEMS. Eldrin's WORDS RESONATED DEEPLY with him.\n\n\"REMEMBER,\" Eldrin ADVISED, \"the MOST IMPORTANT lessons are OFTEN HIDDEN. Seek with an OPEN HEART and a CURIOUS MIND.\"\n\nThe boy LEFT with a NEW PERSPECTIVE, REALIZING that TRUE WISDOM LIES in SEEING beyond the OBVIOUS.",
+  "response_word_count": 176,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

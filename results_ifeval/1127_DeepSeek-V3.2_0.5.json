@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a 4-section poem missing classes, ending with \"Can I get my money back for the classes I missed?",
+  "compressed_word_count": 19,
+  "response": "## I. The Syllabus\n\nThe syllabus, a paper boat,\nsets sail on Monday\u2019s hopeful note.\nIt charts the coast of *What We\u2019ll Know*,\na promised land of *Long Ago*.\nThe ink is fresh, the path is clear,\na structured, unspoiled, new frontier.\nBut my boat drifted, lost its thread,\non waves of *Maybe* in my head.\nThe due dates, printed bold and true,\ngrew soft and blurred in morning dew.\n\n## II. The Empty Chair\n\nA phantom in the lecture hall,\nI hear the distant scholar\u2019s call.\nThe scrape of chairs, the murmured thought,\nthe knot of theory, dearly bought.\nThe empty space where I should sit\ncollects a different kind of wit\u2014\nthe logic of a sunbeam\u2019s track,\nthe lesson of the rain\u2019s callback.\nMy notes are just the window\u2019s sheen,\nwhere clouds debate what *might have been*.\n\n## III. The Ghost Notes\n\nI turn the pages, crisp and white,\nthat hold no battle, no insight.\nNo frantic scrawl, no arrowed line,\nto mark the moment thoughts align.\nJust pristine fields of pure potential,\na knowledge grown too essential\nto be captured by my pen,\nso it slips away again.\nThe textbook\u2019s voice is flat and dry,\na monologue without reply.\n\n## IV. The Balance Sheet\n\nThe term is done. The grade\u2019s a ghost,\na faint impression I miss most.\nA credit earned, yet unpossessed,\na weary weight within my chest.\nThe knowledge that was offered, free\nto someone who resembled me,\nnow hangs just slightly out of reach,\na finished, unbegun, grand speech.\nSo tally up the final cost,\nof all the understanding lost.\nCan I get my money back for the classes I missed?",
+  "response_word_count": 277,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1098,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Names for God; two distinct; *****",
+  "compressed_word_count": 6,
+  "response": "Two distinct names for God are:\n\n1. **Elohim** - a Hebrew name used in the Old Testament to refer to God as the all-powerful creator.\n2. **Jehovah** (or **Yahweh**) - a Hebrew name used to refer to God as the personal, covenant-keeping God of the Israelites.\n\n***** \nThese are just a couple of examples, and there are many other names and titles used to refer to God in different cultures and religious traditions.",
+  "response_word_count": 73,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

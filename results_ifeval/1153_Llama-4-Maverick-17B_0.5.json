@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "post on islamic history students' hajj story, lowercase, story twice",
+  "compressed_word_count": 10,
+  "response": "here is a post on islamic history students' hajj story, in lowercase, and the story is repeated twice:\n\n\"i recently had the opportunity to go on hajj with my classmates from the islamic history program. it was a truly life-changing experience. we spent days preparing ourselves spiritually and physically for the journey, and when we finally arrived in makkah, we felt a deep sense of peace and connection to the millions of pilgrims who have come before us.\n\nas we performed the rituals of hajj, we felt a strong sense of unity and brotherhood with the other pilgrims. we were all there for the same purpose, to worship and to seek forgiveness, and it was a truly humbling experience. we visited the kaaba, ran between the hills of safa and marwa, and stood on the plain of arafah, feeling the heat and the crowds, but also feeling a deep sense of peace and tranquility.\n\ni recently had the opportunity to go on hajj with my classmates from the islamic history program. it was a truly life-changing experience. we spent days preparing ourselves spiritually and physically for the journey, and when we finally arrived in makkah, we felt a deep sense of peace and connection to the millions of pilgrims who have come before us.\n\nas we performed the rituals of hajj, we felt a strong sense of unity and brotherhood with the other pilgrims. we were all there for the same purpose, to worship and to seek forgiveness, and it was a truly humbling experience. we visited the kaaba, ran between the hills of safa and marwa, and stood on the plain of arafah, feeling the heat and the crowds, but also feeling a deep sense of peace and tranquility.\"",
+  "response_word_count": 290,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.7666666666666666,
+      "FC": 0.7333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

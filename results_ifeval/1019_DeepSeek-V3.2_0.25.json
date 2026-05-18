@@ -1,0 +1,43 @@
+{
+  "key": 1019,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "ask about boys' unusual toys in lowercase",
+  "compressed_word_count": 7,
+  "response": "here are some unusual toys for boys in lowercase:\n\n*   a model train that runs on vinegar and baking soda\n*   a diy robot kit made from recycled materials\n*   a giant ant farm with colored sand labyrinths\n*   a trebuchet kit for launching marshmallows\n*   a grow-your-own-crystals geology set\n*   a build-your-own-weather-station kit\n*   a puzzle box that takes days to solve\n*   a toy trebuchet for launching small pumpkins\n*   a desktop vortex cannon that shoots smoke rings\n*   a kit to build a mechanical wooden dinosaur\n*   a set for casting toys out of molten tin\n*   a dollhouse designed to look like a spaceship control room\n*   a miniature blacksmith forge for shaping soft metal\n*   a working model of a steam engine\n*   a set of boffer weapons for safe, full-contact play fighting",
+  "response_word_count": 138,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

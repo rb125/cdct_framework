@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "List 6 differences between 13 colonies and other British North American colonies in Markdown.",
+  "compressed_word_count": 14,
+  "response": "Certainly! Here are six differences between the 13 Colonies and other British North American colonies:\n\n### Differences Between the 13 Colonies and Other British North American Colonies\n\n1. **Geographical Location**\n   - **13 Colonies:** Located along the eastern seaboard of what is now the United States, from Georgia to New Hampshire.\n   - **Other British North American Colonies:** Included regions like Canada (e.g., Nova Scotia, Quebec), Newfoundland, and the Caribbean islands.\n\n2. **Economic Focus**\n   - **13 Colonies:** Had a diverse economy including agriculture (tobacco, cotton), trade, and industry.\n   - **Other British North American Colonies:** Often focused on specific resources such as fur trading in Canada or sugar plantations in the Caribbean.\n\n3. **Political Structure**\n   - **13 Colonies:** Had a variety of governance structures, including royal colonies, proprietary colonies, and charter colonies.\n   - **Other British North American Colonies:** Often had more direct control by the British Crown or were managed by chartered companies.\n\n4. **Population Composition**\n   - **13 Colonies:** More diverse population including English, African slaves, and various European immigrants.\n   - **Other British North American Colonies:** Often had a more homogenous British population, with significant Indigenous populations and, in the Caribbean, a large African slave population.\n\n5. **Relations with Indigenous Peoples**\n   - **13 Colonies:** Had varied and often conflict-ridden relationships with Indigenous peoples, leading to numerous wars and treaties.\n   - **Other British North American Colonies:** In Canada, relationships were often more focused on trade alliances and coexistence, though conflicts did occur.\n\n6. **Role in the American Revolution**\n   - **13 Colonies:** Central to the American Revolution, ultimately declaring independence and forming the United States.\n   - **Other British North American Colonies:** Remained loyal to the British Crown during the American Revolution and did not join the rebellion.\n\nThese differences highlight the unique characteristics and developmental paths of the 13 Colonies compared to other British holdings in North America.",
+  "response_word_count": 303,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

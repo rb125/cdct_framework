@@ -1,0 +1,45 @@
+{
+  "key": 1180,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain why people are grossed out by worms but not by eating a dead cow. Give exactly two different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.",
+  "compressed_word_count": 39,
+  "response": "<<Why the Disgust? Cognitive and Cultural Factors>>\n\nPeople are often grossed out by worms but not by eating a dead cow due to **cognitive dissonance and familiarity**. Worms are associated with decay, dirt, and the unknown\u2014triggers for primal disgust responses rooted in evolutionary survival mechanisms. Our brains instinctively avoid things that resemble parasites or contamination risks. In contrast, cows are processed, packaged, and presented in a way that distances them from their living form. The meat is sanitized, cooked, and culturally normalized, making it easier to dissociate from the animal\u2019s death. Additionally, humans have a long history of consuming livestock, which reduces the \"ick factor\" through habituation and social conditioning.\n\n******\n\n<<The Role of Perceived Agency and Aesthetics>>\n\nAnother key reason is **perceived agency and visual aesthetics**. Worms are seen as slimy, wriggling, and autonomous\u2014qualities that evoke a visceral, instinctive revulsion. Their movement and texture trigger a \"creepy-crawly\" response, a deep-seated aversion to potential parasites. Cows, however, are large, passive, and lack the unsettling qualities of worms. When we eat beef, we\u2019re consuming muscle tissue, which doesn\u2019t visually or texturally resemble the living animal. The processing of meat (butchering, cooking) further abstracts it from its origins, making it psychologically easier to consume. Cultural narratives also play a role: cows are framed as food, while worms are framed as pests or symbols of decay.",
+  "response_word_count": 223,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

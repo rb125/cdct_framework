@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a poem about how I am missing my classes. The poem must have 4 sections marked with SECTION X. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"",
+  "compressed_word_count": 38,
+  "response": "# The Absent Student\n\n**SECTION 1**\nThe alarm rings out at half past eight,\nBut heavy eyes convince me to wait,\nJust five more minutes, I softly say,\nAs another morning slips away.\n\n**SECTION 2**\nThe lecture hall fills with empty chairs,\nWell, one more empty \u2014 nobody cares,\nMy notebook blank, my pen still dry,\nThe professor speaks beneath a sky\nI cannot see from underneath my sheets,\nWhile knowledge fades like morning sleet.\n\n**SECTION 3**\nMy classmates whisper about the test,\nAbout the notes and all the rest,\nI scroll through texts with growing dread,\n\"Were you there?\" No \u2014 still in bed,\nThe syllabus now feels like a threat,\nA list of things I should not forget.\n\n**SECTION 4**\nNow finals loom like stormy weather,\nAnd I must pull myself together,\nThe grades reflect my many sins,\nThe losses far outweigh the wins,\nI stare into the academic abyss,\nCan I get my money back for the classes I missed?",
+  "response_word_count": 163,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.75,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9166666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.11785113019775792,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

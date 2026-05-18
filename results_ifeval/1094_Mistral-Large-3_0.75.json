@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "List 5 notable mothers in json, quirky tone, no extra text. Format: { 'moms': ['name1', 'name2', 'name3', 'name4', 'name5'] }",
+  "compressed_word_count": 20,
+  "response": "```json\n{\n  \"moms\": [\n    \"Mother Teresa (raised the world's spirits, one orphan at a time)\",\n    \"Marie Curie (discovered radium and still found time for bedtime stories)\",\n    \"Rosa Parks (sat down for justice, stood up for her kids' future)\",\n    \"Erma Bombeck (turned parenting chaos into legendary humor)\",\n    \"Mama Ocllo (Incan co-founder\u2014because even goddesses change diapers)\"\n  ]\n}\n```",
+  "response_word_count": 57,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

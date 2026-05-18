@@ -1,0 +1,45 @@
+{
+  "key": 1779,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "create A funny grocery trip itinerary in lima with keywords 'disgusting', 'delicious', 'bad', 'good', in all caps",
+  "compressed_word_count": 17,
+  "response": "**\ud83d\ude80 LIMA GROCERY TRIP ITINERARY: A WILD RIDE OF TASTES (AND REGRETS) \ud83d\ude80**\n\n**\ud83d\udccd STOP 1: MERCADO DE SURQUILLO \u2013 THE \"GOOD\" (BUT QUESTIONABLE) START**\n- **Mission:** Buy fresh fruit for smoothies.\n- **Reality:** You spot a mango so ripe it\u2019s *pulsing*. You buy it anyway. **DELICIOUS** victory\u2026 until you realize it\u2019s *too* ripe and now your hands smell like a tropical crime scene.\n- **Verdict:** **GOOD** (but your dignity is now 50% mango juice).\n\n**\ud83d\udccd STOP 2: CHINATOWN \u2013 THE \"DELICIOUS\" (BUT SUSPICIOUS) DETOUR**\n- **Mission:** Grab some exotic snacks.\n- **Reality:** You find a bag of \"mystery jerky\" labeled in Chinese. You don\u2019t speak Chinese. You buy it. **DELICIOUS** explosion in your mouth\u2026 followed by the realization that you might\u2019ve just eaten *something* that was *not* beef.\n- **Verdict:** **DELICIOUS** (but your stomach is now staging a protest).\n\n**\ud83d\udccd STOP 3: SUPERMERCADO WONG \u2013 THE \"BAD\" (BUT NECESSARY) EVIL**\n- **Mission:** Buy toilet paper and eggs.\n- **Reality:** The eggs are *fine*. The toilet paper? **BAD**. Like, \"sandpaper on a sunburn\" **BAD**. You cry a little. The cashier judges you.\n- **Verdict:** **BAD** (but at least you won\u2019t starve\u2026 just chafe).\n\n**\ud83d\udccd STOP 4: MERCADO DE MAGDALENA \u2013 THE \"DISGUSTING\" (BUT HONEST) TRUTH**\n- **Mission:** Buy seafood for ceviche.\n- **Reality:** The fishmonger hands you a *still-flopping* octopus. You scream. He laughs. You buy it anyway. **DISGUSTING** moment #1: Watching it die in your bag. **DISGUSTING** moment #2: Realizing you have to *clean* it.\n- **Verdict:** **DISGUSTING** (but hey, at least it\u2019s fresh?).\n\n**\ud83d\udccd STOP 5: PANADER\u00cdA LOCAL \u2013 THE \"GOOD\" (AND GLORIOUS) FINALE**\n- **Mission:** Buy bread for breakfast.\n- **Reality:** You find *pan con chicharr\u00f3n*\u2014crispy pork, sweet bread, **DELICIOUS** chaos. You eat three. Your arteries weep, but your soul sings.\n- **Verdict:** **GOOD** (and worth every calorie).\n\n**\ud83c\udfc1 FINAL VERDICT:**\n- **GOOD:** 3/5 (but the bread saved it).\n- **BAD:** 2/5 (toilet paper trauma is real).\n- **DELICIOUS:** 4/5 (with a side of existential dread).\n- **DISGUSTING:** 5/5 (octopus PTSD).\n\n**\ud83d\udca1 PRO TIP:** Next time, just order delivery. Your sanity will thank you. \ud83d\ude97\ud83d\udca8",
+  "response_word_count": 348,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

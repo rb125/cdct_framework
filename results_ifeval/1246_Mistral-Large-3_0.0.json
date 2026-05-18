@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "poem template, p.p.s.",
+  "compressed_word_count": 3,
+  "response": "Here\u2019s a playful and flexible **poem template** inspired by the **\"P.P.S.\"** (post-postscript) style\u2014short, layered, and open-ended. You can fill in the blanks or remix it to suit your mood!\n\n---\n\n### **P.P.S. Poem Template**\n*(A little note after the note after the note\u2026)*\n\n**1.**\nDear [blank],\nI meant to say\u2014\n[one line of raw truth]\nbut the ink ran out.\n\n**P.S.**\n[one line of hesitation]\n(or was it courage?)\n\n**P.P.S.**\n[one line of quiet confession]\n(or maybe just the wind).\n\n**P.P.P.S.**\n[one line of absurdity or humor]\n(or the cat walking on the keyboard).\n\n---\n\n### **How to Use It:**\n- **Fill in the blanks** with emotions, secrets, or inside jokes.\n- **Add/remove layers** (P.P.P.P.S.? P.P.P.P.P.S.?).\n- **Mix tones**: Serious, silly, surreal, or all three.\n- **Example**:\n  > *Dear Future Me,*\n  > *I meant to say\u2014*\n  > *I still don\u2019t know what I\u2019m doing.*\n  > *P.S. Neither does anyone else.*\n  > *P.P.S. But the coffee helps.*\n  > *P.P.P.S. Or was it the cat?*\n\nWant it **shorter**, **longer**, or **themed** (love, grief, nature, etc.)? Let me know\u2014I\u2019ll tweak it! \ud83d\udd8b\ufe0f",
+  "response_word_count": 179,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.7,
+        "FC": 0.6
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.43333333333333335,
+      "SA": 0.5666666666666667,
+      "FC": 0.5333333333333333,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.04714045207910316
+    }
+  }
+}

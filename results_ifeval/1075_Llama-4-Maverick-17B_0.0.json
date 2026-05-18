@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "json ad",
+  "compressed_word_count": 2,
+  "response": "JSON (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is a text-based format that represents data in a simple and structured way.\n\nHere are some key features and uses of JSON:\n\n**Key Features:**\n\n1. **Human-readable**: JSON is easy to read and understand, making it a great format for data exchange and debugging.\n2. **Platform-independent**: JSON can be used on any platform, including web, mobile, and desktop applications.\n3. **Language-independent**: JSON can be used with any programming language, including JavaScript, Python, Java, and many others.\n4. **Simple syntax**: JSON has a simple syntax that is easy to learn and use.\n\n**Common Use Cases:**\n\n1. **Data exchange**: JSON is often used to exchange data between web servers, web applications, and mobile apps.\n2. **APIs**: JSON is commonly used as the data format for RESTful APIs (Application Programming Interfaces).\n3. **Configuration files**: JSON is sometimes used as a format for configuration files, due to its simplicity and readability.\n4. **NoSQL databases**: JSON is used as a data storage format in some NoSQL databases, such as MongoDB.\n\n**JSON Data Types:**\n\n1. **Objects**: JSON objects are collections of key-value pairs, enclosed in curly brackets `{}`.\n2. **Arrays**: JSON arrays are ordered lists of values, enclosed in square brackets `[]`.\n3. **Strings**: JSON strings are sequences of characters, enclosed in double quotes `\"\"`.\n4. **Numbers**: JSON numbers are numeric values, which can be integers or floating-point numbers.\n5. **Booleans**: JSON booleans are true or false values.\n6. **Null**: JSON null is a special value that represents the absence of any object value.\n\n**Example JSON Data:**\n```json\n{\n  \"name\": \"John Doe\",\n  \"age\": 30,\n  \"address\": {\n    \"street\": \"123 Main St\",\n    \"city\": \"Anytown\",\n    \"state\": \"CA\",\n    \"zip\": \"12345\"\n  },\n  \"interests\": [\"reading\", \"hiking\", \"coding\"]\n}\n```\nI hope this helps! Do you have a specific question about JSON or its usage?",
+  "response_word_count": 319,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

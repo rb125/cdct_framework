@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "resume, caps",
+  "compressed_word_count": 2,
+  "response": "Of course. Here is a breakdown of when to use **ALL CAPS** on a resume, with the guiding principle being: **use sparingly for maximum impact.**\n\nThe modern resume trend is towards clean, scannable design. Overusing caps creates visual noise, can be seen as \"shouting,\" and makes text harder to read in large blocks.\n\n### Recommended Uses (The \"Do\" List)\n\n1.  **Section Headers:** This is the most common and acceptable use.\n    *   *Example:* `WORK EXPERIENCE`, `EDUCATION`, `SKILLS`\n    *   *Why it works:* It clearly divides your resume into scannable sections. You can also use bold, a larger font, or a different color for the same effect.\n\n2.  **Company/Organization Names:** To make them stand out from your job title.\n    *   *Example:* **Marketing Manager** at **GLOBAL TECH INC.**\n    *   *Why it works:* It helps recruiters quickly identify where you've worked. Bold is equally effective here.\n\n3.  **Degree Names & Certifications:** Especially for formal, abbreviated credentials.\n    *   *Example:* `B.S. IN COMPUTER SCIENCE`; Certifications like `PMP`, `CPA`, `CFA`\n    *   *Why it works:* It gives visual weight to your key qualifications. For acronyms, caps are standard anyway.\n\n4.  **Very Selective Keywords:** *Only* for 1-2 absolutely critical, hard-to-find skills in a summary.\n    *   *Example:* \"Award-winning **PRODUCT MANAGER** with expertise in **GO-TO-MARKET STRATEGY** for SaaS platforms.\"\n    *   *Why it works:* Used once, it can be a powerful hook. Overuse immediately dilutes the effect.\n\n### Uses to Avoid (The \"Don't\" List)\n\n1.  **Your Name:** It's already at the top. Making it huge and in all caps can look aggressive. Use a larger, clean font and maybe bold, but full caps often look dated.\n2.  **Full Job Titles:** Use **Bold** instead. `SENIOR SOFTWARE ENGINEER` looks like you're yelling it.\n3.  **Entire Bullet Points or Sentences:** This destroys readability and looks unprofessional.\n    *   *Bad:* `LED A CROSS-FUNCTIONAL TEAM OF 10 TO REDESIGN THE CLIENT ONBOARDING PROCESS, RESULTING IN A 25% REDUCTION IN CHURN.`\n4.  **Contact Info:** Your email in all caps (e.g., `JOHN.DOE@EMAIL.COM`) is unnecessary and can look odd.\n\n### The Golden Rule & Modern Alternative\n\n*   **Golden Rule:** **Use caps for structure, not for emphasis.** Use **bold**, *italics*, and strategic spacing for emphasis within text.\n*   **Modern Alternative:** Instead of ALL CAPS for headers, try **Title Case** or **Small Caps** (if your word processor supports it) for a more refined look.\n    *   **All Caps:** `WORK EXPERIENCE`\n    *   **Title Case:** **Work Experience**\n    *   **Small Caps:** **W\u1d0f\u0280\u1d0b Ex\u1d18\u1d07\u0280\u026a\u1d07\u0274\u1d04\u1d07**\n\n### Quick Summary Table\n\n| **Do Use CAPS For**          | **Don't Use CAPS For**          | **Better Alternative**       |\n| ----------------------------- | ------------------------------- | ---------------------------- |\n| Section Headers (e.g., SKILLS) | Your Full Name                  | Larger Font, Bold            |\n| Company Names (e.g., GOOGLE)  | Your Job Titles                 | **Bold**                     |\n| Degree Types (e.g., B.A.)     | Entire Sentences or Bullets     | **Bold** key achievements    |\n| Acronym Certifications (PMP)  | Contact Info (Email, Phone)     | Standard lowercase           |\n\n**Final Verdict:** Caps are a tool, not a default. Use them strategically like a highlighter\u2014to mark the most important structural signposts on your resume. When in doubt, **use bold instead.**",
+  "response_word_count": 504,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

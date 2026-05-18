@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "first song in space, 'happy birthday'?",
+  "compressed_word_count": 6,
+  "response": "The first song sung in space is often cited as \"Happy Birthday.\" This occurred during the Gemini 4 mission in June 1965. Astronauts James McDivitt and Ed White, while orbiting Earth, celebrated White\u2019s birthday and sang \"Happy Birthday\" to him. \n\nHowever, it's important to note that this wasn\u2019t a pre-planned event. The mission\u2019s primary focus was on various space exploration tasks, and the singing was a spontaneous moment of levity. \n\nThe first intentionally broadcast song from space took place later. In 1973, during the Skylab 3 mission, astronauts Owen Garriott, Jack Lousma, and Alan Bean played instruments and sang several songs, including a rendition of \"I Was Tin Man In The Old, Old Show,\" which they dedicated to the ground control team.\n\nThese instances highlight the human element of space exploration, showing that even in the vastness of space, moments of joy and celebration are cherished.",
+  "response_word_count": 146,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

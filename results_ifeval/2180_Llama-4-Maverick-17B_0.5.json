@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "rap diff'n city 'n village, kid, 5 secs *** 10 caps ***",
+  "compressed_word_count": 12,
+  "response": "Here's a 5-second rap diff'n between city and village, within 10 caps:\n\n\"YO, LISTEN UP, KID! CITY'S HOT, VILLAGE'S CHILL\nCITY'S GOT SKYSCRAPERS, VILLAGE GOT HILLS\nCITY'S FAST, VILLAGE'S SLOW, THAT'S THE DIFFERENCE, YO!\nCITY'S GOT CARS, VILLAGE GOT COWS, WHICH ONE YOU LIKE, THO?\nCITY'S LIT AT NIGHT, VILLAGE GOT STARS, BOTH GOT THEIR CHARMS, YO!\"",
+  "response_word_count": 57,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.43333333333333335,
+      "SA": 0.7999999999999999,
+      "FC": 0.7666666666666666,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.21602468994692867,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

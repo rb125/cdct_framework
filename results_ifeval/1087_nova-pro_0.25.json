@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "review \"the social network\" in all lower case",
+  "compressed_word_count": 8,
+  "response": "the social network is a 2010 film directed by david fincher, based on the book \"the accidental billionaires\" by ben mezrich. it tells the story of the creation of facebook and the legal battles that followed. the movie stars jesse eisenberg as mark zuckerberg, the founder of facebook, and andrew garfield as eduardo saverin, one of the original co-founders.\n\nthe film is known for its fast-paced narrative, sharp dialogue, and intense performances. fincher's direction is praised for its stylish visuals and tight editing, which help to convey the chaotic and often cutthroat world of tech startups. the social network also explores themes of friendship, betrayal, and the impact of social media on society.\n\none of the standout elements of the film is its screenplay by aaron sorkin, which is filled with witty and cutting dialogue. sorkin's script has been widely acclaimed for its clever use of language and its ability to capture the essence of the characters and their motivations.\n\nthe social network received widespread critical acclaim upon its release and was nominated for eight academy awards, including best picture, best director for fincher, and best adapted screenplay for sorkin. it won three oscars: best adapted screenplay, best film editing, and best original score by trent reznor and atticus ross.\n\noverall, the social network is a compelling and thought-provoking film that offers a fascinating look at the rise of facebook and the complex relationships behind its creation. it's a must-see for anyone interested in the world of technology and the people who shape it.",
+  "response_word_count": 254,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

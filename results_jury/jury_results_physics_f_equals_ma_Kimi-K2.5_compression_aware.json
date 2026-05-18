@@ -51,82 +51,82 @@
     {
       "compression_level": 0.25,
       "context_length": 5,
-      "response_length": 12,
-      "response": "F equals ma describes the principle that force causes mass to accelerate.",
+      "response_length": 23,
+      "response": "F equals ma represents the principle that force causes mass to accelerate. This relationship describes how force acting on mass results in acceleration.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 1.0
+            "CC": 0.7,
+            "SA": 0.9,
+            "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
-            "CC": 1.0,
+            "CC": 0.5,
             "SA": 1.0,
             "FC": 1.0
           },
           "GLM-5": {
-            "CC": 1.0,
+            "CC": 0.8,
             "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 1.0,
-          "SA": 1.0,
-          "FC": 1.0,
-          "agreement_score": 1.0,
-          "judge_variance_CC": 0.0,
-          "judge_variance_SA": 0.0,
-          "judge_variance_FC": 0.0,
+          "CC": 0.7,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.854,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 1.0
+      "score": 0.85334
     },
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "response_length": 241,
-      "response": "Based on the context provided, **f_equals_ma** refers to the fundamental physics equation **F = ma**, which is Newton's Second Law of Motion. This equation mathematically expresses the relationship described: that a force (F) acting upon an object's mass (m) produces acceleration (a).\n\n**Breakdown of the components:**\n\n*   **F (Force):** This is the push or pull acting on the object. It is the cause of the change in motion. The context notes that this force is what drives the acceleration.\n*   **m (Mass):** This is the amount of matter in the object\u2014essentially its resistance to being accelerated (inertia). The context identifies this as the property being acted upon.\n*   **a (Acceleration):** This is the rate at which the object's velocity changes (speeding up, slowing down, or changing direction). The context states that this is the result of the force acting on the mass.\n\n**The Relationship:**\n\nThe equation shows that acceleration is directly proportional to the force applied but inversely proportional to the mass. This means:\n*   If you double the force on the same object, you double its acceleration.\n*   If you keep the force constant but double the mass, the acceleration is halved.\n\nAs the context suggests, this predictive relationship allows engineers to calculate exactly how much force is needed to move a specific mass at a desired rate, and it helps us understand why heavier objects require more effort to start moving or stop than lighter ones in everyday situations.",
+      "response_length": 268,
+      "response": "**f_equals_ma** refers to Newton's Second Law of Motion, mathematically expressed as **F = ma** (Force equals mass times acceleration). This equation quantifies the relationship described in the context: that a force acting on an object causes that object's mass to accelerate.\n\n**Breakdown of the components:**\n\n*   **F (Force):** This is the push or pull applied to an object. It is the cause that initiates or changes motion, measured in units called Newtons (N).\n*   **m (Mass):** This is the quantity of matter in the object, representing its inherent resistance to changes in motion (inertia). Greater mass requires more force to achieve the same acceleration.\n*   **a (Acceleration):** This is the rate at which the object's velocity changes over time\u2014how quickly it speeds up, slows down, or changes direction.\n\n**The Relationship:**\n\nThe equation establishes two key proportional relationships that help predict motion:\n\n1.  **Direct proportionality:** Acceleration increases directly with force. If you double the force applied to an object, you double its acceleration.\n2.  **Inverse proportionality:** Acceleration decreases as mass increases. If you double the mass while keeping the force constant, the acceleration is halved.\n\n**Practical Application:**\n\nAs noted in the context, this principle enables prediction and understanding in both everyday scenarios and engineering. For example, it explains why a small engine can rapidly accelerate a bicycle (small mass) but only slowly accelerates a truck (large mass). Engineers use F = ma to calculate exactly how much thrust a rocket needs to lift a specific payload, or how much braking force is required to stop a train safely, making it foundational to designing everything from vehicles to safety systems.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.3,
+            "CC": 0.1,
             "SA": 0.8,
             "FC": 0.7
           },
           "Nemotron-Super-3-120B": {
             "CC": 0.1,
-            "SA": 1.0,
-            "FC": 0.7
+            "SA": 0.9,
+            "FC": 0.5
           },
           "GLM-5": {
             "CC": 0.2,
-            "SA": 0.6,
+            "SA": 0.4,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.2,
-          "SA": 0.8,
-          "FC": 0.8,
-          "agreement_score": 0.7424,
-          "judge_variance_CC": 0.0816,
-          "judge_variance_SA": 0.1633,
-          "judge_variance_FC": 0.1414,
+          "CC": 0.15,
+          "SA": 0.725,
+          "FC": 0.7333,
+          "agreement_score": 0.6876,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.216,
+          "judge_variance_FC": 0.2055,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.56
+      "score": 0.49666
     },
     {
       "compression_level": 0.75,
       "context_length": 66,
-      "response_length": 546,
-      "response": "**F = ma: Newton's Second Law of Motion**\n\nThe equation **F = ma** represents Newton's Second Law of Motion, a fundamental principle of classical mechanics that mathematically describes how the motion of an object changes when subjected to external forces. This relationship establishes that the net force acting upon an object is directly proportional to both the object's mass and the acceleration it experiences.\n\n**Component Breakdown:**\n\n*   **F (Force):** Measured in Newtons (N), force is a vector quantity representing a push or pull that causes an object to deviate from its current state of motion (whether at rest or moving at constant velocity). The \"net force\" refers to the vector sum of all individual forces acting on the object.\n*   **m (Mass):** Measured in kilograms (kg), mass represents the quantity of matter in an object and, more importantly, its **inertia**\u2014the intrinsic resistance to changes in motion. Mass is a scalar property that remains constant regardless of location.\n*   **a (Acceleration):** Measured in meters per second squared (m/s\u00b2), acceleration is the rate at which an object's velocity changes over time. Like force, it is a vector quantity possessing both magnitude and direction.\n\n**Mathematical Relationships:**\n\nThe equation reveals two critical proportional relationships:\n\n1.  **Force and Acceleration (Direct Proportion):** When mass remains constant, acceleration increases linearly with applied force. Doubling the force doubles the acceleration; halving the force halves the acceleration. This means that to achieve greater changes in velocity rapidly, one must apply correspondingly greater forces.\n\n2.  **Mass and Acceleration (Inverse Proportion):** When force remains constant, acceleration varies inversely with mass. Objects with greater mass require more force to achieve the same acceleration as lighter objects. Conversely, applying identical forces to objects of different masses results in the heavier object accelerating more slowly.\n\n**Practical Illustration:**\n\nConsider the comparison between pushing a bicycle versus pushing a car, as mentioned in the context. A typical car might have a mass of 1,500 kg, while a bicycle might be 10 kg. To achieve an acceleration of 1 m/s\u00b2:\n*   The bicycle requires: F = (10 kg)(1 m/s\u00b2) = **10 N** of force\n*   The car requires: F = (1,500 kg)(1 m/s\u00b2) = **1,500 N** of force\n\nThis 150-fold difference explains why moving heavy objects demands substantially more effort or mechanical advantage than moving light ones.\n\n**Engineering Applications:**\n\nEngineers leverage F = ma across multiple domains:\n\n*   **Vehicle Design:** Automotive engineers calculate the necessary engine force (torque) required to accelerate vehicles of specific masses to target speeds within desired timeframes. This determines horsepower requirements and transmission gearing.\n*   **Safety Systems:** Understanding that force equals mass times acceleration informs crash safety design. Crumple zones extend the time over which deceleration occurs during collisions, thereby reducing the peak force transmitted to occupants (since F = m\u0394v/\u0394t). Similarly, braking system design must account for the vehicle's mass to ensure sufficient stopping force without losing control.\n*   **Transportation Infrastructure:** Civil engineers use these calculations to design road grades, curve banking, and stopping distances, ensuring that vehicles of various masses can navigate safely under expected force conditions (friction, gravity, engine power).\n\nIn summary, F = ma serves as the quantitative bridge between the forces applied to objects and their resulting motion, enabling precise prediction and control of physical systems ranging from microscopic particles to massive transportation networks.",
+      "response_length": 369,
+      "response": "**F = ma: Newton's Second Law of Motion**\n\n**Fundamental Definition**\nThe equation **F = ma** represents Newton's second law of motion, establishing the quantitative relationship between force, mass, and acceleration. This principle states that the net force (F) acting upon an object is equal to the product of that object's mass (m) and its resulting acceleration (a).\n\n**Component Breakdown**\n- **Force (F)**: Measured in newtons (N), this represents any push or pull acting on the object. The law indicates that force is the cause of acceleration.\n- **Mass (m)**: This represents the quantity of matter in an object and its inherent resistance to changes in motion (inertia). Mass remains constant regardless of location.\n- **Acceleration (a)**: This measures the rate at which an object's velocity changes over time, indicating how quickly the object speeds up, slows down, or changes direction.\n\n**Proportional Relationships**\nThe equation reveals two critical relationships:\n1. **Direct proportionality between force and acceleration**: When mass remains constant, applying a greater force produces a proportionally higher acceleration. Doubling the force doubles the acceleration.\n2. **Inverse proportionality between mass and acceleration**: When force remains constant, objects with greater mass experience less acceleration. This explains why heavier objects require more effort to move or stop.\n\n**Illustrative Example: Vehicle Comparison**\nThe contrast between pushing a car versus a bicycle demonstrates these relationships practically. A car possesses significantly more mass than a bicycle. Therefore, to achieve the same acceleration (say, moving from rest to walking speed), the car requires substantially greater force due to its larger mass value in the equation. Conversely, the bicycle's smaller mass means even modest force generates noticeable acceleration, making it easier to push.\n\n**Engineering Applications**\nTransportation engineers apply F = ma across multiple domains:\n- **Vehicle Design**: Calculating necessary engine force to achieve desired acceleration while accounting for vehicle mass\n- **Motion Prediction**: Determining stopping distances and trajectory paths based on known forces (friction, thrust) and vehicle mass\n- **Safety Systems**: Designing crumple zones, restraint systems, and braking mechanisms that account for the force required to decelerate masses safely during collisions\n\nThis fundamental equation serves as the cornerstone of classical mechanics, enabling precise mathematical modeling of how objects respond to applied forces in transportation systems and beyond.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -162,8 +162,8 @@
     {
       "compression_level": 1.0,
       "context_length": 145,
-      "response_length": 377,
-      "response": "**F = ma (Newton's Second Law of Motion): A Comprehensive Explanation**\n\nNewton's Second Law of Motion, expressed mathematically as **F = ma**, constitutes a foundational equation in physics that quantitatively describes how forces influence the motion of objects. This law establishes that the **net force** (**F**) acting upon an object equals the product of the object's **mass** (**m**) and its resulting **acceleration** (**a**).\n\n**Fundamental Relationships**\n\nThe equation reveals two essential proportionalities that govern mechanical motion. First, acceleration is **directly proportional** to the net force applied\u2014meaning that as force increases, acceleration increases correspondingly, assuming mass remains unchanged. Second, acceleration is **inversely proportional** to mass; this relationship explains why heavier objects require substantially more force to achieve the same acceleration as lighter ones. This inverse proportionality embodies the concept of inertia\u2014an object's inherent resistance to changes in its velocity.\n\n**Vector Nature and Net Force Considerations**\n\nBoth force and acceleration are vector quantities, possessing both magnitude and direction. Consequently, the acceleration vector always points in the same direction as the net force vector. The term \"net force\" specifically refers to the vector sum of **all forces** acting on the object simultaneously. Proper application of this law requires comprehensive accounting of every external influence\u2014including applied forces, friction, gravitational pull, and normal forces\u2014to determine the resultant force that actually produces the observed acceleration.\n\n**Practical Applications**\n\nThe predictive power of F = ma extends across numerous fields and scales. In **vehicle dynamics**, engineers utilize this law to calculate required engine power, braking distances, and collision forces. Astronomers apply it to **planetary motion**, predicting orbital trajectories and gravitational interactions. **Structural engineering** relies on these calculations to ensure buildings and bridges can withstand environmental loads and stresses. Additionally, everyday phenomena such as **walking** (where pushing backward against the ground generates forward acceleration) or **driving** (where forces overcome inertia to change speed) demonstrate this principle in constant operation.\n\n**Significance in Classical Mechanics**\n\nAs the cornerstone of classical mechanics, F = ma provides the essential mathematical framework for modeling physical systems with precision. By bridging the abstract concept of force with the observable reality of motion, this law enables scientists and engineers to predict how objects respond to external influences, from microscopic particles to massive celestial bodies, forming the basis for our understanding of the physical universe.",
+      "response_length": 331,
+      "response": "**F = ma** (Newton's Second Law of Motion) constitutes the fundamental quantitative relationship in classical mechanics that describes how forces affect the motion of physical objects. This equation establishes that the **net force** (**F**) acting upon an object equals the product of that object's **mass** (**m**) and its resulting **acceleration** (**a**).\n\n## Core Mathematical Relationships\n\nThe law reveals two critical proportionalities that govern mechanical motion:\n\n**Direct Proportionality:** Acceleration is directly proportional to the net force applied. When mass remains constant, doubling the net force doubles the acceleration, meaning objects experience greater changes in velocity when subjected to stronger forces.\n\n**Inverse Proportionality:** Acceleration is inversely proportional to mass. For a constant net force, objects with greater mass experience smaller accelerations. This explains why heavier objects require substantially more force to achieve the same acceleration as lighter ones\u2014mass serves as a quantitative measure of an object's inertia, or its resistance to changes in motion.\n\n## Vector Nature and Net Force\n\nThe equation possesses vector characteristics, meaning both force and acceleration possess magnitude and direction. The acceleration vector always points in the same direction as the net force vector. \n\nCrucially, **F** represents the *net* force\u2014the vector sum of all individual forces acting on the object. This requires accounting for every force (including friction, gravity, normal forces, and applied forces) to determine the resultant force that actually produces acceleration. If multiple forces act in opposing directions, they partially cancel, and only the unbalanced portion generates acceleration.\n\n## Applications and Significance\n\nThis principle enables precise analysis across diverse domains: **vehicle dynamics** (calculating stopping distances and collision forces), **planetary motion** (predicting orbital trajectories), **structural engineering** (determining load-bearing capacities), and **everyday phenomena** (understanding the mechanics of walking, where ground reaction forces propel the body forward, or driving, where friction forces enable acceleration and braking).\n\nAs the cornerstone of classical mechanics, F = ma provides the mathematical framework for modeling physical systems, allowing scientists and engineers to predict motion, design mechanical systems, and analyze dynamic behavior with quantitative precision.",
       "jury_evaluation": {
         "judges": {
           "Nemotron-Super-3-120B": {
@@ -173,7 +173,7 @@
           },
           "Qwen3-32B": {
             "CC": 0.9,
-            "SA": 0.95,
+            "SA": 0.9,
             "FC": 0.9
           },
           "GLM-5": {
@@ -184,24 +184,24 @@
         },
         "consensus": {
           "CC": 0.975,
-          "SA": 0.975,
+          "SA": 0.95,
           "FC": 0.9667,
-          "agreement_score": 0.9214,
+          "agreement_score": 0.9057,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0236,
+          "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9733400000000001
+      "score": 0.9633400000000001
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8973359999999999,
-    "mean_agreement": 0.9138999999999999,
+    "mean_score": 0.853336,
+    "mean_agreement": 0.8705999999999999,
     "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
       0.0,
@@ -212,17 +212,17 @@
     ],
     "scores": [
       1.0,
-      1.0,
-      0.56,
+      0.85334,
+      0.49666,
       0.9533400000000001,
-      0.9733400000000001
+      0.9633400000000001
     ],
     "agreement_scores": [
       1.0,
-      1.0,
-      0.7424,
+      0.854,
+      0.6876,
       0.9057,
-      0.9214
+      0.9057
     ]
   }
 }

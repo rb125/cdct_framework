@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "rap new smartphone, [placeholders], P.P.S.",
+  "compressed_word_count": 5,
+  "response": "Yo, listen up, I got the freshest news,\nNew smartphone droppin', gonna change the game for you,\n[Placeholder for Brand Name], straight out the lab,\nGonna make your old phone look like a relic, grab.\n\nGot a [Placeholder for Display Size] screen, crystal clear,\nOLED tech, baby, vision so sheer,\n[Placeholder for Resolution] pixels, sharp as a tack,\nImmerse yourself in visuals, no going back.\n\nUnder the hood, [Placeholder for Processor] beast,\nOcta-core power, performance increased,\n[Placeholder for RAM] gigs, run apps smooth,\nMultitask like a pro, no lag, no snooze.\n\nCamera game strong, [Placeholder for Main Camera] lens,\nSnap shots like a pro, no second guess,\n[Placeholder for Front Camera] for selfies, flawless,\nBeauty mode on point, lookin' picture-perfect, graceful.\n\nBattery life on point, [Placeholder for Battery Capacity] mAh,\nAll-day power, no need to charge, ah,\nFast charging tech, [Placeholder for Charging Speed],\nJuice up quick, back to action, no need to plead.\n\nStorage space ample, [Placeholder for Internal Storage],\nExpandable too, no worry \u2018bout storage,\n[Placeholder for OS] fresh out the box,\nSmooth interface, unlock all the locks.\n\nSecurity tight, [Placeholder for Biometrics],\nFace ID, fingerprint, no need for statics,\nWater resistance, [Placeholder for IP Rating],\nSplashes and drops, this phone ain\u2019t fazing.\n\nConnectivity strong, [Placeholder for Network Bands],\n5G ready, fast speeds, no lags, no bans,\n[Placeholder for Additional Features], extra perks,\nThis phone\u2019s got it all, down to the works.\n\nP.P.S. - Don\u2019t sleep on this tech,\n[Placeholder for Special Offer], limited check,\nPre-order now, before it\u2019s too late,\n[Placeholder for Release Date], mark your date.",
+  "response_word_count": 260,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

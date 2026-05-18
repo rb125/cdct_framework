@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Craft a story on the significance of unobvious truths. use stress words sparingly, <20 times.",
+  "compressed_word_count": 15,
+  "response": "In a small village, a wise elder named Elara often spoke of unobvious truths. The villagers, though curious, rarely understood her words. One day, a young boy named Arin approached her.\n\n\"Elara, what are these unobvious truths you speak of?\" he asked.\n\nElara smiled. \"Come, let me show you.\"\n\nThey walked to the forest. Elara pointed to a tiny seed on the ground. \"This seed holds a truth,\" she said.\n\nArin looked puzzled. Elara continued, \"Though small and hidden, it will grow into a mighty tree. What we see is not always the whole story.\"\n\nDays passed. Arin thought about her words. One evening, he noticed an old, weathered bridge. It seemed weak, yet it stood strong against the river's flow.\n\n\"Elara, the bridge looks fragile,\" Arin said.\n\n\"Yet it endures,\" she replied. \"Strength often lies where we least expect it.\"\n\nArin began to see the world differently. He found beauty in the quiet strength of a withered leaf, wisdom in the gentle flow of a stream. Unobvious truths revealed themselves in everyday moments.\n\nYears later, Arin became the village elder. He shared Elara's lessons, helping others see beyond the surface. The village thrived, not on grand discoveries, but on the simple, hidden truths that shaped their lives.",
+  "response_word_count": 208,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

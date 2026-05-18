@@ -1,0 +1,43 @@
+{
+  "key": 2136,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "irs joke [placeholder]",
+  "compressed_word_count": 3,
+  "response": "Sure, here's a light-hearted IRS-themed joke for you:\n\n---\n\nWhy did the IRS agent bring a ladder to work?\n\nBecause they heard they needed to \"raise the bar\" on tax collections!\n\n---\n\nRemember, it's always good to keep things fun and light-hearted, even when talking about taxes!",
+  "response_word_count": 47,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

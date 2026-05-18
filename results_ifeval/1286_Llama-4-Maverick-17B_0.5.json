@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "List 6 differences between 13 colonies and other British North American colonies in Markdown.",
+  "compressed_word_count": 14,
+  "response": "### Differences between the 13 Colonies and Other British North American Colonies\nThe 13 colonies that eventually became the United States had distinct characteristics compared to other British North American colonies. Here are 6 key differences:\n\n* **Economic Structure**: The 13 colonies had a more diversified economy with a strong focus on trade and commerce, whereas other British North American colonies, such as those in Canada, were more focused on resource extraction (e.g., fur trade, fishing) and had less developed manufacturing sectors.\n* **Population and Settlement Patterns**: The 13 colonies had a larger and more diverse population, with a mix of English, Dutch, German, and other European settlers, as well as a significant number of enslaved Africans. In contrast, other British North American colonies had smaller, more homogeneous populations.\n* **Governance and Politics**: The 13 colonies had more developed systems of self-government, with elected assemblies and a greater degree of autonomy from British rule. Other British North American colonies, on the other hand, were often governed more directly by British officials.\n* **Cultural and Social Development**: The 13 colonies had a more developed cultural and social landscape, with established institutions such as schools, churches, and newspapers. Other British North American colonies were often more isolated and had fewer of these institutions.\n* **Relationship with Indigenous Peoples**: The 13 colonies had a more complex and often contentious relationship with Native American populations, with many conflicts over land and resources. Other British North American colonies, such as those in Canada, also had interactions with Indigenous peoples, but the dynamics were often different.\n* **Path to Independence**: The 13 colonies ultimately declared independence from Britain and became the United States, whereas other British North American colonies remained loyal to the British Crown and eventually became part of Canada.",
+  "response_word_count": 295,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

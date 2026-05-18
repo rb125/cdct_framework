@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nalternative product descriptions for edible food wrap paper",
+  "compressed_word_count": 31,
+  "response": "Here are two alternative product descriptions for the edible food wrap paper:\n\n**Description 1: Emphasizing Convenience and Sustainability**\n\n\"Introducing Wrap&Eat - the revolutionary, edible paper that's changing the way we wrap and enjoy our food. Made from natural ingredients, Wrap&Eat is a sustainable alternative to traditional plastic wraps. Simply wrap your favorite snacks, sandwiches, or fruits, and when you're done, enjoy the wrap as part of your meal. No more waste, no more fuss. Wrap&Eat is perfect for on-the-go lifestyles, outdoor enthusiasts, and anyone looking for a more eco-friendly way to enjoy their food.\"\n\n**Description 2: Highlighting the Fun and Creative Aspect**\n\n\"Get ready to unwrap a whole new world of flavor and fun with our deliciously edible food wrap paper! Imagine wrapping your favorite foods in a tasty, crunchy sheet that's as much a part of the meal as the filling itself. Our edible wrap paper comes in a range of mouth-watering flavors and textures, from classic wheat to spicy seasonings. Perfect for kids' lunchboxes, snack time, or as a creative twist on traditional meals. So why settle for boring, wasteful wraps when you can have a tasty, edible one instead?\"",
+  "response_word_count": 192,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

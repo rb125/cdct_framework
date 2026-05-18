@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "create rock song lyrics for 'the gifted and the not gifted' in all caps, avoiding 'rock'.",
+  "compressed_word_count": 16,
+  "response": "IN THE REALM WHERE DREAMS TAKE FLIGHT,\nTHE GIFTED SHINE, A BLAZING LIGHT,\nTHE NOT GIFTED WALK THE SHADOWED WAY,\nBOTH PATHS CONVERGE AT BREAK OF DAY.\n\nTHE GIFTED CRAFT WITH HANDS OF FIRE,\nTHE NOT GIFTED FUELED BY DESIRE,\nIN THE HEARTBEAT OF THE UNIVERSE,\nTHEIR STORIES SING, A POWERFUL VERSE.\n\nTHE GIFTED PAINT WITH STROKES OF GOLD,\nTHE NOT GIFTED'S TALES UNTOLD,\nIN THE TAPESTRY OF LIFE'S DESIGN,\nTHEY WEAVE TOGETHER, A HARMONIOUS RHYME.\n\nTHE GIFTED REACH FOR STARRY SKIES,\nTHE NOT GIFTED WITH HUNGRY EYES,\nIN THE DANCE OF SHADOW AND FLAME,\nTHEY FIND THEIR PLACE, THEY CALL IT GAME.\n\nTHE GIFTED'S GIFTS, A SPARKLING GLOW,\nTHE NOT GIFTED'S STRUGGLES, A STEADY FLOW,\nIN THE MELODY OF LIFE'S GREAT SONG,\nTHEY FIND THEIR RHYTHM, THEY BELONG.\n\nSO RAISE YOUR VOICE, SING IT LOUD,\nTHE GIFTED AND THE NOT GIFTED PROUD,\nIN THE CHORUS OF EXISTENCE, THEY STAND,\nHAND IN HAND, A UNITED BAND.",
+  "response_word_count": 156,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

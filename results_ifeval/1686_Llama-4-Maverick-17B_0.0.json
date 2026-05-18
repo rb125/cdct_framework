@@ -1,0 +1,43 @@
+{
+  "key": 1686,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "lecture outline",
+  "compressed_word_count": 2,
+  "response": "Here is a general lecture outline that you can customize according to your needs:\n\n**I. Introduction**\n\n* Hook to grab the audience's attention\n* Brief overview of the topic\n* Importance of the topic\n* Thesis statement or main objective of the lecture\n\n**II. Background Information**\n\n* Context and history of the topic\n* Relevant definitions and terminology\n* Overview of key concepts and theories\n\n**III. Main Content**\n\n* Key points or arguments related to the topic\n* Evidence and examples to support the key points\n* Analysis and interpretation of the evidence\n* Discussion of the implications and significance of the topic\n\n**IV. Key Findings or Takeaways**\n\n* Summary of the main points\n* Key findings or insights\n* Implications for practice or future research\n\n**V. Conclusion**\n\n* Recap of the main points\n* Final thoughts and reflections\n* Call to action or recommendations for further learning\n\n**VI. Q&A or Discussion**\n\n* Time for the audience to ask questions or engage in a discussion\n* Opportunity for the lecturer to clarify any points or provide additional information\n\nYou can also use a more detailed outline, such as:\n\n1. **Introduction** (5-10 minutes)\n\t* Introduce the topic and its importance\n\t* Provide an overview of the lecture\n\t* State the thesis or main objective\n2. **Section 1: Background and Context** (10-15 minutes)\n\t* Provide background information on the topic\n\t* Discuss relevant definitions and terminology\n\t* Overview of key concepts and theories\n3. **Section 2: Main Argument or Findings** (20-30 minutes)\n\t* Present the main argument or findings\n\t* Provide evidence and examples to support the argument\n\t* Analyze and interpret the evidence\n4. **Section 3: Implications and Significance** (15-20 minutes)\n\t* Discuss the implications of the topic\n\t* Highlight the significance of the topic\n\t* Provide examples or case studies\n5. **Conclusion** (5-10 minutes)\n\t* Summarize the main points\n\t* Provide final thoughts and reflections\n\t* Call to action or recommendations for further learning\n6. **Q&A or Discussion** (10-15 minutes)\n\t* Time for the audience to ask questions or engage in a discussion\n\nYou can adjust the time allocated to each section based on the length of your lecture and the needs of your audience.",
+  "response_word_count": 365,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

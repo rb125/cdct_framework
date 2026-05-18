@@ -1,0 +1,43 @@
+{
+  "key": 1906,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "angry tweet late friend",
+  "compressed_word_count": 4,
+  "response": "Here are a few options depending on the tone you want:\n\n**Passive-aggressive:**\n> \"Oh wow, you showed up. Didn't realize 'be there at 7' was just a *suggestion* \ud83d\ude43\"\n\n**Frustrated:**\n> \"Nothing like waiting 45 minutes for someone who can't be bothered to text. Done. \ud83d\ude44 #AlwaysLate\"\n\n**Venting:**\n> \"If you're chronically late, just say you don't respect other people's time and go. I'll wait. Actually no I won't \u2014 clearly that's YOUR thing. \ud83d\ude24\"\n\n**Petty:**\n> \"New rule: if you're more than 15 minutes late, I'm leaving AND ordering dessert. Alone. Happily. \ud83c\udf70\"\n\n**Short & sharp:**\n> \"Being late is not a personality trait. It's just rude. Fix it. \ud83d\udea9\"\n\n---\n\nWant me to adjust the tone \u2014 angrier, funnier, more specific to your situation?",
+  "response_word_count": 126,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "write letter in english, letter o 40x",
+  "compressed_word_count": 7,
+  "response": "Certainly! Here's a letter \"O\" repeated 40 times in a row:\n\n```\nOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO\n```\n\nIf you need it in a different format or with additional context, please let me know!",
+  "response_word_count": 30,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

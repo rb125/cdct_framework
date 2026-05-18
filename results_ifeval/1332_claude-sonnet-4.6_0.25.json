@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 7-day itineraries for India, China; separate with 6 asterisks.",
+  "compressed_word_count": 10,
+  "response": "# 7-Day India Itinerary\n\n## Day 1: Arrive in Delhi\n- Explore **Connaught Place** and India Gate\n- Visit Humayun's Tomb\n- Evening stroll at Lodhi Garden\n\n## Day 2: Delhi Deep Dive\n- Morning at the **Red Fort** and Chandni Chowk\n- Jama Masjid visit\n- Qutub Minar complex in the afternoon\n\n## Day 3: Travel to Agra\n- Sunrise at the **Taj Mahal**\n- Agra Fort exploration\n- Mehtab Bagh sunset views\n\n## Day 4: Jaipur (Pink City)\n- **Amber Fort** morning tour\n- City Palace and Jantar Mantar\n- Evening at Hawa Mahal\n\n## Day 5: Jaipur Continued\n- Nahargarh Fort\n- Local bazaars and shopping\n- Traditional Rajasthani dinner with folk performance\n\n## Day 6: Fly to Mumbai\n- **Gateway of India**\n- Elephanta Caves boat trip\n- Evening at Marine Drive\n\n## Day 7: Mumbai Farewell\n- Dharavi tour\n- **Chhatrapati Shivaji Terminus**\n- Colaba Causeway shopping and departure\n\n---\n\n******\n\n---\n\n# 7-Day China Itinerary\n\n## Day 1: Arrive in Beijing\n- Tiananmen Square\n- First glimpse of the **Forbidden City** exterior\n- Evening at Wangfujing Street\n\n## Day 2: Beijing Highlights\n- Full **Forbidden City** tour\n- Temple of Heaven\n- Hutong rickshaw ride in the evening\n\n## Day 3: Great Wall\n- Morning hike at **Mutianyu section**\n- Summer Palace in the afternoon\n- Peking duck dinner\n\n## Day 4: Fly to Xi'an\n- **Terracotta Army** museum\n- Shaanxi History Museum\n- Muslim Quarter night market\n\n## Day 5: Xi'an Continued\n- Walk or cycle atop the **Ancient City Wall**\n- Big Wild Goose Pagoda\n- Traditional dumpling banquet dinner\n\n## Day 6: Fly to Shanghai\n- **The Bund** waterfront walk\n- Yu Garden and Old Town\n- Pudong skyline views from Oriental Pearl Tower\n\n## Day 7: Shanghai Farewell\n- **French Concession** neighborhood\n- Xintiandi shopping and dining\n- Departure from Pudong Airport",
+  "response_word_count": 312,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "weird resume for coffee job, two SECTIONs, bullet points",
+  "compressed_word_count": 9,
+  "response": "Sure, here's a creative and unconventional resume for a coffee job, divided into two sections with bullet points:\n\n---\n\n### **Section 1: Coffee Connoisseur Credentials**\n\n- **Espresso Artistry**: Mastered the dark arts of pulling the perfect shot, with a 98% customer satisfaction rate on crema thickness and color.\n- **Bean Whisperer**: Conducted sensory evaluations on over 50 different coffee bean varieties, identifying unique flavor profiles ranging from blueberry to dark chocolate.\n- **Latte Leviathan**: Created over 20 unique latte art designs, including the \"Triple Tulip\" and the \"Phoenix Feather,\" captivating customers and Instagram followers alike.\n- **Caffeine Chemist**: Experimented with nitrogen-infused cold brew, resulting in a 30% increase in cold beverage sales during peak summer months.\n- **Barista Battler**: Competed in and won the \"Beantown Brew-Off,\" showcasing skills in speed, precision, and creativity under pressure.\n\n### **Section 2: Unconventional Skills & Experiences**\n\n- **Coffee Cart Crusader**: Managed a mobile coffee cart at local farmers' markets, increasing foot traffic by 40% through innovative marketing strategies and free samples.\n- **Roasting Rebel**: Assisted in small-batch home roasting experiments, resulting in a proprietary blend that became the shop\u2019s signature coffee.\n- **Sustainability Samurai**: Implemented a zero-waste initiative in the caf\u00e9, reducing waste by 50% through composting, recycling, and using biodegradable cups.\n- **Community Connector**: Organized monthly \"Coffee & Conversation\" nights, fostering a sense of community and increasing customer loyalty by 25%.\n- **Tech-Savvy Barista**: Developed an in-house app for customer feedback and loyalty rewards, leading to a 15% increase in repeat business.\n\n---\n\nThis resume highlights both traditional coffee-making skills and unique, unconventional experiences that would make a candidate stand out in a coffee shop environment.",
+  "response_word_count": 273,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

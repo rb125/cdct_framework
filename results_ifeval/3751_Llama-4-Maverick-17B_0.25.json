@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "first song in space, 'happy birthday'?",
+  "compressed_word_count": 6,
+  "response": "The first song played in space was actually \"Happy Birthday to You.\"  It was sung by the astronauts on the Apollo 11 spacecraft on July 18, 1969, for the Mission Commander, Neil Armstrong, whose birthday it was. However, the song was not beamed back to Earth.\n\nA more widely known instance is when the astronauts on the Gemini 6 mission sang \"Jingle Bells\" on December 16, 1965. The astronauts were Wally Schirra and Tom Stafford. They played a few bars of the song on a harmonica and some sleigh bells, and it was broadcast back to Earth.\n\nSo while \"Happy Birthday\" was indeed the first song sung in space for a birthday celebration, \"Jingle Bells\" was the first song to be played and transmitted back to Earth.",
+  "response_word_count": 127,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

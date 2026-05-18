@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "create a 4-point rubric for home theater targeting moms:\n* sound quality\n* ease of setup\n* child-friendly features\n* overall value",
+  "compressed_word_count": 22,
+  "response": "Certainly! Here's a 4-point rubric for evaluating home theater systems targeting moms, focusing on sound quality, ease of setup, child-friendly features, and overall value:\n\n---\n\n### Home Theater Rubric for Moms\n\n#### 1. Sound Quality\n- **4 - Exceptional**\n  - Crystal-clear audio with rich bass and treble.\n  - Surround sound that immerses the entire family.\n  - Consistent sound quality across different volumes and sources.\n  \n- **3 - Very Good**\n  - Good audio clarity with noticeable bass and treble.\n  - Effective surround sound.\n  - Minor fluctuations in sound quality at different volumes.\n\n- **2 - Satisfactory**\n  - Average audio clarity with some bass and treble.\n  - Basic surround sound effect.\n  - Noticeable fluctuations in sound quality.\n\n- **1 - Poor**\n  - Muffled or tinny audio.\n  - Little to no surround sound effect.\n  - Inconsistent sound quality across different volumes.\n\n---\n\n#### 2. Ease of Setup\n- **4 - Extremely Easy**\n  - Plug-and-play with clear, step-by-step instructions.\n  - Minimal components requiring assembly.\n  - Quick connection to TV and other devices.\n\n- **3 - Easy**\n  - Straightforward setup with minor assembly required.\n  - Clear instructions with some technical jargon.\n  - Simple connection process.\n\n- **2 - Moderate**\n  - Requires some technical know-how for setup.\n  - Instructions are somewhat confusing.\n  - Multiple steps and components to connect.\n\n- **1 - Difficult**\n  - Complex setup with many components.\n  - Confusing or inadequate instructions.\n  - Challenging to connect to TV and other devices.\n\n---\n\n#### 3. Child-Friendly Features\n- **4 - Highly Child-Friendly**\n  - Built-in parental controls and kid-safe modes.\n  - Easy access to children\u2019s content and apps.\n  - Durable and safe design with no small parts.\n\n- **3 - Child-Friendly**\n  - Some parental controls available.\n  - Access to children\u2019s content with minor adjustments.\n  - Safe design with a few small parts.\n\n- **2 - Somewhat Child-Friendly**\n  - Limited parental controls.\n  - Requires significant adjustments to access children\u2019s content.\n  - Design has some safety concerns.\n\n- **1 - Not Child-Friendly**\n  - No parental controls.\n  - Difficult to access children\u2019s content.\n  - Design poses safety risks for children.\n\n---\n\n#### 4. Overall Value\n- **4 - Excellent Value**\n  - High-quality sound and features at a reasonable price.\n  - Long-lasting and durable.\n  - Excellent customer support and warranty.\n\n- **3 - Good Value**\n  - Good sound and features for the price.\n  - Durable with average longevity.\n  - Decent customer support and warranty.\n\n- **2 - Fair Value**\n  - Average sound and features for the price.\n  - Some durability issues.\n  - Limited customer support and warranty.\n\n- **1 - Poor Value**\n  - Low-quality sound and features for the price.\n  - Not durable.\n  - Minimal to no customer support and warranty.\n\n---\n\nThis rubric should help moms evaluate home theater systems based on criteria that matter most to them.",
+  "response_word_count": 459,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "```json\ncompare pros/cons of supernatural powers; concise; json format; use markdown ticks ```\n```",
+  "compressed_word_count": 14,
+  "response": "```json\n{\n  \"supernatural_powers\": {\n    \"pros\": [\n      \"Ability to solve problems beyond human limitations\",\n      \"Protection from physical harm\",\n      \"Access to hidden knowledge or foresight\",\n      \"Influence over natural forces\",\n      \"Potential to help or heal others\",\n      \"Freedom from physical constraints (e.g., flight, teleportation)\",\n      \"Enhanced survival and self-sufficiency\"\n    ],\n    \"cons\": [\n      \"Isolation from normal human connection\",\n      \"Risk of corruption or misuse of power\",\n      \"Unintended consequences of altering reality\",\n      \"Target for enemies or those who fear the unknown\",\n      \"Psychological burden of responsibility\",\n      \"Loss of ordinary life experiences\",\n      \"Potential inability to control the power\",\n      \"Moral dilemmas with no clear right answer\"\n    ]\n  }\n}\n```",
+  "response_word_count": 99,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

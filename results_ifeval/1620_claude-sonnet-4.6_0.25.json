@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "email Luheng about Lilith album, P.S.",
+  "compressed_word_count": 6,
+  "response": "I'd be happy to help you draft an email to Luheng about the Lilith album with a P.S., but I need a bit more information:\n\n1. **What do you want to say** about the Lilith album? (e.g., sharing thoughts, asking a question, collaborating, recommending it, etc.)\n2. **What should the P.S. say?**\n3. **What tone** would you like? (casual, formal, etc.)\n\nCould you provide a few more details?",
+  "response_word_count": 68,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

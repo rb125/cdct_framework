@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\n\"Craft two product descriptions for edible food wrap paper, emphasizing its versatility and safety for consumption.",
+  "compressed_word_count": 39,
+  "response": "# Edible Food Wrap Paper \u2014 Two Product Descriptions\n\n---\n\n## Description 1: *Clean & Functional*\n\n**Introducing the World's First Truly Zero-Waste Food Wrap**\n\nSay goodbye to plastic wrap and hello to the future of food packaging. Our **Edible Food Wrap Paper** is a revolutionary, plant-based wrapping solution that does double duty \u2014 protecting your food *and* becoming part of the meal itself.\n\nMade from **100% natural, food-grade ingredients**, this thin, flexible wrap is strong enough to hold sandwiches, snacks, and fresh produce, yet completely safe to eat when you're done. No peeling, no discarding, no waste. Simply wrap, serve, and enjoy \u2014 paper included.\n\n- \u2705 Neutral flavor that won't interfere with your food\n- \u2705 Certified food-safe and free from artificial additives\n- \u2705 Biodegradable *and* edible \u2014 the ultimate sustainable choice\n- \u2705 Versatile enough for home kitchens, restaurants, and catering\n\n**Wrap it. Eat it. Love it.**\n\n---\n\n## Description 2: *Creative & Lifestyle-Focused*\n\n**Wrap, Bite, Repeat \u2014 Snacking Just Got Smarter**\n\nImagine unwrapping your lunch and realizing the wrapper *is* lunch. That's the magic of **Edible Food Wrap Paper** \u2014 the innovative, deliciously functional wrap that's changing the way we think about food packaging.\n\nCrafted from wholesome, natural ingredients, our edible wrap is as **versatile as it is sustainable**. Use it to bundle burritos, wrap sushi rolls, package homemade energy bars, or get creative with gourmet presentations that wow your guests. Whether you're a home cook, a professional chef, or an eco-conscious snacker, this wrap fits seamlessly into your lifestyle.\n\n- \ud83c\udf3f Made from natural, edible ingredients \u2014 safe for the whole family\n- \ud83c\udf71 Perfect for wrapping sandwiches, snacks, sushi, sweets, and more\n- \ud83c\udf0d Eliminates single-use plastic waste with every meal\n- \ud83c\udfa8 Customizable flavors available for unique culinary experiences\n\n**Because the best packaging is the kind you can eat.**",
+  "response_word_count": 306,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

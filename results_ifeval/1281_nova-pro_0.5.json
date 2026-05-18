@@ -1,0 +1,45 @@
+{
+  "key": 1281,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a limerick about Hannah, a college student, doing an internship at a coffee company. Make sure that her father would love the limerick. Include the words \"intern\" and \"grow\"\n\nCraft a father-pleasing limerick on Hannah's coffee co. intern role, using \"intern\" & \"grow",
+  "compressed_word_count": 44,
+  "response": "In a bustling coffee company's glow,\nHannah, the intern, began to grow.\nWith beans in her hand and a smile on her face,\nShe learned the craft with grace and pace.\nHer father would beam at her coffee-stained soul.",
+  "response_word_count": 39,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

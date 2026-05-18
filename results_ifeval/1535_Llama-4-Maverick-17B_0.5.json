@@ -1,0 +1,45 @@
+{
+  "key": 1535,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "draft cover letter for beijing tour guide role, no caps, <5 sentences",
+  "compressed_word_count": 12,
+  "response": "here is a draft cover letter for a beijing tour guide role:\n\ndear hiring manager, \ni am excited to apply for the beijing tour guide position as i am passionate about sharing the city's rich history and culture with visitors. with a deep understanding of beijing's landmarks and hidden gems, i am confident in my ability to provide exceptional tours. i am fluent in multiple languages and have excellent communication skills. i look forward to discussing my application. \nsincerely, [your name]",
+  "response_word_count": 81,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_sentences_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

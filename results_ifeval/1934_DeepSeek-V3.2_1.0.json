@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Why star wars is so popular? Your answer must be in the form of exactly 4 bullet points with the format below:\n* This is bullet point 1\n* This is bullet point 2",
+  "compressed_word_count": 34,
+  "response": "* It created a vast and immersive mythological universe that taps into timeless archetypes and the hero's journey\n* Its groundbreaking special effects and production design revolutionized cinematic spectacle and world-building\n* It features relatable characters and core themes of hope, rebellion, and good versus evil that resonate across cultures\n* It successfully expanded into a transmedia franchise, maintaining relevance through films, series, toys, and games",
+  "response_word_count": 66,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

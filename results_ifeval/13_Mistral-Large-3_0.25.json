@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "nyc Prospect Park history in json.",
+  "compressed_word_count": 6,
+  "response": "Here's a JSON representation of the history of **Prospect Park** in New York City:\n\n```json\n{\n  \"name\": \"Prospect Park\",\n  \"location\": {\n    \"borough\": \"Brooklyn\",\n    \"city\": \"New York City\",\n    \"coordinates\": {\n      \"latitude\": 40.6602,\n      \"longitude\": -73.9690\n    }\n  },\n  \"history\": {\n    \"establishment\": {\n      \"year\": 1867,\n      \"designers\": [\n        \"Frederick Law Olmsted\",\n        \"Calvert Vaux\"\n      ],\n      \"inspiration\": \"Central Park (Manhattan)\",\n      \"purpose\": \"Provide a large public park for Brooklyn residents, following the success of Central Park.\"\n    },\n    \"construction\": {\n      \"start_year\": 1866,\n      \"completion_year\": 1873,\n      \"challenges\": [\n        \"Difficult terrain (glacial moraine, ravines, and ridges)\",\n        \"Funding delays\",\n        \"Political disputes\"\n      ]\n    },\n    \"key_features_added\": [\n      {\n        \"name\": \"Long Meadow\",\n        \"year\": 1867,\n        \"description\": \"A 90-acre open field, one of the largest meadows in any U.S. urban park.\"\n      },\n      {\n        \"name\": \"Lake and Lullwater\",\n        \"year\": 1868,\n        \"description\": \"Artificial lake created by damming a stream, with scenic waterways.\"\n      },\n      {\n        \"name\": \"Ravine\",\n        \"year\": 1869,\n        \"description\": \"A forested area designed to mimic the Adirondack Mountains.\"\n      },\n      {\n        \"name\": \"Prospect Park Zoo\",\n        \"year\": 1890,\n        \"description\": \"Originally a menagerie, later expanded into a modern zoo.\"\n      },\n      {\n        \"name\": \"Boathouse\",\n        \"year\": 1905,\n        \"description\": \"A historic boathouse on the Lullwater, designed by Helmle, Huberty & Hudswell.\"\n      },\n      {\n        \"name\": \"Bandshell\",\n        \"year\": 1920s,\n        \"description\": \"Hosts free summer concerts, including the famous Celebrate Brooklyn! festival.\"\n      },\n      {\n        \"name\": \"Audubon Center\",\n        \"year\": 2002,\n        \"description\": \"An environmental education center in the park's historic boathouse.\"\n      }\n    ],\n    \"notable_events\": [\n      {\n        \"event\": \"Brooklyn's Consolidation with NYC\",\n        \"year\": 1898,\n        \"impact\": \"Prospect Park became a NYC park, leading to increased funding and maintenance.\"\n      },\n      {\n        \"event\": \"Great Depression & New Deal\",\n        \"years\": \"1930s\",\n        \"impact\": \"WPA (Works Progress Administration) projects improved park infrastructure.\"\n      },\n      {\n        \"event\": \"Decline & Revival\",\n        \"years\": \"1960s\u20131980s\",\n        \"impact\": \"Neglect led to deterioration, but community efforts and the Prospect Park Alliance (founded 1987) helped restore it.\"\n      },\n      {\n        \"event\": \"Centennial Celebration\",\n        \"year\": 1967,\n        \"description\": \"Marked 100 years since the park's opening.\"\n      }\n    ],\n    \"modern_era\": {\n      \"restoration_efforts\": {\n        \"organization\": \"Prospect Park Alliance\",\n        \"start_year\": 1987,\n        \"achievements\": [\n          \"Restored Long Meadow\",\n          \"Rehabilitated the Ravine\",\n          \"Improved playgrounds and sports facilities\",\n          \"Enhanced sustainability (e.g., native plantings, stormwater management)\"\n        ]\n      },\n      \"current_status\": {\n        \"size\": \"526 acres\",\n        \"annual_visitors\": \"Over 10 million\",\n        \"key_attractions\": [\n          \"Long Meadow\",\n          \"Prospect Park Lake\",\n          \"Brooklyn Botanic Garden (adjacent)\",\n          \"Prospect Park Zoo\",\n          \"Audubon Center\",\n          \"LeFrak Center at Lakeside (ice skating, roller skating)\",\n          \"Bandshell (summer concerts)\"\n        ],\n        \"awards\": [\n          \"Listed on the National Register of Historic Places (1975)\",\n          \"Designated a New York City Scenic Landmark (1975)\"\n        ]\n      }\n    }\n  },\n  \"fun_facts\": [\n    \"Prospect Park was originally intended to be larger, but land was sold off for development.\",\n    \"The park's design influenced later urban parks, including Chicago's Jackson Park.\",\n    \"It was the site of the first U.S. Army Signal Corps wireless telegraph station (1899).\",\n    \"The park has its own police precinct (NYPD's 78th Precinct).\",\n    \"It was a filming location for movies like *Spider-Man 3* (2007) and *John Wick: Chapter 3* (2019).\"\n  ],\n  \"sources\": [\n    \"Prospect Park Alliance (prospectpark.org)\",\n    \"NYC Parks Department\",\n    \"National Register of Historic Places\",\n    \"Brooklyn Historical Society\"\n  ]\n}\n```\n\n### Key Highlights:\n- **Designed by Olmsted & Vaux** (the same duo behind Central Park).\n- **526 acres** of meadows, forests, and waterways.\n- **Historic landmarks** like the Boathouse and Bandshell.\n- **Restored in the 1980s\u201390s** after a period of decline.\n- **Home to the Prospect Park Zoo, Audubon Center, and LeFrak Center**.\n\nWould you like any modifications or additional details?",
+  "response_word_count": 550,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

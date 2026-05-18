@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Who won the defamation case between Amber Heard and Johnny Depp? Write your answer as if you are writing to a group of elderly people. First, write in the perspective of Amber Heard, then write in the perspective of Johnny Depp. Separate those two version by 6 asterisk symbols ******. The entire response should have less than 300 words.",
+  "compressed_word_count": 59,
+  "response": "From Amber Heard's perspective: \n\nDear friends, \n\nI want to share with you the outcome of my legal battle with Johnny Depp. Unfortunately, the jury did not side with me in the defamation case. They believed that Mr. Depp's statements about me were defamatory and awarded him a significant sum of money. I am disappointed with the verdict, but I respect the jury's decision. \n\n******\n\nFrom Johnny Depp's perspective: \n\nHello my friends, \n\nI am pleased to inform you that I have won the defamation case against Amber Heard. The jury found that her statements about me were defamatory and awarded me a substantial amount of money. I am grateful for the jury's decision and hope that this verdict will help to clear my name and restore my reputation. \n\nPlease note that the above perspectives are for illustrative purposes only and do not reflect the actual events or outcomes of the case. The defamation case between Amber Heard and Johnny Depp is a complex and ongoing legal matter, and the perspectives presented here are fictionalized for the sake of the exercise.",
+  "response_word_count": 179,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.9333333333333332,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.09428090415820632,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

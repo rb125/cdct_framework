@@ -1,0 +1,43 @@
+{
+  "key": 1480,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "write a blog post about the most interesting things you have seen or ridden on public transportation. ride subway in nyc, no photos",
+  "compressed_word_count": 23,
+  "response": "**The Unpredictable World of Public Transportation: My Most Memorable Rides**\n\nAs a regular commuter on the New York City subway, I've had the privilege of witnessing a wide range of fascinating, bizarre, and sometimes disturbing scenes. The NYC subway is a melting pot of cultures, ages, and lifestyles, making it a unique and captivating environment. Here are some of the most interesting things I've seen or experienced while riding the subway.\n\nOne of the most memorable experiences was when a group of musicians took over an entire train car, turning it into a makeshift concert hall. The energy was electric, with passengers singing along and tapping their feet to the beat. The music was a lively mix of salsa, jazz, and pop, and it was infectious. For a few stops, the train car was transformed into a joyful, vibrant space that brought everyone together.\n\nI've also encountered some unusual characters on my subway rides. There was the time a man dressed in a full Elvis costume got on the train, complete with a sparkly jumpsuit and slicked-back hair. He proceeded to perform an impromptu dance routine, much to the amusement of the surrounding passengers. Another time, I saw a woman carrying a large, exotic bird in a cage, which she claimed was a \"good luck charm.\" The bird's colorful plumage and loud squawks added a touch of excitement to the otherwise mundane commute.\n\nThe subway can also be a platform for unusual performances and demonstrations. I've seen street performers doing acrobatics, juggling, and even fire-breathing. One performer, a talented musician, played a hauntingly beautiful melody on a glass harmonica, captivating the attention of everyone in the car. These impromptu performances often add a touch of magic to an otherwise routine ride.\n\nOf course, not all experiences on the subway are pleasant. I've witnessed heated arguments, loud confrontations, and even the occasional medical emergency. However, I've also seen the kindness and compassion of strangers come to the forefront in times of need. Passengers often step in to help those in distress, offering seats, assistance, or simply a listening ear.\n\nOne of the most interesting aspects of riding the subway is the diversity of the people you meet. From tourists trying to navigate the complex system to locals who know every shortcut and trick, the subway is a microcosm of the city's vibrant cultural landscape. I've struck up conversations with fellow passengers from all walks of life, hearing stories about their lives, work, and passions.\n\nRiding the subway in NYC is an adventure in itself, full of unexpected surprises and encounters. Whether it's a lively performance, an unusual character, or a moment of kindness, the subway is a place where the ordinary and extraordinary coexist. As I continue to ride the subway, I'm always on the lookout for the next memorable experience, and I'm grateful for the unique perspective it gives me on the city and its inhabitants.",
+  "response_word_count": 486,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

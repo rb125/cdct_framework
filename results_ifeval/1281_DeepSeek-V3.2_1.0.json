@@ -1,0 +1,45 @@
+{
+  "key": 1281,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a limerick about Hannah, a college student, doing an internship at a coffee company. Make sure that her father would love the limerick. Include the words \"intern\" and \"grow\".\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+  "compressed_word_count": 67,
+  "response": "Write a limerick about Hannah, a college student, doing an internship at a coffee company. Make sure that her father would love the limerick. Include the words \"intern\" and \"grow\".\n\nA student and coffee shop intern\nNamed Hannah was eager to learn.\nHer dad beamed with pride\nAs she worked there inside,\nAnd watched her career start to grow!",
+  "response_word_count": 59,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

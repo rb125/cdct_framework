@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "resume for Matthias, caps for skills, <10, \"\"quotes",
+  "compressed_word_count": 8,
+  "response": "Here's a clean resume for Matthias with capitalized skills, fewer than 10 skills listed, and quoted sections:\n\n---\n\n# **MATTHIAS**\n\n*\"Driven professional committed to delivering results with precision and purpose.\"*\n\n---\n\n## **CONTACT**\n\ud83d\udce7 matthias@email.com\n\ud83d\udcde +1 (555) 000-0000\n\ud83d\udd17 linkedin.com/in/matthias\n\n---\n\n## **PROFILE**\n*\"A versatile and motivated individual with a passion for problem-solving and continuous growth.\"*\n\n---\n\n## **SKILLS**\n- PROJECT MANAGEMENT\n- DATA ANALYSIS\n- STRATEGIC PLANNING\n- TEAM LEADERSHIP\n- COMMUNICATION\n- PROBLEM SOLVING\n- MICROSOFT OFFICE SUITE\n- CRITICAL THINKING\n\n---\n\n## **EXPERIENCE**\n\n**Senior Associate** | Company Name\n*2020 \u2013 Present*\n*\"Led cross-functional teams to achieve key organizational milestones.\"*\n\n**Analyst** | Company Name\n*2017 \u2013 2020*\n*\"Delivered data-driven insights that improved operational efficiency by 30%.\"*\n\n---\n\n## **EDUCATION**\n\n**Bachelor of Science** | University Name\n*2013 \u2013 2017*\n\n---\n\n## **LANGUAGES**\n- English \u2014 Fluent\n- German \u2014 Native\n\n---\n\n*\"Available for new opportunities upon request.\"*\n\n---\n\nWould you like me to tailor this further with specific details?",
+  "response_word_count": 161,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.6333333333333333,
+      "FC": 0.6333333333333333,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.18856180831641267,
+      "judge_variance_FC": 0.18856180831641267
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "List pros/cons of supernatural powers in json. Use markdown ticks. No commas.",
+  "compressed_word_count": 12,
+  "response": "Here's a JSON-formatted list of pros and cons of supernatural powers, using Markdown ticks (```) and no commas:\n\n```json\n{\n  \"supernatural_powers\": {\n    \"pros\": [\n      ```\"Enhanced abilities beyond human limits\"```\n      ```\"Potential for extraordinary achievements\"```\n      ```\"Ability to protect oneself and others\"```\n      ```\"Opportunity for unique experiences\"```\n      ```\"Possible financial or social advantages\"```\n      ```\"Personal empowerment and confidence boost\"```\n      ```\"Ability to explore hidden or mystical realms\"```\n      ```\"Potential for healing or helping others\"```\n      ```\"Increased resilience against threats\"```\n      ```\"Access to knowledge beyond normal comprehension\"```\n    ]\n    \"cons\": [\n      ```\"Risk of losing touch with reality\"```\n      ```\"Potential for addiction or dependency\"```\n      ```\"Increased responsibility and burden\"```\n      ```\"Possible isolation from normal society\"```\n      ```\"Risk of attracting dangerous entities or threats\"```\n      ```\"Potential for misuse or corruption\"```\n      ```\"Unintended consequences of actions\"```\n      ```\"Difficulty maintaining normal relationships\"```\n      ```\"Possible physical or mental strain\"```\n      ```\"Risk of becoming a target for others\"```\n    ]\n  }\n}\n```",
+  "response_word_count": 135,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.3,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.09999999999999999,
+      "SA": 0.7666666666666666,
+      "FC": 0.39999999999999997,
+      "judge_variance_CC": 0.1414213562373095,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.29439202887759486
+    }
+  }
+}

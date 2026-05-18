@@ -1,0 +1,43 @@
+{
+  "key": 1645,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Riddle Sheldon name 10 words, all caps.",
+  "compressed_word_count": 7,
+  "response": "**S H E L D O N**  \n**C O O P E R**  \n**B A Z I N G A**  \n**B O N G O**  \n**S O F T K I T T Y**  \n**W A R M M I L K**  \n**P H D**  \n**S C I E N C E**  \n**S P O C K**  \n**A F F I R M A T I V E**",
+  "response_word_count": 68,
+  "instruction_id_list": [
+    "change_case:english_capital"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

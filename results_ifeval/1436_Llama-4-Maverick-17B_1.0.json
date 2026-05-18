@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a story about commandos who are in the middle of the night in a sector. It should be in English, and no capital letters are allowed. The story should not include keywords \"coop\", \"killings\", \"dead\", \"night\".",
+  "compressed_word_count": 37,
+  "response": "the darkness was suffocating, a heavy blanket that wrapped around the commandos as they moved stealthily through the sector. their footsteps were silent, a testament to their training and experience. they had been inserted hours ago, and now they were making their way to the target.\n\nsergeant jenkins led the way, his eyes scanning the surroundings with a practiced intensity. he had done this before, many times, but he never let his guard down. the sector was volatile, and one misstep could be disastrous.\n\nbehind him, the rest of the team followed in single file, their senses on high alert. they were a finely tuned machine, each man knowing his role and playing it to perfection. they had worked together for months, and their cohesion was evident in their movements.\n\nas they moved deeper into the sector, the tension began to build. they were getting close to the target, and the risk of detection was increasing. jenkins held up a hand, and the team froze, their eyes locked on him.\n\nhe listened intently, his head cocked to one side. there was a faint noise, a rustling of leaves or fabric. it was hard to pinpoint, but it was getting louder. jenkins motioned to the team, and they began to fan out, taking up positions around the surrounding area.\n\nthe noise grew louder, and suddenly a figure emerged from the darkness. jenkins tensed, his hand on his rifle. but as the figure drew closer, he saw that it was just a local, a young boy who looked like he was out for a stroll.\n\njenkins relaxed, his grip on his rifle easing. the boy was oblivious to the commandos, and jenkins let him pass, watching as he disappeared into the darkness. the team remained still, waiting for jenkins' signal to move out.\n\nafter a few moments, jenkins gave the signal, and the team began to move forward once more. they were getting close to the target, and they needed to be careful. one misstep, and the whole mission could be compromised.",
+  "response_word_count": 340,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3,
+      "SA": 0.6666666666666666,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.42426406871192857,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

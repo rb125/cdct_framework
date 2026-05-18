@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Summarize defamation case outcome Heard vs Depp, elderly audience format, Heard's & Depp's perspectives, 6***** separator, <300 words.",
+  "compressed_word_count": 18,
+  "response": "*****\n\n**For Mr. Depp:** He argued he was the true victim, falsely portrayed as a domestic abuser by Ms. Heard's claims. This cost him his reputation and major movie roles. The jury agreed, finding that Ms. Heard defamed him with malice.\n\n**For Ms. Heard:** She argued she was a survivor of domestic abuse who told the truth in her op-ed. She claimed Mr. Depp's lawsuit was a continuation of abuse, meant to punish her for speaking and to silence her. The jury did not find her account credible.\n\n**The Outcome:** The jury ruled strongly in Mr. Depp's favor. They found that Ms. Heard defamed him in all three statements they considered. He was awarded over $10 million in damages. Ms. Heard won on one part of her countersuit, receiving $2 million.\n\n*****\n\nIn short, the court largely believed Mr. Depp's version of events over Ms. Heard's.",
+  "response_word_count": 146,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.6
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.7000000000000001,
+      "FC": 0.6,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.08164965809277258
+    }
+  }
+}

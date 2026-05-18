@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create a product poem, end with P.P.S. note",
+  "compressed_word_count": 8,
+  "response": "In realms of tech, where innovation reigns,\nA product emerges, with features that sustain.\nA sleek design, with lines so fine and bright,\nA marvel of engineering, a wondrous sight.\n\nWith every touch, a world of ease unfolds,\nAs intuitive controls, young and old, behold.\nThe screen glows bright, with vibrant hue and light,\nA canvas for creativity, day and night.\n\nThe processor hums, a quiet, powerful beat,\nAs tasks are handled, with nimble feet.\nThe battery lasts, through trials and through test,\nA faithful companion, that never finds rest.\n\nThis product is a dream, a wish come true,\nA tool that empowers, for me and for you.\nSo if you're seeking, a device that's grand,\nLook no further, this product is at hand.\n\nP.S. Order now, and receive a special discount too,\nA limited time offer, just for you.\n\nP.P.S. Don't forget to check our warranty and support page, for a peace of mind, every step of the way.",
+  "response_word_count": 160,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

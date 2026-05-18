@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+  "compressed_word_count": 29,
+  "response": "```json\n{\n  \"famous_moms\": [\n    {\n      \"name\": \"Kris Jenner\",\n      \"fun_fact\": \"The ultimate momager who turned her whole family into a billion-dollar empire, one reality show at a time. You're doing amazing, sweetie!\"\n    },\n    {\n      \"name\": \"Marie Curie\",\n      \"fun_fact\": \"This radioactively awesome mom won TWO Nobel Prizes while raising two daughters. Her superpower? Literally radiation. No biggie.\"\n    },\n    {\n      \"name\": \"Cleopatra\",\n      \"fun_fact\": \"Queen of Egypt, ruler of hearts, and mom of four. She basically invented the phrase 'I woke up like this' thousands of years before Beyonc\u00e9.\"\n    },\n    {\n      \"name\": \"Serena Williams\",\n      \"fun_fact\": \"This tennis goddess smashed her way through 23 Grand Slam titles AND motherhood. Her daughter Olympia is basically royalty with a racket.\"\n    },\n    {\n      \"name\": \"Malala Yousafzai\",\n      \"fun_fact\": \"Youngest Nobel Prize winner AND a mom who is out here changing the world one book at a time. Her kids are going to have the WILDEST show-and-tell stories.\"\n    }\n  ]\n}\n```",
+  "response_word_count": 152,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

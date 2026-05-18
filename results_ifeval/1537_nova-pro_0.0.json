@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "tennis balls poem",
+  "compressed_word_count": 3,
+  "response": "Certainly! Here's a poem about tennis balls:\n\n---\n\n**Yellow Spheres of Joy**\n\nIn cans they rest, a vibrant hue,\nThree bright orbs of tennis blue,\nA promise wrapped in fuzzy green,\nA game of skill, a joy unforeseen.\n\nThey bounce with life, a springy grace,\nAcross the court, they find their place,\nWith every hit, they sing a song,\nOf rallies won, where hearts belong.\n\nThey travel fast, a blur in flight,\nA dance of speed, a thrill, a light,\nIn their embrace, the world feels small,\nIn every game, the tennis ball.\n\nThey wear the marks of serves and swings,\nOf aces scored and faulty things,\nYet in their wear, a story told,\nOf matches played, of tales unfold.\n\nSo here\u2019s to you, oh tennis balls,\nIn courts and parks, on city walls,\nYou bring the game, the laughter, cheer,\nA simple joy, year after year.\n\n---\n\nI hope you enjoy this poetic tribute to tennis balls!",
+  "response_word_count": 158,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

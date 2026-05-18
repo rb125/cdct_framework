@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Craft a tale on unobvious truths' importance; use <20 emphasis words.",
+  "compressed_word_count": 11,
+  "response": "**The Weaver\u2019s Secret**\n\nIn a village nestled between mist-laced hills, there lived a weaver named **Elara**. Her tapestries were renowned\u2014each thread a story, each knot a whisper of the land. Yet no one knew her true gift: she wove **unseen truths** into her work.\n\nOne winter, a **skeptical** merchant arrived, demanding proof of her skill. \"Show me something *real*,\" he scoffed. Elara smiled and unrolled a tapestry of the village square. At first glance, it was perfect\u2014until the merchant noticed **tiny** flaws: a child\u2019s forgotten toy, a dog sleeping in the wrong doorway.\n\n\"These are *mistakes*,\" he snapped.\n\nElara traced the threads. \"No. These are the **moments** no one remembers\u2014the **truths** too small to notice.\" The merchant frowned, but as he studied the tapestry, he saw his own reflection in the woven river, **older**, **softer**, holding a letter he\u2019d never sent.\n\nThe next morning, he bought every piece.\n\nYears later, when the village faced famine, Elara\u2019s tapestries\u2014**hidden** in chests\u2014fed them all. The merchant, now **wise**, understood: the **unobvious** holds the weight of the world.\n\nAnd so it does.",
+  "response_word_count": 178,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

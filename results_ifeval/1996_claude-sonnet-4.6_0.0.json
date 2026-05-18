@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "truths, stress",
+  "compressed_word_count": 2,
+  "response": "# Truths & Stress\n\nHere are some honest observations about the relationship between the two:\n\n---\n\n## Hard Truths About Stress\n- Some stress is **unavoidable** \u2014 fighting that fact adds more stress\n- A lot of stress comes from **avoiding** something, not facing it\n- Chronic stress often signals a **values conflict** \u2014 you're living against what matters to you\n- You can't think your way out of a stress response \u2014 **the body has to be involved**\n\n---\n\n## What Stress Is Actually Telling You\n- Something feels **threatening or out of control**\n- You care about something **deeply**\n- You may be **overextended** or under-resourced\n- A boundary is being crossed \u2014 maybe by yourself\n\n---\n\n## Uncomfortable Truths People Avoid\n- Rest isn't a reward \u2014 it's **required**\n- Busyness and stress are sometimes used to feel **important**\n- Not everything can be fixed \u2014 some things have to be **grieved**\n- Other people's stress is **not yours to carry**\n\n---\n\n## What Actually Helps\n- Naming what's real\n- Smaller, honest steps\n- Saying no\n- Sleeping\n\n---\n\nIs there something specific going on \u2014 are you processing stress right now, or thinking about it more broadly?",
+  "response_word_count": 202,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.4666666666666666,
+      "FC": 0.4666666666666666,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.3681787005729087,
+      "judge_variance_FC": 0.3681787005729087
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "java session plan, P.P.S.",
+  "compressed_word_count": 4,
+  "response": "# **Java Session Plan: P.P.S. (Practical Problem-Solving)**\n\n## **Session Overview**\n**Duration:** 2-3 hours  \n**Level:** Intermediate Java Developers  \n**Focus:** Applying Java concepts to solve real-world problems systematically\n\n---\n\n## **Session Structure**\n\n### **Part 1: Problem-Solving Framework (30 mins)**\n**Objective:** Establish a structured approach to problem-solving\n\n1. **P.P.S. Methodology Introduction** (10 mins)\n   - **P** - **Parse**: Understand the problem thoroughly\n   - **P** - **Plan**: Design solution before coding\n   - **S** - **Solve**: Implement with clean, efficient code\n\n2. **Problem Analysis Techniques** (10 mins)\n   - Input/Output analysis\n   - Edge case identification\n   - Time/space complexity considerations\n\n3. **Java-Specific Considerations** (10 mins)\n   - Choosing appropriate data structures\n   - Memory management awareness\n   - Exception handling strategy\n\n### **Part 2: Practical Problem Session (90-120 mins)**\n**Objective:** Apply P.P.S. to progressively challenging problems\n\n#### **Problem 1: Data Processing Challenge** (30 mins)\n**Scenario:** Process customer transaction data\n```java\n// Sample problem: Calculate customer statistics\n// Input: List<Transaction> transactions\n// Output: Map<CustomerId, CustomerStats>\n```\n\n**P.P.S. Application:**\n- **Parse**: Identify key requirements (grouping, calculations)\n- **Plan**: Choose Stream API vs traditional loops\n- **Solve**: Implement with optimal collections\n\n#### **Problem 2: Algorithm Optimization** (40 mins)\n**Scenario:** Find most frequent elements in large dataset\n```java\n// Problem: Find top K frequent elements efficiently\n// Constraints: O(n log k) time complexity\n```\n\n**P.P.S. Application:**\n- **Parse**: Analyze constraints and requirements\n- **Plan**: Design with PriorityQueue vs Sorting\n- **Solve**: Implement with performance monitoring\n\n#### **Problem 3: System Design Mini-Problem** (30 mins)\n**Scenario:** Design a cache system with LRU eviction\n```java\n// Requirements: O(1) get and put operations\n// Additional: Thread-safety considerations\n```\n\n**P.P.S. Application:**\n- **Parse**: Identify core functionality and constraints\n- **Plan**: Choose between LinkedHashMap vs custom implementation\n- **Solve**: Implement with concurrency considerations\n\n### **Part 3: Code Review & Best Practices (30 mins)**\n\n1. **Solution Comparison** (15 mins)\n   - Compare different approaches to same problem\n   - Discuss trade-offs (readability vs performance)\n\n2. **Java-Specific Optimizations** (10 mins)\n   - Effective use of Streams and Optionals\n   - Memory-efficient collections\n   - StringBuilder vs String concatenation\n\n3. **Testing Strategy** (5 mins)\n   - Writing testable solutions\n   - Edge case validation\n\n---\n\n## **Learning Outcomes**\nBy the end of this session, participants will:\n1. Apply structured problem-solving to Java challenges\n2. Make informed decisions about Java data structures and APIs\n3. Write cleaner, more efficient Java code\n4. Balance performance with code maintainability\n\n---\n\n## **Preparation Materials**\n**For Participants:**\n- Basic Java knowledge (collections, streams, OOP)\n- IDE installed (IntelliJ/Eclipse/VS Code)\n- Optional: JUnit for testing solutions\n\n**For Facilitator:**\n- Problem solutions with multiple approaches\n- Performance comparison metrics\n- Common pitfalls and how to avoid them\n\n---\n\n## **Assessment Criteria**\n1. **Problem Understanding** (20%)\n2. **Solution Design** (30%)\n3. **Code Quality** (30%)\n4. **Performance Awareness** (20%)\n\n---\n\n## **Extension Activities**\n1. **Pair Programming:** Solve problems in teams\n2. **Code Golf:** Optimize for minimal lines while maintaining readability\n3. **Real-world Refactoring:** Take existing code and improve it using P.P.S.\n\n---\n\n## **Adaptation Notes**\n- **For Beginners:** Focus more on parsing and planning phases\n- **For Advanced:** Add concurrency challenges and memory optimization\n- **Remote Sessions:** Use collaborative coding platforms (CodeTogether, VS Code Live Share)\n\nThis session plan emphasizes **practical application** over theoretical knowledge, ensuring participants leave with immediately applicable skills.",
+  "response_word_count": 532,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

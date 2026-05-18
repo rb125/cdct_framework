@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Evaluate moon landing authenticity; respond with'my answer is yes,''my answer is no,' or'my answer is maybe.'",
+  "compressed_word_count": 16,
+  "response": "My answer is yes.\n\nThe overwhelming consensus among scientists, historians, and experts is that the moon landings, starting with Apollo 11 in 1969, were real. Extensive evidence supports this, including telemetry data, rock samples brought back from the moon, testimonies from astronauts and mission control personnel, and observations from other countries, notably the Soviet Union, which was in a space race with the United States at the time. Claims suggesting the moon landings were hoaxes have been thoroughly debunked by multiple investigations and analyses.",
+  "response_word_count": 84,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.0,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

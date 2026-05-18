@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a story about the importance of understanding the truths that are not obvious. Add stress words which are capitalized. Limit those stress words for less than 20 times.",
+  "compressed_word_count": 29,
+  "response": "In a small village, there lived a young boy named Kaito. He was known for his curiosity and love for learning. One day, while exploring the village, Kaito stumbled upon an old, wise man named Akira. Akira was renowned for his profound understanding of the world and its intricacies.\n\nKaito was drawn to Akira's calm and peaceful demeanor, and he felt an instant sense of TRUST. As they began to converse, Akira shared with Kaito the importance of understanding the truths that are not obvious. \"The world is full of complexities,\" Akira said, \"and it's easy to get caught up in the OBVIOUS truths. But the real wisdom lies in uncovering the hidden truths that are not immediately apparent.\"\n\nKaito was intrigued and asked Akira to explain. Akira took a deep breath and began to share a story. \"Imagine a river,\" he said. \"On the surface, it appears calm and serene. But beneath the surface, there are strong UNDERcurrents that can sweep you away. If you're not aware of these UNDERcurrents, you can get caught off guard and struggle to stay afloat.\"\n\nKaito listened intently, and as he did, he felt a sense of CLARITY wash over him. He realized that there was more to the world than what met the eye. Akira continued, \"The same is true for life. There are many things that are not immediately apparent, and if you're not careful, you can get caught up in the SURFACE-level truths. But if you take the time to look deeper, you'll discover the hidden patterns and UNDERlying forces that shape our world.\"\n\nAs Kaito reflected on Akira's words, he felt a sense of AWE and wonder. He realized that understanding the truths that are not obvious required PATIENCE, PERSISTENCE, and a willingness to look beyond the OBVIOUS. From that day on, Kaito made it his mission to uncover the hidden truths, and as he did, he felt a sense of CONFIDENCE and purpose that he had never felt before. He was no longer content with just accepting things at face value, and he was determined to dig deeper, to explore the UNDERcurrents that shaped the world around him.",
+  "response_word_count": 360,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

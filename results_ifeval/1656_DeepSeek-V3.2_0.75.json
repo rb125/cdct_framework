@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\n\"Craft two product descriptions for edible food wrap paper, emphasizing its versatility and safety for consumption.",
+  "compressed_word_count": 39,
+  "response": "**Description 1: The Artisan's Choice**\n\nIntroducing **Nature's Embrace Edible Wrap** \u2013 where sustainability meets culinary artistry. This innovative paper transforms food wrapping from mere containment to an integral part of the dining experience. Crafted from all-natural, plant-based ingredients, our wrap is a tasteless, odorless barrier that locks in freshness and flavor. Safe for direct contact with any food, it seamlessly dissolves or can be eaten alongside your creations. Perfect for zero-waste picnics, elegant charcuterie presentations, or as a creative kitchen hack for steamed dishes. Embrace a world where your packaging nourishes both the planet and the palate. Wrap, cook, serve, and consume\u2014no waste, just wonder.\n\n**Description 2: The Modern Kitchen Essential**\n\nMeet **EcoBite Wrap** \u2013 the edible paper that redefines kitchen convenience and environmental responsibility. This versatile, durable sheet is your ultimate solution for seamless cooking and serving. Microwave-safe, oven-friendly, and entirely consumable, it eliminates plastic waste without compromising functionality. Use it to wrap sandwiches for a litter-free lunch, line baking trays for no-cleanup cookies, or create stunning, edible parcels for gourmet steaming. Made from food-grade, allergen-friendly ingredients, EcoBite Wrap is tasteless and strong, designed to hold your food securely until you're ready to eat it\u2014paper and all. Simplify your routine and savor a truly clean plate. The future of food wrap is not just biodegradable; it's edible.",
+  "response_word_count": 218,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

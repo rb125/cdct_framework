@@ -1,0 +1,45 @@
+{
+  "key": 1242,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Provide an alias for Stafford in json format, omitting the term 'alias'. No additional text.",
+  "compressed_word_count": 15,
+  "response": "{\"nickname\": \"Staffs\"}",
+  "response_word_count": 2,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true,
+    "keywords:forbidden_words_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.408248290463863,
+      "judge_variance_FC": 0.4714045207910317
+    }
+  }
+}

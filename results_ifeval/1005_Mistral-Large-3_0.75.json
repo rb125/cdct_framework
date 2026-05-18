@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft a resume for a first-time job seeker with 12 placeholders like [name], [address], [skills], no commas in formal tone",
+  "compressed_word_count": 20,
+  "response": "**RESUME**\n\n**[NAME]**\n[ADDRESS]\n[CITY] [STATE] [ZIP CODE]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n\n**OBJECTIVE**\nHighly motivated and detail-oriented individual seeking an entry-level position to apply [SKILLS] and gain practical experience in [INDUSTRY OR FIELD]. Eager to contribute enthusiasm and a strong work ethic to support team success.\n\n**EDUCATION**\n**[SCHOOL NAME]** \u2013 [CITY] [STATE]\n[DEGREE OR CERTIFICATE] in [MAJOR OR FIELD OF STUDY]\n[MONTH YEAR] \u2013 [MONTH YEAR]\n\n**RELEVANT COURSEWORK**\n[COURSE 1]\n[COURSE 2]\n[COURSE 3]\n\n**SKILLS**\n[SKILL 1]\n[SKILL 2]\n[SKILL 3]\n[SKILL 4]\n[SKILL 5]\n\n**VOLUNTEER EXPERIENCE** *(if applicable)*\n**[ORGANIZATION NAME]** \u2013 [CITY] [STATE]\n[ROLE OR POSITION]\n[MONTH YEAR] \u2013 [MONTH YEAR]\n- [RESPONSIBILITY OR ACHIEVEMENT 1]\n- [RESPONSIBILITY OR ACHIEVEMENT 2]\n\n**PROJECTS** *(if applicable)*\n**[PROJECT NAME]**\n- [DESCRIPTION OF PROJECT AND ROLE]\n- [OUTCOME OR SKILL DEMONSTRATED]\n\n**CERTIFICATIONS** *(if applicable)*\n[CERTIFICATION NAME] \u2013 [ISSUING ORGANIZATION]\n[MONTH YEAR]\n\n**REFERENCES**\nAvailable upon request",
+  "response_word_count": 141,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "resume template, 12 [] placeholders",
+  "compressed_word_count": 5,
+  "response": "Here\u2019s a clean, professional resume template with 12 numbered placeholders for you to customize. This template uses a standard reverse-chronological format and is ATS-friendly.\n\n---\n\n**[Your Name]**\n[Your Phone Number] | [Your Email Address] | [Your City, State] | [Your LinkedIn Profile URL] | [Your Portfolio/Website URL]\n\n---\n\n**1. PROFESSIONAL SUMMARY**\n[Write 3-4 lines summarizing your experience, key skills, and career objectives. Tailor this to the specific role you are applying for.]\n\n---\n\n**2. PROFESSIONAL EXPERIENCE**\n\n**3. [Job Title]**\n**4. [Company Name]**, [City, State] | [Month, Year] \u2013 [Month, Year] or [Present]\n*   **5. [Key Achievement or Responsibility]** \u2013 Description of what you did and the impact you made. Use action verbs and quantify results where possible (e.g., \"Increased efficiency by 15%\").\n*   **6. [Key Achievement or Responsibility]** \u2013 Another bullet point detailing a relevant responsibility or accomplishment.\n*   **7. [Key Achievement or Responsibility]** \u2013 A third bullet point to showcase your contributions.\n\n**8. [Previous Job Title]**\n**9. [Previous Company Name]**, [City, State] | [Month, Year] \u2013 [Month, Year]\n*   [Key Achievement or Responsibility]\n*   [Key Achievement or Responsibility]\n*   [Key Achievement or Responsibility]\n\n---\n\n**10. EDUCATION**\n\n**[Degree Name]**\n**[University Name]**, [City, State] | [Month, Year] \u2013 [Month, Year] or [Expected Graduation Date]\n*   *Relevant:* [Honors, Relevant Coursework, Thesis, or GPA if impressive]\n\n---\n\n**11. SKILLS**\n\n*   **Technical:** [Skill 1], [Skill 2], [Skill 3], [Skill 4]\n*   **Professional:** [Skill 5], [Skill 6], [Skill 7], [Skill 8]\n\n---\n\n**12. [Optional Section: Certifications, Projects, or Languages]**\n\n*   **[Certification Name]**, [Issuing Organization] | [Year]\n*   **[Project Name]:** Brief description of a relevant project and the tools used.\n*   **Languages:** [Language] (Proficiency Level)\n\n---\n\n### **Placeholder Guide & Tips:**\n\n1.  **Professional Summary:** Keep it targeted. Mention years of experience, industry, and 2-3 top skills.\n2.  **Job Title:** Use the standard title that accurately reflects your role.\n3.  **Company Name:** Use the full, official company name.\n4.  **Location & Dates:** Be consistent with date formats (e.g., \"June 2020 \u2013 Present\").\n5.  **6. & 7. Bullet Points:** Start with strong action verbs (Managed, Developed, Implemented). Use the **STAR method (Situation, Task, Action, Result)** structure in your mind to craft impactful points.\n6.  **8. & 9. Previous Role:** Repeat the structure for up to 3-4 relevant past roles. Focus on the most recent 10-15 years.\n7.  **10. Education:** Include your highest degree first. For recent grads, you can add relevant coursework or projects.\n8.  **11. Skills:** Tailor this section to the job description. Categorize skills (Technical, Soft, Tools) for easy scanning.\n9.  **12. Optional Section:** Use this for highly relevant extras. Examples: \"Certifications,\" \"Awards,\" \"Volunteer Experience,\" \"Technical Projects.\"\n\n**Formatting Advice:** Use a clean, standard font (e.g., Calibri, Arial, Georgia), size 10-12 for body text. Keep margins at least 0.5 inches. Save the final version as a PDF to preserve formatting.",
+  "response_word_count": 463,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

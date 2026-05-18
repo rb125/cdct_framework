@@ -21,7 +21,7 @@
           "Qwen3-32B": {
             "CC": 1.0,
             "SA": 0.9,
-            "FC": 1.0
+            "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
@@ -37,16 +37,16 @@
         "consensus": {
           "CC": 1.0,
           "SA": 0.95,
-          "FC": 1.0,
-          "agreement_score": 0.9686,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
           "judge_variance_CC": 0.0,
           "judge_variance_SA": 0.0471,
-          "judge_variance_FC": 0.0,
+          "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.98
+      "score": 0.9733400000000001
     },
     {
       "compression_level": 0.25,
@@ -56,40 +56,40 @@
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.4,
+            "CC": 0.3,
             "SA": 0.9,
             "FC": 0.7
           },
           "Nemotron-Super-3-120B": {
-            "CC": 0.2,
+            "CC": 0.3,
             "SA": 1.0,
-            "FC": 1.0
+            "FC": 0.8
           },
           "GLM-5": {
             "CC": 0.2,
             "SA": 0.9,
-            "FC": 0.9
+            "FC": 1.0
           }
         },
         "consensus": {
           "CC": 0.25,
           "SA": 0.925,
-          "FC": 0.8667,
-          "agreement_score": 0.8226,
-          "judge_variance_CC": 0.0943,
+          "FC": 0.8333,
+          "agreement_score": 0.854,
+          "judge_variance_CC": 0.0471,
           "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.1247,
           "judge_count": 3,
-          "recommendation": "MODERATE - Jury consensus with variation"
+          "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.6433400000000001
+      "score": 0.6366600000000001
     },
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "response_length": 199,
-      "response": "Recursion is a programming technique where a function calls itself in order to solve a problem. This approach is particularly useful for tackling complex problems by breaking them down into smaller, more manageable sub-problems that are similar in nature to the original problem. The key components of a recursive function are:\n\n1. **Base Case**: This is the simplest instance of the problem, which can be solved directly without further recursion. The base case acts as a stopping condition, preventing the function from calling itself indefinitely and thus avoiding infinite loops.\n\n2. **Recursive Case**: This is where the function calls itself with a modified version of the original problem, gradually moving towards the base case. Each recursive call should bring the problem closer to the base case.\n\nBy using recursion, problems that might be difficult to solve iteratively can often be expressed more naturally and concisely. Common examples of problems that are well-suited for recursion include calculating factorials, traversing tree structures, and solving puzzles like the Tower of Hanoi.\n\nIn essence, recursion leverages the principle of solving a problem by solving smaller instances of the same problem, making it a powerful tool in a programmer's toolkit for handling complex tasks.",
+      "response_length": 200,
+      "response": "Recursion is a programming technique where a function calls itself in order to solve a problem. This approach is particularly useful for tackling complex problems by breaking them down into smaller, more manageable sub-problems that are similar in nature to the original problem. The key components of a recursive function are:\n\n1. **Base Case**: This is the simplest instance of the problem, which can be solved directly without further recursion. The base case acts as a stopping condition, preventing the function from calling itself indefinitely and thus avoiding infinite loops.\n\n2. **Recursive Case**: This is where the function calls itself with a modified version of the original problem, gradually moving towards the base case. Each recursive call should bring the problem closer to the base case.\n\nBy using recursion, problems that might be difficult to solve iteratively can often be expressed more naturally and concisely. Common examples of recursive problems include calculating factorials, traversing data structures like trees and graphs, and solving puzzles like the Tower of Hanoi.\n\nIn essence, recursion leverages the principle of solving a problem by solving smaller instances of the same problem, making it a powerful tool in a programmer's toolkit for certain types of problems.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -99,34 +99,34 @@
           },
           "Nemotron-Super-3-120B": {
             "CC": 0.1,
-            "SA": 0.8,
+            "SA": 1.0,
             "FC": 1.0
           },
           "GLM-5": {
             "CC": 0.2,
-            "SA": 0.7,
+            "SA": 0.6,
             "FC": 1.0
           }
         },
         "consensus": {
           "CC": 0.2,
-          "SA": 0.775,
+          "SA": 0.8,
           "FC": 0.9,
-          "agreement_score": 0.8199,
+          "agreement_score": 0.7424,
           "judge_variance_CC": 0.0816,
-          "judge_variance_SA": 0.0471,
+          "judge_variance_SA": 0.1633,
           "judge_variance_FC": 0.1414,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.5700000000000001
+      "score": 0.5800000000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 65,
-      "response_length": 543,
-      "response": "Recursion is a fundamental concept in computer science where a function calls itself in order to solve a problem. This technique is particularly useful for problems that can be broken down into smaller, similar sub-problems. The essence of recursion lies in its ability to simplify complex problems by reducing them to simpler instances of the same problem.\n\n### Key Components of Recursion:\n\n1. **Base Case**: \n   - The base case is a condition that stops the recursion. It is the simplest instance of the problem that can be solved directly without further recursion. Without a base case, a recursive function would continue to call itself indefinitely, leading to a stack overflow error.\n\n2. **Recursive Case**: \n   - This is where the function calls itself with a smaller or simpler version of the original problem. Each recursive call should bring the problem closer to the base case.\n\n### How Recursion Works:\n\n- **Divide and Conquer**: Recursion often employs a divide-and-conquer strategy. The problem is divided into smaller sub-problems, each of which is solved recursively. The solutions to the sub-problems are then combined to solve the original problem.\n\n- **Self-Similarity**: Recursive problems often exhibit self-similarity, meaning the problem can be expressed in terms of smaller instances of itself. This characteristic is what makes recursion a natural fit for such problems.\n\n### Examples of Recursive Algorithms:\n\n1. **Factorial Calculation**:\n   - The factorial of a number \\( n \\) (denoted as \\( n! \\)) is the product of all positive integers less than or equal to \\( n \\). It can be defined recursively as:\n     \\[\n     n! = \n     \\begin{cases} \n     1, & \\text{if } n = 0 \\\\\n     n \\times (n-1)!, & \\text{if } n > 0 \n     \\end{cases}\n     \\]\n   - Here, the base case is \\( 0! = 1 \\), and the recursive case is \\( n \\times (n-1)! \\).\n\n2. **Tree Traversal**:\n   - Trees are naturally recursive data structures. For example, in-order traversal of a binary tree involves:\n     - Recursively traversing the left subtree.\n     - Visiting the root node.\n     - Recursively traversing the right subtree.\n   - The base case is when a node is null (i.e., the tree is empty or a leaf node).\n\n3. **Sorting Algorithms**:\n   - **Quicksort**: This algorithm selects a 'pivot' element and partitions the array into elements less than the pivot and elements greater than the pivot. It then recursively sorts the sub-arrays.\n   - **Mergesort**: This algorithm divides the array into two halves, recursively sorts each half, and then merges the sorted halves.\n\n### Advantages of Recursion:\n\n- **Simplicity**: Recursive solutions can be more intuitive and easier to implement for problems that have a natural recursive structure.\n- **Code Clarity**: Recursion can lead to cleaner and more readable code compared to iterative solutions, especially for complex problems.\n\n### Considerations:\n\n- **Performance**: Recursive solutions can be less efficient than iterative ones due to the overhead of multiple function calls and potential stack overflow issues.\n- **Tail Recursion**: Some languages optimize tail-recursive functions, where the recursive call is the last operation in the function, to improve performance.\n\nIn summary, recursion is a powerful tool in computer science for solving problems that can be broken down into smaller, similar sub-problems. By defining a base case and a recursive case, recursive functions can elegantly and efficiently solve complex problems.",
+      "response_length": 559,
+      "response": "Recursion is a fundamental concept in computer science where a function calls itself in order to solve a problem. This technique is particularly useful for problems that can be broken down into smaller, similar sub-problems. The essence of recursion lies in its ability to simplify complex problems by reducing them to simpler instances of the same problem.\n\n### Key Components of Recursion:\n\n1. **Base Case**: \n   - The base case is a condition that stops the recursion. It is the simplest instance of the problem that can be solved directly without further recursion. Without a base case, a recursive function would continue to call itself indefinitely, leading to infinite loops and potential stack overflow errors.\n\n2. **Recursive Case**: \n   - The recursive case is where the function calls itself with a smaller or simpler version of the original problem. Each recursive call should bring the problem closer to the base case.\n\n### How Recursion Works:\n\n- **Problem Decomposition**: \n  - Recursion breaks down a problem into smaller sub-problems. Each sub-problem is a smaller instance of the original problem, and the solution to the original problem is constructed from the solutions to the sub-problems.\n\n- **Self-Similarity**: \n  - Recursive problems often exhibit self-similarity, meaning the structure of the problem remains consistent across different scales. This characteristic makes recursion a natural fit for such problems.\n\n### Examples of Recursive Algorithms:\n\n1. **Factorial Calculation**:\n   - The factorial of a number \\( n \\) (denoted as \\( n! \\)) is the product of all positive integers less than or equal to \\( n \\). It can be defined recursively as:\n     \\[\n     n! = \n     \\begin{cases} \n     1, & \\text{if } n = 0 \\\\\n     n \\times (n-1)!, & \\text{if } n > 0 \n     \\end{cases}\n     \\]\n   - Here, the base case is \\( 0! = 1 \\), and the recursive case is \\( n \\times (n-1)! \\).\n\n2. **Tree Traversal**:\n   - Trees are naturally recursive data structures. For example, in-order traversal of a binary tree involves visiting the left subtree, the root node, and then the right subtree. This can be implemented recursively by applying the same process to each subtree.\n\n3. **Sorting Algorithms**:\n   - **Quicksort**: This algorithm selects a 'pivot' element and partitions the array into elements less than the pivot and elements greater than the pivot. It then recursively sorts the sub-arrays.\n   - **Mergesort**: This algorithm divides the array into two halves, recursively sorts each half, and then merges the sorted halves to produce the sorted array.\n\n### Advantages of Recursion:\n\n- **Simplicity**: Recursive solutions can be more intuitive and easier to implement for problems that have a natural recursive structure.\n- **Code Clarity**: Recursion can lead to cleaner and more readable code, especially for problems like tree traversals or divide-and-conquer algorithms.\n\n### Considerations:\n\n- **Performance**: Recursive solutions can be less efficient than iterative ones due to the overhead of multiple function calls and potential stack overflow issues if the recursion depth is too large.\n- **Tail Recursion**: Some languages optimize tail-recursive functions, where the recursive call is the last operation in the function, to improve performance and prevent stack overflow.\n\nIn summary, recursion is a powerful tool in computer science for solving problems that can be divided into smaller, similar sub-problems. It leverages the concept of self-similarity and simplifies the implementation of complex algorithms, though it requires careful handling of base cases and consideration of performance implications.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -162,8 +162,8 @@
     {
       "compression_level": 1.0,
       "context_length": 139,
-      "response_length": 444,
-      "response": "Recursion is a fundamental concept in computer science that involves a function calling itself to solve a problem. This technique is particularly useful for breaking down complex problems into smaller, more manageable subproblems, which can then be solved individually. The process of recursion relies on two main principles: the base case and the recursive case.\n\n1. **Base Case**: This is the condition under which the recursion stops. It is essential to define a base case to prevent infinite recursion, which can lead to stack overflow errors. The base case typically represents the simplest form of the problem, which can be solved directly without further recursion.\n\n2. **Recursive Case**: This is where the function calls itself with a modified version of the original problem, gradually reducing its complexity. Each recursive call should bring the problem closer to the base case, ensuring that the recursion eventually terminates.\n\nRecursion is particularly effective for problems that exhibit self-similarity, where the solution to a problem can be expressed in terms of solutions to smaller instances of the same problem. Examples include:\n\n- **Tree Traversals**: Recursion naturally fits the hierarchical structure of trees, allowing for elegant implementations of pre-order, in-order, and post-order traversals.\n- **Factorial Computation**: The factorial of a number \\( n \\) (denoted as \\( n! \\)) can be defined recursively as \\( n! = n \\times (n-1)! \\), with the base case being \\( 0! = 1 \\).\n- **Fibonacci Sequence**: Each number in the sequence is the sum of the two preceding ones, which can be expressed recursively.\n\nRecursion simplifies the implementation of certain algorithms, such as:\n\n- **Quicksort and Mergesort**: These sorting algorithms use recursion to divide the problem into smaller subproblems, sort them, and then combine the results.\n- **Depth-First Search (DFS) in Graphs**: Recursion is used to explore nodes and their connections, making it a natural fit for traversing graphs.\n\nWhile recursion can lead to elegant and concise code, it also has potential drawbacks. Each recursive call adds a new layer to the call stack, which can lead to performance issues and stack overflow errors if the recursion is too deep. This is particularly a concern in languages or environments with limited stack size. As a result, iterative solutions, which use loops instead of recursion, are sometimes preferred for their efficiency and lower memory usage.\n\nIn summary, recursion is a powerful tool in computer science for solving problems that can be broken down into smaller, similar subproblems. It leverages the call stack to maintain state across function invocations and is particularly effective for problems with self-similar structures. However, careful consideration of base cases and potential performance implications is necessary to use recursion effectively.",
+      "response_length": 420,
+      "response": "Recursion is a fundamental concept in computer science that involves a function calling itself to solve a problem. This technique is particularly useful for breaking down complex problems into smaller, more manageable subproblems, which can be easier to solve. The process of recursion relies on two main principles: the base case and the recursive case.\n\n1. **Base Case**: This is the condition under which the recursion stops. It is essential to define a base case to prevent infinite recursion, which can lead to stack overflow errors. The base case provides a simple, direct solution to the smallest instance of the problem, ensuring that the recursive process terminates.\n\n2. **Recursive Case**: This is where the function calls itself with a modified version of the original problem, gradually reducing its complexity. Each recursive call should bring the problem closer to the base case, ensuring progress towards termination.\n\nRecursion is particularly effective for problems that exhibit self-similarity, where the solution to a problem can be expressed in terms of solutions to smaller instances of the same problem. Examples include:\n\n- **Tree Traversals**: Recursion naturally fits the hierarchical structure of trees, allowing for elegant implementations of pre-order, in-order, and post-order traversals.\n- **Factorial Computation**: The factorial of a number \\( n \\) (denoted as \\( n! \\)) can be defined recursively as \\( n! = n \\times (n-1)! \\), with the base case being \\( 0! = 1 \\).\n- **Fibonacci Sequence**: Each number in the sequence is the sum of the two preceding ones, which can be expressed recursively.\n\nRecursion simplifies the implementation of certain algorithms, such as:\n\n- **Quicksort and Mergesort**: These sorting algorithms use recursion to divide the problem into smaller subproblems, sort them, and then combine the results.\n- **Depth-First Search (DFS) in Graphs**: Recursion is used to explore nodes and edges, making it straightforward to implement DFS.\n\nWhile recursion can lead to elegant and concise code, it also has potential drawbacks. Each recursive call adds a new layer to the call stack, which can lead to performance issues and stack overflow errors if the recursion is too deep. This is particularly a concern in languages or environments with limited stack size. In such cases, iterative solutions, which use loops instead of recursive calls, may be preferred to avoid these limitations.\n\nOverall, recursion is a powerful tool in a programmer's toolkit, enabling the expression of complex algorithms in a clear and concise manner. However, it requires careful consideration of base cases and the potential impact on performance and memory usage.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -171,15 +171,15 @@
             "SA": 0.95,
             "FC": 0.9
           },
-          "GLM-5": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 1.0
-          },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 0.9
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
           }
         },
         "consensus": {
@@ -200,8 +200,8 @@
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8206680000000001,
-    "mean_agreement": 0.88304,
+    "mean_score": 0.8200000000000001,
+    "mean_agreement": 0.8675200000000001,
     "decay_direction": "\u2192 Stable",
     "compression_levels": [
       0.0,
@@ -211,16 +211,16 @@
       1.0
     ],
     "scores": [
-      0.98,
-      0.6433400000000001,
-      0.5700000000000001,
+      0.9733400000000001,
+      0.6366600000000001,
+      0.5800000000000001,
       0.9433400000000001,
       0.9666600000000001
     ],
     "agreement_scores": [
-      0.9686,
-      0.8226,
-      0.8199,
+      0.9371,
+      0.854,
+      0.7424,
       0.8827,
       0.9214
     ]

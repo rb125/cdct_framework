@@ -1,0 +1,45 @@
+{
+  "key": 1516,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "craft a 5-line poem in aabba rhyme, binge-watching netflix",
+  "compressed_word_count": 9,
+  "response": "In twilight's grasp, the screen's soft glow,\nBinge-watching Netflix, tales unfold,\nStories of love, of highs and lows,\nIn twilight's grasp, the screen's soft glow,\nNights spent in wonder, secrets told.",
+  "response_word_count": 31,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

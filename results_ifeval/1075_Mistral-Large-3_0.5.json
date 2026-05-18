@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create json ad for new baby diaper, focus on comfort, no commas.",
+  "compressed_word_count": 12,
+  "response": "Here\u2019s a JSON ad for your new baby diaper focusing on comfort without commas:\n\n```json\n{\n  \"ad\": {\n    \"headline\": \"Introducing UltraSoft Baby Diapers\",\n    \"subheadline\": \"The gentlest care for your little one's delicate skin\",\n    \"description\": \"Experience unmatched comfort with our new UltraSoft diapers designed to keep your baby dry happy and irritation-free all day and night\",\n    \"features\": [\n      {\n        \"title\": \"Cloud-Like Softness\",\n        \"detail\": \"Premium ultra-soft materials that feel like a cozy blanket against your baby's skin\"\n      },\n      {\n        \"title\": \"Breathable Layers\",\n        \"detail\": \"Advanced airflow technology prevents overheating and keeps your baby cool and comfortable\"\n      },\n      {\n        \"title\": \"Superior Absorbency\",\n        \"detail\": \"Locks away wetness for up to 12 hours ensuring a dry and peaceful sleep\"\n      },\n      {\n        \"title\": \"Hypoallergenic Protection\",\n        \"detail\": \"Dermatologist-tested and free from harsh chemicals for sensitive skin\"\n      },\n      {\n        \"title\": \"Snug Fit Design\",\n        \"detail\": \"Flexible waistbands and leg cuffs move with your baby for a perfect secure fit without leaks\"\n      }\n    ],\n    \"call_to_action\": \"Give your baby the comfort they deserve Try UltraSoft Diapers today\",\n    \"brand_message\": \"Because every moment with your baby should be soft and worry-free\"\n  }\n}\n```",
+  "response_word_count": 180,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

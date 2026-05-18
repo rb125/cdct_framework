@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "* 4-point breakdown of star wars' popularity\n* cultural impact\n* iconic characters\n* enduring franchise",
+  "compressed_word_count": 16,
+  "response": "# Why Star Wars Became a Cultural Phenomenon\n\n## 1. Revolutionary Filmmaking & Storytelling\nGeorge Lucas blended mythology, samurai films, and classic westerns into a **universal hero's journey** that resonated across cultures. The 1977 original redefined what blockbuster cinema could be, combining groundbreaking special effects with timeless themes of good vs. evil.\n\n---\n\n## 2. Cultural Impact\n- Transformed Hollywood's **blockbuster model** permanently\n- Introduced terms like *\"the Force\"* into everyday language\n- Influenced music, fashion, politics, and philosophy\n- Sparked serious academic study of mythology and film\n\n---\n\n## 3. Iconic Characters\nThe roster created **instantly recognizable archetypes:**\n- **Darth Vader** \u2014 the definitive cinematic villain\n- **Luke, Leia, Han** \u2014 the classic heroic trio\n- **Yoda** \u2014 wisdom distilled into a beloved figure\n- Characters transcend the films into **global symbols**\n\n---\n\n## 4. Enduring Franchise\nStar Wars sustains itself through:\n- **Multiple generations** of new films and TV series\n- Massive merchandising empire\n- Theme parks, games, and expanded universe content\n- Each new entry **introduces younger audiences** while rewarding longtime fans\n\n---\n\n> **Bottom line:** Star Wars succeeded by telling a deeply human story on an impossibly grand scale \u2014 a formula that never gets old.",
+  "response_word_count": 200,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

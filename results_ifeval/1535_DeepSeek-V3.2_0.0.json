@@ -1,0 +1,45 @@
+{
+  "key": 1535,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "cover letter, no caps",
+  "compressed_word_count": 4,
+  "response": "dear hiring manager,\n\ni\u2019m writing to express my interest in the [position name] role at [company name], which i saw advertised on [platform where you saw the posting]. as someone with a background in [your field or a key skill], i was immediately drawn to the opportunity to contribute to a team known for [something specific you admire about the company or its work].\n\nin my previous role at [your current or past company], i focused on [mention one or two key responsibilities or achievements relevant to the new role]. for example, i [describe a specific accomplishment, using numbers if possible]. this experience honed my ability to [mention a key soft or hard skill], which i understand is essential for success in this position.\n\nwhat excites me most about [company name] is your commitment to [mention a specific company value, project, or mission]. my own approach to [relevant aspect of work] aligns closely with this, and i am eager to bring my skills in [mention 1-2 specific skills] to support your goals.\n\ni\u2019ve attached my resume for your review and welcome the chance to discuss how my background and enthusiasm can benefit your team. thank you for your time and consideration.\n\nsincerely,\n\n[your name]",
+  "response_word_count": 204,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_sentences_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

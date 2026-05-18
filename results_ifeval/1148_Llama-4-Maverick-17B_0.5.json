@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "List pros/cons of supernatural powers in json. Use markdown ticks. No commas.",
+  "compressed_word_count": 12,
+  "response": "```json\n{\n  \"pros\": [\n    `Ability to manipulate reality`\n    `Enhanced senses`\n    `Teleportation`\n    `Healing`\n    `Invisibility`\n    `Telepathy`\n    `Precognition`\n  ]\n  \"cons\": [\n    `Unpredictable consequences`\n    `Loss of control`\n    `Attracting unwanted attention`\n    `Moral dilemmas`\n    `Physical or mental strain`\n    `Dependence on powers`\n    `Vulnerability to countermeasures`\n  ]\n}\n```",
+  "response_word_count": 41,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

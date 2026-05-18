@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "create rock song lyrics for 'the gifted and the not gifted' in all caps, avoiding 'rock'.",
+  "compressed_word_count": 16,
+  "response": "(Verse 1)\nTHE SPOTLIGHT FINDS THE FAVORED SON\nHIS EVERY MOVE, A WORK UNDONE\nTHEY CALL IT MAGIC, CALL IT FLAME\nI CALL IT NOTHING BUT A NAME\n\n(Verse 2)\nI WORK IN SHADOWS, COLD AND DAMP\nWITH BLUNTED CHISEL, BENT AND CRAMPED\nFOR EVERY MASTERPIECE THEY SHOW\nA THOUSAND CRACKED FOUNDATIONS GROW\n\n(Chorus)\nSO PLAY YOUR ANTHEM, RAISE YOUR CUP\nTHE WORLD WILL NEVER FILL YOU UP\nAND WHEN THE LAST ECHO HAS DRIFTED\nHERE STANDS THE GIFTED AND THE NOT GIFTED\n\n(Verse 3)\nTHEY BUILD THEIR TOWERS, BRIGHT AND CLEAN\nUPON A MACHINE THEY\u2019VE NEVER SEEN\nA GEAR TURNS IN THE DARK BELOW\nA HEARTBEAT ONLY I CAN KNOW\n\n(Bridge)\nAND IN THE QUIET, IN THE STILL\nA PRESSURE BUILDS, A FORGED WILL\nTHE FURNACE OF THE OVERLOOKED\nFROM UNREMARKABLE, REBOOKED\n\n(Chorus)\nSO PLAY YOUR ANTHEM, RAISE YOUR CUP\nTHE WORLD WILL NEVER FILL YOU UP\nAND WHEN THE LAST ECHO HAS DRIFTED\nHERE STANDS THE GIFTED AND THE NOT GIFTED\n\n(Outro)\nWE ARE THE FRAME AROUND THE ART\nTHE RUSTY NAIL, THE SPLINTERED PART\nTHE GROUND THAT BEARS THE GOLDEN WEIGHT\nTHE HOUR GROWN TOO LATE\nTOO LATE",
+  "response_word_count": 191,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

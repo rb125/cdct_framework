@@ -1,0 +1,43 @@
+{
+  "key": 1645,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "sheldon'S Riddle: name, 10 words, all caps.",
+  "compressed_word_count": 7,
+  "response": "Here\u2019s a 10-word all-caps riddle in Sheldon Cooper\u2019s style:\n\n**\"I\u2019M INVISIBLE, YET YOU SEE ME DAILY. WHAT AM I?\"**\n\n*(Answer: TIME or SHADOW\u2014both fit the \"invisible but seen\" theme!)*\n\nWant a harder one? Try this:\n**\"I SPEAK WITHOUT A MOUTH, HEAR WITHOUT EARS. WHAT AM I?\"** *(Answer: ECHO.)*",
+  "response_word_count": 48,
+  "instruction_id_list": [
+    "change_case:english_capital"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

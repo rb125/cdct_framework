@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Could you tell me what kind of balls are used in tennis? I would like the answer in the form of a medieval style poem with a P.P.S at the end.",
+  "compressed_word_count": 31,
+  "response": "Fair sir or madam, thou seekest to know\nThe balls that doth fly forth in tennis' gentle glow.\n'Tis a tale of felt and rubber, of pressure and might,\nA story of the balls that doth take to the light.\n\nIn days of yore, the balls were made of wood, 'tis true,\nBut now, in modern times, a different tale doth brew.\nThe balls of tennis, they are made with care and art,\nA pressurized core, wrapped in felt, a wondrous start.\n\nThe International Tennis Federation doth decree,\nThe balls must be spherical, with a diameter of 6.7 cm, 'tis the key.\nThe felt, a fuzzy coat, doth help the ball to fly,\nAnd the pressure, a secret mix, doth make it bounce on high.\n\nThe colors, too, are chosen with great care and might,\nYellow and white, a duo, shining bright in the light.\nThe balls, they come in cans, three or four, a merry band,\nReady to be used, in the courts of the land.\n\nThus, fair sir or madam, thou hast the tale,\nOf the balls that doth bring joy, to the tennis trail.\n\nP.S. May thy serves be strong, and thy volleys be fine.\n\nP.P.S. And, prithee, when thou dost play, doth not forget to change the balls, lest they lose their bounce and their might.",
+  "response_word_count": 220,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

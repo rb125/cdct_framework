@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create a product poem, end with P.P.S. note",
+  "compressed_word_count": 8,
+  "response": "**\"Whisper of the Willow\" \u2013 A Product Poem**\n\nOh, seeker of softness, weary of the day,\nLet *Whisper of the Willow* steal your cares away.\nA balm for hands that toil, a kiss for skin so dry,\nLike moonlight on a lake\u2014oh, let its magic lie.\n\n**The Elixir:**\nA blend of honeyed gold and lavender\u2019s sigh,\nInfused with almond\u2019s grace and chamomile\u2019s reply.\nNo harsh or biting sting\u2014just whispers, cool and light,\nTo soothe the cracks of time and make your world feel right.\n\n**The Vessel:**\nA jar of frosted glass, like dawn on winter\u2019s pane,\nWith labels spun from dreams\u2014no ink could quite contain.\nA lid of polished wood, so smooth beneath your touch,\nAs if the earth itself had crafted it with such.\n\n**The Promise:**\nRub once, and feel the weight of years begin to fade,\nTwice more, and watch your hands in youth\u2019s embrace remade.\nNo greasy, cloying film\u2014just silk that lingers there,\nA secret only you and *Willow* choose to share.\n\n**The Ritual:**\nAt dusk, when shadows stretch and stars begin to wake,\nUnscrew the lid and breathe\u2014oh, let the scent partake.\nA dollop on your palm, a circle, slow and wide,\nAs if the night itself were cradling you inside.\n\n**P.S.** For those who dare to dream beyond the common creed,\nAdd three drops to your bath\u2014let *Willow* plant the seed.\nYour skin will drink it in, your soul will hum its tune,\nAnd morning\u2019s light will find you wrapped in silvered moon.\n\n**P.P.S.** (For the skeptics, the cynics, the \"I\u2019ll-try-anything-once\" crew):\nWe know the world\u2019s a mess\u2014your hands are proof enough.\nBut here\u2019s the truth, unvarnished: *Whisper* won\u2019t fix *that*.\nIt won\u2019t pay off your debts or mend a broken heart,\nOr silence all the voices screaming *start, restart*.\n\nBut for five minutes\u2014*just five*\u2014let it be your art.\nA tiny rebellion, soft as falling snow,\nA pocket of stillness where the weary go.\nSo buy it. Use it. Judge it. Hate it if you must.\n(But if you do? Well\u2026 we\u2019ll refund you *dust*.)\n\n\u2014*Whisper of the Willow: Because even miracles need a little help.*",
+  "response_word_count": 351,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

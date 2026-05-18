@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "city vs village rap",
+  "compressed_word_count": 4,
+  "response": "# City vs Village Rap Battle \ud83c\udfa4\n\n---\n\n## \ud83c\udfd9\ufe0f CITY VERSE\n\nYo, I got skyscrapers touching clouds up high\nNeon lights blazing, never say goodbye\nSubway running 24, coffee shops on every block\nWhile you're feeding chickens, I'm around the clock\n\nGot museums, concerts, restaurants galore\nOpportunity knocking at every door\nFast internet, fast life, fast money too\nWhat exactly does your little village do?\n\n---\n\n## \ud83c\udf3e VILLAGE VERSE\n\nSlow down city boy, let me school you right\nI got stars so bright they light up the night\nNo sirens screaming, no horns in my ear\nJust crickets and wind and the atmosphere\n\nMy neighbors know my name, not just my face\nGot fresh air, clean water, and open space\nGrow my own food while you pay ten bucks for bread\nCommunity and peace - enough said\n\n---\n\n## \ud83d\udd25 FINAL EXCHANGE\n\n**City:** Opportunity!\n**Village:** Tranquility!\n**City:** Innovation!\n**Village:** Tradition!\n**Both:** Different worlds... equal worth \ud83e\udd1d\n\n---\n\n*Want me to make it longer, add a beat description, or change the style?*",
+  "response_word_count": 173,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6333333333333333,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.18856180831641267
+    }
+  }
+}

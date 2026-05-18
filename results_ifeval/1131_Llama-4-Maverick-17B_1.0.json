@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a 4 section resume for professional clown Phil Larkin. Each section should be explicitly noted as Section X.",
+  "compressed_word_count": 19,
+  "response": "**Section 1: Summary**\nHigh-energy professional clown with over 10 years of experience in entertaining diverse audiences at corporate events, birthday parties, and parades. Skilled in physical comedy, improvisation, and audience interaction. Possesses a strong background in creating customized performances tailored to specific client needs.\n\n**Section 2: Work Experience**\n- Lead Clown, Laugh-A-Lot Entertainment (2018-Present)\n  - Performed at over 500 events, including corporate parties, birthday celebrations, and parades\n  - Developed and implemented customized comedy routines for clients\n  - Collaborated with event planners to ensure seamless execution of performances\n- Clown, Bozo's Big Top (2015-2018)\n  - Performed in circus shows and interactive comedy sketches\n  - Assisted in the development of new comedy routines and characters\n  - Participated in character development and costume design\n\n**Section 3: Skills**\n- Physical comedy and acrobatics\n- Improvisational comedy and audience interaction\n- Customized performance creation\n- Event planning and coordination\n- Character development and costume design\n- Balloon twisting and face painting\n\n**Section 4: Education and Certifications**\n- Clown School of New York (Graduated 2015)\n  - Completed intensive program in clowning, physical comedy, and improvisation\n- Certified Clown Professional (CCP), World Clown Association (2016)\n  - Demonstrated expertise in clowning techniques, safety protocols, and audience interaction",
+  "response_word_count": 199,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

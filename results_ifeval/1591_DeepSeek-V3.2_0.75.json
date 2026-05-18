@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Compose two angry limericks on moms' struggle to get kids to do chores. Use no commas. Separate with six asterisks (******).",
+  "compressed_word_count": 21,
+  "response": "A mom roared to clean up your room\nBut her child was consumed by gloom\nThe toys on the floor\nIncreased more and more\nHer rage shook the walls with a boom\n\n******\n\nShe demanded the dishes get done\nBut her child thought chores were no fun\nHe fled from the sink\nWith a smirk and a wink\nNow her last weary nerve has come undone",
+  "response_word_count": 66,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

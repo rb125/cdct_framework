@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a detailed review of the movie \"The Social Network\". Your entire response should be in English and all lower case (no capital letters whatsoever).",
+  "compressed_word_count": 25,
+  "response": "the social network, directed by david fincher and written by aaron sorkin, is a compelling and thought-provoking film that delves into the creation of facebook and the complex personality of its founder, mark zuckerberg. the movie is a fascinating blend of drama, technology, and human emotion, making it a must-watch for anyone interested in the story behind one of the world's most influential social media platforms.\n\nthe film opens with zuckerberg, portrayed by jesse eisenberg, as a socially awkward yet brilliant harvard university student. his life takes a dramatic turn when he creates facebook, initially as a way to rank the attractiveness of his female classmates. the platform quickly gains popularity, leading to a series of legal battles with former friends and business partners who claim they were unfairly cut out of the company's success.\n\none of the standout elements of the social network is its screenplay. aaron sorkin's dialogue is sharp, witty, and often biting, capturing the essence of the tech world and the cutthroat nature of silicon valley. the script is filled with memorable lines and confrontations that highlight the moral ambiguities and ethical dilemmas faced by zuckerberg and those around him.\n\ndavid fincher's direction is impeccable, as always. he employs a variety of cinematic techniques to keep the audience engaged, including rapid-fire editing, dynamic camera movements, and a distinctive visual style that blends the coldness of technology with the warmth of human interaction. the use of social media interfaces within the film adds an immersive layer, making the audience feel as though they are part of the digital world being created.\n\nthe cast delivers outstanding performances across the board. jesse eisenberg's portrayal of mark zuckerberg is both nuanced and unsettling. he captures zuckerberg's intelligence and ambition while also conveying his social isolation and moral ambiguity. andrew garfield, as eduardo saverin, zuckerberg's initial business partner, provides a compelling counterpoint, embodying the emotional and financial cost of facebook's success. the supporting cast, including justin timberlake as napster co-founder sean parker, adds depth and complexity to the narrative.\n\nthe social network also raises important questions about the nature of friendship, betrayal, and the price of success. it explores the thin line between innovation and infringement, and the ethical considerations that come with creating something that fundamentally changes the way people interact. the film doesn't shy away from depicting the darker aspects of zuckerberg's character, making him a deeply flawed yet fascinating protagonist.\n\nin conclusion, the social network is a masterful film that offers a gripping and often unsettling look at the birth of facebook and the man behind it. with a brilliant script, exceptional direction, and standout performances, it is a cinematic experience that resonates on multiple levels. whether you're interested in technology, drama, or the human condition, this film has something to offer, making it a timeless piece of modern cinema.",
+  "response_word_count": 472,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1746,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write an essay about the life of Benjamin Franklin. Then summarize your essay into a poem. Separate the essay and the poem with 6 asterisk symbols: ******\nIn other words, your response should have the following form:\n[essay]\n******\n[poem]",
+  "compressed_word_count": 40,
+  "response": "Benjamin Franklin was a true Renaissance man - an American polymath who made lasting impacts in various fields, including science, politics, literature, and diplomacy. Born on January 17, 1706, in Boston, Massachusetts, Franklin was the 15th of 17 children to a family of modest means. Despite the financial constraints, Franklin's love for reading and learning was encouraged by his family, and he was apprenticed to his older brother James, a printer, at the age of 12.\n\nFranklin's early life was marked by his curiosity and passion for self-improvement. He devoured books on various subjects, taught himself to write, and eventually ran away to Philadelphia at the age of 17 to escape his apprenticeship. In Philadelphia, Franklin worked as a printer and eventually established his own printing business, which became a success. He also became involved in the community, founding the Library Company of Philadelphia, the Union Fire Company, and the American Philosophical Society.\n\nFranklin's scientific contributions are perhaps his most enduring legacy. His experiments with electricity led to the invention of the lightning rod, bifocal glasses, and other important discoveries. His famous kite-flying experiment in 1752 demonstrated the connection between lightning and electricity, and his subsequent writings on the subject helped to establish the field of electrical research.\n\nIn addition to his scientific pursuits, Franklin was also a skilled diplomat and politician. He played a leading role in the American Enlightenment and was instrumental in securing French support for the American Revolution. He was a key drafter of the Declaration of Independence and the United States Constitution, and his diplomatic efforts helped to secure American independence from Britain.\n\nThroughout his life, Franklin was committed to public service and civic engagement. He served as Postmaster General for the colonies, helped to establish the United States Postal Service, and was a delegate to the Continental Congress. He was also a prolific writer and printer, publishing the Pennsylvania Gazette and Poor Richard's Almanack, which contained practical advice and witty sayings that remain popular to this day.\n\nFranklin's life was a testament to the power of hard work, curiosity, and a commitment to public service. He died on April 17, 1790, at the age of 84, leaving behind a legacy that continues to inspire Americans to this day.\n\n******\nA life of wonder, a life of might,\nBenjamin Franklin shone with delight,\nFrom printing presses to scientific quest,\nHe left his mark on the world, and did his best.\n\nWith kite in hand, he danced with glee,\nAnd harnessed lightning, a wonder to see,\nBifocal glasses, a gift to our sight,\nA true Renaissance man, in all his light.\n\nA diplomat, a statesman, with a heart so true,\nHe helped to shape a nation, with a vision anew,\nThe Declaration, the Constitution, his hand did guide,\nA legacy that endures, with a spirit that won't subside.\n\nWith Poor Richard's wisdom, he shared his way,\nAnd lit the path, for a brighter day,\nA life of service, a life of might,\nBenjamin Franklin, a shining light.",
+  "response_word_count": 501,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a detailed review of the movie \"The Social Network\". Your entire response should be in English and all lower case (no capital letters whatsoever).",
+  "compressed_word_count": 25,
+  "response": "david fincher's \"the social network\" is a film that feels both incredibly specific to its moment and timeless in its themes. on the surface, it's the story of the creation of facebook, but aaron sorkin's whip-smart, densely layered script and fincher's cold, precise direction turn it into a riveting tragedy about friendship, betrayal, class, and the dizzying speed of modern ambition.\n\nthe film is structured around two lawsuits: the winkelvoss twins (armie hammer) and their partner divya narendra (max minghella) suing mark zuckerberg (jesse eisenberg) for stealing their idea, and his former best friend and facebook co-founder eduardo saverin (andrew garfield) suing him for being forced out of the company. these legal depositions frame a series of flashbacks that show the messy, often cruel, genesis of the social network.\n\njesse eisenberg's performance as mark zuckerberg is a masterclass in controlled, intelligent alienation. he speaks in a rapid, relentless cadence, his mind always several steps ahead of everyone in the room, yet he is emotionally stunted, unable to connect in the very way his creation promises to facilitate. andrew garfield's eduardo is the heart of the film, the audience's entry point. his journey from loyal friend to betrayed partner is genuinely heartbreaking. justin timberlake, as sean parker, is perfectly cast as the seductive, chaotic spirit of silicon valley hype, the pied piper who leads mark away from eduardo's more cautious business sense.\n\nthe technical aspects are flawless. fincher's direction is characteristically sleek and dark, with a muted color palette that makes the harvard courtyards and silicon valley parties feel equally sterile and intense. the score by trent reznor and atticus ross is a pulsating, electronic masterpiece that underscores the anxiety and isolation of the characters, becoming the sound of code being written and empires being built in dorm rooms.\n\nwhat makes \"the social network\" endure is that it's not really about facebook. it's about the price of success and the loneliness of genius. it's about the intoxicating desire to belong and the simultaneous urge to reject the very clubs that won't have you. mark creates a global community to get into a final club, and in doing so, he destroys his only real friendship. the final, haunting image of him endlessly refreshing the profile page of his ex-girlfriend, the person who sparked his spiteful initial idea, is devastating. he's the youngest billionaire in the world, and he is utterly, completely alone.\n\nthe film is a modern-day \"citizen kane,\" a portrait of a man who builds an empire but loses his soul. it's a caustic, brilliant, and endlessly rewatchable examination of how connection and alienation are two sides of the same digital coin. it remains one of the defining films of the 21st century.",
+  "response_word_count": 452,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a rap about a new smartphone. At the end of your response add a postscript starting with P.P.S The response must contain at least 6 placeholders represented by square brackets.",
+  "compressed_word_count": 31,
+  "response": "**\ud83c\udfa4 \"The Glow-Up Anthem\" \ud83c\udfa4**\n\n*(Verse 1)*\nYo, step in the game with the [brand] flex,\nScreen so crisp, got the haters vexed.\n[Number] cameras, yeah, we shootin\u2019 stars,\nNight mode poppin\u2019 like a supercar.\n\n*(Pre-Chorus)*\nNo lag, no freeze, just pure speed,\n[Feature] so smooth, it\u2019s a tech elite.\nDrop the [model name], yeah, it\u2019s next gen,\nBattery last like a [celebrity] tour\u2014no end.\n\n*(Chorus)*\nGlow-up, glow-up, yeah, we switchin\u2019 lanes,\nFrom the [old phone] to the [new phone] reign.\nTouch so light, feels like magic,\nFuture in my palm\u2014yeah, it\u2019s tragic (for the competition).\n\n*(Verse 2)*\n[Processor] beast, no cap, no lie,\nGames run faster than a [sports car] fly.\n[Storage] big like a [landmark] view,\nStore your dreams\u2014yeah, we breakin\u2019 through.\n\n*(Bridge)*\nWireless charge, just set it down,\n[Feature] so clean, it\u2019s wearin\u2019 the crown.\nFace ID? Nah, we [biometric upgrade],\nUnlock it quick like a [action movie] escape.\n\n*(Outro)*\nSo bow to the throne, yeah, we takin\u2019 the lead,\n[Brand] got the sauce, now the game\u2019s obsolete.\nDrop the mic\u2014*click*\u2014yeah, we done,\nNew era begun\u2026 *screen fades to black*.\n\n---\n**P.P.S.** \ud83d\udd25 *Just in case you missed it\u2014this rap\u2019s got [number] placeholders for you to flex your own specs! Swap \u2018em out and make it your anthem. And if you\u2019re feelin\u2019 extra, tag [social media handle] with your remix. #GlowUpGang* \ud83d\udd25",
+  "response_word_count": 225,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

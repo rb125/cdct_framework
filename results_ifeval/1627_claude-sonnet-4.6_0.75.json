@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\nWrite a plot for a story about two people who swap fingerprints. Include <<swapping fates>> as title. No commas in the plot.",
+  "compressed_word_count": 51,
+  "response": "<<Swapping Fates>>\n\nDr. Elena Marsh is a brilliant but overworked forensic scientist who has spent years building a spotless reputation. Marcus Vane is a notorious art thief who has evaded capture for over a decade. Their worlds collide when a shadowy underground surgeon offers them both a radical procedure: a complete fingerprint transplant.\n\nElena agrees to the swap because she believes it will help her go undercover and finally expose a dangerous criminal syndicate that murdered her sister. Marcus agrees because he wants to start a new life free from his criminal past and the dangerous people hunting him down.\n\nAfter the procedure both characters quickly realize the swap has created devastating complications. Elena finds herself being arrested for crimes Marcus committed years ago. Meanwhile Marcus is trusted with access to high-security forensic labs and government databases because everyone believes he is Elena.\n\nAs they navigate their switched identities they must work together secretly to clear their names and dismantle the syndicate before a ruthless detective named Harlow pieces together the truth. The tension builds when Marcus begins to genuinely admire Elena's moral courage and Elena starts to understand the desperate circumstances that drove Marcus to a life of crime.\n\nIn the climax they must decide whether to reverse the procedure or permanently live as each other in order to survive. Their final choice forces both of them to confront who they truly are beneath their skin.",
+  "response_word_count": 237,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.42426406871192857,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

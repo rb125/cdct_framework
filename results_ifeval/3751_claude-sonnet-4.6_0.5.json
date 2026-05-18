@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Is 'Happy Birthday' the first song sung in space? Answer with 'yes,' 'no,' or'maybe.'",
+  "compressed_word_count": 14,
+  "response": "**Yes.**\n\n\"Happy Birthday\" is widely reported to be the first song sung in space. Astronauts Wally Schirra and Gordon Cooper sang it during the *Gemini 6* mission in December 1965.",
+  "response_word_count": 30,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

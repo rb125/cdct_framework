@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "I really love the album called Lilith. I want to introduce it to my friend Luheng. Draft an email for it. Add a postscript to your response that starts with P.S.",
+  "compressed_word_count": 31,
+  "response": "Here's a draft email for you:\n\n---\n\n**Subject: You Have to Listen to This Album \u2013 Lilith!**\n\nHey Luheng,\n\nI hope you're doing well! I wanted to reach out because I've been completely obsessed with an album lately and I just *had* to share it with you.\n\nThe album is called **Lilith**, and honestly, it has been on repeat for me. There's something so captivating about it \u2014 the sound, the atmosphere, the emotion behind every track. I really think it's the kind of music that stays with you long after you've finished listening.\n\nI'd love for you to give it a listen and let me know what you think! I think you might really enjoy it, and I'm excited to hear your thoughts. Maybe we can even chat about it over coffee sometime!\n\nLet me know once you've had a chance to check it out.\n\nTalk soon,\n[Your Name]\n\n---\n\nP.S. I should mention that I'm not entirely sure which specific artist or version of *Lilith* you're referring to, so you may want to add the artist's name or a streaming link to the email so Luheng knows exactly which album to look up!",
+  "response_word_count": 195,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

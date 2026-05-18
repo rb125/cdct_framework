@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Convert the sentence into an email format, ensuring it includes at least 10 placeholders like [name]. Use square brackets: The boots are warm but a little uncomfortable.",
+  "compressed_word_count": 27,
+  "response": "**Subject: Feedback on Your [Product Name] Boots**\n\nDear [Customer Name],\n\nThank you for your recent purchase from [Company Name]. We hope you are enjoying your new [Product Color] boots from our [Product Line] collection.\n\nWe are writing to follow up on your experience. We received your feedback stating, **\"The boots are warm but a little uncomfortable.\"**\n\nYour input is invaluable to us at [Department Name]. To help us improve, could you please provide a few more details?\n\n1.  Which specific size did you order, [Product Size]?\n2.  How would you rate the fit on a scale from [Rating Scale]?\n3.  Are the boots uncomfortable in a particular area, such as the [Specific Area]?\n4.  How long have you been wearing them, [Time Period]?\n5.  May we have your order number, [Order Number]?\n\nWe would like to address this for you. Please contact our support team at [Support Email] or [Support Phone Number] at your earliest convenience. A member of our team, like [Representative Name], would be happy to assist.\n\nAs a token of our appreciation for your feedback, please accept this [Discount Code] for your next purchase on [Website URL].\n\nSincerely,\n\nThe [Company Name] Team\n\n[Your Name]\n[Your Title]\n[Company Address]",
+  "response_word_count": 201,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

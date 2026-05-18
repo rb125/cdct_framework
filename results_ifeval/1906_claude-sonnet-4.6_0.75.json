@@ -1,0 +1,43 @@
+{
+  "key": 1906,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Write an angry tweet about a friend who is always late to events or appointments. draft a 280-char rant on social media, no emojis, direct, no sarcasm, focus on frustration over chronic lateness",
+  "compressed_word_count": 33,
+  "response": "\"You have been late to every single plan we have made this year. Not once, not twice, EVERY TIME. My time has value. Showing up late repeatedly tells me you do not respect that. I am done rearranging my schedule to accommodate your carelessness.\"",
+  "response_word_count": 44,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

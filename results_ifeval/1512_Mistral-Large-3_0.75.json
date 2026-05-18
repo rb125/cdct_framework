@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "create a forum thread with short sentences about local news wait. no commas. use [username] placeholders at least 20 times.",
+  "compressed_word_count": 20,
+  "response": "**Thread Title: \"Local News Wait What\u2019s Happening Here?\"**\n\n**[Username1]:** Hey everyone just saw the news about the new park opening downtown\n**[Username2]:** Wait what park I didn\u2019t hear anything about this\n**[Username3]:** Seriously [Username2] it\u2019s been all over the local page for weeks\n**[Username4]:** Yeah [Username3] but where is it exactly I drive by that area all the time\n**[Username5]:** It\u2019s near the old library spot [Username4] they finally finished construction\n**[Username6]:** Oh wow [Username5] I thought that was just another empty lot forever\n**[Username7]:** Does anyone know if they\u2019re adding a playground [Username1]?\n**[Username8]:** No idea [Username7] but I hope so my kids need somewhere to go\n**[Username9]:** Speaking of local news did anyone hear about the power outage last night\n**[Username10]:** What power outage [Username9] my lights were fine\n**[Username11]:** Mine too [Username10] but [Username12] posted about it in the neighborhood group\n**[Username12]:** Yeah [Username11] it was just a few streets over near the grocery store\n**[Username13]:** That\u2019s weird [Username12] I live right there and didn\u2019t notice anything\n**[Username14]:** Maybe it was a quick flicker [Username13] happens sometimes\n**[Username15]:** Okay real talk [Username14] did anyone else see the giant sinkhole on Maple Street\n**[Username16]:** WHAT SINKHOLE [Username15] I take that route to work every day\n**[Username17]:** Oh no [Username16] it\u2019s bad they closed the whole road\n**[Username18]:** How big is it [Username17] like car-swallowing big\n**[Username19]:** Not that bad [Username18] but definitely a hazard for bikes\n**[Username20]:** Wait [Username19] is this the same spot where they were fixing pipes last month\n**[Username21]:** Probably [Username20] the city never finishes anything right\n**[Username22]:** Ugh [Username21] I\u2019m so tired of these half-done projects\n**[Username23]:** Same [Username22] but hey at least the new coffee shop opened\n**[Username24]:** Oh yeah [Username23] finally someone decent near my house\n**[Username25]:** Agreed [Username24] but did they really need to raise prices that much\n**[Username26]:** Seriously [Username25] I\u2019m sticking to my old spot now\n**[Username27]:** Alright [Username26] anyone else have weird local news to share\n**[Username28]:** I got nothing [Username27] but I\u2019ll be watching this thread now\n\n**End of thread.**",
+  "response_word_count": 343,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

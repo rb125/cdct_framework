@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "moon landing propaganda? answer yes/no/maybe",
+  "compressed_word_count": 5,
+  "response": "**No.**\n\nThe moon landing was not propaganda. On July 20, 1969, NASA's Apollo 11 mission successfully landed astronauts Neil Armstrong and Buzz Aldrin on the moon, with Armstrong becoming the first human to set foot on its surface. Extensive evidence supports this event, including telemetry data, photographs, rock samples, and third-party tracking from countries like the Soviet Union. While conspiracy theories exist, the overwhelming body of evidence and international verification confirm the authenticity of the moon landing.",
+  "response_word_count": 77,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

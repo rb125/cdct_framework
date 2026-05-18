@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "letter, all caps",
+  "compressed_word_count": 3,
+  "response": "Here\u2019s a formal letter in all caps:\n\n---\n\n**YOUR NAME**\n**YOUR ADDRESS**\n**CITY, STATE, ZIP CODE**\n**YOUR EMAIL**\n**YOUR PHONE NUMBER**\n**DATE**\n\n**RECIPIENT'S NAME**\n**RECIPIENT'S TITLE (IF APPLICABLE)**\n**COMPANY/ORGANIZATION NAME**\n**ADDRESS**\n**CITY, STATE, ZIP CODE**\n\n**SUBJECT: [BRIEF DESCRIPTION OF THE LETTER'S PURPOSE]**\n\nDEAR [RECIPIENT'S NAME OR \"SIR/MADAM\"],\n\n[OPENING PARAGRAPH: STATE THE PURPOSE OF YOUR LETTER CLEARLY.]\n\n[BODY PARAGRAPHS: PROVIDE DETAILS, SUPPORTING INFORMATION, OR REQUESTS. KEEP IT CONCISE AND PROFESSIONAL.]\n\n[CLOSING PARAGRAPH: SUMMARIZE YOUR REQUEST OR THANK THE RECIPIENT.]\n\nSINCERELY,\n**YOUR NAME**\n\n---\n\n**EXAMPLE (JOB APPLICATION):**\n---\n**JANE DOE**\n**123 MAIN STREET**\n**NEW YORK, NY 10001**\n**JANEDOE@EMAIL.COM**\n**555-123-4567**\n**JUNE 10, 2024**\n\n**HIRING MANAGER**\n**ABC COMPANY**\n**456 BUSINESS AVENUE**\n**NEW YORK, NY 10002**\n\n**SUBJECT: APPLICATION FOR MARKETING COORDINATOR POSITION**\n\nDEAR HIRING MANAGER,\n\nI AM WRITING TO EXPRESS MY INTEREST IN THE MARKETING COORDINATOR POSITION ADVERTISED ON YOUR WEBSITE. WITH OVER THREE YEARS OF EXPERIENCE IN DIGITAL MARKETING AND A PROVEN TRACK RECORD OF SUCCESSFUL CAMPAIGN MANAGEMENT, I AM CONFIDENT IN MY ABILITY TO CONTRIBUTE EFFECTIVELY TO YOUR TEAM.\n\nIN MY PREVIOUS ROLE AT XYZ CORPORATION, I LED A TEAM THAT INCREASED SOCIAL MEDIA ENGAGEMENT BY 40% AND STREAMLINED EMAIL MARKETING PROCESSES, RESULTING IN A 25% INCREASE IN OPEN RATES. MY SKILLS IN DATA ANALYSIS, CONTENT CREATION, AND PROJECT MANAGEMENT ALIGN WELL WITH THE REQUIREMENTS OUTLINED IN YOUR JOB DESCRIPTION.\n\nI WOULD WELCOME THE OPPORTUNITY TO DISCUSS HOW MY BACKGROUND AND SKILLS CAN BENEFIT ABC COMPANY. PLEASE FIND MY RESUME ATTACHED FOR YOUR REVIEW. THANK YOU FOR YOUR TIME AND CONSIDERATION.\n\nSINCERELY,\n**JANE DOE**\n\n---",
+  "response_word_count": 252,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

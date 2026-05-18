@@ -1,0 +1,43 @@
+{
+  "key": 227,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "compare poodle size to golden retriever; respond with \"my answer is yes\" or \"my answer is no",
+  "compressed_word_count": 17,
+  "response": "To compare the size of a poodle to a Golden Retriever, we need to consider the various sizes of poodles (Toy, Miniature, Standard) and the standard size of a Golden Retriever.\n\n1. **Toy Poodle**: Typically weighs between 6-14 pounds (3-6 kg) and stands about 10 inches (25 cm) tall.\n2. **Miniature Poodle**: Usually weighs between 15-17 pounds (7-7.7 kg) and stands about 11-14 inches (28-35.5 cm) tall.\n3. **Standard Poodle**: Weighs between 40-70 pounds (18-32 kg) and stands about 15-20 inches (38-51 cm) tall, though some can be larger.\n\nA **Golden Retriever** typically weighs between 55-75 pounds (25-34 kg) and stands about 20-24 inches (51-61 cm) tall.\n\n- A Toy or Miniature Poodle is smaller than a Golden Retriever.\n- A Standard Poodle can be somewhat comparable in size to a Golden Retriever but is generally shorter and potentially lighter.\n\nConsidering the question is not specific about the size of the poodle, the comparison can vary. However, if we consider the general statement, it is not universally true that a poodle is the same size as a Golden Retriever due to the range of poodle sizes.\n\nMy answer is no.",
+  "response_word_count": 190,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7999999999999999,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.21602468994692867,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

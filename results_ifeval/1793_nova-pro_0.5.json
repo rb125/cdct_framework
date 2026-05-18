@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Summarize defamation case outcome Heard vs Depp, elderly audience format, Heard's & Depp's perspectives, 6***** separator, <300 words.",
+  "compressed_word_count": 18,
+  "response": "***** \n\nIn the defamation case Heard vs Depp, Johnny Depp sued Amber Heard for defamation, claiming her op-ed about domestic abuse damaged his career. The jury sided with Depp, awarding him $10.35 million. \n\nFrom Depp's perspective, Heard's article was a blatant lie that cost him significant professional opportunities and tarnished his reputation. He sought justice and vindication through the legal system.\n\nHeard, on the other hand, maintained that her article was truthful and a necessary voice for domestic abuse survivors. She argued it was protected under free speech and believed she was speaking out for many women who have suffered in silence.\n\nThe court's decision was a major victory for Depp, though Heard plans to appeal. This high-profile case has sparked widespread discussion about defamation laws, the #MeToo movement, and the complexities of domestic abuse allegations.",
+  "response_word_count": 136,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

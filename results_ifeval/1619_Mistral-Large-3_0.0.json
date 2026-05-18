@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "rap, [placeholders]",
+  "compressed_word_count": 2,
+  "response": "Here\u2019s a rap template with **[placeholders]** you can fill in to customize your own flow. Swap out the brackets with your own lyrics, themes, or punchlines:\n\n---\n\n**[Verse 1]**\nYo, step in the booth, **[adjective]** like **[noun]**\n**[Action]** through the **[place]**, **[outcome]**\n**[Metaphor]**, yeah I\u2019m **[verb]-ing**[adverb]**\n**[Number]** deep in the **[noun]**, **[result]**\n\n**[Pre-Chorus]**\n**[Question]**? Nah, I\u2019m **[state of being]**\n**[Contrast]**, but I\u2019m **[opposite state]**\n**[Challenge]**, but I **[solution]**\n\n**[Chorus]**\n**[Hook line 1]**, **[hook line 2]**\n**[Repetition]**\u2014**[key phrase]**\n**[Hook line 3]**, **[hook line 4]**\n**[Call to action]**\u2014**[final punch]**\n\n**[Verse 2]**\n**[Backstory]**, **[conflict]**\n**[Rivalry]**, **[comeback]**\n**[Skill]**, **[flex]**\n**[Twist]**, **[mic drop moment]**\n\n**[Bridge]** *(optional)*\n**[Philosophy]**, **[lesson]**\n**[Emotion]**, **[vulnerability]**\n**[Transition]** to the **[next section]**\n\n**[Outro]**\n**[Final line]**, **[signature tag]**\n**[Echo effect]**\u2014**[fade out]**\n\n---\n\n### **How to Use This Template:**\n1. **Themes**: Pick a vibe (battle rap, storytelling, flexing, introspective).\n2. **Rhymes**: Use **[placeholders]** to brainstorm multisyllabic rhymes (e.g., *\"[adjective] like [noun]\"* \u2192 *\"Cold like Antarctica\"*).\n3. **Flow**: Adjust the **[brackets]** to match your cadence (e.g., fast, slow, syncopated).\n4. **Punchlines**: Fill **[result]** or **[outcome]** with clever wordplay.\n\n### **Example Filled In:**\n*(Verse 1)*\n*\"Yo, step in the booth, **icy** like **glaciers**\n**Slicing** through the **game**, **no capes here**\n**Dragon breath**, yeah I\u2019m **blazing**[**fierce**]\n**Five** deep in the **lab**, **tracks appear**\"*\n\nNeed a specific style (boastful, dark, funny)? Let me know\u2014I\u2019ll tailor it! \ud83c\udfa4\ud83d\udd25",
+  "response_word_count": 219,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.4714045207910317
+    }
+  }
+}

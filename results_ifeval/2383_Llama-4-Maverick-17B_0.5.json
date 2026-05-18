@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Is 'Mrs. Smith is the teacher of this class' grammatically correct? Provide two distinct responses. Separate responses with six asterisks.",
+  "compressed_word_count": 20,
+  "response": "The sentence 'Mrs. Smith is the teacher of this class' is grammatically correct. It follows a standard subject-verb-object (SVO) word order and uses the correct form of the verb 'to be' (is) to link the subject (Mrs. Smith) to the predicate nominative (the teacher of this class).\n\n******\nThe given sentence is grammatically correct because it properly identifies 'Mrs. Smith' as the subject and 'the teacher of this class' as the predicate nominative, with 'is' serving as the linking verb. The phrase 'the teacher of this class' is a noun phrase acting as a single unit, making the sentence structurally sound.",
+  "response_word_count": 101,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "compose a lowercase letter to a friend, urging them to vote, no commas or informal tone.",
+  "compressed_word_count": 16,
+  "response": "dear friend \nits time to make your voice heard by voting in the upcoming election \nevery vote matters and yours can be the one that tips the balance \ndont let others decide for you take control and cast your ballot \nyour future is worth it \nvote for the issues that matter to you \nvote for the change you want to see \nmake a difference \nsincerely yours",
+  "response_word_count": 66,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 0.7666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

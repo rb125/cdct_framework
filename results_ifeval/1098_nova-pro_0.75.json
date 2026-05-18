@@ -1,0 +1,43 @@
+{
+  "key": 1098,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Provide two distinct names for God, separated by six asterisks: ******.",
+  "compressed_word_count": 11,
+  "response": "Certainly! Here are two distinct names for God, separated by six asterisks:\n\nEl Shaddai ****** Jehovah-Nissi",
+  "response_word_count": 16,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

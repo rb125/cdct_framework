@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Compose two angry limericks on moms' struggle with kids' chores; use *** for separation.",
+  "compressed_word_count": 14,
+  "response": "Here are two fiery limericks about the daily battle of moms and kids' chores\u2014enjoy (or commiserate)!\n\n---\n\n***1***\nThere once was a mom, full of cheer,\nTill chores turned her mood to severe.\n*\"Just pick up your socks!\"*\n(They ignored like dumb rocks.)\nNow she yells\u2014*\"I\u2019M TIRED OF THIS FEAR!\"*\n\n***2***\nA kid left his plate by the sink,\nSaid, *\"Mom, I\u2019ll do it\u2014just think!\"*\nBut weeks turned to dust,\nWhile she fumed, *\"You\u2019re unjust!\"*\nNow the dishes are stacked to the brink!\n\n---",
+  "response_word_count": 84,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1139,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write funny haiku about moms with \"mom\" and \"mother\"\nfunny haiku moms, no rhymes",
+  "compressed_word_count": 14,
+  "response": "Mother's wisdom, \nMom's laugh echoes loud,\nLife's comic relief.\n\nMom's cooking fails, \nMother's love, still warm,\nLaughter in the air.\n\nMother's stern gaze, \nMom's playful wink hides,\nChaos, joy entwined.\n\nMom's fashion sense, \nMother's quirky style,\nHilarity blooms.\n\nMother's advice, \nMom's sarcastic quips,\nWisdom wrapped in humor.\n\nMom's dance moves, \nMother's graceful fail,\nLaughter fills the room.\n\nMother's stories, \nMom's exaggerated tales,\nHilarity unfolds.\n\nMom's DIY, \nMother's creative mess,\nLaughter in the chaos.\n\nMother's jokes, \nMom's puns, groan-worthy,\nLaughter shared, hearts light.\n\nMom's road trips, \nMother's navigation fails,\nAdventures unfold.\n\nMother's hugs, \nMom's warm, silly embrace,\nLaughter in her arms.\n\nMom's selfies, \nMother's funny poses,\nLaughter captured forever.\n\nMother's wisdom, \nMom's hilarious advice,\nLaughter and love blend.",
+  "response_word_count": 117,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

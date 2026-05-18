@@ -1,0 +1,43 @@
+{
+  "key": 1098,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Names for God; two distinct; *****",
+  "compressed_word_count": 6,
+  "response": "Certainly! Here are two distinct names for God, each with its own significance and connotation:\n\n### 1. **El Shaddai**\n- **Origin:** Hebrew\n- **Meaning:** \"God Almighty\" or \"God of the Mountain\"\n- **Significance:** This name emphasizes God's omnipotence and sovereignty. It is often associated with God's power to bless and provide. In the Bible, El Shaddai is one of the names God reveals to Moses.\n\n### 2. **Yahweh**\n- **Origin:** Hebrew\n- **Meaning:** \"I AM\" or \"The Eternal One\"\n- **Significance:** Yahweh is the personal name of God revealed to Moses in the burning bush (Exodus 3:14). It signifies God's self-existence and eternal nature. This name underscores God's unchanging and everlasting presence.\n\nBoth names highlight different aspects of God's character and nature, offering a deeper understanding of His attributes and relationship with humanity.",
+  "response_word_count": 133,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

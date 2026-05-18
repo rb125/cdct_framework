@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "What is the difference between the 13 colonies and the other British colonies in North America? Your answer must contain exactly 6 bullet point in Markdown using the following format:\n* Bullet point one.\n* Bullet point two.\n...\n* Bullet point fix.",
+  "compressed_word_count": 43,
+  "response": "* The 13 colonies were located along the eastern coast of present-day United States, while other British colonies were spread across North America, including Canada and the Caribbean.\n* The 13 colonies were primarily settled by English colonists, whereas other British colonies had more diverse populations, including French, Spanish, and indigenous peoples.\n* The 13 colonies had a greater degree of self-governance and representation in the British Parliament compared to other British colonies.\n* The 13 colonies were more economically interdependent, with a focus on agriculture and trade, while other British colonies had more varied economies, including fur trading and mining.\n* The 13 colonies were more unified in their resistance to British rule, leading to the American Revolution, while other British colonies had varying levels of loyalty to the British Crown.\n* The 13 colonies eventually formed the United States of America, while other British colonies remained under British rule or became part of other nations.",
+  "response_word_count": 157,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

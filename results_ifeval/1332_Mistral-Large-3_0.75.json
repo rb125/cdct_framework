@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft 7-day itineraries for India and China, tabulating them separately, with 6 asterisks ******* in between.",
+  "compressed_word_count": 16,
+  "response": "Here are two **7-day itineraries** for **India** and **China**, presented in tabular form with a separator of **six asterisks** in between.\n\n---\n\n### **India (7-Day Itinerary)**\n| **Day** | **Destination**       | **Highlights**                                                                 |\n|---------|-----------------------|-------------------------------------------------------------------------------|\n| 1       | **Delhi**             | Red Fort, Jama Masjid, Chandni Chowk, Humayun\u2019s Tomb, India Gate (evening)    |\n| 2       | **Agra**              | Taj Mahal (sunrise), Agra Fort, Mehtab Bagh (Taj view at sunset)             |\n| 3       | **Jaipur**            | Amber Fort, Hawa Mahal, City Palace, Jantar Mantar, Jal Mahal (evening)      |\n| 4       | **Jaipur**            | Nahargarh Fort, Local bazaars (shopping), Chokhi Dhani (cultural village)    |\n| 5       | **Udaipur**           | City Palace, Lake Pichola boat ride, Jagdish Temple, Saheliyon-ki-Bari       |\n| 6       | **Udaipur**           | Fateh Sagar Lake, Monsoon Palace, Shilpgram (handicrafts village)            |\n| 7       | **Delhi**             | Qutub Minar, Lotus Temple, Akshardham Temple, Departure                      |\n\n******\n******\n******\n\n### **China (7-Day Itinerary)**\n| **Day** | **Destination**       | **Highlights**                                                                 |\n|---------|-----------------------|-------------------------------------------------------------------------------|\n| 1       | **Beijing**           | Tiananmen Square, Forbidden City, Jingshan Park, Hutong tour (rickshaw ride) |\n| 2       | **Beijing**           | Great Wall (Mutianyu or Badaling), Summer Palace, Temple of Heaven            |\n| 3       | **Xi\u2019an**             | Terracotta Warriors, Muslim Quarter, Ancient City Wall (bike ride)            |\n| 4       | **Xi\u2019an**             | Big Wild Goose Pagoda, Shaanxi History Museum, Tang Dynasty Show (evening)    |\n| 5       | **Chengdu**           | Chengdu Panda Base, Jinli Ancient Street, Sichuan Opera (face-changing show) |\n| 6       | **Chengdu \u2192 Shanghai**| Leshan Giant Buddha (optional), Fly to Shanghai                              |\n| 7       | **Shanghai**          | The Bund, Yu Garden, Nanjing Road, Shanghai Tower (skyline views)            |\n\n---\n\nWould you like any modifications (e.g., budget-friendly options, luxury upgrades, or theme-based itineraries)?",
+  "response_word_count": 281,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

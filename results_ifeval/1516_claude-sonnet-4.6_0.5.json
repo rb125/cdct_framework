@@ -1,0 +1,45 @@
+{
+  "key": 1516,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "craft a 5-line poem in aabba rhyme, binge-watching netflix",
+  "compressed_word_count": 9,
+  "response": "Here is a 5-line poem in AABBA rhyme about binge-watching Netflix:\n\nThe remote control clutched in my hand so tight,\nEpisode after episode deep into the night,\nThe blanket pulled close,\nMore snacks than a host,\nOne more episode, then I'll turn off the light.",
+  "response_word_count": 45,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

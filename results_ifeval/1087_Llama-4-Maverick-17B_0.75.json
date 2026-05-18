@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a detailed review of \"the social network\" in all lower case, english only",
+  "compressed_word_count": 14,
+  "response": "\"the social network\" is a film that masterfully weaves together the story of facebook's inception and the tumultuous journey of its founder, mark zuckerberg. directed by david fincher, the movie is a riveting exploration of the complexities of human relationships, the cutthroat world of technology, and the consequences of ambition.\n\nthe film's narrative is presented in a non-linear fashion, jumping back and forth between different periods in zuckerberg's life. this non-linear storytelling adds to the complexity of the film, making it a engaging and thought-provoking watch. the screenplay, written by aaron sorkin, is witty and incisive, with a keen eye for detail and a deep understanding of the characters and their motivations.\n\nthe cast of \"the social network\" delivers outstanding performances across the board. jesse eisenberg shines as mark zuckerberg, capturing the character's intensity, awkwardness, and ambition with remarkable nuance. andrew garfield and justin timberlake also deliver memorable performances as eduardo saverin and sean parker, respectively. the chemistry between the actors is palpable, and their portrayals of the complex relationships between the characters are convincing and compelling.\n\none of the standout aspects of \"the social network\" is its cinematography. fincher's direction is meticulous, and the film's visuals are stunning. the use of lighting, camera angles, and composition all contribute to a visually striking narrative that draws the viewer in. the score, composed by trent reznor and atticus ross, is equally impressive, adding to the film's tension and emotional depth.\n\nthe film's exploration of the themes of friendship, betrayal, and the consequences of success is both thought-provoking and timely. \"the social network\" raises important questions about the nature of ambition, the costs of success, and the complexities of human relationships in the digital age. the movie's portrayal of the cutthroat world of technology and the intense rivalries that can develop between individuals is both captivating and unsettling.\n\noverall, \"the social network\" is a gripping and thought-provoking film that is both a compelling drama and a fascinating exploration of the world of technology. with its outstanding performances, stunning cinematography, and incisive screenplay, it is a must-see for anyone interested in the story of facebook and the complexities of human relationships in the digital age.",
+  "response_word_count": 362,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

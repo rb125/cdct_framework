@@ -1,0 +1,45 @@
+{
+  "key": 1122,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "tweet, hashtags",
+  "compressed_word_count": 2,
+  "response": "\"Just spent the day at the beach, soaking up the sun and watching the waves! #BeachLife #SummerVibes #CoastalEscape\"",
+  "response_word_count": 18,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1922,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "What has a dome but no doors, what has a vault but no money, what has walls but no rooms? What am I? Try to be funny and give me a funny answer.\n\n\n\"Funny riddle, no doors, vault, walls?",
+  "compressed_word_count": 39,
+  "response": "Ah, this classic riddle is describing **an egg**\u2014but since you asked for a funny answer, here are some *eggs-tra* hilarious alternatives:\n\n1. **\"A bald man\u2019s head\u2014dome? Check. Vault? Well, it\u2019s *empty* like a bank vault after a heist. Walls? Just his ears holding up the roof!\"**\n\n2. **\"A politician\u2019s promises\u2014dome (big empty head), vault (full of hot air), walls (of lies). No rooms\u2026 unless you count the *room* they leave for disappointment.\"**\n\n3. **\"A pi\u00f1ata\u2014dome? Yep. Vault? Oh, it\u2019s *loaded*\u2026 until you smash it. Walls? Just papier-m\u00e2ch\u00e9 holding in the candy (or the crushing despair when it\u2019s just raisins).\"**\n\n4. **\"My ex\u2019s apartment\u2014dome (ceiling), vault (security deposit *gone*), walls (thin enough to hear them moving on). No rooms\u2026 just regrets.\"**\n\n5. **\"A snow globe\u2014dome? Check. Vault? Full of *fake* snow (and shattered dreams). Walls? Glass, but no rooms\u2026 just a tiny plastic family trapped in eternal winter.\"**\n\n**Real answer:** An egg (or a mushroom, or a bell, depending on the version).\n**Funniest answer:** *\"A COVID-era Zoom call\u2014dome (your face on screen), vault (full of awkward silences), walls (the \u2018Leave Meeting\u2019 button taunting you). No rooms\u2026 just existential dread.\"*\n\nWant me to crack another one? \ud83e\udd5a\ud83d\ude06",
+  "response_word_count": 195,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

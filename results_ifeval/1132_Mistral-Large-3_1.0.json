@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+  "compressed_word_count": 38,
+  "response": "**\"LIGHTNING IN THE DARK\"**\n*(BY THE GIFTED AND THE NOT GIFTED)*\n\n**[VERSE 1]**\nI HEARD THE THUNDER CRACK THE SKY,\nA FIRE INSIDE THAT WON\u2019T DIE.\nNO CHAINS CAN HOLD THIS SOUL ALIVE,\nI BURN BRIGHTER WHEN THE WORLD SAYS \"TRY!\"\n\n**[PRE-CHORUS]**\nTHEY TOLD ME SLOW DOWN, PLAY IT SAFE,\nBUT I WAS BORN WITH A REBEL\u2019S GRAVE.\nNO RULES, NO NAMES, JUST THIS FLAME,\nI\u2019LL BREAK THE NIGHT\u2014WATCH ME BLAZE!\n\n**[CHORUS]**\nOHHH, WE\u2019RE LIGHTNING IN THE DARK,\nA STORM YOU CAN\u2019T IGNORE, A SPARK!\nNO FADING OUT, NO TURNING BACK,\nWE\u2019LL SHATTER EVERYTHING THEY HACKED!\n\n**[VERSE 2]**\nSTEEL STRINGS SCREAM MY NAME,\nA WHISPER LOUDER THAN THE SHAME.\nTHEY BUILT THE WALLS, I BROKE THE DOOR,\nNOW THE FLOOR\u2019S ON FIRE\u2014YOU WANT MORE?\n\n**[PRE-CHORUS]**\nTHEY SAID \"BE QUIET, FALL IN LINE,\"\nBUT I WAS BORN TO CROSS THE LINE.\nNO FEAR, NO FADE, JUST THIS TRADE,\nI\u2019LL BURN THE MAP\u2014LEAVE NO TRACE!\n\n**[CHORUS]**\nOHHH, WE\u2019RE LIGHTNING IN THE DARK,\nA STORM YOU CAN\u2019T IGNORE, A SPARK!\nNO FADING OUT, NO TURNING BACK,\nWE\u2019LL SHATTER EVERYTHING THEY HACKED!\n\n**[BRIDGE]**\n(DRUMS EXPLODE, GUITARS SCREECH)\nI\u2019M THE SCREAM IN THE SILENCE,\nTHE CRACK IN THEIR DEFENSE!\nNO KING, NO CROWN, JUST THIS SOUND\u2014\nI\u2019LL TEAR THE ROOF OFF, LET IT COME DOWN!\n\n**[OUTRO]**\nOHHH, WE\u2019RE LIGHTNING IN THE DARK,\nA FORCE THEY CAN\u2019T MARK!\nNO END, NO PAUSE, JUST THIS ROAR\u2014\nTHE GIFTED AND THE NOT GIFTED WILL RISE ONCE MORE!\n\n*(GUITAR SOLO SCREAMS INTO THE ABYSS\u2026 THEN SILENCE.)*",
+  "response_word_count": 247,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

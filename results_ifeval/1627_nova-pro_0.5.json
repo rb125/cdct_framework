@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<fingerprint swap thriller>> plot with no commas",
+  "compressed_word_count": 36,
+  "response": "Two strangers with nothing in common find themselves in a life-changing situation when they accidentally swap fingerprints during a chaotic event at a crowded airport. Jane a hardworking detective is on the brink of solving a high-profile case while Max a charming con artist is on the run from his past. The mix-up leads to a series of misunderstandings and dangerous encounters as Jane is suddenly implicated in Max's criminal activities and Max finds himself with access to Jane's secure files. As they navigate this unexpected twist of fate Jane and Max must work together to clear their names and unravel the mystery behind the fingerprint swap. Along the way they discover that their differences may be their greatest asset in outsmarting a common enemy.",
+  "response_word_count": 125,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

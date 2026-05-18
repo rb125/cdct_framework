@@ -1,0 +1,43 @@
+{
+  "key": 1518,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "I am a software engineer with 7 years of experience, and I am looking for a new job. Can you create a resume for me and explain each section?\n\ncreate resume, no jargon, explain acronyms",
+  "compressed_word_count": 35,
+  "response": "Of course. Here is a clear, effective resume template designed for a software engineer with 7 years of experience, followed by a detailed explanation of each section.\n\n---\n\n### **[Your Name]**\n[City, State] | [Phone Number] | [Email Address] | [LinkedIn Profile URL] | [GitHub Profile URL]\n\n---\n\n#### **PROFESSIONAL SUMMARY**\nA dedicated software engineer with 7 years of experience designing, developing, and maintaining scalable software applications. Proven ability to lead projects from concept to deployment, improve system performance, and collaborate effectively within cross-functional teams. Seeking a challenging role to apply technical expertise and problem-solving skills.\n\n---\n\n#### **TECHNICAL SKILLES**\n*   **Languages:** Java, Python, JavaScript (ES6+), SQL (Structured Query Language)\n*   **Frameworks & Libraries:** Spring Boot, React, Node.js\n*   **Databases:** PostgreSQL, MongoDB\n*   **Tools & Platforms:** Git, Docker, AWS (Amazon Web Services), Jenkins, Kubernetes\n*   **Concepts:** RESTful APIs (Application Programming Interfaces), Microservices, Agile/Scrum, CI/CD (Continuous Integration/Continuous Deployment)\n\n---\n\n#### **PROFESSIONAL EXPERIENCE**\n\n**Senior Software Engineer** | Tech Solutions Inc. | San Francisco, CA | June 2020 \u2013 Present\n*   Led the design and development of a new microservices-based payment processing system using Java and Spring Boot, reducing transaction latency by 40%.\n*   Built and maintained RESTful APIs consumed by front-end React applications and external partner services.\n*   Mentored 3 junior engineers through code reviews and pair programming, improving team code quality and onboarding efficiency.\n*   Implemented CI/CD pipelines using Jenkins and Docker, automating the deployment process and reducing manual release time by 70%.\n\n**Software Engineer** | InnovateStartup LLC | Austin, TX | August 2017 \u2013 May 2020\n*   Developed full-stack web application features using Python (backend) and JavaScript/React (frontend), directly contributing to a 15% increase in user engagement.\n*   Collaborated with product managers and designers in an Agile environment to translate business requirements into technical tasks.\n*   Optimized database queries and application code, improving overall application response time by 25%.\n*   Wrote unit and integration tests, increasing code coverage for critical services from 65% to 90%.\n\n---\n\n#### **EDUCATION**\nBachelor of Science in Computer Science\nUniversity of Texas at Austin | Austin, TX | Graduated: May 2017\n\n---\n\n#### **PROJECTS**\n**Personal Finance Tracker** (Personal Project)\n*   A full-stack web application built with React, Node.js, and PostgreSQL. Allows users to visualize spending habits and set budgets.\n*   **Key Achievement:** Implemented secure user authentication and data encryption for financial data.\n\n---\n\n---\n\n### **Section-by-Section Explanation**\n\n**1. Header**\n*   **Purpose:** Your contact information. It should be immediately visible.\n*   **Tips:** Use a professional email (ideally your name). Include links to your LinkedIn and GitHub profiles, as recruiters will actively look for them.\n\n**2. Professional Summary**\n*   **Purpose:** A 3-4 line elevator pitch that summarizes your total experience, key strengths, and career goal.\n*   **Explanation:** Instead of a generic \"I am a hard worker,\" it states your experience level, core competencies (designing, developing, leading), and the type of role you want. It's a quick, powerful introduction.\n\n**3. Technical Skills**\n*   **Purpose:** A scannable list for recruiters and automated tracking systems (ATS) to quickly see if you have the required technologies.\n*   **Acronyms Explained:**\n    *   **SQL (Structured Query Language):** The standard language for communicating with and managing databases.\n    *   **AWS (Amazon Web Services):** A cloud computing platform used for hosting applications and services.\n    *   **CI/CD (Continuous Integration/Continuous Deployment):** A development practice where code changes are automatically built, tested, and prepared for release, leading to faster and more reliable software updates.\n*   **Tips:** Group skills logically. Only list technologies you are comfortable discussing in an interview.\n\n**4. Professional Experience**\n*   **Purpose:** The core of your resume. It demonstrates *how* you applied your skills to create value for previous employers.\n*   **Structure:** For each job, list your title, company, location, and dates. Use 3-5 bullet points.\n*   **Key Strategy:** Use **Action Verbs** (Led, Built, Mentored, Implemented, Developed) and the **Challenge-Action-Result (CAR)** method.\n    *   **Example:** \"**Optimized database queries** (Action) to **improve application response time by 25%** (Result).\"\n*   **Why it Works:** This shows you're not just a task-completer, but a results-oriented engineer who understands impact.\n\n**5. Education**\n*   **Purpose:** Establishes your formal foundation. For someone with 7 years of experience, this section is brief.\n*   **Tips:** List your degree, university, location, and graduation year. You generally do not need to list GPA after several years of experience.\n\n**6. Projects**\n*   **Purpose:** Especially important if you want to showcase skills not used in your current job, or to demonstrate initiative and passion for coding.\n*   **Tips:** Briefly describe the project, the technologies you used, and a **Key Achievement** or measurable outcome, just like in your work experience.\n\n### **Final Advice for Your Job Search:**\n*   **Tailor Your Resume:** For each job application, slightly adjust your **Professional Summary** and **Skills** section to match the keywords in the job description.\n*   **Quantify Everything:** As shown in the examples, numbers (40% reduction, 3 junior engineers, 70% time saved) are powerful and provide concrete proof of your abilities.\n*   **Prepare Your Stories:** Each bullet point on your resume should be a story you can tell in an interview. Be ready to explain the context, your specific action, and the positive result.\n\nGood luck with your job search",
+  "response_word_count": 853,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

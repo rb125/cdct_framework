@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 7-day itineraries for India, China; separate with 6 asterisks.",
+  "compressed_word_count": 10,
+  "response": "**India 7-Day Itinerary**\n\nDay 1: Arrival in Delhi\n- Arrive at Indira Gandhi International Airport\n- Check-in to your hotel and explore the nearby areas\n\nDay 2: Explore Delhi\n- Visit the Red Fort, a UNESCO World Heritage Site\n- Explore the Qutub Minar, another UNESCO World Heritage Site\n- Visit the India Gate, a war memorial\n\nDay 3: Delhi to Agra\n- Take a train or drive to Agra\n- Visit the Taj Mahal, a UNESCO World Heritage Site\n- Explore the Agra Fort, a UNESCO World Heritage Site\n\nDay 4: Agra\n- Visit the Fatehpur Sikri, a deserted city\n- Explore the local markets for handicrafts and souvenirs\n\nDay 5: Agra to Jaipur\n- Take a train or drive to Jaipur\n- Visit the Amber Fort, a UNESCO World Heritage Site\n- Explore the City Palace, a royal residence\n\nDay 6: Jaipur\n- Visit the Hawa Mahal, a palace with intricate architecture\n- Explore the Jantar Mantar, an astronomical observatory\n\nDay 7: Departure from Jaipur\n- Spend the morning shopping for souvenirs\n- Depart from Jaipur International Airport\n\n******\n \n**China 7-Day Itinerary**\n\nDay 1: Arrival in Beijing\n- Arrive at Beijing Capital International Airport\n- Check-in to your hotel and explore the nearby areas\n\nDay 2: Explore Beijing\n- Visit the Great Wall of China, a UNESCO World Heritage Site\n- Explore the Forbidden City, a UNESCO World Heritage Site\n\nDay 3: Beijing\n- Visit the Temple of Heaven, a UNESCO World Heritage Site\n- Explore the Beijing Hutongs, traditional neighborhoods\n\nDay 4: Beijing to Xi'an\n- Take a flight to Xi'an\n- Visit the Terracotta Warriors, a UNESCO World Heritage Site\n\nDay 5: Xi'an\n- Explore the Xi'an City Wall, a well-preserved ancient city wall\n- Visit the Big Wild Goose Pagoda, a Buddhist pagoda\n\nDay 6: Xi'an\n- Explore the Muslim Quarter, a historic neighborhood\n- Visit the Shaanxi History Museum, a museum showcasing Chinese history\n\nDay 7: Departure from Xi'an\n- Spend the morning shopping for souvenirs\n- Depart from Xi'an Xianyang International Airport",
+  "response_word_count": 339,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.85,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7833333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.20949675149960892,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

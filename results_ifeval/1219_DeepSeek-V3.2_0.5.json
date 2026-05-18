@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "compare prada vs nike sneakers in english, 10+ times 'sneaker', end with P.S.",
+  "compressed_word_count": 13,
+  "response": "When considering a new **sneaker**, the choice between Prada and Nike represents a fascinating split between high fashion and athletic heritage. Each **sneaker** brand caters to a distinct audience with a unique **sneaker** philosophy.\n\nNike, as a **sneaker** giant, is synonymous with innovation and performance. Every Nike **sneaker** is often built with cutting-edge technology for comfort and sport. The iconic **sneaker** styles from Nike, like the Air Force 1 or Dunk, are cultural pillars. Buying a Nike **sneaker** typically means prioritizing function, legacy, and versatile style.\n\nConversely, a Prada **sneaker** is an immediate luxury statement. This **sneaker** is a symbol of high-end materials and meticulous Italian craftsmanship. The design of a Prada **sneaker** often focuses on minimalist fashion and premium aesthetics over athletic performance. Owning this type of **sneaker** is about elevating an outfit with a designer label.\n\nUltimately, your perfect **sneaker** depends on priority: choose Nike for iconic sportswear and tech, or select Prada for a luxury fashion **sneaker**. Both will deliver a standout **sneaker**, but from opposite ends of the spectrum.\n\nP.S. Whether you lace up a performance-ready **sneaker** or a polished designer **sneaker**, the best choice is the one that aligns with your personal style and the occasion.",
+  "response_word_count": 201,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

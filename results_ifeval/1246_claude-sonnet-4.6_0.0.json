@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "poem template, p.p.s.",
+  "compressed_word_count": 3,
+  "response": "# P.P.S.\n\n*a poem template*\n\n---\n\n**P.**\n\n[the first thing you meant to say\nbefore you said anything]\n\n---\n\n**P.S.**\n\n[the thing you almost forgot \u2014\nthe real reason you wrote at all]\n\n---\n\n**P.P.S.**\n\n[the thing you couldn't help adding\nafter you'd already said goodbye twice \u2014\n\nthe one that gives everything away]\n\n---\n\n*Instructions: Fill in the brackets, or don't.\nThe structure already knows what you're trying to say.*",
+  "response_word_count": 71,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

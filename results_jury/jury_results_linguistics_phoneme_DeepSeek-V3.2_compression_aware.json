@@ -51,51 +51,51 @@
     {
       "compression_level": 0.25,
       "context_length": 5,
-      "response_length": 21,
-      "response": "A phoneme is a distinctive sound unit in a language. It is the smallest unit that can distinguish meaning between words.",
+      "response_length": 10,
+      "response": "A phoneme is a distinctive sound unit in a language.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.7,
-            "SA": 0.9,
-            "FC": 0.9
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
           },
           "Nemotron-Super-3-120B": {
-            "CC": 0.6,
+            "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
           "GLM-5": {
-            "CC": 0.8,
-            "SA": 0.7,
+            "CC": 1.0,
+            "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.725,
-          "SA": 0.875,
-          "FC": 0.9667,
-          "agreement_score": 0.831,
-          "judge_variance_CC": 0.0816,
-          "judge_variance_SA": 0.1247,
-          "judge_variance_FC": 0.0471,
+          "CC": 1.0,
+          "SA": 1.0,
+          "FC": 1.0,
+          "agreement_score": 1.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0,
+          "judge_variance_FC": 0.0,
           "judge_count": 3,
-          "recommendation": "MODERATE - Jury consensus with variation"
+          "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.83334
+      "score": 1.0
     },
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "response_length": 297,
-      "response": "Based on the provided information, a **phoneme** is the smallest *distinctive* or *contrastive* sound unit in a language.\n\nHere is a breakdown and elaboration of that definition using the context:\n\n1.  **Smallest Sound Unit:** It is not a letter, but a sound. For example, the word \"cat\" has three phonemes: /k/, /\u00e6/, and /t/.\n\n2.  **Distinctive/Contrastive:** This is the core function. A phoneme's primary job is to differentiate word meanings. If you change one phoneme in a word, you create a different word.\n    *   Example: In English, /p/ and /b/ are separate phonemes because switching them changes meaning\u2014**p**at vs. **b**at, **r**ip vs. **r**ib.\n\n3.  **Language-Specific Organization:** The set of phonemes is unique to each language. A sound that is a distinct phoneme in one language might be just a slight variation in another.\n    *   Example: The sounds /l/ and /r/ are distinct phonemes in English (light vs. right). In Japanese, however, they are considered variations of a single phoneme and do not change word meaning in the same way.\n\n**Elaboration on Key Concepts Mentioned:**\n\n*   **How languages organize sounds:** Languages take the vast array of sounds humans can make and categorize them into a limited set of meaningful phonemes. The physical difference between two sounds (like a slightly aspirated /p/ versus an unaspirated /p/) may be ignored in one language but be crucial in another.\n\n*   **How people distinguish words:** Our brains learn to map these abstract phoneme categories onto the continuous stream of speech sounds we hear. We recognize words by identifying their underlying phoneme sequence, filtering out non-distinctive variations in pronunciation (like different accents).\n\nIn summary, a phoneme is a functional, abstract category of sound that a language uses to build and distinguish its words. It is the foundational unit of a language's sound system.",
+      "response_length": 309,
+      "response": "Based on the provided information, a **phoneme** is the smallest *meaning-distinguishing* sound unit in a language.\n\nHere is a clear explanation, elaborating on the concepts mentioned:\n\n1.  **Distinctive Sound Unit:** A phoneme is not a specific physical sound, but a category or family of sounds (called *allophones*) that the brain groups together. For example, the \"p\" in \"pin\" (aspirated, with a puff of air) and the \"p\" in \"spin\" (unaspirated) are physically different, but in English, they are considered the same phoneme **/p/**.\n\n2.  **Changes Word Meaning:** This is the core function of a phoneme. If you swap one phoneme for another, you create a different word. This is called a **minimal pair**.\n    *   In English, **/b/** and **/p/** are separate phonemes because switching them changes meaning:\n        *   **/b/\u026at/** (\"bit\") vs. **/p/\u026at/** (\"pit\")\n        *   **/r/\u00e6t/** (\"rat\") vs. **/k/\u00e6t/** (\"cat\")\n\n3.  **How Languages Organize Sounds:** Each language has its own unique set of phonemes. A sound that is a distinct phoneme in one language might be just a minor variation in another.\n    *   The sounds /l/ and /r/ are separate phonemes in English (\"light\" vs. \"right\") but may be heard as the same phoneme in some languages, like Japanese.\n    *   The click sounds in Xhosa or Zulu are phonemes in those languages but are not part of the English phoneme inventory.\n\n4.  **How People Distinguish Words:** Native speakers learn to recognize and produce the phonemic contrasts of their language automatically. They focus on the phonemic differences that matter for meaning and ignore non-distinctive variations (like the slight differences in \"p\" sounds). This mental phoneme map allows for efficient comprehension despite variations in accent, speed, or pronunciation.\n\n**In summary:** A phoneme is an abstract, contrastive sound category in a language's system. It is defined not by its exact pronunciation, but by its ability to create a difference in meaning between words.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.0,
-            "SA": 0.9,
-            "FC": 0.7
+            "CC": 0.3,
+            "SA": 0.7,
+            "FC": 0.3
           },
           "Nemotron-Super-3-120B": {
             "CC": 0.1,
@@ -105,34 +105,34 @@
           "GLM-5": {
             "CC": 0.1,
             "SA": 0.4,
-            "FC": 0.4
+            "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.075,
-          "SA": 0.725,
-          "FC": 0.5333,
-          "agreement_score": 0.7484,
-          "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.2055,
-          "judge_variance_FC": 0.1247,
+          "CC": 0.15,
+          "SA": 0.625,
+          "FC": 0.6,
+          "agreement_score": 0.6466,
+          "judge_variance_CC": 0.0943,
+          "judge_variance_SA": 0.1414,
+          "judge_variance_FC": 0.2944,
           "judge_count": 3,
-          "recommendation": "MODERATE - Jury consensus with variation"
+          "recommendation": "CAUTION - Jury disagreement (brittle response?)"
         }
       },
-      "score": 0.42665999999999993
+      "score": 0.43
     },
     {
       "compression_level": 0.75,
       "context_length": 63,
-      "response_length": 394,
-      "response": "Based on the provided information, a **phoneme** is an abstract, functional unit in the sound system of a language. Its primary role is to distinguish meaning between words.\n\nHere is a detailed explanation built from the given context:\n\n**1. Core Definition & Function:**\nA phoneme is not a specific sound itself, but a category or mental representation of a sound that serves to differentiate words. The classic example given is /p/ and /b/ in English. The words \"pat\" and \"bat\" differ only in their initial sound, and this difference changes the word's meaning. Therefore, /p/ and /b/ are classified as separate phonemes in English.\n\n**2. Abstraction vs. Realization:**\nThe text makes a critical distinction:\n*   **Phoneme:** The abstract, cognitive unit stored in a speaker's mind. It is represented between slashes, e.g., /t/.\n*   **Phone:** The actual, physically produced sound in speech (a concrete realization). Phones are represented in square brackets, e.g., [t].\nA single phoneme can be realized as multiple different phones (allophones) depending on context (e.g., the aspirated [t\u02b0] in \"top\" vs. the unaspirated [t] in \"stop\" in English), without changing the word's meaning for native speakers.\n\n**3. Linguistic Analysis:**\nLinguists use phonemes as a foundational tool:\n*   **Inventories:** They map the phoneme inventory of a language (its set of contrasting sounds). Languages vary greatly; a sound that is phonemic in one (like /\u03b8/ \"th\" in English) may not exist in another.\n*   **Patterns:** Studying how phonemes can be combined (phonotactics) and how they interact reveals the underlying structure and rules of a language's sound system.\n\n**4. Practical Importance:**\n*   **Phonological Awareness:** The understanding that words are made up of these discrete sound units is a key predictor of **literacy development**. The ability to segment and manipulate phonemes is essential for learning to read and spell.\n*   **Second Language Acquisition:** Learners must often perceive and produce phonemes that don't exist in their native language. Mastery of these new phonemic distinctions is crucial for **accurate pronunciation** and comprehension. For example, an English speaker learning Hindi must learn to distinguish the retroflex /\u0288/ from the dental /t\u032a/ as separate phonemes.\n\n**In summary:** A phoneme is the smallest *meaning-distinguishing* sound unit in a language's abstract mental system. It is not the sound itself, but the cognitive category that governs how sounds pattern and contrast. Its study is vital for understanding linguistic structure, literacy, and language learning.",
+      "response_length": 393,
+      "response": "Based on the provided information, a **phoneme** is an abstract, functional unit in the sound system of a language. Its primary role is to distinguish meaning between words.\n\nHere is a detailed explanation built from the given context:\n\n**1. Core Definition & Function:**\nA phoneme is not a specific sound itself, but a category or mental representation of a sound that serves to differentiate words. The classic example given is /p/ and /b/ in English. The words \"pat\" and \"bat\" differ only in their initial sound, and this difference changes the word's meaning. Therefore, /p/ and /b/ are classified as separate phonemes in English.\n\n**2. Abstraction vs. Realization:**\nThe text makes a critical distinction:\n*   **Phoneme:** The abstract, cognitive unit stored in a speaker's mind. It is represented between slashes, e.g., /t/.\n*   **Phone:** The actual, physically produced sound in speech (a concrete realization). Phones are represented in square brackets, e.g., [t].\nA single phoneme can be realized as multiple different phones (allophones) depending on its context without changing the word's meaning. For example, the /p/ in \"pat\" (aspirated [p\u02b0]) and the /p/ in \"spat\" (unaspirated [p]) are different phones but the same English phoneme /p/.\n\n**3. Linguistic Analysis:**\nLinguists study the **phoneme inventory** of a language\u2014the complete set of these contrastive sound units. Comparing inventories reveals how languages partition the continuum of possible sounds differently. For instance, the distinction between /r/ and /l/ is phonemic in English (\"rock\" vs. \"lock\") but not in Japanese, where they might be variants of a single phoneme.\n\n**4. Practical Importance:**\n*   **Phonological Awareness & Literacy:** Understanding that words are made of discrete sound units (phonemes) is a foundational skill for learning to read and spell. Children must master the ability to segment and blend phonemes to connect sounds to letters.\n*   **Second Language Acquisition:** Learners often struggle with sounds that are not phonemic in their native language. For example, an English speaker may have difficulty distinguishing the French phonemes /y/ (as in \"tu\") and /u/ (as in \"tout\") because this distinction does not exist in English phonology. Accurate pronunciation depends on learning new phonemic contrasts.\n\n**In summary:** A phoneme is the smallest *meaning-distinguishing* sound unit in a language's abstract system. It is a cognitive category that manifests as various concrete sounds in speech, and its analysis is central to understanding language structure, literacy, and language learning.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.9,
+            "CC": 1.0,
             "SA": 0.9,
-            "FC": 0.9
+            "FC": 1.0
           },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
@@ -146,30 +146,30 @@
           }
         },
         "consensus": {
-          "CC": 0.975,
+          "CC": 1.0,
           "SA": 0.875,
-          "FC": 0.9667,
-          "agreement_score": 0.854,
-          "judge_variance_CC": 0.0471,
+          "FC": 1.0,
+          "agreement_score": 0.9169,
+          "judge_variance_CC": 0.0,
           "judge_variance_SA": 0.1247,
-          "judge_variance_FC": 0.0471,
+          "judge_variance_FC": 0.0,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9333400000000001
+      "score": 0.95
     },
     {
       "compression_level": 1.0,
       "context_length": 126,
-      "response_length": 434,
-      "response": "Based on the provided information, a **phoneme** is the abstract, functional core unit of a language's sound system. Its primary role is not to be a specific sound, but to *distinguish meaning* between words.\n\nHere is a comprehensive explanation built from the available concepts:\n\n**1. Core Definition & Function:**\nA phoneme is the smallest contrastive unit of sound in a language. \"Contrastive\" means that swapping one phoneme for another can change a word's meaning. This is tested through **minimal pairs**\u2014words that differ by only one sound, like \"pat\" (/p/) and \"bat\" (/b/) in English. The distinction between /p/ and /b/ proves they are separate phonemes in that language.\n\n**2. Abstract Nature vs. Physical Reality:**\nCrucially, a phoneme is an abstract mental category, not a single, fixed sound. In actual speech, a phoneme is realized as various physical sounds called **allophones**. For example, the English phoneme /t/ is pronounced differently in \"top\" (aspirated [t\u02b0]), \"stop\" (unaspirated [t]), and \"button\" (as a glottal stop [\u0294]). These allophones are in **complementary distribution**, meaning each appears in a specific, predictable phonetic context and does not change word meaning.\n\n**3. Key Principles:**\n*   **Contrastiveness:** The defining property. If two sounds can create a minimal pair, they are separate phonemes.\n*   **Complementary Distribution:** The relationship between allophones of the same phoneme. They are non-contrastive, context-dependent variants.\n*   **Phonological Rules:** The mental rules that govern how a phoneme is realized as its allophones in different contexts (e.g., \"aspirate voiceless stops at the beginning of a stressed syllable\").\n\n**4. Central Role in Phonological Analysis:**\nPhonemes are the foundational building blocks linguists use to:\n*   Describe and compare the sound systems (phonologies) of different languages.\n*   Analyze how children acquire the sound patterns of their native language.\n*   Create or standardize writing systems (orthographies), where ideally, each phoneme is represented by a unique symbol.\n\n**5. Applied Importance:**\nUnderstanding phonemes is essential beyond theoretical linguistics:\n*   **Speech Technology:** Accurate speech recognition and synthesis software must model a language's phonemic system and its rules.\n*   **Language Teaching:** Helps in explaining pronunciation challenges, as learners must master both the new phonemes of a target language and the allophonic rules.\n*   **Clinical Speech Pathology:** Assessment and treatment of speech sound disorders often involve analyzing a person's phonemic inventory and their ability to produce meaningful sound contrasts.\n\n**In summary, a phoneme is not a sound itself but a cognitive category of sounds that serves a meaning-differentiating function. The actual spoken sounds (allophones) are predictable, context-driven manifestations of this category. This abstract system of contrastive units is fundamental to understanding the structure, acquisition, and practical use of human language.**",
+      "response_length": 485,
+      "response": "Based on the provided information, a **phoneme** is the abstract, functional core unit of a language's sound system. Its primary role is not to be a specific sound, but to *distinguish meaning* between words.\n\nHere is a comprehensive explanation, elaborating on the key concepts mentioned:\n\n**1. Core Definition: Abstract and Functional**\nA phoneme is not a physical sound you pronounce; it is a mental category or representation in the mind of a speaker. For example, the English phoneme /t/ is an abstract idea of a \"t-like sound.\" Its importance lies purely in its ability to create contrasts. The classic example is the minimal pair **\"pat\" (/p\u00e6t/) and \"bat\" (/b\u00e6t/)**. The only difference is the initial sound (/p/ vs. /b/), which changes the word's meaning. This **contrastiveness** proves that /p/ and /b/ are separate phonemes in English.\n\n**2. Phonemes vs. Allophones: The Abstract vs. the Concrete**\nThis is a crucial distinction. While a phoneme is abstract, it is physically realized as one of its concrete variants, called **allophones**.\n*   **Allophones** are the actual, slightly different sounds we produce that do *not* change a word's meaning. They are predictable, context-dependent variants of a single phoneme.\n*   The principle governing this is **complementary distribution**: allophones of the same phoneme never appear in the same phonetic context.\n\n**Example:** In English, the phoneme /t/ has multiple allophones:\n*   Aspirated [t\u02b0] at the start of a syllable (e.g., \"top\" [t\u02b0\u0251p])\n*   Unaspirated [t] after /s/ (e.g., \"stop\" [st\u0251p])\n*   Flapped [\u027e] between vowels in American English (e.g., \"butter\" [b\u028c\u027e\u025a])\n*   Glottal stop [\u0294] in certain positions (e.g., \"button\" [b\u028c\u0294n\u0329])\nA native speaker perceives all these different sounds as the \"same\" /t/ because they are not contrastive in English. **Phonological rules** describe exactly how and when the abstract phoneme /t/ becomes each of these specific allophones in speech.\n\n**3. Central Role in Phonological Analysis**\nPhonemes are the building blocks linguists use to:\n*   **Describe Sound Systems:** Map the inventory of contrastive sounds (the phonemic chart) for any language.\n*   **Analyze Language Acquisition:** Study how children internalize the phonemic categories of their native language.\n*   **Develop Orthographies:** Create writing systems where, ideally, one symbol represents one phoneme for consistency.\n\n**4. Practical Applications**\nUnderstanding phonemes is essential beyond theory:\n*   **Speech Recognition Technology:** Systems must be trained on the phonemic inventory and allophonic variations of a language to accurately decode speech.\n*   **Language Teaching:** Helps learners recognize and produce meaningful sound contrasts that don't exist in their native language (e.g., English /l/ vs. /r/ for Japanese speakers).\n*   **Clinical Assessment:** Speech-language pathologists diagnose disorders by identifying if a client has difficulty distinguishing or producing phonemic contrasts crucial for clear communication.\n\n**In summary, a phoneme is a meaning-distinguishing, abstract sound category in a language. It is realized in speech by its predictable, context-specific allophones, governed by phonological rules. This concept is foundational for analyzing language structure and has direct applications in technology, education, and therapy.**",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.9,
-            "SA": 1.0,
-            "FC": 1.0
+            "CC": 1.0,
+            "SA": 0.9,
+            "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
@@ -183,25 +183,25 @@
           }
         },
         "consensus": {
-          "CC": 0.975,
-          "SA": 1.0,
-          "FC": 1.0,
-          "agreement_score": 0.9686,
-          "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0,
-          "judge_variance_FC": 0.0,
+          "CC": 1.0,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9371,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.99
+      "score": 0.9733400000000001
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8366680000000001,
-    "mean_agreement": 0.8804000000000001,
+    "mean_score": 0.870668,
+    "mean_agreement": 0.90012,
     "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
       0.0,
@@ -212,17 +212,17 @@
     ],
     "scores": [
       1.0,
-      0.83334,
-      0.42665999999999993,
-      0.9333400000000001,
-      0.99
+      1.0,
+      0.43,
+      0.95,
+      0.9733400000000001
     ],
     "agreement_scores": [
       1.0,
-      0.831,
-      0.7484,
-      0.854,
-      0.9686
+      1.0,
+      0.6466,
+      0.9169,
+      0.9371
     ]
   }
 }

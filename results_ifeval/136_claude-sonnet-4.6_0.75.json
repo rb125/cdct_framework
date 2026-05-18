@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "* A nucleus is a cluster of protons and neutrons\n* Protons carry positive charge\n* Neutrons are neutral\n* Protons and neutrons are collectively called nucleons\n* Nucleons are bound by strong nuclear force\n* Nucleus determines element identity\n* Isotopes vary in neutron count\n* Atomic mass is nucleon count\n* Nucleus is typically small compared to atom size\n* Radioactive decay alters nucleus composition",
+  "compressed_word_count": 67,
+  "response": "# Nuclear Structure: Key Concepts\n\n## Basic Composition\n| Particle | Charge | Role |\n|----------|--------|------|\n| Proton | Positive (+1) | Defines element identity |\n| Neutron | Neutral (0) | Varies between isotopes |\n\n## Fundamental Relationships\n\n### Identity & Variation\n- **Proton count** \u2192 determines which **element** it is\n- **Neutron count** \u2192 determines which **isotope** it is\n- **Total nucleons** \u2192 determines **atomic mass**\n\n### Forces at Play\n- Protons **repel** each other (same charge)\n- **Strong nuclear force** overcomes this repulsion\n- Binds all nucleons together at very short range\n\n## Scale\n- Nucleus is **extremely small** relative to the whole atom\n- Atom is mostly **empty space**\n\n## Stability & Change\n- **Radioactive decay** occurs when nucleus is unstable\n- Results in **altered composition** \u2014 can change:\n  - Proton count \u2192 becomes a **different element**\n  - Neutron count \u2192 becomes a **different isotope**\n\n## Key Takeaway\n> The nucleus, despite being tiny, **defines what an atom fundamentally is** and determines its chemical and physical behavior",
+  "response_word_count": 171,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

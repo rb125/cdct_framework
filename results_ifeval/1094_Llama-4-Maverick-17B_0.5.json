@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "list 5 notable moms in json, quirky tone, no extra text",
+  "compressed_word_count": 11,
+  "response": "[\n  {\n    \"name\": \"Marilyn Monroe's Mom\",\n    \"reason\": \"Gladys Pearl Baker's life was a real-life soap opera, and her daughter became a Hollywood icon\"\n  },\n  {\n    \"name\": \"Beyonc\u00e9's Mom\",\n    \"reason\": \"Tina Knowles is the ultimate #MomGoals \u2013 she raised two Beyonc\u00e9s (okay, one Beyonc\u00e9 and one, um, Solange)\"\n  },\n  {\n    \"name\": \"Storm Reid's Mom\",\n    \"reason\": \"Robyn Simpson is the mom behind the E.T.-themed Halloween costume that went viral \u2013 and a fierce advocate for her daughter's career\"\n  },\n  {\n    \"name\": \"Gwyneth Paltrow's Mom\",\n    \"reason\": \"Blythe Danner is a talented actress and, apparently, a great cook \u2013 her daughter Gwyneth is still trying to live up to her 'Goop' standards\"\n  },\n  {\n    \"name\": \"Blue Ivy's Mom\",\n    \"reason\": \"Beyonc\u00e9 (again, because, Bey) is slaying mom life \u2013 and making us all wonder what secrets she's sharing with her daughter\"\n  }\n]",
+  "response_word_count": 138,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

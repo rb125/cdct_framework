@@ -1,0 +1,45 @@
+{
+  "key": 2436,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Give two different responses to the question \"Is it ethical to hunt and eat invasive species?\", separated by 6 asterisk symbols ****** and without using any commas.",
+  "compressed_word_count": 27,
+  "response": "******\n\nHunting and eating invasive species can be seen as an ethical approach to managing ecosystems. Invasive species often disrupt local habitats and outcompete native species for resources. By reducing their populations humans can help restore balance to these environments. Additionally utilizing invasive species as a food source can provide a sustainable and ethical alternative to traditional livestock which often has a larger environmental impact. This approach not only aids in conservation efforts but also promotes a more responsible use of available resources. \n\n******\n\nWhile hunting and eating invasive species might seem like a solution to control their populations it raises several ethical concerns. Firstly it can be difficult to ensure that hunting efforts are sustainable and do not inadvertently harm native species or ecosystems. Secondly there are questions about the welfare of the animals being hunted and whether it is ethical to kill them for food when other non-lethal methods of control exist. Additionally cultural and societal values play a significant role in determining what is considered ethical. In some communities hunting invasive species may be accepted while in others it could be viewed as unnecessary or even cruel. Therefore the ethics of this practice are complex and context-dependent.",
+  "response_word_count": 200,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Generate 10 baby boy names; format each with a * bullet. Add P.P.S. at end. No commas, formal tone.",
+  "compressed_word_count": 19,
+  "response": "Here are ten distinguished baby boy names for your consideration:\n\n* Theodore\n* Sebastian\n* Nathaniel\n* Alexander\n* Montgomery\n* Cornelius\n* Fitzgerald\n* Reginald\n* Bartholomew\n* Maximilian\n\nP.P.S. Each name presented above carries a sense of timeless elegance and distinguished character suitable for a young gentleman.",
+  "response_word_count": 49,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9666666666666667,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.04714045207910316,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

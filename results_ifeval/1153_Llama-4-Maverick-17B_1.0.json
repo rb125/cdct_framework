@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a social media post for students of Islamic history about the hajj pilgrimage. Use all lowercase letters and include the word story at least twice.",
+  "compressed_word_count": 26,
+  "response": "\"as we approach the season of hajj, let's take a moment to reflect on the rich history and significance of this sacred pilgrimage. the story of hajj is one that spans centuries, a story of devotion, sacrifice, and unity. from the footsteps of prophet ibrahim to the present day, the hajj has been a journey of spiritual growth and self-discovery for millions of muslims around the world. what's your story of hajj? share with us your experiences, your reflections, and your insights into this incredible journey. let's celebrate the story of hajj together! #hajj #islamichistory #pilgrimage\"",
+  "response_word_count": 96,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

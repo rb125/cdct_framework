@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write acoustic song Korean peninsula no commas",
+  "compressed_word_count": 7,
+  "response": "Here\u2019s an acoustic song about the Korean Peninsula without commas:\n\n**\"Two Rivers One Land\"**\n\nSoft strum on the guitar slow\nMountains whisper tales of old\nSame blood flows through Seoul and Pyongyang\nSame stars shine on both the sand\n\nTwo rivers one land divided\nSame dreams buried deep inside\nChildren play in different playgrounds\nBut their laughter sounds the same light\n\nGenerations wait for morning\nWhen the walls will fade to dust\nNo more lines drawn in the darkness\nJust the wind through fields of trust\n\nSoft strum on the guitar slow\nEchoes of a song untold\nSame heart beats beneath the silence\nSame hope waits to break the cold",
+  "response_word_count": 110,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

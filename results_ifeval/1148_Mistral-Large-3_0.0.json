@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "json summary",
+  "compressed_word_count": 2,
+  "response": "Here\u2019s a concise **JSON summary** of what JSON (JavaScript Object Notation) is:\n\n```json\n{\n  \"json_summary\": {\n    \"definition\": \"A lightweight, text-based data interchange format derived from JavaScript object syntax.\",\n    \"key_features\": [\n      \"Human-readable and writable\",\n      \"Machine-parsable and easy to generate\",\n      \"Language-independent (supported by most programming languages)\",\n      \"Uses key-value pairs (objects) and ordered lists (arrays)\",\n      \"Supports basic data types: strings, numbers, booleans, null, objects, arrays\"\n    ],\n    \"common_uses\": [\n      \"APIs (REST, GraphQL, etc.)\",\n      \"Configuration files\",\n      \"Data storage (e.g., NoSQL databases like MongoDB)\",\n      \"Web applications (client-server communication)\"\n    ],\n    \"example\": {\n      \"name\": \"John Doe\",\n      \"age\": 30,\n      \"is_student\": false,\n      \"courses\": [\"Math\", \"Science\"],\n      \"address\": {\n        \"street\": \"123 Main St\",\n        \"city\": \"New York\"\n      }\n    },\n    \"advantages\": [\n      \"Simple syntax\",\n      \"Widely supported\",\n      \"Compact compared to XML\"\n    ],\n    \"limitations\": [\n      \"No support for comments\",\n      \"Limited data types (e.g., no dates, binary data)\",\n      \"No schema validation (unlike XML)\"\n    ]\n  }\n}\n```\n\n### Key Notes:\n- **Syntax**: Uses `{}` for objects, `[]` for arrays, and `key: value` pairs.\n- **Validation**: Tools like [JSONLint](https://jsonlint.com/) can validate JSON.\n- **Alternatives**: XML, YAML, Protocol Buffers (for binary data).",
+  "response_word_count": 173,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

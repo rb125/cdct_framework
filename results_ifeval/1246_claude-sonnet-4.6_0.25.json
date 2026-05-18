@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "poem product template, P.P.S",
+  "compressed_word_count": 4,
+  "response": "# P.P.S.\n### *A Poem Product Template*\n\n---\n\n**P**lease allow me to add one final thought,\nA postscript to the postscript that I wrote\u2014\n**P**iled high with everything I almost forgot,\n**S**omething too tender to leave in my throat.\n\n---\n\n*[Insert what lingers after the letter is sealed]*\n*[Insert what love looks like when it runs out of room]*\n*[Insert the truth you buried, now half-revealed]*\n*[Insert the name you whispered alone in your room]*\n\n---\n\n**P**erhaps this is where the real message lives\u2014\nNot in the body, not in the bold headline,\n**P**ast all the polished words a writer gives,\n**S**omewhere between the signature and the line.\n\n---\n\n*This is the part that wasn't supposed to be here.*\n*This is the part that matters most.*\n\n---\n\n**Fill in your own P.P.S. below:**\n\n> *P.P.S. \u2014 ________________________________*\n> *________________________________*\n> *________________________________*\n\n---\n\n*Because some things\ncan only be said\nafter you've already\nsaid goodbye.*",
+  "response_word_count": 154,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.7,
+        "FC": 0.6
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.2333333333333333,
+      "FC": 0.19999999999999998,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.3299831645537222,
+      "judge_variance_FC": 0.282842712474619
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Story on hidden truths; <cap>stress<cap> words <20.",
+  "compressed_word_count": 7,
+  "response": "The attic held only dust and forgotten things\u2014until the floorboard creaked.\n\n<cap>Secrets<cap> are heavy. Hers was a locket, cold against her palm. Inside, a face that was hers, but not.\n\n<cap>Truth<cap> arrived uninvited. It whispered in the hollows of the house, in the silence between heartbeats.\n\nShe closed the locket. Some <cap>burdens<cap> are meant to be carried alone, in quiet, where they cannot break anything else.",
+  "response_word_count": 66,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6,
+      "SA": 0.7999999999999999,
+      "FC": 0.7666666666666666,
+      "judge_variance_CC": 0.43204937989385733,
+      "judge_variance_SA": 0.21602468994692867,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

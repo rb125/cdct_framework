@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "I work in the marketing department and I need your help. I need a template for an advertisement for a new product which is a portable camera. In the template, capitalize a few words to stress main points. Please limit the number of words with all capital letters to less than four. Your response should contain at least ten sentences.",
+  "compressed_word_count": 60,
+  "response": "Introducing the AuraShot, the portable camera that redefines creative freedom. This device is engineered to go wherever your inspiration takes you, fitting perfectly in your pocket. Its advanced sensor captures stunning, high-resolution images in any lighting condition. The integrated stabilization ensures every video is incredibly smooth and professional. We believe the ability to document life beautifully should be **EFFORTLESS** and accessible to all.\n\nWith the AuraShot, you are no longer weighed down by bulky equipment. It features one-touch sharing to instantly transfer photos to your smartphone. The durable, weather-resistant design means adventure is always an option. Its long-lasting battery is designed to power through your longest days. This isn't just another camera; it's the **ULTIMATE** tool for the modern storyteller. \n\nStop missing moments and start capturing them in breathtaking detail. We are confident the AuraShot will become your constant creative companion. Visit our website today to pre-order and see the world through a new lens. Your next perfect shot awaits, and it\u2019s more **PORTABLE** than ever before.",
+  "response_word_count": 167,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

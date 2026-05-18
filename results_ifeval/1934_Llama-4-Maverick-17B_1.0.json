@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Why star wars is so popular? Your answer must be in the form of exactly 4 bullet points with the format below:\n* This is bullet point 1\n* This is bullet point 2",
+  "compressed_word_count": 34,
+  "response": "* The Star Wars franchise has a richly detailed and immersive universe, with a complex history and mythology that draws fans in and encourages engagement and speculation.\n* The series features iconic and memorable characters, such as Luke Skywalker, Darth Vader, and Han Solo, who have become ingrained in popular culture and continue to captivate audiences.\n* The films' blend of action, adventure, and science fiction elements, combined with groundbreaking special effects, has helped to make the franchise a thrilling and visually stunning experience.\n* The themes of friendship, sacrifice, and the struggle between good and evil that are woven throughout the series resonate with audiences and add depth and emotional resonance to the story.",
+  "response_word_count": 115,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<fingerprint swap thriller>> plot with no commas",
+  "compressed_word_count": 36,
+  "response": "<<The Unseen Trade>>\n\nLeo Vance is a meticulous thief. He plans one last perfect heist. His target is a high-tech vault secured by fingerprint locks. Mara Chen is the vault's designer. She is also a secret whistleblower trapped by her own security.\n\nLeo kidnaps Mara. He uses a prototype device from her lab. The machine swaps their fingerprints. Now Leo's fingers open Mara's vault. Mara's fingers frame Leo for a crime. He leaves her locked in a safe house.\n\nLeo executes the heist. His new prints grant him access. Yet Mara's security system has a hidden layer. It requires a second scan a heartbeat scan. The vault stays sealed. Alarms erupt.\n\nMara escapes the safe house. Her new prints mark her as Leo. She is hunted by police and her corrupt employers. She must find Leo to reverse the swap.\n\nLeo needs Mara to bypass the heartbeat check. They become reluctant allies. They navigate a city hunting them both. Their mutual enemy is Mara's boss a man who wants them silenced forever.\n\nThe final confrontation happens at the lab. They must use the device together to restore their prints. A fight ensues. In the struggle the machine is destroyed fingerprints forever swapped.\n\nThey defeat the enemy using their unique positions. Leo uses his thief skills with Mara's access. Mara uses her knowledge with Leo's anonymity. They expose the corruption and disappear.\n\nTwo people now live in each other's skin. They share a secret and a new identity. They walk away forever linked by the unseen trade.",
+  "response_word_count": 256,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.8
+      }
+    },
+    "consensus": {
+      "CC": 0.4666666666666666,
+      "SA": 0.7666666666666666,
+      "FC": 0.9333333333333332,
+      "judge_variance_CC": 0.3681787005729087,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

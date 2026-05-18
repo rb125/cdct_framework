@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft 7-day itineraries for India and China, tabulating them separately, with 6 asterisks ******* in between.",
+  "compressed_word_count": 16,
+  "response": "# 7-Day India Itinerary\n\n| Day | Location | Activities & Highlights |\n|-----|----------|------------------------|\n| **Day 1** | **New Delhi** | Arrive in Delhi \u00b7 Visit India Gate \u00b7 Explore Rajpath \u00b7 Check into hotel \u00b7 Welcome dinner with local cuisine |\n| **Day 2** | **New Delhi** | Red Fort \u00b7 Jama Masjid \u00b7 Chandni Chowk street food tour \u00b7 Humayun's Tomb \u00b7 Qutub Minar |\n| **Day 3** | **Agra** | Train to Agra \u00b7 Sunrise visit to Taj Mahal \u00b7 Agra Fort \u00b7 Mehtab Bagh \u00b7 Local handicraft shopping |\n| **Day 4** | **Jaipur** | Drive to Jaipur \u00b7 Amber Fort \u00b7 Jal Mahal \u00b7 City Palace \u00b7 Jantar Mantar observatory |\n| **Day 5** | **Jaipur** | Hawa Mahal \u00b7 Johari Bazaar shopping \u00b7 Elephant Village visit \u00b7 Traditional Rajasthani dinner |\n| **Day 6** | **Mumbai** | Fly to Mumbai \u00b7 Gateway of India \u00b7 Elephanta Caves \u00b7 Marine Drive evening stroll |\n| **Day 7** | **Mumbai** | Dharavi tour \u00b7 Dhobi Ghat \u00b7 Chhatrapati Shivaji Terminus \u00b7 Colaba Causeway \u00b7 Departure |\n\n---\n\n*******\n\n---\n\n# 7-Day China Itinerary\n\n| Day | Location | Activities & Highlights |\n|-----|----------|------------------------|\n| **Day 1** | **Beijing** | Arrive in Beijing \u00b7 Tiananmen Square \u00b7 Check into hotel \u00b7 Peking duck dinner |\n| **Day 2** | **Beijing** | Forbidden City \u00b7 Jingshan Park \u00b7 Temple of Heaven \u00b7 Evening acrobatics show |\n| **Day 3** | **Beijing** | Great Wall at Mutianyu \u00b7 Ming Tombs \u00b7 Summer Palace \u00b7 Night market exploration |\n| **Day 4** | **Xi'an** | High-speed train to Xi'an \u00b7 Terracotta Army \u00b7 Huaqing Hot Springs \u00b7 Muslim Quarter food street |\n| **Day 5** | **Xi'an** | Ancient City Wall cycling \u00b7 Big Wild Goose Pagoda \u00b7 Shaanxi History Museum \u00b7 Tang Dynasty show |\n| **Day 6** | **Shanghai** | Fly to Shanghai \u00b7 The Bund waterfront \u00b7 Yu Garden \u00b7 Nanjing Road shopping |\n| **Day 7** | **Shanghai** | French Concession \u00b7 Xintiandi \u00b7 Shanghai Tower observation deck \u00b7 Farewell dinner \u00b7 Departure |",
+  "response_word_count": 348,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9666666666666667,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.04714045207910316,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

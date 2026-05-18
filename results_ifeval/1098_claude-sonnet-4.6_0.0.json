@@ -1,0 +1,43 @@
+{
+  "key": 1098,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "god names ***** aliases",
+  "compressed_word_count": 4,
+  "response": "Here are some **god names / aliases** across various mythologies:\n\n---\n\n## \u26a1 Greek / Roman\n| Greek | Roman Alias |\n|-------|-------------|\n| Zeus | Jupiter |\n| Poseidon | Neptune |\n| Hades | Pluto / Dis |\n| Ares | Mars |\n| Hermes | Mercury |\n| Aphrodite | Venus |\n| Athena | Minerva |\n| Apollo | Apollo |\n| Artemis | Diana |\n| Hephaestus | Vulcan |\n\n---\n\n## \ud83c\udf1e Egyptian\n- **Ra** / Re / Amun-Ra\n- **Osiris** / Wennefer\n- **Horus** / Har / Harakhte\n- **Thoth** / Djehuty\n- **Set** / Seth / Sutekh\n\n---\n\n## \ud83d\udd31 Norse\n- **Odin** / Allfather / Woden / Wotan\n- **Thor** / Donar\n- **Loki** / Trickster\n- **Freyr** / Ing\n\n---\n\n## \ud83d\udd49\ufe0f Hindu\n- **Vishnu** / Narayana / Hari\n- **Shiva** / Mahadeva / Rudra\n- **Brahma** / Prajapati\n\n---\n\nWant a specific mythology or theme?",
+  "response_word_count": 156,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a letter to your friend who recently moved away. Your entire response should be in English, and in all capital letters. The letter o should appear at least 40 times.",
+  "compressed_word_count": 31,
+  "response": "HELLO MY DEAR FRIEND! I HOPE THIS LETTER FINDS YOU WELL IN YOUR NEW HOME. I MISS OUR CONVERSATIONS AND OUR TIME SPENT T0GETHER. I H0PE Y0U ARE D0ING WELL AND THAT Y0U ARE HAPPY WITH Y0UR NEW L0DGING.\n\nD0 Y0U REMEMBER THE TIME WE WENT T0 THE Z00 AND SAW THE M0NKEYS? THAT WAS S0 MUCH FUN! I H0PE T0 MAKE M0RE MEMORIES WITH Y0U SOON. I AM L00KING F0RWARD T0 C0MING T0 VISIT Y0U IN Y0UR NEW T0WN.\n\nD0 Y0U LIKE Y0UR NEW NEIGHB0RH00D? I H0PE Y0U HAVE F0UND S0ME G00D PLACES T0 EAT AND THAT Y0U ARE ENJ0YING Y0UR TIME THERE. I AM PR0UD 0F Y0U F0R MAKING THIS M0VE AND H0PE THAT IT BRINGS Y0U L0T OF J0Y AND 0PP0RTUNITY.\n\nPLEASE KEEP IN T0UCH AND LET ME KN0W H0W Y0U ARE D0ING. I L00K F0RWARD T0 Hearing FR0M Y0U S00N.\n\nL0T OF L0VE,\n\n[YOUR NAME]",
+  "response_word_count": 149,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

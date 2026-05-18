@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "List 6 differences between the 13 colonies and other British colonies in North America in Markdown format:  \n* point one  \n* point two  \n* point three  \n* point four  \n* point five  \n* point six",
+  "compressed_word_count": 35,
+  "response": "**6 Differences Between the 13 Colonies and Other British Colonies in North America**\n\n*   **Primary Economic Focus:** The 13 Colonies developed diverse economies based on mixed agriculture, artisanal crafts, and trade, whereas colonies like Newfoundland and Rupert's Land were overwhelmingly focused on single extractive industries (cod fishing and the fur trade, respectively).\n*   **Pattern of Settlement:** The 13 Colonies were characterized by permanent, growing communities of families seeking to establish homesteads and towns. In contrast, colonies like Newfoundland and the Hudson's Bay Company territories often had seasonal or transient populations of male workers (fishermen, traders) with minimal permanent settlement.\n*   **Governing Structure:** Most of the 13 Colonies had evolved representative assemblies and charters that granted a significant degree of self-governance. Other colonies, such as Nova Scotia (after 1749) and Quebec (after the Conquest), were often governed more directly by a British-appointed governor and council, with limited or no elected assembly.\n*   **Demographic Composition:** The population of the 13 Colonies was largely British Protestant (with significant diversity including Germans, Dutch, and enslaved Africans). Colonies like Quebec retained a overwhelmingly French Catholic majority, and Rupert's Land had a population dominated by Indigenous peoples, M\u00e9tis, and a small number of British fur trade employees.\n*   **Relationship with Indigenous Peoples:** While conflict occurred, the 13 Colonies' expansion was largely based on the displacement of Indigenous nations through treaty and warfare to acquire land for agriculture. In the northern fur trade colonies, the economic model required ongoing partnership and trade with Indigenous nations, making their relationships more interdependent (though still exploitative).\n*   **Geographic and Strategic Purpose:** The 13 Colonies were seen as expanding nodes of British population and power. Other colonies were often valued for specific strategic or economic reasons: **Nova Scotia** guarded the sea approaches, **Quebec** secured the St. Lawrence, and **Rupert's Land** was a commercial venture for resource extraction without large-scale territorial control.",
+  "response_word_count": 310,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

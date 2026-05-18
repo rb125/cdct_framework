@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "write song lyrics on economic disparity, all lowercase",
+  "compressed_word_count": 8,
+  "response": "# **the gap**\n\nverse 1:\nborn on the wrong side of the zip code line\nwhere the schools are broken and the water ain't fine\nmama working doubles just to keep the lights on\nby the time she gets home, half the night is gone\n\npre-chorus:\nthey say pull yourself up, yeah they love that phrase\nfrom their gated houses and their trust fund haze\neasy words to say when you never fell down\nwhen you never watched them auction off your town\n\nchorus:\nthere's a mountain made of money\nand we're living in the valley below\nthey keep moving up the ladder\npulling it up so we can never follow\nthe gap keeps getting wider\nlike a river we can't cross\nand they're counting all their billions\nwhile we're counting what we lost\n\nverse 2:\nkid on the corner got a dream in his chest\nbut the system keeps on putting him to the test\nno connections, no collateral, no safety net\njust a pile of student loans and a mountain of debt\n\npre-chorus:\nthey say the market will fix it, just be patient and wait\nbut patience don't pay rent and patience don't feed plates\nthe invisible hand never reached down here\njust took what little we had year after year\n\n*(chorus)*\n\nbridge:\nwhat does it cost to be born without a name\nthat opens doors and plays the generational game\nwe didn't write the rules but we live inside them\nwe didn't build these walls but we're trapped behind them\n\noutro:\nthe gap keeps getting wider\nsomebody tell me when enough is enough\nthe gap keeps getting wider\nand silence never changed a single thing",
+  "response_word_count": 278,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

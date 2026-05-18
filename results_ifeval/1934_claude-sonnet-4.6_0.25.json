@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "4 bullet points on Star Wars' popularity, no commas",
+  "compressed_word_count": 9,
+  "response": "\u2022 Star Wars captivated global audiences with its groundbreaking special effects and epic storytelling that felt entirely new to moviegoers in 1977\n\n\u2022 The franchise expanded into books and video games and toys creating a massive cultural universe that kept fans engaged for decades\n\n\u2022 Beloved characters like Luke Skywalker and Darth Vader became iconic symbols recognized by people of all ages across countless countries\n\n\u2022 Disney's acquisition of Lucasfilm brought new films and TV shows that introduced Star Wars to an entirely fresh generation of devoted fans",
+  "response_word_count": 88,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

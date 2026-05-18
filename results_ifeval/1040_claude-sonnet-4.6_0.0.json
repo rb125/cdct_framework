@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "resume, caps",
+  "compressed_word_count": 2,
+  "response": "# RESUME\n\n---\n\n## PERSONAL INFORMATION\n\n**NAME:** [YOUR FULL NAME]\n**PHONE:** [YOUR PHONE NUMBER]\n**EMAIL:** [YOUR EMAIL ADDRESS]\n**LOCATION:** [CITY, STATE]\n**LINKEDIN:** [YOUR LINKEDIN URL]\n\n---\n\n## PROFESSIONAL SUMMARY\n\n[BRIEF 2-3 SENTENCE OVERVIEW OF YOUR EXPERIENCE, SKILLS, AND CAREER GOALS]\n\n---\n\n## WORK EXPERIENCE\n\n**JOB TITLE** | COMPANY NAME | CITY, STATE\n*START DATE \u2013 END DATE*\n- [KEY RESPONSIBILITY OR ACHIEVEMENT]\n- [KEY RESPONSIBILITY OR ACHIEVEMENT]\n- [KEY RESPONSIBILITY OR ACHIEVEMENT]\n\n**JOB TITLE** | COMPANY NAME | CITY, STATE\n*START DATE \u2013 END DATE*\n- [KEY RESPONSIBILITY OR ACHIEVEMENT]\n- [KEY RESPONSIBILITY OR ACHIEVEMENT]\n- [KEY RESPONSIBILITY OR ACHIEVEMENT]\n\n---\n\n## EDUCATION\n\n**DEGREE NAME** | SCHOOL NAME | CITY, STATE\n*GRADUATION YEAR*\n\n---\n\n## SKILLS\n\n- [SKILL]\n- [SKILL]\n- [SKILL]\n- [SKILL]\n\n---\n\n## CERTIFICATIONS\n\n- [CERTIFICATION NAME] | [ISSUING ORGANIZATION] | [YEAR]\n\n---\n\nWould you like me to **fill this in** with your specific details?",
+  "response_word_count": 148,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

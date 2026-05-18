@@ -1,0 +1,43 @@
+{
+  "key": 1019,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "ask about boys' unusual toys in lowercase",
+  "compressed_word_count": 7,
+  "response": "sure, here are some unusual toys for boys that you might find interesting:\n\n1. **anti-stress toys**: these can include things like stress balls, squishy toys, or even fidget spinners that help boys manage anxiety or focus.\n\n2. **robotics kits**: building and programming robots can be a great way for boys to learn about engineering and computer science.\n\n3. **virtual reality headsets**: while more common now, they still offer an unusual and immersive gaming experience.\n\n4. **magnetic building sets**: these allow boys to create complex structures using magnetic pieces, fostering creativity and spatial awareness.\n\n5. **hoverboards**: though they've been around for a while, they still offer a unique way to get around.\n\n6. **programmable drones**: these can be flown and programmed to perform various tasks, teaching boys about coding and aerodynamics.\n\n7. **crystal growing kits**: these allow boys to grow their own crystals, combining science with a bit of magic.\n\n8. **slime-making kits**: making slime can be a fun and messy activity that also teaches about chemistry.\n\n9. **geodes**: breaking open geodes to reveal the crystals inside can be a fascinating and educational experience.\n\n10. **insect observation kits**: these allow boys to observe and learn about insects up close, fostering an interest in biology and ecology.",
+  "response_word_count": 205,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Rewrite the following sentence into an email, and make sure it contains at least 10 placeholders represented by square brackets, such as [name]: The boots are warm but a little uncomfortable.",
+  "compressed_word_count": 31,
+  "response": "Here is a rewritten version of the sentence in the format of an email with at least 10 placeholders represented by square brackets:\n\nSubject: Feedback on [Product Name] Purchased on [Date]\n\nDear [Customer Service Team],\n\nI hope this email finds you well. I recently received my [Product Name], specifically the [Color/Style] with [Size] at my [Shipping Address] on [Delivery Date]. The [Product Category], which in this case are the boots, are [Adjective 1] but a little [Adjective 2]. I purchased them for [Occasion/Usage] and was expecting a different level of [Specific Feature]. \n\nThe order was placed on [Order Date] through our [Website/Store Name] at [Store Location]. I would appreciate it if you could look into this matter and possibly provide a [Resolution/Action] or an alternative [Solution/Product]. My order number is [Order Number] for your reference.\n\nIf there's any additional information you need from me, please don't hesitate to contact me at [Your Email Address] or [Your Phone Number]. I look forward to hearing from you by [Expected Response Date] and finding a satisfactory [Outcome/Result].\n\nThank you for your time and assistance in this matter.\n\nBest regards,\n[Your Name]\n\nIn this email, the placeholders are:\n1. [name] - could be [Your Name] or [Customer Service Team]\n2. [Product Name]\n3. [Date] - could be [Order Date] or [Delivery Date]\n4. [Color/Style]\n5. [Size]\n6. [Shipping Address]\n7. [Adjective 1] - e.g., warm\n8. [Adjective 2] - e.g., uncomfortable\n9. [Product Category] - e.g., boots\n10. [Occasion/Usage]\n11. [Specific Feature]\n12. [Website/Store Name]\n13. [Store Location]\n14. [Order Number]\n15. [Your Email Address]\n16. [Your Phone Number]\n17. [Expected Response Date]\n18. [Outcome/Result]\n19. [Resolution/Action]\n20. [Solution/Product]\n\nThis email contains more than 10 placeholders as requested.",
+  "response_word_count": 284,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Convert the sentence into an email format, ensuring it includes at least 10 placeholders like [name]. Use square brackets: The boots are warm but a little uncomfortable.",
+  "compressed_word_count": 27,
+  "response": "Subject: Feedback on [Product Name] Boots\n\nHi [Customer Service Representative's Name],\n\nI hope this email finds you well. I recently purchased the [Product Name] boots from your [Store Name] located at [Store Address]. \n\nI wanted to share some feedback regarding my experience with the boots. Firstly, I must say that the boots are indeed very warm, which is great for the [weather condition] we've been having lately. However, I have noticed that they are a little uncomfortable, particularly around the [specific area]. \n\nI would appreciate it if you could provide some advice on how to break them in or if there are any additional [accessories/insoles] that could help improve the comfort. \n\nThank you for your assistance, and I look forward to your response.\n\nBest regards,  \n[Your Full Name]  \n[Your Contact Number]  \n[Your Email Address]",
+  "response_word_count": 134,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

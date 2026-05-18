@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "grammar, 2 responses",
+  "compressed_word_count": 3,
+  "response": "Here are two grammatically correct responses to your request:\n\n1. **\"Could you clarify what specific grammar topic or sentence you'd like help with? I\u2019d be happy to provide examples or corrections.\"**\n\n2. **\"Here are two grammatically polished responses for you:\n   - *First option*: A clear and concise reply.\n   - *Second option*: A slightly more detailed version.\"**",
+  "response_word_count": 56,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

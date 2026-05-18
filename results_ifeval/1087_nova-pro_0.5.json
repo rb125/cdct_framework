@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "review \"the social network\" in english, all lower case",
+  "compressed_word_count": 9,
+  "response": "the social network is a 2010 film directed by david fincher and written by aaron sorkin. it's a compelling drama that delves into the creation of facebook and the complex personality of its founder, mark zuckerberg, played by jesse eisenberg. the movie explores themes of friendship, betrayal, and the impact of social media on society. fincher's direction is sharp and engaging, while sorkin's script is witty and incisive. the performances are strong, particularly eisenberg's portrayal of zuckerberg as a brilliant yet socially awkward young man. the social network is a thought-provoking and entertaining film that offers a fascinating look at the rise of one of the world's most influential companies.",
+  "response_word_count": 110,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<plot swap fingerprint no commas>>",
+  "compressed_word_count": 34,
+  "response": "<<Fingerprint Echo>>\n\nLena is a forensic analyst with a flawless record. She spends her days examining crime scenes and matching fingerprints to solve cases. One evening after work she stays late to review evidence from a cold case. As she handles a strange artifact\u2014a small glass orb with an unknown substance inside\u2014she feels a sharp prick on her fingertip. The orb shatters and a faint blue mist curls around her hand.\n\nThe next morning Lena wakes up to find her fingerprints have vanished. Her phone won\u2019t unlock. Her keycard fails at the lab. Panicked she rushes to the station only to be denied entry. Security footage shows her badge working but the biometric scanner rejects her. Then she notices something worse\u2014her prints have been replaced with someone else\u2019s.\n\nAcross the city Daniel a petty thief with a knack for evading capture wakes up to a nightmare. His prints are gone too. His usual tricks\u2014gloves fake IDs\u2014no longer work. Worse his prints now match Lena\u2019s. He realizes someone else is walking around with his identity. His criminal record is being used to frame him for crimes he didn\u2019t commit.\n\nLena and Daniel track each other down through mutual confusion. They discover the orb was an experimental device meant to transfer biometric data. The blue mist swapped their fingerprints permanently. Now they\u2019re bound together\u2014each carrying the other\u2019s identity.\n\nThe real threat emerges when a shadowy organization begins hunting them. The orb was stolen from a black-market lab. The organization wants it back\u2014and they\u2019ll eliminate anyone who knows it exists. Lena and Daniel must clear their names solve the cold case that started this mess and reverse the swap before the hunters erase them for good.\n\nAs they work together Lena\u2019s analytical mind clashes with Daniel\u2019s street-smart instincts. But they soon realize their skills complement each other. The deeper they dig the more they uncover a conspiracy that goes beyond fingerprints\u2014one that could rewrite identities on a global scale.\n\nIn the end they confront the mastermind behind the orb. A final confrontation forces them to choose: reverse the swap and risk losing their newfound partnership or embrace the echo of each other\u2019s lives forever.",
+  "response_word_count": 361,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

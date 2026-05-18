@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "write song lyrics on economic disparity, all lowercase",
+  "compressed_word_count": 8,
+  "response": "**\"paper chains\"**\n\n*(verse 1)*\nthey say the market\u2019s free, but the scales don\u2019t balance,\none hand holds the weight, the other just glances.\nceo\u2019s got a jet, while the line\u2019s getting longer,\nsame old story, just a different song, sir.\n\n*(pre-chorus)*\ngolden towers touch the sky,\nwhile the basement\u2019s where the dreams die.\nyou say pull yourself up, but the ladder\u2019s broken,\nand the rungs are just words that you\u2019ve spoken.\n\n*(chorus)*\noh, it\u2019s paper chains, yeah, it\u2019s paper chains,\nstacked up high where the sunlight wanes.\nyou count your zeros, i count my change,\nsame world, different names.\n\n*(verse 2)*\nminimum wage won\u2019t buy the rent,\nbut the lobbyists got a president.\ntax cuts for the rich, austerity for the poor,\nsame old cycle, just a different war.\n\n*(pre-chorus)*\ngolden towers touch the sky,\nwhile the basement\u2019s where the dreams die.\nyou say pull yourself up, but the ladder\u2019s broken,\nand the rungs are just words that you\u2019ve spoken.\n\n*(chorus)*\noh, it\u2019s paper chains, yeah, it\u2019s paper chains,\nstacked up high where the sunlight wanes.\nyou count your zeros, i count my change,\nsame world, different names.\n\n*(bridge)*\nthey\u2019ll tell you it\u2019s merit, they\u2019ll tell you it\u2019s fair,\nbut the deck\u2019s been stacked since the day we were there.\na rigged game with a smile and a handshake,\nwhile the rest of us scrape for the crumbs they forsake.\n\n*(outro)*\noh, it\u2019s paper chains, yeah, it\u2019s paper chains,\nburning slow in the dark of the plains.\nyou count your zeros, i count my change,\nsame world, different names.\n\n---\n*let me know if you'd like any tweaks\u2014more rage, more melancholy, or a different angle!*",
+  "response_word_count": 275,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

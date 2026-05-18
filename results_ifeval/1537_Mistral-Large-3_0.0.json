@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "tennis balls poem",
+  "compressed_word_count": 3,
+  "response": "Here\u2019s a playful poem about tennis balls\u2014hope it bounces with joy!\n\n---\n\n**\"Ode to the Tennis Ball\"**\n\nOh, fuzzy orb of neon hue,\nYou spin and soar in skies so blue.\nA racket\u2019s kiss, a swift rebound,\nYou dance upon the court\u2019s hard ground.\n\nFrom serve to volley, swift and bright,\nYou fly like stars in morning light.\nYet sometimes lost in tallest grass,\nOr snatched by dogs who run so fast.\n\nYou\u2019re squished and squeezed, then tossed aside,\nBut still you bounce with stubborn pride.\nNo matter how the game may end,\nYou\u2019re always there\u2014my loyal friend.\n\n---\n\nWould you like a different style (funny, nostalgic, etc.)? I\u2019d be happy to tweak it! \ud83c\udfbe\ud83d\ude0a",
+  "response_word_count": 115,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

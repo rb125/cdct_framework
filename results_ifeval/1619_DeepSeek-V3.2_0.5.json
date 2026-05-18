@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create a rap for a new smartphone, include [placeholders], end with P.P.S.",
+  "compressed_word_count": 12,
+  "response": "**(Beat drops with a futuristic synth melody)**\n\n**(Verse 1)**\nYo, check the tech, it's a **<adjective>** flex\nUnlock the future with what comes next\nScreen so bright, it's a **<metaphor for display quality>**\nLeave the competition in disarray\nCamera sharp, catch a **<unusual photo subject>** in the night\nMachine learning makin' everything feel right\nBattery life? A **<metaphor for long duration>**\nPower for days, it's a celebration\n\n**(Chorus)**\nIt's the **<Model Name>**, yeah you heard the news\nGot the **<specific innovative feature>** you can't refuse\nSlip it in your pocket, feel the **<adjective>** design\nThe only phone you need, to **<verb>** the timeline. (Yeah!)\n\n**(Verse 2)**\nProcessor screamin', **<onomatopoeia for speed>**\nMultitaskin' hard, no lag, no dread\nStorage space, a **<metaphor for vast capacity>**\nDownload worlds, it's your new reality.\nVoice assistant smarter, knows a **<obscure fact>**\nUnlocks with a glance, forget the past\nDurability? It's a **<mythical creature>**'s shell\nSurvives the stories that you gotta tell.\n\n**(Chorus)**\nIt's the **<Model Name>**, yeah you heard the news\nGot the **<specific innovative feature>** you can't refuse\nSlip it in your pocket, feel the **<adjective>** design\nThe only phone you need, to **<verb>** the timeline. (Aight!)\n\n**(Outro)**\nSo pre-order now, don't be last in line\nThis ain't just a phone, it's a **<metaphor for greatness>** sign.\nThe next generation's in your hand today,\nThe old way of thinkin' just fades away.\n\nP.P.S. **<Placeholder for a surprising bonus feature or tagline>**",
+  "response_word_count": 238,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

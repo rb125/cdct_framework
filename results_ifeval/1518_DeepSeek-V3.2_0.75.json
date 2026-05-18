@@ -1,0 +1,43 @@
+{
+  "key": 1518,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "I am a software engineer with 7 years of experience, and I am looking for a new job. Can you create a resume for me and explain each section?\n\nCreate a professional software engineer resume, detailing each section: contact info, summary, skills, work experience, education, certifications, and projects.",
+  "compressed_word_count": 48,
+  "response": "# Software Engineer Resume Template & Explanation\n\n## **RESUME**\n\n**JOHN DOE**  \nSan Francisco, CA | (123) 456-7890 | john.doe@email.com | linkedin.com/in/johndoe | github.com/johndoe\n\n---\n\n### **PROFESSIONAL SUMMARY**\n*Results-driven Software Engineer with 7 years of experience designing, developing, and deploying scalable software solutions. Proven expertise in full-stack development, cloud architecture, and agile methodologies. Seeking a Senior Software Engineer role to leverage technical leadership and problem-solving skills in a challenging environment.*\n\n**Why this section matters:**  \nThis 3-4 sentence overview immediately communicates your value proposition. It should be tailored for each application, highlighting relevant experience and career goals. For a 7-year engineer, emphasize leadership, architecture, and impact.\n\n---\n\n### **TECHNICAL SKILLS**\n- **Languages:** Java, Python, JavaScript, TypeScript, SQL, Go\n- **Frameworks:** Spring Boot, React, Node.js, Django, Express.js\n- **Cloud & DevOps:** AWS (EC2, S3, Lambda), Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions)\n- **Databases:** PostgreSQL, MongoDB, Redis, MySQL\n- **Tools & Methodologies:** Git, REST APIs, Microservices, Agile/Scrum, TDD, GraphQL\n\n**Why this section matters:**  \nATS (Applicant Tracking Systems) scan for keywords. Group skills logically and include technologies mentioned in job descriptions. For 7 years experience, include architecture patterns and leadership tools.\n\n---\n\n### **PROFESSIONAL EXPERIENCE**\n\n**Senior Software Engineer** | Tech Solutions Inc. | San Francisco, CA | *June 2019 \u2013 Present*\n- Led a team of 4 engineers in redesigning payment processing system, improving transaction throughput by 40%\n- Architected and implemented microservices using Spring Boot and Docker, reducing system latency by 30%\n- Migrated legacy monolithic application to AWS cloud infrastructure, cutting hosting costs by 25%\n- Mentored 3 junior engineers through code reviews and pair programming sessions\n- Implemented CI/CD pipeline using Jenkins, reducing deployment time from 2 hours to 15 minutes\n\n**Software Engineer** | Innovate Software LLC | Seattle, WA | *August 2016 \u2013 May 2019*\n- Developed full-stack web applications using React frontend and Node.js backend serving 50,000+ users\n- Optimized database queries reducing API response times by 60% through query optimization and indexing\n- Collaborated with product team to implement new features using Agile methodology\n- Wrote comprehensive unit and integration tests achieving 90% code coverage\n\n**Why this section matters:**  \nFor experienced engineers, focus on **impact** using metrics (%, $, time saved). Use strong action verbs (Led, Architected, Implemented, Mentored). Show progression in responsibility. Quantify achievements wherever possible.\n\n---\n\n### **PROJECTS**\n\n**Distributed Task Scheduler** | *Personal Project* | *2023*\n- Designed a fault-tolerant task scheduling system using Go and Redis\n- Implemented worker pool pattern to handle 1000+ concurrent tasks\n- Deployed on AWS ECS with auto-scaling capabilities\n- **Technologies:** Go, Redis, Docker, AWS ECS, PostgreSQL\n\n**E-Commerce Analytics Dashboard** | *Open Source Contribution* | *2022*\n- Contributed visualization modules to open-source analytics platform\n- Implemented real-time data processing using WebSocket connections\n- Reduced dashboard load time by 50% through query optimization\n- **Technologies:** React, D3.js, Python, WebSocket\n\n**Why this section matters:**  \nProjects demonstrate initiative, passion, and hands-on skills beyond paid work. Include personal, open-source, or freelance projects. Describe the problem, your solution, and impact.\n\n---\n\n### **EDUCATION**\n\n**Master of Science in Computer Science**  \nStanford University | Stanford, CA | *2016*  \n*Relevant Coursework: Distributed Systems, Advanced Algorithms, Machine Learning*\n\n**Bachelor of Science in Software Engineering**  \nUniversity of Washington | Seattle, WA | *2014*  \n*Graduated Magna Cum Laude*\n\n**Why this section matters:**  \nList most advanced degree first. For experienced engineers, coursework is optional but can highlight relevant specialization. Include honors if notable.\n\n---\n\n### **CERTIFICATIONS**\n- AWS Certified Solutions Architect \u2013 Associate (2023)\n- Google Professional Cloud Developer (2022)\n- Scrum Master Certified (2021)\n\n**Why this section matters:**  \nCertifications validate specific skills and show commitment to professional development. Include only current, relevant certifications.\n\n---\n\n## **KEY RESUME TIPS FOR YOUR 7 YEARS EXPERIENCE:**\n\n1. **Tailor for Each Application:** Adjust your summary, skills, and project emphasis based on the job description\n2. **Quantify Everything:** \"Improved performance\" vs \"Increased system throughput by 40%\"\n3. **Show Progression:** Demonstrate increasing responsibility from mid-level to senior roles\n4. **Keep it Concise:** Aim for 1-2 pages maximum, with most recent experience getting most space\n5. **Action Verbs:** Start each bullet point with strong verbs (Architected, Led, Optimized, Mentored)\n6. **Technical Depth:** Include specific technologies, but balance with business impact\n7. **Formatting:** Use clean, consistent formatting with clear section dividers\n8. **Proofread:** Technical resumes must be flawless - have someone review it\n\n## **Optional Sections to Consider:**\n- **Publications/Patents** if you have any\n- **Awards & Honors** if significant\n- **Conference Talks/Presentations** to show thought leadership\n- **Languages** if relevant to position or company\n\nWould you like me to help you tailor this template for a specific company or technology stack you're targeting?",
+  "response_word_count": 764,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a night-time commando story in english, no caps, avoid 'coop', 'killings', 'dead', 'night'",
+  "compressed_word_count": 14,
+  "response": "the world slept, a blanket of silence over the city. our team moved, shadows within shadows, breathing the cool, still air. our objective waited, a silent monolith against a star-dusted sky.\n\nwe were ghosts. rubber-soled boots made no sound on the wet pavement. hand signals replaced words, sharp and clear in the gloom. we flowed over a wall, a single, dark entity.\n\nthe facility was quiet, but not empty. sentries paced their routes, their flashlight beams cutting lazy arcs. we watched, we waited. timing was everything. as one guard turned a corner, we slipped past, a ripple of darkness through an open door.\n\ninside, the air was sterile, humming with dormant machines. our goal was in the lower level, a server room holding secrets. we took the stairs, descending into the earth\u2019s belly.\n\nthe final door was protected by a keypad, a soft green glow. our tech specialist went to work, a small device interfacing with the system. numbers scrolled. a soft click echoed, too loud in the hush. we froze, listening. only the hum answered.\n\nin the server room, blue lights blinked like captive stars. we found the right unit. our specialist plugged in, downloading the data. the progress bar crept, achingly slow. a voice echoed down a distant hall, then faded.\n\nthe download completed. we melted back the way we came, leaving no trace of our visit. exiting was always the most delicate part. we used a different route, a maintenance tunnel that smelled of damp and concrete.\n\nemerging into the open felt like a release. we moved swiftly now, putting distance between us and the objective. the city remained unaware, lost in dreams. at the extraction point, a silent vehicle waited.\n\nwe loaded in, the doors shutting with a soft thud. the engine whispered to life, and we pulled away, leaving the monolith behind, its secrets now in our hands. no alarms sounded. the mission was a whisper, a story that would never be told. we headed for the dawn, another task complete.",
+  "response_word_count": 336,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

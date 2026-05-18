@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "nucleus basics",
+  "compressed_word_count": 2,
+  "response": "# Nucleus Basics\n\n## What is a Nucleus?\n\nThe **nucleus** is the **central core of an atom**, containing most of the atom's mass and carrying a positive charge.\n\n---\n\n## Components\n\n| Particle | Charge | Mass (amu) | Location |\n|----------|--------|------------|----------|\n| **Proton** | +1 | 1 | Inside nucleus |\n| **Neutron** | 0 | 1 | Inside nucleus |\n| **Electron** | -1 | ~0 | Outside nucleus |\n\n---\n\n## Key Terms\n\n- **Atomic Number (Z)** \u2192 number of **protons**\n- **Mass Number (A)** \u2192 protons + neutrons\n- **Neutrons (N)** = A \u2212 Z\n- **Nuclide notation:** \u1d2c_Z X (e.g., \u00b9\u00b2\u2086C)\n\n---\n\n## Important Properties\n\n- **Size:** ~10\u207b\u00b9\u2075 m (femtometers / fermis)\n- **Density:** extremely high (~10\u00b9\u2077 kg/m\u00b3)\n- **Nuclear force:** strong force holds protons & neutrons together\n- **Overcomes** electrostatic repulsion between protons\n\n---\n\n## Isotopes\n\n- Same element, **different number of neutrons**\n- Example: \u00b9\u00b2C, \u00b9\u00b3C, \u00b9\u2074C (all have 6 protons)\n\n---\n\n## Nuclear Stability\n\n- **Stable nuclei:** balanced proton-to-neutron ratio\n- **Unstable nuclei:** undergo **radioactive decay**\n  - Alpha (\u03b1), Beta (\u03b2), Gamma (\u03b3) decay\n\n---\n\nWould you like more detail on any specific topic? \u269b\ufe0f",
+  "response_word_count": 193,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "List 6 13 colonies vs. other British colonies in Markdown.",
+  "compressed_word_count": 10,
+  "response": "### Comparison of the 13 Colonies and Other British Colonies\n#### Key differences and similarities are highlighted below:\n\n* **Government Structure**: \n    The 13 colonies had a mix of charter, proprietary, and royal governments, while other British colonies like Canada and the Caribbean islands were generally more directly controlled by the British monarchy.\n* **Economic Systems**: \n    The 13 colonies had a diverse economy with a strong focus on trade and agriculture, whereas other British colonies like India were primarily focused on exploiting natural resources.\n* **Cultural Identity**: \n    The 13 colonies developed a distinct American identity, whereas other British colonies like Australia maintained stronger ties to British culture.\n* **Path to Independence**: \n    The 13 colonies fought a revolutionary war to gain independence, while other British colonies like Canada gained independence through gradual legislative changes.\n* **Geographical Characteristics**: \n    The 13 colonies were primarily located on the eastern seaboard of North America, whereas other British colonies were scattered across the globe, including the Caribbean, Africa, and Asia.\n* **Historical Legacy**: \n    The 13 colonies became the United States of America, a global superpower, while other British colonies like Hong Kong were eventually returned to their parent countries or gained independence as smaller nations.",
+  "response_word_count": 198,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

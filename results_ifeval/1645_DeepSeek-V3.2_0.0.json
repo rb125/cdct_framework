@@ -1,0 +1,43 @@
+{
+  "key": 1645,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "Sheldon riddle",
+  "compressed_word_count": 2,
+  "response": "Ah, you\u2019re likely referring to one of the riddles Sheldon Cooper from *The Big Bang Theory* might pose.  \nSheldon often uses logic puzzles, science paradoxes, or playful wordplay.  \n\nHere\u2019s a classic \u201cSheldon-style\u201d riddle he actually told on the show:\n\n---\n\n**Riddle:**  \n*I am a strange loop.*  \n*I am both the question and the answer.*  \n*I am everywhere and nowhere.*  \n*What am I?*\n\n---\n\n**Answer:**  \n**A paradox.**  \n(Or sometimes interpreted as \u201cself-reference\u201d or \u201cconsciousness\u201d in a more philosophical Sheldon mode.)\n\n---\n\nIf you had a specific riddle in mind, feel free to share it and I can help explain the answer!",
+  "response_word_count": 100,
+  "instruction_id_list": [
+    "change_case:english_capital"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

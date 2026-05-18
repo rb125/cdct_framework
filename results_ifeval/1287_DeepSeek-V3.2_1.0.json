@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "How did a man named John of Brienne become the King of Jerusalem? Explain in a Zen-like style. Your answer should use all lowercase letters and must also contain exactly 3 bullet points in markdown format. Use * to indicate bullets, like:\n* xyz\n* abc\n* opq",
+  "compressed_word_count": 48,
+  "response": "a title is not worn, but carried. a crown finds the head willing to bear its weight.\n\n* a knight from champagne arrived with nothing but his sword and his name\n* a kingdom without a king saw in him a wall against the wind\n* he did not seek the throne, the throne sought a pillar, and he stood",
+  "response_word_count": 60,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

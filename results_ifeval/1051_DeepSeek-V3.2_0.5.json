@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "write lowercase letter asking friend to vote",
+  "compressed_word_count": 7,
+  "response": "Subject: a quick favor  \n\nhey [friend's name],  \n\nhope you\u2019re doing well! i wanted to reach out about the upcoming election. voting is such a simple but powerful way to make our voices heard, and i hope you\u2019re planning to cast your ballot.  \n\nif you need any info on how or where to vote, i\u2019m happy to help. every vote really does count, and it\u2019s so important to have a say in what happens in our community.  \n\nthanks for considering it\u2014and let me know if you have any questions!  \n\ntake care,  \n[your name]",
+  "response_word_count": 92,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

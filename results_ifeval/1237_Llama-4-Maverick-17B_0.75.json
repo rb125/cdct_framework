@@ -1,0 +1,45 @@
+{
+  "key": 1237,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft a humorous teen post for 'Buena Onda' restaurant, focusing on its Argentinian cuisine. Use markdown to *highlight* key sections. Include 'Argentinian' in the post.",
+  "compressed_word_count": 25,
+  "response": "*Get Ready for a Taste Adventure!*\n\nHey Buena Onda fam! If you're anything like me, you're always on the hunt for a restaurant that serves up more than just a meal - it's gotta be an *experience*. And, let me tell you, *Buena Onda* is the real deal!\n\nThis Argentinian cuisine hotspot is a must-visit for anyone looking to spice up their dining routine. From *juicy asados* to *empanadas that will make your taste buds do the tango*, Buena Onda has got it all!\n\n*The Highlights:*\n* Savor their famous *Chorip\u00e1n*, a mouth-watering Argentinian street food classic\n* Indulge in their *Milanesa*, a breaded and fried cutlet that's *to die for*\n* Don't even get me started on the *Dulce de Leche* desserts - *heavenly*!\n\nSo, what are you waiting for? Gather your squad and head on over to Buena Onda for a taste of *Authentic Argentinian Flavor*. Trust me, you won't be disappointed!\n\n*Buena Onda* - where every meal is a *fiesta* in your mouth!",
+  "response_word_count": 166,
+  "instruction_id_list": [
+    "detectable_format:number_highlighted_sections",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_highlighted_sections_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

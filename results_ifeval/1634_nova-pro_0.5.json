@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "create 4-point rubric for home theater targeting moms:\n* sound quality\n* ease of setup\n* kid-friendly features\n* budget-friendly options",
+  "compressed_word_count": 21,
+  "response": "Certainly! Here's a 4-point rubric for evaluating home theater systems targeting moms, focusing on sound quality, ease of setup, kid-friendly features, and budget-friendly options:\n\n---\n\n### Home Theater Rubric for Moms\n\n#### 1. Sound Quality\n- **4 - Exceptional**: Crystal-clear audio with rich bass, balanced mids, and crisp highs. Surround sound creates an immersive experience without distortion, even at high volumes.\n- **3 - Good**: Clear audio with noticeable surround sound. Minor distortions at high volumes but generally pleasing.\n- **2 - Fair**: Basic sound quality with some noticeable imbalances. Surround sound is present but not very effective.\n- **1 - Poor**: Muffled or tinny audio. Surround sound is barely noticeable or non-existent. Frequent distortions.\n\n#### 2. Ease of Setup\n- **4 - Very Easy**: Plug-and-play with clear, step-by-step instructions. Minimal technical knowledge required. Automatic calibration for optimal performance.\n- **3 - Easy**: Straightforward setup with some minor technical steps. Clear instructions provided. May require some manual calibration.\n- **2 - Moderate**: Requires some technical know-how. Instructions are somewhat confusing. Manual calibration needed for best results.\n- **1 - Difficult**: Complex setup process with unclear instructions. Significant technical knowledge required. Difficult to calibrate properly.\n\n#### 3. Kid-Friendly Features\n- **4 - Excellent**: Multiple kid-friendly features such as parental controls, volume limiters, and a library of children\u2019s content. Safe materials and designs.\n- **3 - Good**: Some kid-friendly features like parental controls and volume limiters. Basic safety features.\n- **2 - Fair**: Limited kid-friendly features. Basic parental controls available.\n- **1 - Poor**: No specific kid-friendly features. Not designed with children in mind.\n\n#### 4. Budget-Friendly Options\n- **4 - Very Budget-Friendly**: Affordable price point with frequent sales and discounts. Offers great value for money without compromising quality.\n- **3 - Budget-Friendly**: Reasonable price with occasional sales. Good value for the features provided.\n- **2 - Moderately Priced**: Higher price point with some budget options available. Decent value for money.\n- **1 - Expensive**: High price point with limited budget-friendly options. May not offer good value for money.\n\n---\n\nThis rubric can help moms evaluate home theater systems based on criteria that matter most to them.",
+  "response_word_count": 355,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

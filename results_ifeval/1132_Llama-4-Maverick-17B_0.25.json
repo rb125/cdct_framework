@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "compose rock lyrics in all caps, no \"rock",
+  "compressed_word_count": 8,
+  "response": "I DON'T NEED YOUR PERMISSION TO FEEL ALIVE\nI'M BREAKING FREE FROM THE CHAINS THAT BIND\nI'M STANDING TALL, I'M TAKING CONTROL\nI WON'T BE HELD DOWN, I WON'T BE IGNORED\n\nI'M ON FIRE, I'M BURNING WITH A FLAME\nTHAT CAN'T BE TAMED, THAT CAN'T BE NAMED\nI'M UNSTOPPABLE, I'M UNBEATABLE\nI'M THE ONE WHO'S GOING TO MAKE IT HAPPEN\n\nI WON'T BACK DOWN, I WON'T GIVE IN\nI'LL KEEP ON FIGHTING, I'LL WIN\nI'M THE VOICE OF THE VOICELESS, I'M THE SOUND\nOF THE FUTURE, I'M THE ONE WHO'S COMING AROUND\n\nI'M ELECTRIC, I'M ENERGIZED\nI'M THE SPARK THAT SETS THE NIGHT ALIGHT\nI'M THE BEAT OF THE DRUM, I'M THE RHYTHM AND THE SOUND\nI'M THE ONE WHO'S GOING TO TURN IT UP, TURN IT LOUD",
+  "response_word_count": 128,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

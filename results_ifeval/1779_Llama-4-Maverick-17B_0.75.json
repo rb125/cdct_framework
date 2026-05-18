@@ -1,0 +1,45 @@
+{
+  "key": 1779,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "create A funny grocery trip itinerary in lima with keywords 'disgusting', 'delicious', 'bad', 'good', in all caps",
+  "compressed_word_count": 17,
+  "response": "Here's a funny grocery trip itinerary in Lima with the required keywords:\n\n**LIMA GROCERY ADVENTURE**\n\n**9:00 AM - START OF THE END (OF MY DIET)**\nBegin the day at the vibrant local market in Miraflores. Try some exotic fruits that are **DISGUSTING** to some, but a delicacy to others (looking at you, lucuma).\n\n**10:00 AM - TIME FOR SOME **DELICIOUS** TREATS**\nHead to the nearest supermarket and grab some **GOOD** quality chocolate from the Andes. Sample a few to ensure they're up to par (quality control is a tough job).\n\n**11:30 AM - AVOIDING THE **BAD** STUFF**\nVisit the local seafood section and avoid the fish that's been sitting out for a bit too long. You know, the one with the... interesting smell. Yeah, let's just avoid that one.\n\n**1:00 PM - LUNCHTIME: **GOOD** VS. **BAD****\nTry some local street food that's either **DELICIOUS** or **DISGUSTING**, depending on your taste buds. If you're feeling adventurous, go for the anticuchos (beef heart skewers). If not, stick with the **GOOD** old-fashioned ham and cheese sandwich.\n\n**3:00 PM - COFFEE BREAK (WITH A **BAD** HABIT)**\nStop by a local caf\u00e9 and indulge in some sweet treats, like picarones or mazamorra. Be warned: these might lead to a **BAD** habit of overindulging in Peruvian desserts.\n\n**5:00 PM - END OF THE TRIP (WITH A FULL BELLY)**\nFinish the day with a visit to a local bodega (convenience store) to grab some **GOOD** old-fashioned Peruvian snacks, like chifles or cancha. If you're lucky, you might even find some **DISGUSTING**-ly spicy aji amarillo sauce to spice things up.\n\n**6:00 PM - TIME TO HEAD HOME (WITH A **DELICIOUS** DINNER IN TOW)**\nReturn home with a bag full of **GOOD**ies and a stomach full of **DELICIOUS** Peruvian cuisine. Just don't forget to pack some Tums for the aftermath.",
+  "response_word_count": 301,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

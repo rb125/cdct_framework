@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+  "compressed_word_count": 39,
+  "response": "\"Matthias Algiers\nContact Information: (123) 456-7890, matthias.algiers@email.com\n\nSummary:\nHighly skilled and results-driven professional with extensive experience in MANAGEMENT and STRATEGIC PLANNING. Proven track record of driving business growth through INNOVATIVE SOLUTIONS and effective team leadership.\n\nWork Experience:\nBusiness Development Manager, XYZ Corporation (2018-Present)\n- Developed and executed business strategies that resulted in a 25% increase in revenue\n- Demonstrated exceptional LEADERSHIP skills by managing a team of 10 employees\n- Utilized DATA ANALYSIS to inform business decisions and drive growth\n- Collaborated with cross-functional teams to launch new products and services\n\nMarketing Manager, ABC Company (2015-2018)\n- Created and implemented successful marketing campaigns that increased brand awareness by 50%\n- Developed and managed a team of marketing professionals, providing guidance and support to ensure successful project execution\n- Demonstrated expertise in DIGITAL MARKETING and SOCIAL MEDIA MANAGEMENT\n\nEducation:\nBachelor's Degree in Business Administration, [University Name] (2010-2014)\n\nSkills:\n- STRATEGIC PLANNING and EXECUTION\n- TEAM MANAGEMENT and LEADERSHIP\n- DATA ANALYSIS and INTERPRETATION\n- DIGITAL MARKETING and SOCIAL MEDIA MANAGEMENT\n- Excellent communication and problem-solving skills\"",
+  "response_word_count": 175,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": true
+  },
+  "heuristic_cc": 0.6666666666666666,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

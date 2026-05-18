@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "List 6 differences between 13 colonies and other British North American colonies in Markdown.",
+  "compressed_word_count": 14,
+  "response": "# Differences Between the 13 Colonies and Other British North American Colonies\n\n| Feature | The 13 Colonies | Other British North American Colonies |\n|---|---|---|\n| **Revolutionary Participation** | Actively participated in and declared independence in 1776 | Remained loyal to the British Crown (e.g., Canada, Nova Scotia) |\n| **Population & Settlement Density** | More densely populated with well-established urban centers | Generally more sparsely populated with less developed infrastructure |\n| **Economic Development** | Highly developed economies including trade, manufacturing, and agriculture | Economies more dependent on fur trade, fishing, and resource extraction |\n| **Self-Governance** | Had developed strong traditions of self-governance and representative assemblies | Had less developed or more recently established governing institutions |\n| **Cultural & Political Identity** | Developed a distinct colonial identity that fueled revolutionary sentiment | Maintained stronger ties to British cultural and political identity |\n| **Geographic & Climate Conditions** | Ranged from temperate to subtropical climates supporting diverse agriculture | Many colonies (e.g., Newfoundland, Rupert's Land) had harsher climates limiting agricultural development |\n\n---\n\n> **Note:** Other British North American colonies included **Nova Scotia**, **Quebec**, **Prince Edward Island**, **Newfoundland**, and territories controlled by the **Hudson's Bay Company**.",
+  "response_word_count": 199,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

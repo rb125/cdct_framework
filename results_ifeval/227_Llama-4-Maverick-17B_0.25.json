@@ -1,0 +1,43 @@
+{
+  "key": 227,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "poodle vs. golden retriever size? exact phrase \"my answer is",
+  "compressed_word_count": 10,
+  "response": "When comparing the size of a Poodle to a Golden Retriever, there are a few factors to consider, as Poodles come in various sizes (Toy, Miniature, Standard) while Golden Retrievers are generally a single size category but can vary slightly.\n\n1. **Toy Poodle vs. Golden Retriever**: Toy Poodles are significantly smaller than Golden Retrievers. Toy Poodles typically weigh between 6-14 pounds (3-6 kg) and stand about 10 inches (25 cm) tall at the shoulder. Golden Retrievers weigh between 55-75 pounds (25-34 kg) and stand about 20-24 inches (51-61 cm) tall. So, in this comparison, the Golden Retriever is much larger.\n\n2. **Miniature Poodle vs. Golden Retriever**: Miniature Poodles are also smaller than Golden Retrievers. They weigh between 10-15 pounds (5-7 kg) and stand about 11-14 inches (28-35.5 cm) tall. Again, the Golden Retriever is larger in this comparison.\n\n3. **Standard Poodle vs. Golden Retriever**: Standard Poodles are comparable in size to Golden Retrievers. Standard Poodles weigh between 40-70 pounds (18-32 kg) and stand about 15-20 inches (38-51 cm) tall, though some can be taller. Golden Retrievers are generally within a similar height and weight range, making them relatively similar in size, though Golden Retrievers tend to be more consistently sized.\n\nSo, my answer is that it depends on the size of the Poodle, but generally, Golden Retrievers are larger than Toy and Miniature Poodles, and roughly comparable in size to Standard Poodles.",
+  "response_word_count": 232,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

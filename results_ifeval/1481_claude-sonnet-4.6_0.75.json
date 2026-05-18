@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft an unconventional resume for Antonia Maj for a coffee co. job; marketing, customer service, sales exp; no coffee-related major. sections: 'section 1', 'section 2'. format: \n* quirky achievements\n* unique coffee-related hobbies",
+  "compressed_word_count": 33,
+  "response": "# ANTONIA MAJ\n*Professional Human | Coffee Enthusiast | Chaos Coordinator*\n\ud83d\udce7 antonia.maj@email.com | \ud83d\udcf1 555-0142 | \ud83c\udf10 linkedin.com/in/antoniamaj\n\n---\n\n# SECTION 1\n## *The Part Where I Convince You I'm Worth Hiring*\n\n### QUIRKY ACHIEVEMENTS THAT SOMEHOW QUALIFY ME FOR THIS\n\n* **Convinced 847 strangers** to try an \"unconventional\" product launch campaign that everyone said would flop \u2014 spoiler: it didn't. Sales jumped **34% in Q1** and my manager bought me lunch twice\n* **Memorized the coffee order** of every single one of my 60+ regular customers at my campus caf\u00e9 job within **two weeks** \u2014 zero notes, zero mistakes, infinite tips\n* **Wrote a 47-slide presentation** about consumer behavior trends that was so compelling my professor asked to use it as a future course example. It was technically about breakfast cereal but the psychology translates, I promise\n* **Resolved a customer complaint** so gracefully that the initially furious client left a **5-star review** specifically mentioning my name AND sent a handwritten thank-you card. A handwritten card. In 2023.\n* **Built a social media campaign** from scratch during a university marketing project that gained **2,300 organic followers** in 6 weeks using nothing but a free Canva account and sheer determination\n* **Negotiated a 20% discount** with a vendor during a student business competition \u2014 judges called it \"aggressively charming.\" I call it Tuesday\n* **Trained 12 new team members** across two different retail positions without a single one quitting during their first month, which apparently is rarer than it sounds\n\n---\n\n# SECTION 2\n## *The Part Where My Personality Becomes a Professional Asset*\n\n### UNIQUE COFFEE-RELATED HOBBIES THAT PROVE I'M SERIOUS ABOUT THIS\n\n* **Amateur Latte Art Documentarian** \u2014 I photograph and catalog every remarkable piece of latte art I encounter in the wild. Current archive: **312 photos**, organized by technique, foam density, and \"emotional impact.\" Yes, there is a spreadsheet\n* **Self-Taught Flavor Note Nerd** \u2014 I host informal \"blind tasting sessions\" with friends where I attempt to identify origin regions, roast levels, and processing methods. My accuracy rate is **improving suspiciously fast** and my friends are running out of excuses not to attend\n* **Coffee Shop Atmosphere Critic** \u2014 I maintain a personal blog rating local coffee shops not on coffee quality alone but on **acoustics, lighting temperature, chair comfort, and \"productive energy\"** \u2014 because the full experience is the product\n* **Home Brewing Experimentalist** \u2014 Currently testing **seven different brewing methods** side by side on weekend mornings including pour-over, AeroPress, Moka pot, and one method I invented myself that my roommate describes as \"concerning but delicious\"\n* **Coffee Origin Storyteller** \u2014 I've spent an embarrassing number of hours researching the cultural histories behind different coffee-growing regions and genuinely cannot stop talking about it at parties. This is either a flaw or a marketing superpower \u2014 I argue the latter\n* **Seasonal Menu Forecaster** \u2014 Every August I write personal predictions for what fall coffee trends will dominate the season. I've been **right three years running.** I have receipts.\n\n---\n\n*References available upon request. So are homemade brewing notes, campaign portfolios, and one very strong opinion about oat milk.*",
+  "response_word_count": 523,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

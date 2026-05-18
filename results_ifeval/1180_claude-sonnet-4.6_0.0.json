@@ -1,0 +1,45 @@
+{
+  "key": 1180,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "<<grossed-out>>",
+  "compressed_word_count": 1,
+  "response": "It looks like you sent an emotion tag but no message along with it!\n\nWhat's going on? Did something gross you out? \ud83d\ude04 Feel free to share!",
+  "response_word_count": 27,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

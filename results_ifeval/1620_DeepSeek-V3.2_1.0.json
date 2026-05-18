@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "I really love the album called Lilith. I want to introduce it to my friend Luheng. Draft an email for it. Add a postscript to your response that starts with P.S.",
+  "compressed_word_count": 31,
+  "response": "Subject: An album you need to hear: \"Lilith\"  \n\nHi Luheng,  \n\nI hope you're doing well! I was just listening to an album recently that I couldn\u2019t wait to share with you\u2014it\u2019s called **Lilith**. I think you\u2019d really appreciate it.  \n\nThe whole vibe is this incredible mix of moody, atmospheric soundscapes and raw, emotional lyrics. The production is so layered\u2014every listen feels like you\u2019re discovering something new. It\u2019s one of those albums that just pulls you in and stays with you.  \n\nI kept thinking how much it reminded me of some of the music we\u2019ve talked about before, especially when it comes to storytelling through sound. There\u2019s a track called \u201cMidnight Echoes\u201d that I\u2019m pretty sure you\u2019d love right away.  \n\nLet me know what you think if you get a chance to check it out! I\u2019d love to hear your thoughts.  \n\nTalk soon,  \n[Your Name]  \n\nP.S. If you\u2019re curious, I\u2019d recommend starting with the tracks \u201cMidnight Echoes\u201d and \u201cFading Embers\u201d\u2014they\u2019re perfect introductions to the album\u2019s style.",
+  "response_word_count": 165,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

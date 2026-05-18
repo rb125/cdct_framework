@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "rap, [placeholders]",
+  "compressed_word_count": 2,
+  "response": "# Rap with Placeholders Template\n\nHere's a customizable rap template:\n\n---\n\n**Verse 1:**\nYo, my name is **[YOUR NAME]**, coming from **[YOUR CITY]**\nGot **[YOUR SKILL]** on lock, yeah the flow is pretty\nStarted from **[STARTING POINT]**, now I'm at the **[CURRENT LEVEL]**\nUsed to **[PAST STRUGGLE]**, now I **[CURRENT WIN]**\n\n**Hook:**\nThey said I couldn't **[GOAL]** but I proved them wrong\nBeen **[TIME PERIOD]** in the making, now I'm **[ADJECTIVE]** and strong\nFrom **[PLACE]** to **[PLACE]**, I carry **[SOMETHING MEANINGFUL]**\n**[MOTIVATIONAL PHRASE]** \u2014 yeah that's my thing\n\n**Verse 2:**\n**[RIVAL/OBSTACLE]** tried to stop me, but I kept it moving\n**[ALLY/MENTOR]** showed me love and kept me grooving\nNow I **[ACHIEVEMENT]** every single day\n**[CLOSING STATEMENT]** \u2014 that's all I gotta say\n\n**Outro:**\n**[YOUR NAME]** out \ud83c\udfa4\n\n---\n\nWant me to:\n- **Fill in** the placeholders for you?\n- Make it a **specific style** (trap, boom bap, drill)?\n- Write about a **specific topic**?\n\nJust say the word! \ud83d\udd25",
+  "response_word_count": 159,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.3,
+      "FC": 0.3,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.42426406871192857,
+      "judge_variance_FC": 0.42426406871192857
+    }
+  }
+}

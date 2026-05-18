@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "rap new smartphone, [placeholders], P.P.S.",
+  "compressed_word_count": 5,
+  "response": "Of course. Here are several options for the \"rap new smartphone\" line, categorized by the vibe you're going for.\n\n### Option 1: Punchy & Boastful (Classic Hip-Hop)\nThis phone's a beast, it's top of the line,\n**Crushes the benchmarks, makes the competition whine.**\nA camera so sharp, it reads between the lies,\n**Unlocks with a glance, sees the truth in your eyes.**\n\n### Option 2: Smooth & Stylish (Modern Trap)\nFresh out the box, this thing's a **flex,**\n**Design so clean, it's causing hex.**\nScreen's a **river** of glass, so smooth to the touch,\n**Runs every app faster, you need it this much.**\n\n### Option 3: Technical & Clever\nIt's a **pocket supercomputer, silicon heart,**\n**Machine learning brains, a work of art.**\n**Neural engine humming, processing the data,**\n**Leaving older models in the rearview, see ya.**\n\n### Option 4: Straight-Up Braggadocio\nYo, check the new tech, it's a **game-changer,**\n**Battery lasts forever, never a stranger.**\n**Photos in the dark look brighter than day,**\nThis ain't just an upgrade, it's the only way.\n\n**P.P.S. Pick your favorite couplet and drop it in the track.**",
+  "response_word_count": 183,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.3333333333333333,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

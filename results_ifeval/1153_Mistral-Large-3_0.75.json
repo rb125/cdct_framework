@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft a social media post for islamic history students about hajj; use lowercase; include \"story\" twice",
+  "compressed_word_count": 16,
+  "response": "here\u2019s a draft for your post:\n\n---\n\n\ud83c\udf19\u2728 for all my islamic history students\u2014let\u2019s dive into the *story* of hajj, a journey that carries centuries of faith, struggle, and devotion. from the footsteps of hagar in the desert to the kaaba\u2019s sacred walls, every ritual is a living *story* of resilience and unity. who\u2019s ready to explore the layers behind this pillar of islam? drop your favorite hajj fact below! \ud83d\udd4b\ud83d\udc99 #islamichistory #hajjstory #learningneverends\n\n---",
+  "response_word_count": 75,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

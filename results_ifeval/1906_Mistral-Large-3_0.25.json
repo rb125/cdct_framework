@@ -1,0 +1,43 @@
+{
+  "key": 1906,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "angry tweet friend always late, no emojis",
+  "compressed_word_count": 7,
+  "response": "Here\u2019s a sharp, no-nonsense tweet you could send\u2014adjust the tone to match your vibe:\n\n---\n**\"Being late isn\u2019t cute. It\u2019s disrespectful. If you can\u2019t show up on time, don\u2019t show up at all.\"**\n\n*(Short, direct, and leaves no room for excuses\u2014no emojis, just heat.)*\n\n---\n\n**Variations (pick your intensity):**\n- **Sarcastic:** *\"Wow, what a surprise\u2014you\u2019re late. Again. Groundbreaking.\"*\n- **Cold:** *\"Your punctuality is a joke. I\u2019m not laughing.\"*\n- **Blunt:** *\"If you\u2019re always late, you\u2019re telling me I don\u2019t matter. Fix it or stop making plans.\"*\n\nWant it more personal? Add a specific example (e.g., *\"Last time you kept me waiting 45 mins\u2014don\u2019t waste my time again.\"*).",
+  "response_word_count": 107,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

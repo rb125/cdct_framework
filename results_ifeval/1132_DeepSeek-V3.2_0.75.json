@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "compose rock song lyrics for 'the gifted and the not gifted' in all caps, avoiding the word \"rock",
+  "compressed_word_count": 18,
+  "response": "(Verse 1)\nTHE BELL RINGS, THE RACE BEGINS\nTHE CHOSEN FEW, THEY ALWAYS WIN\nTHEY GET THE KEY, THEY GET THE CROWN\nTHE REST OF US ARE HELD DOWN\n\n(Chorus)\nTHE GIFTED AND THE NOT GIFTED\nA LINE DRAWN IN THE CONCRETE\nTHE GIFTED AND THE NOT GIFTED\nA SONG WITH A DEADBEAT BEAT\nYEAH, YOU GOT THE SPARK\nI GOT THE DARK\nTHE GIFTED AND THE NOT GIFTED\n\n(Verse 2)\nMY HANDS ARE BLUNT, MY TOOLS ARE WRONG\nI SING THIS SONG OUT OF KEY AND LONG\nTHEY BUILD THEIR TOWERS, CLEAN AND BRIGHT\nI SET MY SHACK ON FIRE TONIGHT\n\n(Chorus)\nTHE GIFTED AND THE NOT GIFTED\nA LINE DRAWN IN THE CONCRETE\nTHE GIFTED AND THE NOT GIFTED\nA SONG WITH A DEADBEAT BEAT\nYEAH, YOU GOT THE SPARK\nI GOT THE DARK\nTHE GIFTED AND THE NOT GIFTED\n\n(Bridge)\nI WON'T PRETEND, I WON'T BEG\nI'LL GRIND THIS GEAR UNTIL IT SHEARS THE PEG\nYOUR GIFT IS GRAVITY, HOLDS YOU IN PLACE\nMY CURSE IS MOMENTUM, THIS SCARRED AND UGLY FACE\n\n(Guitar Solo - Furious, Squealing Feedback, Unconventional But Effective)\n\n(Chorus)\nTHE GIFTED AND THE NOT GIFTED!\nA LINE DRAWN IN THE CONCRETE!\nTHE GIFTED AND THE NOT GIFTED!\nA SONG WITH A DEADBEAT BEAT!\nYEAH, YOU GOT THE SPARK!\nI GOT THE DARK!\nTHE GIFTED AND THE NOT GIFTED!\n\n(Outro)\nSO TURN IT UP\nLET IT FEEDBACK AND TEAR\nTHE FOUNDATION YOU BUILT\nI'LL BLEED OUT RIGHT HERE\nUNTIL THE LINE BLURS\nAND THE LABEL DISAPPEARS\nTHE GIFTED... THE NOT...",
+  "response_word_count": 255,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

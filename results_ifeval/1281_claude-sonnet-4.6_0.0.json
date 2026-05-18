@@ -1,0 +1,45 @@
+{
+  "key": 1281,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "Write limerick about college intern, grow\"\n\"College intern limerick",
+  "compressed_word_count": 9,
+  "response": "Here's a limerick about a college intern:\n\nA college intern named Drew,\nHad so much he wanted to do,\nHe learned every day,\nAnd grew on the way,\nNow he's running the whole office crew!",
+  "response_word_count": 35,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

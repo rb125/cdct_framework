@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "summarize the defamation case outcome between Amber Heard and Johnny Depp. Write Heard's view first, Depp's view next, separated by six asterisks. Keep under 300 words.",
+  "compressed_word_count": 26,
+  "response": "Amber Heard's View:\nAmber Heard maintains that she exercised her right to free speech when she wrote an op-ed about her experiences with domestic abuse. She believes the article did not specifically name Johnny Depp and that it was protected under the First Amendment. Heard asserts that she did not defame Depp and that the article was a truthful account of her experiences. She argues that the verdict does not change her lived experience and that she stands by her statement.\n\n****************************\n\nJohnny Depp's View:\nJohnny Depp views the defamation case as a victory for truth and justice. He believes that Amber Heard's op-ed falsely portrayed him as a domestic abuser, causing significant damage to his reputation and career. Depp asserts that the jury's verdict vindicated him and confirmed that Heard's claims were defamatory and made with actual malice. He hopes the outcome will help restore his reputation and deter others from making false accusations.",
+  "response_word_count": 155,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.8
+      }
+    },
+    "consensus": {
+      "CC": 0.6,
+      "SA": 0.9666666666666667,
+      "FC": 0.9,
+      "judge_variance_CC": 0.14142135623730953,
+      "judge_variance_SA": 0.04714045207910316,
+      "judge_variance_FC": 0.08164965809277258
+    }
+  }
+}

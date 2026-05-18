@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write me a template for a product description in the form of a poem and end it with a post script starting with P.P.S",
+  "compressed_word_count": 24,
+  "response": "Here is a template for a product description in the form of a poem:\n\n---\n\n# [Product Name] - A Poem\n\nIntroducing [product name], a wonder to behold,\nA [product category] with a story to be told,\nWith [key feature 1] and [key feature 2] so bright,\nIt fills your [need/problem it solves] with pure delight.\n\nCrafted with [material/ingredient] of the finest kind,\nA [adjective] solution you will surely find,\nIn [color/size/variety options] to suit your every need,\n[Product name] is truly guaranteed to succeed.\n\nFor [target audience] who deserve the very best,\nThis [product category] will stand above the rest,\nAt [price point] it is a worthy buy,\nA [adjective] investment you cannot deny.\n\nSo order now and feel the difference today,\nLet [product name] brighten up your day,\nWith [unique selling point] like no other brand,\nThe finest [product category] in all the land.\n\n*Available at [website/store location]*\n*[Call to action - e.g., Shop Now / Order Today]*\n\n---\n\n> **P.P.S** - Don't forget to take advantage of our\n> [special offer/discount/promotion] for a limited\n> time only! [Details of offer here]",
+  "response_word_count": 184,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

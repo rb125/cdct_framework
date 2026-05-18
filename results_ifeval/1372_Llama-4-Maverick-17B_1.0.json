@@ -1,0 +1,43 @@
+{
+  "key": 1372,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Draft a blog post about Ripley's Aquarium. Make sure your blog post contains at least 7 placeholders represented by square brackets, such as [location].",
+  "compressed_word_count": 24,
+  "response": "**Dive into the Wonders of Ripley's Aquarium at [Location]**\n\nAre you ready to embark on an underwater adventure like no other? Look no further than Ripley's Aquarium, located in the heart of [City]. This world-class attraction is home to thousands of marine animals from around the globe, offering an unforgettable experience for visitors of all ages.\n\nAs you step into the aquarium, you'll be transported to an underwater world teeming with life. The first thing you'll notice is the massive [Tank Size]-gallon tank, which is home to an array of species, including sharks, rays, and colorful fish of all kinds. You'll be able to get up close and personal with these creatures as you walk through the [Tunnel Name], a 360-degree tunnel that offers a thrilling perspective on the marine life.\n\nOne of the highlights of Ripley's Aquarium is the [Exhibit Name] exhibit, which features a stunning array of jellyfish from around the world. You'll be mesmerized by the ethereal beauty of these creatures as they pulse and glow in the dimly lit display. Be sure to check out the [Interactive Display] interactive display, where you can learn more about the fascinating world of jellyfish and even touch a specially designed interactive screen.\n\nIn addition to the jellyfish exhibit, Ripley's Aquarium is also home to a variety of other interactive experiences, including the [Touch Pool Name] touch pool, where you can get hands-on with marine animals like starfish and anemones. Kids will love the [Play Area Name] play area, where they can learn about ocean conservation while having fun.\n\nRipley's Aquarium is open [Operating Hours] and tickets can be purchased online or at the door. Prices start at [Ticket Price] for adults and [Child Ticket Price] for children. Be sure to plan your visit in advance, as this popular attraction can get busy, especially during [Peak Season].\n\nWhether you're a marine biology enthusiast or just looking for a fun day out with the family, Ripley's Aquarium at [Location] is a must-visit destination. So why not start planning your visit today and get ready to dive into the wonders of the underwater world?\n\n**Practical Information:**\n\n* Location: [Location], [City]\n* Operating Hours: [Operating Hours]\n* Ticket Prices: [Ticket Price] (adults), [Child Ticket Price] (children)\n* Age Restrictions: [Age Restrictions]\n* Special Events: Check the Ripley's Aquarium website for information on [Special Events] and other activities.",
+  "response_word_count": 394,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

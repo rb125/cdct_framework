@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write acoustic song Korean peninsula no commas",
+  "compressed_word_count": 7,
+  "response": "The morning mist on the Nakdong River\nA slow sun on the Diamond Mountains\nA single note hangs in the silent air\nA fragile thread spun from a prayer\n\nA farmer bends in a field of green\nA Seoul window holds a dream\nThe very same sky the very same ground\nTwo different hearts make the very same sound\n\nOne peninsula beneath the moon\nOne old and aching tune\nStrummed on a wire across a divide\nWith nowhere left for the sound to hide\n\nNo border deep enough to keep\nThis melody from the soil so steep\nIt rises from the rice and the pine\nA simple song for a fractured line\n\nOne peninsula beneath the moon\nOne old and aching tune\nStrummed on a wire across a divide\nWith nowhere left for the sound to hide\n\nThe echo calls from hill to hill\nA promise that the land holds still\nFor a single chord a unified strain\nTo find its way home again",
+  "response_word_count": 164,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

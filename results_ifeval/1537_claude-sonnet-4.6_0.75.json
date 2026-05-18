@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Describe tennis balls in a medieval poem style, P.P.S: use modern materials.",
+  "compressed_word_count": 12,
+  "response": "# The Spheres of Felt and Rubber\n\n*A verse in the manner of the ancients*\n\n---\n\nHearken now, ye gathered souls, and lend thine ears to me,\nOf wondrous orbs most cunningly wrought, of which I sing with glee.\nBorn of rubber, strange dark gum from trees of distant shore,\nPressurized within their cores, they bounce forevermore.\n\nTheir mantles clad in neon bright, a yellow-green of flame,\nA felt of woven nylon thread doth clothe each hollow frame.\nNo wool of sheep nor flax of field could serve this noble sphere,\nBut synthetic fibre, spun by craft, doth hold its shape most dear.\n\nTwo halves of rubber, sealed with glue and bound by mortal hand,\nThen wrapped in cloth most carefully, as craftsmen doth command.\nWithin their bellies trapped doth sit a breath of pressured air,\nThat grants them life and springing joy beyond all things most fair.\n\nThey fly like falcons loosed from fist across the verdant court,\nStruck mightily by racquet's face in this most noble sport.\nThey bounce upon the hardened ground and sing a hollow song,\nA *thwock* most satisfying, clear, resounding full and strong.\n\nYet mark thee well, good pilgrim friend, their glory doth not last,\nThe pressure fades, the felt grows worn, their bouncing days fly past.\nAnd so we mourn the flattened sphere, cast into canvas tin,\n*Thus perish all ye rubber orbs* \u2014 and so we buy again.\n\n---\n\n*Here endeth the verse. God save the match.*",
+  "response_word_count": 245,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

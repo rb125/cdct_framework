@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Describe tennis balls in a medieval poem style, P.P.S: use modern materials.",
+  "compressed_word_count": 12,
+  "response": "**\"The Ballad of the Bouncy Round\"**\n*(A Medieval Lay of Modern Make)*\n\nHark! Gather ye close, both squire and knight,\nAnd lend thine ear to this strange sight\u2014\nA ball of hues both bright and bold,\nNot leather stitched, but plastic gold!\n\nNo bladder filled with swine\u2019s last breath,\nNor cork to cheat the grip of death,\nBut rubber forged in fires deep,\nWhere alchemists their secrets keep.\n\nSoft as a maid\u2019s most tender sigh,\nYet tough as steel \u2018gainst stormy sky,\nIt leaps and bounds with merry cheer,\nDefying all the laws ye fear!\n\nNo feathered fowl nor fleece of sheep,\nBut fuzz like moss on castle keep,\nYet finer spun than spider\u2019s thread,\nTo kiss the racket\u2019s swiftest dread.\n\nO! Wondrous orb of modern art,\nThat mocks the strength of mortal heart\u2014\nNo lance nor mace could strike so true,\nAs this bright sphere when struck anew!\n\nSo let the minstrels sing its praise,\nAnd knights in tourney lift their gaze\u2014\nFor though it bears no blade nor crest,\nIt rules the game\u2014and wins the test!\n\n**\u2014Fin.**\n\n*(P.P.S: Materials used: vulcanized rubber core, nylon/wool blend felt, pressurized air, and a dash of anachronistic whimsy.)*",
+  "response_word_count": 196,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

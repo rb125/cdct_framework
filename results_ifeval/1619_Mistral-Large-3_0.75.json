@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a rap for a new smartphone; include at least 6 placeholders [ ]. P.P.S. Add a postscript starting with \"P.P.S.",
+  "compressed_word_count": 21,
+  "response": "**\ud83c\udfa4 *\"The Future in Your Hand\"* \ud83c\udfa4**\n*(A Rap for the Next-Gen Smartphone)*\n\n*(Intro \u2013 Beat drops)*\nYo, step in the game, yeah, we flippin\u2019 the script,\nNew tech in the palm\u2014watch the world take a dip!\nFrom [CITY] streets to the [COUNTRY] skies,\nThis phone\u2019s the king\u2014no cap, no lies.\n\n*(Verse 1)*\nSleek like a shadow, light as a feather,\n[FEATURE 1] so fast\u2014yeah, we built it for speed, never!\nBattery? Nah, we don\u2019t play that game,\n[FEATURE 2] juice\u2014charge once, stay in the frame.\n\nCamera so crisp, it\u2019ll make you a star,\n[FEATURE 3] shots\u2014post \u2018em near or real far.\nAI in the mix, it\u2019s readin\u2019 your mind,\nSwipe, tap, or talk\u2014yeah, it\u2019s workin\u2019 just fine.\n\n*(Pre-Chorus)*\nNo lag, no glitch, just pure innovation,\nThis phone\u2019s the blueprint for the next generation!\n\n*(Chorus)*\nFuture in your hand, yeah, we rewritin\u2019 the rules,\n[BRAND NAME] drop\u2014now the haters lookin\u2019 fools!\nFrom the [LANDMARK] lights to the [SCENERY] views,\nThis tech\u2019s the truth\u2014no fake news!\n\n*(Verse 2)*\nScreen so smooth, it\u2019s like touchin\u2019 the sky,\n[FEATURE 4] display\u2014watch the colors pop high.\nSecurity tight, no hacker can creep,\n[FEATURE 5] lock\u2014keep your secrets deep.\n\nGaming? Oh yeah, we got the power,\n[FEATURE 6] mode\u2014turn your phone to a tower.\nNo more buffering, no more wait,\nThis phone\u2019s elite\u2014it\u2019s the ultimate flex, straight!\n\n*(Bridge)*\nOld phones in the past, yeah, they obsolete,\nWe droppin\u2019 the mic\u2014now the game\u2019s obsolete!\n\n*(Outro \u2013 Beat fades)*\nSo cop it or cry, yeah, the choice is yours,\n[BRAND NAME]\u2014the future\u2019s at your door.\nStep in the light, leave the dark in the past,\nThis phone\u2019s the last\u2014yeah, it\u2019s built to last!\n\n---\n**P.P.S.** *Oh, and one more thing\u2014this phone\u2019s so fire, it\u2019ll probably make your old one spontaneously combust from jealousy. Just sayin\u2019.* \ud83d\udd25\ud83d\udcf1\ud83d\udca5",
+  "response_word_count": 299,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Could you tell me what kind of balls are used in tennis? I would like the answer in the form of a medieval style poem with a P.P.S at the end.",
+  "compressed_word_count": 31,
+  "response": "In courts of old, where nobles play,\nWith rackets swung and swift array,\nA sphere of worth, in air it flies,\nA tennis ball, 'neath medieval skies.\n\n'Tis crafted fine, of rubber's grace,\nWith felt exterior, soft embrace.\nIts hue, a vibrant shade of green,\nA sight to gladden eyes, I ween.\n\nIn times of yore, when knights did roam,\n'Twas not this ball that found its home.\nFor tennis, in its modern guise,\nA sport of leisure, 'neath fair skies.\n\nP.P.S: Though times have changed, the game remains,\nA testament to sport's enduring strains.",
+  "response_word_count": 95,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

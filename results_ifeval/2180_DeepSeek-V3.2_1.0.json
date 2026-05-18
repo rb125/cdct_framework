@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain the difference between a city and a village in a rap style to a kid. The words with all capital letters should appear at least 10 times. Put the response into at least 5 sections, separated using 3 asterisks ***.",
+  "compressed_word_count": 41,
+  "response": "**INTRO: BEAT DROPS**\nListen up, young scholar, I'm about to explain\nThe DIFFERENCE in the game, through sunshine and rain.\nA city's a FORTRESS, a VILLAGE is calm,\nTwo different worlds in the same giant palm.\n\n***\n\n**VERSE ONE: CITY LIFE**\nA city is LOUD, it's a concrete beehive,\nWhere millions of people hustle and thrive.\nThe buildings are MASSIVE, they scrape the blue sky,\nThe lights never sleep, and the trains rocket by.\nIt's a FAST-PLACE, a maze, a gigantic scene,\nWith more cars and more noise than you've EVER seen.\nIt's a TOTAL spectacle, a non-stop parade,\nIn the shade of the towers that man has made.\n\n***\n\n**VERSE TWO: VILLAGE VIBES**\nNow a village is QUIET, a patchwork of green,\nThe FRESHEST of air that you've ever breathed in.\nYou know every neighbor, the dog, and the cat,\nYou can lay in a field and just chat about that.\nIt's a SIMPLE life, it's a peaceful retreat,\nWhere the rhythm of nature can't ever be beat.\nIt's a TOTAL contrast to the city's loud race,\nA wide, open, smiling, and welcoming face.\n\n***\n\n**BRIDGE: THE BIG COMPARE**\nSo the city's a STORM of exciting new things,\nWhile the village's peace makes your heart softly sing.\nOne's a giant, loud party that's ALWAYS awake,\nOne's a calm, gentle dream by a silent blue lake.\nBoth are IMPORTANT, you must understand,\nThey're both special places built on this land.\n\n***\n\n**OUTRO: THE FINAL WORD**\nSo remember this lesson, it's CRUCIAL and true,\nThe choice is a WONDER that's waiting for you.\nWill you seek the tall towers, the loud, busy street?\nOr the village's quiet, where life feels complete?\nIt's your ADVENTURE to choose your own way,\nNow go explore the world, and have a GREAT day!",
+  "response_word_count": 298,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

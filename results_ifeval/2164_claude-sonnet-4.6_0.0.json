@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "dog toy [placeholders]",
+  "compressed_word_count": 3,
+  "response": "# Dog Toy [Placeholders] Template\n\nHere's a versatile template with placeholders for a dog toy product:\n\n---\n\n## \ud83d\udc3e [PRODUCT NAME]\n\n**Tagline:** *[Catchy slogan about the toy]*\n\n---\n\n### \ud83d\udce6 Product Details\n- **Toy Type:** [Chew / Fetch / Puzzle / Squeaky / Tug / Interactive]\n- **Size:** [Small / Medium / Large / Extra Large]\n- **Color:** [Color 1] / [Color 2] / [Color 3]\n- **Material:** [e.g., Natural Rubber / Plush / Nylon / Rope]\n- **Dimensions:** [X inches x X inches]\n- **Weight:** [X oz / lbs]\n\n---\n\n### \ud83d\udc15 Suitable For\n- **Dog Size:** [Small / Medium / Large breeds]\n- **Age:** [Puppy / Adult / Senior]\n- **Chew Level:** [Light / Moderate / Heavy chewer]\n\n---\n\n### \u2705 Key Features\n- [Feature 1]\n- [Feature 2]\n- [Feature 3]\n- [Feature 4]\n\n---\n\n### \u26a0\ufe0f Safety Information\n- [Safety note 1]\n- [Supervision recommendation]\n\n---\n\n### \ud83d\udcb2 Price: $[XX.XX]\n\n---\n\nWould you like me to **fill in** the placeholders for a specific type of dog toy?",
+  "response_word_count": 171,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

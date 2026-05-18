@@ -1,0 +1,43 @@
+{
+  "key": 1906,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "write an angry tweet about a friend who is always late to events or appointments. craft a concise, no-emotion-filter social media post on punctuality issues.",
+  "compressed_word_count": 25,
+  "response": "Here's an angry tweet about a friend who is always late:\n\n---\n\n**\"Dear [Friend], showing up 45 MINUTES LATE every single time isn't 'fashionably late' - it's disrespectful. My time matters too. Being chronically late tells everyone around you that YOU don't value THEIR time. Fix it or stop making plans you clearly can't keep. #DoneWaiting #BeOnTime\"**\n\n---\n\nKey elements used:\n- **Direct frustration** without filtering\n- **Specific detail** (45 minutes) makes it relatable\n- **Clear message** about respect and time\n- **Hashtags** that reinforce the point\n- Stays within tweet character limits\n\nWant me to adjust the **tone** - make it more sarcastic, humorous, or even more blunt?",
+  "response_word_count": 109,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

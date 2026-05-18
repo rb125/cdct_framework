@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "List 6 13 colonies vs. other British colonies in Markdown.",
+  "compressed_word_count": 10,
+  "response": "# 13 Colonies vs. Other British Colonies\n\n| Feature | 13 American Colonies | Other British Colonies |\n|---|---|---|\n| **Location** | Eastern coast of North America | Caribbean, Canada, India, Africa, etc. |\n| **Self-Governance** | Had elected colonial assemblies with significant autonomy | Varied; generally had less representative government |\n| **Economy** | Mix of agriculture, trade, and manufacturing | Often focused on single cash crops or resource extraction (sugar, spices, etc.) |\n| **Population** | Largely European settler-majority with enslaved Africans | Often majority indigenous or enslaved populations with small European ruling class |\n| **Outcome** | Successfully revolted and formed the United States (1776) | Remained under British control for much longer; gained independence later |\n| **Taxation** | Resisted taxation without representation, sparking revolution | Generally had less organized political resistance to British taxation |\n\n## Key Takeaways\n- The **13 Colonies** had a uniquely strong tradition of self-rule compared to most other British colonies.\n- Other colonies, such as those in the **Caribbean**, were more economically profitable to Britain but had less political influence.\n- The **13 Colonies** were exceptional in their successful and early break from British rule.",
+  "response_word_count": 195,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

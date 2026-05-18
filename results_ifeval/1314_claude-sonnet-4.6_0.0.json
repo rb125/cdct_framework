@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "fish vs. fruit",
+  "compressed_word_count": 3,
+  "response": "# Fish vs. Fruit\n\nHere's a comparison across several categories:\n\n## Nutrition\n| | Fish | Fruit |\n|---|---|---|\n| **Protein** | High | Low |\n| **Healthy Fats** | High (omega-3s) | Low |\n| **Carbs/Sugar** | Very low | Higher |\n| **Vitamins** | B12, D, iodine | C, A, folate |\n| **Fiber** | None | Good source |\n\n## General Comparison\n\n### \ud83d\udc1f Fish\n- Excellent protein source\n- Rich in omega-3 fatty acids\n- Supports brain and heart health\n- Requires cooking (usually)\n- Can be expensive\n- Sustainability concerns with some species\n\n### \ud83c\udf4e Fruit\n- Natural energy source (sugars)\n- High in antioxidants\n- Great for digestion (fiber)\n- Eat raw/on the go\n- Generally affordable\n- Widely accessible\n\n## What They Have in Common\n- Both are **whole, natural foods**\n- Both support a **healthy diet**\n- Both come in **huge variety**\n- Both linked to **reduced disease risk**\n\n## Bottom Line\nThey serve **different nutritional roles** \u2014 most health experts recommend **eating both** as part of a balanced diet.\n\nWould you like a deeper dive into any specific aspect? \ud83d\udc20\ud83c\udf4a",
+  "response_word_count": 189,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

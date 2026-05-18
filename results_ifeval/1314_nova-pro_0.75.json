@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Identify the non-fish between salmon and avocado. then, write an article on salmon and avocado using some all-caps words, but no more than 10 times.",
+  "compressed_word_count": 25,
+  "response": "AVOCADOS ARE NOT FISH. THEY ARE FRUITS. SALMON AND AVOCADO ARE COMMONLY PAIRED IN MANY DISHES.\n\nSALMON IS A POPULAR FISH KNOWN FOR ITS RICH FLAVOR AND NUTRITIONAL BENEFITS. IT IS PACKED WITH PROTEIN, OMEGA-3 FATTY ACIDS, AND VITAMINS. SALMON CAN BE ENJOYED IN VARIOUS WAYS, SUCH AS GRILLED, BAKED, OR RAW IN SUSHI.\n\nAVOCADOS ARE VERSATILE FRUITS THAT ADD A CREAMY TEXTURE AND HEALTHY FATS TO DISHES. THEY ARE RICH IN MONOUNSATURATED FATS, FIBER, AND VITAMINS. AVOCADOS CAN BE USED IN SALADS, SMOOTHIES, OR AS A SPREAD.\n\nCOMBINING SALMON AND AVOCADO CREATES A DELICIOUS AND NUTRITIOUS MEAL. THE CREAMINESS OF THE AVOCADO COMPLEMENTS THE FLAVOR OF THE SALMON, MAKING IT A POPULAR CHOICE FOR HEALTH-CONSCIOUS INDIVIDUALS.\n\nIN CONCLUSION, SALMON AND AVOCADO ARE BOTH INCREDIBLY HEALTHY AND TASTY INGREDIENTS. TRY INCORPORATING THEM INTO YOUR DIET FOR A BOOST OF NUTRITION AND FLAVOR.",
+  "response_word_count": 142,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 0.6
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.16996731711975951
+    }
+  }
+}

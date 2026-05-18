@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "first song in space, 'happy birthday'?",
+  "compressed_word_count": 6,
+  "response": "The first song played in space was **\"Jingle Bells\"**\u2014not \"Happy Birthday.\"\n\nHere\u2019s the story:\n- On **December 16, 1965**, astronauts **Wally Schirra** and **Tom Stafford** aboard **Gemini 6** played a prank by reporting a \"sighted\" unidentified flying object (UFO) to Mission Control.\n- They then surprised Mission Control by playing **\"Jingle Bells\"** on a harmonica and sleigh bells, which they had smuggled aboard. This was the first musical performance in space.\n\n### About \"Happy Birthday\" in Space:\n- **\"Happy Birthday\"** was sung in space, but not as the first song.\n- On **March 8, 1969**, the crew of **Apollo 9** (Jim McDivitt, Dave Scott, and Rusty Schweickart) sang it to celebrate **Mission Control\u2019s birthday** during their mission.\n- Later, in **1988**, cosmonauts aboard the **Mir space station** sang \"Happy Birthday\" to celebrate the birthday of a crew member.\n\nSo while \"Happy Birthday\" has been sung in space, **\"Jingle Bells\" holds the title of the first song played in space.** \ud83d\ude80\ud83c\udfb6",
+  "response_word_count": 160,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

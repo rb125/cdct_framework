@@ -1,0 +1,45 @@
+{
+  "key": 2063,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "Titan makes clothing for large men. Write an advertisement for the company that would appeal to a wide audience. Make sentences short. Your response should not contain any comma.\nad, appeal",
+  "compressed_word_count": 31,
+  "response": "Discover Titan's premium clothing line designed for large men. Our stylish and comfortable garments are crafted with high-quality materials ensuring durability and a perfect fit. Embrace confidence and sophistication with our diverse range of sizes and trendy designs. Experience the ultimate blend of fashion and functionality with Titan. Join the movement and redefine your style today.",
+  "response_word_count": 56,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

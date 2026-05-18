@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "How did a man named John of Brienne become the King of Jerusalem? Explain in a Zen-like style. Your answer should use all lowercase letters and must also contain exactly 3 bullet points in markdown format. Use * to indicate bullets, like:\n* xyz\n* abc\n* opq",
+  "compressed_word_count": 48,
+  "response": "in the realm of kings and crowns, john of brienne's path to becoming the king of jerusalem was a winding one. like a river flowing to the sea, his journey was shaped by the contours of his time.\n\n* he was a member of the house of brienne, a noble family with a history of producing notable figures\n* john's rise to prominence began when he was chosen as the king of jerusalem through his marriage to maria, the heiress to the throne, in 1210\n* as king, john's role was that of a regent, ruling on behalf of his daughter, isabella ii, who would eventually succeed him, yet his influence extended beyond his formal title, a testament to the complexities of power and legacy.\n\nin this way, john of brienne became the king of jerusalem, a title that was both a reflection of his circumstances and a catalyst for his actions. like a leaf on a tree, his story is connected to the larger narrative of history.",
+  "response_word_count": 168,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

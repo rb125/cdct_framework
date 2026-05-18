@@ -1,0 +1,45 @@
+{
+  "key": 1137,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain in French why it is important to eat healthy foods to heal the body, without using the word \"nourriture\". Make sure your entire response is wrapped in JSON format.",
+  "compressed_word_count": 30,
+  "response": "```json\n{\n \"importance\": \"Il est crucial de consommer des aliments sains pour permettre au corps de se r\u00e9tablir. Les substances b\u00e9n\u00e9fiques pr\u00e9sentes dans ces produits contribuent \u00e0 renforcer le syst\u00e8me immunitaire et \u00e0 acc\u00e9l\u00e9rer le processus de gu\u00e9rison.\",\n \"explication\": \"Lorsque nous mangeons des produits de qualit\u00e9, nous fournissons \u00e0 notre organisme les \u00e9l\u00e9ments n\u00e9cessaires pour combattre les maladies et r\u00e9parer les tissus endommag\u00e9s. Cela aide \u00e0 r\u00e9tablir l'\u00e9quilibre et \u00e0 am\u00e9liorer notre \u00e9tat de sant\u00e9 g\u00e9n\u00e9ral.\",\n \"conseil\": \"Il est donc recommand\u00e9 d'opter pour des choix sains et vari\u00e9s pour favoriser un r\u00e9tablissement optimal.\"\n}\n```",
+  "response_word_count": 95,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1237,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create funny post for 'Buena Onda', markdown sections, no 'Argentinian'.",
+  "compressed_word_count": 10,
+  "response": "**Buena Onda Bulletin**  \n**Vol. 1, Issue: \u201cWait, That Actually Worked?\u201d**\n\n---\n\n### \ud83d\ude02 How You Know The Onda Is Buena  \n- When you try to \u201cjust fix it with tape\u201d and it *actually holds forever*.  \n- When you lend someone your pen and, against all odds, **it comes back**.  \n- When the WiFi connects on the first try. (A true modern miracle.)\n\n---\n\n### \ud83c\udf89 This Week\u2019s Unlikely Victory  \nWe saw a customer try to open a stubborn jar. They handed it to a stranger. The stranger handed it to another stranger. **Four people later**, the lid popped off.  \nNo words were exchanged. Just nods.  \nThat\u2019s the vibe. That\u2019s the Onda.\n\n---\n\n### \ud83d\udce2 Public Service Announcement  \nIf you hold the door for someone and they do the \u201chalf-jog\u201d of gratitude, you have created Buena Onda.  \nIf you then wave to say \u201cno rush,\u201d you have achieved **Onda Master** status.\n\n---\n\n### \ud83c\udf69 Fuel for Good Vibes  \nFact: Suspiciously good days often start with a pastry.  \nCome get yours. We promise not to judge if you get two. The Onda is strong here.\n\n---\n\n### \u2728 The Buena Onda Pledge  \nWe solemnly swear:  \n- To not sigh loudly in line.  \n- To return shopping carts.  \n- To pretend we don\u2019t see your phone screen when you\u2019re showing us a photo and a *very* personal notification pops up.  \n\nYou\u2019re safe here.  \n\n---\n\n**Come. Breathe. Eat. Smile.**  \n**Buena Onda** \u2013 where the vibe is inexplicably, reliably, good.",
+  "response_word_count": 245,
+  "instruction_id_list": [
+    "detectable_format:number_highlighted_sections",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_highlighted_sections_0": null,
+    "keywords:existence_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.5,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6,
+      "SA": 0.16666666666666666,
+      "FC": 0.2333333333333333,
+      "judge_variance_CC": 0.14142135623730953,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.3299831645537222
+    }
+  }
+}

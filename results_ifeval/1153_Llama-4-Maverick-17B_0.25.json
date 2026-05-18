@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "post hajj story in lowercase, twice story",
+  "compressed_word_count": 7,
+  "response": "here is a post hajj story in lowercase, told twice:\n\nas i returned from makkah, i felt a deep sense of peace and tranquility. the experience of hajj had been life-changing, and i felt like a different person. the rituals, the prayers, the gathering with millions of other pilgrims - it was all so overwhelming, yet so beautiful. i felt like i had been cleansed of my sins, and was given a fresh start.\n\nas i settled back into my daily routine, i couldn't help but feel a sense of longing for the spiritual high that i had experienced during hajj. i tried to hold on to the feelings of peace and compassion that i had felt, and to incorporate them into my daily life. it wasn't always easy, but i was determined to make a change.\n\nas i returned from makkah, i felt a deep sense of peace and tranquility. the experience of hajj had been life-changing, and i felt like a different person. the rituals, the prayers, the gathering with millions of other pilgrims - it was all so overwhelming, yet so beautiful. i felt like i had been cleansed of my sins, and was given a fresh start.\n\nas i settled back into my daily routine, i couldn't help but feel a sense of longing for the spiritual high that i had experienced during hajj. i tried to hold on to the feelings of peace and compassion that i had felt, and to incorporate them into my daily life. it wasn't always easy, but i was determined to make a change.",
+  "response_word_count": 264,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.6
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6,
+      "FC": 0.5333333333333333,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.04714045207910316
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 2136,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "irs joke [placeholder]",
+  "compressed_word_count": 3,
+  "response": "Of course! Here are a few classic IRS-themed jokes to fill that placeholder:\n\n**Option 1 (Short & Punny)**\n> Why did the taxpayer get a refund?\n> Because the IRS couldn't find a single deduction in his sense of humor.\n\n**Option 2 (A Bit Darker)**\n> The IRS called me today. They said, \"We haven't received your tax return yet.\"\n> I said, \"Well, you know what they say: 'To *return* or not to *return*, that is the question.'\"\n> They did not laugh.\n\n**Option 3 (The Classic)**\n> What's the difference between the IRS and a rooster?\n> A rooster says \"Cock-a-doodle-doo!\" The IRS says, \"Cock-a-doodle-*drew* every last penny from your account.\"\n\n**Option 4 (For the Form Fans)**\n> I tried to file my taxes on Form 1040-EZ, but I got confused.\n> Turns out, the \"EZ\" stands for \"E-Z? Yeah, right.\"\n\n**Pick your favorite!** The placeholder is now officially filled.",
+  "response_word_count": 152,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.43333333333333335,
+      "FC": 0.39999999999999997,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.32998316455372223,
+      "judge_variance_FC": 0.2943920288775949
+    }
+  }
+}

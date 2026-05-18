@@ -1,0 +1,43 @@
+{
+  "key": 1922,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "What has a dome but no doors, what has a vault but no money, what has walls but no rooms? What am I? Try to be funny and give me a funny answer.\n\noriginal prompt:\nWhat has a dome but no doors, what has a vault but no money, what has walls but no rooms? What am I? Ask for a humorous, concise riddle answer.",
+  "compressed_word_count": 65,
+  "response": "You're a bit of a puzzle, aren't you? Alright, let's get to the punchline: You're a prison... in my ex's divorce lawyer's nightmares! Just kidding!\n\nSeriously though, the answer is: You're a tomb! Tombs have domes, vaults, and walls, but no doors (well, not in the classical sense), no money (unless you're buried with some ancient treasure), and no rooms (just a, you know, final resting place). So, rest in peace, and don't be too cryptic!",
+  "response_word_count": 76,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

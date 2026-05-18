@@ -1,0 +1,45 @@
+{
+  "key": 1561,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "name new fashion company, double angular brackets, hidden meanings",
+  "compressed_word_count": 9,
+  "response": "Here are some suggestions for a new fashion company name with double angular brackets and hidden meanings:\n\n1. **<<Aurora>>**: Inspired by the aurora borealis, or northern lights, this name evokes a sense of ethereal beauty and wonder. The double angular brackets add a touch of modernity and sleekness.\n2. **<<Kaleido>>**: Derived from the word \"kaleidoscope,\" this name suggests a constantly changing and colorful world of fashion. The double angular brackets create a sense of symmetry and visual interest.\n3. **<<Lumina>>**: Meaning \"light\" in Latin, this name conveys a sense of illumination and style. The double angular brackets add a touch of sophistication and glamour.\n4. **<<Mythik>>**: Inspired by the word \"mythic,\" this name implies a sense of legendary or iconic status. The double angular brackets create a sense of mystery and allure.\n5. **<<Parallax>>**: Referencing the concept of parallax in optics, this name suggests a sense of depth and visual interest. The double angular brackets add a touch of futurism and innovation.\n6. **<<Syzygy>>**: Meaning \"a conjunction or opposition, especially of celestial bodies\" in astronomy, this name implies a sense of balance and harmony. The double angular brackets create a sense of complexity and intrigue.\n7. **<<Vesper>>**: Inspired by the word \"vesper,\" meaning \"evening star,\" this name conveys a sense of elegance and sophistication. The double angular brackets add a touch of mystery and allure.\n8. **<<Coutflux>>**: A combination of \"couture\" and \"flux,\" this name suggests a sense of high-end fashion in constant evolution. The double angular brackets create a sense of dynamism and creativity.\n9. **<<Axiom>>**: Meaning \"a self-evident truth\" in philosophy, this name implies a sense of confidence and authority. The double angular brackets add a touch of modernity and sleekness.\n10. **<<Eclipse>>**: Referencing the astronomical event, this name suggests a sense of drama and spectacle. The double angular brackets create a sense of excitement and anticipation.\n\nThese names are designed to be thought-provoking and memorable, with hidden meanings that add depth and complexity to your fashion brand.",
+  "response_word_count": 330,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

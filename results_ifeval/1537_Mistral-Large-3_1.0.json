@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Could you tell me what kind of balls are used in tennis? I would like the answer in the form of a medieval style poem with a P.P.S at the end.",
+  "compressed_word_count": 31,
+  "response": "**The Ballad of Tennis\u2019 Round Delight**\n\nHark! Gather ye close, both squire and knight,\nAnd heed the tale of balls so bright\u2014\nThe spheres that dance on courts so green,\nWhere champions clash in sport serene.\n\nOf **wool and felt**, so snugly bound,\nThey leap and fly o\u2019er hallowed ground.\nWith **rubber core**, both firm and true,\nTo bear the strokes of me and you.\n\nIn **pressurized** they hold their might,\nLike dragons\u2019 breath, so swift in flight.\nYet time shall steal their fleeting grace,\nAnd leave them flat\u2014oh, sad disgrace!\n\nThen come the **pressureless**, stout and bold,\nNo air within, yet strong they hold.\nLike steadfast knights who fear no foe,\nThey serve the game both high and low.\n\nSome gleam in **yellow**, bold and keen,\nWhile others wear a **white** so clean.\nThrough sunlit days and shadows deep,\nThey spin and soar where players leap.\n\nSo choose thy ball with wisdom\u2019s care,\nFor each hath virtues rich and rare.\nNow go, good soul, and serve with cheer\u2014\nThe court awaits! The game is near!\n\n**P.P.S.**\nAnd lo! Shouldst thou seek balls anew,\nThe **Wilson**, **Penn**, or **Dunlop** true\nShall serve thee well\u2014now take thy racket,\nAnd let the rally be thy packet!",
+  "response_word_count": 204,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

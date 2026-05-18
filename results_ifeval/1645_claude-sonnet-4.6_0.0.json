@@ -1,0 +1,43 @@
+{
+  "key": 1645,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "Sheldon riddle",
+  "compressed_word_count": 2,
+  "response": "# Sheldon's Riddle \ud83e\udde9\n\nAre you looking for:\n\n1. **A riddle that Sheldon Cooper (*The Big Bang Theory*) would tell/enjoy?**\n\n2. **A riddle *about* Sheldon?**\n\n3. **Something else?**\n\n---\n\nHere's one Sheldon might appreciate:\n\n> *\"I have cities, but no houses live there. I have mountains, but no trees grow there. I have water, but no fish swim there. I have roads, but no cars drive there. What am I?\"*\n\n**Answer:** A **map** \ud83d\uddfa\ufe0f\n\n---\n\nWant a harder one? Or did you have a **specific riddle** in mind? \ud83d\ude04",
+  "response_word_count": 89,
+  "instruction_id_list": [
+    "change_case:english_capital"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

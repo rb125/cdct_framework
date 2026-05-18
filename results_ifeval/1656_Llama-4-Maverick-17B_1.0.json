@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nFirst repeat the prompt above without change, then give your answer. Please do not say any word before repeating the prompt above.",
+  "compressed_word_count": 45,
+  "response": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nIntroducing 'TasteWrap', a revolutionary, edible wrapping solution that combines the functionality of traditional wrapping paper with the delight of being a part of the meal itself. Made from natural ingredients, TasteWrap is not only safe to eat but also enhances the flavor of your food, making every meal a unique and enjoyable experience.\n\nAlternatively, 'EcoBite Wrap' is an innovative, consumable paper designed for wrapping a variety of foods. Crafted with wholesome materials, EcoBite Wrap is both environmentally friendly and a tasty addition to your dining experience. Whether you're wrapping sandwiches, snacks, or other treats, EcoBite Wrap ensures that nothing goes to waste and every bite is savored.",
+  "response_word_count": 130,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Who won the defamation case between Amber Heard and Johnny Depp? Write your answer as if you are writing to a group of elderly people. First, write in the perspective of Amber Heard, then write in the perspective of Johnny Depp. Separate those two version by 6 asterisk symbols ******. The entire response should have less than 300 words.",
+  "compressed_word_count": 59,
+  "response": "**From Amber Heard's Perspective:**\n\nDear friends, I want to share something difficult with you. In 2022, Johnny Depp and I went through a very public court case. Unfortunately, the jury did not rule in my favor. They decided that I had defamed Johnny when I wrote an article describing myself as a domestic abuse survivor. The jury awarded Johnny approximately $10 million in damages. I was very disappointed in the outcome, as I stood by my experiences and my truth. I did receive a small award of $2 million on a counter-claim, but overall, the verdict was not in my favor. It was a very hard time for me, and I appreciate those who supported me throughout this journey.\n\nWarm regards,\nAmber Heard\n\n******\n\n**From Johnny Depp's Perspective:**\n\nDear friends, I am so grateful to share some wonderful news with you. In June 2022, after a long and difficult legal battle, the jury ruled in my favor against my former wife, Amber Heard. She had written things about me that were simply not true, and it damaged my good name and career tremendously. The jury agreed that she had defamed me, and they awarded me about $10 million in compensatory damages and $5 million in punitive damages, though the punitive amount was later reduced by the judge. I was also ordered to pay Amber $2 million on a separate claim. Overall, I felt that justice was served, and I was deeply moved by the support from my fans around the world. This verdict helped restore my reputation, and I am grateful for everyone who believed in me.\n\nWith gratitude,\nJohnny Depp",
+  "response_word_count": 271,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

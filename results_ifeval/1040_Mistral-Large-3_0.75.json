@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "create resume for matthias algiers in all caps for key abilities, limit to <10 highlighted words, enclose in double quotation marks.",
+  "compressed_word_count": 21,
+  "response": "Here\u2019s a concise resume for **MATTHIAS ALGIERS** with key abilities in all caps, limited to <10 highlighted words per section:\n\n---\n\n**MATTHIAS ALGIERS**\n[Your Contact Info]\n\n**PROFESSIONAL SUMMARY**\nResults-driven professional with expertise in **\"STRATEGY\"**, **\"LEADERSHIP\"**, and **\"PROBLEM-SOLVING\"**. Adept at **\"ANALYTICS\"**, **\"INNOVATION\"**, and **\"TEAM MANAGEMENT\"**.\n\n**KEY ABILITIES**\n- **\"PROJECT MANAGEMENT\"**\n- **\"DATA ANALYSIS\"**\n- **\"COMMUNICATION\"**\n- **\"CREATIVITY\"**\n- **\"ADAPTABILITY\"**\n\n**EXPERIENCE**\n[Job Title] | [Company] | [Dates]\n- Delivered **\"HIGH-IMPACT\"** solutions.\n- Optimized **\"EFFICIENCY\"** in [specific task].\n- Led **\"CROSS-FUNCTIONAL\"** teams.\n\n**EDUCATION**\n[Degree] | [Institution] | [Year]\n\n---\n\n**Notes:**\n- Adjust job titles/details as needed.\n- Keep highlighted words **bold and in quotes** for emphasis.",
+  "response_word_count": 103,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": false,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

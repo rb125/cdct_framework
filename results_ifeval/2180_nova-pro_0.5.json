@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "rap diff'n city 'n village, kid, 5 secs *** 10 caps ***",
+  "compressed_word_count": 12,
+  "response": "Sure, here's a quick rap-style comparison between a city and a village, aimed at kids, in 10 lines (caps for emphasis):\n\n---\n\n**CITY:** SKYSCRAPERS TOUCH THE CLOUDS, NOISE ALL AROUND,\n**VILLAGE:** QUIET STREETS, NATURE'S SOUND.\n\n**CITY:** BUSY STREETS, CARS AND TRAINS,\n**VILLAGE:** WALKING PATHS, NO TRAFFIC PAINS.\n\n**CITY:** SHOPS AND LIGHTS, NONSTOP ACTION,\n**VILLAGE:** SMALL STORES, FEEL THE FRACTION.\n\n**CITY:** CROWDED SPACES, PEOPLE EVERYWHERE,\n**VILLAGE:** OPEN FIELDS, FRESH AIR TO SHARE.\n\n**CITY:** FAST-PACED LIFE, NEVER A DULL MOMENT,\n**VILLAGE:** SLOW AND STEADY, LIFE'S MORE NOMENT.\n\n**CITY:** ENDLESS OPTIONS, THINGS TO DO,\n**VILLAGE:** SIMPLE JOY, NATURE'S VIEW.\n\n**CITY:** SKY'S THE LIMIT, REACH FOR STARS,\n**VILLAGE:** CLOSE-KNIT LIFE, FEWER SCARS.\n\n**CITY:** NONSTOP BUZZ, ENERGY FLOW,\n**VILLAGE:** PEACE AND QUIET, LET LIFE SLOW.\n\n**CITY:** URBAN ADVENTURE, EVERY CORNER,\n**VILLAGE:** RURAL CHARM, NATURE'S BONNER.",
+  "response_word_count": 130,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.7999999999999999,
+      "FC": 0.6333333333333333,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.21602468994692867,
+      "judge_variance_FC": 0.18856180831641267
+    }
+  }
+}

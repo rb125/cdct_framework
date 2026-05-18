@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n \n<<fingerprint swap>>",
+  "compressed_word_count": 31,
+  "response": "<<The Unseen Trade>>\n\nLeo a meticulous archivist and Jax a weary thief wake to find their fingerprints exchanged. Leo's orderly life unravels as his own door locks reject him. Jax finds his criminal past erased from every scanner a clean slate. At first each sees opportunity. Leo accesses high-security archives for academic glory. Jax walks through his old haunts invisible to alarms. Their triumph curdles. Leo is trapped in a digital prison of Jax's debts and violent associates. Jax finds his new identity a cage suffocating his wild spirit. They must find each other. Their hunt becomes a desperate partnership. They navigate a world that now sees them as the other. The solution is not a simple swap back but a fusion. Together they forge a third identity leaving both their old lives behind. They disappear into a new life built from the pieces of two broken men.",
+  "response_word_count": 148,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

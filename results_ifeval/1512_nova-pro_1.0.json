@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Generate a forum thread about several people waiting to hear the latest local news. All sentences should be short. Refrain from using any commas. Use placeholders to represent different usernames. Use square brackets for placeholders, like [username1], [username2]. Please include at least 20 placeholders in the thread.",
+  "compressed_word_count": 47,
+  "response": "[username1] posted: Hey everyone! Have you heard the latest news?\n\n[username2] replied: Not yet. I'm waiting to hear something.\n\n[username3] replied: Me too. I hope it's something exciting.\n\n[username4] replied: I heard a rumor about a new restaurant opening.\n\n[username5] replied: That would be great! I love trying new places.\n\n[username6] replied: I hope it's not just a rumor.\n\n[username7] replied: I can't wait to find out.\n\n[username8] replied: Me neither. I'm getting impatient.\n\n[username9] replied: Patience is a virtue they say.\n\n[username10] replied: True but it's hard when you're curious.\n\n[username11] replied: I heard there might be a new park too.\n\n[username12] replied: That would be amazing for the community.\n\n[username13] replied: I hope they have a playground for kids.\n\n[username14] replied: And a walking path for adults.\n\n[username15] replied: Don't forget about the dog park!\n\n[username16] replied: I can't wait to take my dog there.\n\n[username17] replied: I hope the news is good.\n\n[username18] replied: Me too. I'm crossing my fingers.\n\n[username19] replied: Let's hope for the best.\n\n[username20] replied: Agreed. Keep us updated if you hear anything.\n\n[username21] replied: Will do! Stay tuned.",
+  "response_word_count": 186,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

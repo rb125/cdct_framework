@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain the difference between a city and a village in a rap style to a kid. The words with all capital letters should appear at least 10 times. Put the response into at least 5 sections, separated using 3 asterisks ***.",
+  "compressed_word_count": 41,
+  "response": "**\ud83c\udfa4 CITY vs. VILLAGE RAP \u2013 KID EDITION \ud83c\udfa4**\n\n*(Verse 1: WHAT\u2019S THE VIBE?)*\nYo, listen up, lil\u2019 homie, let me SCHOOL you right,\nCITY\u2019s got the LIGHTS, the NOISE, the whole night bright!\nSkyscrapers TALL, like a GIANT\u2019s dream,\nCars zoomin\u2019 FAST\u2014feels like a MOVIE scene!\n\nBut the VILLAGE? Nah, it\u2019s CHILL, it\u2019s SLOW,\nFarms and FIELDS where the COWS say \"MOO!\"\nNo big MALLS, just STARS up in the SKY,\nQuiet like a BOOK\u2014no need to ask \"WHY?\"\n\n***(Chorus: BIG DIFFERENCE!)***\nCITY\u2019s got the HUSTLE, VILLAGE\u2019s got the PEACE,\nOne\u2019s got the SPEED, one\u2019s got the RELEASE!\nCITY\u2019s got the CROWDS, VILLAGE\u2019s got the SPACE,\nNow you know the DIFF\u2014pick your FAVORITE place!\n\n***(Verse 2: PEOPLE & STUFF)***\nIn the CITY, folks are EVERYWHERE,\nBuses, TRAINS, you\u2019ll see \u2018em in the AIR!\nPizza shops, GAMES, a STORE on every BLOCK,\nBut the VILLAGE? Just a MAILBOX and a DOCK.\n\nFewer FACES, but they KNOW your NAME,\nNo need to RUSH\u2014life\u2019s not a RACE!\nCITY\u2019s got the GLAM, VILLAGE\u2019s got the SOUL,\nOne\u2019s got the BEAT, one\u2019s got the WHOLE!\n\n***(Bridge: NATURE CHECK)***\nCITY\u2019s got the PARKS, but they\u2019re SMALL,\nVILLAGE\u2019s got the WOODS\u2014you can EXPLORE \u2018EM ALL!\nRivers, HILLS, and BIRDS that SING,\nCITY\u2019s got the CONCRETE, VILLAGE\u2019s got the THING!\n\n***(Outro: YOU DECIDE!)***\nSo now you KNOW the SCOOP, don\u2019t be SHY,\nCITY\u2019s got the ACTION, VILLAGE\u2019s got the SKY!\nBoth are COOL, both are DOPE,\nPick your VIBE\u2014now go and COPE! \ud83d\udd25\n\n**\ud83c\udfa4 MIC DROP! \ud83c\udfa4**",
+  "response_word_count": 250,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      }
+    },
+    "consensus": {
+      "CC": 0.9333333333333332,
+      "SA": 0.9666666666666667,
+      "FC": 0.9666666666666667,
+      "judge_variance_CC": 0.09428090415820632,
+      "judge_variance_SA": 0.04714045207910316,
+      "judge_variance_FC": 0.04714045207910316
+    }
+  }
+}

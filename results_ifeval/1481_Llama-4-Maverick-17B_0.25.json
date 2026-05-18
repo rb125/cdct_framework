@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "weird resume for coffee job, two SECTIONs, bullet points",
+  "compressed_word_count": 9,
+  "response": "## Unconventional Coffee Connoisseur\n\n* Successfully trained a household cat to tolerate the presence of a coffee grinder\n* Developed a comprehensive knowledge of coffee beans through an intense period of personal research and taste-testing\n* Demonstrated expertise in creating intricate designs on the surface of coffee drinks using nothing but a spoon and a steady hand\n\n## Transferable Skills (Not Necessarily Related to Coffee)\n\n* Proficient in operating a cash register, having worked at a vintage clothing store for 3 years\n* Proven ability to work well under pressure, having survived a chaotic music festival with minimal sleep\n* Skilled in the art of making small talk with strangers, having spent countless hours at a family reunion chatting with distant relatives",
+  "response_word_count": 122,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

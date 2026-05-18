@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write email to boss with <<title>> no commas",
+  "compressed_word_count": 8,
+  "response": "Subject: Request for Title Change  \n\nHello [Boss's Name]  \n\nI hope you are having a productive week.  \n\nI am writing to formally request a change in my job title. My current title no longer fully reflects the scope of my responsibilities or my contributions to the team.  \n\nI believe an updated title would better align with my current role and the value I bring to the company. I am happy to discuss this further at your convenience.  \n\nThank you for your time and consideration.  \n\nBest regards  \n[Your Name]",
+  "response_word_count": 87,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

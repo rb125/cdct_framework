@@ -1,0 +1,43 @@
+{
+  "key": 2136,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Craft a humorous irs joke featuring a placeholder [X]. No commas in formal tone.",
+  "compressed_word_count": 14,
+  "response": "Here is a humorous IRS joke featuring a placeholder [X] written in a formal tone without commas:\n\n---\n\n**Why did [X] bring a ladder to the IRS audit?**\n\nBecause [X] had heard that the tax brackets were extremely high and wanted to be fully prepared for the climb.\n\n---\n\n*The IRS thanks [X] for their enthusiasm though it regrets to inform [X] that the ladder is not a deductible business expense.*",
+  "response_word_count": 71,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

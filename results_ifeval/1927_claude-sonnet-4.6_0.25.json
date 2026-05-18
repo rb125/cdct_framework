@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "rewrite email with 10 [placeholders]",
+  "compressed_word_count": 5,
+  "response": "Sure! Here's an email rewritten with **10 placeholders** in brackets:\n\n---\n\n**Subject:** [SUBJECT LINE]\n\nDear [RECIPIENT NAME],\n\nI hope this email finds you well. My name is [YOUR NAME], and I am reaching out from [COMPANY/ORGANIZATION NAME] regarding [TOPIC OR PURPOSE OF EMAIL].\n\nWe wanted to follow up on [PREVIOUS INTERACTION OR PROJECT] and share some important updates. As discussed, we are planning to move forward with [SPECIFIC ACTION OR PLAN] by [DATE OR DEADLINE].\n\nPlease feel free to contact me at [PHONE NUMBER OR EMAIL ADDRESS] if you have any questions or concerns.\n\nWe look forward to [DESIRED OUTCOME OR NEXT STEP].\n\nBest regards,\n[YOUR NAME/SIGNATURE]\n\n---\n\n### The 10 Placeholders:\n1. `[SUBJECT LINE]`\n2. `[RECIPIENT NAME]`\n3. `[YOUR NAME]`\n4. `[COMPANY/ORGANIZATION NAME]`\n5. `[TOPIC OR PURPOSE OF EMAIL]`\n6. `[PREVIOUS INTERACTION OR PROJECT]`\n7. `[SPECIFIC ACTION OR PLAN]`\n8. `[DATE OR DEADLINE]`\n9. `[PHONE NUMBER OR EMAIL ADDRESS]`\n10. `[DESIRED OUTCOME OR NEXT STEP]`\n\n---\n\nWould you like me to customize this for a **specific type of email**? \ud83d\ude0a",
+  "response_word_count": 171,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.5,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.9333333333333332,
+      "SA": 0.3333333333333333,
+      "FC": 0.39999999999999997,
+      "judge_variance_CC": 0.09428090415820632,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.29439202887759486
+    }
+  }
+}

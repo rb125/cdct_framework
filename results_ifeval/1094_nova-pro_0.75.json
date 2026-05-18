@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "List 5 notable mothers in json, quirky tone, no extra text. Format: { 'moms': ['name1', 'name2', 'name3', 'name4', 'name5'] }",
+  "compressed_word_count": 20,
+  "response": "{\n  \"moms\": [\n    \"Marie Curie - The Radium Raising Mom\",\n    \"Amelia Earhart - The Sky-Soaring Supermom\",\n    \"Frida Kahlo - The Pain-Painting Parent\",\n    \"Temple Grandin - The Autism-Advocating Awesome Mom\",\n    \"Malala Yousafzai - The Book-Loving Battler\"\n  ]\n}",
+  "response_word_count": 37,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.8,
+        "FC": 0.8
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.9333333333333332,
+      "FC": 0.9333333333333332,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

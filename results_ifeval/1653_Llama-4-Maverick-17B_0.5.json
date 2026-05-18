@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "create ad template for portable camera, highlight key points with <4 caps, min 10 sentences",
+  "compressed_word_count": 15,
+  "response": "**CAPTURE LIFE'S BEST MOMENTS WITH OUR PORTABLE CAMERA!**\n\nAre you tired of missing out on life's precious moments due to a bulky camera? Look no further! Our portable camera is designed to be your perfect companion, allowing you to capture stunning photos and videos on-the-go.\n\n**SMALL IN SIZE, BIG IN FEATURES**: Weighing in at just <1 LB>, our camera is lightweight and compact, making it easy to take with you wherever you go. With a <4.7 INCH> touchscreen display, you can easily navigate and adjust settings to get the perfect shot. Our camera features <12X OPTICAL ZOOM>, allowing you to capture distant subjects with clarity and precision. Plus, with <4K VIDEO RESOLUTION>, you'll be able to record life's special moments in stunning detail. Whether you're a travel enthusiast, a sports fan, or just a lover of life, our portable camera is the perfect tool for capturing it all. With <IMAGE STABILIZATION>, you can say goodbye to shaky footage and hello to smooth, professional-looking video. Our camera also features <WI-FI CONNECTIVITY>, allowing you to easily transfer photos and videos to your smartphone or tablet. And with a <LONG-LASTING BATTERY>, you can keep capturing memories all day long. Whether you're hiking, biking, or just hanging out with friends, our portable camera is the perfect companion. So why wait? Capture life's best moments with our portable camera today!",
+  "response_word_count": 225,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.43333333333333335,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

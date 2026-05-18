@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "city vs village rap",
+  "compressed_word_count": 4,
+  "response": "The eternal debate! Here's a rap battle between City and Village:\n\n**City**\nYo, I'm the city, the hub of the game\nWhere the lights are bright and the money's made in flames\nI'm the center of culture, the spot to be seen\nGot the skyscrapers, the clubs, and the energy clean\nMy streets are paved with gold, or so they say\nGot the best food, the best shows, every single day\nYou're just a village, stuck in the past\nLimited opportunities, that's all that will last\n\n**Village**\nHold up, city boy, you think you're the best\nBut you're just a crowded mess, you're a stress fest\nI'm the village, where life is simple and real\nGot the fresh air, the green fields, and the community feel\nMy people know each other, we look out for one another\nWe don't need no fancy cars, we're happy with our brother\nYou're just a concrete jungle, where people are alone\nChasing money and status, but they're never back home\n\n**City**\nYou may have the peace, but I've got the pace\nWhere the action's hot, and the opportunities replace\nI'm the melting pot, where cultures blend\nGot the diversity, the innovation, and the trend\nYou're just a small town, with a limited view\nWhere everyone knows your business, that's not what I'd do\nI need the freedom, the anonymity too\nTo be whoever I want, and do what I love to do\n\n**Village**\nPace is just a word, it's not always the key\nI've got the quality of life, that's what matters to me\nMy kids can play outside, without a care\nWe don't need no fancy schools, with metal detectors in the air\nI've got the charm, the character, and the heart\nYou're just a soulless machine, tearing people apart\nWe're not limited, we're just differently blessed\nWe've got the land, the love, and the simplicity we need to rest\n\n**City**\nI respect your views, but I'm still the one\nWhere the world's at, and the future's just begun\nI'll take the hustle, the bustle, and the grind\nI'll make my own way, and I won't be left behind\n\n**Village**\nAnd I'll take the quiet, the peace, and the night\nI'll live life my way, with the stars shining bright\nWe may be different, but we're both on the same team\nCity and village, we're just different dreams.",
+  "response_word_count": 395,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6,
+      "FC": 0.6,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

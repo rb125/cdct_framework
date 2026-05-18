@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a product description for a new line of dog toys, called \"the squeaker\". It's made of latex, and is designed for dogs of all ages and species. It's also available in a variety of colors and shapes. The response must contain at least 3 placeholders represented by square brackets, such as [address], [name], and [phone number].",
+  "compressed_word_count": 57,
+  "response": "**Introducing \"The Squeaker\" - The Ultimate Dog Toy for Canine Companions of All Ages!**\n\nAt [Company Name], located at [Address], we're excited to introduce our new line of dog toys, \"The Squeaker\", designed to provide endless fun and entertainment for dogs of all ages and breeds. Made from high-quality latex, \"The Squeaker\" is durable, non-toxic, and safe for your furry friend to play with.\n\nOur \"Squeaker\" dog toys come in a variety of vibrant colors and shapes, ensuring that you'll find the perfect one to match your dog's unique personality. Whether your dog is a playful puppy or a seasoned senior, \"The Squeaker\" is sure to become their new favorite toy.\n\n**Key Features:**\n\n* Made from durable, non-toxic latex\n* Available in a range of colors and shapes to suit every dog's style\n* Designed for dogs of all ages and breeds\n* Squeaker inside provides hours of entertainment and stimulation\n\n**Get Your Paws on \"The Squeaker\" Today!**\n\nVisit our website or stop by our store at [Address] to explore our full range of \"The Squeaker\" dog toys. For more information, call us at [Phone Number] or email [Email Address]. Our friendly customer service team is always happy to help.\n\n**Order now and receive a special discount!** Use the code \"SQUEAK15\" at checkout to receive 15% off your first purchase. Don't miss out on the fun - get \"The Squeaker\" today and watch your dog's tail wag with joy!",
+  "response_word_count": 239,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "ad template",
+  "compressed_word_count": 2,
+  "response": "Here's a basic template for creating an ad:\n\n**Ad Template:**\n\n1. **Attention-Grabber (Headline)**: \n   - [Insert catchy and relevant headline here]\n\n2. **Visuals (Image/Video)**: \n   - [Insert relevant image or video here]\n\n3. **Description/Body**:\n   - Briefly describe the product/service/offer. \n   - Highlight key features and benefits.\n   - [Insert text here]\n\n4. **Call-to-Action (CTA)**:\n   - Clearly state what action you want the audience to take (e.g., Sign Up, Learn More, Buy Now).\n   - [Insert CTA button/link text here, e.g., \"Get Started Today!\"]\n\n5. **Target Audience**:\n   - Identify who your ad is for (demographics, interests, etc.).\n   - [Insert target audience details here]\n\n6. **Ad Objectives**:\n   - Define what you want to achieve with your ad (e.g., drive website traffic, generate leads, increase sales).\n   - [Insert ad objectives here]\n\n7. **Additional Information/Disclaimer (if necessary)**:\n   - Include any necessary disclaimers, terms, or conditions.\n   - [Insert additional information here]\n\n**Example:**\n\n1. **Attention-Grabber (Headline)**: \n   - \"Unlock Your Dream Body in 30 Days!\"\n\n2. **Visuals (Image/Video)**: \n   - [Image of a fit person with a before-and-after transformation]\n\n3. **Description/Body**:\n   - \"Get fit with our exclusive 30-day fitness program. Tailored workouts and nutrition plans included. Start your journey today and see real results!\"\n   \n4. **Call-to-Action (CTA)**:\n   - \"Join Now and Get 20% Off Your First Month!\"\n\n5. **Target Audience**:\n   - Fitness enthusiasts, individuals looking to lose weight or improve their overall health.\n\n6. **Ad Objectives**:\n   - Drive sales for the 30-day fitness program.\n\n7. **Additional Information/Disclaimer (if necessary)**:\n   - \"Results may vary. Consult a healthcare professional before starting any new diet or exercise program.\"\n\nThis template can be adapted for various ad formats, including social media ads, Google Ads, and more, by adjusting the content and structure according to the platform's requirements.",
+  "response_word_count": 280,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

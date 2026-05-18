@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "**Explain city vs. village in a rap to a kid, using all capitals at least 10x. Divide into 5 sections with *** separators.**",
+  "compressed_word_count": 23,
+  "response": "***\n\nLISTEN UP, KID, LET ME TELL YOU THE TALE, \nCITY LIFE VS. VILLAGE, IT'S LIKE A FOOTBALL HAIL. \n\n***\n\nIN THE CITY, THE BUILDINGS REACH FOR THE SKY, \nNEON LIGHTS FLASHING, PEOPLE NEVER SAY BYE. \nBUSY STREETS, CARS HONKING, NEVER A QUIET NIGHT, \nIN THE VILLAGE, IT'S CALM, EVERYTHING'S JUST RIGHT.\n\n***\n\nCITIES HAVE TRAINS AND SUBWAYS, MOVING FAST AND QUICK, \nVILLAGES HAVE COUNTRY ROADS, WHERE YOU CAN TAKE YOUR TIME, NO TRICK. \nCITY KIDS PLAY IN PARKS, CROWDED, LOUD, AND BRIGHT, \nVILLAGE KIDS EXPLORE FIELDS, UNDER THE STARRY NIGHT.\n\n***\n\nIN THE CITY, YOU GOT SHOPS AND MALLS SO WIDE, \nVILLAGES HAVE SMALL STORES, WHERE EVERYONE'S A GUIDE. \nCITY FOOD TRUCKS AND FAST FOOD, QUICK FIXES ON THE GO, \nVILLAGE MARKETS HAVE FRESH PRODUCE, FROM THE GARDENS THEY GROW.\n\n***\n\nSO REMEMBER, KID, WHETHER CITY OR VILLAGE WAY, \nEACH HAS ITS OWN MAGIC, IN ITS OWN SPECIAL WAY. \nWHETHER SKYSCRAPERS TALL OR ROLLING GREEN HILLS, \nBOTH PLACES HAVE ADVENTURES, AND HEARTS THEY FULFILL.",
+  "response_word_count": 165,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.6,
+        "SA": 0.8,
+        "FC": 0.8
+      }
+    },
+    "consensus": {
+      "CC": 0.7000000000000001,
+      "SA": 0.9333333333333332,
+      "FC": 0.9333333333333332,
+      "judge_variance_CC": 0.21602468994692867,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "city vs village rap",
+  "compressed_word_count": 4,
+  "response": "Here\u2019s a **City vs. Village Rap** battle\u2014two perspectives clashing in rhyme. Which side wins? You decide!\n\n---\n\n### **\ud83c\udfd9\ufe0f CITY RAP (Verse 1)**\n*(Fast-paced, aggressive flow)*\nYo, step in the concrete jungle where the dreams get made,\nSkyscrapers touch the clouds, yeah, we *never* fade!\n24/7 lights, the streets don\u2019t sleep,\nATMs, Uber rides, and money stacks so deep.\n\nWi-Fi faster than your grandma\u2019s dial-up,\nStarbucks on every block\u2014yo, we *never* shut up!\nSubway trains screamin\u2019, horns in the air,\nLate-night pizza slices, life\u2019s a *fast* affair.\n\nNo cows in the streets, just cops and cabs,\nArt galleries, rooftop bars\u2014yo, we *got* the swag!\nYou stuck in the dirt with your \"fresh air\" lie,\nWe got *real* culture\u2014peep the city sky!\n\n---\n\n### **\ud83c\udf3e VILLAGE RAP (Verse 2)**\n*(Chill, laid-back flow with folk vibes)*\nHold up, city boy, slow your roll,\nWe got *real* life where the air\u2019s gold!\nNo smog in my lungs, just the breeze,\nStars so bright, you can\u2019t even *see* \u2018em in the trees.\n\nWake up to roosters, not sirens at dawn,\nFresh milk from the cow, not some *fake* lawn.\nNo traffic jams, just dirt roads wide,\nGrandma\u2019s chai, no Starbucks *pride*.\n\nYou pay for \"views\" with your rent so high,\nWe got *mountains* for free\u2014yo, open your eyes!\nNo rat race, just peace in the fields,\nCity\u2019s a cage, but the village *heals*.\n\n---\n\n### **\ud83d\udd25 CHORUS (Both Sides)**\n**City:** *\"Concrete dreams, neon lights!\"*\n**Village:** *\"Green fields, real life!\"*\n**City:** *\"We run the world, you stuck in time!\"*\n**Village:** *\"We run *deep*\u2014you lost in the grind!\"*\n\n---\n\n### **\ud83d\udca5 FINAL PUNCHLINES**\n**City:** *\"You call it \u2018simple\u2019\u2014we call it *broke*!\"*\n**Village:** *\"You call it \u2018freedom\u2019\u2014we call it *joke*!\"*\n\n---\n\n**Who won?** Drop your vote in the comments! \ud83c\udfa4\ud83d\udd25\n*(Want a remix? Add your own verses!)*",
+  "response_word_count": 300,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

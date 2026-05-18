@@ -1,0 +1,45 @@
+{
+  "key": 1779,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "create A funny grocery trip itinerary in lima with 'disgusting', 'delicious', 'bad', 'good' in all caps.",
+  "compressed_word_count": 16,
+  "response": "# \ud83d\uded2 Lima Grocery Adventure Itinerary\n\n## A Culinary Quest Through the City's Markets\n\n---\n\n### **STOP 1: Mercado de Surquillo \u2014 9:00 AM**\nStart your morning by sniffing a bucket of fermented shark skin that smells absolutely DISGUSTING but somehow costs $40. Marvel at the fresh ceviche ingredients that look so DELICIOUS you consider eating raw fish at 9 AM like a completely normal person.\n\n---\n\n### **STOP 2: The Frozen Section \u2014 10:15 AM**\nDiscover a mystery meat labeled only \"MEAT.\" The packaging is BAD. The font choice is BAD. Your decision-making is also BAD as you put three bags in your cart anyway.\n\n---\n\n### **STOP 3: The Chicha Morada Aisle \u2014 11:00 AM**\nFind the most DELICIOUS purple corn drink known to humanity. Cry a little. It's that GOOD. Buy seventeen bottles. Your back will feel BAD tomorrow but your soul will feel GOOD.\n\n---\n\n### **STOP 4: The Checkout Line \u2014 12:30 PM**\nRealize the mystery meat has leaked onto your DELICIOUS chicha morada. The smell is DISGUSTING. The situation is BAD. The empanada you stress-eat from the register is GOOD.\n\n---\n\n*Total damage: 200 soles and your dignity* \ud83e\udd99",
+  "response_word_count": 195,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1139,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write funny haiku about moms with \"mom\" and \"mother\"\nfunny haiku moms, no rhymes",
+  "compressed_word_count": 14,
+  "response": "Mom judges my mess\nCluttered life, her worried face\nMother of chaos\n\nMother's sharp tongue cuts\nCaffeine fueled, her morning \nMom's sarcastic bite\n\nMom's eagle eyes see\nDust bunnies under the couch\nMother of neat freak\n\nMother of all stress\nLaundry piles, her domain\nMom's never done sighs\n\nMom's laser vision\nCatches every single lie\nMother knows all tricks",
+  "response_word_count": 59,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

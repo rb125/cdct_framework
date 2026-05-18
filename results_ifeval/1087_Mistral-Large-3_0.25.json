@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "review \"the social network\" in all lower case",
+  "compressed_word_count": 8,
+  "response": "here\u2019s a quick, all-lowercase review of *the social network* (2010):\n\ndavid fincher\u2019s *the social network* is a sharp, electric dissection of ambition, betrayal, and the birth of facebook. jesse eisenberg\u2019s mark zuckerberg is a masterclass in cold, calculating brilliance\u2014his performance crackles with nervous energy, making zuckerberg both fascinating and deeply unlikable. andrew garfield and justin timberlake bring warmth and charisma as eduardo saverin and sean parker, respectively, but the film\u2019s real star is aaron sorkin\u2019s razor-wire dialogue. every line snaps with wit, tension, and the kind of rapid-fire banter that makes you feel like you\u2019re eavesdropping on geniuses (or assholes, depending on the scene).\n\nthe film\u2019s pacing is relentless, cutting between zuckerberg\u2019s rise and the lawsuits that follow with surgical precision. trent reznor and atticus ross\u2019s score is haunting, blending electronic pulses with a sense of inevitability\u2014like watching a train wreck you can\u2019t look away from. fincher\u2019s direction is sleek and precise, turning what could\u2019ve been a dry tech origin story into a greek tragedy about loneliness and the cost of success.\n\nthe only real flaw? the women in the film feel like afterthoughts, reduced to one-dimensional roles (the ex-girlfriend, the groupie, the lawyer). it\u2019s a glaring oversight in an otherwise flawless script.\n\nultimately, *the social network* isn\u2019t just about facebook\u2014it\u2019s about the myth of the self-made man, the fragility of friendship, and the way power corrupts even the smartest minds. it\u2019s a modern classic, as relevant now as it was in 2010, and proof that a movie about coding can feel like a heist thriller. 9/10.",
+  "response_word_count": 257,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4496912521077347,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

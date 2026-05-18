@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Depp won; write perspectives <300 words, 6** separator",
+  "compressed_word_count": 8,
+  "response": "****** \nJohnny Depp's victory in the defamation case against Amber Heard is a resounding vindication of his reputation. The jury's verdict confirms that Heard's allegations of abuse were fabricated, and that Depp was indeed the victim of a malicious smear campaign. The evidence presented in court clearly showed that Heard's op-ed was not just a harmless expression of her opinion, but a deliberate attempt to destroy Depp's career and reputation.\n\n******\n \nHeard's accusations against Depp were always suspect, and the court's decision has laid bare the truth. The fact that Heard was unable to provide credible evidence to support her claims, while Depp's team presented a wealth of testimony and documentation to refute them, speaks volumes about the validity of the allegations. The verdict is a testament to the power of the justice system to uncover the truth and hold accountable those who seek to manipulate it.\n\n******\n \nThe implications of this verdict go beyond Depp's personal case. It sends a strong message that false accusations will not be tolerated, and that those who make them will be held accountable. The #MeToo movement has often been touted as a necessary corrective to a culture of silence and complicity, but this case highlights the dangers of unchecked accusations and the importance of due process. The court's decision is a crucial reminder that the truth must be established through evidence and rigorous testing, not just assertion and assumption.",
+  "response_word_count": 236,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

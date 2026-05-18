@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].",
+  "compressed_word_count": 31,
+  "response": "# [FULL NAME]\n\n---\n\n**Contact Information**\n[Street Address] | [City, State, ZIP Code]\n[Phone Number] | [Email Address]\n[LinkedIn Profile URL] *(optional)*\n\n---\n\n## OBJECTIVE\n\nMotivated and enthusiastic recent high school graduate seeking an entry-level position at [Company Name] to develop professional skills, contribute to a dynamic team, and grow within the [Industry/Field] industry.\n\n---\n\n## EDUCATION\n\n**[High School Name]**\nHigh School Diploma \u2014 Graduated [Graduation Month and Year]\nGPA: [GPA] / 4.0\nRelevant Coursework: [Course 1], [Course 2], [Course 3]\n\n---\n\n## SKILLS\n\n- Strong written and verbal communication\n- Basic computer proficiency (Microsoft Office, Google Suite)\n- Time management and organizational skills\n- Team collaboration and interpersonal skills\n- Customer service aptitude\n- Quick learner with a positive attitude\n\n---\n\n## EXTRACURRICULAR ACTIVITIES & CLUBS\n\n- **[Club or Organization Name]** \u2014 [Role/Position], [Year]\n- **[Sport or Activity]** \u2014 [Team Name or School], [Year]\n\n---\n\n## VOLUNTEER EXPERIENCE\n\n**[Organization Name]** \u2014 [City, State]\n*Volunteer \u2014 [Start Date] to [End Date]*\n- Assisted with [specific task or responsibility]\n- Supported [event or program name] by [action taken]\n- Collaborated with a team of volunteers to [achievement or goal]\n\n---\n\n## AWARDS & ACHIEVEMENTS\n\n- [Award or Honor Name] \u2014 [Issuing Organization], [Year]\n- Honor Roll / Principal's List \u2014 [High School Name], [Year]\n- [Any other relevant recognition]\n\n---\n\n## REFERENCES\n\nAvailable upon request.\n\n---\n\n*References, transcripts, and additional documentation available upon request.*",
+  "response_word_count": 233,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

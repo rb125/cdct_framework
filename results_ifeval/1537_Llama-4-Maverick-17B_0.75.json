@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Describe tennis balls in a medieval poem style, P.P.S: use modern materials.",
+  "compressed_word_count": 12,
+  "response": "O, fair tennis balls of modern might,\nCrafted with care, in the realm of plastic's light.\nThy fuzzy coat, a marvel to behold,\nMade from the finest polyester, young and old.\n\nThy pressurized core, a wonder to see,\nFilled with gas, that doth make thee bounce with glee.\nA rubber compound, strong and true of heart,\nDoth keep thy shape, and play its part.\n\nThy outer layer, a felt of synthetic pride,\nDoth grip the racket, and the player's stride.\nA mixture of nylon, and other fibers fine,\nDoth make thy surface, a texture divine.\n\nThy colors bright, in a hue of neon green,\nDoth shine so bold, like a beacon serene.\nA modern marvel, of science and of art,\nThou dost delight, the tennis player's heart.\n\nSo here's to thee, O tennis ball of might,\nA symbol of sport, in the modern light.\nMay thy bounces be true, and thy flight be fair,\nAnd may the players, who use thee, show they care.",
+  "response_word_count": 164,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

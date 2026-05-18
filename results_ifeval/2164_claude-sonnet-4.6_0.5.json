@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Describe 'the squeaker' latex dog toy for all ages/species, colors/shapes; [placeholder1], [placeholder2], [placeholder3]",
+  "compressed_word_count": 13,
+  "response": "# The Squeaker: Latex Dog Toy\n\n## Overview\nA beloved classic in the pet toy world, **The Squeaker** is a latex dog toy designed to engage, entertain, and satisfy a dog's natural instincts through interactive play and rewarding sound feedback.\n\n---\n\n## Ages & Life Stages\n\n| Life Stage | Features |\n|------------|----------|\n| **Puppy** | Softer latex, gentle squeak, smaller sizing |\n| **Adult** | Standard durability, full squeak response |\n| **Senior** | Extra-soft latex, easy-compress design |\n\n---\n\n## Species Suitability\n- \ud83d\udc15 **Dogs** *(primary)* \u2014 all breeds\n- \ud83d\udc08 **Cats** \u2014 smaller variants work well\n- \ud83d\udc07 **Small animals** \u2014 mini versions for supervised play\n\n---\n\n## Colors\n- Bright **red, yellow, blue, green**\n- **Neon** orange and pink\n- **Multi-tone** patterned designs\n\n## Shapes\n- \ud83e\uddb4 Bone\n- \ud83d\udc14 Chicken/animal figures\n- \ud83c\udf55 Food shapes\n- \ud83c\udfc8 Ball/round forms\n- \ud83d\udc7e Novelty/character shapes\n\n---\n\n## [Placeholder1]\n*(Reserved for sizing specifications)*\n\n## [Placeholder2]\n*(Reserved for safety/material details)*\n\n## [Placeholder3]\n*(Reserved for pricing/availability)*\n\n---\n\n*Always supervise pets during play.*",
+  "response_word_count": 172,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

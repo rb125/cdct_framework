@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "**Explain city vs. village in a rap to a kid, using all capitals at least 10x. Divide into 5 sections with *** separators.**",
+  "compressed_word_count": 23,
+  "response": "# City vs. Village Rap \ud83c\udfa4\n\nYo little homie, let me break it down for you,\nAbout two different places and the different things they do,\nListen up close cause the beat is gonna BANG,\nTime to learn some knowledge with a little bit of slang!\n\n***\n\nIn the CITY it's LOUD, there's buildings touching sky,\nSkyscrapers and subways rushing people by,\nMILLIONS of folks all living side by side,\nHonking cars and busy streets, it's a WILD ride,\nRestaurants and museums on every single block,\nThe CITY never sleeps, it goes around the clock!\n\n***\n\nNow the VILLAGE is quiet, with fields of green,\nThe PRETTIEST and most peaceful place you've ever seen,\nChickens in the yard and cows out in the grass,\nStars fill up the SKY like a looking glass,\nEverybody KNOWS your name when you walk around,\nA small and cozy, friendly little town!\n\n***\n\nThe CITY has the traffic and the NOISE and the rush,\nThe village has the birdsong and the morning hush,\nBIG stores versus farmers markets fresh and bright,\nTALL buildings versus mountains reaching up at night,\nBoth places are SPECIAL in their very own way,\nJust different kinds of AWESOME every single day!\n\n***\n\nSo whether you love CITIES or a village life is cool,\nBoth places have good people, both places have a school,\nThe WORLD is full of differences and that is pretty great,\nEvery town and every city makes our planet FIRST RATE,\nNow you know the difference, little homie, GO and grow,\nDROP the mic and let the whole wide WORLD know! \ud83c\udfa4",
+  "response_word_count": 266,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      }
+    },
+    "consensus": {
+      "CC": 0.9333333333333332,
+      "SA": 0.9666666666666667,
+      "FC": 0.9666666666666667,
+      "judge_variance_CC": 0.09428090415820632,
+      "judge_variance_SA": 0.04714045207910316,
+      "judge_variance_FC": 0.04714045207910316
+    }
+  }
+}

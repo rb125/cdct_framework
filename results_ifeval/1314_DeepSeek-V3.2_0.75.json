@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Identify the non-fish between salmon and avocado. then, write an article on salmon and avocado using some all-caps words, but no more than 10 times.",
+  "compressed_word_count": 25,
+  "response": "**The non-fish is the avocado.** (Salmon is a fish; avocado is a fruit).\n\n***\n\n### The Perfect Pair: Salmon and Avocado\n\nWhen it comes to nutritious and delicious duos, few can match the power pair of salmon and avocado. This combination is a TRUE powerhouse, offering a symphony of flavors and a MAJOR boost for your health.\n\nWild-caught salmon is celebrated for its rich content of omega-3 fatty acids, crucial for heart and brain function. Paired with the creamy, lush texture of avocado, packed with healthy fats and fiber, they create a meal that is both satisfying and incredibly good for you. The healthy fats in avocado can even help your body ABSORB the fat-soluble vitamins found in salmon.\n\nFrom simple salads and classic sushi rolls to elegant avocado-toasted salmon fillets, the possibilities are ENDLESS. It\u2019s a versatile partnership that works for a quick lunch or an impressive dinner. The key is to source QUALITY ingredients\u2014look for vibrant, sustainably caught salmon and perfectly ripe avocados.\n\nThis isn't just a trend; it's a SMART choice for a balanced diet. Together, they deliver a PROVEN combination of protein, good fats, and essential nutrients. So next time you're planning a meal, consider this dynamic duo. Your taste buds and your body will thank you. It's a WIN-WIN.",
+  "response_word_count": 214,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

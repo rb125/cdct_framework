@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a story about the importance of understanding the truths that are not obvious. Add stress words which are capitalized. Limit those stress words for less than 20 times.",
+  "compressed_word_count": 29,
+  "response": "**The Hidden Truth of Willow Creek**\n\nIn the quiet town of Willow Creek, where the RIVER whispered secrets to the reeds and the OLD OAK stood as a silent guardian, lived a young woman named Elara. She was known for her CURIOSITY, always asking questions that others dismissed as foolish. \"Why do the STARS flicker?\" she\u2019d wonder aloud. \"What lies beyond the HORIZON?\" The townsfolk would chuckle, patting her head as if she were a child. \"Some things are just the way they are,\" they\u2019d say. \"No need to dig DEEPER.\"\n\nBut Elara couldn\u2019t help it. There was something about the world that felt\u2026 *incomplete*. Like a story missing its final chapter.\n\nOne evening, as she wandered near the edge of the forest, she noticed something STRANGE. The fireflies, usually scattered and fleeting, were gathering in a perfect CIRCLE near the base of the old oak. Their glow pulsed in unison, as if guided by an unseen hand. Most would have turned away, dismissing it as a trick of the light. But Elara STEPPED closer.\n\nBeneath the fireflies\u2019 dance, she found a small, weathered STONE, half-buried in the earth. It was smooth, warm to the touch, and etched with symbols she didn\u2019t recognize. Her heart RACED. This wasn\u2019t just a rock\u2014it was a CLUE.\n\nFor weeks, Elara studied the stone, tracing its markings with her fingers. She searched the town\u2019s meager library, asked the elders, even wrote to scholars in distant cities. Most laughed at her. \"A rock is just a rock,\" they scoffed. But Elara refused to GIVE UP.\n\nThen, one night, she had a dream. The old oak spoke to her, its voice like the rustling of leaves. *\"The truth is not always SEEN,\"* it whispered. *\"It is FELT. It is LIVED.\"*\n\nShe woke with a start. The symbols on the stone\u2014she realized they weren\u2019t just random marks. They were a MAP. A map to something buried beneath Willow Creek\u2019s very foundations.\n\nWith trembling hands, she followed the clues, digging where the stone\u2019s lines converged. And there, beneath layers of earth, she found it: a chest, ancient and untouched. Inside lay artifacts of a forgotten civilization\u2014tools, writings, and a single, golden amulet that hummed with a quiet POWER.\n\nThe townsfolk gathered as Elara unveiled her discovery. Some were skeptical, others awed. But the eldest among them, a woman named Mara, stepped forward. Her eyes filled with tears. \"I always KNEW there was more to this place,\" she said. \"But I was too AFRAID to look.\"\n\nElara\u2019s discovery changed Willow Creek forever. The town, once content with its quiet ignorance, began to explore, to question, to SEEK. They built a museum, studied the artifacts, and uncovered stories of their ancestors they\u2019d never known.\n\nAnd Elara? She became the town\u2019s first historian, teaching others the most important lesson of all: **the truth is rarely on the surface.** Sometimes, you have to dig. Sometimes, you have to LISTEN. And sometimes, the most extraordinary things are hidden in plain sight\u2014waiting for someone brave enough to see them.",
+  "response_word_count": 505,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

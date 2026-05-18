@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a rap about a new smartphone. At the end of your response add a postscript starting with P.P.S The response must contain at least 6 placeholders represented by square brackets.",
+  "compressed_word_count": 31,
+  "response": "Yo, listen up, I got a story to tell\n'Bout a new smartphone that's doing well\nIt's the [Brand Name] [Model Number], the latest in the game\nWith a [Screen Size] inch display, it's got the perfect frame\nThe camera's on point, with [Number] megapixels too\nAnd a battery that lasts all day, with [Battery Capacity]mAh to get you through\nIt's powered by a [Processor Name] processor, fast and sleek\nAnd with [Operating System] on board, it's got the features unique\n\nI'm snapping pics and sending texts, with ease and with flair\nThe [Color] finish is fire, and it's beyond compare\nI'm streaming videos and playing games, with no lag or delay\nThis phone's got the specs, to make your mobile life a breeze every day\n\nP.P.S I'm hyped to get my hands on this new device, and I'm sure you'll be too when you see the [Release Date] launch date, so mark your calendars!",
+  "response_word_count": 155,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

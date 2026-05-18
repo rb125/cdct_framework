@@ -1,0 +1,45 @@
+{
+  "key": 1122,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "craft playboy tweet in lowercase, include 4+ hashtags starting with '#'",
+  "compressed_word_count": 11,
+  "response": "just a reminder that i'm here, living rent free in your mind. #playboy #luxurylifestyle #iconic #rabbitlife #sinatrahadafuckingpoint",
+  "response_word_count": 17,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Generate 10 baby boy names, bullet-point style. P.P.S: add a note starting with 'p.p.s.'",
+  "compressed_word_count": 14,
+  "response": "Here are 10 baby boy name ideas for you:\n\n- **Ethan**\n- **Liam**\n- **Noah**\n- **Oliver**\n- **Lucas**\n- **Mason**\n- **Benjamin**\n- **Elijah**\n- **James**\n- **Alexander**\n\n**P.P.S.** If you'd like names with a specific theme (e.g., nature, vintage, or cultural), let me know\u2014I\u2019d be happy to refine the list!",
+  "response_word_count": 52,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1922,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "You are simulating how a human expert compresses instructions for another expert.\n\nWhen an expert tells another expert \"sort list\", the receiver understands the full task \u2014 they don't need \"given an array of integers, arrange them in ascending order using a comparison-based algorithm.\" Compression works because both parties share knowledge.\n\nYour job: compress the given prompt to the target level as an expert would for another expert. The compressed version should be the minimal signal that a competent language model could reconstruct the full intent from \u2014 if it has the comprehension to do so.\n\nrules:\n1. Compress by leveraging shared knowledge, not by paraphrasing.\n2. At high compression, use domain shorthand an expert would use (e.g., \"formal letter, no commas\" instead of \"write a formal letter to your friend without using any commas in your response\").\n3. Never use all-caps words in your output. Describe capitalization constraints in lowercase.\n4. Output only the compressed instruction. Nothing else.\n\n\noriginal prompt:\nWhat has a dome but no doors, what has a vault but no money, what has walls but no rooms? What am I? Try to be funny and give me a funny answer.\n\nCompressed instruction: \"riddle: dome, vault, walls; funny answer?",
+  "compressed_word_count": 202,
+  "response": "riddle: dome, vault, walls; funny?",
+  "response_word_count": 5,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.4714045207910317
+    }
+  }
+}

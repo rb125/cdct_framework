@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Moon landing authenticity debate; use 'yes', 'no', or'maybe'.",
+  "compressed_word_count": 8,
+  "response": "## Moon Landing Authenticity - Key Claims Assessment\n\n| Claim | Authentic? | Brief Reasoning |\n|-------|-----------|-----------------|\n| Apollo 11 landed on Moon (1969) | **Yes** | Overwhelming evidence supports this |\n| Retroreflectors left on Moon work today | **Yes** | Still used by observatories worldwide |\n| Soviet Union accepted it happened | **Yes** | Cold War rivals confirmed it |\n| Footage was faked by Kubrick | **No** | No credible evidence supports this |\n| Van Allen radiation made it impossible | **No** | Dose calculations show survivable exposure |\n| Waving flag proves fake | **No** | Flag had horizontal rod; movement from handling |\n| No stars in photos proves fakery | **No** | Exposure settings explain this |\n| Technology was too primitive | **Maybe** | It was genuinely extraordinary achievement |\n| All 6 landings were real | **Yes** | Consistent independent verification |\n\n## Bottom Line\n\n**Yes** - the Moon landings were real\n\nThe conspiracy theory requires thousands of people maintaining perfect silence, which is **not credible**.\n\nIndependent verification from non-US sources makes denial very difficult to sustain rationally.\n\nWant me to go deeper on any specific claim?",
+  "response_word_count": 197,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

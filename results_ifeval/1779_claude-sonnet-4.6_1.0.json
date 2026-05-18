@@ -1,0 +1,45 @@
+{
+  "key": 1779,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write an itinerary for a trip to a grocery store in Lima to buy some local goods. Make the itinerary funny, write it in all capital letters and include the keywords 'DISGUSTING', 'DELICIOUS', 'BAD', and 'GOOD'.",
+  "compressed_word_count": 36,
+  "response": "HERE IS YOUR HILARIOUS GROCERY STORE ITINERARY FOR LIMA, PERU:\n\n**THE GREAT LIMA GROCERY ADVENTURE**\n\n**9:00 AM - ARRIVAL**\nWAKE UP AND TELL YOURSELF TODAY IS GOING TO BE A GOOD DAY. PUT ON YOUR BRAVEST PANTS BECAUSE YOU ARE ABOUT TO ENTER A PERUVIAN MERCADO AND NOTHING WILL EVER BE THE SAME AGAIN.\n\n**9:15 AM - THE PRODUCE SECTION**\nSTARE AT THE GIANT PILE OF LUCUMA FRUIT FOR FIFTEEN MINUTES. SMELL IT. DECIDE IT SMELLS DELICIOUS. BUY SEVENTEEN OF THEM EVEN THOUGH YOU HAVE NO IDEA WHAT TO DO WITH THEM.\n\n**9:30 AM - THE CANNED GOODS AISLE**\nACCIDENTALLY PICK UP A CAN OF SOMETHING UNIDENTIFIABLE. READ THE LABEL. PUT IT DOWN. PICK IT UP AGAIN. THIS IS A BAD DECISION BUT YOU ARE BUYING IT ANYWAY.\n\n**9:45 AM - THE CHICHA MORADA SECTION**\nDISCOVER THIS MAGNIFICENT PURPLE CORN DRINK AND DECLARE IT THE MOST DELICIOUS THING YOU HAVE EVER SEEN IN YOUR ENTIRE LIFE.\n\n**10:00 AM - THE MYSTERY MEAT COUNTER**\nLOOK AT THE CUY (GUINEA PIG). FEEL DISGUSTING FOR EVEN CONSIDERING IT. BUY IT ANYWAY BECAUSE YOU ARE BRAVE AND ALSO SLIGHTLY UNHINGED.\n\n**10:30 AM - CHECKOUT**\nREALIZE YOUR CART IS FULL. YOUR WALLET IS EMPTY. GOOD LUCK GETTING HOME!",
+  "response_word_count": 203,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

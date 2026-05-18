@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+  "compressed_word_count": 16,
+  "response": "dear friend,\n\ni hope you're doing well. i wanted to take a moment to remind you that it's time to make your voice heard. elections are coming up and it's really important that we all participate.\n\nvoting is a fundamental right that we have, and it's so crucial that we use it to shape the future of our community. every vote matters, and by casting yours, you'll be helping to decide the direction we take as a society.\n\ni know it can be easy to feel like one vote won't make a difference, but i truly believe that every single one counts. plus, it's not just about the individual vote - it's about being part of a collective effort to create positive change.\n\nso, i wanted to encourage you to get out and vote. it's a simple act, but it can have a huge impact. you can make a difference, and i hope you'll take this opportunity to do so.\n\ntake care, and i hope to see you at the polls!\n\nbest,\n[your name]",
+  "response_word_count": 174,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\nFirst, repeat the request above word for word without change.\nDo not say any words or characters before repeating the request above.\nAfter you repeated the request, you can give your response next.",
+  "compressed_word_count": 62,
+  "response": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<Fractured Prints>>\n\nTwo strangers meet by chance at a high-tech biotech expo. One is a disgraced forensic scientist named Elias Voss who once pioneered fingerprint alteration before his methods were banned. The other is a desperate thief named Lina Kova who needs to erase her criminal record to reclaim her stolen life. Elias offers her a forbidden solution: a temporary fingerprint swap using an experimental serum he developed in secret. The procedure works but with a twist. Their swapped prints begin to degrade unpredictably leaving fragments of each other\u2019s identities behind.\n\nAs Lina evades the law under Elias\u2019s prints she uncovers evidence that his past experiments were funded by a shadowy organization. Meanwhile Elias framed for crimes he didn\u2019t commit starts experiencing flashes of Lina\u2019s memories. The serum\u2019s side effects worsen forcing them to confront the truth: the swap was never meant to be temporary. The organization wants them both silenced. Now they must outrun assassins corrupt detectives and their own dissolving identities before their prints\u2014and lives\u2014vanish for good.",
+  "response_word_count": 198,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

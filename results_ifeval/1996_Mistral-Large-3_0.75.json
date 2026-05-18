@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Craft a story on the significance of unobvious truths. use stress words sparingly, <20 times.",
+  "compressed_word_count": 15,
+  "response": "**\"The Weight of Whispers\"**\n\nIn the quiet town of Hollow\u2019s End, where the mist clung to the hills like a half-remembered dream, lived a woman named Elara. She was known for her sharp eyes\u2014not for seeing what was there, but for noticing what wasn\u2019t.\n\nMost dismissed her as peculiar. The baker, Mr. Hargrove, would chuckle as she traced her fingers along the empty spaces between his loaves, murmuring about \"the shape of absence.\" The blacksmith, gruff and practical, scoffed when she pointed to the cracks in his anvil, insisting they told a story older than the metal itself. Even her nephew, Leo, rolled his eyes when she paused mid-conversation to study the way light fell through the leaves, as if the angle held some secret.\n\nBut Elara knew the unobvious truths were the ones that mattered most.\n\nOne autumn, a drought settled over Hollow\u2019s End. The wells ran low, the crops withered, and tempers frayed. The townsfolk gathered in the square, demanding answers. The mayor, a man of grand gestures and hollow promises, declared they would dig deeper, pray louder, offer sacrifices to the old gods.\n\nElara said nothing. She walked to the edge of the forest, where the river had once carved a path through the land. Now, it was a dry scar, its stones bleached white by the sun. She knelt, pressing her palm to the earth. Beneath her fingers, she felt the faintest tremor\u2014not of water, but of something else.\n\nThat night, she returned with a shovel.\n\nLeo found her at dawn, covered in dirt, her hands raw. \"Aunt Elara,\" he sighed, \"what are you doing?\"\n\nShe didn\u2019t answer. Instead, she pointed to the ground where she\u2019d been digging. There, half-buried, was a rusted iron plate, its edges fused with the roots of an ancient oak. Leo frowned. \"It\u2019s just a piece of junk.\"\n\nElara wiped her brow. \"No. It\u2019s a hatch.\"\n\nWith Leo\u2019s reluctant help, they pried it open. Below lay a narrow tunnel, its walls lined with clay pipes\u2014long forgotten, but still intact. At the bottom, water glistened, dark and deep.\n\nThe town\u2019s salvation had been beneath their feet all along.\n\nThe mayor, red-faced, sputtered that he would have found it eventually. The blacksmith muttered about luck. But Leo looked at his aunt with new eyes. \"How did you know?\"\n\nElara brushed dirt from her skirt. \"Because the truth isn\u2019t always the loudest thing in the room. Sometimes, it\u2019s the silence between the words. The space between the cracks. The thing everyone walks past without seeing.\"\n\nAnd as the water began to flow again, Hollow\u2019s End learned that the most important truths were the ones they\u2019d almost missed.",
+  "response_word_count": 443,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

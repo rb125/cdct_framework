@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "* dialogue between formally and casually dressed individuals for a nightly event\n* 3 markdown bullet points\n* format: * point 1 * point 2 * point 3",
+  "compressed_word_count": 28,
+  "response": "**Formally Dressed Individual:** \"You look comfortable! I feel a bit like a penguin in this tuxedo.\"\n**Casually Dressed Individual:** \"Thanks! And you look sharp. I figured the invite said 'nightly event,' not 'black-tie gala.'\"\n**Formally Dressed Individual:** \"Fair point. I probably should have read the fine print more carefully.\"\n\n*   The dialogue highlights how dress code interpretations can vary based on the wording of an invitation and personal choice.\n*   It shows a friendly interaction where neither party judges the other, instead using humor to address the discrepancy.\n*   The exchange underscores the social nuance of attire, where the formally dressed person feels slightly overdressed while acknowledging the casually dressed person's valid reasoning.",
+  "response_word_count": 113,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1746,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft an essay on Benjamin Franklin's life. Summarize it as a poem. Separate essay and poem with six asterisks: ******\n******\n[essay]\n******\n[poem]",
+  "compressed_word_count": 24,
+  "response": "### **Essay: The Life of Benjamin Franklin**\n\nBenjamin Franklin (1706\u20131790) stands as one of the most remarkable figures in American history\u2014a polymath whose life embodied the ideals of the Enlightenment. Born in Boston, the fifteenth of seventeen children, Franklin\u2019s humble beginnings belied the extraordinary impact he would have on science, politics, diplomacy, and literature. Largely self-educated, he apprenticed as a printer under his brother before fleeing to Philadelphia at seventeen, where he would build his fortune and reputation.\n\nFranklin\u2019s intellectual curiosity knew no bounds. As a scientist, he conducted groundbreaking experiments with electricity, famously flying a kite in a thunderstorm to prove lightning\u2019s electrical nature. His inventions\u2014including the lightning rod, bifocal glasses, and the Franklin stove\u2014demonstrated his practical genius. Beyond science, he founded institutions that endure today, such as the University of Pennsylvania, the American Philosophical Society, and the first public lending library in America.\n\nA master of diplomacy, Franklin played a pivotal role in securing French support during the American Revolution, ensuring the colonies\u2019 victory over Britain. As a statesman, he helped draft the Declaration of Independence and the U.S. Constitution, advocating for compromise and unity. His political writings, such as *Poor Richard\u2019s Almanack*, blended wit with wisdom, offering timeless advice on industry, frugality, and civic virtue.\n\nFranklin\u2019s personal life was equally rich. Though he married Deborah Read in 1730, their relationship was complicated by his frequent travels and her untimely death. He fathered an illegitimate son, William, who later became a Loyalist governor, straining their bond. Despite these complexities, Franklin remained a devoted father to his daughter, Sally, and a mentor to many.\n\nIn his later years, Franklin championed abolitionism, though his own record on slavery was inconsistent. He died at 84, leaving behind a legacy as a Founding Father, inventor, and symbol of American ingenuity. His life\u2014marked by curiosity, resilience, and an unyielding commitment to progress\u2014continues to inspire generations.\n\n******\n\n### **Poem: The Many Lives of Franklin**\n\nA boy in Boston, ink-stained, bright,\nWith dreams too vast for candlelight.\nHe fled the press, he sought the sky,\nAnd asked the stars, *\"How? Why?\"*\n\nA spark, a kite, a storm\u2019s embrace\u2014\nThe lightning bowed to Franklin\u2019s grace.\nWith rod and lens, he bent the flame,\nAnd gave the world a brighter name.\n\nFrom Philadelphia\u2019s cobbled street,\nHe built a stage for minds to meet.\nA library\u2019s hush, a scholar\u2019s cheer,\nWhere knowledge bloomed for all to hear.\n\n*\"A penny saved,\"* he\u2019d often say,\n*\"Is earned by work, not luck\u2019s delay.\"*\nYet gold was not his truest prize\u2014\nThe fire of thought lit Franklin\u2019s eyes.\n\nTo Paris sailed the old man wise,\nWith quill and charm and twinkling guise.\nThe French, they cheered, the crowns agreed\u2014\nA nation born from wit and deed.\n\nHe signed the page where freedom burned,\nWhere kings were felled and rights were earned.\nYet shadows lurked\u2014his son\u2019s betrayal,\nA wound no ink could ever heal.\n\nStill, to the end, his hand was raised,\nFor slaves unchained, for minds amazed.\nThough time has turned his flesh to dust,\nHis light still gleams\u2014*in God we trust.*\n\nOh, Franklin! Printer, sage, and spark,\nYou lit the world, then left the dark.\nA thousand lives in one man\u2019s span\u2014\nThe first, the best *American.*",
+  "response_word_count": 536,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

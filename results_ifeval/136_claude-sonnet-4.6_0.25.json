@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "9 bullet points on nucleus, <100 words.",
+  "compressed_word_count": 7,
+  "response": "\u2022 Control center of the cell\n\u2022 Contains DNA (genetic material)\n\u2022 Surrounded by a double membrane called the nuclear envelope\n\u2022 Nuclear pores regulate substance entry and exit\n\u2022 Houses the nucleolus, which produces ribosomes\n\u2022 Found in eukaryotic cells only\n\u2022 Directs protein synthesis and cell activities\n\u2022 Typically the largest organelle in a cell\n\u2022 Separated from cytoplasm but communicates via nuclear pores",
+  "response_word_count": 66,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

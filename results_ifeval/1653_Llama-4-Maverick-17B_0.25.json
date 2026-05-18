@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "ad template for portable camera, max 4 caps",
+  "compressed_word_count": 8,
+  "response": "Here is a potential ad template for a portable camera with 4 captivating captions:\n\n**[Image: A person holding the portable camera, with a beautiful landscape or cityscape in the background]**\n\n**Captions:**\n\n1. **\"Capture Life's Moments, Anywhere\"** - Emphasizing the camera's portability and versatility.\n2. **\"Unleash Your Creativity, On-the-Go\"** - Highlighting the camera's features and capabilities.\n3. **\"Snap, Share, Repeat\"** - Focusing on the ease of use and social sharing aspects.\n4. **\"Where Will Your Lens Take You?\"** - Encouraging users to explore and discover new experiences.\n\n**Additional Text:**\n\n* Brief product description (e.g. \"Compact, lightweight, and feature-rich\")\n* Key features (e.g. \"4K video, Wi-Fi connectivity, waterproof design\")\n* Call-to-action (e.g. \"Buy Now\", \"Learn More\")\n\nThis template can be adapted to fit various ad formats, such as social media, online display, or print ads.",
+  "response_word_count": 133,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.6333333333333333,
+      "FC": 0.6,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.18856180831641267,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

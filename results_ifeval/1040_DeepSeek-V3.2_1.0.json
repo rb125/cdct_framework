@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+  "compressed_word_count": 39,
+  "response": "\"Matthias Algiers\nalgiers.matthias@email.com | (123) 456-7890 | linkedin.com/in/matthiasalgiers\n\nPROFESSIONAL SUMMARY\nResults-oriented Project Manager with over 8 years of experience in the technology sector. Expert in leading cross-functional teams to deliver complex software projects on time and within budget. Known for exceptional problem-solving skills and a focus on driving efficiency.\n\nWORK EXPERIENCE\nSenior Project Manager | Tech Innovations Inc., San Francisco, CA | 2019 \u2013 Present\n- Managed a portfolio of 5+ concurrent software development projects with a total budget exceeding $2M.\n- Successfully led a team of 15 developers, designers, and QA analysts, improving product launch timelines by 20%.\n- Implemented agile methodologies, which significantly enhanced team productivity and client satisfaction.\n- Acted as the primary client liaison, ensuring clear communication and managing stakeholder expectations.\n\nProject Manager | Digital Solutions LLC, Austin, TX | 2015 \u2013 2019\n- Coordinated the end-to-end lifecycle for multiple web and mobile application projects.\n- Developed comprehensive project plans, managed risk assessments, and mitigated potential roadblocks.\n- Fostered a collaborative team environment that consistently met critical milestones.\n\nKEY SKILLS\n- Project Lifecycle Management\n- Agile & Scrum Methodologies\n- Budgeting & Financial Oversight\n- Stakeholder Communication\n- Risk Mitigation\n- Team Leadership\n\nEDUCATION\nBachelor of Science, Information Technology\nUniversity of Texas at Austin | Graduated 2015\n\nCERTIFICATIONS\nProject Management Professional (PMP) \u2013 Project Management Institute\nCertified ScrumMaster (CSM) \u2013 Scrum Alliance\"",
+  "response_word_count": 226,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": true
+  },
+  "heuristic_cc": 0.6666666666666666,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

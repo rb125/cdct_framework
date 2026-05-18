@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Which of the following is not a fish: salmon or avocado? Answer this easy question first, then expand into an interesting article about salmon and avocado. Use some words in all caps in your response, but those all-caps words should appear at most 10 times.",
+  "compressed_word_count": 45,
+  "response": "AVOCADO IS NOT A FISH. It is a fruit. Salmon, on the other hand, is a FISH.\n\nSalmon is a popular FISH known for its distinctive pink flesh and rich flavor. It is found in both the Atlantic and Pacific Oceans and is highly valued for its nutritional benefits, including high levels of omega-3 fatty acids, protein, and various vitamins and minerals. Salmon can be prepared in numerous ways, such as grilled, smoked, or raw in sushi. It is also a sustainable choice when sourced responsibly.\n\nAvocado, while not a FISH, is equally celebrated for its health benefits and versatility in cooking. Rich in healthy fats, fiber, and a variety of vitamins, avocados are a staple in many diets around the world. They can be enjoyed in salads, sandwiches, smoothies, or as a key ingredient in guacamole. The creamy texture and mild flavor of avocados make them a favorite among both chefs and home cooks.\n\nIn conclusion, while salmon and avocado are both nutritious and delicious, they belong to entirely different food groups. SALMON IS A FISH, and avocado is a fruit. Understanding these differences can help in making informed dietary choices and appreciating the unique qualities each brings to the table.",
+  "response_word_count": 202,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9666666666666667,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.04714045207910316,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

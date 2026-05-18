@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "write song lyrics on socio-economic issue, all lowercase, no commas",
+  "compressed_word_count": 10,
+  "response": "in the streets they wander lost and alone\ntheir eyes are empty their future unknown\nthey're searching for a hand to hold on to\nbut the system's broken and it's hard to get through\n\nthey're trapped in a cycle of poverty and pain\ntheir voices silenced their stories untold in vain\nthey're forced to live on the margins of society\ntheir dignity lost in the struggle to survive daily\n\nwe're living in a world where the rich get richer\nand the poor get poorer it's a never ending picture\nthe gap is widening it's a socio-economic sin\nwe're losing our humanity we're losing our kin\n\nwe need to wake up and take a stand\nwe need to make a change in this land\nwe need to be the voice for the voiceless too\nwe need to be the change we want to see come true\n\nin the streets they still wander lost and alone\nbut we can be the light that guides them back home\nwe can be the hope that they so desperately need\nwe can be the change that they so desperately plead",
+  "response_word_count": 185,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

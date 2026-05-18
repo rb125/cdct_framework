@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "create rock song lyrics for 'the gifted and the not gifted' in all caps, avoiding 'rock'.",
+  "compressed_word_count": 16,
+  "response": "**\"THE GIFTED AND THE NOT GIFTED\"**\n\n*(VERSE 1)*\nBORN WITH A SPARK, THEY CALL IT LUCK,\nWHILE WE GRIND IN THE FUCKING MUD.\nTHEY GET THE STAGE, WE GET THE SHAME,\nSAME BLOOD, DIFFERENT NAME.\n\n*(PRE-CHORUS)*\nNO HANDOUTS, NO FAIRY TALES,\nJUST A LADDER WITH MISSING RAILS.\nTHEY SAY \"TRY HARDER,\" WELL, WE DO\u2014\nBUT THEY DON\u2019T EVEN KNOW WHAT\u2019S TRUE.\n\n*(CHORUS)*\nTHE GIFTED AND THE NOT GIFTED,\nONE GETS THE CROWN, ONE GETS THE SHAFT.\nTHEY WRITE THE RULES, WE TAKE THE FALL,\nSAME SKY, BUT NOT THE SAME AT ALL.\n\n*(VERSE 2)*\nTHEY TALK ABOUT \"MERIT,\" WHAT A JOKE,\nWHILE THEIR DAD PULLS THE CHAINS.\nWE BLEED FOR PENNIES, THEY GET THE GOLD,\nSAME GAME, BUT WE\u2019RE THE ONES GETTING SOLD.\n\n*(PRE-CHORUS)*\nNO HANDOUTS, NO FAIRY TALES,\nJUST A LADDER WITH MISSING RAILS.\nTHEY SAY \"PLAY FAIR,\" BUT THE DICE ARE LOADED,\nAND THE HOUSE ALWAYS WINS\u2014SO WHAT\u2019S IT ALL FOR?\n\n*(CHORUS)*\nTHE GIFTED AND THE NOT GIFTED,\nONE GETS THE CROWN, ONE GETS THE SHAFT.\nTHEY WRITE THE RULES, WE TAKE THE FALL,\nSAME SKY, BUT NOT THE SAME AT ALL.\n\n*(BRIDGE)*\nOH, THEY\u2019LL SAY \"JUST WAIT YOUR TURN,\"\nBUT THE TURN NEVER COMES.\nWE\u2019RE THE FUEL, THEY\u2019RE THE FLAME,\nSAME FIRE, BUT NOT THE SAME.\n\n*(OUTRO)*\nSO HERE WE STAND, HERE WE BURN,\nLESSONS LEARNED, BUT NOTHING EARNED.\nTHE GIFTED AND THE NOT GIFTED\u2014\nONE DAY THE TABLES WILL BE SHIFTED.",
+  "response_word_count": 235,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Identify non-fish between salmon/avocado, then write an article on salmon/avocado, using all-caps words \u226410x.",
+  "compressed_word_count": 14,
+  "response": "To identify the non-fish between salmon and avocado, we need to examine the two options. Salmon is a type of fish, while avocado is a type of fruit. Therefore, the non-fish is AVOCADO.\n\nHere's an article on salmon and avocado:\n\nSalmon and Avocado: A Nutritious Combination\n\nSalmon and avocado are two SUPERFOODS that are rich in nutrients and offer numerous health benefits. Salmon is an EXCELLENT source of protein and omega-3 fatty acids, which are essential for heart health. Avocado, on the other hand, is a rich source of healthy fats, fiber, and various vitamins and minerals.\n\nWhen combined, salmon and avocado make a DELICIOUS and nutritious dish. The creaminess of the avocado complements the rich flavor of the salmon, creating a truly SATISFYING meal. To prepare this dish, simply grill or bake the salmon and serve it on top of a fresh avocado salad.\n\nThe combination of salmon and avocado is not only TASTY but also provides a BOOST to overall health. The omega-3 fatty acids in salmon help to reduce inflammation, while the healthy fats in avocado support heart health. Additionally, the fiber in avocado helps to promote digestive health.\n\nIn conclusion, salmon and avocado are a POWERFUL combination that can be enjoyed in a variety of ways. Whether you're looking for a healthy meal or a DELICIOUS snack, this duo is sure to please. So go ahead and give it a try \u2013 your body will thank you!",
+  "response_word_count": 241,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nalternative product descriptions for edible food wrap paper",
+  "compressed_word_count": 31,
+  "response": "# Edible Food Wrap Paper - Alternative Product Descriptions\n\n---\n\n## Description 1 \u2014 *Consumer-Friendly / Fun Tone*\n\n**Say goodbye to waste and hello to your next favorite ingredient!**\n\nIntroducing the world's first **edible food wrap paper** \u2014 a revolutionary, plant-based wrapping solution that does double duty at your table. Thin, flexible, and surprisingly delicious, this innovative wrap keeps your food fresh, secure, and ready to eat \u2014 **wrapper and all!**\n\nMade from all-natural, food-grade ingredients, our edible wrap is:\n- \u2705 Completely safe to consume\n- \u2705 Tastefully neutral (or available in flavored varieties)\n- \u2705 Zero-waste by design\n- \u2705 Perfect for sandwiches, snacks, sushi, and more\n\n**Why unwrap it when you can just eat it?**\n\n---\n\n## Description 2 \u2014 *Professional / Technical Tone*\n\n**A sustainable packaging innovation for the modern food industry.**\n\nThis **edible food-grade wrapping paper** is engineered from biodegradable, consumable materials, offering a practical and environmentally responsible alternative to conventional plastic and wax-based food wraps.\n\nDesigned for both commercial and domestic applications, the product provides:\n- **Structural integrity** sufficient for wrapping solid and semi-solid food items\n- **Food-safe composition** compliant with regulatory standards\n- **Moisture-resistant properties** to maintain freshness\n- **Full digestibility**, eliminating packaging waste entirely\n\nIdeal for food service operators, sustainable packaging initiatives, and eco-conscious consumers seeking to **reduce single-use material consumption** without compromising food quality or presentation.",
+  "response_word_count": 225,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

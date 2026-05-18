@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is it true that the first song ever sung in outer space is \u201cHappy Birthday.\u201d\n\nYour answer must contain one of the following phrases:\nMy answer is yes.\nMy answer is no.\nMy answer is maybe.",
+  "compressed_word_count": 36,
+  "response": "My answer is yes.  \nThe first song intentionally sung in outer space was \u201cHappy Birthday,\u201d performed by the Apollo 9 crew in 1969 to celebrate astronaut Rusty Schweickart\u2019s birthday while in orbit around Earth.",
+  "response_word_count": 34,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

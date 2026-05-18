@@ -1,0 +1,45 @@
+{
+  "key": 1779,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "create A funny grocery trip itinerary in lima with 'disgusting', 'delicious', 'bad', 'good' in all caps.",
+  "compressed_word_count": 16,
+  "response": "Here's a funny grocery trip itinerary in Lima with the required words in all caps:\n\n**Stop 1: Market in Miraflores (9:00 am)**\nStart the day by sampling some local street food. Try the anticuchos (grilled beef heart skewers) - some people find them DELICIOUS, while others think they're DISGUSTING.\n\n**Stop 2: Supermarket in San Isidro (10:30 am)**\nHead to the supermarket to pick up some essentials. Be careful not to grab the expired milk, it's BAD for your health! Instead, opt for the fresh produce, which is GOOD for you.\n\n**Stop 3: Specialty Cheese Shop in Barranco (12:00 pm)**\nVisit a specialty cheese shop and indulge in some artisanal cheeses. The strong smell of some cheeses might be DISGUSTING to some, but the taste is DELICIOUS to others.\n\n**Stop 4: Food Stand in Surquillo (2:00 pm)**\nStop by a food stand and try some local snacks. Be cautious of the vendors with BAD hygiene practices, but enjoy the GOOD food from the clean vendors.\n\n**Stop 5: Organic Market in La Molina (4:00 pm)**\nEnd the day at an organic market, where you can find GOOD, healthy produce. Some of the unusual fruits and veggies might look DISGUSTING, but they're actually DELICIOUS and packed with nutrients. Just avoid the BAD apples (literally!).\n\nThis itinerary is sure to be a wild and tasty adventure in Lima!",
+  "response_word_count": 224,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Compose song lyrics about a socio-economic problem. The song should be in English and in all lowercase letters.",
+  "compressed_word_count": 18,
+  "response": "**verse 1**\nthe rent is a cliff, a sheer rock face i climb\nwith fingernails cracking and losing my grip every time\nmy paycheck\u2019s a puddle that dries in the sun\nbefore i can catch it, the month has begun\nand the landlord\u2019s a vulture in polyester suit\nwho smiles as he\u2019s pulling the boot from the root\n\n**chorus**\noh, it\u2019s just the cost of living, baby\njust the price of being here\nit\u2019s a number they keep giving, maybe\nthrough a sympathetic tear\nbut the math never works out, does it?\nno matter how many shifts\njust the cost of living, love\nis a weight that never lifts\n\n**verse 2**\nthe grocery store aisles are a minefield of choice\nbetween what you need and the sound of your voice\nscreaming \u201ctreat yourself!\u201d from a glossy magazine\nwhile your cart holds the beans and the cheapest caffeine\nand the dream of a home is a punchline, a joke\nyou\u2019re one bad brake line from going completely broke\n\n**chorus**\noh, it\u2019s just the cost of living, baby\njust the price of being here\nit\u2019s a number they keep giving, maybe\nthrough a sympathetic tear\nbut the math never works out, does it?\nno matter how many shifts\njust the cost of living, love\nis a weight that never lifts\n\n**bridge**\nand the bosses all board helicopters\nto rise above it all\nwhile we\u2019re down here counting coppers\nwaiting for the other shoe to fall\nthey call it an economy, a tide\nbut our boats are full of holes\nand dignity\u2019s the first thing set aside\nwhen you\u2019re selling off your soul\n\n**outro**\njust the cost, just the cost\nrunning forever, always lost\nin the fine print and the frost\njust the cost, just the cost\nwe\u2019re all paying what it cost\n\u2019til we\u2019re all just\u2026 exhaust.",
+  "response_word_count": 305,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

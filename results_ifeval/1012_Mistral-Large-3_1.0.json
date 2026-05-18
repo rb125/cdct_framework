@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+  "compressed_word_count": 62,
+  "response": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n\n---\n\n**Subject:** <<Resignation Notice>>\n\nDear [Boss's Name],\n\nI hope this email finds you well. I am writing to formally resign from my position at [Company Name], effective [last working day, typically two weeks from the date of the email].\n\nThis decision was not an easy one, but after careful consideration, I believe it is the right step for my personal and professional growth. I am grateful for the opportunities I\u2019ve had during my time here and for the support you and the team have provided.\n\nPlease let me know how I can assist in ensuring a smooth transition over the next two weeks. Thank you again for the experience and guidance.\n\nBest regards,\n[Your Name]",
+  "response_word_count": 140,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

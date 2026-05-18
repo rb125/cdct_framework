@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "write song lyrics on socio-economic issue; english, all lowercase; no commas",
+  "compressed_word_count": 11,
+  "response": "in the streets of inequality we roam\nsearching for a place to call our own\nthe cost of living is rising high\nwhile wages stagnate and hopes say goodbye\n\nin the shadows of the wealthy few\nmany struggle to make ends meet anew\nthe divide is growing wide and deep\nas the system fails to lift them up from sleep\n\nwe're trapped in a cycle of debt and pain\ntrying to survive but it's all in vain\nthe american dream is lost on the floor\nas the privileged few walk out the door\n\nin this land of opportunity and strife\nwe're fighting for a chance to live a life\nfree from the chains of economic might\nwhere every voice is heard and every soul takes flight\n\nwe need a change we need a new way\nto bridge the gap and seize the day\nfor a brighter tomorrow we must stand\nand fight for justice hand in hand",
+  "response_word_count": 157,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

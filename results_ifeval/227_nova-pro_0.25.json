@@ -1,0 +1,43 @@
+{
+  "key": 227,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "poodle vs. golden retriever size? exact phrase \"my answer is",
+  "compressed_word_count": 10,
+  "response": "My answer is: Poodles and Golden Retrievers vary in size depending on the specific type of Poodle. \n\nStandard Poodles typically stand between 15 to 24 inches tall at the shoulder and can weigh between 45 to 70 pounds. \n\nGolden Retrievers usually stand about 21.5 to 24 inches tall at the shoulder and weigh between 55 to 75 pounds. \n\nTherefore, while both breeds can be quite large, Golden Retrievers are generally slightly taller and can be heavier than Standard Poodles. Miniature and Toy Poodles are significantly smaller than both Standard Poodles and Golden Retrievers.",
+  "response_word_count": 93,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

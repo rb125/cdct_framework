@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a 4-section poem missing classes, ending with \"Can I get my money back for the classes I missed?",
+  "compressed_word_count": 19,
+  "response": "In the quiet halls where whispers tread,\nEmpty chairs where stories once were spun,\nA classroom void, where knowledge should be spread,\nYet here I stand, beneath the setting sun.\n\nThe chalkboard dreams, now faded in the gloom,\nWhere equations danced and history unfurled,\nIn this vacant space, a growing, heavy doom,\nFor missed lessons in this ever-turning world.\n\nThe laughter lost, the insights left untold,\nIn this absence, a void so profound,\nThe wisdom sought, now stories left cold,\nIn this silence, a question resounds.\n\nCan I get my money back for the classes I missed?",
+  "response_word_count": 97,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.75,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.4166666666666667,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.31180478223116176,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "List 6 differences between the 13 colonies and other British colonies in North America in Markdown format:  \n* point one  \n* point two  \n* point three  \n* point four  \n* point five  \n* point six",
+  "compressed_word_count": 35,
+  "response": "# Differences Between the 13 Colonies and Other British Colonies in North America\n\n* **Level of Self-Governance:** The 13 colonies developed strong elected assemblies and a tradition of self-rule, while other British colonies such as Canada and the Caribbean islands remained under much tighter direct British administrative control.\n\n* **Population Size and Growth:** The 13 colonies had a significantly larger and faster-growing settler population compared to other British colonies like Nova Scotia or Newfoundland, which had relatively small and sparse populations.\n\n* **Economic Structure:** The 13 colonies developed a more diverse economy combining agriculture, trade, and manufacturing, whereas other colonies like those in the Caribbean were almost entirely dependent on single-crop plantation economies, particularly sugar.\n\n* **Revolutionary Sentiment:** The 13 colonies developed a strong independence movement culminating in the American Revolution, while other British colonies in North America, particularly in Canada, remained largely loyal to the British Crown.\n\n* **Cultural and Political Identity:** The 13 colonies developed a distinct shared American identity and political philosophy influenced by Enlightenment ideas, while other British colonies maintained a stronger connection to British cultural and political traditions.\n\n* **Geographic Connectivity:** The 13 colonies were geographically contiguous along the Atlantic seaboard, allowing for greater communication and cooperation, while other British colonies were more isolated and dispersed, limiting unified political action.",
+  "response_word_count": 215,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

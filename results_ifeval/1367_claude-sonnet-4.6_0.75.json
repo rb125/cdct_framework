@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create an elaborate java learning session plan. Include a postscript beginning with 'P.P.S'. No commas in formal tone.",
+  "compressed_word_count": 18,
+  "response": "# Java Learning Session Plan\n\n## A Comprehensive Structured Guide for Mastering Java Programming\n\n---\n\n## OVERVIEW AND OBJECTIVES\n\nThis learning session plan is designed to guide learners through the fundamental and advanced concepts of Java programming in a systematic and thorough manner. Each session builds upon the previous one ensuring a solid foundation before progressing to more complex topics.\n\n---\n\n## SESSION ONE: Introduction to Java and Environment Setup\n\n### Duration: 3 Hours\n\n### Learning Goals\n\n- Understand the history and purpose of Java\n- Install and configure the Java Development Kit\n- Set up an Integrated Development Environment\n- Write and execute the first Java program\n\n### Topics Covered\n\n**1.1 History of Java**\nJava was created by James Gosling at Sun Microsystems in 1995. Understanding its origins helps learners appreciate its design philosophy of platform independence and security.\n\n**1.2 Java Virtual Machine Architecture**\nThe JVM is the engine that runs Java bytecode. Learners will study how source code is compiled into bytecode and then interpreted by the JVM on any operating system.\n\n**1.3 Installing JDK and IDE**\nStep by step instructions for installing:\n- Java Development Kit version 17 or higher\n- IntelliJ IDEA Community Edition or Eclipse IDE\n- Configuring environment variables on Windows and Linux systems\n\n**1.4 First Program**\n```java\npublic class HelloWorld {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\");\n    }\n}\n```\n\n### Practice Exercises\n- Install JDK and verify installation using terminal commands\n- Write three variations of the Hello World program\n- Explore the IDE interface and understand project structure\n\n### Assessment\nShort quiz covering JVM architecture and Java platform independence concepts\n\n---\n\n## SESSION TWO: Data Types Variables and Operators\n\n### Duration: 4 Hours\n\n### Learning Goals\n\n- Understand primitive and reference data types\n- Declare and initialize variables\n- Apply arithmetic logical and relational operators\n- Understand type casting and conversion\n\n### Topics Covered\n\n**2.1 Primitive Data Types**\n\n| Data Type | Size | Range |\n|-----------|------|-------|\n| byte | 8 bits | -128 to 127 |\n| short | 16 bits | -32768 to 32767 |\n| int | 32 bits | -2147483648 to 2147483647 |\n| long | 64 bits | Very large range |\n| float | 32 bits | Decimal precision |\n| double | 64 bits | High decimal precision |\n| char | 16 bits | Unicode characters |\n| boolean | 1 bit | true or false |\n\n**2.2 Variable Declaration and Initialization**\n```java\nint age = 25;\ndouble salary = 75000.50;\nchar grade = 'A';\nboolean isActive = true;\nString name = \"Java Learner\";\n```\n\n**2.3 Operators**\n- Arithmetic operators: addition subtraction multiplication division modulus\n- Relational operators: equal to not equal greater than less than\n- Logical operators: AND OR NOT\n- Assignment operators: simple and compound assignments\n- Bitwise operators for advanced manipulation\n\n**2.4 Type Casting**\n```java\nint number = 100;\ndouble converted = (double) number;\ndouble pi = 3.14159;\nint truncated = (int) pi;\n```\n\n### Practice Exercises\n- Create a program that calculates area of different geometric shapes\n- Build a simple temperature converter between Celsius and Fahrenheit\n- Write a program demonstrating all operator types\n\n### Assessment\nCoding challenge requiring variable manipulation and operator usage\n\n---\n\n## SESSION THREE: Control Flow Statements\n\n### Duration: 4 Hours\n\n### Learning Goals\n\n- Implement conditional statements effectively\n- Use various loop structures\n- Understand break and continue statements\n- Apply switch expressions in Java 14 and above\n\n### Topics Covered\n\n**3.1 If Else Statements**\n```java\nint score = 85;\nif (score >= 90) {\n    System.out.println(\"Grade A\");\n} else if (score >= 80) {\n    System.out.println(\"Grade B\");\n} else if (score >= 70) {\n    System.out.println(\"Grade C\");\n} else {\n    System.out.println(\"Grade F\");\n}\n```\n\n**3.2 Switch Statements and Expressions**\n```java\nString day = \"MONDAY\";\nswitch (day) {\n    case \"MONDAY\":\n    case \"TUESDAY\":\n    case \"WEDNESDAY\":\n    case \"THURSDAY\":\n    case \"FRIDAY\":\n        System.out.println(\"Weekday\");\n        break;\n    case \"SATURDAY\":\n    case \"SUNDAY\":\n        System.out.println(\"Weekend\");\n        break;\n    default:\n        System.out.println(\"Invalid day\");\n}\n```\n\n**3.3 Loop Structures**\n\n**For Loop:**\n```java\nfor (int i = 0; i < 10; i++) {\n    System.out.println(\"Iteration: \" + i);\n}\n```\n\n**While Loop:**\n```java\nint count = 0;\nwhile (count < 5) {\n    System.out.println(\"Count: \" + count);\n    count++;\n}\n```\n\n**Do While Loop:**\n```java\nint number = 1;\ndo {\n    System.out.println(\"Number: \" + number);\n    number++;\n} while (number <= 5);\n```\n\n**Enhanced For Loop:**\n```java\nint[] numbers = {1 2 3 4 5};\nfor (int num : numbers) {\n    System.out.println(num);\n}\n```\n\n**3.4 Break and Continue**\n```java\nfor (int i = 0; i < 10; i++) {\n    if (i == 5) break;\n    if (i % 2 == 0) continue;\n    System.out.println(i);\n}\n```\n\n### Practice Exercises\n- Build a number guessing game using loops and conditionals\n- Create a multiplication table generator\n- Write a program to find all prime numbers up to 100\n\n### Assessment\nAlgorithm challenge requiring nested loops and conditional logic\n\n---\n\n## SESSION FOUR: Arrays and Strings\n\n### Duration: 5 Hours\n\n### Learning Goals\n\n- Declare and manipulate single and multidimensional arrays\n- Understand String class methods and immutability\n- Use StringBuilder for efficient string manipulation\n- Apply array sorting and searching algorithms\n\n### Topics Covered\n\n**4.1 Single Dimensional Arrays**\n```java\nint[] scores = new int[5];\nscores[0] = 95;\nscores[1] = 87;\nscores[2] = 92;\nscores[3] = 78;\nscores[4] = 88;\n\nint[] grades = {90 85 92 78 95};\n```\n\n**4.2 Multidimensional Arrays**\n```java\nint[][] matrix = new int[3][3];\nint[][] predefined = {\n    {1 2 3},\n    {4 5 6},\n    {7 8 9}\n};\n\nfor (int i = 0; i < predefined.length; i++) {\n    for (int j = 0; j < predefined[i].length; j++) {\n        System.out.print(predefined[i][j] + \" \");\n    }\n    System.out.println();\n}\n```\n\n**4.3 String Class Methods**\n```java\nString text = \"Java Programming\";\nSystem.out.println(text.length());\nSystem.out.println(text.toUpperCase());\nSystem.out.println(text.toLowerCase());\nSystem.out.println(text.substring(0 4));\nSystem.out.println(text.contains(\"Java\"));\nSystem.out.println(text.replace(\"Java\" \"Advanced Java\"));\nSystem.out.println(text.trim());\nSystem.out.println(text.charAt(0));\nSystem.out.println(text.indexOf(\"Programming\"));\n```\n\n**4.4 StringBuilder**\n```java\nStringBuilder builder = new StringBuilder();\nbuilder.append(\"Hello\");\nbuilder.append(\" \");\nbuilder.append(\"World\");\nbuilder.insert(5 \" Beautiful\");\nbuilder.delete(5 15);\nSystem.out.println(builder.toString());\n```\n\n**4.5 Arrays Utility Class**\n```java\nimport java.util.Arrays;\n\nint[] data = {5 2 8 1 9 3};\nArrays.sort(data);\nSystem.out.println(Arrays.toString(data));\nint index = Arrays.binarySearch(data 8);\nSystem.out.println(\"Found at index: \" + index);\n```\n\n### Practice",
+  "response_word_count": 1017,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.43333333333333335,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

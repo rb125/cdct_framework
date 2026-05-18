@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a product description for a new line of dog toys, called \"the squeaker\". It's made of latex, and is designed for dogs of all ages and species. It's also available in a variety of colors and shapes. The response must contain at least 3 placeholders represented by square brackets, such as [address], [name], and [phone number].",
+  "compressed_word_count": 57,
+  "response": "# Introducing \"The Squeaker\" \u2014 The Ultimate Dog Toy!\n\n\ud83d\udc3e **Does your furry friend deserve the best? Look no further!**\n\nWe are thrilled to introduce **The Squeaker**, the revolutionary new line of dog toys that is taking the pet world by storm! Designed with love and care by our expert team at [company name], these toys are the perfect companion for dogs of all ages, breeds, and sizes.\n\n---\n\n## Why Your Dog Will Love The Squeaker:\n\n- **Premium Latex Construction** \u2014 Made from high-quality, non-toxic latex, The Squeaker is built to withstand even the most enthusiastic chewers while remaining safe and gentle on your dog's teeth and gums.\n- **Fun for Every Dog** \u2014 Whether you have a tiny Chihuahua puppy or a full-grown Great Dane, The Squeaker is designed to bring joy to dogs of all ages and species.\n- **Variety of Colors and Shapes** \u2014 Choose from a wide range of vibrant colors and exciting shapes to match your dog's unique personality!\n- **Interactive Squeaking Sound** \u2014 The built-in squeaker keeps your pup engaged, stimulated, and entertained for hours on end.\n\n---\n\n## Order Today!\n\nReady to treat your beloved pet? Visit us at [store address] or give us a call at [phone number] to place your order or learn more about our full product line. Your dog's happiness is just one squeak away! \ud83d\udc36",
+  "response_word_count": 228,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

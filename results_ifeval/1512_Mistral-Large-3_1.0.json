@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Generate a forum thread about several people waiting to hear the latest local news. All sentences should be short. Refrain from using any commas. Use placeholders to represent different usernames. Use square brackets for placeholders, like [username1], [username2]. Please include at least 20 placeholders in the thread.",
+  "compressed_word_count": 47,
+  "response": "**Thread Title: \"Anyone else refreshing nonstop for updates?\"**\n\n---\n\n**[username1]**\nAnyone else glued to their phone right now? Local news site hasn\u2019t updated in hours.\n\n**[username2]**\nSame. My hands are shaking from the coffee. Need answers.\n\n**[username3]**\nRadio silence everywhere. Even the scanner apps are quiet.\n\n**[username4]**\nI called the station. They said \u201cwait for the press conference.\u201d Useless.\n\n**[username5]**\nPress conference? When? No one\u2019s saying.\n\n**[username6]**\nI saw a cop car speed by with lights on. Something\u2019s happening.\n\n**[username7]**\nThat\u2019s the third one today. My neighbor said it\u2019s bad.\n\n**[username8]**\nBad how? Give me details!\n\n**[username9]**\nTwitter\u2019s blowing up but nothing official. Just rumors.\n\n**[username10]**\nRumors are worse than silence. My stomach is in knots.\n\n**[username11]**\nI texted my cousin at the courthouse. She said \u201cnot now.\u201d\n\n**[username12]**\n\u201cNot now\u201d? That\u2019s terrifying.\n\n**[username13]**\nI drove past the scene. Barricades everywhere. No reporters.\n\n**[username14]**\nWhy no reporters? That\u2019s weird.\n\n**[username15]**\nMaybe they\u2019re being briefed first. Or something\u2019s really wrong.\n\n**[username16]**\nI just want to know if my kids are safe at school.\n\n**[username17]**\nSchools are locked down. No one\u2019s answering the front desk.\n\n**[username18]**\nThis is insane. I\u2019m pacing like a maniac.\n\n**[username19]**\nSame. My dog is staring at me like I\u2019m crazy.\n\n**[username20]**\nI\u2019m refreshing the county website every 10 seconds. Still nothing.\n\n**[username21]**\nWait\u2014just got a push alert. Stand by.\n\n**[username22]**\nWHAT DOES IT SAY?!\n\n**[username21]**\n\u201cOfficial statement at 3 PM.\u201d That\u2019s all.\n\n**[username23]**\nTHREE PM?! That\u2019s an hour away!\n\n**[username24]**\nI can\u2019t wait that long. I\u2019m losing it.\n\n**[username25]**\nMe too. Someone please just tell us something.",
+  "response_word_count": 260,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

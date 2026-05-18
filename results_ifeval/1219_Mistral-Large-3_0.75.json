@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "compare prada and nike for sneakers in english, use \"sneaker\" at least 10 times, end with P.S.",
+  "compressed_word_count": 17,
+  "response": "When comparing **Prada** and **Nike** for **sneakers**, it\u2019s clear that both brands offer distinct styles, quality, and cultural appeal\u2014though they cater to very different audiences. Let\u2019s break down how their **sneakers** stack up in key areas.\n\n### **Design & Aesthetics**\nPrada **sneakers** are synonymous with high-fashion minimalism. The brand\u2019s **sneakers**, like the **Prada America\u2019s Cup** or **Prada Cloudbust**, often feature sleek, understated designs with premium materials\u2014think leather, suede, and subtle branding. These **sneakers** are made for those who want luxury without flashy logos, blending elegance with streetwear sophistication.\n\nNike **sneakers**, on the other hand, are all about bold innovation and performance-driven aesthetics. From the **Air Jordan** line to the **Dunk** and **Air Force 1**, Nike **sneakers** embrace vibrant colors, chunky silhouettes, and cutting-edge tech like **Air cushioning** or **Flyknit**. While some Nike **sneakers** lean into retro hype (e.g., **Nike SB Dunks**), others prioritize functionality for athletes and casual wearers alike.\n\n### **Quality & Craftsmanship**\nPrada **sneakers** are crafted with meticulous attention to detail, using high-end materials that justify their premium price. The stitching, leather quality, and overall construction of Prada **sneakers** reflect Italian craftsmanship, ensuring durability and a polished look. However, they\u2019re not designed for intense athletic use\u2014these **sneakers** are more about style than performance.\n\nNike **sneakers** excel in both durability and performance. Whether it\u2019s the **Nike Air Max** for cushioning or the **Nike React** foam for responsiveness, Nike **sneakers** are built to withstand wear and tear, whether on the court, track, or street. That said, some lower-tier Nike **sneakers** may cut corners on materials to keep costs down, while their premium lines (like **Nike ACG** or **Nike Off-White collabs**) rival luxury brands in quality.\n\n### **Price & Value**\nPrada **sneakers** are undeniably expensive, often ranging from **$600 to $1,200+**. This price reflects the brand\u2019s luxury positioning, but it also means Prada **sneakers** are an investment piece\u2014more of a status symbol than an everyday shoe. The resale market for Prada **sneakers** is limited compared to hype-driven brands, as they\u2019re not as widely sought after by sneakerheads.\n\nNike **sneakers** offer a much broader price range, from **$60 budget pairs** to **$250+ premium releases**. While some Nike **sneakers** (like **Jordan 1s** or **Dunks**) can resell for thousands, most are accessible to the average consumer. The value proposition is strong\u2014you get performance, style, and brand recognition without breaking the bank (unless you chase rare drops).\n\n### **Cultural Impact**\nPrada **sneakers** are favored by fashion-forward individuals who appreciate luxury and subtlety. They\u2019re often seen on runways, in high-end boutiques, and on the feet of celebrities who prefer understated elegance. However, Prada **sneakers** lack the mass appeal and cultural ubiquity of Nike.\n\nNike **sneakers** are a global phenomenon, transcending sports, fashion, and street culture. From Michael Jordan\u2019s legacy to Travis Scott\u2019s collaborations, Nike **sneakers** are deeply embedded in pop culture. They\u2019re worn by athletes, artists, and everyday people alike, making them one of the most recognizable and influential **sneaker** brands in the world.\n\n### **Which Should You Choose?**\n- **Pick Prada sneakers** if you want luxury, timeless design, and don\u2019t mind paying a premium for exclusivity.\n- **Pick Nike sneakers** if you value performance, versatility, and a brand with deep cultural roots\u2014plus, you\u2019ll have way more options to match your style and budget.\n\nAt the end of the day, both brands make exceptional **sneakers**, but they serve very different purposes. Whether you\u2019re lacing up Prada\u2019s refined **sneakers** or Nike\u2019s dynamic kicks, you\u2019re getting a piece of iconic design\u2014just tailored to different tastes.\n\n**P.S.** If you\u2019re torn between the two, consider this: Prada **sneakers** will turn heads in a boardroom, while Nike **sneakers** will turn heads on the street. But if you\u2019re looking for **sneakers** that can do *both*, you might just have to splurge on a pair from each!",
+  "response_word_count": 624,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

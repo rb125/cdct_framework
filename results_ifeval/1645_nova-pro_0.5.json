@@ -1,0 +1,43 @@
+{
+  "key": 1645,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "sheldon'S Riddle: name, 10 words, all caps.",
+  "compressed_word_count": 7,
+  "response": "ALL CAPITALS: NAME, RIDDLE, SHALLOW, DEEP, THOUGHT, CLEVER, MIND, QUIP, BRAG, PRIDE.",
+  "response_word_count": 12,
+  "instruction_id_list": [
+    "change_case:english_capital"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

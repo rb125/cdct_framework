@@ -1,0 +1,45 @@
+{
+  "key": 1813,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "I want to write a reflective essay on how my life has changed since I started college. Do you have any recommendation? Please reply in English and capitalize all your words. Control the length of your reply. I don't want anything longer than 30 words.",
+  "compressed_word_count": 45,
+  "response": "BEGIN WRITING. RESEARCH THOROUGHLY. ORGANIZE THOUGHTS. WRITE.",
+  "response_word_count": 7,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

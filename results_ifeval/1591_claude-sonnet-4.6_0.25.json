@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write angry limericks on moms' chore kids.",
+  "compressed_word_count": 7,
+  "response": "Here are some angry limericks about kids and their chores:\n\n---\n\n**The Dishes**\nI asked you to wash every plate,\nBut you left them to sit there and wait!\nThe food's dried like cement,\nNow I'm ready to vent,\nYou've sealed every dish to its fate!\n\n---\n\n**The Laundry**\nYour clothes are piled up to the sky,\nI've asked you a MILLION times \u2014 WHY?!\nThey're not gonna walk\nTo the hamper and knock,\nPick them up or you're going to cry!\n\n---\n\n**The Trash**\nThe garbage was due out at eight,\nYou sat there and let it get late!\nNow the truck's down the street,\nAnd the smell's no small feat,\nThat bin's yours to haul \u2014 it can WAIT!\n\n---\n\n**The Vacuuming**\nThe crumbs on this carpet are THICK,\nThis mess is enough to make sick!\nI said grab the machine,\nMake this living room clean,\nYou moved it ONE inch with one flick!\n\n---\n\n**The Room**\nYour bedroom's a national disgrace,\nA hazmat team needs this whole space!\nI'm done with your sighs,\nYour dramatic rolled eyes,\nNOW CLEAN IT OR LOSE EVERY PLACE!",
+  "response_word_count": 187,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

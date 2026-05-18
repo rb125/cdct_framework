@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<plot swap fingerprint no commas>>",
+  "compressed_word_count": 34,
+  "response": "<<Fingerprint Deception>> \nTwo individuals Alex and Ryan meet at a crime scene investigation seminar where they both work as forensic experts. They are paired together for a lab exercise and during the session they touch the same glass slide. Unbeknownst to them a freak accident involving a laser and a chemical reaction causes their fingerprints to swap on the slide. As they continue their work Alex starts to notice strange occurrences. Evidence goes missing and she is accused of a crime she did not commit. She discovers that her fingerprint is now linked to a string of unsolved crimes. Desperate to clear her name Alex turns to Ryan for help. As they dig deeper they realize that their fingerprints have been swapped. They must now work together to uncover the truth behind the freak accident and restore their original fingerprints. Along the way they unravel a sinister plot involving a corrupt lab technician who has been manipulating evidence. The technician is using Ryan's fingerprint to frame Alex and cover their own tracks. As the story unfolds Alex and Ryan must navigate a complex web of deceit and corruption to clear their names and bring the perpetrator to justice. In the end they succeed in restoring their original fingerprints and exposing the truth.",
+  "response_word_count": 212,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

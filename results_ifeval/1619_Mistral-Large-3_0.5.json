@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create a rap for a new smartphone, include [placeholders], end with P.P.S.",
+  "compressed_word_count": 12,
+  "response": "**\ud83c\udfa4 *\"The Future in Your Hand\"* \ud83c\udfa4**\n*(A Rap for the Next-Gen Smartphone)*\n\n*(Intro)*\nYo, step in the game, yeah, we flippin\u2019 the script,\nNew tech in the palm\u2014watch the game get flipped!\nFrom the lab to the streets, we rewritin\u2019 the rules,\nOne swipe, one tap\u2014this the **_[Brand Name]_** tool!\n\n*(Verse 1)*\nScreen so crisp, like a diamond in the sun,\n**_[Ultra-HD Display]_**\u2014yeah, the show\u2019s just begun.\nBattery life? Nah, we don\u2019t play that game,\n**_[Multi-Day Power]_**\u2014charge once, stay in the frame!\n\n*(Pre-Chorus)*\nAI so smart, it\u2019s readin\u2019 your mind,\n**_[Smart Assistant]_**\u2014no lag, just pure grind.\nCamera poppin\u2019, like a paparazzi flash,\n**_[Pro-Grade Lens]_**\u2014catch the moment, no crash!\n\n*(Chorus)*\nThis the phone that\u2019s ahead of the pack,\nFuture tech\u2014yeah, we bringin\u2019 it back!\nNo gimmicks, just power, straight fire in the code,\n**_[Brand Name]_**\u2014the throne? We just took it, *rode*!\n\n*(Verse 2)*\nDurable flex, like a tank in disguise,\n**_[Unbreakable Glass]_**\u2014drop it? Nah, no surprise.\n5G lightning, no waitin\u2019 in line,\n**_[Blazing Speeds]_**\u2014stream, game, *everything* fine!\n\n*(Bridge)*\nFrom the boardroom to the block, we runnin\u2019 the scene,\n**_[Premium Build]_**\u2014sleek like a dream.\nPrivacy locked, yeah, we keepin\u2019 it tight,\n**_[Biometric Security]_**\u2014no hackers in sight!\n\n*(Outro)*\nSo cop this new wave, yeah, the future\u2019s now,\n**_[Brand Name]_**\u2014bow down, *take a vow*!\nTech so fresh, it\u2019s rewritin\u2019 the law,\n**_[Slogan]_**\u2014*mic drop*\u2026 **P.P.S.**\n\n---\n**P.P.S.** *Pre-order now\u2014before the hype hits the roof!* \ud83d\ude80\ud83d\udd25\n\n*(Want it punchier? Swap [placeholders] with real specs\u2014let\u2019s go viral!)* \ud83c\udfb6",
+  "response_word_count": 242,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

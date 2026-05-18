@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is it true that the first song ever sung in outer space is \u201cHappy Birthday.\u201d\n\nYour answer must contain one of the following phrases:\nMy answer is yes.\nMy answer is no.\nMy answer is maybe.",
+  "compressed_word_count": 36,
+  "response": "My answer is yes.\n\nThe first song ever sung in outer space was indeed \"Happy Birthday.\" Astronauts on the Gemini 6 mission in 1965 played a prank by reporting a \"sighting\" of Santa Claus and then serenading Mission Control with a harmonica rendition of \"Happy Birthday\" (along with \"Jingle Bells\"). This lighthearted moment marked the first musical performance in space.",
+  "response_word_count": 60,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

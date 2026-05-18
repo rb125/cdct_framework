@@ -1,0 +1,43 @@
+{
+  "key": 2136,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "irs joke with [placeholder]",
+  "compressed_word_count": 4,
+  "response": "Here\u2019s a customizable IRS joke for you\u2014just fill in the **[placeholder]** with your own twist!\n\n---\n\n**Why did the [placeholder] get audited by the IRS?**\n\nBecause it tried to claim **\"emotional support\"** as a tax deduction!\n\n*(Bonus: The IRS said, \"Sorry, we only accept receipts\u2014no feelings allowed.\")*\n\n---\n\n**Example fill-ins:**\n- *\"Why did the **goldfish** get audited?\"*\n- *\"Why did the **time traveler** get audited?\"*\n- *\"Why did the **AI chatbot** get audited?\"*\n\nWant me to tailor it further? Let me know your **[placeholder]**! \ud83d\ude04",
+  "response_word_count": 85,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

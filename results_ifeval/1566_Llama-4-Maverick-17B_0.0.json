@@ -1,0 +1,43 @@
+{
+  "key": 1566,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "taylor swift regret",
+  "compressed_word_count": 3,
+  "response": "Taylor Swift is known for writing about her personal experiences, including regrets, in her songs. Some of her songs that touch on the theme of regret include:\n\n1. \"Teardrops on My Guitar\" - This song is about unrequited love and the regret of not expressing her feelings to the person she was interested in.\n2. \"All Too Well\" - This song is widely believed to be about her relationship with Jake Gyllenhaal, and the regret she feels about how it ended.\n3. \"The Last Great American Dynasty\" - While not directly about regret, the song touches on the idea of being judged and misunderstood, which can lead to feelings of regret.\n4. \"Cardigan\" - This song is about a past love and the memories that linger, with some interpretations suggesting that it touches on regret.\n5. \"My Tears Ricochet\" - This song is about the pain of a breakup and the regret of not being able to move on.\n\nTaylor Swift's songs often explore themes of love, heartbreak, and self-discovery, and regret is a common thread throughout many of her lyrics.",
+  "response_word_count": 181,
+  "instruction_id_list": [
+    "change_case:english_capital"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

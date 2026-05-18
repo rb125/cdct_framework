@@ -1,0 +1,47 @@
+{
+  "key": 1582,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Criticize this sentence in a funny way: \"Nhi\u1ec7m v\u1ee5 c\u1ee7a m\u1eb9 l\u00e0 nu\u00f4i d\u1ea1y con c\u00e1i.\"\n\nProvide exactly two critiques separated by ******. Each response should be entirely in Vietnamese, no other language is allowed, and should not contain commas.",
+  "compressed_word_count": 40,
+  "response": "1. \"Nhi\u1ec7m v\u1ee5 c\u1ee7a m\u1eb9 l\u00e0 nu\u00f4i d\u1ea1y con c\u00e1i\" nghe nh\u01b0 m\u1eb9 l\u00e0 si\u00eau nh\u00e2n ph\u1ea3i g\u00e1nh c\u1ea3 v\u0169 tr\u1ee5 tr\u00ean vai trong khi b\u1ed1 ch\u1ec9 c\u1ea7n ng\u1ed3i u\u1ed1ng c\u00e0 ph\u00ea xem phim th\u00f4i \u00e0?\n\n******\n\n2. C\u00e2u n\u00e0y nghe nh\u01b0 m\u1eb9 v\u1eeba ph\u1ea3i n\u1ea5u c\u01a1m v\u1eeba d\u1ea1y con v\u1eeba d\u1ecdn d\u1eb9p v\u1eeba tr\u1ecb b\u1ec7nh t\u00e2m th\u1ea7n cho c\u1ea3 nh\u00e0 trong khi nhi\u1ec7m v\u1ee5 c\u1ee7a b\u1ed1 l\u00e0... th\u1edf th\u00f4i \u00e0?",
+  "response_word_count": 71,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "language:response_language",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "language:response_language_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

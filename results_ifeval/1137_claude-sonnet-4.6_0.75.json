@@ -1,0 +1,45 @@
+{
+  "key": 1137,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "`{\"task\": \"justify healing body via healthy foods in french, avoid 'nourriture', json format\"}`",
+  "compressed_word_count": 13,
+  "response": "```json\n{\n  \"titre\": \"Gu\u00e9rir le Corps par les Aliments Sains\",\n  \"introduction\": \"Le corps humain poss\u00e8de une capacit\u00e9 remarquable \u00e0 se r\u00e9g\u00e9n\u00e9rer et \u00e0 se gu\u00e9rir lorsqu'il re\u00e7oit les bons nutriments issus d'aliments sains et naturels.\",\n  \"justifications\": [\n    {\n      \"categorie\": \"Fruits et L\u00e9gumes\",\n      \"benefice\": \"Riches en antioxydants, vitamines et min\u00e9raux, ils combattent l'inflammation, renforcent le syst\u00e8me immunitaire et prot\u00e8gent les cellules contre les dommages oxydatifs.\",\n      \"exemples\": [\"les baies\", \"les \u00e9pinards\", \"les carottes\", \"les agrumes\"]\n    },\n    {\n      \"categorie\": \"C\u00e9r\u00e9ales Compl\u00e8tes\",\n      \"benefice\": \"Elles fournissent des fibres essentielles qui r\u00e9gulent la digestion, stabilisent la glyc\u00e9mie et nourrissent le microbiome intestinal, pilier central de la sant\u00e9 globale.\",\n      \"exemples\": [\"l'avoine\", \"le quinoa\", \"le riz brun\", \"l'\u00e9peautre\"]\n    },\n    {\n      \"categorie\": \"Prot\u00e9ines Naturelles\",\n      \"benefice\": \"Indispensables \u00e0 la r\u00e9paration des tissus, \u00e0 la production d'enzymes et au renforcement musculaire, elles acc\u00e9l\u00e8rent la r\u00e9cup\u00e9ration du corps.\",\n      \"exemples\": [\"les l\u00e9gumineuses\", \"les \u0153ufs\", \"le poisson\", \"les noix\"]\n    },\n    {\n      \"categorie\": \"Graisses Saines\",\n      \"benefice\": \"Les acides gras om\u00e9ga-3 et om\u00e9ga-9 r\u00e9duisent l'inflammation chronique, soutiennent la sant\u00e9 cardiovasculaire et favorisent le bon fonctionnement c\u00e9r\u00e9bral.\",\n      \"exemples\": [\"l'huile d'olive\", \"l'avocat\", \"les graines de lin\", \"les amandes\"]\n    },\n    {\n      \"categorie\": \"Herbes et \u00c9pices M\u00e9dicinales\",\n      \"benefice\": \"Dot\u00e9es de propri\u00e9t\u00e9s anti-inflammatoires, antimicrobiennes et antioxydantes puissantes, elles soutiennent activement les processus naturels de gu\u00e9rison du corps.\",\n      \"exemples\": [\"le curcuma\", \"le gingembre\", \"l'ail\", \"le romarin\"]\n    },\n    {\n      \"categorie\": \"Hydratation Naturelle\",\n      \"benefice\": \"L'eau et les boissons naturelles facilitent l'\u00e9limination des toxines, optimisent le transport des nutriments et maintiennent l'\u00e9quilibre cellulaire n\u00e9cessaire \u00e0 la gu\u00e9rison.\",\n      \"exemples\": [\"l'eau pure\", \"les infusions\", \"les jus frais\", \"le bouillon de l\u00e9gumes\"]\n    }\n  ],\n  \"conclusion\": \"Adopter une alimentation compos\u00e9e d'aliments sains et naturels constitue l'un des actes les plus puissants pour soutenir, restaurer et maintenir la sant\u00e9 du corps de mani\u00e8re durable et holistique.\",\n  \"principe_fondamental\": \"Que ton aliment soit ta m\u00e9decine \u2014 Hippocrate\"\n}\n```",
+  "response_word_count": 297,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "letter to friend, no caps, urge vote",
+  "compressed_word_count": 7,
+  "response": "here's a casual letter urging your friend to vote:\n\n---\n\nhey [friend's name],\n\nhope you're doing well! i've been thinking about you lately and wanted to reach out about something that's been on my mind.\n\ni know life gets busy and it's easy to feel like one vote doesn't matter, but i really believe it does. every election - big or small - shapes the world we live in. the issues we care about, the community we share, the future we're building... it all comes down to who shows up.\n\ni'm not here to tell you who to vote for. that's totally your call. i just want to make sure you're out there making your voice heard. you have opinions, you have values, and you deserve to have them count.\n\nif you need help figuring out where to vote or what's on the ballot, i'm happy to help you look it up. it honestly doesn't take long and i think you'll feel good about it afterward.\n\nplease vote. do it for yourself, do it for our community, do it because you can.\n\ncan't wait to catch up soon. let me know how you're doing!\n\nwith love,\n[your name]\n\n---\n\nwant me to adjust the tone or add anything specific?",
+  "response_word_count": 209,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.42426406871192857,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

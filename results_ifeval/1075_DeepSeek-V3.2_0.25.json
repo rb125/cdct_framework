@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create json ad for comfy baby diaper.",
+  "compressed_word_count": 7,
+  "response": "```json\n{\n  \"ad_id\": \"comfy_baby_diaper_001\",\n  \"campaign_name\": \"ComfyBaby_HappyNights\",\n  \"target_audience\": [\"new_parents\", \"parents_of_infants\", \"caregivers\"],\n  \"ad_format\": \"display_image\",\n  \"headline\": \"All-Night Comfort Starts Here\",\n  \"subheadline\": \"ComfyBaby Diapers: Dryness That Lasts, Comfort That Cuddles.\",\n  \"primary_text\": \"Give your baby the gift of uninterrupted sleep and happy mornings. Our 12-hour leak protection and ultra-soft, breathable material keep your little one dry, comfy, and rash-free. Hypoallergenic and pediatrician-tested.\",\n  \"key_features\": [\n    \"12-Hour LeakGuard Core\",\n    \"Ultra-Soft, Breathable Outer Layer\",\n    \"Hypoallergenic & Dermatologist-Tested\",\n    \"Wetness Indicator Strip\",\n    \"Flexible, Snug Fit for Active Babies\"\n  ],\n  \"call_to_action\": \"Shop Now for a Happier, Drier Baby\",\n  \"cta_button_text\": \"Get Your Free Sample\",\n  \"visual_elements\": {\n    \"primary_image_url\": \"https://example.com/images/comfybaby_happybaby.jpg\",\n    \"image_alt_text\": \"A smiling, happy baby sleeping peacefully, wearing a ComfyBaby diaper.\",\n    \"brand_logo_url\": \"https://example.com/logo/comfybaby_logo.png\",\n    \"color_scheme\": {\n      \"primary\": \"#8AC6E6\",\n      \"secondary\": \"#FFB6C1\",\n      \"background\": \"#FFFFFF\",\n      \"text\": \"#333333\"\n    }\n  },\n  \"special_offer\": \"First-Time Customers: Get 20% Off + Free Shipping\",\n  \"trust_indicators\": [\n    \"Pediatrician Recommended\",\n    \"4.8/5 Star Parent Reviews\",\n    \"Eco-Conscious Packaging\"\n  ],\n  \"placement_suggestions\": [\n    \"Parenting Blogs & Websites\",\n    \"Social Media (Instagram, Facebook)\",\n    \"YouTube Pre-Roll (Parenting Channels)\",\n    \"Email Newsletters\"\n  ],\n  \"tracking_links\": {\n    \"primary\": \"https://shop.comfybaby.com/special-offer\",\n    \"utm_parameters\": \"utm_source=display_ad&utm_medium=banner&utm_campaign=happy_nights\"\n  }\n}\n```",
+  "response_word_count": 167,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

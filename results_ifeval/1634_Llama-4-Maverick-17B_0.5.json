@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "create 4-point rubric for home theater targeting moms:\n* sound quality\n* ease of setup\n* kid-friendly features\n* budget-friendly options",
+  "compressed_word_count": 21,
+  "response": "Here's a 4-point rubric for evaluating home theaters targeting moms:\n\n**Home Theater Rubric for Moms**\n\n**Category 1: Sound Quality (1-4 points)**\n\n* 4 points: The home theater system produces clear, immersive sound that enhances the viewing experience for both kids and adults. The sound is balanced, with clear dialogue and deep bass.\n* 3 points: The sound quality is good, but may lack some depth or clarity. It's still enjoyable for family movie nights, but may not be perfect for audiophiles.\n* 2 points: The sound quality is average, with some distortion or imbalance. It may be sufficient for casual viewing, but not ideal for regular family movie nights.\n* 1 point: The sound quality is poor, with significant distortion or lack of clarity. It's not enjoyable for family movie nights.\n\n**Category 2: Ease of Setup (1-4 points)**\n\n* 4 points: The home theater system is extremely easy to set up, with a simple and intuitive process that can be completed in under 30 minutes. All necessary cables and instructions are included.\n* 3 points: The setup process is relatively straightforward, but may require some technical knowledge or troubleshooting. It takes around 30-60 minutes to complete.\n* 2 points: The setup process is somewhat complicated, requiring some technical expertise and potentially additional equipment. It takes around 1-2 hours to complete.\n* 1 point: The setup process is very difficult, requiring significant technical knowledge and potentially professional assistance. It takes more than 2 hours to complete.\n\n**Category 3: Kid-Friendly Features (1-4 points)**\n\n* 4 points: The home theater system has a range of kid-friendly features, such as parental controls, kid-friendly streaming services, and a simple, intuitive interface. It's designed with families in mind.\n* 3 points: The system has some kid-friendly features, such as parental controls or kid-friendly streaming services, but may not be as comprehensive as desired.\n* 2 points: The system has limited kid-friendly features, but may still be usable for families with some creativity and workarounds.\n* 1 point: The system lacks kid-friendly features, making it less suitable for families with young children.\n\n**Category 4: Budget-Friendly Options (1-4 points)**\n\n* 4 points: The home theater system is very affordable, with a price point under $500. It offers great value for the price, with a range of features and good sound quality.\n* 3 points: The system is moderately priced, between $500-$1000. It offers a good balance of features and price, but may not be the best value.\n* 2 points: The system is somewhat expensive, between $1000-$1500. It may offer some premium features, but the price may be out of budget for some families.\n* 1 point: The system is very expensive, over $1500. It's a luxury item that may be out of budget for most families.\n\n**Total Score: 4-16 points**\n\nTo evaluate a home theater system, simply score it in each category and add up the points. A higher score indicates a better home theater system for moms and families.",
+  "response_word_count": 493,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

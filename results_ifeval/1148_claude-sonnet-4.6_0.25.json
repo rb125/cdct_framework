@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "json list pros/cons supernatural powers markdown ticks",
+  "compressed_word_count": 7,
+  "response": "# Supernatural Powers: Pros & Cons\n\n## \u2705 Pros\n\n- \u2714\ufe0f **Ability to help others** \u2014 healing, protection, saving lives\n- \u2714\ufe0f **Personal advantage** \u2014 faster, stronger, smarter than others\n- \u2714\ufe0f **Freedom** \u2014 fly, teleport, bypass physical limitations\n- \u2714\ufe0f **Financial security** \u2014 abilities could generate wealth\n- \u2714\ufe0f **Self-defence** \u2014 protection from threats\n- \u2714\ufe0f **Unique identity** \u2014 stand out, feel special/purposeful\n- \u2714\ufe0f **Solving problems** \u2014 fix disasters, crimes, global issues\n- \u2714\ufe0f **Exploration** \u2014 access places no one else can reach\n\n---\n\n## \u274c Cons\n\n- \u274c **Isolation** \u2014 hard to relate to normal people\n- \u274c **Constant pressure** \u2014 expectation to always help/save\n- \u274c **Loss of privacy** \u2014 being watched, hunted, or studied\n- \u274c **Danger to loved ones** \u2014 enemies target those close to you\n- \u274c **Uncontrolled power** \u2014 risk of accidental harm\n- \u274c **Moral burden** \u2014 guilt when you *can't* save everyone\n- \u274c **Government/authority conflict** \u2014 regulation, imprisonment\n- \u274c **Physical/mental toll** \u2014 powers may drain or corrupt you\n\n---\n\n> *\"With great power comes great responsibility\"* \ud83d\udd77\ufe0f",
+  "response_word_count": 179,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

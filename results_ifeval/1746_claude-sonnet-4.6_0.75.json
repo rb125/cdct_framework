@@ -1,0 +1,43 @@
+{
+  "key": 1746,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft an essay on Benjamin Franklin's life. Summarize it as a poem. Separate essay and poem with six asterisks: ******\n******\n[essay]\n******\n[poem]",
+  "compressed_word_count": 24,
+  "response": "******\nBenjamin Franklin: Founding Father, Inventor, and Visionary\n\nBenjamin Franklin was born on January 17, 1706, in Boston, Massachusetts, the fifteenth of seventeen children in a modest household. Despite having only two years of formal education, Franklin became one of the most accomplished and celebrated figures in American history. His insatiable curiosity, tireless work ethic, and remarkable versatility made him a towering presence in science, politics, literature, and diplomacy.\n\nAs a young man, Franklin apprenticed under his brother James, a printer, where he developed a love of writing and ideas. He eventually ran away to Philadelphia, where he established himself as a successful printer and publisher. His publication of Poor Richard's Almanack, beginning in 1732, brought him widespread fame and financial success. The almanac was filled with witty proverbs and practical wisdom, many of which remain familiar today, such as \"Early to bed and early to rise, makes a man healthy, wealthy, and wise.\"\n\nFranklin's scientific curiosity led him to conduct some of the most famous experiments of the eighteenth century. His experiments with electricity, most notably his kite experiment during a thunderstorm, demonstrated the electrical nature of lightning and led to his invention of the lightning rod. This practical invention saved countless buildings and lives and earned him international recognition as a scientist of the first order.\n\nBeyond science, Franklin was a tireless civic leader. He founded the first public library in America, helped establish the University of Pennsylvania, organized Philadelphia's first fire department, and improved the city's postal system. His belief in the power of community and collective action shaped the institutions he built and inspired generations of public servants after him.\n\nAs the American Revolution approached, Franklin emerged as a crucial political figure. He served as a colonial representative in London, where he tirelessly argued against oppressive British taxation policies. When diplomacy failed and war began, Franklin traveled to France, where his charm, wit, and reputation as a great thinker helped secure the French alliance that proved decisive in America's victory over Britain. His diplomatic success in Paris is widely regarded as one of the most important contributions to American independence.\n\nIn his later years, Franklin served as a delegate to the Constitutional Convention of 1787, lending his enormous prestige to the effort to create a new framework of government. He was also a vocal opponent of slavery in his final years, serving as president of the Pennsylvania Abolition Society. Franklin died on April 17, 1790, at the age of eighty-four, mourned by thousands and celebrated around the world as a symbol of human potential and enlightened citizenship.\n\nBenjamin Franklin's life stands as a testament to the power of curiosity, hard work, and civic responsibility. From humble beginnings in Boston to the grand halls of Versailles and Philadelphia, he shaped the world around him with intelligence, humor, and an unshakable belief in the possibility of human progress. His legacy endures in the institutions he built, the discoveries he made, and the nation he helped bring into being.\n******\n\nA Child of Boston, a Mind Aflame\n\nBorn in Boston, one of many,\nA boy with books but not a penny,\nHe set his hands to ink and press,\nAnd shaped his mind through restlessness.\n\nTo Philadelphia he made his way,\nAnd built his name there day by day,\nWith almanacs of wit and rhyme,\nHis wisdom echoed through all time.\n\nHe flew his kite in stormy skies,\nAnd caught the lightning, claimed the prize,\nThe rod he forged from nature's spark,\nBrought light and safety to the dark.\n\nHe built the library, fought the flame,\nAnd gave his city more than fame,\nA postal road, a college hall,\nHe worked and built and gave his all.\n\nAcross the sea his voice rang clear,\nHe charmed the French and drew them near,\nWithout his words, his grace, his art,\nThe Revolution might have lost its heart.\n\nAt last he stood for freedom's cause,\nAnd lent his name to freedom's laws,\nAgainst the chains of slavery's night,\nHe raised his aging voice for right.\n\nHe died at eighty-four, revered,\nA life of wonder, loved and cheered,\nFrom humble birth to history's page,\nBen Franklin lit a golden age.",
+  "response_word_count": 698,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

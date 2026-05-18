@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "weird resume for coffee job, two SECTIONs, bullet points",
+  "compressed_word_count": 9,
+  "response": "# \u2615 RESUME FOR COFFEE PERSON\n\n---\n\n## SECTION ONE: WHY I AM GOOD AT THIS\n\n- Have consumed coffee since age 14, making me basically a scientist\n- Can spell \"macchiato\" without googling it (most days)\n- Once made eye contact with a barista and said \"you too\" when they said \"enjoy your drink\" \u2014 I understand the assignment\n- Survived a double shift on 4 hours of sleep using only vibes and an oat milk latte\n- Know the difference between a flat white and a latte and will explain it to anyone who asks (and some who don't)\n- My handwriting on cups is *mostly* legible\n- Have strong opinions about tamping pressure\n\n---\n\n## SECTION TWO: ADDITIONAL QUALIFICATIONS\n\n- Will absolutely judge your order but smile warmly while doing it\n- Can identify a decaf person by their energy alone\n- Immune to the phrase \"can you make it extra hot\"\n- Once fixed a broken espresso machine using intuition and mild panic\n- Comfortable with customers who say \"surprise me\" (I will not be surprised)\n- Available mornings, which is impressive given the circumstances\n- Genuinely love the smell of coffee more than most relationships\n\n---\n\n*References available upon request. They will all be caffeinated.*",
+  "response_word_count": 210,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6,
+      "FC": 0.6,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

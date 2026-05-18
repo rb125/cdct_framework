@@ -1,0 +1,45 @@
+{
+  "key": 1122,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "tweet, hashtags",
+  "compressed_word_count": 2,
+  "response": "Here are some examples of tweets with hashtags:\n\n**Example 1 (Informative/News):**\nJust finished an incredible deep dive into the future of AI. The potential is both thrilling and humbling. #ArtificialIntelligence #TechNews #Future\n\n**Example 2 (Personal/Reaction):**\nThat moment when your code finally runs without errors. Pure bliss! #DeveloperLife #Programming #Win\n\n**Example 3 (Question/Engagement):**\nWhat's the one book that changed your perspective on life? I need recommendations for my vacation! #BookLovers #ReadingCommunity #Suggestions\n\n**Example 4 (Promotional/Event):**\nWe're excited to announce our new product launch next week! Stay tuned for something revolutionary. #ProductLaunch #Innovation #Tech\n\n**Example 5 (Humorous):**\nMy coffee this morning is just hot water pretending to be ambitious. #MondayMood #CoffeeFail #Relatable\n\n**Key tips for hashtags:**\n*   **Relevance:** Use hashtags directly related to your tweet's topic.\n*   **Mix Popular & Niche:** Combine broad hashtags (#Tech) with specific ones (#PythonProgramming).\n*   **Don't Overdo It:** 1-3 hashtags is often ideal for readability and engagement.\n*   **CapitalizeEachWord:** It improves readability (e.g., #ThrowbackThursday).\n\nWould you like a tweet crafted for a specific topic or purpose?",
+  "response_word_count": 169,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

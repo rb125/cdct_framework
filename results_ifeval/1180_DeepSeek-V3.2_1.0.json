@@ -1,0 +1,45 @@
+{
+  "key": 1180,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain why people are grossed out by worms but not by eating a dead cow. Give exactly two different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.",
+  "compressed_word_count": 39,
+  "response": "<<The Disgust Dichotomy>>\nOne explanation is rooted in perceived contamination and disease association. Worms are often linked with decay, filth, and parasitic infection, triggering a deep-seated instinctual aversion to potential biological contaminants. In contrast, culturally sanctioned meats like beef undergo rigorous processing, packaging, and cooking rituals that psychologically distance the food from its animal origin, framing it as \"clean\" and safe. The disgust response is less about death itself and more about the immediate symbolic connection to rot and illness.\n\n******\n\n<<Cultural Conditioning and Cognitive Framing>>\nThe difference can be explained by cultural normalization and categorical thinking. In many societies, cows are explicitly categorized as \"food animals,\" and their consumption is a normalized, institutionalized practice. The mental representation of \"beef\" is distinct from \"dead cow.\" Worms, however, fall into the categories of \"pests\" or \"parasites,\" and are not culturally framed as food. Disgust here functions as a rejection of things outside our culturally defined food boundaries; it is a socially learned response that overrides the objective similarity (both are dead animals) in favor of ingrained symbolic classifications.",
+  "response_word_count": 177,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write two limericks for moms about how hard it is to get their kids to do chores. Be angry about it. Separate your two limericks with six asterisks (******).",
+  "compressed_word_count": 29,
+  "response": "There once was a mom in distress,\nWhose kids never lifted a mess,\nThey'd leave all the grime,\nFor her to re-align,\nAnd she'd seethe with a furious stress.\n\n******\nA mom with a household to clean,\nWhose kids just wouldn't be seen,\nThey'd hide from the chore,\nAnd leave her to roar,\nAnd she'd fume at their lazy scene.",
+  "response_word_count": 60,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

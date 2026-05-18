@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "java session plan, P.P.S.",
+  "compressed_word_count": 4,
+  "response": "Here\u2019s a structured **Java Session Plan** with a **P.P.S. (Post-Post-Script)** format for clarity. This plan assumes a **beginner-to-intermediate** audience and covers core Java concepts with hands-on exercises.\n\n---\n\n### **Java Session Plan (2-Hour Session)**\n**Title:** *Java Fundamentals: From Basics to OOP*\n**Audience:** Beginners/Intermediate learners\n**Prerequisites:** Basic programming knowledge (variables, loops, etc.)\n\n---\n\n### **1. Introduction (10 mins)**\n- **Objective:** Set context and expectations.\n- **Topics:**\n  - What is Java? (Platform independence, JVM, JRE, JDK)\n  - Why learn Java? (Career opportunities, frameworks like Spring)\n  - Session agenda overview.\n- **Activity:** Quick poll (e.g., \"Who has written Java before?\").\n\n---\n\n### **2. Java Basics (20 mins)**\n- **Objective:** Cover foundational syntax.\n- **Topics:**\n  - **Hello World:** Structure of a Java program (`main` method, `System.out.println`).\n  - **Variables & Data Types:** `int`, `double`, `String`, `boolean`.\n  - **Operators:** Arithmetic (`+`, `-`, `*`), logical (`&&`, `||`).\n  - **Control Flow:** `if-else`, `switch`, `for`/`while` loops.\n- **Activity:** Live coding demo + **Exercise 1** (Write a program to check if a number is even/odd).\n\n---\n\n### **3. Object-Oriented Programming (OOP) (30 mins)**\n- **Objective:** Introduce OOP principles.\n- **Topics:**\n  - **Classes & Objects:** Syntax, constructors, `this` keyword.\n  - **Four Pillars of OOP:**\n    1. **Encapsulation:** Private fields, getters/setters.\n    2. **Inheritance:** `extends`, `super`, method overriding.\n    3. **Polymorphism:** Method overloading vs. overriding.\n    4. **Abstraction:** Abstract classes, interfaces (`implements`).\n- **Activity:** **Exercise 2** (Create a `Car` class with inheritance for `ElectricCar`).\n- **Demo:** Show a real-world analogy (e.g., `Animal` \u2192 `Dog`/`Cat`).\n\n---\n\n### **4. Collections Framework (20 mins)**\n- **Objective:** Handle data efficiently.\n- **Topics:**\n  - **Arrays vs. Collections:** Limitations of arrays.\n  - **List:** `ArrayList`, `LinkedList` (when to use which).\n  - **Set:** `HashSet` (unique elements).\n  - **Map:** `HashMap` (key-value pairs).\n- **Activity:** **Exercise 3** (Store student names in a `List` and print them).\n- **Demo:** Compare performance of `ArrayList` vs. `LinkedList` for large datasets.\n\n---\n\n### **5. Exception Handling (15 mins)**\n- **Objective:** Write robust code.\n- **Topics:**\n  - **Try-Catch:** Handle `ArithmeticException`, `NullPointerException`.\n  - **Finally Block:** Cleanup resources.\n  - **Custom Exceptions:** Extend `Exception` class.\n- **Activity:** **Exercise 4** (Divide two numbers with exception handling).\n\n---\n\n### **6. Mini-Project (20 mins)**\n- **Objective:** Apply concepts in a real-world scenario.\n- **Project:** *Bank Account System*\n  - Create a `BankAccount` class with methods:\n    - `deposit(double amount)`\n    - `withdraw(double amount)` (throw `InsufficientFundsException` if balance < amount)\n    - `getBalance()`\n  - Use `ArrayList` to store multiple accounts.\n- **Activity:** Pair programming (instructor + participants).\n\n---\n\n### **7. Q&A + Wrap-Up (5 mins)**\n- **Recap:** Key takeaways (OOP, collections, exceptions).\n- **Resources:**\n  - Books: *Effective Java* (Joshua Bloch), *Head First Java*.\n  - Online: [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/), LeetCode (practice problems).\n- **P.P.S. (Post-Post-Script):**\n  - **For Advanced Learners:** Explore multithreading (`Runnable`, `Thread`), Java 8 features (lambdas, streams).\n  - **Next Steps:** Build a small project (e.g., To-Do List app) or contribute to open-source.\n\n---\n\n### **Materials Needed:**\n- IDE: IntelliJ IDEA/Eclipse/VS Code.\n- JDK 17+ (latest LTS version).\n- Sample code snippets (GitHub repo link).\n\n---\n\n### **Customization Tips:**\n- **For Beginners:** Spend more time on OOP basics.\n- **For Intermediate:** Add JDBC (database connectivity) or Spring Boot intro.\n- **For Advanced:** Cover design patterns (Singleton, Factory) or performance tuning.",
+  "response_word_count": 517,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1137,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Why heal body with healthy foods in French, no 'nourriture', json.",
+  "compressed_word_count": 11,
+  "response": "```json\n{\n  \"raisons\": [\n    {\n      \"titre\": \"Apport en nutriments essentiels\",\n      \"description\": \"Les aliments sains fournissent les vitamines, min\u00e9raux, antioxydants et phytonutriments n\u00e9cessaires au fonctionnement optimal de chaque cellule.\"\n    },\n    {\n      \"titre\": \"R\u00e9duction de l'inflammation\",\n      \"description\": \"Une alimentation riche en v\u00e9g\u00e9taux, en om\u00e9ga-3 et en fibres aide \u00e0 r\u00e9duire l'inflammation chronique, racine de nombreuses maladies.\"\n    },\n    {\n      \"titre\": \"Soutien du syst\u00e8me immunitaire\",\n      \"description\": \"Des ingr\u00e9dients comme les l\u00e9gumes verts, les agrumes et les fruits \u00e0 coque renforcent les d\u00e9fenses naturelles de l'organisme.\"\n    },\n    {\n      \"titre\": \"\u00c9quilibre du microbiote intestinal\",\n      \"description\": \"Les fibres des fruits, l\u00e9gumes et c\u00e9r\u00e9ales compl\u00e8tes nourrissent les bonnes bact\u00e9ries intestinales, cruciales pour la sant\u00e9 globale.\"\n    },\n    {\n      \"titre\": \"\u00c9nergie durable\",\n      \"description\": \"Les glucides complexes, les prot\u00e9ines maigres et les graisses saines fournissent une \u00e9nergie stable, sans pics glyc\u00e9miques.\"\n    },\n    {\n      \"titre\": \"R\u00e9paration cellulaire\",\n      \"description\": \"Les prot\u00e9ines de qualit\u00e9 et les antioxydants aident \u00e0 la r\u00e9g\u00e9n\u00e9ration et \u00e0 la protection des tissus contre les dommages.\"\n    },\n    {\n      \"titre\": \"D\u00e9toxification naturelle\",\n      \"description\": \"Certains l\u00e9gumes (comme les crucif\u00e8res) soutiennent les organes \u00e9monctoires (foie, reins) dans l'\u00e9limination des toxines.\"\n    }\n  ]\n}\n```",
+  "response_word_count": 181,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

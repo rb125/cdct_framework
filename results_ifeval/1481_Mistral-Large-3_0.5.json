@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "craft a quirky resume for Antonia Maj for a coffee co. job; sections, 2 markdown bullets: \n* marketing & sales exp\n* customer service & unique skills",
+  "compressed_word_count": 27,
+  "response": "Here\u2019s a quirky, coffee-inspired resume for **Antonia Maj**\u2014perfect for a role at a specialty coffee company! It blends professionalism with playful charm to stand out.\n\n---\n\n# **ANTONIA MAJ**\n\ud83d\udccd *Brewing Connections, One Cup at a Time*\n\ud83d\udce7 antonia.maj@brewmail.com | \u2615 @antoniastakesacoffeebreak\n\n---\n\n### **\ud83c\udf1f MARKETING & SALES EXPERIENCE**\n- **Caffeinated Storyteller**: Transformed bland product descriptions into *irresistible* narratives (e.g., \"This single-origin Ethiopian is like a sunrise in a cup\u2014bright, floral, and impossible to ignore\"). Increased online engagement by **30%**.\n- **Cold Brew Whisperer**: Sold **500+** bags of specialty coffee by hosting \"Taste Like a Pro\" pop-ups\u2014because who needs a sommelier when you have a *coffee nerd*?\n\n---\n\n### **\u2615 CUSTOMER SERVICE & UNIQUE SKILLS**\n- **Barista Whisperer**: Trained **10+** new hires to \"read the beans\" (aka diagnose under-extraction) and turn grumpy morning customers into regulars with a well-timed joke about latte art.\n- **Multilingual Brewmaster**: Fluent in *Coffee Geek* (can debate extraction yields) and *Human* (can explain it to your grandma). Bonus: Knows how to say \"espresso\" in **5 languages** (including emoji: \u2615\ufe0f).\n\n---\n\n**Why Me?**\nI don\u2019t just *sell* coffee\u2014I sell *experiences*. Whether it\u2019s convincing a skeptic that oat milk isn\u2019t \"just sad cow milk\" or turning a corporate pitch into a love letter to arabica, I make caffeine magic happen.\n\n*\"Antonia doesn\u2019t just work in coffee\u2014she lives it.\"* \u2014 [Former Manager\u2019s Yelp Review]\n\n---\n\n**P.S.** Ask me about the time I turned a spilled latte into a viral TikTok. (Spoiler: It involved a mop and a dramatic monologue.)",
+  "response_word_count": 251,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

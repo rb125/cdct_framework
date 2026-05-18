@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Compose song lyrics about a socio-economic problem. The song should be in English and in all lowercase letters.",
+  "compressed_word_count": 18,
+  "response": "in a world where dreams are sold and hopes are bought,\nwe stand divided, by the wealth we've sought,\nin the shadows of the city, where the struggle's real,\nwe sing a song of change, of what we feel.\n\nverse 1:\nin the streets where hunger cries,\nand the children's laughter dies,\nwe see the gap, the rich, the poor,\na system built on closed doors.\n\nchorus:\nwe'll rise above, break the chains,\nin this battle, we'll regain,\na world where justice leads the way,\nand everyone can find their place.\n\nverse 2:\nfactories hum, the workers toil,\nfor a piece of bread, they till the soil,\nbut the profits flow to hands unseen,\nwhile we're left to dream our dreams.\n\nchorus:\nwe'll rise above, break the chains,\nin this battle, we'll regain,\na world where justice leads the way,\nand everyone can find their place.\n\nbridge:\nwe'll unite, our voices strong,\nsinging out this righteous song,\nfor a future bright and fair,\nwhere compassion fills the air.\n\nverse 3:\neducation's cost, a heavy price,\nfor the youth, a bitter vice,\nbut knowledge is the key to change,\nwe'll fight for what is fair, exchange.\n\nchorus:\nwe'll rise above, break the chains,\nin this battle, we'll regain,\na world where justice leads the way,\nand everyone can find their place.\n\noutro:\nso let's stand together, hand in hand,\nfor a better world, we'll make our stand,\nin this fight for what's right, we'll persevere,\nand build a future without fear.",
+  "response_word_count": 250,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

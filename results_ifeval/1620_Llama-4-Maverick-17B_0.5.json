@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "draft email for luheng about lilith album, p.s. included",
+  "compressed_word_count": 9,
+  "response": "Here's a draft email for Luheng about the Lilith album with a P.S. included:\n\nSubject: Thoughts on Lilith's New Album\n\nDear Luheng,\n\nI hope this email finds you well. I just got a chance to listen to Lilith's new album, and I must say, it's quite impressive. The way they've blended different genres and experimented with new sounds is really captivating. I've been listening to it non-stop since I got it.\n\nThe lyrics are also very thought-provoking, and I appreciate how they've tackled some complex themes in their music. The production quality is top-notch, and I think they've done a great job in bringing their vision to life.\n\nI'd love to hear your thoughts on the album. Have you had a chance to listen to it? What did you think of it?\n\nLooking forward to hearing back from you.\n\nBest regards,\n[Your Name]\n\nP.S. I came across a really interesting interview with Lilith where they discussed their inspiration behind the album. I'll send you the link if you're interested.",
+  "response_word_count": 169,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

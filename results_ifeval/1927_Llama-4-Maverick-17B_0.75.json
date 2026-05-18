@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Convert the sentence into an email format, ensuring it includes at least 10 placeholders like [name]. Use square brackets: The boots are warm but a little uncomfortable.",
+  "compressed_word_count": 27,
+  "response": "Here is the sentence converted into an email format with at least 10 placeholders:\n\nSubject: Feedback on Recent Purchase from [Company Name]\n\nDear [Customer Service Team],\n\nI hope this email finds you well. I recently purchased a pair of [Product Name] boots from your online store on [Date of Purchase]. The boots are warm but a little uncomfortable.\n\nI would appreciate it if you could look into this matter further. My order number is [Order Number] and I purchased them from [Store Location]. I have been wearing them for [Number] days and have noticed that the discomfort is mainly due to the [Specific Feature].\n\nI would like to request your assistance in resolving this issue. If possible, could you please provide a [Solution, e.g., refund or exchange] or suggest some [Alternative Product] that might be more comfortable for me?\n\nMy contact details are as follows: [Your Name], [Email Address], and [Phone Number]. You can reach out to me at your convenience.\n\nThank you for your attention to this matter, and I look forward to hearing from you soon.\n\nBest regards,\n\n[Your Name]",
+  "response_word_count": 182,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

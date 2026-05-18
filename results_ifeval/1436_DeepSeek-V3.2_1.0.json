@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a story about commandos who are in the middle of the night in a sector. It should be in English, and no capital letters are allowed. The story should not include keywords \"coop\", \"killings\", \"dead\", \"night\".",
+  "compressed_word_count": 37,
+  "response": "the world was painted in shades of grey and deep blue. a low, wet mist clung to the ground, swallowing sound. the unit moved through the sector like shadows, their forms blurring into the tangled undergrowth. each step was deliberate, a slow placement of boot on soft earth.\n\nthey were five. callsigns whispered on the breath: fox, bear, rabbit, moth, and their leader, stone. their faces were smeared with charcoal and mud, eyes scanning the gloom through the lenses of their goggles. the only sounds were the occasional drip of water from a leaf and the soft rustle of their gear.\n\nahead, the outline of a broken fence appeared, sagging under the weight of vines. stone raised a closed fist. the team froze, becoming part of the landscape. he pointed two fingers at his eyes, then towards a low structure beyond the fence. a storage shed, its roof caved in. rabbit and moth peeled away, melting into the mist to flank the position.\n\nfox watched the shed, his breathing slow and controlled. a faint, metallic glint came from a crack in the wall. not natural. he signaled it to stone, who gave a slow nod. this was the place.\n\nbear was already at the fence, his large hands carefully parting the wires without a sound. one by one, they slipped through the gap, their dark uniforms snagging for a moment before pulling free. they gathered in the lee of the shed, their backs against the cold, corrugated metal.\n\nstone tapped his ear, then pointed inside. the objective was here, waiting. they needed to secure it and fade back into the grey before the sky began to lighten. he made a series of quick hand signals: clear, quiet, fast.\n\nmoth appeared at the corner, giving a thumbs-up. the perimeter was clear. rabbit held up three fingers from the other side. three heat signatures inside, stationary.\n\nstone took a deep, silent breath. he looked at each of them in turn, a final check. then, he counted down with his fingers.\n\nthree.\n\ntwo.\n\none.\n\nthey moved.",
+  "response_word_count": 343,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -52,81 +52,81 @@
       "compression_level": 0.25,
       "context_length": 5,
       "response_length": 24,
-      "response": "Natural selection is related to a \"survival advantage\". This advantage is \"passed to offspring\". It implies a process where a trait is passed on.",
+      "response": "Natural selection is related to a \"survival advantage\". This advantage is \"passed to offspring\". It implies a process where a beneficial trait is inherited.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
             "CC": 0.7,
-            "SA": 0.7,
-            "FC": 0.7
+            "SA": 0.8,
+            "FC": 0.8
           },
           "Nemotron-Super-3-120B": {
-            "CC": 0.6,
-            "SA": 0.8,
+            "CC": 0.5,
+            "SA": 0.9,
             "FC": 0.8
           },
           "GLM-5": {
             "CC": 0.8,
-            "SA": 1.0,
-            "FC": 0.9
-          }
-        },
-        "consensus": {
-          "CC": 0.725,
-          "SA": 0.8,
-          "FC": 0.8,
-          "agreement_score": 0.808,
-          "judge_variance_CC": 0.0816,
-          "judge_variance_SA": 0.1247,
-          "judge_variance_FC": 0.0816,
-          "judge_count": 3,
-          "recommendation": "MODERATE - Jury consensus with variation"
-        }
-      },
-      "score": 0.7700000000000001
-    },
-    {
-      "compression_level": 0.5,
-      "context_length": 27,
-      "response_length": 190,
-      "response": "Natural selection is a fundamental process that drives the adaptation and evolution of populations over time. In essence, it is a mechanism where individuals with traits that are beneficial to their environment are more likely to survive and reproduce, thereby passing those advantageous traits to their offspring.\n\nThis process shapes the characteristics of a population, enabling it to better adapt to its surroundings. As individuals with helpful traits are more likely to survive and reproduce, the frequency of those traits increases within the population. Conversely, traits that are detrimental or less beneficial become less common, as individuals possessing them are less likely to survive and reproduce.\n\nThrough this continuous process, natural selection acts as a filter, favoring the survival and reproduction of individuals with traits that enhance their fitness in their specific environment. Over time, this leads to the evolution of populations that are increasingly well-suited to their environment, allowing them to thrive and persist.\n\nIn summary, natural selection is a key driver of adaptation and evolution, where the survival and reproduction of individuals with beneficial traits shape the characteristics of a population, enabling it to better fit its environment.",
-      "jury_evaluation": {
-        "judges": {
-          "Qwen3-32B": {
-            "CC": 0.3,
-            "SA": 0.9,
-            "FC": 0.7
-          },
-          "Nemotron-Super-3-120B": {
-            "CC": 0.1,
-            "SA": 1.0,
-            "FC": 0.8
-          },
-          "GLM-5": {
-            "CC": 0.2,
             "SA": 0.9,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.2,
-          "SA": 0.925,
-          "FC": 0.8333,
-          "agreement_score": 0.831,
-          "judge_variance_CC": 0.0816,
+          "CC": 0.7,
+          "SA": 0.85,
+          "FC": 0.8667,
+          "agreement_score": 0.8226,
+          "judge_variance_CC": 0.1247,
           "judge_variance_SA": 0.0471,
-          "judge_variance_FC": 0.1247,
+          "judge_variance_FC": 0.0943,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.6166600000000001
+      "score": 0.79334
+    },
+    {
+      "compression_level": 0.5,
+      "context_length": 27,
+      "response_length": 182,
+      "response": "Natural selection is a fundamental concept in biology that describes the process by which populations of living organisms adapt to their environment. In simple terms, it is the mechanism by which individuals with traits that are beneficial to their survival and reproduction are more likely to pass those traits on to their offspring.\n\nHere's a breakdown of how it works:\n\n1. **Variation in traits**: A population has individuals with varying traits, some of which are more beneficial than others in a given environment.\n2. **Survival and reproduction**: Individuals with helpful traits are more likely to survive and reproduce, as their traits provide an advantage in the environment.\n3. **Passing traits to offspring**: When individuals with beneficial traits reproduce, they pass those traits on to their offspring.\n4. **Shaping populations over time**: As this process continues over multiple generations, the population becomes shaped by the accumulation of beneficial traits, allowing it to adapt to its environment.\n\nIn essence, natural selection acts as a filter, favoring individuals with traits that enhance their survival and reproductive success, thereby driving the evolution of populations over time.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.0,
+            "SA": 0.9,
+            "FC": 0.6
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 1.0,
+            "FC": 0.7
+          },
+          "GLM-5": {
+            "CC": 0.2,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.125,
+          "SA": 0.95,
+          "FC": 0.7667,
+          "agreement_score": 0.8008,
+          "judge_variance_CC": 0.0816,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.17,
+          "judge_count": 3,
+          "recommendation": "MODERATE - Jury consensus with variation"
+        }
+      },
+      "score": 0.58334
     },
     {
       "compression_level": 0.75,
       "context_length": 60,
-      "response_length": 486,
-      "response": "## Step 1: Understanding the Concept of Natural Selection\nNatural selection is a key driver of evolution that acts on the variation within a population. It is the process by which individuals with certain traits or characteristics that are better suited to their environment are more likely to survive and reproduce.\n\n## Step 2: Identifying Advantageous Adaptations\nThe advantageous adaptations can be physical traits, such as camouflage or stronger limbs, or physiological traits, like disease resistance. These adaptations enhance the organism's ability to survive, reproduce, and pass on their genes to the next generation.\n\n## Step 3: Explaining the Role of Beneficial Alleles\nBeneficial alleles are versions of genes that confer advantageous traits. As individuals with these alleles are more likely to survive and reproduce, they become more common in the gene pool over time. This shift in allele frequency is a fundamental aspect of how natural selection influences the evolution of a population.\n\n## Step 4: Providing Examples of Natural Selection in Action\nA classic example of natural selection is the evolution of peppered moths. Prior to the Industrial Revolution, these moths had light-colored wings with black spots, allowing them to blend in with lichen-covered tree bark. However, with the increase in air pollution, tree trunks became darker due to soot. A genetic variation in the moth population resulted in some individuals having dark-colored wings. These dark-colored moths were better camouflaged on the dark tree trunks and were less likely to be eaten by birds. As a result, they had a higher survival rate and reproduced more successfully, passing on their dark coloration trait to their offspring.\n\n## Step 5: Discussing the Impact of Natural Selection on Speciation and Adaptation to Environmental Pressures\nNatural selection not only drives the adaptation of populations to their current environment but also plays a crucial role in speciation. As populations become reproductively isolated (either geographically or through other mechanisms), natural selection can act differently on each population, leading to divergence in their traits. Over time, this divergence can result in the formation of new species. Furthermore, natural selection enables populations to respond to changing environmental pressures, such as the development of antibiotic resistance in bacteria or the adaptation to climate change in various species.\n\n## Step 6: Summarizing the Key Points of Natural Selection\nIn summary, natural selection is a fundamental mechanism of evolution that favors the survival and reproduction of individuals with advantageous traits. It leads to the increase of beneficial alleles in a population's gene pool, drives speciation, and helps populations adapt to environmental changes.\n\nThe final answer is: \nNatural selection is a fundamental mechanism of evolution where organisms with advantageous adaptations are more likely to survive and reproduce, thereby increasing the prevalence of beneficial alleles in the gene pool over generations. It drives speciation and enables populations to adapt to environmental pressures, as exemplified by the evolution of peppered moths and the development of disease resistance.",
+      "response_length": 522,
+      "response": "## Step 1: Understanding the Concept of Natural Selection\nNatural selection is a key driver of evolution that acts on the variation within a population. It is the process by which individuals with certain traits or characteristics that are better suited to their environment are more likely to survive and reproduce.\n\n## Step 2: Identifying Advantageous Adaptations\nThe advantageous adaptations can be physical traits, such as camouflage or stronger limbs, or physiological traits, like disease resistance. These adaptations enhance the organism's ability to survive, reproduce, and pass on their genes to the next generation.\n\n## Step 3: Explaining the Role of Beneficial Alleles\nBeneficial alleles are versions of genes that confer advantageous traits. As individuals with these alleles are more likely to survive and reproduce, they become more common in the gene pool over time. This shift in allele frequency is a fundamental aspect of how natural selection influences the evolution of a population.\n\n## Step 4: Providing Examples of Natural Selection in Action\nA classic example of natural selection is the evolution of peppered moths. Prior to the Industrial Revolution, these moths had a light-colored, speckled appearance, allowing them to blend in with lichen-covered tree bark. However, with the increase in air pollution, tree trunks became darker due to soot. A genetic variation in the moth population resulted in some individuals having a dark-colored phenotype. These dark-colored moths were better camouflaged on the dark tree trunks and had a selective advantage over the light-colored moths, as they were less likely to be eaten by birds. Consequently, the dark-colored trait became more common in the population.\n\n## Step 5: Discussing the Impact of Natural Selection on Speciation and Adaptation to Environmental Pressures\nNatural selection not only drives the adaptation of populations to their current environment but also plays a crucial role in speciation. As populations become reproductively isolated (either geographically or through other mechanisms), natural selection can act differently on each population, leading to divergence in their traits. Over time, this divergence can result in the formation of new species. Furthermore, natural selection enables populations to respond to changing environmental pressures, such as the development of antibiotic resistance in bacteria or the adaptation to climate change in various species.\n\n## Step 6: Summarizing the Detailed Explanation of Natural Selection\nNatural selection is a fundamental mechanism of evolution that favors the survival and reproduction of organisms with advantageous traits, leading to their increased representation in the gene pool over generations. It drives speciation and allows populations to adapt to environmental changes, making it a crucial process for understanding the diversity of life on Earth.\n\nThe final answer is: \nNatural selection is a fundamental mechanism of evolution where organisms with advantageous adaptations\u2014such as camouflage or disease resistance\u2014are more likely to survive and reproduce, thereby increasing the prevalence of beneficial alleles in the gene pool over generations. This process drives speciation and enables populations to respond to environmental pressures, as exemplified by the adaptation of peppered moths to polluted environments. Through natural selection, populations adapt to their environments, and over time, this can lead to the divergence of populations and the formation of new species.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -162,21 +162,21 @@
     {
       "compression_level": 1.0,
       "context_length": 135,
-      "response_length": 462,
-      "response": "## Step 1: Define Natural Selection\nNatural selection is a fundamental mechanism of evolution that explains how organisms adapt to their environment through the process of differential survival and reproduction. It is driven by the variation in heritable traits among individuals in a population.\n\n## Step 2: Outline Key Principles of Natural Selection\nThe key principles underlying natural selection include:\n1. **Variation**: The presence of genetic differences among individuals in a population, resulting in diverse traits.\n2. **Inheritance**: The transmission of traits from parents to offspring through genes, ensuring that the characteristics of the parents are passed on to the next generation.\n3. **Differential Survival and Reproduction (Fitness)**: The likelihood of individuals with certain traits surviving and reproducing varies, with those having advantageous traits being more likely to do so. This is often referred to as \"fitness\" in the context of their environment.\n4. **Adaptation**: The process by which populations become better suited to their environment over time as a result of natural selection favoring individuals with traits that enhance their survival and reproductive success.\n\n## Step 3: Explain the Process of Natural Selection\nThe process of natural selection occurs as follows:\n- Individuals with traits that are better suited to their environment are more likely to survive and reproduce.\n- These individuals pass their advantageous traits to their offspring.\n- Over generations, the population becomes increasingly adapted to its environment as the advantageous traits become more common.\n- Conversely, traits that are detrimental to survival and reproduction become less common over time.\n\n## Step 4: Discuss the Outcomes of Natural Selection\nNatural selection can lead to several outcomes, including:\n1. **Evolution of Complex Adaptations**: Over long periods, natural selection can result in the development of complex traits that enhance the fitness of organisms.\n2. **Speciation**: Natural selection can contribute to the formation of new species when populations become reproductively isolated and adapt to different environments.\n3. **Increased Biodiversity**: By driving the evolution of diverse traits and potentially leading to speciation, natural selection contributes to the richness of biodiversity on Earth.\n\n## Step 5: Highlight Applications of Natural Selection\nUnderstanding natural selection has practical applications in various fields, including:\n1. **Medicine**: Recognizing how antibiotic resistance evolves through natural selection informs strategies to combat resistant bacterial strains.\n2. **Agriculture**: Knowledge of natural selection is used in crop improvement programs to develop crops that are more resilient and productive.\n3. **Conservation Biology**: Insights into natural selection help in managing endangered species by understanding the evolutionary pressures they face and how conservation efforts can mitigate these pressures.\n\nThe final answer is: $\\boxed{natural selection is a mechanism of evolution where organisms with advantageous traits are more likely to survive and reproduce, passing those traits to subsequent generations, leading to adaptation and potentially speciation and increased biodiversity.}$",
+      "response_length": 444,
+      "response": "## Step 1: Define Natural Selection\nNatural selection is a fundamental mechanism of evolution that explains how organisms adapt to their environment through the process of differential survival and reproduction. It is driven by variations in heritable traits among individuals.\n\n## Step 2: Outline Key Principles\nThe key principles underlying natural selection include:\n1. **Variation**: Genetic differences among individuals within a population, resulting in diverse traits.\n2. **Inheritance**: The transmission of traits from parents to offspring through genes, ensuring that the characteristics are heritable.\n3. **Differential Survival and Reproduction (Fitness)**: The likelihood of survival and reproduction varies among individuals based on their traits. Individuals with traits better suited to their environment are more likely to survive and reproduce.\n4. **Adaptation**: The process by which populations become better suited to their environment over time as advantageous traits become more common.\n\n## Step 3: Explain the Process of Natural Selection\nThe process of natural selection occurs as follows:\n- Individuals with advantageous phenotypes (traits that enhance fitness) are more likely to survive and reproduce.\n- As these individuals reproduce, they pass their advantageous traits to their offspring.\n- Over generations, the frequency of advantageous traits increases within the population.\n- Conversely, individuals with traits that are less suited to their environment are less likely to survive and reproduce, thereby reducing the frequency of disadvantageous traits in the population.\n\n## Step 4: Discuss Outcomes of Natural Selection\nNatural selection can lead to several outcomes, including:\n1. **Evolution of Complex Adaptations**: Over time, natural selection can result in the development of complex traits that enhance the fitness of organisms.\n2. **Speciation**: As populations become reproductively isolated and adapt to different environments, natural selection can contribute to the formation of new species.\n3. **Increased Biodiversity**: By driving the evolution of diverse traits and speciation, natural selection contributes to the richness of biodiversity on Earth.\n\n## Step 5: Highlight Applications of Natural Selection\nUnderstanding natural selection has practical applications in various fields, including:\n1. **Medicine**: Recognizing how antibiotic resistance evolves through natural selection informs strategies to combat resistance.\n2. **Agriculture**: Principles of natural selection are used in crop improvement programs to develop crops with desirable traits.\n3. **Conservation Biology**: Managing endangered species involves understanding the evolutionary dynamics influenced by natural selection to develop effective conservation strategies.\n\n## Step 6: Summarize Natural Selection\nNatural selection is a crucial evolutionary mechanism that drives the adaptation of populations to their environments. It operates through the principles of variation, inheritance, differential survival and reproduction, and adaptation, leading to the evolution of complex traits, speciation, and increased biodiversity. Its applications are diverse and critical for addressing various biological challenges.\n\nThe final answer is: $\\boxed{natural selection}$",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
             "CC": 0.9,
-            "SA": 0.95,
-            "FC": 0.9
+            "SA": 0.9,
+            "FC": 1.0
           },
-          "Nemotron-Super-3-120B": {
+          "GLM-5": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
-          "GLM-5": {
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
@@ -184,24 +184,24 @@
         },
         "consensus": {
           "CC": 0.975,
-          "SA": 0.975,
-          "FC": 0.9667,
-          "agreement_score": 0.9214,
+          "SA": 0.95,
+          "FC": 1.0,
+          "agreement_score": 0.9371,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0236,
-          "judge_variance_FC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9733400000000001
+      "score": 0.97
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8293360000000002,
-    "mean_agreement": 0.86348,
+    "mean_score": 0.826672,
+    "mean_agreement": 0.8634999999999999,
     "decay_direction": "\u2192 Stable",
     "compression_levels": [
       0.0,
@@ -212,17 +212,17 @@
     ],
     "scores": [
       0.8433400000000001,
-      0.7700000000000001,
-      0.6166600000000001,
+      0.79334,
+      0.58334,
       0.9433400000000001,
-      0.9733400000000001
+      0.97
     ],
     "agreement_scores": [
       0.8743,
-      0.808,
-      0.831,
+      0.8226,
+      0.8008,
       0.8827,
-      0.9214
+      0.9371
     ]
   }
 }

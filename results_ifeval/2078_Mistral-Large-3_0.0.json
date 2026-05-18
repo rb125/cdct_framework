@@ -1,0 +1,43 @@
+{
+  "key": 2078,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "mongoose riddle",
+  "compressed_word_count": 2,
+  "response": "Here's a fun **Mongoose Riddle** for you:\n\n---\n\n**Riddle:**\n*I slither through the grass so sly,\nA snake\u2019s worst foe\u2014I\u2019ll make them cry.\nWith quick reflexes, sharp and keen,\nI hunt by day, but hide unseen.\nWhat am I?*\n\n**Answer:** A **mongoose**!\n\n---\n\n### Why the Riddle Works:\n- **Slithers through grass**: Mongooses are agile and move swiftly.\n- **Snake\u2019s worst foe**: Famous for fighting venomous snakes (like cobras).\n- **Quick reflexes**: Their speed helps them dodge snake strikes.\n- **Hunts by day**: Mostly diurnal (active during the day).\n\nWould you like a harder one? Or a riddle about a specific mongoose species (like the **meerkat**, a type of mongoose)? \ud83d\ude0a",
+  "response_word_count": 111,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

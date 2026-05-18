@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Which one is a better brand for sneakers: Prada or Nike? Your entire response should be in English, and in all capital letters. At the end of your response, please explicitly add a postscript starting with P.S. The word sneaker should appear 10 or more times in your response.",
+  "compressed_word_count": 49,
+  "response": "WHEN IT COMES TO CHOOSING A BETTER BRAND FOR SNEAKERS, PRADA OR NIKE, IT'S ESSENTIAL TO CONSIDER THE TYPE OF SNEAKER YOU'RE LOOKING FOR. IF YOU'RE IN THE MARKET FOR A HIGH-END FASHION SNEAKER, PRADA MIGHT BE THE WAY TO GO, AS THEY OFFER LUXURIOUS SNEAKERS THAT ARE BOTH STYLISH AND COMFORTABLE. HOWEVER, IF YOU'RE LOOKING FOR A SNEAKER THAT'S DESIGNED FOR PERFORMANCE AND ATHLETICISM, NIKE IS THE CLEAR WINNER, OFFERING A WIDE RANGE OF SNEAKERS THAT CATER TO DIFFERENT SPORTS AND ACTIVITIES. NIKE SNEAKERS ARE KNOWN FOR THEIR INNOVATIVE TECHNOLOGY AND COMFORTABLE DESIGN, MAKING THEM A POPULAR CHOICE AMONG SNEAKER ENTHUSIASTS. ON THE OTHER HAND, PRADA SNEAKERS ARE OFTEN SEEN AS A FASHION STATEMENT, WITH THEIR SLEEK AND SOPHISTICATED DESIGN MAKING THEM A GREAT CHOICE FOR THOSE WHO WANT TO MAKE A STATEMENT WITH THEIR SNEAKER. ULTIMATELY, THE CHOICE BETWEEN PRADA AND NIKE COMES DOWN TO YOUR PERSONAL PREFERENCE AND WHAT YOU'RE LOOKING FOR IN A SNEAKER. IF YOU WANT A SNEAKER THAT'S BOTH STYLISH AND COMFORTABLE, PRADA MIGHT BE THE BETTER CHOICE. BUT IF YOU'RE LOOKING FOR A SNEAKER THAT'S DESIGNED FOR PERFORMANCE, NIKE IS THE WAY TO GO. EITHER WAY, YOU CAN'T GO WRONG WITH EITHER PRADA OR NIKE SNEAKERS, AS BOTH BRANDS OFFER HIGH-QUALITY SNEAKERS THAT ARE SURE TO PLEASE EVEN THE MOST DIScerning SNEAKER ENTHUSIASTS. SNEAKER FANS WILL APPRECIATE THE ATTENTION TO DETAIL IN BOTH PRADA AND NIKE SNEAKERS, AND SNEAKER COLLECTORS WILL LOVE THE UNIQUE DESIGNS AND LIMITED EDITION SNEAKERS OFFERED BY BOTH BRANDS. IN THE END, IT'S ALL ABOUT CHOOSING THE RIGHT SNEAKER FOR YOUR NEEDS.\nP.S. WHETHER YOU CHOOSE PRADA OR NIKE, YOU'LL BE GETTING A HIGH-QUALITY SNEAKER THAT'S SURE TO PLEASE.",
+  "response_word_count": 280,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

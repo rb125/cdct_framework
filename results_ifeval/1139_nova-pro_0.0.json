@@ -1,0 +1,45 @@
+{
+  "key": 1139,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "funny haiku mom",
+  "compressed_word_count": 3,
+  "response": "Certainly! Here's a light-hearted haiku about a mom:\n\n---\n\nMom's laugh echoes,\nIn kitchen's warm embrace,\nLove, a savory stew.\n\n---\n\nFeel free to share this with your mom and bring a smile to her face!",
+  "response_word_count": 36,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

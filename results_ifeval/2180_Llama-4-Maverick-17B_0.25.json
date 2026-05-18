@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Rap diff city vs village, all caps 10x, 5 sections ***",
+  "compressed_word_count": 11,
+  "response": "***CITY LIFE IS WHERE IT'S AT, NO DEBATE***\nI RAP ABOUT THE CITY, WHERE THE STREETS ARE HOT, 10 TIMES BETTER THAN THE VILLAGE, YOU KNOW WHAT I'M TALKING ABOUT, IT'S NOT EVEN CLOSE, CITY VS VILLAGE, 10 TO 0, CITY WINS, IT'S A FACT, NO NEED TO EXPLAIN, CITY LIFE IS THE BEST, 10 OUT OF 10, VILLAGE CAN'T COMPETE, IT'S JUST NOT THE SAME, CITY RHYTHM IS UNBEATABLE, 10 TIMES STRONGER\n\n***VILLAGE LIFE IS SLOW, IT'S A WHOLE DIFFERENT VIBE***\nBUT I STILL RESPECT THE VILLAGE, WHERE THE AIR IS CLEAN AND THE PEOPLE ARE KIND, BUT WHEN IT COMES TO THE BEAT, THE CITY TAKES THE CROWN, 10 TIMES OVER, VILLAGE IS JUST A SMALL TOWN, IT CAN'T HANDLE THE CITY'S SOUND, WHICH IS 10 TIMES LOUDER\n\n***CITY RHYTHM IS UNBEATABLE, IT'S IN MY BLOOD***\nI WAS BORN AND RAISED IN THE CITY, WHERE THE MUSIC NEVER STOPS, 10 OUT OF 10, I KNOW THE VIBE, IT'S ELECTRIC, VILLAGE CAN'T MATCH IT, IT'S JUST A DIFFERENT KIND OF ENERGY, BUT WHEN IT COMES TO THE FLOW, CITY TAKES IT, 10 TIMES IN A ROW\n\n***VILLAGE HAS ITS OWN CHARM, BUT IT'S NOT THE SAME***\nI'VE BEEN TO THE VILLAGE, IT'S NICE, BUT IT'S NOT THE CITY, WHICH IS 10 TIMES BETTER, THE CITY NEVER SLEEPS, IT'S ALWAYS ON THE GO, 10 TIMES MORE ALIVE THAN THE VILLAGE, WHICH IS JUST TOO QUIET\n\n***CITY VS VILLAGE, IT'S NOT EVEN A CONTEST***\nCITY WINS, 10 TO 0, IT'S A KNOCKOUT, VILLAGE PUTS UP A GOOD FIGHT, BUT IT'S JUST NOT ENOUGH, CITY IS THE CHAMP, 10 TIMES OVER, AND IT ALWAYS WILL BE, IT'S JUST THE WAY IT IS, CITY RHYTHM IS THE BEST, 10 OUT OF 10, NO DEBATE",
+  "response_word_count": 291,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.8,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.6,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7000000000000001,
+      "SA": 0.6,
+      "FC": 0.6,
+      "judge_variance_CC": 0.21602468994692867,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

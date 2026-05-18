@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a product description for 'the squeaker' dog toys, latex material, suitable for all ages/species, various colors/shapes. Include [brand], [price], [availability] placeholders.",
+  "compressed_word_count": 22,
+  "response": "# The Squeaker\u2122 Dog Toys\n### By [brand]\n\n---\n\n## Make Playtime Unforgettable \ud83d\udc3e\n\nIntroducing **The Squeaker** \u2014 the ultimate interactive dog toy designed to keep tails wagging and paws busy for hours on end! Crafted from **premium, pet-safe latex**, The Squeaker delivers the satisfying *squeak-squeak-squeak* your furry friend simply can't resist.\n\n---\n\n## Why Your Dog Will Love It\n\n- \ud83e\uddb4 **Irresistible Squeaking Action** \u2014 Every squeeze delivers a fun, responsive squeak that triggers your dog's natural play instincts\n- \ud83c\udf08 **Vibrant Colors & Fun Shapes** \u2014 Available in a delightful variety of shapes and eye-catching colors to suit every pup's personality\n- \ud83d\udc9a **100% Pet-Safe Latex** \u2014 Made from non-toxic, durable latex that is gentle on gums and safe for enthusiastic chewers\n- \ud83d\udc15 **Suitable for All Ages & Breeds** \u2014 Whether you have a tiny teacup puppy or a full-grown Great Dane, The Squeaker is the perfect fit\n- \ud83e\uddfc **Easy to Clean** \u2014 Simply rinse with warm water and mild soap to keep toys fresh and hygienic\n\n---\n\n## Product Details\n\n| Feature | Details |\n|---|---|\n| **Material** | Premium pet-safe latex |\n| **Available Shapes** | Bones, balls, animals, rings & more |\n| **Colors** | Assorted vibrant colors |\n| **Suitable For** | All breeds, all ages |\n| **Price** | [price] |\n\n---\n\n## Perfect For...\n\n\u2714\ufe0f Puppies developing their chewing habits\n\u2714\ufe0f Senior dogs who love gentle play\n\u2714\ufe0f Interactive fetch and toss games\n\u2714\ufe0f Solo entertainment and mental stimulation\n\u2714\ufe0f Rewarding good behavior\n\n---\n\n## A Gift They'll Go Crazy For\n\nLooking for the **perfect present** for the dog in your life? The Squeaker makes an ideal gift for birthdays, holidays, or just because \u2014 because every dog deserves a little extra joy!\n\n> *\"My dog hasn't put it down since we opened the package!\"*\n> \u2014 Happy Pet Parent \u2b50\u2b50\u2b50\u2b50\u2b50\n\n---\n\n### \ud83d\udce6 Availability: [availability]\n### \ud83d\udcb0 Starting at: [price]\n\n**Shop now at [brand] and let the squeaking begin!**\n\n---\n\n*[brand] \u2014 Bringing Joy to Every Wag, Every Day.*",
+  "response_word_count": 340,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

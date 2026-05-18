@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a rap for a new smartphone; include at least 6 placeholders [ ]. P.P.S. Add a postscript starting with \"P.P.S.",
+  "compressed_word_count": 21,
+  "response": "Yo, listen up, I got a new device to show,\nThe [Brand Name] [Model Number], it's a smartphone to go!\nWith a [Screen Size] inch display, it's a sight to see,\nAnd a [Processor Model] processor, it's fast as can be!\n\nIt's got a [RAM Amount]GB of RAM, so you can multitask with ease,\nAnd a [Storage Capacity]GB storage, so you can store your memories with peace.\nThe camera's got [Number of Cameras] lenses, so you can capture the moment with flair,\nAnd a [Battery Capacity]mAh battery, so you can last all day without a care!\n\nThis phone's got the latest [Operating System Version], so you're always up to date,\nAnd with [Feature 1] and [Feature 2], it's a device that's truly great!\nSo don't wait any longer, get your hands on this phone,\nIt's the [Brand Name] [Model Number], and it's the one you've been looking for, all along!\n\nP.P.S. Pre-order now and get a free [Accessory] and a lifetime warranty, you won't want to miss this opportunity!",
+  "response_word_count": 169,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

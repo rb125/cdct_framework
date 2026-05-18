@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "create ad template for portable camera, highlight key points with <4 caps, min 10 sentences",
+  "compressed_word_count": 15,
+  "response": "**\ud83d\udcf8 *CAPTURE EVERY MOMENT, ANYWHERE!* \ud83d\udcf8**\n**Introducing the *ULTIMATE PORTABLE CAMERA*\u2014Your Perfect Travel Companion!**\n\n\u2705 **\ud83d\udd25 *CRYSTAL-CLEAR IMAGES*** \u2013 High-resolution sensor delivers *STUNNING* photos and videos, even in low light!\n\u2705 **\ud83d\ude80 *ULTRA-COMPACT & LIGHTWEIGHT*** \u2013 Fits in your pocket\u2014*NO BULKY GEAR* needed for adventures!\n\u2705 **\ud83d\udd0b *LONG-LASTING BATTERY*** \u2013 Shoot all day without worry\u2014*POWER THROUGH* your trips!\n\u2705 **\ud83c\udf0d *4K VIDEO & WI-FI CONNECTIVITY*** \u2013 Stream, share, and edit *INSTANTLY* with seamless wireless transfer!\n\u2705 **\ud83d\udca7 *WEATHERPROOF & DURABLE*** \u2013 Rain, dust, or sand? *NO PROBLEM!* Built to handle *ANY* environment!\n\u2705 **\ud83c\udfaf *SMART FEATURES*** \u2013 Auto-focus, face detection, and *PRO-LEVEL* modes for *EFFORTLESS* shots!\n\u2705 **\ud83d\udd04 *VERSATILE MOUNTING OPTIONS*** \u2013 Attach to bikes, helmets, or tripods\u2014*UNLIMITED CREATIVITY*!\n\u2705 **\ud83d\udcb0 *AFFORDABLE PRO QUALITY*** \u2013 Get *PREMIUM* performance without breaking the bank!\n\n**\ud83d\ude80 *WHY WAIT?* Grab yours today and *NEVER MISS A MEMORY AGAIN!* \ud83d\ude80**\n**\ud83d\udd25 *LIMITED STOCK\u2014ORDER NOW!* \ud83d\udd25**\n\n*(Call-to-action: \"Shop Now\" / \"Learn More\" button)*\n\n---\n**\ud83c\udfaf *PERFECT FOR:***\n\u2714 Travelers & Vloggers\n\u2714 Outdoor Enthusiasts\n\u2714 Content Creators\n\u2714 Everyday Photography Lovers!",
+  "response_word_count": 175,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

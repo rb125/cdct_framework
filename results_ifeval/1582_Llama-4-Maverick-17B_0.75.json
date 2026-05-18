@@ -1,0 +1,47 @@
+{
+  "key": 1582,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Nh\u1eadn x\u00e9t v\u1ec1 c\u00e2u n\u00e0y m\u1ed9t c\u00e1ch h\u01b0\u1edbng t\u1edbi t\u00ednh h\u00e0i h\u01b0\u1edbc: \"Nhi\u1ec7m v\u1ee5 c\u1ee7a m\u1eb9 l\u00e0 nu\u00f4i d\u1ea1y con c\u00e1i.\" ******. Nh\u1eadn x\u00e9t th\u1ee9 hai c\u0169ng b\u1eb1ng ti\u1ebfng Vi\u1ec7t ******. Kh\u00f4ng s\u1eed d\u1ee5ng d\u1ea5u ph\u1ea9y.",
+  "compressed_word_count": 36,
+  "response": "C\u00e2u \"Nhi\u1ec7m v\u1ee5 c\u1ee7a m\u1eb9 l\u00e0 nu\u00f4i d\u1ea1y con c\u00e1i\" nghe c\u00f3 v\u1ebb nh\u01b0 m\u1ed9t c\u00f4ng vi\u1ec7c \u0111\u01b0\u1ee3c giao cho m\u1eb9 m\u00e0 kh\u00f4ng c\u00f3 l\u01b0\u01a1ng. M\u1eb9 l\u00e0m vi\u1ec7c ch\u0103m ch\u1ec9 kh\u00f4ng ng\u1eebng ngh\u1ec9 nh\u01b0ng v\u1eabn kh\u00f4ng \u0111\u01b0\u1ee3c c\u00f4ng nh\u1eadn \u0111\u00fang m\u1ee9c. M\u1ed9t nh\u1eadn x\u00e9t h\u00e0i h\u01b0\u1edbc v\u1ec1 c\u00e2u n\u00e0y l\u00e0 M\u1eb9 l\u00e0 m\u1ed9t ngh\u1ec1 kh\u00f3 l\u00e0m nh\u01b0ng l\u1ea1i kh\u00f4ng c\u00f3 b\u1eb1ng c\u1ea5p.\n\nNh\u1eadn x\u00e9t th\u1ee9 hai c\u0169ng b\u1eb1ng ti\u1ebfng Vi\u1ec7t: M\u1eb9 l\u00e0 ng\u01b0\u1eddi h\u00f9ng th\u1ea7m l\u1eb7ng trong m\u1ed7i gia \u0111\u00ecnh v\u00ec h\u1ecd l\u00e0m t\u1ea5t c\u1ea3 m\u1ecdi vi\u1ec7c m\u00e0 kh\u00f4ng \u0111\u00f2i h\u1ecfi g\u00ec.",
+  "response_word_count": 92,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "language:response_language",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "language:response_language_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

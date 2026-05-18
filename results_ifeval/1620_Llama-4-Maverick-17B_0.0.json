@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "album email",
+  "compressed_word_count": 2,
+  "response": "To better assist you, could you please provide more context or clarify what you mean by \"album email\"? Are you looking to:\n\n1. Send an email about a music album?\n2. Share an album (like a photo album) via email?\n3. Create an email template or design that resembles an album?\n\nPlease provide more details so I can give you a more accurate and helpful response.",
+  "response_word_count": 66,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

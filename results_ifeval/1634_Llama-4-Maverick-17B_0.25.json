@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 4-point home theater rubric for moms.",
+  "compressed_word_count": 7,
+  "response": "Here's a 4-point home theater rubric for moms to evaluate and create an ideal home theater experience for their family:\n\n**Rubric: \"Mom's Home Theater Magic\"**\n\n1. **Cozy Comfort (1-4 points)**\n\t* 1 point: Hard, uncomfortable seating and harsh lighting\n\t* 2 points: Basic seating, but some comfort features like blankets or pillows\n\t* 3 points: Plush seating, dimmable lighting, and cozy throw blankets\n\t* 4 points: Luxurious recliners, adjustable headrests, and a warm, inviting atmosphere\n2. **Kid-Friendly Fun (1-4 points)**\n\t* 1 point: Limited movie options and no kid-friendly snacks\n\t* 2 points: Some kid-friendly movies, but limited snack options\n\t* 3 points: Variety of kid-friendly movies, popcorn, and some healthy snack options\n\t* 4 points: Endless movie options, including new releases, and a snack bar with healthy and fun choices\n3. **Tech Savvy (1-4 points)**\n\t* 1 point: Old, outdated equipment and complicated setup\n\t* 2 points: Basic TV and sound system, but some technical issues\n\t* 3 points: Modern TV and sound system, with some smart features and easy setup\n\t* 4 points: State-of-the-art equipment, seamless integration, and voice control or automation\n4. **Family Bonding (1-4 points)**\n\t* 1 point: Rare family movie nights, with distractions like phones and TVs in other rooms\n\t* 2 points: Occasional family movie nights, but some distractions\n\t* 3 points: Regular family movie nights, with some special events and traditions\n\t* 4 points: Frequent family movie nights, with special events, traditions, and quality time together\n\n**Total Score: 4-16 points**\n\n* 4-8 points: \"Needs Improvement\" - Time to upgrade and create a cozier, more fun home theater experience!\n* 9-12 points: \"Good Start\" - You're on the right track, but there's still room for improvement.\n* 13-16 points: \"Home Theater Magic\" - Congratulations, Mom! You've created a home theater experience that's perfect for your family!",
+  "response_word_count": 302,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Create a table with a 7 day trip itinerary for India, and a 7 day trip itinerary for China. Separate them with exactly 6 asterisks symbols: *******",
+  "compressed_word_count": 27,
+  "response": "### **7-Day India Itinerary**\n\n| **Day** | **Destination**       | **Highlights**                                                                 |\n|---------|-----------------------|--------------------------------------------------------------------------------|\n| 1       | Delhi                 | Red Fort, Jama Masjid, Chandni Chowk, India Gate, Humayun\u2019s Tomb               |\n| 2       | Agra                  | Taj Mahal, Agra Fort, Mehtab Bagh (Taj Mahal sunset view)                      |\n| 3       | Jaipur                | Amber Fort, Hawa Mahal, City Palace, Jantar Mantar, Jal Mahal                 |\n| 4       | Udaipur               | City Palace, Lake Pichola boat ride, Jagdish Temple, Fateh Sagar Lake          |\n| 5       | Varanasi              | Ganga Aarti at Dashashwamedh Ghat, Kashi Vishwanath Temple, Sarnath            |\n| 6       | Kerala (Cochin/Munnar)| Backwaters (Alleppey/Kumarakom), Tea plantations (Munnar), Fort Kochi          |\n| 7       | Mumbai                | Gateway of India, Elephanta Caves, Marine Drive, Chhatrapati Shivaji Maharaj Terminus |\n\n******\n\n### **7-Day China Itinerary**\n\n| **Day** | **Destination**       | **Highlights**                                                                 |\n|---------|-----------------------|--------------------------------------------------------------------------------|\n| 1       | Beijing               | Great Wall (Mutianyu or Badaling), Forbidden City, Tiananmen Square, Temple of Heaven |\n| 2       | Beijing               | Summer Palace, Hutongs (rickshaw tour), Lama Temple, Olympic Park              |\n| 3       | Xi\u2019an                 | Terracotta Warriors, Ancient City Wall, Muslim Quarter, Big Wild Goose Pagoda  |\n| 4       | Chengdu               | Chengdu Panda Base, Jinli Street, Wuhou Shrine, Sichuan Opera (face-changing show) |\n| 5       | Guilin/Yangshuo       | Li River Cruise, Yangshuo West Street, Longji Rice Terraces, Reed Flute Cave   |\n| 6       | Shanghai              | The Bund, Yu Garden, Shanghai Tower, Nanjing Road, Tianzifang                 |\n| 7       | Hangzhou              | West Lake, Lingyin Temple, Tea plantations (Longjing), Hefang Street           |",
+  "response_word_count": 250,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

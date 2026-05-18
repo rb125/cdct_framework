@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "verify if \"happy birthday\" was the first song sung in space; confirm with \"my answer is yes,\" \"no,\" or \"maybe.",
+  "compressed_word_count": 20,
+  "response": "To verify:  \n\nThe first song sung in space was **\u201cHappy Birthday\u201d** \u2014 it was sung on the **Space Shuttle mission STS-41G** in 1984 by the crew to celebrate fellow astronaut **Kathryn Sullivan\u2019s birthday**.  \n\nHowever, it was **not** the *first song performed in space* overall \u2014 that distinction goes to **\u201cJingle Bells\u201d** played on a harmonica and bells during **Gemini 6** in 1965.  \n\nSince the question specifies **\u201cfirst song *sung* in space\u201d** (not played on an instrument), \u201cHappy Birthday\u201d in 1984 does appear to be the first sung vocal performance.  \n\n**My answer is yes.**",
+  "response_word_count": 93,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

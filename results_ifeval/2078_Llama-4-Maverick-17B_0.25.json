@@ -1,0 +1,43 @@
+{
+  "key": 2078,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Riddle mongoose, one unique bullet point",
+  "compressed_word_count": 6,
+  "response": "* The \"Riddle mongoose\" is likely referring to the Indian grey mongoose, which was involved in the \"Riddle of the Latimer Road mongoose\" or the \"Riddle of the Crawley mongoose\", a famous unsolved mystery in Rudyard Kipling's short story \"The Adventure of the Crooked Man\" is not related but  \"The Rikki-Tikki-Tavi\". However, the actual reference is to a real-life murder mystery known as the \"Croydon mongoose\" or \"The riddle of the Crawley mongoose\", that took place in 1930s England, in which a mongoose was found at the scene of a murder.",
+  "response_word_count": 91,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

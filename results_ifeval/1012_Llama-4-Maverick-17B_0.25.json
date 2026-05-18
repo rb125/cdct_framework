@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write email to boss with <<title>> no commas",
+  "compressed_word_count": 8,
+  "response": "Here is an email to a boss with a title that has no commas:\n\nSubject: Notification of Progress\n\nDear Mr Smith\n\nI am writing to inform you that the project is proceeding as planned. We have completed the initial phase and are now moving on to the next stage.\n\nThe team has worked diligently to meet the deadline and I am confident that we will deliver the final product on time.\n\nPlease let me know if you have any questions or concerns.\n\nBest regards,\nJohn Doe",
+  "response_word_count": 86,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

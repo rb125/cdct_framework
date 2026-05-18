@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "write A letter in eng, in all caps, with at least 40 'O'S.",
+  "compressed_word_count": 13,
+  "response": "HERE IS MY LETTER:\n\nHELLO! I HOPE THIS LETTER FINDS YOU IN GOOD MOOD. I WANTED TO REACH OUT TO YOU TODAY TO TALK ABOUT SOMETHING THAT HAS BEEN ON MY MIND FOR A LONG PERIOD OF TIME. YOU KNOW HOW OFTEN WE OVERLOOK THE MOST OBVIOUS THINGS IN OUR WORLD? SOMETIMES WE LOOK TOO CLOSELY AT OUR OWN PROBLEMS AND FORGET TO LOOK OUTWARD TOWARD THOSE AROUND US. I TOOK A LONG LOOK AT MY OWN OUTLOOK ON LIFE AND NOTICED SOMETHING PROFOUND. OUR CONNECTIONS TO ONE ANOTHER ARE SO IMPORTANT AND SO WORTH PROTECTING. SO OFTEN WE CHOOSE TO CLOSE OUR DOORS AND IGNORE THE VOICES OF THOSE WHO LOVE US. I HOPE YOU KNOW THAT I CHOOSE TO HONOR OUR BOND AND HOLD ONTO OUR FRIENDSHIP WITH BOTH HANDS. TOMORROW IS NOT PROMISED TO ANYONE, SO LET US NOT POSTPONE THE JOY WE COULD OFFER ONE ANOTHER TODAY. LOOK FORWARD TO GOOD MOMENTS AND GOOD CONVERSATIONS. KNOW THAT YOU ARE NOT ALONE. I LOOK FORWARD TO SEEING YOU SOON.\n\nWITH LOTS OF LOVE,\nYOUR GOOD FRIEND",
+  "response_word_count": 179,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

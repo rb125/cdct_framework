@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Identify non-fish, then write article on salmon/avocado, max 10 all-caps.",
+  "compressed_word_count": 10,
+  "response": "NON-FISH INCLUDE MAMMALS, REPTILES, AMPHIBIANS, AND BIRDS.\n\nSALMON AND AVOCADO ARE POPULAR INGREDIENTS. SALMON IS A FISH RICH IN OMEGA-3. AVOCADO IS A FRUIT KNOWN FOR HEALTHY FATS. TOGETHER, THEY OFFER A NUTRITIOUS COMBINATION. OFTEN USED IN SALADS, SUSHI, AND SMOOTHIES. THIS PAIR IS LOVED FOR ITS FLAVOR AND BENEFITS. TRY THEM FOR A DELICIOUS, HEALTHY MEAL.",
+  "response_word_count": 57,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

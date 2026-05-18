@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write email to boss with <<title>> no commas",
+  "compressed_word_count": 8,
+  "response": "Subject: Project update and next steps\n\nHi Boss\n\nI hope you are well. I wanted to give you an update on the current project. We have made significant progress over the past few weeks and are on track to meet our deadline. The team has been working hard and I am confident that we will deliver a high-quality product.\n\nIn terms of next steps we need to focus on testing and refining the product. We have identified a few areas where we can improve performance and user experience and I have assigned tasks to the team to address these issues.\n\nAdditionally we need to start thinking about marketing and launch strategies. I have put together a preliminary plan that outlines our target audience messaging and promotional tactics. I would appreciate your feedback on this plan and any suggestions you may have.\n\nFinally I wanted to touch base on our upcoming team meeting. I have scheduled it for next Wednesday at 2 pm and I will send out a calendar invite shortly. Please let me know if this time works for you or if you have any other suggestions.\n\nThank you for your continued support and guidance. I look forward to discussing the project further and getting your input on our next steps.\n\nBest regards\n[Your Name]",
+  "response_word_count": 216,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

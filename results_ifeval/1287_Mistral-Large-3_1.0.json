@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "How did a man named John of Brienne become the King of Jerusalem? Explain in a Zen-like style. Your answer should use all lowercase letters and must also contain exactly 3 bullet points in markdown format. Use * to indicate bullets, like:\n* xyz\n* abc\n* opq",
+  "compressed_word_count": 48,
+  "response": "in the quiet unfolding of fate, john of brienne stepped not with force, but with the weight of empty space\u2014where a crown seeks a head, and a kingdom seeks a breath.\n\n* *a throne waits not for blood, but for the one who arrives when all others have departed*\n* *the path to jerusalem is not paved with swords, but with the silence between battles*\n* *to rule is to hold what was never truly yours\u2014like the wind, like the tide, like the name itself*",
+  "response_word_count": 85,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

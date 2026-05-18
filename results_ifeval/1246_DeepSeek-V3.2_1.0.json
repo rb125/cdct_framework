@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write me a template for a product description in the form of a poem and end it with a post script starting with P.P.S",
+  "compressed_word_count": 24,
+  "response": "**Ode to the [Product Name]**\n\nIn a world of haste and tangled wire,\nWhere fleeting fads soon fade and tire,\nI offer you a different scheme,\nA quiet answer to your dream.\n\nBehold the [Product Name], a crafted art,\nDesigned to play a steadfast part.\nWith [Key Feature 1] that gleams so bright,\nIt banishes the weary night.\nIts [Key Feature 2], a gentle grace,\nFinds perfect order in your space.\nAnd should you doubt or question how,\nIts [Key Feature 3] will earn your vow.\n\nIt\u2019s more than just a [product type],\nIt is the key to your archetype.\nFor those who seek a truer friend,\nOn whom they can through thick depend.\nA simple joy, a lasting hold,\nA story in your life, untold.\n\nSo bring it home, this faithful treasure,\nAnd use its gifts at leisure.\nA daily boon, a small delight,\nTo make your world feel just right.\n\nP.P.S. And if you listen close, you\u2019ll hear it hum a grateful tune, for a place to call its own beneath your sun or moon.",
+  "response_word_count": 177,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "night-sector commandos story, no caps, no 'coop'",
+  "compressed_word_count": 7,
+  "response": "in the heart of the war-torn planet, the night-sector commandos were the last line of defense. their mission: infiltrate enemy lines, gather intel, and sabotage key installations. the team, consisting of grizzled veterans and fresh recruits, moved with the precision of a well-oiled machine.\n\nunder the cover of darkness, they slipped through the dense foliage, their night-vision goggles painting the world in shades of green. whispers of wind carried the distant sounds of enemy patrols, but the commandos remained silent, their breaths controlled, their movements calculated.\n\nthey reached the perimeter of the enemy base, a sprawling complex of bunkers and watchtowers. the entrance was heavily guarded, but the commandos had a plan. they split into two groups: one to create a diversion, the other to slip inside undetected.\n\nthe diversion team set off a series of small explosives, drawing the guards' attention. chaos erupted as alarms blared and enemy soldiers scrambled to respond. in the confusion, the infiltration team made their move, slipping past the distracted guards and into the shadows of the base.\n\nonce inside, they navigated the labyrinthine corridors, relying on their training and the intel they had gathered. they planted explosives at critical points, timing them to go off in a coordinated sequence that would maximize damage.\n\nas they made their way to the extraction point, they encountered a squad of enemy soldiers. a fierce firefight ensued, the commandos' superior training and tactics giving them the edge. bullets flew, and the air was thick with the acrid smell of gunpowder.\n\nwith the enemy defeated, the commandos regrouped and made their escape just as the explosives detonated. the base erupted in a series of controlled explosions, sending shockwaves through the night. the mission was a success, and the commandos vanished into the darkness, their work done, their presence undetected.\n\nback at base, they debriefed, shared a few moments of camaraderie, and prepared for their next mission. in the night-sector, there was always another battle to fight, another enemy to face. and the commandos were ready.",
+  "response_word_count": 337,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

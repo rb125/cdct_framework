@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "draft resume for first-job seeker, include 12 placeholders: [name], [address], etc.",
+  "compressed_word_count": 11,
+  "response": "Certainly! Below is a draft resume for a first-job seeker. I've included 12 placeholders for personal and professional information.\n\n---\n\n**[Name]**  \n[Address]  \n[City, State, ZIP Code]  \n[Phone Number]  \n[Email Address]  \n[LinkedIn Profile] (Optional)  \n\n---\n\n**Objective**  \nDedicated and enthusiastic [Name] seeking an entry-level position at [Company Name]. Eager to leverage strong communication skills, a positive attitude, and a commitment to learning in a professional environment.  \n\n---\n\n**Education**  \n**[High School Name]**, [City, State]  \nHigh School Diploma, [Month, Year of Graduation]  \n- Relevant Coursework: [Course 1], [Course 2], [Course 3]  \n- Achievements: [Any awards, honors, or notable accomplishments]  \n\n---\n\n**Skills**  \n- **Communication:** Strong verbal and written communication skills  \n- **Teamwork:** Proven ability to work effectively in team environments  \n- **Time Management:** Skilled at prioritizing tasks and meeting deadlines  \n- **Computer Proficiency:** Familiar with Microsoft Office Suite (Word, Excel, PowerPoint)  \n- **Customer Service:** Basic understanding of customer service principles  \n\n---\n\n**Experience**  \n\n**[Volunteer Position]**  \n[Organization Name], [City, State]  \n[Month, Year] \u2013 [Month, Year]  \n- Assisted with [specific tasks or responsibilities]  \n- Supported [specific events or projects]  \n- Developed [specific skills or knowledge]  \n\n---\n\n**Extracurricular Activities**  \n- **[Club or Organization Name]**, [Role], [Month, Year] \u2013 [Month, Year]  \n  - [Brief description of your involvement and any leadership roles]  \n- **[Sport or Activity]**, [Team/Group Name], [Position], [Month, Year] \u2013 [Month, Year]  \n  - [Brief description of your involvement and any achievements]  \n\n---\n\n**Certifications**  \n- **[Certification Name]**, [Issuing Organization], [Month, Year]  \n- **[Certification Name]**, [Issuing Organization], [Month, Year]  \n\n---\n\n**References**  \nAvailable upon request  \n\n---\n\nFeel free to replace the placeholders with your actual information and tailor the content to better fit your experiences and the job you're applying for.",
+  "response_word_count": 269,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

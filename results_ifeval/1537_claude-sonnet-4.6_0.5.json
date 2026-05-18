@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Describe tennis balls in medieval verse, P.P.S. modern materials.",
+  "compressed_word_count": 9,
+  "response": "# The Spheres of Woven Felt\n*In the manner of the alliterative tradition*\n\nHearken now to hollow orbs, how craftsmen shape them,\nWrought of rubber's bouncing breast, black and vulcanized,\nPressurized within, a prisoner of air,\nThat leapeth from the loom of earth with lively spring.\n\nThe felt that clads their compass, close and napped,\nOf nylon woven, wool entwined in wedded bond,\nTwo curved panels stitched in seam, a serpent's path,\nThat grippeth air and guideth flight through garden courts.\n\nYellow-green their hue, as heraldry demands,\nThat mortal eye may mark their motion, swift and true,\nAgainst the sky of summer, seen from stands afar,\nWhere thousands watch the warriors wield their rackets long.\n\nWithin their hollow heart, a breath of nitrogen,\nOr common air compressed to fourteen pounds of press,\nThat giveth them their virtue, vigor, bounce and life,\nUntil the pressure passeth forth and flatness comes.\n\n*Thus endeth the account of these most noble spheres,\nWhose lineage from wooden balls and leather hides\nHath risen through the ages unto modern craft,\nBy chemistry and commerce clothed in yellow felt.*\n\n---\n*Glossary for the modern reader: \"loom of earth\" \u2014 the court surface; \"warriors\" \u2014 professional players*",
+  "response_word_count": 199,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

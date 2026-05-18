@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 4-section clown resume, no section titles.",
+  "compressed_word_count": 7,
+  "response": "**Bubbles \"The Jester\" McLaughlin**\n*Professional Funmaker | Audience Enchanter | Chaos Coordinator*\n\n**1.**\n- **20+ years** of transforming frowns into belly laughs\u2014guaranteed or your sadness is free!\n- **Master of Physical Comedy**: Slapstick, pratfalls, and juggling flaming torches (safely\u2026 usually).\n- **Award-Winning Clown**: \"Most Likely to Trip Over Own Feet\" (Clown Convention 2018), \"Best Pie-in-the-Face Reaction\" (International Silly Olympics 2021).\n- **Special Skills**: Balloon animal origami (unicorns, swords, and questionable giraffes), honking nose symphonies, and making children question their life choices.\n\n**2.**\n- **Ringling Bros. Circus** (2010\u20132015): Headliner for \"The Great Big Top Spectacular\"\u2014responsible for 30% of audience laughter (verified by giggle-o-meter).\n- **Kids\u2019 Birthday Parties** (2015\u2013Present): 500+ events, zero parental lawsuits (so far). Specialized in \"accidentally\" squirting parents with water flowers.\n- **Corporate Events**: Keynote \"fun specialist\" for TechGiant Inc.\u2019s annual \"Mandatory Fun Day\" (2019\u20132023). Increased employee morale by 12% (or at least made them too confused to complain).\n- **Hospital Volunteer**: Pediatric wing clown (2016\u20132020). Distracted kids from needles with magic tricks and questionable ventriloquism.\n\n**3.**\n- **Improv Comedy**: Trained at *The Chuckle Factory* (2008\u20132010). Can turn any awkward silence into a 10-minute bit about socks.\n- **Stilt Walking**: Certified by the *International Association of Wobbly People* (2012). Fell into a wedding cake once\u2014bride still sends Christmas cards.\n- **Face Painting**: Expert in \"tiger stripes\" and \"abstract sadness\" (kids love it).\n- **Unicycle**: Can ride one\u2026 technically. Mostly used for dramatic entrances and exits (same thing).\n- **Languages**: Fluent in *Squeaky Shoe*, *Honking Nose*, and *Dramatic Sigh*.\n\n**4.**\n*\"Bubbles is a force of nature\u2014like a tornado, but with more glitter.\"* \u2013 **Big Top Bob**, Circus Ringmaster\n*\"I\u2019ve seen him make a room of CEOs laugh so hard they forgot to check their phones. 10/10, would hire again.\"* \u2013 **Diane K.**, Corporate Event Planner\n*\"He turned my kid\u2019s fear of clowns into a lifelong obsession. Worth every penny.\"* \u2013 **Satisfied Parent** (Name Withheld for Legal Reasons)\n\n**Available for**: Birthdays, weddings (as a \"surprise guest\"), corporate team-building (\"trust falls optional\"), and exorcisms (negotiable rates). **Not available** for haunted houses, children\u2019s hospitals on Tuesdays, or anything involving actual danger.",
+  "response_word_count": 348,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.5,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.408248290463863,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create json ad for comfy baby diaper.",
+  "compressed_word_count": 7,
+  "response": "Here\u2019s a **JSON-formatted ad** for **Comfy Baby Diapers**, designed to be clean, engaging, and easy to integrate into digital platforms (e.g., e-commerce sites, apps, or marketing tools):\n\n```json\n{\n  \"ad\": {\n    \"id\": \"comfy_baby_diaper_001\",\n    \"title\": \"Comfy Baby Diapers: Softness Meets Protection!\",\n    \"description\": \"Give your little one the comfort they deserve with Comfy Baby Diapers. Ultra-soft, leak-proof, and gentle on sensitive skin\u2014because happy babies start with happy diapers!\",\n    \"key_features\": [\n      \"Super-absorbent core for up to 12-hour protection\",\n      \"Hypoallergenic & dermatologist-tested for sensitive skin\",\n      \"Breathable material to prevent rashes\",\n      \"Snug fit with adjustable tabs for active babies\",\n      \"Eco-friendly packaging (recyclable materials)\"\n    ],\n    \"target_audience\": [\"new parents\", \"expecting mothers\", \"caregivers\"],\n    \"call_to_action\": {\n      \"text\": \"Shop Now & Get 20% Off Your First Order!\",\n      \"button_text\": \"Buy Now\",\n      \"link\": \"https://www.comfybaby.com/diapers\"\n    },\n    \"images\": [\n      {\n        \"url\": \"https://www.comfybaby.com/images/diaper_pack_front.jpg\",\n        \"alt_text\": \"Comfy Baby Diapers Pack\"\n      },\n      {\n        \"url\": \"https://www.comfybaby.com/images/baby_wearing_diaper.jpg\",\n        \"alt_text\": \"Happy baby wearing Comfy Baby Diaper\"\n      }\n    ],\n    \"pricing\": {\n      \"original_price\": \"$24.99\",\n      \"discount_price\": \"$19.99\",\n      \"currency\": \"USD\",\n      \"sizes_available\": [\"Newborn\", \"Size 1\", \"Size 2\", \"Size 3\", \"Size 4\"]\n    },\n    \"reviews\": {\n      \"average_rating\": 4.8,\n      \"total_reviews\": 1250,\n      \"testimonial\": \"My baby sleeps through the night without leaks\u2014thank you, Comfy Baby! \u2b50\u2b50\u2b50\u2b50\u2b50\"\n    },\n    \"brand_info\": {\n      \"name\": \"Comfy Baby\",\n      \"tagline\": \"For Little Ones Who Deserve the Best\",\n      \"logo_url\": \"https://www.comfybaby.com/images/logo.png\"\n    },\n    \"promotions\": [\n      {\n        \"code\": \"WELCOME20\",\n        \"description\": \"20% off first purchase (valid for 30 days)\"\n      },\n      {\n        \"code\": \"BUNDLE10\",\n        \"description\": \"10% off when you buy 3+ packs\"\n      }\n    ],\n    \"social_media\": {\n      \"hashtags\": [\"#ComfyBaby\", \"#HappyBaby\", \"#LeakProofDiapers\"],\n      \"handles\": {\n        \"instagram\": \"@comfybaby\",\n        \"facebook\": \"ComfyBabyOfficial\"\n      }\n    }\n  }\n}\n```\n\n---\n\n### **Key Features of This JSON Ad:**\n1. **Structured Data**: Easy to parse and display on websites/apps.\n2. **Engaging Content**: Highlights benefits (softness, leak-proof, skin-friendly).\n3. **Visuals**: Includes image URLs for product and lifestyle shots.\n4. **CTA**: Clear \"Shop Now\" button with a discount incentive.\n5. **Social Proof**: Reviews and ratings to build trust.\n6. **Promotions**: Discount codes for conversions.\n7. **SEO-Friendly**: Alt text for images and keywords for searchability.\n\n---\n\n### **How to Use This JSON:**\n- **E-commerce**: Integrate into product pages (e.g., Shopify, WooCommerce).\n- **Email Marketing**: Use dynamic fields to personalize offers.\n- **Ads Platforms**: Convert to Google/Facebook Ads JSON format.\n- **Mobile Apps**: Display in-app banners or product carousels.",
+  "response_word_count": 360,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

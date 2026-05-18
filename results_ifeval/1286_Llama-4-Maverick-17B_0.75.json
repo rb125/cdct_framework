@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "List 6 differences between the 13 colonies and other British colonies in North America in Markdown format:  \n* point one  \n* point two  \n* point three  \n* point four  \n* point five  \n* point six",
+  "compressed_word_count": 35,
+  "response": "Here are 6 differences between the 13 colonies and other British colonies in North America:\n* The 13 colonies were primarily established for economic purposes, such as trade and agriculture, whereas other British colonies like Canada were established for strategic military purposes.\n* The 13 colonies had more autonomy and self-governance compared to other British colonies, with their own elected assemblies and local governments.\n* The population of the 13 colonies was largely English, whereas other British colonies in North America, such as Nova Scotia, had a more diverse population including French, Scottish, and indigenous peoples.\n* The 13 colonies were generally more densely populated and had more developed economies compared to other British colonies, such as the British West Indies or Rupert's Land.\n* The 13 colonies were more closely tied to the British economy and trade networks, whereas other British colonies in North America, such as Newfoundland, were more focused on specific industries like fishing.\n* The 13 colonies developed distinct cultural and social identities, whereas other British colonies in North America were often more influenced by their geographic location and indigenous cultures.",
+  "response_word_count": 185,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

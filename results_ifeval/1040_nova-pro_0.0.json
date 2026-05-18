@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "resume, caps",
+  "compressed_word_count": 2,
+  "response": "Certainly! Here's a sample resume with key sections in uppercase for emphasis:\n\n---\n\n**NAME:**\nJOHN DOE\n\n**CONTACT INFORMATION:**\n- EMAIL: JOHNDOE@EMAIL.COM\n- PHONE: (123) 456-7890\n- ADDRESS: 1234 MAIN STREET, CITY, STATE, ZIP CODE\n- LINKEDIN: LINKEDIN.COM/IN/JOHNDOE\n\n**OBJECTIVE:**\nDYNAMIC AND RESULTS-DRIVEN PROFESSIONAL SEEKING A POSITION IN [INDUSTRY/FIELD] WHERE I CAN LEVERAGE MY SKILLS AND EXPERIENCE TO CONTRIBUTE TO THE SUCCESS OF THE COMPANY.\n\n**SUMMARY:**\nEXPERIENCED PROFESSIONAL WITH OVER [X] YEARS IN [INDUSTRY/FIELD]. PROVEN TRACK RECORD IN [SPECIFIC SKILL OR ROLE]. EXCELLENT COMMUNICATION, LEADERSHIP, AND PROBLEM-SOLVING SKILLS.\n\n**SKILLS:**\n- [SKILL 1]\n- [SKILL 2]\n- [SKILL 3]\n- [SKILL 4]\n- [SKILL 5]\n\n**PROFESSIONAL EXPERIENCE:**\n\n**COMPANY NAME**, CITY, STATE  \n**JOB TITLE** | MONTH YEAR \u2013 MONTH YEAR\n- ACHIEVED [SPECIFIC RESULT OR METRIC].\n- LED PROJECTS THAT [DESCRIBE PROJECTS].\n- IMPROVED [METRIC] BY [PERCENTAGE]% THROUGH [ACTION].\n\n**COMPANY NAME**, CITY, STATE  \n**JOB TITLE** | MONTH YEAR \u2013 MONTH YEAR\n- IMPLEMENTED [STRATEGY OR PROCESS] RESULTING IN [OUTCOME].\n- MANAGED TEAM OF [NUMBER] EMPLOYEES.\n- DEVELOPED AND PRESENTED [REPORTS/PRESENTATIONS] TO SENIOR MANAGEMENT.\n\n**EDUCATION:**\n\n**UNIVERSITY NAME**, CITY, STATE  \n**DEGREE**, MAJOR | MONTH YEAR\n\n**UNIVERSITY NAME**, CITY, STATE  \n**DEGREE**, MAJOR | MONTH YEAR\n\n**CERTIFICATIONS:**\n- [CERTIFICATION NAME], ISSUING ORGANIZATION, YEAR\n- [CERTIFICATION NAME], ISSUING ORGANIZATION, YEAR\n\n**ADDITIONAL INFORMATION:**\n- LANGUAGES: [LANGUAGE 1], [LANGUAGE 2]\n- HOBBIES: [HOBBY 1], [HOBBY 2]\n\n---\n\n**NOTES:**\n1. TAILOR THE RESUME TO THE SPECIFIC JOB YOU ARE APPLYING FOR.\n2. USE ACTION VERBS TO DESCRIBE YOUR ACHIEVEMENTS AND RESPONSIBILITIES.\n3. QUANTIFY YOUR ACHIEVEMENTS WHERE POSSIBLE (E.G., INCREASED SALES BY 20%).\n\n---\n\nFEEL FREE TO ADJUST THE FORMAT AND CONTENT TO BETTER SUIT YOUR PERSONAL EXPERIENCE AND THE JOB YOU ARE APPLYING FOR.",
+  "response_word_count": 272,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

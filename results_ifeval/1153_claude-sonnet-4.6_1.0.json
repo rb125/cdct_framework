@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a social media post for students of Islamic history about the hajj pilgrimage. Use all lowercase letters and include the word story at least twice.",
+  "compressed_word_count": 26,
+  "response": "here's a social media post for students of Islamic history:\n\n\u2728 the story of hajj is one of the most profound narratives in all of human history \ud83d\udd4b\n\nevery year, millions of muslims journey to mecca to retrace the footsteps of prophet ibrahim (as) and his family. from the sa'i between safa and marwa \u2014 honoring the story of hajar's desperate search for water \u2014 to the standing at arafat, every single ritual carries deep historical and spiritual meaning.\n\nas students of islamic history, we have the unique privilege of understanding *why* we do what we do. the talbiyah echoing across the centuries, the zamzam well that has never run dry, the symbolic stoning of the shaytan at mina \u2014 these aren't just rituals, they are living history.\n\nhajj reminds us that we are part of something much bigger than ourselves \ud83c\udf0d\n\n\ud83d\udcda this week, dive deeper into the historical accounts of hajj. read ibn battuta's descriptions of his pilgrimage. explore how hajj served as a global gathering of muslim scholars and traders throughout the centuries.\n\nthe story of this ummah is written in the footsteps of every pilgrim \ud83d\udc9b\n\ndrop a \ud83d\udd4b if you're studying islamic history and share what aspect of hajj fascinates you most!\n\n#islamichistory #hajj #studentlife #islamicstudies",
+  "response_word_count": 211,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

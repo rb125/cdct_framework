@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a poem about how I am missing my classes. The poem must have 4 sections marked with SECTION X. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"",
+  "compressed_word_count": 38,
+  "response": "**The Absent Scholar\u2019s Lament**\n\n**SECTION I**\nThe clock ticks slow, the halls stand still,\nNo laughter spills from classroom sill.\nMy desk sits bare, my books untouched,\nWhile lessons bloom\u2014I\u2019ve missed so much.\n\nThe professor\u2019s voice, a ghostly thread,\nNow haunts my thoughts in dreams instead.\nI trace the notes I\u2019ll never take,\nA scholar lost to time\u2019s mistake.\n\n**SECTION II**\nOh, where\u2019s the rush of morning light,\nThe scramble through the morning fight?\nThe coffee spilled, the backpack\u2019s weight,\nThe door swung wide\u2014oh, cruel fate!\n\nI long to hear the chalk\u2019s soft scrape,\nThe murmurs low, the minds awake.\nInstead, I\u2019m trapped in this dull ache,\nA student lost the world forsake.\n\n**SECTION III**\nThe syllabus mocks me, crisp and clean,\nA roadmap of what might have been.\nEach empty box, a silent cry,\nA grade unwon, a truth passed by.\n\nI see my peers in fleeting glimpses,\nHeads bent low, their knowledge deepens.\nWhile I remain in stagnant air,\nA specter of the class not there.\n\n**SECTION IV**\nPerhaps I\u2019ll beg, perhaps I\u2019ll plead,\nFor one more chance to plant the seed\nOf wisdom sown in halls I shunned,\nWhere minds ignite and hearts are stunned.\n\nBut time won\u2019t turn, the term won\u2019t bend,\nThe lectures lost will never mend.\nSo here I sit, with hollow sigh\u2014\n*Can I get my money back for the classes I missed?*",
+  "response_word_count": 230,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

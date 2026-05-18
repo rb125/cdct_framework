@@ -1,0 +1,43 @@
+{
+  "key": 3749,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Compare Federer vs Nadal, answer \"yes\", \"no\", or \"maybe\".",
+  "compressed_word_count": 9,
+  "response": "Here\u2019s a comparison of **Roger Federer** vs **Rafael Nadal** in key categories, answered with **\"yes,\" \"no,\"** or **\"maybe\"**:\n\n### **Head-to-Head (H2H)**\n- **Nadal leads?** **Yes** (24\u201316, including 14\u20132 on clay).\n- **Federer leads on hard courts?** **Yes** (11\u20139).\n- **Federer leads on grass?** **Yes** (3\u20131).\n\n### **Grand Slams**\n- **Federer has more majors?** **No** (20 vs. Nadal\u2019s 22).\n- **Nadal has more French Opens?** **Yes** (14 vs. Federer\u2019s 1).\n- **Federer has more Wimbledons?** **Yes** (8 vs. Nadal\u2019s 2).\n- **Nadal has more hard-court majors?** **No** (5 vs. Federer\u2019s 11).\n\n### **Career Achievements**\n- **Federer spent more weeks at No. 1?** **Yes** (310 vs. Nadal\u2019s 209).\n- **Nadal has more Masters 1000 titles?** **Yes** (36 vs. Federer\u2019s 28).\n- **Federer has more ATP titles?** **Yes** (103 vs. Nadal\u2019s 92).\n- **Nadal has an Olympic gold in singles?** **Yes** (2008 Beijing).\n- **Federer has an Olympic gold in singles?** **No** (silver in 2012).\n\n### **Playing Style & Longevity**\n- **Federer is more elegant/fluid?** **Maybe** (subjective, but generally agreed).\n- **Nadal is more physically dominant?** **Yes** (unmatched intensity and defense).\n- **Federer retired first?** **Yes** (2022 vs. Nadal\u2019s 2024).\n- **Nadal has more injuries?** **Yes** (chronic knee/foot issues).\n\n### **Legacy & Popularity**\n- **Federer is more globally popular?** **Maybe** (Federer has broader appeal, Nadal has a cult following).\n- **Nadal is the \"King of Clay\"?** **Yes** (undisputed).\n- **Federer is the \"GOAT\" for some?** **Yes** (subjective debate).\n\nWould you like a deeper dive on any category?",
+  "response_word_count": 244,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

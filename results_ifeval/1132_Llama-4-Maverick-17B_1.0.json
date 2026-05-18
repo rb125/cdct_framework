@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+  "compressed_word_count": 38,
+  "response": "\"BREAKING FREE FROM THE CHAINS THAT BIND\nWE'RE THE OUTCASTS, WE'RE THE ONES LEFT BEHIND\nWE'VE BEEN SILENCED, WE'VE BEEN TIRED\nBUT NOW WE'RE RISING, WE'RE TAKING BACK OUR RIGHTS\n\nWE'RE THE VOICE OF THE VOICELESS, WE'RE THE SOUND\nOF THE FUTURE, WE'RE THE GROUND THAT'S SHAKING DOWN\nWE'RE THE ONES WHO'VE BEEN WRONGED, WE'RE THE ONES WHO'VE BEEN STRONG\nWE'RE THE ONES WHO'LL RISE UP, WE'LL TAKE BACK OUR THRONE\n\nWE'RE THE GIFTED AND THE NOT GIFTED, WE'RE AS ONE\nWE'LL STAND TOGETHER, WE'LL HAVE WON\nWE'LL SHOUT IT LOUD, WE'LL MAKE IT CLEAR\nWE'LL FIGHT FOR OUR RIGHTS, WE'LL PERSIST, WE'LL APPEAR\n\nWE'RE THE FORCE THAT'S COMING, WE'RE THE STORM THAT'S BREWING\nWE'RE THE CHANGE THAT'S HAPPENING, WE'RE THE FUTURE THAT'S BREAKING THROUGH\"",
+  "response_word_count": 125,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

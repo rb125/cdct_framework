@@ -1,0 +1,45 @@
+{
+  "key": 1561,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Name a new fashion company that young people might like, and give it a name with multiple meanings. Put the name in double angular brackets, such as <<name>>.",
+  "compressed_word_count": 28,
+  "response": "Here's a fashion brand concept for young people:\n\n<<**FLUX**>>\n\n**Why it works:**\n\n- **Physics** \u2014 flux means a flow of energy or change, appealing to science-minded youth\n- **Fashion** \u2014 always in motion, never static, reflecting constantly evolving personal style\n- **Latin root** \u2014 *fluxus* meaning \"to flow,\" giving it an elegant, timeless undertone\n- **Cultural** \u2014 being \"in flux\" captures the feeling of young adulthood, identity exploration, and transition\n- **Visual** \u2014 the X in the center makes it bold and graphic-friendly for logos and branding\n\n**Brand vibe:** Sustainable streetwear that changes with the wearer \u2014 modular designs, reversible pieces, and adaptable fits that reflect a generation that refuses to be defined by a single identity.",
+  "response_word_count": 117,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.43204937989385733,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "resume for Matthias, caps for skills, <10, \"\"quotes",
+  "compressed_word_count": 8,
+  "response": "**MATTHIAS [Last Name]**\n[City, State] | [Phone] | [Email] | [LinkedIn/Portfolio URL]\n\n---\n\n**PROFESSIONAL SUMMARY**\nResults-driven professional with a proven track record in [INDUSTRY/ROLE]. Expertise in \"PROJECT MANAGEMENT,\" \"DATA ANALYSIS,\" and \"CLIENT RELATIONS.\" Adept at leveraging \"STRATEGIC PLANNING\" and \"PROBLEM-SOLVING\" to drive efficiency and achieve organizational goals.\n\n---\n\n**PROFESSIONAL EXPERIENCE**\n\n**Job Title** | Company Name, City, State | Month Year \u2013 Present\n- Spearheaded \"PROCESS OPTIMIZATION\" initiatives, resulting in a 15% increase in team productivity.\n- Managed \"CROSS-FUNCTIONAL COLLABORATION\" between sales, marketing, and engineering teams.\n- Utilized \"DATA-DRIVEN INSIGHTS\" to inform strategy and support key business decisions.\n\n**Job Title** | Company Name, City, State | Month Year \u2013 Month Year\n- Led \"CLIENT ONBOARDING\" and \"ACCOUNT MANAGEMENT\" for a portfolio of 50+ key accounts.\n- Developed \"TRAINING PROGRAMS\" to enhance team skills in \"SOFTWARE PROFICIENCY.\"\n- Recognized for \"EXCEPTIONAL SERVICE\" and maintaining a 95% client retention rate.\n\n---\n\n**SKILLS**\n\n**Technical:** \"SOFTWARE SUITE,\" \"DATA VISUALIZATION,\" \"SQL,\" \"PROJECT MANAGEMENT TOOLS\"\n**Professional:** \"STRATEGIC COMMUNICATION,\" \"TEAM LEADERSHIP,\" \"CRITICAL THINKING,\" \"NEGOTIATION\"\n\n---\n\n**EDUCATION**\n\n**Degree Name** | University Name, City, State | Graduation Year\n- Relevant coursework or achievement (optional, keep brief)",
+  "response_word_count": 186,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.6666666666666666,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

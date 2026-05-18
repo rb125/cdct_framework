@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Draft 4-section resume for clown Phil Larkin, label each section X.",
+  "compressed_word_count": 11,
+  "response": "# Resume: Phil Larkin, Professional Clown\n\n---\n\n## X.1 \u2014 PERSONAL PROFILE\n\nEnergetic and versatile professional clown with over 15 years of experience entertaining audiences of all ages. Known for signature slapstick routines, balloon artistry, and an infectious comedic presence. Committed to delivering safe, inclusive, and memorable performances at every engagement.\n\n---\n\n## X.2 \u2014 SKILLS & SPECIALIZATIONS\n\n- Balloon twisting and sculpting (animals, hats, swords)\n- Juggling (balls, clubs, and rings \u2014 up to 7 objects)\n- Physical comedy and pratfall choreography\n- Face painting and theatrical makeup application\n- Unicycle riding and stilt walking\n- Crowd engagement and audience improvisation\n\n---\n\n## X.3 \u2014 PROFESSIONAL EXPERIENCE\n\n**Lead Performer \u2014 Giggle Factory Entertainment** *(2015\u2013Present)*\nHeadlined over 500 birthday parties, corporate events, and school festivals annually across the tri-state area.\n\n**Resident Clown \u2014 Sunshine Circus Troupe** *(2010\u20132015)*\nPerformed in live touring productions before audiences of up to 2,000 guests per show.\n\n---\n\n## X.4 \u2014 EDUCATION & CERTIFICATIONS\n\n- **Diploma in Performing Arts** \u2014 Ringling College, 2009\n- **Child Safety & First Aid Certified** \u2014 Red Cross, renewed 2023\n- **Advanced Clown Training** \u2014 Clown Camp USA, Wisconsin, 2010\n\n---\n\n*References and performance reel available upon request.*",
+  "response_word_count": 197,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

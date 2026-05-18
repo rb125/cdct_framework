@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "weird resume for coffee job, two SECTIONs, bullet points",
+  "compressed_word_count": 9,
+  "response": "**SECTION ONE: Caffeine-Based Qualifications**\n\n*   Proficient in the ancient art of \"The Pour Over,\" approaching each cup with a reverence typically reserved for holy relics.\n*   Can identify a slightly sour extraction at 20 paces, attributing it to under-ripe beans with a dramatic, mournful sigh.\n*   Operate an espresso machine with the intense focus and precise hand movements of a bomb disposal technician.\n*   Have developed a personal taxonomy of customer grumpiness, ranging from \"Pre-Coffee Gremlin\" to \"Mildly Agitated Otter.\"\n*   Believe milk-steaming is less a skill and more an emotional journey, seeking to create microfoam so velvety it could counsel a troubled vicar.\n\n**SECTION TWO: Auxiliary & Unusual Skills**\n\n*   Can restock beans while simultaneously maintaining prolonged, unblinking eye contact with a decaf customer, as a form of silent, respectful protest.\n*   Expert in translating the cryptic, pre-coffee grunts of regulars into specific, complex orders (e.g., \"Ughnnn\" = large oat milk cortado, extra hot, in a for-here mug).\n*   Possess a \"Barista's Sixth Sense\" for knowing exactly when someone is about to ask for the Wi-Fi password, often handing it to them before they open their mouth.\n*   Trained in the delicate diplomacy of explaining why a \"Caramel Macchiato Frappuccino\" is not, in fact, something we do or will ever acknowledge.\n*   Can wipe down a counter with a flourish so satisfying it has been known to trigger spontaneous applause from elderly patrons.",
+  "response_word_count": 234,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+  "compressed_word_count": 38,
+  "response": "(VERSES)\nI GOT A PHD IN MISERY\nYOU GOT A CERTIFICATE IN BLAME\nWE\u2019RE A PERFECT SYMMETRY\nPLAYING THE SAME OLD GAME\nYOU SCREAM YOUR POETRY\nI GRUNT MY MONOSYLLABIC NAME\nA BEAUTIFUL CATASTROPHY\nAND WE AIN\u2019T TAKING ANY SHAME\n\n(CHORUS)\nWE ARE THE GIFTED AND THE NOT!\nA FIERY, CLASHING LOT!\nBURNING BRIDGES, TAKING SHOTS!\nTHE GIFTED AND THE NOT!\nYEAH!\n\n(SOLO - SCREECHING GUITAR, POUNDING DRUMS)\n\n(VERSES)\nYOU PAINT THE SISTINE CEILING\nI SPILL THE BEER ON THE FLOOR\nSAME VOLCANIC FEELING\nKICKING DOWN THE DOOR\nYOU CALCULATE THE MEANING\nI JUST WANT TO ROAR\nTWO HALVES OF A BROKEN THING\nSCREAMING OUT FOR MORE\n\n(CHORUS)\nWE ARE THE GIFTED AND THE NOT!\nA FIERY, CLASHING LOT!\nBURNING BRIDGES, TAKING SHOTS!\nTHE GIFTED AND THE NOT!\nYEAH!\n\n(BRIDGE)\nTHE SCHOLAR AND THE SAVAGE\nTHE FLAME AND THE SMOKE\nA SYMPHONY OF DAMAGE\nTHE FINAL JOKE\nWE CRACK THE FOUNDATION\nWITH EVERY WORD WE SAY\nTHIS GLORIOUS COLLISION\nWON\u2019T FADE AWAY!\n\n(OUTRO)\nGIFTED! NOT!\nGIFTED! NOT!\nSMASH THE CLOCK!\nNEVER STOP!\nGIFTED! NOT!\nGIFTED! NOT!\nSCREAM IT LOUD UNTIL WE DROP!\nYEAHHHHHHHH!",
+  "response_word_count": 183,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

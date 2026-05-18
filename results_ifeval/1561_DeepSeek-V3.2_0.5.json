@@ -1,0 +1,45 @@
+{
+  "key": 1561,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Name a new fashion company that young people might like, and give it a name with multiple meanings. Put the name in double angular brackets, such as <<name>>. \n\n<<brand with layered meanings for youth>>.",
+  "compressed_word_count": 34,
+  "response": "**Company Concept:** A gender-neutral, sustainable streetwear brand that uses augmented reality (AR) filters and interactive elements in its clothing tags and designs. The clothes are minimalist in real life but come alive digitally.\n\n**Chosen Name:** <<Ocular>>\n\n**Layered Meanings:**\n\n1.  **Relating to the Eye/Sight:** Directly connects to the brand's AR focus\u2014viewing the digital layer through a lens (phone camera).\n2.  **Perceived or Revealed:** Suggests that true style and identity are not just what's on the surface but are revealed through interaction and personal expression.\n3.  **A Play on \"Vocal\":** Sounds like \"vocal,\" implying the brand and its wearers have a strong, modern voice and make a statement.\n4.  **Scientific/Medical Edge:** Sounds sleek, technical, and intelligent, appealing to a generation that values innovation and knowledge.",
+  "response_word_count": 123,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

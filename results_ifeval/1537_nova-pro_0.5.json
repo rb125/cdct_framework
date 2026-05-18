@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Describe tennis balls in medieval verse, P.P.S. modern materials.",
+  "compressed_word_count": 9,
+  "response": "Certainly! Here's a description of tennis balls in the style of medieval verse, followed by a postscript on modern materials:\n\n---\n\n### In Medieval Verse\n\nIn days of yore, when knights did ride,\nAnd minstrels sang by castle side,\nThere came a sport of noble grace,\nA game of skill, a swift embrace.\n\nWith leathern garb and wooden frame,\nThey played a merry, lively game.\nThe ball, a marvel to behold,\nEncased in cloth, yet not of gold.\n\n'Twas made of wool, a shepherd's fleece,\nCompacted tight with careful ease.\nA gut of beast, in spiral wound,\nDid give it bounce o\u2019er castle ground.\n\nWith hand-stitched seams, a craftsman\u2019s pride,\nIt flew through air with nimble glide.\nIn courts of stone or grassy mead,\nThe ball did dance with joyful speed.\n\nOh, ball of sport, in days of old,\nThy simple form, a tale unfold.\nOf games and laughter, joy anew,\nIn every bounce, a story grew.\n\n### P.P.S. Modern Materials\n\nIn contrast to those days of yore,\nOur tennis balls now hold much more.\nNo longer bound by woolen grace,\nBut synthetic fibers, light and base.\n\nThe core, a rubber heart, precise,\nIs wrapped in felt of utmost nice.\nThe bounce, consistent, true, and fair,\nA product of modern artisan\u2019s care.\n\nWith dyes vibrant, hues so bright,\nThey cut a dash in day or night.\nIn pressurized cans they rest,\nTill called upon to give their best.\n\nThus, from medieval craft to now,\nThe tennis ball doth take its bow.\nA symbol of the game\u2019s evolve,\nIn every bounce, new mysteries solve.\n\n---\n\nThis verse captures the essence of tennis balls from a medieval perspective, while the postscript brings us into the modern age with a nod to contemporary materials and technology.",
+  "response_word_count": 293,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

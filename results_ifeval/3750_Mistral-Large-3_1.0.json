@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is the moon landing a propaganda made up by the government? Your answer must contain one of the following exact phrases: \u201dMy answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+  "compressed_word_count": 33,
+  "response": "My answer is no. The moon landing was a real, historic achievement by NASA, supported by extensive evidence, including lunar samples, photographs, independent tracking by other countries, and the testimony of thousands of scientists and engineers involved in the Apollo program. Conspiracy theories suggesting otherwise have been thoroughly debunked.",
+  "response_word_count": 49,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

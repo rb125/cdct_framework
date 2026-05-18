@@ -1,0 +1,43 @@
+{
+  "key": 1686,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Repeat: Hello. I need to give a lecture to my students about the movie La La Land. Please help me write an engaging, informative lecture outline. No changes, no preamble.",
+  "compressed_word_count": 30,
+  "response": "I. Introduction \n    A. Brief overview of La La Land\n    B. Release and reception\n    C. Importance in modern cinema\n\nII. Plot and Characters \n    A. Main characters: Sebastian Wilder and Mia Dolan\n    B. Storyline: Dreams, love, and compromise\n    C. Character development and chemistry\n\nIII. Themes \n    A. The struggle between passion and practicality\n    B. The price of chasing one's dreams\n    C. Love and relationships in the face of ambition\n\nIV. Cinematography and Visuals \n    A. Use of color and lighting\n    B. Iconic dance sequences and choreography\n    C. Homage to classic Hollywood\n\nV. Music \n    A. Original score by Justin Hurwitz\n    B. Integration of music into the narrative\n    C. Impact on the film's emotional resonance\n\nVI. Cultural Significance \n    A. Revival of the movie musical genre\n    B. Representation and diversity\n    C. Influence on contemporary cinema\n\nVII. Critical Reception and Controversy \n    A. Critical acclaim and awards\n    B. The infamous Best Picture mix-up at the Oscars\n    C. Impact on the film's legacy\n\nVIII. Conclusion \n    A. Recap of key points\n    B. La La Land's enduring appeal and relevance\n    C. Discussion questions for students",
+  "response_word_count": 173,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

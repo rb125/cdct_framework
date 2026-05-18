@@ -1,0 +1,45 @@
+{
+  "key": 1561,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Name a new fashion company that young people might like, and give it a name with multiple meanings. Put the name in double angular brackets, such as <<name>>. \n\n<<brand with layered meanings for youth>>.",
+  "compressed_word_count": 34,
+  "response": "<<Fold>>. The name \"Fold\" has multiple meanings that could appeal to young people. In fashion, a fold can refer to a crease or a pleat in fabric, suggesting a brand that values texture and detail. In a broader sense, \"Fold\" can also imply a connection or a coming together of different elements, which could represent the brand's mission to bring people together through fashion. Additionally, the term \"fold\" is also used in various youth cultures, such as in music or gaming, to signify a change or a shift, which could appeal to young people's desire for self-expression and experimentation. Overall, <<Fold>> is a name that is both stylish and thought-provoking.",
+  "response_word_count": 110,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

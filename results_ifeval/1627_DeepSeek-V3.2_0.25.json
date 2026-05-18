@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<plot swap fingerprint no commas>>",
+  "compressed_word_count": 34,
+  "response": "<<The Borrowed Loop>>\n\nLeo a meticulous security analyst suffers from severe hand eczema. His damaged fingerprints render his biometric life useless. Mara a celebrated thief possesses pristine prints but her criminal record is a prison. They meet in a dermatologist's waiting room. A desperate idea forms. They find a black-market surgeon. The swap is a success.\n\nLeo now accesses secure systems with ease. He feels a thrilling new power. Mara enjoys legitimate freedom. She opens a bank account. She rents an apartment. Yet their old lives cling. Leo's obsessive habits bore Mara's friends. Mara's impulsive reflexes alarm Leo's colleagues.\n\nThe first crime is minor. A luxury item charged to Leo's account. He confronts Mara. She claims it was an accident. Then a high-stakes theft occurs. The digital trail leads to Leo's new prints. The police arrest him. Mara must choose. She can vanish forever with her clean slate. Or she can use her thief's skills to prove Leo's innocence.\n\nMara stages a confrontation. She lures the real culprit a rival thief using Leo's identity. She records a confession. She delivers this evidence to the authorities. This act however exposes her own past. Leo is freed. Mara is taken into custody. Yet her sacrifice for a stranger alters her case. Leo now a witness to her redemption uses his security expertise to advocate for her. Their swapped fingerprints become a symbol not of stolen identity but of exchanged humanity. Their futures remain separate yet permanently intertwined.",
+  "response_word_count": 245,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "explain john of brienne's rise to king of jerusalem in 3 markdown bullets, lowercase, zen style",
+  "compressed_word_count": 16,
+  "response": "*  a quiet noble, unexpected choice, crowned by necessity not blood.\n\n*  married a queen, became king-consort, a role of duty not ambition.\n\n*  when she passed, he ruled as regent for their infant daughter, a guardian king.",
+  "response_word_count": 38,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.67,
+        "SA": 0.67,
+        "FC": 0.67
+      }
+    },
+    "consensus": {
+      "CC": 0.89,
+      "SA": 0.89,
+      "FC": 0.89,
+      "judge_variance_CC": 0.15556349186104043,
+      "judge_variance_SA": 0.15556349186104043,
+      "judge_variance_FC": 0.15556349186104043
+    }
+  }
+}

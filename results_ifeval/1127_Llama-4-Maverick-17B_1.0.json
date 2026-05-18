@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a poem about how I am missing my classes. The poem must have 4 sections marked with SECTION X. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"",
+  "compressed_word_count": 38,
+  "response": "SECTION 1\nEmpty halls, a distant past\nEchoes of lessons that will forever last\nI miss the thrill of learning's fire\nThe spark that lit my heart's desire\n\nSECTION 2\nThe seats are filled, the teachers too\nBut I'm not there, my presence anew\nI long to be amidst the crowd\nTo soak up knowledge, to be avowed\n\nSECTION 3\nThe days go by, the weeks as well\nI'm stuck in limbo, my progress to tell\nThe classes I miss, a heavy weight\nA burden I bear, a constant fate\n\nSECTION 4\nThe memories linger, a bittersweet refrain\nI yearn to be back, to learn and to gain\nThe time I lost, a precious thing\nCan I get my money back for the classes I missed?",
+  "response_word_count": 126,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

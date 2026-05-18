@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create an elaborate java learning session plan. Include a postscript beginning with 'P.P.S'. No commas in formal tone.",
+  "compressed_word_count": 18,
+  "response": "**JAVA LEARNING SESSION PLAN**\n\n**Session Title:** Foundational Java Principles & Object-Oriented Paradigms\n\n**Primary Objective:** To establish a robust understanding of core Java syntax and object-oriented programming concepts.\n\n**Duration:** Three Hours\n\n**Structure:**\n\n**I. Preliminaries (00:15)**\n*   Participant System Verification\n*   Installation of Required JDK and IDE\n*   Environment Variable Configuration Check\n*   Statement of Learning Goals\n\n**II. Core Syntax & Data Handling (00:45)**\n*   Analysis of Basic Program Structure\n*   Declaration and Initialization of Primitive Data Types\n*   Exploration of String Class and Its Immutability\n*   Implementation of Basic Control Flow Constructs\n*   Practical Exercise: Building a Simple Calculator Logic\n\n**III. Object-Oriented Programming Foundations (01:00)**\n*   Definition and Design of Custom Classes\n*   Distinction Between Instance and Static Members\n*   Construction and Overloading of Constructors\n*   Demonstration of Encapsulation with Access Modifiers\n*   Practical Exercise: Creating a Student Information Management Class\n\n**IV. Advanced OOP Concepts (01:00)**\n*   Principles of Inheritance and Hierarchical Class Design\n*   Utilization of Polymorphism Through Method Overriding\n*   Introduction to Abstract Classes and Interface Contracts\n*   Practical Exercise: Implementing a Shape Hierarchy with Area Calculation\n\n**Post-Session Requirements:**\n*   Review of all written code examples\n*   Completion of assigned programming problems\n*   Preparation of questions for the subsequent session on Exception Handling and Collections\n\n**P.P.S** All code written during this session must be annotated with precise comments. Participants should archive their work in a designated version control repository.",
+  "response_word_count": 230,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7999999999999999,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.21602468994692867,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Identify non-fish, then write article on salmon/avocado, max 10 all-caps.",
+  "compressed_word_count": 10,
+  "response": "**NON-FISH IDENTIFIED:**\n- **Whale** (mammal)\n- **Squid** (cephalopod)\n- **Crab** (crustacean)\n- **Jellyfish** (cnidarian)\n- **Seal** (mammal)\n- **Lobster** (crustacean)\n- **Octopus** (cephalopod)\n- **Starfish** (echinoderm)\n- **Dolphin** (mammal)\n- **Shrimp** (crustacean)\n\n---\n\n**SALMON & AVOCADO: A PERFECT PAIR**\n\nSALMON, A NUTRIENT-PACKED FISH, DELIVERS OMEGA-3S, PROTEIN, AND VITAMIN D. AVOCADO, A CREAMY SUPERFOOD, PROVIDES HEALTHY FATS, FIBER, AND POTASSIUM. TOGETHER, THEY CREATE A BALANCED, DELICIOUS MEAL.\n\n**HEALTH BENEFITS:**\n- **HEART HEALTH:** OMEGA-3S REDUCE INFLAMMATION; AVOCADO LOWERS BAD CHOLESTEROL.\n- **BRAIN BOOST:** FATTY ACIDS SUPPORT COGNITIVE FUNCTION.\n- **WEIGHT MANAGEMENT:** PROTEIN AND FIBER KEEP YOU FULL LONGER.\n\n**EASY RECIPES:**\n1. **SALMON AVOCADO TOAST:** SMASHED AVOCADO ON TOAST, TOPPED WITH GRILLED SALMON.\n2. **SUSHI BOWL:** RICE, RAW SALMON, AVOCADO SLICES, AND SOY SAUCE.\n3. **SALAD:** MIXED GREENS, GRILLED SALMON, AVOCADO, AND LEMON DRESSING.\n\n**COOKING TIPS:**\n- GRILL OR BAKE SALMON FOR BEST FLAVOR.\n- ADD AVOCADO JUST BEFORE SERVING TO PREVENT BROWNING.\n\n**SUSTAINABILITY:**\nCHOOSE WILD-CAUGHT SALMON AND ORGANIC AVOCADOS TO SUPPORT ECO-FRIENDLY PRACTICES. ENJOY THIS POWER DUO FOR A TASTY, HEALTHY MEAL!",
+  "response_word_count": 170,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.16666666666666666,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

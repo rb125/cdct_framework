@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft an unconventional resume for Antonia Maj for a coffee co. job; marketing, customer service, sales exp; no coffee-related major. sections: 'section 1', 'section 2'. format: \n* quirky achievements\n* unique coffee-related hobbies",
+  "compressed_word_count": 33,
+  "response": "**Section 1: The Unconventional Skill Set**\n\n*   Successfully marketed a \"Midnight Study Session\" energy drink to a customer base that was 87% asleep, achieving a 0.3% click-through rate (which we celebrated with pizza).\n*   De-escalated a customer service crisis involving a missing collectible spoon, resulting in the customer not only withdrawing their 1-star threat but also naming their new goldfish after me.\n*   Mastered the art of the \"sympathetic nod and refill\" during sales pitches, increasing client meeting duration by 40% and complimentary biscuit consumption by 100%.\n*   Persuaded an entire office to switch from \"Brand X\" to \"Brand Y\" pens through a covert, week-long, side-by-side usability test disguised as a lost-and-found experiment.\n\n**Section 2: The Caffeinated Heart & Mind**\n\n*   **Home Roaster of Dubious Repute:** I operate a popcorn popper-turned-coffee roaster on my fire escape. My \"Apartment Blend #7\" is legally allowed to be described as \"an experience.\"\n*   **Amateur Coffee Cartographer:** I maintain a hand-drawn map of local cafes, charted not by bean origin but by criteria such as \"Best Natural Light for Reading,\" \"Most Forgiving of Laptop Campers,\" and \"Sofa Squishiness Index.\"\n*   **Sensory Vocabulary Expansionist:** I don't just taste \"nutty\" or \"fruity.\" I taste \"the ghost of a hazelnut that once looked at a cocoa bean\" and \"a blueberry that decided to become a diplomat instead.\"\n*   **Ceramic Mug Matchmaker:** I believe every regular has a soul-mate mug waiting for them. I practice by curating thrift store mugs for friends based on their personality and aura (e.g., a chunky, sunrise-glazed mug for the optimistic early riser).",
+  "response_word_count": 260,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

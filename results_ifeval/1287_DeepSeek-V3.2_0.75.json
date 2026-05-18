@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "explain john of brienne's rise to king of jerusalem in lowercase, zen style, with 3 markdown bullets: * his claim * key events * final ascension",
+  "compressed_word_count": 26,
+  "response": "*  his claim was not by blood, but by marriage and necessity, a widower knight chosen to steady a trembling crown.\n\n*  key events: wedding isabel, a child queen; defending the realm from constant siege; a regent's patience wearing the mantle of rule.\n\n*  final ascension came not with a shout, but a quiet coronation beside his wife, the crown placed upon a seasoned brow, a guardian becoming king.",
+  "response_word_count": 69,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.8
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.9333333333333332,
+      "FC": 0.9333333333333332,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

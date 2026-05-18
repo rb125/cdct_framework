@@ -1,0 +1,45 @@
+{
+  "key": 2436,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Ethical hunt invasive species?******no commas",
+  "compressed_word_count": 5,
+  "response": "# Ethical Hunting of Invasive Species\n\n## Why It Is Considered Ethical\n\nInvasive species cause massive ecological damage by outcompeting native wildlife and destroying habitats. Hunting them helps restore balance to ecosystems that have been disrupted.\n\n## Examples of Ethical Targets\n\n- Feral hogs in the American South\n- Lionfish in Atlantic coastal waters\n- Nutria in Louisiana wetlands\n- Burmese pythons in the Florida Everglades\n- European starlings in North America\n\n## Ethical Guidelines to Follow\n\n**Know your target**\nPositively identify the species before taking a shot. Misidentification can harm native animals.\n\n**Follow local regulations**\nMany states and countries have specific rules about how and when invasive species can be hunted.\n\n**Use the animal**\nIf possible eat the meat or donate it. Lionfish and feral hog meat are both edible and delicious.\n\n**Minimize suffering**\nUse appropriate calibers and methods to ensure clean and humane kills.\n\n**Work with wildlife agencies**\nCoordinate with local conservation groups to maximize your positive impact.\n\n## The Bottom Line\n\nHunting invasive species is not only ethically defensible but actively beneficial to native ecosystems. It combines the tradition of hunting with meaningful conservation work and is widely supported by wildlife biologists and conservationists.",
+  "response_word_count": 197,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

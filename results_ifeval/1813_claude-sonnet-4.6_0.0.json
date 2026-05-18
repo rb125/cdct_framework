@@ -1,0 +1,45 @@
+{
+  "key": 1813,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "essay, 30 words",
+  "compressed_word_count": 3,
+  "response": "Here is a 30-word essay:\n\n**The Power of Kindness**\n\nKindness is a simple yet powerful force. A single act of compassion can transform someone's day, inspire others, and create a ripple effect that changes the world forever.",
+  "response_word_count": 37,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

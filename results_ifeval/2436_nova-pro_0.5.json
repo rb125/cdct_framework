@@ -1,0 +1,45 @@
+{
+  "key": 2436,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "respond to \"is hunting invasive species ethical?\" with two views******no commas",
+  "compressed_word_count": 11,
+  "response": "View 1: Hunting invasive species is ethical as it helps control their population and mitigate the damage they cause to native ecosystems. Invasive species often outcompete native species for resources leading to declines in biodiversity. By reducing the numbers of invasive species hunters can help restore balance to ecosystems and protect native wildlife. Additionally hunting can be a practical and cost-effective method of managing invasive species especially in areas where other control methods are not feasible.\n\nView 2: Hunting invasive species is unethical as it involves killing animals for human convenience rather than for necessity or conservation purposes. Invasive species are often the result of human actions such as introduction for trade or accidental release and it is argued that humans have a responsibility to find non-lethal solutions to manage them. Additionally hunting can sometimes lead to unintended consequences such as disrupting ecosystems further or causing suffering to the animals being hunted. Alternative methods such as trapping sterilization or habitat modification should be considered as more ethical approaches to managing invasive species.",
+  "response_word_count": 172,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

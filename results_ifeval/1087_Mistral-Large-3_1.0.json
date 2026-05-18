@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a detailed review of the movie \"The Social Network\". Your entire response should be in English and all lower case (no capital letters whatsoever).",
+  "compressed_word_count": 25,
+  "response": "the social network (2010) is, without a doubt, one of the most sharply written and brilliantly executed films of the 21st century. directed by david fincher and written by aaron sorkin, the movie is a masterclass in storytelling, dialogue, and character study. it\u2019s not just a film about the creation of facebook\u2014it\u2019s a modern greek tragedy about ambition, betrayal, loneliness, and the cost of genius.\n\nthe film opens with a bang: mark zuckerberg (jesse eisenberg) and his girlfriend erica albright (rooney mara) in a crowded bar, engaged in a rapid-fire, sorkin-esque conversation that feels like a verbal boxing match. the dialogue is razor-sharp, packed with wit, subtext, and barely concealed hostility. within minutes, mark is dumped, and the humiliation fuels his next move\u2014hacking into harvard\u2019s student directories to create \"facemash,\" a website that pits female students against each other in a \"hot or not\" ranking. this sequence is electric, with eisenberg delivering a performance that\u2019s both magnetic and deeply unsettling. he plays mark as a genius who\u2019s also socially stunted, a guy who speaks in machine-gun bursts of logic but can\u2019t read basic human emotions.\n\nfrom there, the film unfolds like a legal thriller, cutting between two timelines: the creation of facebook (originally \"thefacebook\") in 2003-2004 and the depositions years later, where mark faces lawsuits from his former best friend eduardo saverin (andrew garfield) and the winklevoss twins (armie hammer, with josh pensa doubling for the scenes where both twins appear). the structure is clever, keeping the audience engaged as the story jumps between past and present, revealing how friendships unravel and alliances shift.\n\njesse eisenberg\u2019s performance is nothing short of extraordinary. he disappears into mark zuckerberg, capturing his awkwardness, his arrogance, and his quiet desperation to be liked\u2014or at least respected. eisenberg\u2019s mark is a guy who builds an empire not out of malice, but out of a need to prove something to himself and the world. it\u2019s a complex, often unlikable character, but eisenberg makes him fascinating to watch. andrew garfield, in one of his best roles, plays eduardo as the heart to mark\u2019s brain\u2014a loyal, warm, but ultimately naive friend who gets steamrolled by mark\u2019s ambition. their friendship, and its eventual destruction, is the emotional core of the film.\n\nthe supporting cast is equally impressive. armie hammer and josh pensa as the winklevoss twins are hilarious and tragic, embodying the entitled, old-money elite who underestimate mark until it\u2019s too late. justin timberlake, in a role that could\u2019ve been a caricature, brings depth to sean parker, the co-founder of napster who becomes mark\u2019s mentor and eventual antagonist. timberlake\u2019s sean is charming, reckless, and just dangerous enough to push mark further down the path of isolation.\n\ndavid fincher\u2019s direction is flawless. the film is visually stunning, with a cold, blue-tinged palette that reflects the emotional distance of its characters. the cinematography by jeff cronenweth is sleek and precise, with every frame feeling meticulously composed. the editing by kirk baxter and angus wall is razor-sharp, especially in the deposition scenes, where the dialogue overlaps and cuts between timelines with perfect rhythm. trent reznor and atticus ross\u2019s score is haunting and minimalist, adding to the film\u2019s tension and melancholy.\n\naaron sorkin\u2019s script is the real star here. his dialogue is fast, intelligent, and packed with wit, but it never feels like it\u2019s showing off. every line serves a purpose, whether it\u2019s advancing the plot, revealing character, or delivering a punchline. sorkin\u2019s writing is often criticized for being too verbose, but in *the social network*, the speed and density of the dialogue feel essential\u2014it mirrors the frenetic energy of the tech world and the minds of its characters. the film\u2019s themes\u2014friendship, power, class, and the price of success\u2014are woven seamlessly into the story.\n\none of the film\u2019s greatest strengths is its ambiguity. is mark zuckerberg a villain? a victim? a tragic hero? the film doesn\u2019t give easy answers. it presents him as a complicated figure: brilliant, insecure, ruthless, and deeply lonely. the final scene, where mark refreshes erica\u2019s facebook profile over and over, is heartbreaking. it\u2019s a moment that humanizes him, showing that even the creator of the world\u2019s biggest social network is just another guy scrolling through his ex\u2019s profile, hoping for validation.\n\nthe social network is more than just a \"facebook movie.\" it\u2019s a film about the digital age and the people who shape it, about the way technology connects us and isolates us at the same time. it\u2019s a story about ambition and the cost of success, about friendship and betrayal, about the way the past haunts us. it\u2019s a film that\u2019s as relevant today as it was in 2010, maybe even more so.\n\nin the end, *the social network* is a near-perfect film. it\u2019s smart, stylish, and deeply engaging, with performances that linger long after the credits roll. it\u2019s a movie that rewards repeat viewings, revealing new layers with each watch. if you haven\u2019t seen it, do yourself a favor and watch it. if you have, it\u2019s worth revisiting\u2014just like mark zuckerberg, you might find yourself hitting refresh.",
+  "response_word_count": 840,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

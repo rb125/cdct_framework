@@ -1,0 +1,43 @@
+{
+  "key": 1019,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "ask about boys' unusual toys in lowercase",
+  "compressed_word_count": 7,
+  "response": "here are some questions about boys' unusual toys:\n\n- have you ever seen a boy play with a toy that most people would find strange or unexpected?\n\n- what are some of the weirdest or most unusual toys that boys tend to collect?\n\n- do you think boys are drawn to unusual toys more than girls, and if so, why?\n\n- what is the most bizarre toy you have ever seen a boy play with?\n\n- are there any unusual toys that boys play with that actually help with learning or development?\n\n- have you noticed any trends in unusual toys that boys are currently interested in?\n\n- what makes a toy \"unusual\" for a boy, and who gets to decide what is normal or not?\n\n- do parents ever discourage boys from playing with unusual toys, and how does that affect them?",
+  "response_word_count": 143,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

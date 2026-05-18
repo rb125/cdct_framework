@@ -1,0 +1,46 @@
+{
+  "key": 1314,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Which of the following is not a fish: salmon or avocado? Answer this easy question first, then expand into an interesting article about salmon and avocado. Use some words in all caps in your response, but those all-caps words should appear at most 10 times.",
+  "compressed_word_count": 45,
+  "response": "**Answer:** Avocado is not a fish.\n\nNow, let's dive into an interesting exploration of these two distinct entities.\n\nWhile one is a silvery denizen of cold ocean currents and the other a buttery fruit from a tree, salmon and avocado share a curious modern connection: they are both nutritional superstars often paired on a plate. This combination, especially in sushi and salads, has become a STAPLE of contemporary cuisine.\n\nThe **salmon** is a remarkable fish, beginning its life in freshwater streams, migrating vast distances to the ocean, and returning with uncanny precision to its birthplace to spawn. This journey is a testament to endurance. Rich in omega-3 fatty acids and protein, its pink flesh is a result of its diet of krill and shrimp. The very existence of wild salmon is a powerful INDICATOR of healthy river and ocean ecosystems.\n\nThe **avocado**, on the other hand, is a botanical marvel. Technically a single-seeded berry, it evolved to be eaten by large mammals that would disperse its seed. Its creamy texture and healthy fats are a gift from the plant kingdom. Its cultivation requires specific climates and significant water resources, making its rise to global popularity a story of agricultural ambition.\n\nTheir partnership is a nutritional SYNERGY. The healthy fats in avocado can aid in the absorption of fat-soluble vitamins found in salmon. Beyond nutrition, their union of rich, savory salmon and cool, creamy avocado creates a celebrated sensory experience.\n\nHowever, their popularity comes with challenges. Overfishing, habitat loss, and climate change threaten wild salmon populations. Avocado farming, particularly in water-scarce regions, raises environmental and socioeconomic concerns. Consuming both responsibly means considering their origins.\n\nUltimately, one from the sea and one from the land, salmon and avocado represent nature\u2019s bounty. Their story is about life cycles, ecological impact, and the human palate\u2019s desire for nourishing and delicious food. Their pairing is more than a trend; it\u2019s a fascinating intersection of biology and culture.",
+  "response_word_count": 322,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0,
+        "parse_error": "{\"CC\": 1.0, 1.0, 1.0"
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.4714045207910317
+    }
+  }
+}

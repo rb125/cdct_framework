@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Provide nyc Prospect Park's history in json format. Use markdown ticks. Example: ```json{...}```",
+  "compressed_word_count": 13,
+  "response": "```json\n{\n    \"parkName\": \"Prospect Park\",\n    \"location\": \"Brooklyn, New York City\",\n    \"yearEstablished\": 1867,\n    \"sizeAcres\": 526,\n    \"designers\": [\n        {\n            \"name\": \"Frederick Law Olmsted\",\n            \"role\": \"Landscape Architect\"\n        },\n        {\n            \"name\": \"Calvert Vaux\",\n            \"role\": \"Architect\"\n        }\n    ],\n    \"historicalTimeline\": [\n        {\n            \"year\": 1866,\n            \"event\": \"Land acquired by the City of Brooklyn; design competition won by Olmsted and Vaux.\"\n        },\n        {\n            \"year\": 1867,\n            \"event\": \"Construction begins; park officially opens to the public in sections.\"\n        },\n        {\n            \"year\": 1874,\n            \"event\": \"Formal completion of the original Olmsted and Vaux design.\"\n        },\n        {\n            \"year\": 1898,\n            \"event\": \"Brooklyn consolidates with NYC, and park becomes part of NYC Parks system.\"\n        },\n        {\n            \"year\": 1890s-1910s\",\n            \"event\": \"Addition of new structures like the Boathouse (1905) and the Carousel (1912).\"\n        },\n        {\n            \"year\": 1934\",\n            \"event\": \"Robert Moses becomes NYC Parks Commissioner, adds recreational facilities like the Wollman Rink.\"\n        },\n        {\n            \"year\": \"1960s-1970s\",\n            \"event\": \"Period of decline due to budget cuts and mismanagement.\"\n        },\n        {\n            \"year\": \"1980\",\n            \"event\": \"Formation of the Prospect Park Alliance, a nonprofit dedicated to the park's restoration.\"\n        },\n        {\n            \"year\": \"1990s-Present\",\n            \"event\": \"Major restoration projects on the Ravine, woodlands, waterways, and historic structures.\"\n        }\n    ],\n    \"keyFeatures\": [\n        \"The Long Meadow (90-acre meadow)\",\n        \"The Ravine (last remaining forest in Brooklyn)\",\n        \"Prospect Park Lake (60-acre lake)\",\n        \"Prospect Park Zoo\",\n        \"The Boathouse (Audubon Center)\",\n        \"Grand Army Plaza entrance and Soldiers' and Sailors' Arch\",\n        \"Lefferts Historic House\",\n        \"Prospect Park Bandshell\"\n    ],\n    \"significance\": \"Considered Olmsted and Vaux's masterpiece, improving upon their design for Central Park. It is a flagship park of Brooklyn and a National Historic Landmark.\"\n}\n```",
+  "response_word_count": 253,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

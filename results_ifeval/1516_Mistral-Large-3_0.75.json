@@ -1,0 +1,45 @@
+{
+  "key": 1516,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a five-line poem with a aaaba rhyme scheme about binge-watching, including \"netflix\" in lowercase",
+  "compressed_word_count": 15,
+  "response": "**Late-Night Streak**\n\nI scroll and click, the night grows deep,\nmy eyes won\u2019t close, I can\u2019t just sleep.\nNetflix hums, the binge won\u2019t cease\u2014\none more show, then *maybe* peace\u2026\n(but dawn arrives, and so does grief).",
+  "response_word_count": 37,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "poem template, p.p.s.",
+  "compressed_word_count": 3,
+  "response": "Of course. Here is a poem template inspired by the \"p.p.s.\"\u2014that intimate, whispered afterthought at the end of a letter.\n\n**P.P.S.**\n\nThe letter's done, the envelope's seal\nIs waiting for the warmth of wax.\nThe formal script has said its piece,\nThe careful paragraphs relax.\n\nThe \"Yours sincerely\" finds its place,\nThe signature, a practiced art.\nThe mind moves on, the task is through...\nBut then\u2014a tremor in the heart.\n\nA ghost of thought, a sudden hue,\nA memory that will not keep.\nIt flutters up from somewhere deep\nBefore the final, waking sleep.\n\nSo here it is, in smaller hand,\nA little ragged at the start:\nThe thing I meant but didn't say,\nThe whisper of the truest heart.\n\nThe P.S. was an afterthought,\nBut this\u2014this is the very seed.\nThe core that all the rest concealed,\nThe one essential, final need.\n\nSo, p.p.s., and p.p.s. alone:\nI miss you more than ink can tell.\nAnd all the words that came before\nWere just a long and winding shell.\n\n---\n\n**Template for Your Own Use:**\n\n**Title:** P.P.S.\n\n[Stanza 1: Set the scene of conclusion]\nThe ________ is done, the ________ sealed,\nThe ________ finished, dry, and set.\nThe structured ________ laid to rest,\nThe formal promises are met.\n\n[Stanza 2: The moment of the afterthought]\nThe closing ________ finds its line,\nThe ________, a deliberate mark.\nThe thought moves on, the work is through...\nBut then\u2014a ________ in the dark.\n\n[Stanza 3: Describe the afterthought's nature]\nA ________, a sudden ________,\nA ________ that would not keep.\nIt rises from a deeper well\nBefore the final, silent sleep.\n\n[Stanza 4: Introduce the p.p.s. itself]\nSo here it is, in ________ hand,\nA little ________, slightly torn:\nThe thing I felt but didn't say,\nThe ________ borne.\n\n[Stanza 5: Contrast it with the main message]\nThe first was just an addendum,\nBut this\u2014this is the very ________.\nThe ________ all the rest concealed,\nThe one true, unadorned ________.\n\n[Stanza 6: Deliver the core p.p.s. message]\nSo, p.p.s., and p.p.s. alone:\n________________________________.\nAnd all the words that came before\nWere just a ________________________________.",
+  "response_word_count": 352,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

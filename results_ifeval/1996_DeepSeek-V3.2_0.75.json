@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Craft a story on the significance of unobvious truths. use stress words sparingly, <20 times.",
+  "compressed_word_count": 15,
+  "response": "The village of Ambril measured truth by the scale. Fact-stones, smooth and heavy, were placed upon one pan. The other held the claim. Balance was truth. Imbalance, falsehood.\n\nElara\u2019s claim was a feather. \u201cThe old pine on the ridge listens,\u201d she said.\n\nHer fact-stone thudded onto the empty pan. The scale crashed down. Laughter followed. \u201cA tree has no ears,\u201d the Keeper said. \u201cUnbalanced.\u201d\n\nYet, Elara went to the pine. She did not speak of her worries. Instead, she told it of the morning mist, the fox\u2019s kits, the angle of winter light. She left feeling unburdened.\n\nYears passed. A blight sickened the forest. The villagers, frantic, placed fact-stones for cures. Nothing balanced. Despair set in.\n\nElara climbed the ridge. The pine was brittle, its needles brown. \u201cHelp them,\u201d she whispered, not knowing why.\n\nA wind stirred. It carried the faint, sweet scent of amber-root, a plant forgotten in scrolls, known to cure the blight. The wind led her to a hidden patch, buried under snow.\n\nShe returned with the cure. The Keeper, holding a fact-stone for amber-root, was stunned. \u201cHow did you know?\u201d\n\nElara looked toward the ridge. The scale in the square measured only the weight of stones, not the truth of listening. The village had sought the obvious, provable thing. The unobvious truth was that some things are not measured, but felt; not heard, but understood. The pine never listened. But she, in speaking to it, had learned to hear everything else.",
+  "response_word_count": 245,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

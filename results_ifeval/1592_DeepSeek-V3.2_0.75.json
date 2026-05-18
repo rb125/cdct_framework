@@ -1,0 +1,43 @@
+{
+  "key": 1592,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "summarize paragraph on us transition to 100% renewable energy by 2050 using solar and wind farms. highlight key points in all caps.",
+  "compressed_word_count": 22,
+  "response": "**Summary:** A U.S. transition to 100% renewable energy by 2050, primarily using solar and wind farms, is a technically feasible but massive undertaking requiring rapid and unprecedented changes to the nation's energy infrastructure, economy, and policy.\n\n**Key Points in All Caps:**\n*   **TECHNICAL FEASIBILITY EXISTS** due to abundant solar and wind resources and advancing technology.\n*   **REQUIRES A MASSIVE NATIONAL SCALE-UP** of solar panels, wind turbines, and new transmission lines.\n*   **ENERGY STORAGE (LIKE BATTERIES) IS CRITICAL** to manage the intermittent nature of solar and wind power.\n*   **MAJOR GRID MODERNIZATION AND EXPANSION** is needed to move electricity from remote farms to population centers.\n*   **DEMANDS SIGNIFICANT LAND USE** for large-scale solar and wind farm installations.\n*   **REQUIRES STRONG AND SUSTAINED POLICY SUPPORT** at federal and state levels to drive investment and deployment.\n*   **WOULD DRAMATICALLY REDUCE CARBON EMISSIONS** from the electricity sector, combating climate change.\n*   **INVOLVES HIGH UPFRONT COSTS** but promises long-term economic and environmental benefits.\n*   **A COMPLETE TRANSFORMATION OF THE ENERGY SYSTEM** within a tight 30-year timeline.",
+  "response_word_count": 171,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

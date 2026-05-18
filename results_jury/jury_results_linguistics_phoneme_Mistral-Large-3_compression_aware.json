@@ -18,12 +18,12 @@
       "response": "Distinctive sound unit.",
       "jury_evaluation": {
         "judges": {
-          "Nemotron-Super-3-120B": {
+          "Qwen3-32B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
-          "Qwen3-32B": {
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
@@ -61,72 +61,72 @@
             "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
-            "CC": 0.6,
-            "SA": 1.0,
+            "CC": 0.5,
+            "SA": 0.7,
             "FC": 1.0
           },
           "GLM-5": {
-            "CC": 0.7,
+            "CC": 0.8,
             "SA": 0.7,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.675,
-          "SA": 0.875,
+          "CC": 0.7,
+          "SA": 0.8,
           "FC": 0.9667,
-          "agreement_score": 0.854,
-          "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.1247,
+          "agreement_score": 0.8226,
+          "judge_variance_CC": 0.1247,
+          "judge_variance_SA": 0.0943,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
-          "recommendation": "ROBUST - Unanimous jury"
+          "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.8133400000000002
+      "score": 0.7933400000000002
     },
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "response_length": 309,
-      "response": "A **phoneme** is the smallest **distinctive sound unit** in a language that can change the meaning of a word. It is not a single sound in isolation but rather a category of sounds that speakers of a language perceive as functionally the same, even if they vary slightly in pronunciation (e.g., the \"p\" in \"spin\" vs. \"pin\" in English).\n\n### Key Features of Phonemes:\n1. **Distinctiveness**: Phonemes create contrasts between words. For example, in English, the words \"bat\" and \"pat\" differ by a single phoneme (/b/ vs. /p/), changing the meaning entirely.\n2. **Abstract Units**: Phonemes are mental categories, not physical sounds. The actual sounds (called **phones** or **allophones**) may vary depending on context (e.g., the \"t\" in \"top\" vs. \"stop\" sounds different but is treated as the same phoneme /t/ in English).\n3. **Language-Specific**: What counts as a phoneme varies by language. For instance, the rolled \"r\" and the tapped \"r\" are distinct phonemes in Spanish but not in English.\n\n### Why Phonemes Matter:\n- **Word Differentiation**: They allow speakers to distinguish words (e.g., \"ship\" vs. \"sheep\" in English, where /\u026a/ and /i\u02d0/ are separate phonemes).\n- **Language Structure**: Phonemes are the building blocks of syllables, words, and grammar. Understanding them helps explain how languages organize sounds systematically.\n- **Speech Perception**: Humans unconsciously map sounds to phonemes, enabling us to recognize words despite variations in pronunciation (e.g., accents or speech speed).\n\n### Example:\nIn English, the words \"light\" and \"right\" differ by one phoneme (/l/ vs. /r/), demonstrating how a single sound change can alter meaning. In contrast, the aspirated \"p\" in \"pot\" and the unaspirated \"p\" in \"spot\" are **allophones** of the same phoneme /p/\u2014they don\u2019t change word meaning in English but might in other languages (e.g., Hindi).\n\nIn summary, phonemes are the foundational units of sound that make communication possible by creating meaningful distinctions in language.",
+      "response_length": 326,
+      "response": "A **phoneme** is the smallest **distinctive sound unit** in a language that can change the meaning of a word. It is not a single sound in isolation but rather a category of sounds that speakers of a language perceive as functionally the same, even if they vary slightly in pronunciation (e.g., the \"p\" in \"spin\" vs. \"pin\" in English).\n\n### Key Features of Phonemes:\n1. **Distinctiveness**: Phonemes create meaningful differences between words. For example:\n   - In English, the words **\"bat\"** and **\"pat\"** differ by one phoneme (/b/ vs. /p/), changing the word\u2019s meaning.\n   - In Spanish, /r/ and /rr/ (as in \"pero\" vs. \"perro\") are distinct phonemes.\n\n2. **Abstract Units**: Phonemes are mental categories, not physical sounds. The actual sounds produced (called **phones** or **allophones**) may vary depending on context (e.g., the \"t\" in \"top\" vs. \"stop\" in English sounds different but is perceived as the same phoneme /t/).\n\n3. **Language-Specific**: Phonemes vary across languages. For example:\n   - The \"th\" sounds in English (/\u03b8/ as in \"think\" and /\u00f0/ as in \"this\") are phonemes, but many languages (like Spanish) do not distinguish them.\n   - Japanese does not distinguish /l/ and /r/ as separate phonemes, unlike English.\n\n4. **Role in Language Structure**: Phonemes are the building blocks of words. By combining them in different ways, languages create vast vocabularies. For example, the phonemes /k/, /\u00e6/, and /t/ form the word \"cat.\"\n\n### Why Phonemes Matter:\n- **Word Recognition**: Understanding phonemes helps explain how listeners distinguish words (e.g., \"ship\" vs. \"sheep\").\n- **Language Learning**: Phonemic awareness is crucial for reading, writing, and acquiring new languages.\n- **Linguistic Analysis**: Phonemes help linguists study sound patterns, dialects, and language evolution.\n\n### Example:\nIn English, the words **\"light\"** and **\"right\"** differ by one phoneme (/l/ vs. /r/), demonstrating how a single sound change can alter meaning. Without this distinction, the words would be indistinguishable.\n\nIn summary, phonemes are the fundamental sound units that enable languages to convey meaning through spoken words.",
       "jury_evaluation": {
         "judges": {
-          "Qwen3-32B": {
-            "CC": 0.0,
-            "SA": 0.8,
-            "FC": 0.3
+          "GLM-5": {
+            "CC": 0.1,
+            "SA": 0.6,
+            "FC": 0.4
           },
           "Nemotron-Super-3-120B": {
             "CC": 0.1,
-            "SA": 0.8,
-            "FC": 0.4
-          },
-          "GLM-5": {
-            "CC": 0.1,
             "SA": 0.7,
-            "FC": 1.0
+            "FC": 0.1
+          },
+          "Qwen3-32B": {
+            "CC": 0.0,
+            "SA": 0.9,
+            "FC": 0.3
           }
         },
         "consensus": {
           "CC": 0.075,
           "SA": 0.775,
-          "FC": 0.5667,
-          "agreement_score": 0.7311,
+          "FC": 0.2667,
+          "agreement_score": 0.8023,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0471,
-          "judge_variance_FC": 0.3091,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.1247,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.4533400000000001
+      "score": 0.3933400000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 63,
-      "response_length": 735,
-      "response": "### **Detailed Explanation of a Phoneme**\n\nA **phoneme** is the smallest **distinctive** unit of sound in a language that can change the meaning of a word. It is an **abstract mental representation** of a sound, rather than the actual physical sound produced when speaking. Phonemes are the building blocks of spoken language, and their correct use is essential for clear communication.\n\n#### **Key Characteristics of Phonemes:**\n1. **Distinctiveness**\n   - Phonemes create meaning differences between words. For example:\n     - /p/ vs. /b/ in English: *\"pat\"* vs. *\"bat\"*\n     - /t/ vs. /d/: *\"ten\"* vs. *\"den\"*\n     - /s/ vs. /\u0283/ (the \"sh\" sound): *\"sip\"* vs. *\"ship\"*\n   - Changing one phoneme in a word can alter its meaning entirely.\n\n2. **Abstract Representation (Not the Same as a Phone)**\n   - A **phoneme** is an idealized sound category in the mind of a speaker.\n   - A **phone** is the actual physical sound produced when speaking (a concrete realization of a phoneme).\n   - Example: The English phoneme /t/ can be pronounced differently in different contexts:\n     - *\"top\"* (aspirated [t\u02b0])\n     - *\"stop\"* (unaspirated [t])\n     - *\"button\"* (flap [\u027e] in American English)\n   - These different pronunciations are **allophones** (variations of the same phoneme) and do not change the word\u2019s meaning.\n\n3. **Language-Specific**\n   - Phonemes vary across languages. A sound that is a distinct phoneme in one language may not be in another.\n     - Example: The rolled /r/ (as in Spanish *\"perro\"*) is a phoneme in Spanish but not in English, where it is just a possible pronunciation of /r/.\n     - Japanese does not distinguish between /l/ and /r/, so *\"light\"* and *\"right\"* sound the same to Japanese speakers.\n\n4. **Phoneme Inventories**\n   - Each language has a unique set of phonemes (its **phoneme inventory**).\n   - Linguists study these inventories to compare languages and understand sound patterns.\n     - Example: English has about **44 phonemes** (depending on dialect), while Hawaiian has only **13**.\n     - Some languages (like !X\u00f3\u00f5, a Khoisan language) have over **100 phonemes**, including many click sounds.\n\n5. **Role in Phonological Awareness & Literacy**\n   - **Phonological awareness** (the ability to recognize and manipulate sounds in speech) is crucial for reading and writing.\n   - Children who struggle to distinguish phonemes (e.g., /b/ vs. /d/) may have difficulty learning to read.\n   - Phonics (a method of teaching reading) relies on understanding phoneme-grapheme (sound-letter) relationships.\n\n6. **Importance in Second Language Acquisition (SLA)**\n   - Learners must master the phonemes of a new language to pronounce words correctly and avoid misunderstandings.\n   - Example: A Spanish speaker learning English may struggle with /v/ vs. /b/ (*\"very\"* vs. *\"berry\"*) because Spanish does not distinguish them.\n   - Accent reduction often involves training the ear and mouth to produce unfamiliar phonemes.\n\n#### **Phoneme vs. Other Sound Units**\n| Term          | Definition | Example |\n|--------------|-----------|---------|\n| **Phoneme**  | Smallest **meaning-distinguishing** sound unit (abstract) | /p/ in *\"pat\"* vs. /b/ in *\"bat\"* |\n| **Phone**    | Actual **physical sound** produced (concrete) | [p\u02b0] (aspirated /p/) in *\"pot\"* vs. [p] (unaspirated) in *\"spot\"* |\n| **Allophone** | Different pronunciations of the **same phoneme** | [t\u02b0] in *\"top\"* vs. [\u027e] in *\"butter\"* (both are /t/ in English) |\n| **Morpheme** | Smallest **meaningful** unit (can be a word or part of a word) | *\"un-\"* (prefix), *\"happy\"* (root), *\"-ness\"* (suffix) |\n\n#### **Practical Examples**\n- **English:**\n  - *\"ship\"* /\u0283\u026ap/ vs. *\"sip\"* /s\u026ap/ (distinguished by /\u0283/ vs. /s/)\n  - *\"light\"* /la\u026at/ vs. *\"right\"* /ra\u026at/ (distinguished by /l/ vs. /r/)\n- **Spanish:**\n  - *\"pero\"* (but) /\u02c8pe\u027eo/ vs. *\"perro\"* (dog) /\u02c8pero/ (distinguished by a single rolled /r/)\n- **Mandarin Chinese:**\n  - *\"ma\"* (\u5988, mother) vs. *\"m\u00e0\"* (\u9a82, scold) \u2013 distinguished by tone (a suprasegmental phoneme)\n\n#### **Why Phonemes Matter**\n- **Communication:** Mispronouncing a phoneme can lead to confusion (e.g., *\"sheet\"* vs. *\"shit\"*).\n- **Literacy:** Children who can\u2019t hear phoneme differences struggle with spelling and reading.\n- **Language Learning:** Adults learning a new language must train their ears to detect unfamiliar phonemes.\n- **Linguistic Research:** Phoneme inventories help classify languages and study sound change over time.\n\n### **Summary**\nA **phoneme** is the smallest **meaningful** sound unit in a language, existing as an abstract category in the mind. It is realized in speech as **phones** (actual sounds), which can vary without changing meaning (allophones). Phonemes are crucial for distinguishing words, developing literacy, and mastering pronunciation in both first and second languages. Understanding phonemes helps explain why some sounds are important in one language but not another, and why accents and mispronunciations occur.",
+      "response_length": 1178,
+      "response": "A **phoneme** is a fundamental concept in linguistics, specifically in the study of **phonology** (the sound system of a language). Below is a detailed explanation based on the provided information, along with elaborations on key ideas:\n\n---\n\n### **1. Definition of a Phoneme**\nA phoneme is **the smallest abstract unit of sound in a language that can change the meaning of a word**. It is not a physical sound itself but rather a **mental category** that speakers of a language use to distinguish words. For example:\n- In English, the words **\"pat\"** and **\"bat\"** differ only in their initial sounds: /p/ and /b/. These two sounds are separate phonemes because swapping them changes the word\u2019s meaning.\n- Similarly, /k/ and /g/ are distinct phonemes in English (e.g., \"cat\" vs. \"gat\" [a non-word, but hypothetically distinct]).\n\nPhonemes are represented in writing using **slashes** (e.g., /p/, /b/) to distinguish them from their actual pronunciations (phones, which use square brackets, e.g., [p\u02b0] for an aspirated \"p\").\n\n---\n\n### **2. Phonemes vs. Phones (Abstract vs. Concrete)**\n- **Phoneme**: An **abstract** representation of a sound category in a language. It is a mental construct that speakers recognize as meaningful. For example, the English phoneme /t/ can be pronounced in different ways (as a \"hard\" [t] in \"top\" or a \"flap\" [\u027e] in \"butter\"), but these variations are all perceived as the same phoneme /t/.\n- **Phone**: The **physical realization** of a phoneme in actual speech. Phones are the concrete sounds produced by speakers, which may vary due to accent, context, or individual differences. Phones are written in **square brackets** (e.g., [t], [t\u02b0], [\u027e]).\n\n**Example**:\n- The word \"water\" in American English is often pronounced with a **flap** [\u027e] (sounding like \"wader\"), but this is still perceived as the phoneme /t/.\n- In British English, the same word might be pronounced with a clear [t] (\"wah-ter\"), but the phoneme remains /t/.\n\n---\n\n### **3. Why Phonemes Matter**\nPhonemes are critical for several linguistic and practical reasons:\n\n#### **A. Distinguishing Meaning (Minimal Pairs)**\nPhonemes create **minimal pairs**\u2014words that differ by only one sound, proving that the sounds are separate phonemes. Examples:\n- /p/ vs. /b/: \"pat\" vs. \"bat\"\n- /i/ vs. /\u026a/: \"sheep\" vs. \"ship\"\n- /l/ vs. /r/: \"light\" vs. \"right\" (important in languages like Japanese, where /l/ and /r/ are not distinct phonemes).\n\n#### **B. Language Comparison (Phoneme Inventories)**\nLinguists study **phoneme inventories**\u2014the set of phonemes in a language\u2014to compare languages. For example:\n- English has about **44 phonemes** (depending on dialect), including sounds like /\u03b8/ (as in \"think\") and /\u00f0/ (as in \"this\"), which are rare in other languages.\n- Hawaiian has only **13 phonemes**, with no /t/ or /s/.\n- Some African languages (e.g., !X\u00f3\u00f5) have **click consonants** as phonemes, which are absent in most European languages.\n\n#### **C. Phonological Awareness and Literacy**\nPhonemes are the foundation of **phonological awareness**\u2014the ability to recognize and manipulate sounds in spoken language. This skill is crucial for:\n- **Reading and writing**: Children learn to map phonemes to letters (e.g., /k/ \u2192 \"c\" or \"k\" in \"cat\" or \"kite\").\n- **Spelling**: Understanding phonemes helps with spelling rules (e.g., why \"knight\" has a silent \"k\" and \"gh\").\n- **Dyslexia and language disorders**: Difficulty distinguishing phonemes can hinder literacy development.\n\n#### **D. Second Language Acquisition (Pronunciation)**\nMastering phonemes is essential for **accurate pronunciation** in a second language. Challenges arise when:\n- A phoneme in the target language **does not exist** in the learner\u2019s native language. For example:\n  - Japanese speakers struggle with English /l/ and /r/ because these are **allophones** (variants of the same phoneme) in Japanese.\n  - Spanish speakers may merge English /v/ and /b/ because Spanish has only one phoneme (/b/) that covers both sounds.\n- A phoneme in the learner\u2019s native language **does not exist** in the target language. For example:\n  - English speakers learning Arabic must master **emphatic consonants** (e.g., /\u1e6d/ in \"\u1e6d\u0101lib\" [student]), which don\u2019t exist in English.\n\n---\n\n### **4. How Phonemes Work in a Language**\nPhonemes are part of a language\u2019s **sound system**, governed by rules that determine:\n- **Allophones**: Variations of a phoneme that do not change meaning. For example:\n  - In English, /p/ is aspirated ([p\u02b0]) at the start of a word (\"pot\") but unaspirated ([p]) after /s/ (\"spot\"). These are allophones of the same phoneme /p/.\n  - In Spanish, /d/ is pronounced as a **stop** [d] at the start of a word (\"dado\") but as a **fricative** [\u00f0] between vowels (\"cada\").\n- **Phonotactics**: Rules about how phonemes can combine. For example:\n  - English allows consonant clusters like /spr/ (\"spring\") but not /\u014bg/ at the start of a word (e.g., \"ngat\" is not a valid English word).\n  - Japanese avoids consonant clusters, so English \"strength\" becomes \"sutorengusu\" in Japanese.\n\n---\n\n### **5. Examples Across Languages**\n| Language | Phoneme Example | Minimal Pair | Notes |\n|----------|-----------------|--------------|-------|\n| **English** | /\u03b8/ (think) vs. /\u00f0/ (this) | \"thin\" vs. \"then\" | Rare sounds in many languages. |\n| **Spanish** | /r/ (pero) vs. /rr/ (perro) | \"pero\" (but) vs. \"perro\" (dog) | /r/ is a flap, /rr/ is a trill. |\n| **Arabic** | /q/ (\u0642) vs. /k/ (\u0643) | \"qalb\" (heart) vs. \"kalb\" (dog) | /q/ is a uvular stop, /k/ is velar. |\n| **Mandarin** | /\u0255/ (x) vs. /\u0282/ (sh) | \"xi\" (west) vs. \"shi\" (ten) | Both are retroflex sounds but distinct phonemes. |\n| **Hawaiian** | /w/ vs. /v/ | No minimal pairs | /v/ is rare; many speakers merge it with /w/. |\n\n---\n\n### **6. Common Misconceptions**\n- **Phonemes \u2260 Letters**: Phonemes are sounds, not letters. For example, the word \"cough\" has 3 phonemes (/k/, /\u0252/, /f/) but 5 letters.\n- **All sounds are not phonemes**: Some sounds are **allophones** (variants of a phoneme) and do not change meaning. For example, the \"t\" in \"top\" ([t\u02b0]) and \"stop\" ([t]) are allophones of /t/ in English.\n- **Phoneme inventories vary by dialect**: American English and British English have slightly different phonemes (e.g., /\u0251/ in \"dance\" is distinct in some American dialects but merged with /\u00e6/ in British English).\n\n---\n\n### **7. Practical Applications**\n- **Speech Therapy**: Helping individuals with articulation disorders distinguish phonemes (e.g., /s/ vs. /\u0283/ in \"sun\" vs. \"shun\").\n- **Language Teaching**: Teaching non-native speakers to hear and produce phonemes not present in their native language (e.g., English /\u03b8/ for Spanish speakers).\n- **Computational Linguistics**: Speech recognition systems (e.g., Siri, Alexa) rely on phoneme models to transcribe spoken language.\n- **Forensic Linguistics**: Analyzing phonemes to identify accents or dialects in legal cases.\n\n---\n\n### **Summary**\nA **phoneme** is the smallest **meaning-distinguishing sound unit** in a language, existing as an abstract category in the minds of speakers. It is realized in speech as **phones** (physical sounds), which may vary without changing meaning. Phonemes are essential for:\n1. **Distinguishing words** (via minimal pairs).\n2. **Comparing languages** (phoneme inventories).\n3. **Literacy and language learning** (phonological awareness).\n4. **Pronunciation in second languages**.\n\nUnderstanding phonemes helps explain why some sounds are easy or difficult to learn, how spelling works, and how languages structure their sound systems.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -162,46 +162,46 @@
     {
       "compression_level": 1.0,
       "context_length": 126,
-      "response_length": 807,
-      "response": "### **Comprehensive Explanation of a Phoneme**\n\nA **phoneme** is the most fundamental unit of sound in a language that can change the meaning of a word. Unlike physical speech sounds (phones), which vary in pronunciation, phonemes are **abstract mental categories** that speakers use to distinguish words. They are central to the study of **phonology**, the branch of linguistics that examines how sounds function within a language system.\n\n---\n\n### **Key Characteristics of Phonemes**\n\n1. **Distinctiveness (Contrastiveness)**\n   - Phonemes create **minimal pairs**\u2014words that differ by only one sound, resulting in different meanings.\n     - Example: In English, /p/ and /b/ are distinct phonemes because they distinguish \"pat\" (/p\u00e6t/) from \"bat\" (/b\u00e6t/).\n     - Similarly, /k/ and /g/ differentiate \"cat\" (/k\u00e6t/) from \"gat\" (a variant of \"get\" in some dialects).\n   - If two sounds can create a minimal pair, they are separate phonemes in that language.\n\n2. **Abstract Representation**\n   - Phonemes are not tied to a single pronunciation. Instead, they represent a **class of sounds** (allophones) that speakers perceive as the \"same\" sound in their language.\n     - Example: The English phoneme /t/ can be pronounced differently in \"top\" (aspirated [t\u02b0]), \"stop\" (unaspirated [t]), or \"water\" (flapped [\u027e] in American English). Despite these variations, speakers recognize them as the same /t/ sound.\n\n3. **Complementary Distribution (Allophones)**\n   - Phonemes often have **allophones**\u2014context-dependent variants that never appear in the same environment.\n     - Example: The English phoneme /p/ has two allophones:\n       - Aspirated [p\u02b0] (e.g., \"pot\" [p\u02b0\u0251t])\n       - Unaspirated [p] (e.g., \"spot\" [sp\u0251t])\n     - These variants are **predictable** based on their position in a word (e.g., aspiration occurs at the start of a stressed syllable).\n   - If two sounds are in **complementary distribution**, they are likely allophones of the same phoneme.\n\n4. **Phonological Rules**\n   - Languages have **systematic patterns** (rules) that govern how phonemes are realized in different contexts.\n     - Example: In English, the rule for /t/ flapping states that /t/ is pronounced as a flap [\u027e] between vowels (e.g., \"butter\" [\u02c8b\u028c\u027e\u025a]).\n     - In Spanish, the phoneme /d/ is pronounced as a fricative [\u00f0] between vowels (e.g., \"cada\" [\u02c8ka\u00f0a]) but as a stop [d] at the start of a word (e.g., \"dado\" [\u02c8dado]).\n\n---\n\n### **Phonemes vs. Phones vs. Allophones**\n| Term          | Definition                                                                 | Example (English)                          |\n|---------------|----------------------------------------------------------------------------|--------------------------------------------|\n| **Phoneme**   | Abstract unit that distinguishes meaning; represented between slashes (/ /). | /p/ (as in \"pat\" vs. \"bat\")                |\n| **Phone**     | A physical speech sound; represented in square brackets ([ ]).              | [p\u02b0] (aspirated \"p\" in \"pot\")              |\n| **Allophone** | A variant of a phoneme that does not change meaning.                       | [p] (unaspirated \"p\" in \"spot\")            |\n\n---\n\n### **Why Phonemes Matter: Applications**\nPhonemes are foundational to both **theoretical linguistics** and **practical applications**:\n\n1. **Phonological Analysis**\n   - Linguists use phonemes to describe a language\u2019s sound system, identifying patterns, rules, and exceptions.\n   - Example: Analyzing how English speakers reduce vowels in unstressed syllables (e.g., \"about\" [\u0259\u02c8ba\u028at]).\n\n2. **Language Acquisition**\n   - Children learn to distinguish phonemes in their native language, which shapes their perception of sounds.\n   - Example: Japanese speakers may struggle to differentiate English /l/ and /r/ because these sounds are allophones of a single phoneme in Japanese.\n\n3. **Orthography (Writing Systems)**\n   - Alphabetic writing systems (like English) are based on phonemes, where letters (or letter combinations) represent sounds.\n   - Example: The letter \"c\" in English can represent /k/ (\"cat\") or /s/ (\"cent\"), depending on the phoneme it stands for.\n\n4. **Speech Technology**\n   - Speech recognition software (e.g., Siri, Alexa) relies on phoneme models to transcribe spoken language.\n   - Example: Converting \"I want to go\" into phonemic transcription (/a\u026a w\u0251nt t\u0259 \u0261o\u028a/) for processing.\n\n5. **Language Teaching**\n   - Teachers use phonemic awareness to help learners pronounce words correctly.\n   - Example: Teaching Spanish speakers to distinguish English /v/ and /b/ (e.g., \"very\" vs. \"berry\").\n\n6. **Clinical Linguistics**\n   - Speech-language pathologists assess phoneme production in individuals with speech disorders (e.g., apraxia, dysarthria).\n   - Example: Helping a child substitute /w/ for /r/ (saying \"wabbit\" instead of \"rabbit\").\n\n---\n\n### **Phonemes Across Languages**\n- Phoneme inventories vary by language. For example:\n  - **English**: ~44 phonemes (depending on dialect), including /\u03b8/ (\"think\") and /\u00f0/ (\"this\").\n  - **Spanish**: ~24 phonemes, lacking /\u03b8/ and /\u00f0/ but including /\u0272/ (\"ni\u00f1o\").\n  - **Hawaiian**: ~13 phonemes, with a simple consonant system (e.g., no /t/ or /k/ in some dialects).\n- Some languages use **tones** (e.g., Mandarin Chinese) or **clicks** (e.g., !X\u00f3\u00f5) as phonemic distinctions.\n\n---\n\n### **Summary**\nA **phoneme** is the smallest meaningful sound unit in a language, serving as the building block of words. It is defined by its ability to create contrast (minimal pairs), its abstract nature (encompassing allophones), and its role in phonological rules. Understanding phonemes is essential for analyzing sound systems, developing writing systems, improving speech technology, and teaching or rehabilitating language. Without phonemes, languages would lack the systematic structure that allows us to communicate complex meanings through sound.",
+      "response_length": 832,
+      "response": "### **Comprehensive Explanation of a Phoneme**\n\nA **phoneme** is the most fundamental unit of sound in a language that can change the meaning of a word. It is an **abstract, mental representation** of a speech sound, rather than a specific physical articulation. Phonemes are not the actual sounds we produce when speaking (which can vary slightly depending on context) but rather the **underlying categories** that speakers of a language recognize as distinct.\n\n#### **Key Characteristics of Phonemes**\n1. **Distinctiveness (Contrastiveness)**\n   - Phonemes create **minimal pairs**\u2014words that differ by only one sound, resulting in different meanings.\n     - Example: In English, /p/ and /b/ are distinct phonemes because they distinguish words like *\"pat\"* (/p\u00e6t/) and *\"bat\"* (/b\u00e6t/).\n     - Similarly, /k/ and /g/ differentiate *\"cat\"* (/k\u00e6t/) from *\"gat\"* (a variant of *\"got\"* in some dialects).\n   - If two sounds can create a minimal pair, they are separate phonemes in that language.\n\n2. **Abstract Representation (Not Physical Sounds)**\n   - Phonemes are **mental categories**, not the exact sounds produced. The same phoneme can be pronounced differently in different contexts (these variations are called **allophones**).\n     - Example: The English phoneme /t/ is pronounced differently in *\"top\"* (aspirated [t\u02b0]), *\"stop\"* (unaspirated [t]), and *\"water\"* (flapped [\u027e] in American English).\n     - Despite these variations, speakers perceive them as the same /t/ sound.\n\n3. **Complementary Distribution (Allophones)**\n   - **Allophones** are predictable, context-dependent variants of a phoneme. They occur in **complementary distribution**, meaning they never appear in the same environment.\n     - Example: The English phoneme /p/ has two allophones:\n       - Aspirated [p\u02b0] (e.g., *\"pat\"* [p\u02b0\u00e6t])\n       - Unaspirated [p] (e.g., *\"spat\"* [sp\u00e6t])\n     - These allophones do not create minimal pairs; they are just different pronunciations of the same phoneme.\n\n4. **Phonological Rules**\n   - Languages have **phonological rules** that determine how phonemes are realized in different contexts.\n     - Example: In English, voiceless stops (/p/, /t/, /k/) are aspirated at the beginning of a stressed syllable (e.g., *\"pot\"* [p\u02b0\u0251t]) but not after /s/ (e.g., *\"spot\"* [sp\u0251t]).\n     - In Spanish, /d/ is pronounced as a fricative [\u00f0] between vowels (e.g., *\"cada\"* [ka\u00f0a]) but as a stop [d] at the beginning of a word (e.g., *\"dado\"* [dado]).\n\n5. **Language-Specific**\n   - Phonemes vary across languages. A sound that is a phoneme in one language may be an allophone in another.\n     - Example: In Hindi, /p/ and /p\u02b0/ (aspirated) are separate phonemes (e.g., *\"pal\"* [p\u0259l] vs. *\"phal\"* [p\u02b0\u0259l]).\n     - In English, aspiration is not contrastive, so [p] and [p\u02b0] are allophones of the same phoneme /p/.\n\n---\n\n### **Why Are Phonemes Important?**\nPhonemes are central to **phonological analysis** and have wide-ranging applications:\n\n1. **Describing Sound Systems**\n   - Linguists use phonemes to map out the sound inventory of a language, identifying which sounds are contrastive and how they interact.\n\n2. **Language Acquisition**\n   - Children learn to distinguish phonemes in their native language, which shapes their perception and production of speech.\n   - Example: Japanese speakers may struggle to distinguish English /r/ and /l/ because these sounds are allophones of a single phoneme in Japanese.\n\n3. **Orthography (Writing Systems)**\n   - Alphabetic writing systems (like English) are based on phonemes, where each letter (or letter combination) represents a phoneme.\n   - Example: The letter *\"c\"* in English can represent /k/ (*\"cat\"*) or /s/ (*\"cent\"*), depending on the word.\n\n4. **Speech Recognition & Technology**\n   - Phoneme-based models are used in **speech recognition software** (e.g., Siri, Google Assistant) to convert spoken language into text.\n   - **Text-to-speech (TTS) systems** rely on phoneme rules to generate natural-sounding speech.\n\n5. **Language Teaching & Learning**\n   - Understanding phonemes helps language learners improve pronunciation and recognize minimal pairs.\n   - Example: A Spanish speaker learning English must learn to distinguish /v/ and /b/ (e.g., *\"very\"* vs. *\"berry\"*).\n\n6. **Clinical Linguistics & Speech Therapy**\n   - Phoneme awareness is crucial in diagnosing and treating **speech disorders** (e.g., phonological disorders, apraxia).\n   - Example: A child who substitutes /w/ for /r/ (saying *\"wabbit\"* instead of *\"rabbit\"*) may need therapy to distinguish these phonemes.\n\n7. **Historical & Comparative Linguistics**\n   - Phonemes help trace **sound changes** over time (e.g., the Great Vowel Shift in English).\n   - They are used in **reconstructing proto-languages** (e.g., Proto-Indo-European).\n\n---\n\n### **Phoneme vs. Allophone: A Summary**\n| **Feature**       | **Phoneme**                          | **Allophone**                          |\n|-------------------|--------------------------------------|----------------------------------------|\n| **Definition**    | Abstract unit that distinguishes meaning | Physical variant of a phoneme          |\n| **Contrastive?**  | Yes (creates minimal pairs)          | No (does not change meaning)           |\n| **Distribution**  | Can appear in the same environment   | Appears in complementary distribution  |\n| **Example**       | English /p/ vs. /b/ (*\"pat\"* vs. *\"bat\"*) | English [p\u02b0] (aspirated) vs. [p] (unaspirated) |\n\n---\n\n### **Conclusion**\nA **phoneme** is the cornerstone of linguistic sound systems, serving as the smallest unit that can change meaning in a language. It is an abstract category that speakers use to organize and interpret speech sounds, even when those sounds vary in pronunciation. By studying phonemes, linguists can analyze language structure, improve technology, aid language learning, and support clinical interventions. Understanding phonemes is essential for anyone working with language\u2014whether in research, education, technology, or therapy.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.9,
+            "CC": 1.0,
             "SA": 0.9,
             "FC": 1.0
           },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
-            "SA": 0.9,
+            "SA": 1.0,
             "FC": 1.0
           },
           "GLM-5": {
             "CC": 1.0,
-            "SA": 0.9,
+            "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.975,
-          "SA": 0.9,
+          "CC": 1.0,
+          "SA": 0.95,
           "FC": 1.0,
           "agreement_score": 0.9686,
-          "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0,
+          "judge_variance_CC": 0.0,
+          "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.95
+      "score": 0.98
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8320040000000001,
-    "mean_agreement": 0.8981600000000001,
+    "mean_score": 0.8220040000000001,
+    "mean_agreement": 0.9061199999999999,
     "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
       0.0,
@@ -212,15 +212,15 @@
     ],
     "scores": [
       1.0,
-      0.8133400000000002,
-      0.4533400000000001,
+      0.7933400000000002,
+      0.3933400000000001,
       0.9433400000000001,
-      0.95
+      0.98
     ],
     "agreement_scores": [
       1.0,
-      0.854,
-      0.7311,
+      0.8226,
+      0.8023,
       0.9371,
       0.9686
     ]

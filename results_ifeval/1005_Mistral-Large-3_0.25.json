@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "resume template, 12 [] placeholders",
+  "compressed_word_count": 5,
+  "response": "Here\u2019s a clean, professional **resume template** with **12 placeholders** you can customize. This template is structured for clarity and impact, suitable for most job applications.\n\n---\n\n### **[Your Name]**\n\ud83d\udccd [City, State] | \ud83d\udce7 [Email] | \ud83d\udcde [Phone] | \ud83d\udd17 [LinkedIn/Portfolio]\n\n---\n\n#### **PROFESSIONAL SUMMARY**\n[Briefly highlight your key skills, experience, and career goals in 2\u20133 sentences. Example: *\"Results-driven [Your Profession] with [X] years of experience in [Key Skills]. Proven ability to [Key Achievement]. Seeking to leverage expertise in [Relevant Field] at [Company Name].\"]\n\n---\n\n#### **WORK EXPERIENCE**\n**[Job Title]**\n[Company Name] | [Location] | [Dates of Employment (Month/Year \u2013 Month/Year)]\n- [Achievement/Responsibility #1 \u2013 Use action verbs and quantify results (e.g., \"Increased sales by 20%\").]\n- [Achievement/Responsibility #2]\n- [Achievement/Responsibility #3]\n\n**[Job Title]**\n[Company Name] | [Location] | [Dates of Employment]\n- [Achievement/Responsibility #1]\n- [Achievement/Responsibility #2]\n\n---\n\n#### **EDUCATION**\n**[Degree Name]**\n[University Name] | [Location] | [Year of Graduation]\n- [Relevant coursework, honors, or projects (optional).]\n\n---\n\n#### **SKILLS**\n- [Skill #1] (e.g., Project Management, Python, Adobe Photoshop)\n- [Skill #2]\n- [Skill #3]\n- [Skill #4]\n\n---\n\n#### **CERTIFICATIONS** *(Optional)*\n- [Certification Name] | [Issuing Organization] | [Year]\n\n---\n\n#### **PROJECTS** *(Optional \u2013 Great for students/entry-level)*\n**[Project Name]**\n- [Brief description + key contributions/outcomes.]\n\n---\n\n#### **ADDITIONAL SECTIONS** *(Pick 1\u20132 as needed)*\n- **Languages:** [Language #1] (Proficiency), [Language #2]\n- **Volunteer Work:** [Role] | [Organization] | [Dates]\n- **Interests:** [Relevant hobbies, e.g., \"Data Science Blogging,\" \"Open-Source Contributions\"]\n\n---\n\n### **Formatting Tips:**\n1. **Length:** 1 page (ideal for <10 years of experience).\n2. **Font:** Use a clean, professional font (e.g., Arial, Calibri, Times New Roman) at **10\u201312pt**.\n3. **Margins:** 0.5\u20131 inch.\n4. **Bullet Points:** Start with action verbs (e.g., \"Led,\" \"Developed,\" \"Optimized\").\n5. **Tailor:** Customize for each job by matching keywords from the job description.\n\n### **Placeholder Examples:**\n- **Email:** `jane.doe@email.com`\n- **LinkedIn:** `linkedin.com/in/janedoe`\n- **Phone:** `(123) 456-7890`\n- **Skills:** `Data Analysis, Team Leadership, SEO, Python`",
+  "response_word_count": 318,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

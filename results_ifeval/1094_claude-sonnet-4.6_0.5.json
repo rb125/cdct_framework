@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "list 5 notable moms in json, quirky tone, no extra text",
+  "compressed_word_count": 11,
+  "response": "```json\n[\n  {\n    \"name\": \"Morticia Addams\",\n    \"claim_to_fame\": \"Raised two delightfully weird kids in a haunted mansion and somehow made it look glamorous\",\n    \"parenting_style\": \"Gothic chic with a side of unconditional love\",\n    \"signature_move\": \"Snipping the heads off roses and keeping the stems\"\n  },\n  {\n    \"name\": \"Lorelai Gilmore\",\n    \"claim_to_fame\": \"Survived parenthood entirely on coffee and pop culture references\",\n    \"parenting_style\": \"Best friend first, mom second, caffeine addict always\",\n    \"signature_move\": \"Speed-talking her way out of any awkward situation\"\n  },\n  {\n    \"name\": \"Elastigirl (Helen Parr)\",\n    \"claim_to_fame\": \"Literally stretched herself thin for her family \u2014 and we mean literally\",\n    \"parenting_style\": \"Superhero multitasker who somehow keeps three superpowered kids in line\",\n    \"signature_move\": \"Turning into a parachute mid-freefall because why not\"\n  },\n  {\n    \"name\": \"Marie Curie\",\n    \"claim_to_fame\": \"Won two Nobel Prizes while also raising two daughters, one of whom also won a Nobel Prize\",\n    \"parenting_style\": \"Radioactively overachieving\",\n    \"signature_move\": \"Making science look cool before it was cool\"\n  },\n  {\n    \"name\": \"Molly Weasley\",\n    \"claim_to_fame\": \"Raised seven kids in a magically chaotic house and still had room for one more\",\n    \"parenting_style\": \"Warm hugs, home-cooked meals, and absolutely terrifying when provoked\",\n    \"signature_move\": \"Defeating dark wizards with the energy of a furious mom\"\n  }\n]\n```",
+  "response_word_count": 193,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

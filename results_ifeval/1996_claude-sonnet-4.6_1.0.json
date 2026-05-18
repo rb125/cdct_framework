@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a story about the importance of understanding the truths that are not obvious. Add stress words which are capitalized. Limit those stress words for less than 20 times.",
+  "compressed_word_count": 29,
+  "response": "# The Cartographer's Mistake\n\nOld Marcus had mapped every mountain, river, and valley in the known territories. His maps were BEAUTIFUL \u2014 precise lines etched with careful hands, colored with inks imported from distant cities. Kings paid fortunes for his work. Merchants trusted his charts with their lives.\n\nBut Marcus had a problem he refused to acknowledge.\n\nHe only mapped what he could SEE.\n\nHis apprentice, a young woman named Sera, noticed this flaw during their third expedition together. They were crossing the Aldenmoor wetlands when she stopped suddenly, pressing her boot against the soft ground.\n\n\"The map shows solid earth here,\" she said quietly.\n\n\"The map shows what IS here,\" Marcus replied without looking up.\n\n\"No,\" Sera said. \"The map shows what APPEARS to be here.\"\n\nMarcus dismissed her concern with a wave. He had drawn these wetlands himself, standing on this very ground twenty years ago. The earth had felt firm beneath his feet. He had recorded exactly what he experienced.\n\nWhat he failed to understand was that wetlands BREATHE. They shift with seasons, absorb rainfall, and transform silently beneath their surface. The ground that once supported his weight had spent two decades slowly becoming something dangerous.\n\nThree steps forward, Marcus sank to his knees in hidden mud.\n\nSera pulled him out with considerable effort.\n\nSitting on dry ground, covered in dark earth, Marcus finally looked at his apprentice with genuine attention.\n\n\"How did you know?\" he asked.\n\n\"The grass color,\" she explained. \"The way certain plants clustered together. The smell underneath the wind.\" She paused respectfully. \"The REAL landscape communicates constantly. We simply must learn its language.\"\n\nMarcus stared at his map. It was technically accurate. Every measurement was correct. Every visible landmark was perfectly positioned. Yet it had nearly killed him because it captured only the surface of reality.\n\n\"I have been mapping shadows,\" he said softly, \"and calling them TRUTH.\"\n\nFrom that day forward, Marcus changed his methods entirely. He began studying soil composition, seasonal water patterns, and underground springs. He interviewed local farmers about how land behaved during different weather. He learned that KNOWLEDGE gathered only through casual observation was dangerously incomplete.\n\nHis new maps looked different. They contained notes about hidden dangers, seasonal changes, and underground conditions. Other cartographers mocked them as cluttered and unnecessarily complicated.\n\nThen came the great flood of the following spring.\n\nEvery merchant who carried Marcus's new maps survived, rerouting safely around areas his charts had marked as TEMPORARILY unstable. Those carrying older maps from rival cartographers lost wagons, horses, and cargo to flooding roads and collapsed bridges.\n\nThe lesson spread QUICKLY through the trading communities.\n\nSera eventually became a master cartographer herself, more celebrated than Marcus ever was. She taught her own students one fundamental principle above everything else.\n\n\"The most DANGEROUS assumption,\" she would tell them, gathering young faces around candlelight, \"is believing that what you see completely represents what exists. The world hides its most important truths just beneath the surface. Your greatest responsibility is developing the patience and humility to find them.\"\n\nShe would then place two maps side by side \u2014 one showing only visible features, one showing the deeper reality beneath.\n\n\"Both maps show the same territory,\" she explained. \"Only one will keep you ALIVE.\"\n\nThe students always understood immediately.\n\nNot because the lesson was complicated.\n\nBut because the truth, once finally revealed, was always OBVIOUS.",
+  "response_word_count": 563,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "create ad template for portable camera, highlight key points with <4 caps, min 10 sentences",
+  "compressed_word_count": 15,
+  "response": "**PORTABLE CAMERA: CAPTURE LIFE'S MOMENTS!**\n\n**SMALL SIZE, BIG FEATURES!**\n\n**1. COMPACT DESIGN:** Fits in your pocket, perfect for travel.\n\n**2. HIGH-QUALITY IMAGES:** Sharp, vibrant photos every time.\n\n**3. EASY TO USE:** Simple controls for quick shots.\n\n**4. LONG BATTERY LIFE:** Capture all day without worry.\n\n**5. INSTANT SHARING:** Share photos instantly via Wi-Fi.\n\n**6. DURABLE BUILD:** Built to withstand everyday use.\n\n**7. VERSATILE LENSES:** Choose from various lens options.\n\n**8. FAST PERFORMANCE:** Quick start-up and shutter speed.\n\n**9. USER-FRIENDLY INTERFACE:** Intuitive menu for easy navigation.\n\n**10. AFFORDABLE PRICE:** Great quality at an affordable cost.\n\n**DON'T MISS OUT! GET YOUR PORTABLE CAMERA TODAY!**",
+  "response_word_count": 102,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

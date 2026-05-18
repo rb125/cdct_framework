@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain the difference between a city and a village in a rap style to a kid. The words with all capital letters should appear at least 10 times. Put the response into at least 5 sections, separated using 3 asterisks ***.",
+  "compressed_word_count": 41,
+  "response": "***\n\nYO, LISTEN UP, KID, LET ME TELL YOU THE DEAL,\nABOUT THE DIFFERENCE BETWEEN CITY AND VILLAGE, IT'S REAL.\n\n***\n\nIN THE CITY, YOU'LL FIND SKYSCRAPERS TALL,\nBUSTLING STREETS, AND PEOPLE ALL OVER THE PLACE, NO PAUSE AT ALL.\n\n***\n\nVILLAGES ARE SMALLER, MORE QUIET AND CALM,\nWITH NATURE AROUND, IT'S LIKE LIVING IN A PSALM.\n\n***\n\nBUT HEY, BOTH HAVE THEIR OWN SPECIAL APPEAL,\nIT'S ALL ABOUT WHAT YOU PREFER, THAT'S THE REAL DEAL.\n\n***\n\nSO REMEMBER, CITY OR VILLAGE, IT'S ALL GOOD,\nJUST ENJOY WHERE YOU LIVE, IN THE NEIGHBORHOOD.",
+  "response_word_count": 93,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.43333333333333335,
+      "SA": 0.7999999999999999,
+      "FC": 0.7999999999999999,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.21602468994692867,
+      "judge_variance_FC": 0.21602468994692867
+    }
+  }
+}

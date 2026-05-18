@@ -1,0 +1,45 @@
+{
+  "key": 1779,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write an itinerary for a trip to a grocery store in Lima to buy some local goods. Make the itinerary funny, write it in all capital letters and include the keywords 'DISGUSTING', 'DELICIOUS', 'BAD', and 'GOOD'.",
+  "compressed_word_count": 36,
+  "response": "ITINERARY FOR YOUR EPIC GROCERY ADVENTURE IN LIMA! READY YOUR SHOPPING CARTS AND PREPARE FOR A JOURNEY FULL OF DISGUSTING, DELICIOUS, BAD, AND GOOD FINDS!\n\n08:00 AM - RISE AND SHINE! PUT ON YOUR MOST FABULOUS GROCERY-SHOPPING OUTFIT. REMEMBER, YOU'RE HUNTING FOR THE FINEST LOCAL GOODS LIMA HAS TO OFFER!\n\n08:30 AM - BREAKFAST OF CHAMPIONS! FUEL UP WITH SOME 'DISGUSTING' BUT SURPRISINGLY ADDICTIVE 'ANTICUCHO' - MARINATED MEAT SKEWERS. DON'T JUDGE, JUST EAT!\n\n09:00 AM - ARRIVE AT THE GROCERY STORE. TAKE A MOMENT TO MARVEL AT THE ARRAY OF COLORS, SMELLS, AND SOUNDS. THIS IS GOING TO BE ONE WILD RIDE!\n\n09:15 AM - HEAD TO THE FRUIT SECTION. PICK UP SOME 'BAD' BUT IRRESISTIBLY SWEET LUCUMA. IT'S LIKE THE UNIVERSE'S WAY OF SAYING 'I'M SORRY FOR THE PAIN I'VE CAUSED.'\n\n09:30 AM - NEXT STOP, THE VEGETABLE AISLE. GRAB SOME 'GOOD' AND NUTRICIOUS YUCA. IT'S LIKE A POTATO AND A TREE HAD A BABY.\n\n09:45 AM - TIME TO EXPLORE THE MEAT SECTION. BEWARE, THE 'DISGUSTING' BUT AUTHENTIC CUY (GUINEA PIG) MIGHT GIVE YOU NIGHTMARES. BUT HEY, YOU CAME FOR LOCAL GOODS, RIGHT?\n\n10:00 AM - MAKE YOUR WAY TO THE DAIRY SECTION. THE 'BAD' BUT SURPRISINGLY DELICIOUS 'MANJAR BLANCO' (A TYPE OF CREAM) WILL MAKE YOU QUESTION YOUR LIFE CHOICES.\n\n10:15 AM - DON'T FORGET THE 'GOOD' AND 'DELICIOUS' PERUVIAN CHOCOLATE! IT'S LIKE A HUG FROM THE COCOA GODS.\n\n10:30 AM - FINALLY, GRAB SOME 'GOOD' AND 'DELICIOUS' PERUVIAN CHIPS. BECAUSE WHY NOT?\n\n10:45 AM - CHECKOUT TIME! SAY YOUR GOODBIES TO YOUR SHOPPING CART AND HEAD HOME WITH YOUR BOUNTY OF DISGUSTING, DELICIOUS, BAD, AND GOOD FINDS.\n\n11:00 AM - CONGRATULATIONS! YOU'VE SUCCESSFULLY COMPLETED YOUR GROCERY ADVENTURE IN LIMA. NOW, ENJOY YOUR NEWLY ACQUIRED LOCAL GOODS!",
+  "response_word_count": 290,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

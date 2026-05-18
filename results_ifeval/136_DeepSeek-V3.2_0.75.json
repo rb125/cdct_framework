@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "* A nucleus is a cluster of protons and neutrons\n* Protons carry positive charge\n* Neutrons are neutral\n* Protons and neutrons are collectively called nucleons\n* Nucleons are bound by strong nuclear force\n* Nucleus determines element identity\n* Isotopes vary in neutron count\n* Atomic mass is nucleon count\n* Nucleus is typically small compared to atom size\n* Radioactive decay alters nucleus composition",
+  "compressed_word_count": 67,
+  "response": "Based on your list, here is a structured summary of the key points about the atomic nucleus:\n\n### Summary of the Atomic Nucleus\n\n**1. Composition & Identity**\n*   The nucleus is the dense core of an atom, composed of **protons** (positively charged) and **neutrons** (neutral).\n*   Together, protons and neutrons are called **nucleons**.\n*   The number of protons defines the **element's identity** (atomic number).\n\n**2. Binding & Forces**\n*   Nucleons are bound together by the **strong nuclear force**, which overcomes the electrostatic repulsion between protons.\n\n**3. Variations & Mass**\n*   **Isotopes** of an element have the same number of protons but different numbers of neutrons.\n*   The total number of nucleons (protons + neutrons) is the **atomic mass number**.\n\n**4. Scale & Stability**\n*   The nucleus is **extremely small** compared to the overall size of the atom, occupying about 1/100,000th of the atom's diameter.\n*   Some nuclei are unstable and undergo **radioactive decay**, changing their composition by emitting particles.",
+  "response_word_count": 159,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

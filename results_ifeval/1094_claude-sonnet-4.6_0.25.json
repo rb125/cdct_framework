@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "json list of 5 quirky famous moms",
+  "compressed_word_count": 7,
+  "response": "```json\n[\n  {\n    \"name\": \"Kris Jenner\",\n    \"known_for\": \"Managing her entire family's careers as the ultimate 'momager'\",\n    \"quirky_fact\": \"Turned her family's drama into a billion-dollar empire\"\n  },\n  {\n    \"name\": \"Ozzy Osbourne's Mom - Sharon Osbourne\",\n    \"known_for\": \"Rock and roll mom who managed Ozzy's wild career\",\n    \"quirky_fact\": \"Once mailed a ham to a record executive she was feuding with\"\n  },\n  {\n    \"name\": \"Judy Garland\",\n    \"known_for\": \"Iconic actress and mother to Liza Minnelli\",\n    \"quirky_fact\": \"Raised one of Hollywood's most theatrical daughters while being a legend herself\"\n  },\n  {\n    \"name\": \"Donda West\",\n    \"known_for\": \"Mother of Kanye West and his biggest creative inspiration\",\n    \"quirky_fact\": \"Kanye named an entire critically acclaimed album after her\"\n  },\n  {\n    \"name\": \"Madonna\",\n    \"known_for\": \"Pop icon and mother of 6 children from multiple countries\",\n    \"quirky_fact\": \"Raised her kids with strict no-TV and no-junk-food rules despite being the queen of provocative pop culture\"\n  }\n]\n```",
+  "response_word_count": 144,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

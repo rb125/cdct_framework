@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "first song in space, 'happy birthday'?",
+  "compressed_word_count": 6,
+  "response": "That's a great question, and it involves a fun piece of space trivia with a common misconception.\n\nThe first song intentionally performed in space was **\"Jingle Bells.\"**\n\nHere are the details:\n\n*   **When:** December 16, 1965\n*   **Who:** The crew of **Gemini 6A**\u2014astronauts **Wally Schirra** and **Tom Stafford**.\n*   **The Performance:** As they were preparing for re-entry, they sent a cryptic report to Mission Control: *\"We have an object, looks like a satellite going from north to south, probably in polar orbit... I see a command module and eight smaller modules in front. The pilot of the command module is wearing a red suit...\"*\n*   They then pulled out a smuggled **harmonica and sleigh bells** and played a rendition of \"Jingle Bells,\" much to the surprise and delight of everyone listening.\n*   The harmonica (a Hohner \"Little Lady\") and bells are now displayed at the Smithsonian National Air and Space Museum.\n\n**So, what about \"Happy Birthday\"?**\n\nThe song \"Happy Birthday\" holds a different, more significant record: it was the first song **sung** by humans **on another world.**\n\n*   **When:** August 8, 1969 (during the Apollo 11 mission, but not on the lunar surface itself).\n*   **Who:** The crew of Apollo 11\u2014**Neil Armstrong, Buzz Aldrin, and Michael Collins**\u2014sang \"Happy Birthday\" to **Christopher Kraft**, the Director of Flight Operations at NASA, during their live television broadcast on the way back to Earth from the Moon.\n\n**To summarize the timeline:**\n\n1.  **First song *played* in space:** \"Jingle Bells\" (1965, in Earth orbit).\n2.  **First song *sung* in space:** This is harder to pin down, as astronauts likely sang informally earlier. However, a famous early instance was when the Apollo 8 crew (Frank Borman, Jim Lovell, Bill Anders) read from the Book of Genesis and then sang \"Silent Night\" while orbiting the Moon on Christmas Eve, 1968.\n3.  **First song *performed on another celestial body*:** While not the first in space, \"Happy Birthday\" was the first song **sung by humans while returning from another world** (the Moon) in 1969.",
+  "response_word_count": 335,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.4714045207910317
+    }
+  }
+}

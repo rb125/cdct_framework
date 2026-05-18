@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a rap for a new smartphone; include at least 6 placeholders [ ]. P.P.S. Add a postscript starting with \"P.P.S.",
+  "compressed_word_count": 21,
+  "response": "# \ud83d\udcf1 The New Phone Rap\n\n**Verse 1:**\nYo, introducing the [PHONE NAME], it's the future in your hand,\n[NUMBER] megapixels, best camera in the land,\n[COLOR] finish gleaming, looking sleek and clean,\nThe most [ADJECTIVE] device that you have ever seen!\n\n**Chorus:**\nDrop it like it's hot, this phone won't ever stop,\n[BRAND NAME] in the building, rising to the top,\nSwipe it, tap it, charge it, never gonna flop,\nThe [PHONE NAME] revolution, baby, don't you stop!\n\n**Verse 2:**\nBattery life lasting [NUMBER OF HOURS] straight,\nProcessor so fast, it never makes you wait,\nScreen so crystal clear, it'll blow your mind,\nLeave every other smartphone far behind!\n\n**Outro:**\nThis is the phone you need, trust the hype is real,\n[PHONE NAME] in your pocket \u2014 now THAT'S the deal!\n\n---\n\n*P.S. Pre-orders available starting [DATE] \u2014 don't miss out!*\n\n**P.P.S. Share this rap with every tech lover you know, because the revolution starts NOW and nobody should be left behind!** \ud83d\udd25",
+  "response_word_count": 164,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

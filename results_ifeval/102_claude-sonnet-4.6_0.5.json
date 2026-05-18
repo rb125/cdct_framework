@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "* dialogue: ball gown vs. sweats for nightly event, 3 markdown points",
+  "compressed_word_count": 12,
+  "response": "# \ud83d\udc57 Ball Gown vs. \ud83e\ude73 Sweats: What to Wear Tonight?\n\n- **Ball Gown:** *\"I was literally made for this moment \u2014 structured, dramatic, floor-length perfection. You'll walk in and own the entire room.\"*\n\n- **Sweats:** *\"Okay but have you considered... comfort? Elastic waistband. Zero regrets. You can actually breathe AND eat appetizers.\"*\n\n- **Ball Gown:** *\"You can sleep when you're dead. Tonight you SPARKLE.\"*",
+  "response_word_count": 65,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

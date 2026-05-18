@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write email to boss with <<title>> no commas",
+  "compressed_word_count": 8,
+  "response": "Here\u2019s a professional and concise email template without commas, tailored to your request:\n\n---\n**Subject:** <<Title>>\n\nHi [Boss's Name]\n\nI hope this email finds you well. I wanted to follow up on [brief context or purpose of the email]. [State your request or update clearly and directly.]\n\nLet me know if you need any additional details or if there\u2019s a better time to discuss this. Thank you for your time and consideration.\n\nBest regards\n[Your Full Name]\n[Your Job Title]\n[Your Contact Information, if needed]\n---\n\n**Example with placeholder text replaced:**\n*Subject: Project Timeline Update*\n\nHi Alex\n\nI hope this email finds you well. I wanted to share the revised timeline for the [Project Name] as discussed. The new deadline is [date] and the key milestones are outlined below.\n\nLet me know if you\u2019d like to review the details or adjust any priorities. Thank you for your guidance.\n\nBest regards\nJordan Smith\nMarketing Manager\njordan.smith@company.com",
+  "response_word_count": 155,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

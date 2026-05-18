@@ -1,0 +1,43 @@
+{
+  "key": 3749,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Compare Federer vs Nadal, answer \"yes\", \"no\", or \"maybe\".",
+  "compressed_word_count": 9,
+  "response": "\"Maybe.\"\n\nWhile Roger Federer and Rafael Nadal are often compared due to their exceptional tennis careers, each has unique strengths, playing styles, and achievements. Comparing them definitively as \"better\" or \"worse\" is subjective and depends on various factors such as personal preferences, specific metrics (e.g., Grand Slam titles, overall titles, head-to-head records), and the contexts in which they played. Both players have made indelible marks on the sport and are widely regarded as two of the greatest tennis players of all time.",
+  "response_word_count": 82,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

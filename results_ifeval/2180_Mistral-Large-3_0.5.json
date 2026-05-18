@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "rap diff'n city 'n village, kid, 5 secs *** 10 caps ***",
+  "compressed_word_count": 12,
+  "response": "Here\u2019s a **10-cap rap** breaking down the **differences between city and village life** in **5 seconds**\u2014sharp, punchy, and packed with contrast:\n\n---\n\n**\ud83c\udfa4 [VERSE] \ud83c\udfa4**\n*(1)* **City**\u2014lights blinding, **village**\u2014stars shining,\n*(2)* **City**\u2014horns honking, **village**\u2014crickets signing,\n*(3)* **City**\u2014concrete jungle, **village**\u2014dirt roads winding,\n*(4)* **City**\u2014fast food lines, **village**\u2014homegrown dining,\n*(5)* **City**\u2014crowds pushing, **village**\u2014space for rhyming,\n*(6)* **City**\u2014stress like a prison, **village**\u2014peace like a hymn,\n*(7)* **City**\u2014Wi-Fi strong, **village**\u2014signal\u2019s dim,\n*(8)* **City**\u2014rent sky-high, **village**\u2014land\u2019s free,\n*(9)* **City**\u2014fake smiles, **village**\u2014real family,\n*(10)* **City**\u2014chase the dream, **village**\u2014live the *theme*.\n\n**\ud83d\udd25 [OUTRO] \ud83d\udd25**\n*\"Urban rush or country calm? Pick your poison\u2014both got charm!\"*\n\n---\n\n**\ud83d\udca1 Why it works:**\n- **Contrast** in every line (city vs. village).\n- **Rhythm** flows like a quick-fire battle rap.\n- **Imagery** hits hard (concrete vs. dirt, Wi-Fi vs. crickets).\n- **5-second vibe**\u2014each cap is a **mic-drop moment**.",
+  "response_word_count": 136,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6333333333333333,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.18856180831641267
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "compose rock song lyrics for 'the gifted and the not gifted' in all caps, avoiding the word \"rock",
+  "compressed_word_count": 18,
+  "response": "IN A WORLD WHERE DREAMS TAKE FLIGHT, SOME SHINE BRIGHT, SOME HIDE IN SIGHT,\nTHE GIFTED ONES, THEY STAND TALL, WITH FLAME IN HEART, THEY CONQUER ALL.\n\nTHE NOT GIFTED, THEY WALK ALONE, IN SHADOWS CAST, THEY FIND THEIR ZONE,\nTHEY CARVE THEIR PATH, WITH TENACITY, IN SILENCE, THEY DISCOVER GREATNESS,\nWITH DETERMINATION, THEY RISE ABOVE, IN THEIR STRUGGLE, THEY FIND SWEETNESS.\n\nTHE GIFTED ONES, THEY TOUCH THE SKIES, WITH TALENT BLAZING, THEY NEVER HIDE,\nTHE NOT GIFTED, THEY FACE THE STORM, WITH COURAGE STRONG, THEY FIND THEIR FORM.\n\nIN THIS WORLD OF DIVERSITY, WE CELEBRATE EACH UNIQUE STORY,\nTHE GIFTED AND THE NOT GIFTED, TOGETHER WE STAND, IN GLORY.\n\nSO LET'S RAISE OUR VOICES HIGH, IN CELEBRATION, WE'LL NEVER SHY,\nFOR IN THIS MELODY OF LIFE, WE FIND OUR STRENGTH, WE CONQUER STRIFE.\n\nTHE GIFTED AND THE NOT GIFTED, HAND IN HAND, WE'LL MAKE IT RIGHT,\nIN THIS WORLD OF ENDLESS POSSIBILITIES, WE'LL SHINE OUR LIGHT.",
+  "response_word_count": 157,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

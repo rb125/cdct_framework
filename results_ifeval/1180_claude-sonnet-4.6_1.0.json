@@ -1,0 +1,45 @@
+{
+  "key": 1180,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain why people are grossed out by worms but not by eating a dead cow. Give exactly two different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.",
+  "compressed_word_count": 39,
+  "response": "<<The Psychology Behind Disgust: Worms vs. Beef>>\n\nPeople are generally grossed out by worms but not by eating a dead cow due to a combination of cultural conditioning and evolutionary psychology. From a cultural standpoint, beef has been normalized as food across many societies for thousands of years. It is processed, packaged, and presented in ways that distance it from its origins as a living animal. The transformation through cooking, seasoning, and attractive plating makes it mentally dissociated from death or decay. Worms, on the other hand, are culturally associated with dirt, decomposition, and disease. They are not part of the mainstream Western food tradition, so the brain immediately flags them as something foreign and potentially dangerous. Additionally, the slimy, wriggling appearance of worms triggers a primal disgust response that has evolved to protect humans from pathogens found in rotting matter.\n\n******\n\n<<Familiarity and Disgust: Why We Eat Cows but Cringe at Worms>>\n\nThe difference in reaction comes down largely to familiarity and the concept of \"disgust sensitivity.\" Humans are conditioned from childhood to view certain foods as acceptable and others as revolting. Beef is introduced early in life as a normal, safe food, so the brain learns to override any instinctive aversion. Worms, however, are never framed as food in most Western cultures, meaning the brain retains its default disgust response toward them. Furthermore, worms are visually associated with decay and dead bodies, triggering a hardwired survival instinct to avoid contamination. The irony is that worms are actually nutritious and consumed in many cultures worldwide, proving that disgust is largely a learned, culturally specific reaction rather than a purely logical or biological one.",
+  "response_word_count": 274,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

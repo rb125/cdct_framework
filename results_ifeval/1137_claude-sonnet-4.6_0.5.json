@@ -1,0 +1,45 @@
+{
+  "key": 1137,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "D\u00e9crire en fran\u00e7ais l'importance des aliments sains pour gu\u00e9rir le corps sans utiliser le mot 'nourriture', tout en json.",
+  "compressed_word_count": 19,
+  "response": "```json\n{\n  \"titre\": \"L'importance des aliments sains pour gu\u00e9rir le corps\",\n  \"introduction\": {\n    \"description\": \"Les aliments sains jouent un r\u00f4le fondamental dans la gu\u00e9rison et le maintien de l'\u00e9quilibre corporel. Chaque substance ing\u00e9r\u00e9e influence directement nos cellules, nos tissus et nos organes.\"\n  },\n  \"bienfaits_principaux\": {\n    \"syst\u00e8me_immunitaire\": {\n      \"titre\": \"Renforcement des d\u00e9fenses naturelles\",\n      \"explication\": \"Les vitamines C, D et E, pr\u00e9sentes dans les fruits et l\u00e9gumes frais, stimulent les cellules immunitaires et aident le corps \u00e0 combattre les infections et les maladies.\"\n    },\n    \"r\u00e9paration_cellulaire\": {\n      \"titre\": \"R\u00e9g\u00e9n\u00e9ration des tissus\",\n      \"explication\": \"Les prot\u00e9ines issues des l\u00e9gumineuses, des \u0153ufs et des viandes maigres fournissent les acides amin\u00e9s essentiels \u00e0 la reconstruction des tissus endommag\u00e9s et \u00e0 la cicatrisation.\"\n    },\n    \"r\u00e9duction_inflammation\": {\n      \"titre\": \"Lutte contre l'inflammation\",\n      \"explication\": \"Les acides gras om\u00e9ga-3, trouv\u00e9s dans les poissons gras et les graines de lin, r\u00e9duisent l'inflammation chronique, source de nombreuses maladies d\u00e9g\u00e9n\u00e9ratives.\"\n    },\n    \"\u00e9quilibre_intestinal\": {\n      \"titre\": \"Sant\u00e9 du microbiome\",\n      \"explication\": \"Les fibres et les probiotiques contenus dans les l\u00e9gumes, les c\u00e9r\u00e9ales compl\u00e8tes et les produits ferment\u00e9s favorisent un microbiome intestinal sain, essentiel \u00e0 une bonne absorption des nutriments.\"\n    },\n    \"\u00e9nergie_vitale\": {\n      \"titre\": \"Restauration de l'\u00e9nergie\",\n      \"explication\": \"Les glucides complexes et les min\u00e9raux comme le magn\u00e9sium et le fer permettent de restaurer l'\u00e9nergie cellulaire, indispensable au processus de gu\u00e9rison.\"\n    }\n  },\n  \"nutriments_cl\u00e9s\": [\n    {\n      \"nutriment\": \"Antioxydants\",\n      \"sources\": [\"baies\", \"\u00e9pinards\", \"brocoli\"],\n      \"r\u00f4le\": \"Neutralisent les radicaux libres responsables du vieillissement cellulaire\"\n    },\n    {\n      \"nutriment\": \"Zinc\",\n      \"sources\": [\"graines de courge\", \"noix de cajou\", \"l\u00e9gumineuses\"],\n      \"r\u00f4le\": \"Acc\u00e9l\u00e8re la cicatrisation et soutient le syst\u00e8me immunitaire\"\n    },\n    {\n      \"nutriment\": \"Vitamine A\",\n      \"sources\": [\"carottes\", \"patates douces\", \"mangues\"],\n      \"r\u00f4le\": \"Favorise la r\u00e9g\u00e9n\u00e9ration des muqueuses et de la peau\"\n    },\n    {\n      \"nutriment\": \"Polyph\u00e9nols\",\n      \"sources\": [\"th\u00e9 vert\", \"curcuma\", \"grenade\"],\n      \"r\u00f4le\": \"Prot\u00e8gent les cellules contre les dommages oxydatifs\"\n    }\n  ],\n  \"conseils_pratiques\": [\n    \"Privil\u00e9gier les produits bruts et non transform\u00e9s pour conserver un maximum de nutriments\",\n    \"Varier les couleurs dans l'assiette pour b\u00e9n\u00e9ficier d'un large spectre de vitamines et min\u00e9raux\",\n    \"Consommer des herbes aromatiques comme le gingembre et le curcuma pour leurs propri\u00e9t\u00e9s anti-inflammatoires\",\n    \"Maintenir une hydratation suffisante pour faciliter le transport des nutriments vers les cellules\",\n    \"R\u00e9duire les produits ultra-transform\u00e9s qui perturbent l'\u00e9quilibre biologique du corps\"\n  ],\n  \"conclusion\": {\n    \"message\": \"Adopter une alimentation riche en \u00e9l\u00e9ments nutritifs naturels est l'un des actes les plus puissants que l'on puisse poser pour soutenir la gu\u00e9rison du corps. Chaque bouch\u00e9e repr\u00e9sente une opportunit\u00e9 de nourrir ses cellules et de renforcer sa vitalit\u00e9.\"\n  }\n}\n```",
+  "response_word_count": 403,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

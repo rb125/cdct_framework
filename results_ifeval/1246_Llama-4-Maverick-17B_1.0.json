@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write me a template for a product description in the form of a poem and end it with a post script starting with P.P.S",
+  "compressed_word_count": 24,
+  "response": "Here's a poetic product description template:\n\n\"In [category] circles, a gem is found,\n[Product name], with features renowned.\nWith [key feature 1], it shines so bright,\nAnd [key feature 2], makes everything all right.\n\nIts [material/quality] is top-notch and fine,\nMaking it durable, a true work of design.\nFor [target audience], it's a perfect fit,\nA [product type] that will make their heart hit.\n\nWith [unique benefit], it stands out from the rest,\nA true innovation, that will make you feel blessed.\nSo why wait? Get your [product name] today,\nAnd experience the joy, in a brand new way.\n\nP.S. Don't forget to check out our reviews!\nP.P.S. Limited time offer, order now and receive a discount that you'll surely approve!\"",
+  "response_word_count": 121,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9666666666666667,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.04714045207910316,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

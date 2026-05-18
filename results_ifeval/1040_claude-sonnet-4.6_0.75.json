@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "create resume for matthias algiers in all caps for key abilities, limit to <10 highlighted words, enclose in double quotation marks.",
+  "compressed_word_count": 21,
+  "response": "# MATTHIAS ALGIERS\n\n---\n\n## PROFESSIONAL SUMMARY\n\nDedicated and results-driven professional with a proven track record of delivering exceptional outcomes across multiple disciplines. Committed to continuous growth and organizational success.\n\n---\n\n## KEY ABILITIES\n\n- \"LEADERSHIP\" \u2014 Guides teams toward shared goals with clarity and purpose\n- \"COMMUNICATION\" \u2014 Conveys complex ideas with precision and confidence\n- \"ANALYTICS\" \u2014 Transforms raw data into actionable business insights\n- \"ADAPTABILITY\" \u2014 Thrives in dynamic and fast-changing environments\n- \"COLLABORATION\" \u2014 Builds strong cross-functional partnerships\n- \"STRATEGY\" \u2014 Develops long-term plans aligned with organizational vision\n- \"PROBLEM-SOLVING\" \u2014 Identifies challenges and implements effective solutions\n- \"INNOVATION\" \u2014 Drives creative thinking to improve processes and outcomes\n\n---\n\n## EXPERIENCE\n\n**Senior Project Manager** | ABC Corporation | 2019 \u2013 Present\n- Led cross-departmental initiatives resulting in measurable efficiency gains\n- Managed budgets and timelines across multiple concurrent projects\n\n**Operations Analyst** | XYZ Solutions | 2015 \u2013 2019\n- Analyzed operational workflows and recommended process improvements\n- Supported senior leadership with data-driven reporting\n\n---\n\n## EDUCATION\n\n**Bachelor of Science, Business Administration**\nState University | 2015\n\n---\n\n## CONTACT\n\n\ud83d\udce7 m.algiers@email.com | \ud83d\udcde (555) 123-4567 | \ud83d\udd17 linkedin.com/in/matthiasalgiers",
+  "response_word_count": 191,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

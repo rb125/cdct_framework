@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+  "compressed_word_count": 62,
+  "response": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n\n<<Resignation Letter>>\n\nSubject: My Resignation\n\nDear [Boss's Name],\n\nI hope this email finds you well. I am writing to formally inform you that I have decided to resign from my position at [Company Name], effective [last working day, typically two weeks from the date of the email].\n\nThis was not an easy decision to make, as I have truly valued my time here and the opportunities I have been given to grow both professionally and personally. I am grateful for your guidance and support throughout my tenure.\n\nI am committed to ensuring a smooth transition and will do everything I can to wrap up my current projects and assist in training my replacement during my remaining time.\n\nThank you for the opportunity to be part of this team. I wish you and the company continued success in the future.\n\nPlease let me know how I can best assist during this transition period.\n\nSincerely,\n[Your Name]\n[Your Position]\n[Your Contact Information]",
+  "response_word_count": 185,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

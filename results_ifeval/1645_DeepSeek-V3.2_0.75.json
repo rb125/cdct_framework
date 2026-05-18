@@ -1,0 +1,43 @@
+{
+  "key": 1645,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "sheldon'S Riddle: whose name has three letters? all caps.",
+  "compressed_word_count": 9,
+  "response": "Let\u2019s break this down.  \n\nSheldon\u2019s riddle says:  \n> \u201cWhose name has three letters? All caps.\u201d\n\nThat means:  \n- The name has exactly **three letters**.  \n- It is written in **all capital letters** (ALL CAPS).  \n\nA common answer to this type of riddle is **\u201cWHO\u201d** \u2014 because:  \n1. \u201cWHO\u201d has three letters.  \n2. It\u2019s in all caps (as written in the riddle).  \n3. \u201cWhose name\u2026\u201d could be interpreted as asking for the name of a person/entity, but here it\u2019s a wordplay: the word **\u201cWHO\u201d** literally fits the description.  \n\nSo the answer is **WHO**.",
+  "response_word_count": 92,
+  "instruction_id_list": [
+    "change_case:english_capital"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

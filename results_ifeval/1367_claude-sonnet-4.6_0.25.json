@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "java session plan, P.P.S.",
+  "compressed_word_count": 4,
+  "response": "# Java Session Plan: P.P.S.\n## (Practical \u00b7 Progressive \u00b7 Structured)\n\n---\n\n## \ud83c\udfaf Overview\n\n| Element | Details |\n|---|---|\n| **Language** | Java |\n| **Approach** | Practical \u2192 Progressive \u2192 Structured |\n| **Target** | Beginner to Intermediate |\n| **Format** | Theory + Code + Practice |\n\n---\n\n## \ud83d\udccc Phase 1 \u2014 PRACTICAL\n> *\"Learn by doing first\"*\n\n### Session 1 \u2014 Hello, Java!\n- Install JDK & IDE (IntelliJ / VS Code)\n- Write & run first program\n- Understand `main()` method\n- **Mini Task:** Print your name & age\n\n### Session 2 \u2014 Variables & Data Types\n- `int`, `double`, `String`, `boolean`, `char`\n- Variable declaration & initialization\n- **Mini Task:** Build a simple bio card\n\n### Session 3 \u2014 Input & Output\n- `Scanner` class\n- `System.out.println()`\n- **Mini Task:** Take user input & display formatted output\n\n---\n\n## \ud83d\udccc Phase 2 \u2014 PROGRESSIVE\n> *\"Build complexity step by step\"*\n\n### Session 4 \u2014 Operators & Expressions\n- Arithmetic, Relational, Logical\n- Ternary operator\n- **Mini Task:** Simple calculator\n\n### Session 5 \u2014 Control Flow\n- `if / else if / else`\n- `switch` statement\n- **Mini Task:** Grade checker program\n\n### Session 6 \u2014 Loops\n- `for`, `while`, `do-while`\n- `break` & `continue`\n- **Mini Task:** Multiplication table generator\n\n### Session 7 \u2014 Arrays\n- 1D & 2D arrays\n- Array traversal\n- **Mini Task:** Find max/min in an array\n\n### Session 8 \u2014 Methods / Functions\n- Method declaration & calling\n- Parameters & return types\n- Method overloading\n- **Mini Task:** Reusable math utility methods\n\n---\n\n## \ud83d\udccc Phase 3 \u2014 STRUCTURED\n> *\"Think like a software engineer\"*\n\n### Session 9 \u2014 OOP Basics\n- Classes & Objects\n- Constructors\n- `this` keyword\n- **Mini Task:** Create a `Student` class\n\n### Session 10 \u2014 OOP Pillars\n- **Encapsulation** \u2192 Getters & Setters\n- **Inheritance** \u2192 `extends`\n- **Polymorphism** \u2192 Method overriding\n- **Abstraction** \u2192 Abstract classes & Interfaces\n- **Mini Task:** Animal hierarchy system\n\n### Session 11 \u2014 Exception Handling\n- `try / catch / finally`\n- `throw` & `throws`\n- Custom exceptions\n- **Mini Task:** Safe division program\n\n### Session 12 \u2014 Collections Framework\n- `ArrayList`, `HashMap`, `HashSet`\n- Iterating collections\n- **Mini Task:** Student record manager\n\n### Session 13 \u2014 File I/O\n- Read & write files\n- `FileReader`, `BufferedWriter`\n- **Mini Task:** Save user data to a `.txt` file\n\n### Session 14 \u2014 Final Project \ud83d\ude80\n- **Mini Console App** (e.g., Library System / Student Manager / ATM Simulator)\n- Apply all concepts learned\n- Code review & feedback\n\n---\n\n## \ud83d\uddd3\ufe0f Suggested Weekly Schedule\n\n```\nWeek 1  \u2192  Sessions 1\u20133   (Practical Basics)\nWeek 2  \u2192  Sessions 4\u20136   (Logic Building)\nWeek 3  \u2192  Sessions 7\u20138   (Data & Methods)\nWeek 4  \u2192  Sessions 9\u201310  (OOP)\nWeek 5  \u2192  Sessions 11\u201312 (Handling & Collections)\nWeek 6  \u2192  Sessions 13\u201314 (I/O + Final Project)\n```\n\n---\n\n## \u2705 Assessment Checkpoints\n\n| Checkpoint | After Session | Focus |\n|---|---|---|\n| Quiz 1 | Session 3 | Syntax & Basics |\n| Quiz 2 | Session 6 | Logic & Control Flow |\n| Quiz 3 | Session 10 | OOP Concepts |\n| Final Project | Session 14 | Full Application |\n\n---\n\n## \ud83d\udcda Resources\n\n- \ud83d\udcd6 *Head First Java* \u2014 Kathy Sierra\n- \ud83c\udf10 [docs.oracle.com/java](https://docs.oracle.com/java)\n- \ud83d\udcbb Practice: **HackerRank Java Track**\n- \ud83c\udfa5 Videos: **Bro Code / Telusko on YouTube**\n\n---\n\n> \ud83d\udca1 **P.P.S. Motto:**\n> *\"Practice it. Progress through it. Structure your thinking.\"*",
+  "response_word_count": 587,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

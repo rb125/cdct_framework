@@ -1,0 +1,45 @@
+{
+  "key": 1516,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "binge-watch poem, netflix, aabba rhyme",
+  "compressed_word_count": 5,
+  "response": "Here\u2019s a short **\"binge-watch\"** poem in **AABBA** rhyme scheme (like a limerick), inspired by Netflix:\n\n---\n\n**\"The Binge-Watch Blues\"**\n\nI clicked *just one more* at midnight\u2019s glow,\nThen dawn crept in\u2014oh, what a show!\nFive seasons deep,\nNo sleep, no peep,\nNow my eyes ache\u2026 *but I\u2019ll watch more, though!*\n\n---\n\nWant it funnier, darker, or more specific to a show? Let me know! \ud83d\ude04\ud83c\udf7f",
+  "response_word_count": 65,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

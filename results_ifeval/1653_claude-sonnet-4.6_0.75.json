@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "create ad template for portable camera; capitalize <4 words; stress key points; min 10 sentences",
+  "compressed_word_count": 15,
+  "response": "# portable camera ad template\n\n**capture every moment \u2014 anywhere you go.**\n\nintroducing the ultimate portable camera that fits right in your pocket, ready whenever inspiration strikes. this lightweight powerhouse delivers **stunning 4K resolution** that rivals cameras twice its size and price. whether you're hiking mountain trails, exploring city streets, or documenting precious family memories, this camera keeps up with your lifestyle effortlessly.\n\n**crystal-clear image stabilization** ensures your shots stay sharp even during fast-moving action sequences. the **all-day battery life** means you never have to worry about missing that perfect, unrepeatable shot again. built with a **weatherproof, durable design**, this camera survives rain, dust, and the unexpected drops that happen during real adventures.\n\nconnecting to your devices is seamless \u2014 **instant wireless sharing** lets you upload and post your best content within seconds. the **intelligent auto-focus system** locks onto subjects faster than the human eye can blink, guaranteeing professional-quality results every single time. even in **low-light environments**, the advanced sensor technology captures vivid, noise-free images that will genuinely impress everyone who sees them.\n\nthis isn't just a camera \u2014 **it's your creative companion**, designed for people who refuse to let great moments disappear without being remembered.\n\n---\n\n*available now | free shipping | limited stock remaining*\n\n**order today and start shooting tomorrow.**",
+  "response_word_count": 212,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

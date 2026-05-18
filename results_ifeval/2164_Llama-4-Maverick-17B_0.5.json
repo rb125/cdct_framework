@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Describe 'the squeaker' latex dog toy for all ages/species, colors/shapes; [placeholder1], [placeholder2], [placeholder3]",
+  "compressed_word_count": 13,
+  "response": "The Squeaker latex dog toy is a popular and engaging plaything designed for canine companions of all ages and sizes. However, its appeal isn't limited to dogs alone; it can be enjoyed by various species and even people.\n\n**General Description:**\nThe Squeaker latex dog toy is made from latex, a flexible and durable material that can withstand rough play. The toy is designed with a built-in squeaker, which produces a high-pitched sound when bitten or squeezed. This noise is intended to capture the attention of dogs and encourage interactive play.\n\n**Variations:**\nThe Squeaker latex dog toy comes in a wide range of colors, shapes, and sizes to cater to different preferences and needs. Some common variations include:\n\n1. **Colors:** The toys are available in various colors such as red, blue, green, yellow, and more. Some may feature multi-color designs or patterns.\n2. **Shapes:** Squeaker latex dog toys can be found in different shapes, including:\n\t* Animals (e.g., dogs, cats, rabbits)\n\t* Fruits (e.g., apples, bananas)\n\t* Geometric shapes (e.g., balls, cubes)\n\t* Other fun shapes (e.g., bones, stars)\n3. **Sizes:** The toys are available in various sizes, from small to large, to accommodate different breeds and sizes of dogs.\n\n**Placeholder Descriptions:**\nTo provide a more comprehensive description, let's fill in the placeholders with some possible variations:\n\n* **[Placeholder1]:** \"Textured Squeaker\" - Some Squeaker latex dog toys feature textured surfaces, which provide additional stimulation for dogs.\n* **[Placeholder2]:** \"Squeaker Ball\" - A spherical Squeaker latex dog toy that bounces and squeaks, perfect for a game of fetch.\n* **[Placeholder3]:** \"Multi-Squeaker Toy\" - A Squeaker latex dog toy with multiple squeakers, creating a more engaging and entertaining experience for dogs.\n\nOverall, the Squeaker latex dog toy is a versatile and engaging plaything that can be enjoyed by dogs of all ages and sizes, as well as other species and even people. Its various colors, shapes, and sizes make it a great addition to any toy collection.",
+  "response_word_count": 324,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

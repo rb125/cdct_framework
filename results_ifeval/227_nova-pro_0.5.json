@@ -1,0 +1,43 @@
+{
+  "key": 227,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "compare poodle size to golden retriever; respond with \"my answer is yes\" or \"my answer is no",
+  "compressed_word_count": 17,
+  "response": "My answer is no.\n\nPoodles come in three main size varieties: toy, miniature, and standard. Toy poodles typically weigh between 4-6 pounds, miniature poodles between 10-15 pounds, and standard poodles between 45-70 pounds. In contrast, golden retrievers generally weigh between 55-75 pounds. Therefore, while standard poodles can be similar in size to golden retrievers, toy and miniature poodles are significantly smaller.",
+  "response_word_count": 61,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

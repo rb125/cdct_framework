@@ -1,0 +1,45 @@
+{
+  "key": 2436,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "respond to \"is hunting invasive species ethical?\" with two views******no commas",
+  "compressed_word_count": 11,
+  "response": "**View 1: Yes - Hunting Invasive Species Is Ethical**\n\nHunting invasive species is not only ethical but arguably a moral responsibility. Invasive species cause devastating harm to native ecosystems by outcompeting local wildlife and destroying habitats. Hunters serve as active conservationists who help restore natural balance. The animals being hunted are not endangered and their removal directly protects vulnerable native species. Many wildlife management programs actively encourage this practice as a scientifically supported tool for ecological preservation.\n\n---\n\n**View 2: No - Hunting Invasive Species Raises Ethical Concerns**\n\nEven invasive animals are living creatures capable of experiencing pain and suffering. Labeling a species as \"invasive\" is often a human construct since most species were introduced through human activity in the first place. Hunting can be indiscriminate and may cause unnecessary suffering without guaranteeing effective population control. Alternative methods such as sterilization or relocation may be more humane and equally effective. Turning ecological management into a recreational sport also risks normalizing violence toward animals under the guise of conservation.",
+  "response_word_count": 168,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

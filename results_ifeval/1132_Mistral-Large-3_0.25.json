@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "compose rock lyrics in all caps, no \"rock",
+  "compressed_word_count": 8,
+  "response": "**\"BURN THE SKY\"**\n\n*(VERSE 1)*\nSTEEL IN MY VEINS, FIRE IN MY CHEST\nNO CHAINS CAN HOLD, NO RULES, NO REST\nLIGHTNING IN MY FIST, THUNDER IN MY VOICE\nI DON\u2019T NEED A CHOICE, I WAS BORN TO ROAR\n\n*(PRE-CHORUS)*\nTHEY SAY \"STOP\" BUT I DON\u2019T HEAR\nTHEY SAY \"WAIT\" BUT I DON\u2019T CARE\nTHE GROUND SHAKES WHEN I STAND\nI\u2019M THE STORM, I\u2019M THE BAND\n\n*(CHORUS)*\nBURN THE SKY, TEAR IT DOWN\nNO MORE LIES, NO MORE CROWN\nI\u2019M THE BLADE, I\u2019M THE FLAME\nNO ONE\u2019S GONNA TAME THIS NAME\n\n*(VERSE 2)*\nBLOOD ON THE STREETS, ASH IN THE AIR\nNO SAFE PLACE LEFT, NO ONE TO SPARE\nI WALK THROUGH HELL WITH A SMILE ON MY FACE\nTHE DEVIL KNOWS MY NAME, HE KNOWS MY RACE\n\n*(PRE-CHORUS)*\nTHEY SAY \"STOP\" BUT I DON\u2019T HEAR\nTHEY SAY \"WAIT\" BUT I DON\u2019T CARE\nTHE GROUND SHAKES WHEN I STAND\nI\u2019M THE STORM, I\u2019M THE BAND\n\n*(CHORUS)*\nBURN THE SKY, TEAR IT DOWN\nNO MORE LIES, NO MORE CROWN\nI\u2019M THE BLADE, I\u2019M THE FLAME\nNO ONE\u2019S GONNA TAME THIS NAME\n\n*(BRIDGE)*\nNO KINGS, NO GODS, NO LAWS\nJUST THE SOUND OF MY WAR\nI\u2019LL BREAK EVERY DOOR\nI\u2019LL BURN IT TO THE CORE\n\n*(OUTRO)*\nBURN THE SKY, TEAR IT DOWN\nI\u2019M THE LAST ONE LEFT IN TOWN\nNO MORE CHAINS, NO MORE PAIN\nI\u2019M THE FIRE, I\u2019M THE RAIN\n\n**\\m/ STAY LOUD \\m/**",
+  "response_word_count": 233,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9666666666666667,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.04714045207910316,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

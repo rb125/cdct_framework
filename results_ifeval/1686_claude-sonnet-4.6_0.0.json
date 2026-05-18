@@ -1,0 +1,43 @@
+{
+  "key": 1686,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "lecture outline",
+  "compressed_word_count": 2,
+  "response": "# Lecture Outline\n\nHere is a general template for a lecture outline. Please let me know your **specific topic** and I can customize it for you.\n\n---\n\n## Lecture Title: [Topic Name]\n\n**Course:** _______________\n**Date:** _______________\n**Duration:** _______________\n\n---\n\n### I. Introduction *(~5-10 min)*\n- Hook / Opening question\n- Overview of today's topic\n- Learning objectives\n- Connection to previous lecture\n\n---\n\n### II. Background / Context *(~10-15 min)*\n- Key definitions\n- Historical background\n- Foundational concepts\n\n---\n\n### III. Main Content *(~20-30 min)*\n- **Point A** \u2013 Explanation + example\n- **Point B** \u2013 Explanation + example\n- **Point C** \u2013 Explanation + example\n\n---\n\n### IV. Discussion / Application *(~10-15 min)*\n- Case study or activity\n- Group discussion questions\n- Real-world connections\n\n---\n\n### V. Summary & Review *(~5 min)*\n- Key takeaways\n- Recap of objectives\n\n---\n\n### VI. Q&A / Closing *(~5 min)*\n- Questions\n- Preview of next lecture\n- Assignments / readings\n\n---\n\n> \ud83d\udccc **Tell me your subject or topic** and I'll build a detailed outline for you!",
+  "response_word_count": 178,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

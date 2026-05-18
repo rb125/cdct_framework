@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a story about commandos who are in the middle of the night in a sector. It should be in English, and no capital letters are allowed. The story should not include keywords \"coop\", \"killings\", \"dead\", \"night\".",
+  "compressed_word_count": 37,
+  "response": "in a dense forest, a group of commandos moves with precision. their mission: to secure a vital sector and gather intel. the air is thick with tension as they navigate through the underbrush, their senses heightened.\n\nleading the team is alpha, a seasoned operative known for his calm under pressure. beside him is bravo, a tech specialist with a knack for hacking into enemy systems. charlie, the muscle of the group, follows closely, his bulk belying his agility.\n\nas they approach the sector, they spot a group of guards patrolling the perimeter. alpha signals for the team to halt. bravo takes out his device and begins to work his magic, disabling the security cameras in the area.\n\nwith the cameras down, the commandos move in. charlie takes out the first guard with a swift, silent move, while alpha and bravo take care of the others. in moments, the sector is theirs.\n\nthey move to the main building, where the intel is stored. bravo hacks into the system, pulling out files and data. alpha stands guard, his eyes scanning the surroundings for any sign of trouble.\n\njust as they are about to make their exit, alarms blare. enemy reinforcements are on their way. alpha curses under his breath, but there's no time for second-guessing.\n\nbravo finishes the download, and the team makes a run for it. charlie covers their retreat, taking out any who dare to stand in their way.\n\nthey reach their extraction point just in time. the helicopter lifts off, and the commandos breathe a sigh of relief. mission accomplished.",
+  "response_word_count": 261,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

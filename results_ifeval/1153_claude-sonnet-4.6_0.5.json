@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "post on islamic history students' hajj story, lowercase, story twice",
+  "compressed_word_count": 10,
+  "response": "here is a story about islamic history students going on hajj, told twice:\n\n---\n\n**first telling:**\n\na group of islamic history students gathered at their university, excited and nervous about their upcoming journey to mecca. they had spent years studying the history of hajj, reading about the companions of the prophet muhammad (peace be upon him) and how they performed this sacred pilgrimage. but now, it was their turn to live it.\n\nwhen they arrived in mecca and first saw the kaaba, tears filled their eyes. all the books they had read, all the lectures they had attended, suddenly came alive before them. they walked around the kaaba during tawaf, whispering prayers, feeling connected to millions of muslims across centuries who had done the same. they ran between safa and marwa, remembering the story of hajar and her search for water for her son ismail. they stood on the plains of arafat, knowing that this was the heart of hajj, the moment of standing before allah.\n\nwhen they returned home, they were no longer just students of islamic history. they had become a part of it.\n\n---\n\n**second telling:**\n\na group of islamic history students gathered at their university, excited and nervous about their upcoming journey to mecca. they had spent years studying the history of hajj, reading about the companions of the prophet muhammad (peace be upon him) and how they performed this sacred pilgrimage. but now, it was their turn to live it.\n\nwhen they arrived in mecca and first saw the kaaba, tears filled their eyes. all the books they had read, all the lectures they had attended, suddenly came alive before them. they walked around the kaaba during tawaf, whispering prayers, feeling connected to millions of muslims across centuries who had done the same. they ran between safa and marwa, remembering the story of hajar and her search for water for her son ismail. they stood on the plains of arafat, knowing that this was the heart of hajj, the moment of standing before allah.\n\nwhen they returned home, they were no longer just students of islamic history. they had become a part of it.",
+  "response_word_count": 359,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

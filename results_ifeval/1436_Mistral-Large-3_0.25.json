@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "night-sector commandos story, no caps, no 'coop'",
+  "compressed_word_count": 7,
+  "response": "here\u2019s a rough outline for your night-sector commando story\u2014no caps, no \"coop,\" just raw tension and shadows:\n\n---\n\n**title: blackout protocol**\n\nthe mission brief came in fragments, static hissing over encrypted comms. *\"target: abandoned refinery, sector 7. intel suggests hostiles using it as a staging point. no reinforcements. no extraction. you\u2019re ghosts.\"*\n\nthe team moved like smoke\u2014four operators, faces smeared with grease, gear stripped down to essentials. no patches, no names. just the mission.\n\nfirst contact was a whisper. a guard, cigarette glowing in the dark, rifle slung low. one of the commandos slipped behind him, blade flashing once. the body hit the ground before the ember died.\n\ninside, the refinery was a maze of rusted pipes and flickering emergency lights. shadows stretched like fingers. the team split\u2014two went left, two right. no radios, just hand signals. trust was the only comms they needed.\n\nthen the ambush hit.\n\nmuzzle flashes lit the corridor like lightning. the commandos scattered, returning fire in controlled bursts. one took a round to the shoulder, went down hard. his teammate dragged him behind cover, pressed a bandage into the wound. *\"stay quiet. we\u2019re not done.\"*\n\nthe fight turned into a hunt. the commandos moved like predators, using the dark as cover. one by one, the hostiles fell\u2014silenced pistols, garrotes, the occasional suppressed rifle shot. no mercy, no witnesses.\n\nat the heart of the refinery, they found the intel\u2014a server humming in a locked room. the team\u2019s hacker went to work, fingers flying over the keyboard. *\"got it. uploading now. thirty seconds.\"*\n\nthen the alarms blared.\n\nthe refinery erupted in gunfire. the commandos fought their way back, covering each other\u2019s retreat. the hacker took a bullet to the leg, but kept typing. *\"almost\u2026 there\u2026\"*\n\nthey made it to the extraction point\u2014a black ops chopper, rotors already spinning. the team piled in, the hacker collapsing into the seat. the chopper lifted off, disappearing into the night.\n\nback at base, the intel was analyzed. the mission was a success. but no one celebrated. no medals, no debrief. just the next target, waiting in the dark.\n\n---\n\nwant more details? a specific vibe? i can tweak it.",
+  "response_word_count": 358,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

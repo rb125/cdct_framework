@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write poem missing classes, 4 sections, end 'money back'?",
+  "compressed_word_count": 9,
+  "response": "### Section 1: The Empty Halls\n\nIn corridors of silence, shadows play,\nWhere laughter once echoed, now void and gray.\nClassrooms stand deserted, desks aligned,\nA ghostly echo of knowledge left behind.\n\nThe chalkboards stare with eyes of chalky white,\nWhispering secrets of an absent light.\nBells that once rang with a jubilant chime,\nNow toll in sorrow, marking empty time.\n\n### Section 2: The Forgotten Dreams\n\nIn the heart of learning, aspirations fade,\nDreams of discovery, in darkness laid.\nStudents with visions, now lost in the fray,\nChasing phantoms in an aimless sway.\n\nThe library's wisdom, bound and shelved,\nLies untouched, its mysteries unsolved.\nBooks that held worlds within their pages,\nGather dust, forgotten by the ages.\n\n### Section 3: The Silent Struggle\n\nTeachers stand with weary, hopeful eyes,\nSeeking to ignite the dormant skies.\nLessons planned, yet met with vacant stares,\nKnowledge offered, but no one cares.\n\nThe passion dims, the fire burns low,\nIn the face of an indifferent flow.\nEfforts strained, yet the impact slight,\nTeaching in the shadow of the night.\n\n### Section 4: The Promise Unfulfilled\n\nTuition paid, expectations high,\nYet the promised education seems to fly.\nParents' hopes, students' futures at stake,\nIn this system, what mistakes were made?\n\nNow comes the cry for a remedy,\nA \"money back\" for this tragedy.\nIn the quest for knowledge, we must reclaim,\nThe lost classes, the unfulfilled aim.",
+  "response_word_count": 233,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

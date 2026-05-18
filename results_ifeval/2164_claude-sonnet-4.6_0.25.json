@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "latex squeaker for all dogs, [placeholders]",
+  "compressed_word_count": 6,
+  "response": "# Latex Squeaker for All Dogs\n\n## Product Listing Template\n\n---\n\n### \ud83d\udc3e [PRODUCT NAME] \u2013 Latex Squeaker Dog Toy\n\n---\n\n**Headline:**\n> \"[CATCHY TAGLINE] \u2013 The Squeaky Toy Every Dog Will Love!\"\n\n---\n\n### \ud83d\udce6 Product Description\n\nIntroducing **[PRODUCT NAME]**, the ultimate latex squeaker toy designed for dogs of **all sizes and breeds**! Made from **[MATERIAL QUALITY, e.g., 100% natural/durable latex]**, this toy is built to withstand hours of play while keeping your pup entertained and engaged.\n\nWhether you have a **[SMALL BREED, e.g., Chihuahua]** or a **[LARGE BREED, e.g., German Shepherd]**, this squeaker toy is the perfect companion for:\n- \u2705 Interactive playtime\n- \u2705 Stress and anxiety relief\n- \u2705 Dental health stimulation\n- \u2705 Solo or fetch play\n\n---\n\n### \ud83d\udd11 Key Features\n\n| Feature | Details |\n|---|---|\n| **Material** | [e.g., BPA-free natural latex] |\n| **Size** | [e.g., Small / Medium / Large] |\n| **Color** | [e.g., Red, Blue, Yellow] |\n| **Shape** | [e.g., Bone, Animal, Ball] |\n| **Squeaker Type** | [e.g., Single/Double squeaker] |\n| **Suitable For** | All dog breeds & sizes |\n\n---\n\n### \ud83d\udcd0 Size Guide\n\n| Dog Size | Weight | Recommended Toy Size |\n|---|---|---|\n| Small | [e.g., Under 10 lbs] | [Size] |\n| Medium | [e.g., 10\u201350 lbs] | [Size] |\n| Large | [e.g., 50+ lbs] | [Size] |\n\n---\n\n### \u26a0\ufe0f Safety Information\n\n- Supervise your dog during play\n- Replace toy if **[CONDITION, e.g., torn or damaged]**\n- Not suitable for **[AGE/TYPE, e.g., puppies under 3 months]**\n- Keep away from **[HAZARD, e.g., children under 3 years]**\n\n---\n\n### \ud83d\udcac Customer Reviews\n\n> \u2b50\u2b50\u2b50\u2b50\u2b50 *\"[CUSTOMER REVIEW PLACEHOLDER]\"* \u2013 [Customer Name]\n\n> \u2b50\u2b50\u2b50\u2b50 *\"[CUSTOMER REVIEW PLACEHOLDER]\"* \u2013 [Customer Name]\n\n---\n\n### \ud83d\uded2 Pricing & Availability\n\n| Package | Price | Availability |\n|---|---|---|\n| Single Toy | $[PRICE] | [In Stock / Out of Stock] |\n| Pack of 3 | $[PRICE] | [In Stock / Out of Stock] |\n| Bundle Pack | $[PRICE] | [In Stock / Out of Stock] |\n\n---\n\n### \ud83d\udcde Contact & Support\n\n- **Brand:** [BRAND NAME]\n- **Website:** [WEBSITE URL]\n- **Email:** [CONTACT EMAIL]\n- **Return Policy:** [RETURN POLICY DETAILS]\n\n---\n\n*\ud83d\udc36 Make playtime fun for every dog \u2013 squeak, fetch, repeat!*",
+  "response_word_count": 380,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.8,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.9333333333333332,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1813,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "essay on college life changes, all caps, max 30 words",
+  "compressed_word_count": 10,
+  "response": "COLLEGE LIFE BRINGS INDEPENDENCE, NEW FRIENDSHIPS, AND PERSONAL GROWTH. STUDENTS FACE CHALLENGES, MANAGE TIME, EXPLORE PASSIONS, AND TRANSFORM INTO RESPONSIBLE, CONFIDENT ADULTS READY FOR THE FUTURE.",
+  "response_word_count": 26,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

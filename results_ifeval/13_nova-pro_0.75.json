@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Provide nyc Prospect Park's history in json format. Use markdown ticks. Example: ```json{...}```",
+  "compressed_word_count": 13,
+  "response": "```json\n{\n  \"history\": [\n    {\n      \"year\": \"1859\",\n      \"event\": \"The New York State Legislature approves the creation of Prospect Park.\"\n    },\n    {\n      \"year\": \"1860\",\n      \"event\": \"Construction of Prospect Park begins under the design of Frederick Law Olmsted and Calvert Vaux.\"\n    },\n    {\n      \"year\": \"1867\",\n      \"event\": \"The park officially opens to the public.\"\n    },\n    {\n      \"year\": \"1905\",\n      \"event\": \"The construction of the Prospect Park Zoo begins.\"\n    },\n    {\n      \"year\": \"1930s\",\n      \"event\": \"The park undergoes significant renovations under the leadership of Parks Commissioner Robert Moses.\"\n    },\n    {\n      \"year\": \"1987\",\n      \"event\": \"Prospect Park is designated a New York City Scenic Landmark.\"\n    },\n    {\n      \"year\": \"1990s\",\n      \"event\": \"Major restoration efforts are undertaken to restore the park to its original design.\"\n    },\n    {\n      \"year\": \"2010\",\n      \"event\": \"The Prospect Park Alliance completes the restoration of the Long Meadow.\"\n    }\n  ]\n}\n```",
+  "response_word_count": 135,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

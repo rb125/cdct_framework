@@ -1,0 +1,45 @@
+{
+  "key": 1122,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "make a tweet for playboy's twitter account without using capital letters. Include at least 4 hashtags, starting with '#'",
+  "compressed_word_count": 19,
+  "response": "here's a tweet for playboy's twitter account:\n\n\"life is short, live boldly, love freely, and never apologize for being exactly who you are \ud83d\udc30\u2728 #playboy #livefree #boldandbeautiful #embraceyourself #playboyvibes\"",
+  "response_word_count": 29,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 0.9333333333333332,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 4-section clown resume, no section titles.",
+  "compressed_word_count": 7,
+  "response": "- Performed as a professional clown for over 10 years, entertaining children and adults at birthday parties, corporate events, and community festivals.\n- Skilled in various clowning techniques, including balloon twisting, face painting, and comedic improvisation.\n- Developed and executed unique clown personas tailored to specific event themes and audience preferences.\n- Collaborated with event organizers to create engaging and interactive clown performances that exceeded client expectations.\n\n- Trained in safety protocols for clown performances, ensuring a secure environment for both performers and audience members.\n- Maintained a clean and organized clown costume and prop inventory, regularly updating and repairing items as needed.\n- Utilized social media platforms to promote clown services and engage with potential clients, resulting in increased bookings and positive reviews.\n- Participated in clown workshops and conferences to stay current with industry trends and enhance performance skills.\n\n- Successfully managed multiple clown bookings simultaneously, coordinating schedules and ensuring timely arrivals at events.\n- Built strong relationships with clients through exceptional customer service, resulting in repeat business and referrals.\n- Adapted clown performances to accommodate diverse audience needs, including individuals with disabilities and special requirements.\n- Received accolades and recognition from clients for outstanding clown performances, contributing to a reputation as a top-tier clown entertainer.\n\n- Committed to continuous learning and professional development in the field of clowning, pursuing advanced training and certifications.\n- Volunteered as a clown performer for charitable events and hospital visits, bringing joy and laughter to underserved communities.\n- Collaborated with other performers and artists to create multidisciplinary shows that incorporated clowning with other art forms.\n- Maintained a positive and enthusiastic attitude, embodying the spirit of clowning in all interactions and performances.",
+  "response_word_count": 280,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.6
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6,
+      "FC": 0.5333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.04714045207910316
+    }
+  }
+}

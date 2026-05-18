@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "create ad template for portable camera, highlight key points with <4 caps, min 10 sentences",
+  "compressed_word_count": 15,
+  "response": "# \ud83d\udcf8 CAPTURE LIFE ANYWHERE \u2014 Introducing the UltraShot Portable Camera\n\nAre you tired of missing those perfect, spontaneous moments because your camera is too bulky to carry around? The UltraShot Portable Camera is here to change the way you experience photography forever. Designed for adventurers, travelers, content creators, and everyday memory-makers, this compact powerhouse fits right in your pocket. Whether you're hiking through mountain trails or strolling through a busy city street, this camera is always ready when you are.\n\nWith its **SLIM** and lightweight body, you'll never have to sacrifice quality for convenience again. The UltraShot delivers stunning **4K** resolution images that rival professional-grade equipment at a fraction of the size. Its advanced optical stabilization ensures every shot comes out crisp, clear, and breathtakingly sharp \u2014 even on the move. The **FAST** autofocus system locks onto your subject in milliseconds, so you never miss a blink, a smile, or a sunset.\n\nBuilt with a **TOUGH** weather-resistant shell, the UltraShot handles rain, dust, and the unexpected drops that life throws your way. The long-lasting battery gives you up to 12 hours of continuous shooting on a single charge. Sharing your masterpieces is effortless with instant wireless connectivity to all your favorite devices and platforms. The intuitive touchscreen interface makes navigation smooth and enjoyable for beginners and professionals alike.\n\nEvery great story deserves to be told beautifully \u2014 and the UltraShot Portable Camera is your perfect storytelling companion.\n\n**\ud83d\uded2 Order yours today and shoot the world YOUR way!**",
+  "response_word_count": 248,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7999999999999999,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.21602468994692867,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

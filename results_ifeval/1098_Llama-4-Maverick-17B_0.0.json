@@ -1,0 +1,43 @@
+{
+  "key": 1098,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "god names ***** aliases",
+  "compressed_word_count": 4,
+  "response": "You're looking for information on various names or aliases associated with a deity or deities. The concept of a deity having multiple names or aliases is common across many cultures and religions. These names often reflect different attributes, roles, or aspects of the deity.\n\nHere are a few examples from various religious traditions:\n\n1. **Hinduism**: In Hinduism, many gods and goddesses have multiple names and epithets. For example, Lord Vishnu is known by many names such as Narayana, Hari, and Kesava, among others. Similarly, Goddess Durga is also known as Kali, Parvati, or Gauri, depending on the context and her role.\n\n2. **Greek and Roman Mythology**: Gods and goddesses in Greek and Roman mythology often had multiple names or epithets. For instance, Zeus (Greek) and Jupiter (Roman) were both sky gods and had various names reflecting their powers and roles.\n\n3. **Christianity**: In Christianity, God is referred to by several names and titles in the Bible, such as Yahweh, Elohim, Adonai, and Lord. Jesus Christ is also referred to by many titles like Messiah, Savior, and Son of God.\n\n4. **Judaism**: In Judaism, God is known by several names, with Yahweh being considered the most sacred. Other names include Elohim and Adonai.\n\n5. **Islam**: In Islam, God is referred to as Allah, and there are also 99 names or attributes of Allah known as Asma ul-Husna, which describe various aspects of God.\n\nThese are just a few examples. The use of multiple names or aliases for deities is a widespread phenomenon that reflects the complex and multifaceted nature of divine beings in various religious traditions.",
+  "response_word_count": 265,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

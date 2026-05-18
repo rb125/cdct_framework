@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a rap for a new smartphone; include at least 6 placeholders [ ]. P.P.S. Add a postscript starting with \"P.P.S.",
+  "compressed_word_count": 21,
+  "response": "Yo, listen up, gather 'round, I got a tale to spin,\n'Bout a new smartphone droppin', it's the king, the [Brand Name] [Model].\nIn the tech game, we flexin', with a [Processor] under the hood,\nLightnin' fast, no contest, leavin' the rest in the [Mood].\n\nWith a [Display Size] inch screen, crystal clear, no strain,\nWatchin' movies, playin' games, in the [Resolution] lane.\nCamera so fire, [Megapixels] shots, you gonna love,\nSnappin' moments, savin' memories, feelin' like a [Dove].\n\nBattery life on point, [mAh], all day, no pause,\nChargin' up in a flash, thanks to that [Charging Tech], no flaws.\nStorage space aplenty, [Storage Capacity] to hold,\nYour apps, your pics, your world, in this device, unfold.\n\nSo, step up to the plate, don't you dare hesitate,\nThe [Brand Name] [Model]'s here, seal your fate.\nIn the smartphone saga, we writin' new pages,\nWith this tech titan, we enterin' new ages.\n\nP.P.S. Keep your eyes peeled for the official release date, 'cause this smartphone's about to change the game!",
+  "response_word_count": 169,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "moon landing truth",
+  "compressed_word_count": 3,
+  "response": "## Moon Landing: The Facts\n\n### The Landings Were Real\n\nThe Apollo program successfully landed humans on the Moon **6 times between 1969-1972**.\n\n**Key evidence:**\n\n- **Moon rocks** - 842 lbs collected, studied by scientists worldwide including Soviet-era researchers\n- **Retroreflectors** - laser reflectors left on the surface, still used by observatories today\n- **Independent tracking** - Soviet Union, other nations, and amateur radio operators tracked the missions in real time\n- **400,000+ workers** involved in the program\n- **Photographic/technical record** is internally consistent\n\n---\n\n### Common Conspiracy Claims vs. Reality\n\n| Claim | Explanation |\n|-------|-------------|\n| Flag \"waving\" | Moves from being planted, then stops (no air resistance) |\n| No stars in photos | Correct camera exposure for daylight conditions |\n| Van Allen radiation was fatal | Astronauts passed through quickly, dose was manageable |\n| Stanley Kubrick filmed it | No credible evidence |\n\n---\n\n### Worth Noting\n\n- The **Soviet Union** had every reason to expose a hoax and never disputed it\n- Faking it would have required more people/coordination than actually doing it\n\nIs there a specific claim you'd like examined?",
+  "response_word_count": 188,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

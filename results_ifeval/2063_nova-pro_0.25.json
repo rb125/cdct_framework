@@ -1,0 +1,45 @@
+{
+  "key": 2063,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Titan makes clothing for large men. Write an advertisement for the company that would appeal to a wide audience. Make sentences short. Your response should not contain any comma.\nadvertise Titan's inclusive fit, no commas",
+  "compressed_word_count": 35,
+  "response": "Discover Titan's inclusive fit where style meets comfort. Our clothing is designed for large men ensuring a perfect fit every time. Say goodbye to ill-fitting clothes and hello to confidence. With a wide range of sizes and styles Titan has something for everyone. Join the Titan family and experience the difference of truly inclusive fashion.",
+  "response_word_count": 55,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6,
+      "FC": 0.5666666666666667,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

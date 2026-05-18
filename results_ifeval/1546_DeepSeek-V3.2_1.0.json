@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "In this task, repeat the exact request below first, then give your response. Do not say any word before repeating the exact request.\n\nWrite an acoustic song about the Korean peninsula without using any commas.",
+  "compressed_word_count": 35,
+  "response": "Write an acoustic song about the Korean peninsula without using any commas.\n\nA single mountain stands so tall\nTwo rivers flow from one great wall\nThe morning calm a shared sky blue\nA single dream split right in two\n\nYour hanbok and my hanbok sway\nTo different tunes the same sad way\nWe sow the rice we share the sea\nYet turn our backs on what could be\n\nThe barbed wire cuts the gentle earth\nA line that measures sorrow's worth\nThe DMZ a silent scream\nInside a forgotten shared dream\n\nOh peninsula of fractured light\nI strum my guitar through the night\nHoping someday this song will soar\nTo a home that is one once more\n\nA lullaby for a wounded land\nHeld gently in a trembling hand\nWaiting for the day we see\nOne Korea strong and free",
+  "response_word_count": 140,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

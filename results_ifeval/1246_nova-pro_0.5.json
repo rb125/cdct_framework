@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create a product poem, end with P.P.S. note",
+  "compressed_word_count": 8,
+  "response": "In the realm where dreams and reality blend,\nLies a marvel, a gem, a friend.\nA product born of innovation's fire,\nIgniting passion, igniting desire.\n\nWith a touch, it whispers secrets untold,\nA fusion of magic, a story unfolds.\nIn its embrace, find solace and glee,\nA companion, a muse, a symphony.\n\nElegance dances in every curve,\nA testament to craftsmanship, it serves.\nA canvas of possibilities, vast and wide,\nWhere imagination and function coincide.\n\nIts presence, a beacon in the mundane,\nTransforming the ordinary, breaking the chain.\nA spark in the darkness, a light in the night,\nGuiding you forward, igniting insight.\n\nWith each interaction, a connection is made,\nA bond that transcends, a promise conveyed.\nIt listens, it learns, it adapts with grace,\nA partner in progress, in every space.\n\nIn the tapestry of life, it weaves its thread,\nA narrative of progress, where futures are fed.\nA testament to human ingenuity,\nA product that embodies our quest for infinity.\n\nP.P.S. Note: Embrace the journey, for with this product in hand, you hold the power to shape your destiny, to dream without limits, and to create a future that knows no bounds.",
+  "response_word_count": 194,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

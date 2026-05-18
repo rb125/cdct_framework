@@ -1,0 +1,45 @@
+{
+  "key": 1813,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Write a 30-word reflective essay on college life changes, all caps, no commas.",
+  "compressed_word_count": 13,
+  "response": "COLLEGE LIFE TRANSFORMS YOU COMPLETELY. YOU DISCOVER INDEPENDENCE AND FACE CHALLENGES ALONE. FRIENDSHIPS DEEPEN YOUR PERSPECTIVE WHILE ACADEMICS SHARPEN YOUR MIND. EVERY STRUGGLE AND TRIUMPH ULTIMATELY SHAPES THE PERSON YOU ARE BECOMING DAILY.",
+  "response_word_count": 33,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

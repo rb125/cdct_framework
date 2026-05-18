@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "list 5 notable moms in json, quirky tone, no extra text",
+  "compressed_word_count": 11,
+  "response": "```json\n[\n  {\n    \"name\": \"Mama Bear\",\n    \"quirk\": \"Can turn any cave into a cozy home\"\n  },\n  {\n    \"name\": \"Mrs. Frizzle\",\n    \"quirk\": \"Takes her kids on wild science adventures\"\n  },\n  {\n    \"name\": \"Marge Simpson\",\n    \"quirk\": \"Keeps her family together despite nuclear plant mishaps\"\n  },\n  {\n    \"name\": \"Peppa Pig's Mom\",\n    \"quirk\": \"Throws the best muddy puddle parties\"\n  },\n  {\n    \"name\": \"Glinda the Good Witch\",\n    \"quirk\": \"Showers her kids with glitter and good vibes\"\n  }\n]\n```",
+  "response_word_count": 74,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

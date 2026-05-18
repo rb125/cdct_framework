@@ -1,0 +1,45 @@
+{
+  "key": 1779,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write an itinerary for a trip to a grocery store in Lima to buy some local goods. Make the itinerary funny, write it in all capital letters and include the keywords 'DISGUSTING', 'DELICIOUS', 'BAD', and 'GOOD'.",
+  "compressed_word_count": 36,
+  "response": "**LIMA GROCERY STORE ADVENTURE ITINERARY**\n\n**8:00 AM - ARRIVAL AND PREPARATION FOR THE UNKNOWN**\nARRIVE AT THE GROCERY STORE, A TEMPLE OF LOCAL DELICACIES AND POTENTIAL DISASTERS. PUT ON YOUR BRAVE FACE AND GET READY TO EMBARK ON A JOURNEY OF FLAVORS, SOME OF WHICH MIGHT BE DISGUSTING, BUT OTHERS DELICIOUS.\n\n**8:15 AM - EXPLORING THE AISLES**\nWALK DOWN THE AISLES AND DISCOVER THE LOCAL GOODS ON OFFER. BE PREPARED TO TRY NEW THINGS, SOME OF WHICH MIGHT TASTE BAD, BUT OTHERS WILL BE GOOD. LOOK OUT FOR UNIQUE PRODUCTS LIKE AJ\u00cd AMARILLO SAUCE AND LUCUMA FRUIT.\n\n**9:00 AM - TASTING SESSION**\nSTOP BY THE TASTING SECTION AND SAMPLE SOME OF THE LOCAL SPECIALTIES. YOU MIGHT ENCOUNTER SOME DISGUSTING FERMENTED FISH SAUCE, BUT YOU MIGHT ALSO DISCOVER A DELICIOUS TYPE OF CHEESE THAT WILL MAKE YOU WONDER HOW YOU EVER LIVED WITHOUT IT.\n\n**10:00 AM - SHOPPING TIME**\nSTART FILLING YOUR SHOPPING CART WITH ALL THE GOOD STUFF YOU'VE DISCOVERED. BE CAREFUL NOT TO OVERDO IT WITH THE SPICY PRODUCTS, AS THEY MIGHT LEAVE YOU WITH A BAD TASTE IN YOUR MOUTH (LITERALLY!).\n\n**11:00 AM - CHECKOUT AND DEPARTURE**\nHEAD TO THE CHECKOUT LINE AND PAY FOR YOUR GOODIES. AS YOU LEAVE THE STORE, FEEL SATISFIED WITH YOUR PURCHASES AND LOOK FORWARD TO TRYING ALL THE DELICIOUS (AND POSSIBLY DISGUSTING) THINGS YOU'VE BOUGHT.\n\n**BON APP\u00c9TIT, AND MAY THE FLAVORS OF LIMA BE WITH YOU!**",
+  "response_word_count": 234,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

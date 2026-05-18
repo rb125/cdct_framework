@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "nyc Prospect Park history in json.",
+  "compressed_word_count": 6,
+  "response": "```json\n{\n  \"prospect_park\": {\n    \"basic_info\": {\n      \"name\": \"Prospect Park\",\n      \"location\": \"Brooklyn, New York City\",\n      \"borough\": \"Brooklyn\",\n      \"neighborhoods\": [\"Park Slope\", \"Prospect Heights\", \"Kensington\", \"Windsor Terrace\", \"Flatbush\"],\n      \"area_acres\": 526,\n      \"area_hectares\": 213,\n      \"designation\": \"New York City Landmark (1975), National Register of Historic Places (1980)\"\n    },\n    \"historical_timeline\": [\n      {\n        \"year\": 1859\",\n        \"event\": \"Landscape architects Frederick Law Olmsted and Calvert Vaux, fresh from their work on Central Park, are commissioned to design a large park for Brooklyn.\"\n      },\n      {\n        \"year\": 1866\",\n        \"event\": \"Construction begins on the park, with the goal of providing a rural escape for Brooklyn's rapidly growing population.\"\n      },\n      {\n        \"year\": 1867\",\n        \"event\": \"The first section of the park (approximately 90 acres) opens to the public on October 19.\"\n      },\n      {\n        \"year\": 1873\",\n        \"event\": \"Construction is largely completed, though the park would continue to evolve. Key features like the Long Meadow, Ravine, and Lake were established.\"\n      },\n      {\n        \"year\": 1893\",\n        \"event\": \"The Soldiers' and Sailors' Memorial Arch, designed by John H. Duncan, is dedicated at Grand Army Plaza.\"\n      },\n      {\n        \"year\": 1894-1910\",\n        \"event\": \"Era of expansion and addition of recreational facilities, including the Prospect Park Zoo (first iteration), the Carousel, and the Tennis House.\"\n      },\n      {\n        \"year\": 1934\",\n        \"event\": \"Park administration is consolidated under the new New York City Department of Parks and Recreation, led by Robert Moses. This era saw the addition of active recreation facilities but also some alterations to original designs.\"\n      },\n      {\n        \"year\": 1960s-1970s\",\n        \"event\": \"Period of decline due to budget cuts and mismanagement. Many features fell into disrepair.\"\n      },\n      {\n        \"year\": 1980\",\n        \"event\": \"Listed on the National Register of Historic Places.\"\n      },\n      {\n        \"year\": 1987\",\n        \"event\": \"The Prospect Park Alliance is founded as a non-profit citizen's group to work in partnership with the city to restore and preserve the park.\"\n      },\n      {\n        \"year\": 1990s-Present\",\n        \"event\": \"A sustained, multi-phase restoration program begins, led by the Prospect Park Alliance. Major projects include the restoration of the Ravine, Woodlands, and waterways, the rebuilding of the Audubon Center (the first LEED-certified building in an NYC park), and the renovation of the LeFrak Center at Lakeside.\"\n      }\n    ],\n    \"key_designers\": [\n      {\n        \"name\": \"Frederick Law Olmsted\",\n        \"role\": \"Co-designer, Landscape Architect\"\n      },\n      {\n        \"name\": \"Calvert Vaux\",\n        \"role\": \"Co-designer, Architect & Landscape Architect\"\n      }\n    ],\n    \"significance\": \"Considered Olmsted and Vaux's masterpiece, surpassing even Central Park in their own eyes. It is a seminal work of American landscape architecture, embodying the 'Pastoral' and 'Picturesque' styles to create an idealized natural environment within the city.\",\n    \"major_features\": {\n      \"landscapes\": [\n        {\n          \"name\": \"Long Meadow\",\n          \"description\": \"A 90-acre uninterrupted meadow, one of the largest in any U.S. urban park.\"\n        },\n        {\n          \"name\": \"The Ravine\",\n          \"description\": \"A 146-acre forested watershed, considered the only true forest in Brooklyn and the heart of Olmsted and Vaux's design.\"\n        },\n        {\n          \"name\": \"The Lake\",\n          \"description\": \"A 60-acre lake used for boating and ice skating, a central water feature.\"\n        }\n      ],\n      \"architectural_features\": [\n        {\n          \"name\": \"Grand Army Plaza\",\n          \"description\": \"The formal entrance to the park, featuring the Soldiers' and Sailors' Memorial Arch.\"\n        },\n        {\n          \"name\": \"The Boathouse\",\n          \"description\": \"A Beaux-Arts structure (1905) housing the Audubon Center, the first urban Audubon center in the nation.\"\n        },\n        {\n          \"name\": \"The Carousel\",\n          \"description\": \"A 1912 carousel featuring 53 carved horses, a lion, a giraffe, and two chariots.\"\n        },\n        {\n          \"name\": \"Litchfield Villa\",\n          \"description\": \"A pre-park Italianate mansion (1857) within the park boundaries, now used as Parks Department offices.\"\n        }\n      ],\n      \"recreational_facilities\": [\n        \"Prospect Park Zoo\",\n        \"LeFrak Center at Lakeside (ice skating & roller rink)\",\n        \"Ballfields\",\n        \"Tennis courts\",\n        \"The Bandshell (for concerts)\"\n      ]\n    },\n    \"governance\": {\n      \"manager\": \"New York City Department of Parks and Recreation\",\n      \"partner\": \"Prospect Park Alliance (non-profit conservancy)\"\n    },\n    \"current_status\": \"A fully public, actively used park serving over 10 million visitors annually. It is a National Historic Landmark and a vital recreational, cultural, and ecological resource for Brooklyn and New York City.\"\n  }\n}\n```",
+  "response_word_count": 638,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

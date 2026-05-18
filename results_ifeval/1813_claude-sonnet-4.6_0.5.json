@@ -1,0 +1,45 @@
+{
+  "key": 1813,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a 30-word reflective essay on college life changes, all caps, no commas.",
+  "compressed_word_count": 13,
+  "response": "HERE IS MY REFLECTIVE ESSAY:\n\nCOLLEGE LIFE TRANSFORMED ME COMPLETELY. I DISCOVERED NEW PASSIONS BUILT LASTING FRIENDSHIPS AND FACED REAL CHALLENGES. INDEPENDENCE SHAPED MY CHARACTER WHILE KNOWLEDGE EXPANDED MY WORLDVIEW AND PREPARED ME FOR MEANINGFUL FUTURE OPPORTUNITIES AHEAD.",
+  "response_word_count": 38,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

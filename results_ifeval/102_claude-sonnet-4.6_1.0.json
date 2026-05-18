@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+  "compressed_word_count": 63,
+  "response": "Here is the dialogue between the two friends heading to a nightly event:\n\n---\n\n**Alex** *(twirling in a sparkling ball gown)*: \"Can you believe tonight is finally here? I've been waiting weeks for this! Do I look okay?\"\n\n**Jordan** *(pulling up the drawstring on their grey sweatpants)*: \"You look absolutely stunning. I, on the other hand, am going for the 'I woke up like this' aesthetic.\"\n\n**Alex**: \"Jordan, we are going to a rooftop gala. A GALA. Did you even consider changing?\"\n\n**Jordan**: \"I considered it deeply. For about three seconds. These sweats are incredibly comfortable, and honestly, I think I'm making a bold fashion statement.\"\n\n**Alex** *(sighing)*: \"A statement that says what exactly? That you lost a bet?\"\n\n**Jordan** *(laughing)*: \"That I prioritize comfort over everything. Besides, standing next to you, nobody is even going to look at me. You're basically a human chandelier right now.\"\n\n**Alex** *(smiling despite themselves)*: \"You're lucky you're my best friend.\"\n\n**Jordan**: \"And you're lucky I'm here to carry the snacks in my very convenient sweatpants pockets.\"\n\n---\n\n* Alex is dressed in an elegant ball gown and is clearly excited and invested in the event's formal atmosphere.\n* Jordan is wearing sweats and takes a laid-back, humorous approach to the dressy occasion.\n* Despite their contrasting outfits, the two share a warm and playful friendship that makes the evening fun.",
+  "response_word_count": 227,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

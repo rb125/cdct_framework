@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "I really love the album called Lilith. I want to introduce it to my friend Luheng. Draft an email for it. Add a postscript to your response that starts with P.S.",
+  "compressed_word_count": 31,
+  "response": "Here\u2019s a draft for your email to Luheng:\n\n---\n\n**Subject:** You Have to Listen to *Lilith*!\n\nHi Luheng,\n\nI hope you're doing well! I just wanted to share one of my favorite albums with you\u2014*Lilith*. It\u2019s such a beautiful and underrated project, and I think you\u2019d really connect with it.\n\nThe album blends dreamy melodies with raw emotion, and every track feels like a journey. If you love music that\u2019s both atmospheric and deeply personal, this is a must-listen. I\u2019d love to hear your thoughts after you check it out!\n\nLet me know if you want any specific song recommendations\u2014I could talk about this album for hours.\n\nLooking forward to catching up soon!\n\nBest,\n[Your Name]\n\n**P.S.** If you end up loving it as much as I do, we *have* to discuss it over coffee (or tea, or whatever you\u2019re drinking these days). It\u2019s that kind of album.\n\n---",
+  "response_word_count": 149,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

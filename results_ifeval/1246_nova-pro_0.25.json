@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "poem product template, P.P.S",
+  "compressed_word_count": 4,
+  "response": "Certainly! Here's a template for a poem that you can use as a guide to create your own piece. This template is structured with a postscript (P.P.S) to add a personal or reflective touch at the end.\n\n---\n\n### Title: [Your Poem Title]\n\n#### Stanza 1:\nIn the [setting/place] where [subject/theme] resides,\n[Imagery/description] whispers through the [element],\n[Emotion/feeling] dances on the edge of [contrast],\nA [symbol] of [idea] in the heart of [context].\n\n#### Stanza 2:\n[Transition word/phrase], the [subject/theme] unfolds,\n[Imagery/description] paints a canvas of [emotion],\n[Action/movement] through the [setting/place],\n[Reflection/insight] in the [symbol/object]\u2019s embrace.\n\n#### Stanza 3:\nYet, in the [contrast/opposite], a [new element] emerges,\n[Imagery/description] challenges the [previous idea],\n[Emotion/feeling] transforms, a [new symbol],\n[Resolution/insight] in the [final setting].\n\n### P.P.S (Post Post Script):\nIn the quiet aftermath, I find [personal reflection],\nA [final symbol/image] that holds [ultimate emotion/idea],\n[Closing thought], a testament to [final insight/realization].\n\n---\n\n### Example Using the Template:\n\n### Title: Whispers of the Forest\n\n#### Stanza 1:\nIn the ancient woods where secrets hide,\nShadows dance with moonlight\u2019s gentle gleam,\nSerenity whispers through the rustling leaves,\nA sanctuary of dreams in nature\u2019s keep.\n\n#### Stanza 2:\nYet, the forest breathes with life untold,\nGlistening dew paints tales of morning\u2019s grace,\nWindswept branches sway in rhythmic pace,\nWisdom in the rustling, a timeless space.\n\n#### Stanza 3:\nBut in the heart of darkness, light appears,\nGlowing embers challenge night\u2019s cold stare,\nHope ignites, a phoenix in the air,\nResilience in the flame, a beacon rare.\n\n### P.P.S:\nIn the quiet aftermath, I find solace deep,\nA towering oak that stands through time\u2019s decree,\nGrowth in every ring, a story to keep,\nIn nature\u2019s arms, I find my own decree.\n\n---\n\nFeel free to modify and expand upon this template to suit your creative vision!",
+  "response_word_count": 300,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.3333333333333333,
+      "FC": 0.5,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

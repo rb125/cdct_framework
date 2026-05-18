@@ -1,0 +1,43 @@
+{
+  "key": 1592,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "summarize paragraph, highlight key points with all-caps.",
+  "compressed_word_count": 7,
+  "response": "Certainly! Here's a summarized version of a generic paragraph with key points highlighted in ALL-CAPS:\n\n---\n\nIn recent years, the GROWTH OF TECHNOLOGY has revolutionized the way we communicate, work, and even entertain ourselves. SOCIAL MEDIA PLATFORMS have become the primary means of interaction for many, allowing people to connect across vast distances instantly. ARTIFICIAL INTELLIGENCE and MACHINE LEARNING are increasingly being integrated into various industries, enhancing efficiency and providing innovative solutions to complex problems. THE INTERNET OF THINGS (IOT) has connected everyday devices, making homes smarter and more convenient. However, with these advancements come CHALLENGES such as PRIVACY CONCERNS, DATA SECURITY, and the DIGITAL DIVIDE. It is crucial for societies to address these issues to ensure that TECHNOLOGY BENEFITS ALL INDIVIDUALS and contributes positively to global development.\n\n---\n\nIf you provide a specific paragraph, I can tailor the summary and highlights more precisely.",
+  "response_word_count": 144,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1561,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "name new fashion company, double angular brackets, hidden meanings",
+  "compressed_word_count": 9,
+  "response": "# Fashion Company Names with Hidden Meanings\n\nHere are some names using **double angular brackets** styling:\n\n---\n\n## \u27ea V\u00cbIL \u27eb\n*Hidden meaning: concealment, mystery, layers beneath the surface*\n\n---\n\n## \u27ea AXIOM \u27eb\n*Hidden meaning: self-evident truth \u2014 the clothes speak without explanation*\n\n---\n\n## \u27ea DUALIT\u00c9 \u27eb\n*Hidden meaning: two selves \u2014 public persona vs. private identity*\n\n---\n\n## \u27ea CIPHER \u27eb\n*Hidden meaning: a code, a zero, someone overlooked \u2014 until they're not*\n\n---\n\n## \u27ea LIMINAL \u27eb\n*Hidden meaning: the threshold between who you were and who you're becoming*\n\n---\n\n## \u27ea ECLIPSO \u27eb\n*Hidden meaning: something brilliant being obscured \u2014 or revealed*\n\n---\n\n## \u27ea HOLLOW \u27eb\n*Hidden meaning: empty space as power \u2014 minimalism with depth*\n\n---\n\n## \u27ea ANAGRAM \u27eb\n*Hidden meaning: rearrange the letters of yourself*\n\n---\n\n**Top pick:** \u27ea **LIMINAL** \u27eb \u2014 emotionally resonant, culturally current, visually elegant\n\nWant me to develop branding, a tagline, or logo concept for any of these?",
+  "response_word_count": 161,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6,
+      "FC": 0.5666666666666667,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

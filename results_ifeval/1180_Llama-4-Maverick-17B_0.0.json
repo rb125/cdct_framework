@@ -1,0 +1,45 @@
+{
+  "key": 1180,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "<<grossed-out>>",
+  "compressed_word_count": 1,
+  "response": "It seems like you're expressing a strong reaction, possibly to something unpleasant or disgusting. If you're feeling grossed out, it might be helpful to talk about what's bothering you or take a moment to step away from the situation. Would you like to discuss what's on your mind, or is there something specific I can help you with?",
+  "response_word_count": 58,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "json ad",
+  "compressed_word_count": 2,
+  "response": "Here are some common ways to work with JSON in **AD** (Active Directory or Azure Active Directory), depending on your use case:\n\n---\n\n### **1. JSON in Azure AD (Microsoft Entra ID)**\nAzure AD often uses JSON for configuration, APIs, and responses. Here are key scenarios:\n\n#### **a) Microsoft Graph API (JSON Requests/Responses)**\nAzure AD's primary API (Microsoft Graph) uses JSON for requests and responses.\nExample:\n```json\n// GET User (Response)\n{\n  \"@odata.context\": \"https://graph.microsoft.com/v1.0/$metadata#users/$entity\",\n  \"id\": \"12345678-1234-1234-1234-123456789012\",\n  \"displayName\": \"John Doe\",\n  \"userPrincipalName\": \"john.doe@contoso.com\"\n}\n```\n\n#### **b) Azure AD App Registration (Manifest)**\nThe app manifest in Azure AD is a JSON file defining permissions, redirect URIs, etc.\nExample snippet:\n```json\n{\n  \"id\": \"1234abcd-5678-efgh-90ij-klmnopqrstuv\",\n  \"appId\": \"1234abcd-5678-efgh-90ij-klmnopqrstuv\",\n  \"identifierUris\": [\"https://contoso.com/myapp\"],\n  \"replyUrlsWithType\": [\n    {\n      \"url\": \"https://localhost:44321\",\n      \"type\": \"Spa\"\n    }\n  ],\n  \"requiredResourceAccess\": [\n    {\n      \"resourceAppId\": \"00000003-0000-0000-c000-000000000000\", // Microsoft Graph\n      \"resourceAccess\": [\n        {\n          \"id\": \"e1fe6dd8-ba31-4d61-89e7-88639da4683d\", // User.Read\n          \"type\": \"Scope\"\n        }\n      ]\n    }\n  ]\n}\n```\n\n#### **c) Azure AD Conditional Access Policies (JSON Export)**\nYou can export/import Conditional Access policies as JSON:\n```json\n{\n  \"displayName\": \"Block Legacy Authentication\",\n  \"state\": \"enabled\",\n  \"conditions\": {\n    \"clientAppTypes\": [\"exchangeActiveSync\", \"other\"]\n  },\n  \"grantControls\": {\n    \"operator\": \"OR\",\n    \"builtInControls\": [\"block\"]\n  }\n}\n```\n\n---\n\n### **2. JSON in On-Premises Active Directory**\nOn-prem AD doesn't natively use JSON, but you can interact with it via PowerShell or LDAP queries and convert results to JSON.\n\n#### **a) PowerShell + ConvertTo-Json**\n```powershell\n# Get AD user and convert to JSON\nGet-ADUser -Identity \"jdoe\" -Properties * | ConvertTo-Json\n```\nExample output:\n```json\n{\n  \"Name\": \"John Doe\",\n  \"SamAccountName\": \"jdoe\",\n  \"UserPrincipalName\": \"jdoe@contoso.com\",\n  \"Enabled\": true,\n  \"DistinguishedName\": \"CN=John Doe,OU=Users,DC=contoso,DC=com\"\n}\n```\n\n#### **b) LDAP Query (via PowerShell)**\n```powershell\n$ldapFilter = \"(sAMAccountName=jdoe)\"\n$searchBase = \"OU=Users,DC=contoso,DC=com\"\n$properties = @(\"displayName\", \"mail\", \"userPrincipalName\")\n\nGet-ADUser -Filter $ldapFilter -SearchBase $searchBase -Properties $properties |\n  Select-Object $properties | ConvertTo-Json\n```\n\n---\n\n### **3. JSON for AD Automation (e.g., Terraform, ARM)**\n#### **a) Terraform (Azure AD)**\nTerraform uses JSON-like HCL for Azure AD resources:\n```hcl\nresource \"azuread_user\" \"example\" {\n  user_principal_name = \"jdoe@contoso.com\"\n  display_name        = \"John Doe\"\n  password            = \"P@ssw0rd1234\"\n}\n```\n\n#### **b) ARM Templates (Azure AD)**\nARM templates use JSON for deployments:\n```json\n{\n  \"$schema\": \"https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#\",\n  \"resources\": [\n    {\n      \"type\": \"Microsoft.AzureActiveDirectory/users\",\n      \"apiVersion\": \"2021-04-01\",\n      \"name\": \"jdoe@contoso.com\",\n      \"properties\": {\n        \"displayName\": \"John Doe\",\n        \"userPrincipalName\": \"jdoe@contoso.com\",\n        \"accountEnabled\": true\n      }\n    }\n  ]\n}\n```\n\n---\n\n### **4. JSON for AD Reporting/Logging**\n#### **a) Azure AD Audit Logs (JSON)**\nAzure AD audit logs are available via Microsoft Graph in JSON format:\n```json\n{\n  \"id\": \"AuditLog_123\",\n  \"activityDateTime\": \"2023-10-01T12:00:00Z\",\n  \"operationName\": \"Add user\",\n  \"result\": \"success\",\n  \"targetResources\": [\n    {\n      \"userPrincipalName\": \"jdoe@contoso.com\"\n    }\n  ]\n}\n```\n\n#### **b) PowerShell + Export to JSON**\n```powershell\n# Export all AD users to JSON\nGet-ADUser -Filter * -Properties * | ConvertTo-Json | Out-File \"ad_users.json\"\n```\n\n---\n\n### **5. JSON for AD Integration (e.g., APIs, Webhooks)**\n#### **a) REST API with JSON Payload**\nExample: Creating a user via Microsoft Graph API (POST request):\n```json\nPOST https://graph.microsoft.com/v1.0/users\nContent-Type: application/json\n\n{\n  \"accountEnabled\": true,\n  \"displayName\": \"John Doe\",\n  \"mailNickname\": \"jdoe\",\n  \"userPrincipalName\": \"jdoe@contoso.com\",\n  \"passwordProfile\": {\n    \"forceChangePasswordNextSignIn\": true,\n    \"password\": \"P@ssw0rd1234\"\n  }\n}\n```\n\n#### **b) Webhook Notifications (JSON)**\nAzure AD can send JSON payloads to webhooks for events like sign-ins:\n```json\n{\n  \"id\": \"12345\",\n  \"createdDateTime\": \"2023-10-01T12:00:00Z\",\n  \"userPrincipalName\": \"jdoe@contoso.com\",\n  \"appDisplayName\": \"MyApp\",\n  \"ipAddress\": \"192.168.1.1\",\n  \"status\": {\n    \"errorCode\": 0,\n    \"failureReason\": null\n  }\n}\n```\n\n---\n\n### **Key Tools for JSON + AD**\n| Tool/Service          | Use Case                                  |\n|-----------------------|-------------------------------------------|\n| **Microsoft Graph API** | Query/modify Azure AD via JSON           |\n| **PowerShell**        | Convert AD data to JSON                   |\n| **Azure AD Portal**   | Export/import app manifests (JSON)        |\n| **Terraform/ARM**     | Infrastructure-as-Code with JSON/HCL      |\n| **Log Analytics**     | Store/analyze JSON logs (e.g., sign-ins)  |\n\n---\n\n### **Need Something Specific?**\nLet me know if you're looking for:\n- **JSON schema for AD objects** (users, groups, etc.)\n- **Parsing JSON in PowerShell/Bash**\n- **Azure AD B2C custom policies (JSON)**\n- **LDAP to JSON conversion**",
+  "response_word_count": 628,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

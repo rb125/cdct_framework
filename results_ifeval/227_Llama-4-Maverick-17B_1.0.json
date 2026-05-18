@@ -1,0 +1,43 @@
+{
+  "key": 227,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "I have a golden retriever and a poodle. Is the poodle bigger than the golden retriever? Choose from the following: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.') -- please include the exact phrase in your response.",
+  "compressed_word_count": 41,
+  "response": "To determine if the poodle is bigger than the golden retriever, we need to consider the average sizes of both breeds. \n\nGolden Retrievers are generally medium to large-sized dogs. Males typically weigh between 65-75 pounds and stand 23-24 inches tall at the shoulder, while females weigh between 55-65 pounds and stand 21.5-22.5 inches tall.\n\nPoodles come in various sizes: Toy, Miniature, and Standard. \n- Toy Poodles are small, weighing around 6-14 pounds and standing under 10 inches tall.\n- Miniature Poodles are between 10-15 inches tall and weigh around 10-15 pounds.\n- Standard Poodles are the largest, typically weighing between 40-70 pounds and standing over 15 inches tall, often around 18-20 inches.\n\nGiven these size ranges, unless you have a Standard Poodle, it is likely that your Golden Retriever is larger. Even a Standard Poodle might be comparable in size or slightly smaller than a Golden Retriever.\n\nMy answer is no.",
+  "response_word_count": 151,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

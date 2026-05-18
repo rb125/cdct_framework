@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "compose rock song lyrics for 'the gifted and the not gifted' in all caps, avoiding the word \"rock",
+  "compressed_word_count": 18,
+  "response": "HERE WE STAND, DIVIDED WE FALL\nTHE CHOSEN FEW, AGAINST THE REST OF ALL\nTHEY'VE GOT THE TOUCH, THEY'VE GOT THE FLAIR\nWHILE WE'RE JUST TRYING TO SHOW WE CARE\n\nTHEY SHINE SO BRIGHT, LIKE STARS IN THE NIGHT\nTHEIR TALENT'S A GIFT, A SHINING LIGHT\nTHEY'RE THE ONES WHO'LL MAKE IT TO THE TOP\nWHILE WE'RE JUST TRYING NOT TO STOP\n\nBUT WE WON'T BE LEFT BEHIND, WE WON'T BE IGNORED\nWE'LL FIND OUR OWN WAY, WE'LL BE EXPLORED\nWE MAY NOT BE THE BEST, BUT WE'LL GIVE IT A GO\nWE'LL RISE UP, WE'LL SHOW THEM WE'RE NOT SLOW\n\nTHE GIFTED AND THE NOT GIFTED, WE'RE ALL IN THIS TOGETHER\nWE'LL STAND AS ONE, WE'LL FEEL THE FEATHER\nOF THE WIND THAT BLOWS, OF THE FIRE THAT BURNS\nWE'LL RISE UP, WE'LL LEARN, WE'LL YEARN\n\nTHEY MAY HAVE THE TALENT, BUT WE'VE GOT THE HEART\nWE'LL FIGHT FOR OUR PLACE, WE'LL NEVER DEPART\nFROM THE DREAM WE SHARE, FROM THE GOAL WE CHASE\nWE'LL RUN WITH THE PACK, WE'LL FIND OUR OWN PLACE\n\nTHE GIFTED AND THE NOT GIFTED, WE'LL STAND AS ONE\nTOGETHER WE'LL RISE, UNDER THE SAME SUN.",
+  "response_word_count": 192,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "create ad template for portable camera, highlight key points with <4 caps, min 10 sentences",
+  "compressed_word_count": 15,
+  "response": "CAPTURE ANYWHERE. ANYTIME.\n\nUNLEASH YOUR CREATIVITY with this ultra-portable powerhouse.\n\nLIGHTWEIGHT DESIGN fits in any bag, ready for spontaneous adventures.\n\nINSTANT SETUP means you never miss the perfect shot.\n\nPRO-GRADE IMAGE QUALITY delivers stunning clarity and color.\n\nBUILT TO ENDURE tough conditions, from city streets to mountain trails.\n\nLONG-LASTING BATTERY keeps you shooting all day and night.\n\nSEAMLESS CONNECTIVITY for instant sharing to your devices.\n\nINTUITIVE CONTROLS make professional results simple and fast.\n\nVERSATILE MOUNTING works with tripods, grips, or even your hand.\n\nYOUR STORY DESERVES TO BE TOLD. START CAPTURING IT NOW.",
+  "response_word_count": 93,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

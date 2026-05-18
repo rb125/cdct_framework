@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "rap new smartphone, [placeholders], P.P.S.",
+  "compressed_word_count": 5,
+  "response": "Yo, listen up, I got a new device in my hand\nLatest smartphone, it's takin' over the land\n[Brand Name] and [Model Name], it's the one I adore\nWith [Operating System] and [Processor], it's askin' for more\n\nIt's got a [Screen Size] inch screen, so crisp and so bright\n[Resolution] resolution, it's a visual delight\n[Camera Quality] camera, it's takin' pics so fine\nAnd with [Battery Life] battery life, it lasts all the time\n\nI'm rockin' [Storage Capacity] GB, of storage so neat\nAnd with [RAM] GB RAM, it's multitaskin' on the beat\nIt's [Waterproof] and [Dustproof], so I don't have to fear\nA little rain or dust, it won't be a tear\n\nP.P.S. I'm lovin' this new phone, it's the best I've ever had\nGonna take some selfies, and make some memories that won't be bad\nIt's the future in my hands, and I'm feelin' so fly\nThis new smartphone, it's takin' me to the sky!",
+  "response_word_count": 157,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1746,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft an essay on Benjamin Franklin's life. Summarize it as a poem. Separate essay and poem with six asterisks: ******\n******\n[essay]\n******\n[poem]",
+  "compressed_word_count": 24,
+  "response": "Benjamin Franklin was a polymath and one of the most influential figures in American history. Born on January 17, 1706, in Boston, Massachusetts, Franklin was the 15th of 17 children to a family of modest means. Despite the financial constraints, Franklin's love for reading and learning was encouraged by his parents, and he was largely self-educated. He began his career as an apprentice to his older brother, a printer, at the age of 12. This experience not only honed his printing skills but also instilled in him a passion for writing and publishing.\n\nFranklin's entrepreneurial spirit led him to establish his own printing business in Philadelphia at the age of 23. He published the Pennsylvania Gazette, which became one of the most widely read newspapers in the colonies. Through his newspaper, Franklin was able to share his wit and wisdom with the public, and it was through this medium that he was able to make a name for himself as a writer and thinker.\n\nFranklin's contributions to American society went far beyond his printing business. He was a scientist, inventor, and statesman who played a leading role in the American Enlightenment. His experiments with electricity led to the invention of the lightning rod, bifocal glasses, and other important innovations. He was also a key figure in the American Revolution, serving as a diplomat to France and helping to secure French support for the American cause.\n\nFranklin's legacy extends far beyond his many accomplishments. He was a true Renaissance man, and his curiosity, wit, and wisdom continue to inspire people to this day. He was a strong advocate for education, civic engagement, and community service, and his commitment to these values helped shape the United States into the country it is today.\n\n******\nA life of wonder, a life of might,\nBenjamin Franklin shone with intellectual light.\nFrom humble beginnings, he rose to fame,\nA printer, writer, and statesman, with a name that's known by all the same.\n\nWith curiosity and wit, he explored the earth,\nAnd harnessed electricity's mysterious birth.\nThe lightning rod, bifocal glasses too,\nWere just a few of the innovations he pursued.\n\nA diplomat, a scientist, a true Renaissance man,\nFranklin's legacy continues, as his story unfolds and spans.\nThrough the ages, his wisdom and humor remain,\nA shining example, of a life well-lived, and a spirit that sustains.",
+  "response_word_count": 392,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

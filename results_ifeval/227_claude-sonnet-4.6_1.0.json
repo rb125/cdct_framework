@@ -1,0 +1,43 @@
+{
+  "key": 227,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "I have a golden retriever and a poodle. Is the poodle bigger than the golden retriever? Choose from the following: ('My answer is yes.', 'My answer is no.', 'My answer is maybe.') -- please include the exact phrase in your response.",
+  "compressed_word_count": 41,
+  "response": "My answer is no.\n\nIn general, Golden Retrievers are larger than Poodles. A standard Golden Retriever typically weighs between 55-75 pounds, while even a Standard Poodle, the largest variety of poodle, tends to be slightly smaller or similar in size. If your poodle is a Miniature or Toy Poodle, it would be significantly smaller than your Golden Retriever. However, individual dogs can vary, so there could be exceptions depending on the specific dogs you own.",
+  "response_word_count": 75,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

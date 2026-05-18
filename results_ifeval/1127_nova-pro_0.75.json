@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Compose a 4-section poem expressing class absences, ending with 'Can I get my money back for the classes I missed?' Use section X markers.",
+  "compressed_word_count": 24,
+  "response": "### Section I\nIn the quiet halls where whispers tread,\nEmpty seats where stories once were spun,\nA classroom's silence, where the absent led,\nAnd lessons faded 'neath the setting sun.\n\n### Section II\nThe chalk-drawn dreams on blackboards, cold and stark,\nUntouched by hands that should have reached to learn,\nThe teacher's voice, a distant, fading lark,\nIn absence's shadow, knowledge fails to burn.\n\n### Section III\nEach missed day carves a hollow in the mind,\nA gap in wisdom, a fragment left untold,\nThe future beckons, yet I lag behind,\nIn absence's grip, my potential grows old.\n\n### Section IV\nNow the term draws near its closing bell,\nAnd I stand here, with questions sharp and clear,\nIn the echo of what might have been, I dwell,\nCan I get my money back for the classes I missed, my dear?",
+  "response_word_count": 142,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.95,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.65,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.21213203435596423,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

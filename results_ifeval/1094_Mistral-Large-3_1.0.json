@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+  "compressed_word_count": 29,
+  "response": "```json\n{\n  \"famous_moms\": [\n    {\n      \"name\": \"Angelina Jolie\",\n      \"vibe\": \"Hollywood royalty with a side of global domination (and six kids\u2014how does she even?)\"\n    },\n    {\n      \"name\": \"Beyonc\u00e9\",\n      \"vibe\": \"Queen Bey: singer, icon, mom of three, and still somehow out here making motherhood look like a VIP concert\"\n    },\n    {\n      \"name\": \"Serena Williams\",\n      \"vibe\": \"Tennis GOAT, mom of one, and casually winning at life while raising a tiny human (no big deal)\"\n    },\n    {\n      \"name\": \"Chrissy Teigen\",\n      \"vibe\": \"Model, chef, Twitter queen, and mom of two\u2014basically the coolest friend you wish you had (but also low-key chaotic)\"\n    },\n    {\n      \"name\": \"Mila Kunis\",\n      \"vibe\": \"Actress, mom of two, and somehow still looks like she\u2019s in a rom-com while raising kids (where\u2019s the lie?)\"\n    }\n  ],\n  \"disclaimer\": \"Motherhood is hard. These women make it look easy, but let\u2019s be real\u2014no one knows what\u2019s happening behind the scenes. Also, snacks help.\"\n}\n```",
+  "response_word_count": 149,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

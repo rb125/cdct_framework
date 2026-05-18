@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Ball gown vs. sweats dialogue, 3 markdown points",
+  "compressed_word_count": 8,
+  "response": "**Ball Gown:**  \n\"Darling, I am the embodiment of an occasion. I am silk, tulle, and whispered promises. I transform a room into a stage and the wearer into a protagonist. I am memory itself, preserved in photographs for generations.\"\n\n**Sweats:**  \n\"Cool story. I am the embodiment of *being*. I am cloud-soft cotton and elastic forgiveness. I transform a couch into a sanctuary and the wearer into their most authentic self. I am the comfort that makes the grand gestures possible.\"\n\n**Ball Gown:**  \n\"Without me, there is no ceremony, no elevation above the mundane. I create the magic you later reminisce about.\"\n\n**Sweats:**  \n\"And without me, there's no one to recover from that magic. I'm the 'happily ever after' you change into at the end of the night. We're not rivals; we're different chapters of the same story.\"",
+  "response_word_count": 137,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

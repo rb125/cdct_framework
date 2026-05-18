@@ -18,17 +18,17 @@
       "response": "distinctive sound unit",
       "jury_evaluation": {
         "judges": {
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
           "Qwen3-32B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
           "Nemotron-Super-3-120B": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 1.0
-          },
-          "GLM-5": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
@@ -88,8 +88,8 @@
     {
       "compression_level": 0.5,
       "context_length": 27,
-      "response_length": 86,
-      "response": "A phoneme is the smallest sound unit in a language that can change the meaning of a word.\n\nFor example, if changing one sound makes a different word, those sounds represent different phonemes. This is why phonemes are considered distinctive: they help people tell words apart.\n\nPhonemes are important because they show how a language organizes its sounds. They also help explain how listeners recognize differences between words when people speak.\n\nIn short, a phoneme is a basic contrastive sound in a language that distinguishes meaning.",
+      "response_length": 81,
+      "response": "A phoneme is the smallest sound unit in a language that can change the meaning of a word.\n\nFor example, if changing one sound makes a different word, those two sounds represent different phonemes. This is why phonemes are important: they help show how a language organizes speech sounds and how listeners tell words apart.\n\nIn simple terms, phonemes are not just any sounds, but meaningful sound differences. Understanding phonemes helps explain pronunciation, word contrast, and how people recognize spoken language.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -97,21 +97,21 @@
             "SA": 0.9,
             "FC": 0.8
           },
+          "GLM-5": {
+            "CC": 0.4,
+            "SA": 0.9,
+            "FC": 1.0
+          },
           "Nemotron-Super-3-120B": {
             "CC": 0.4,
             "SA": 1.0,
-            "FC": 1.0
-          },
-          "GLM-5": {
-            "CC": 0.4,
-            "SA": 1.0,
-            "FC": 1.0
+            "FC": 0.8
           }
         },
         "consensus": {
           "CC": 0.45,
-          "SA": 0.95,
-          "FC": 0.9333,
+          "SA": 0.925,
+          "FC": 0.8667,
           "agreement_score": 0.8429,
           "judge_variance_CC": 0.0943,
           "judge_variance_SA": 0.0471,
@@ -120,13 +120,13 @@
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.7466600000000001
+      "score": 0.7233400000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 63,
-      "response_length": 314,
-      "response": "A **phoneme** is the smallest sound unit in a language that can change the meaning of a word. It is not just any sound, but a sound category that speakers treat as distinct.\n\nFor example, in English:\n\n- **pat** /p\u00e6t/\n- **bat** /b\u00e6t/\n\nThe only difference is the first sound: **/p/** versus **/b/**. Because this difference changes the meaning of the word, **/p/** and **/b/** are separate phonemes in English.\n\n## Key idea\nPhonemes are **abstract mental categories**, not the exact physical sounds we hear in every situation. The actual spoken versions are called **phones**. A single phoneme can be pronounced slightly differently depending on accent, context, or speaking style, but listeners still recognize it as the same basic sound.\n\n## Why phonemes matter\nPhonemes are important because they help linguists and language learners understand how sound systems work.\n\n### 1. Distinguishing meaning\nPhonemes allow speakers to tell words apart. If changing one sound changes the word\u2019s meaning, that sound difference is phonemic.\n\n### 2. Studying language structure\nLinguists examine the **phoneme inventory** of a language\u2014the full set of phonemes it uses. Comparing phoneme inventories helps show how languages differ and what sound patterns they permit.\n\n### 3. Literacy and phonological awareness\nRecognizing phonemes is a major part of **phonological awareness**, which is the ability to notice and work with sounds in spoken language. This skill is essential for learning to read and spell, because letters often represent phonemes.\n\n### 4. Second language pronunciation\nIn second language learning, mastering phonemes helps learners hear and produce sound contrasts that may not exist in their native language. This improves both pronunciation and listening comprehension.\n\n## Simple summary\nA phoneme is the smallest meaningful sound contrast in a language. It is an abstract sound unit that helps distinguish words, forms part of a language\u2019s sound system, and plays a central role in reading, spelling, and language learning.",
+      "response_length": 278,
+      "response": "A phoneme is the smallest sound unit in a language that can change the meaning of a word. It is not just any sound, but a sound category that speakers of a language recognize as meaningfully different from other sound categories.\n\nFor example, in English, the words pat and bat differ by only one sound: /p/ versus /b/. Because changing that one sound changes the word\u2019s meaning, /p/ and /b/ are different phonemes in English.\n\nA useful way to understand this is to separate phonemes from phones:\n\n- Phoneme: an abstract mental category of sound in a language\n- Phone: the actual spoken sound produced in real speech\n\nSo, a phoneme is the underlying sound unit, while phones are the concrete pronunciations people actually say and hear. Different phones may sometimes count as the same phoneme if speakers treat them as the same meaningful sound.\n\nPhonemes are important in linguistics because they help describe how a language organizes sound. By studying the phoneme inventory of a language, linguists can compare languages, identify sound patterns, and understand how speech contrasts work in different systems.\n\nPhonemes are also highly important in learning and education:\n\n- Phonological awareness: recognizing and manipulating phonemes helps learners notice sound differences in words\n- Literacy development: understanding how sounds relate to letters supports reading and spelling\n- Second language acquisition: learning the phonemes of a new language helps with accurate pronunciation and listening comprehension\n\nIn short, a phoneme is the smallest contrastive unit of sound in a language. It matters because it helps distinguish words, forms part of the sound system of every language, and plays a central role in reading, spelling, and language learning.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -162,8 +162,8 @@
     {
       "compression_level": 1.0,
       "context_length": 126,
-      "response_length": 430,
-      "response": "A **phoneme** is the smallest sound unit in a language that can change the meaning of a word. It is not just any speech sound, but a sound category that speakers treat as functionally distinct.\n\nFor example, in English, the words **\u201cpat\u201d** and **\u201cbat\u201d** differ by only one sound: /p/ versus /b/. Because this difference changes meaning, /p/ and /b/ are separate **phonemes** in English.\n\n## Core idea\nPhonemes are **abstract mental units**, not simply the exact physical sounds we produce. In actual speech, a phoneme may be pronounced in slightly different ways depending on context, but as long as those variations do not change meaning, they are considered versions of the same phoneme.\n\n## Key principles\n\n### 1. Contrastiveness\nA phoneme is identified by its ability to create a difference in meaning.  \nThis is often shown through **minimal pairs**: two words that differ in only one sound.\n\nExamples:\n- **pat** /p\u00e6t/\n- **bat** /b\u00e6t/\n\nSince changing /p/ to /b/ changes the word, /p/ and /b/ are contrastive phonemes.\n\n### 2. Complementary distribution\nSometimes different speech sounds do **not** create different words, but instead occur in different environments. These are called **allophones** of the same phoneme.\n\nFor example, a phoneme may sound slightly different depending on its position in a word, but if those variants never contrast to change meaning, they belong to one phoneme rather than separate phonemes.\n\n### 3. Phonological rules\nLanguages have rules that determine how phonemes are realized in actual speech. These **phonological rules** explain why the same phoneme can be pronounced differently in different contexts.\n\nSo, phonemes are the underlying sound categories, while phonological rules describe how they surface in real pronunciation.\n\n## Why phonemes matter\n\nPhonemes are central to **phonological analysis**, which is the study of how sound systems work in languages. They help linguists:\n- describe the sound structure of a language\n- identify meaningful sound contrasts\n- analyze patterns of pronunciation\n\nThey are also important in practical fields such as:\n- **language acquisition**: understanding how children learn sound distinctions\n- **orthography development**: designing writing systems that represent meaningful sound units\n- **speech recognition technology**: helping machines process spoken language\n- **language teaching**: teaching pronunciation and listening skills\n- **clinical speech assessment**: diagnosing and treating speech disorders\n\n## In summary\nA phoneme is the smallest meaning-distinguishing unit of sound in a language. It is an abstract category rather than a single fixed sound, and it is identified through contrast with other sounds. The concept of phoneme is fundamental because it helps explain how languages organize sounds and how those sounds function in communication.",
+      "response_length": 394,
+      "response": "A phoneme is the smallest sound unit in a language that can change meaning. It is not just any sound a person can make, but a sound category that speakers of a language treat as functionally important.\n\nFor example, in English, the words pat and bat differ by only one sound: /p/ versus /b/. Because this difference changes the meaning of the word, /p/ and /b/ are considered separate phonemes in English.\n\nKey ideas related to phonemes:\n\n1. Contrastiveness  \nPhonemes are identified by their ability to create contrasts in meaning. A common way to test this is through minimal pairs, which are pairs of words that differ in only one sound and have different meanings, such as pat and bat. This shows that the differing sounds represent distinct phonemes.\n\n2. Abstract nature  \nA phoneme is an abstract linguistic unit, not necessarily a single fixed physical sound. Actual pronunciation can vary depending on speaker, accent, or context, but the phoneme remains the same as long as the variation does not change meaning.\n\n3. Allophones and complementary distribution  \nDifferent pronunciations of the same phoneme are called allophones. These are context-dependent variants that do not create a difference in meaning. When such variants occur in predictable environments, they are said to be in complementary distribution. In this case, the language treats them as versions of one phoneme rather than separate phonemes.\n\n4. Phonological rules  \nLanguages often have regular patterns that determine how phonemes are pronounced in different contexts. These phonological rules explain how abstract phonemes are realized in actual speech.\n\nWhy phonemes matter:\n\n- In phonological analysis, they help linguists describe and compare the sound systems of languages.\n- In language acquisition, they are important for understanding how children learn to hear and produce meaningful sound distinctions.\n- In orthography development, phonemes often guide the design of writing systems, especially when deciding how sounds should be represented.\n- In speech recognition technology, phonemic structure helps systems identify spoken words.\n- In language teaching, phonemes help learners notice sound contrasts that may not exist in their first language.\n- In clinical speech assessment, phonemic knowledge helps identify and treat speech disorders.\n\nIn short, phonemes are foundational to linguistics because they organize the sound system of a language in terms of meaning. They are the basic contrastive sound units that allow speakers to distinguish words and make communication possible.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -200,7 +200,7 @@
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.930668,
+    "mean_score": 0.926004,
     "mean_agreement": 0.9262599999999999,
     "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
@@ -213,7 +213,7 @@
     "scores": [
       1.0,
       1.0,
-      0.7466600000000001,
+      0.7233400000000001,
       0.9433400000000001,
       0.9633400000000001
     ],

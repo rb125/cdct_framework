@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Make a rubric for a home theater installation targeting moms. Your answer must contain exactly 4 bullet points. Use markdown bullet points such as:\n* This is point 1",
+  "compressed_word_count": 29,
+  "response": "# Home Theater Installation Rubric for Moms\n\n* **Ease of Use & Simplicity** \u2013 The system should feature an intuitive remote or app control that allows any family member, including kids, to operate it without frustration, with clear labeling and minimal technical steps required to start a movie or show.\n\n* **Safety & Family-Friendly Setup** \u2013 All wires must be neatly concealed or secured to prevent tripping hazards, sharp edges should be covered, and the installation should ensure the TV or screen is safely mounted to avoid tipping, keeping children protected at all times.\n\n* **Comfort & Room Aesthetics** \u2013 The seating arrangement, lighting, and overall design should complement the existing home d\u00e9cor, create a cozy and inviting atmosphere, and allow flexible configurations for family movie nights, playdates, or personal relaxation time.\n\n* **Sound & Picture Quality Without Overwhelm** \u2013 Audio levels should be pre-set to family-friendly defaults, picture settings optimized for bright and dark room conditions, and the installer should provide a simple guide so moms can confidently adjust settings without needing to call for technical support.",
+  "response_word_count": 178,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

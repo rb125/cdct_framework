@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write an extravagant session plan to learn about java. Make sure to include a postscript starting with P.P.S",
+  "compressed_word_count": 18,
+  "response": "**Java Mastery Session Plan: \"Java Jaunt\"**\n\n**Objective:** To embark on an epic journey to conquer the realm of Java programming, emerging as a certified Java virtuoso.\n\n**Session Details:**\n\n* **Duration:** 12 weeks (with 2 sessions per week)\n* **Session Format:** Interactive lectures, coding challenges, and group discussions\n* **Session Schedule:**\n\t+ Week 1-2: Java Fundamentals (Variables, Data Types, Operators, Control Structures)\n\t+ Week 3-4: Object-Oriented Programming (Classes, Objects, Inheritance, Polymorphism)\n\t+ Week 5-6: Java Collections Framework (Lists, Sets, Maps, etc.)\n\t+ Week 7-8: Java File Input/Output and Persistence (Files, Streams, Serialization)\n\t+ Week 9-10: Java Concurrency and Multithreading (Threads, Synchronization, Locks)\n\t+ Week 11-12: Advanced Java Topics (Java 8 Features, Functional Programming, etc.)\n\n**Session Highlights:**\n\n1. **Java Bootcamp:** Kick-start the journey with an intensive Java fundamentals session, covering the basics of Java syntax, data types, and control structures.\n2. **Coding Challenges:** Engage in regular coding challenges, designed to test problem-solving skills and reinforce Java concepts.\n3. **Project-Based Learning:** Work on real-world projects, such as a simple banking system or a game, to apply Java skills in a practical context.\n4. **Guest Lectures:** Invite industry experts to share insights on Java best practices, design patterns, and emerging trends.\n5. **Java Ecosystem Exploration:** Explore the vast Java ecosystem, including popular frameworks like Spring and Hibernate.\n\n**Session Logistics:**\n\n* **Venue:** A state-of-the-art coding lab with high-performance computers and a collaborative environment.\n* **Materials:** Comprehensive Java course materials, including textbooks, online resources, and coding software.\n* **Refreshments:** Enjoy complimentary snacks and beverages during sessions.\n\n**Assessment and Evaluation:**\n\n* **Quizzes and Assignments:** Regular assessments to gauge understanding and application of Java concepts.\n* **Project Evaluations:** Review and feedback on project submissions to track progress.\n* **Certification:** Upon completion, receive a certificate of Java proficiency.\n\n**P.S.** Don't forget to join our Java community forum to stay updated on the latest Java developments and network with fellow Java enthusiasts!\n\n**P.P.S.** As a special bonus, participants will receive a complimentary Java-themed mug and a Java cookbook, packed with recipes and coding tips!",
+  "response_word_count": 334,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+  "compressed_word_count": 16,
+  "response": "hey,\n\nhope you're doing okay. just a quick thought i wanted to share. you know how we always talk about things we wish were different? well, i was thinking that our chance to actually have a say in that is coming up soon.\n\nso, this is my friendly nudge: please go vote. it really does matter. it\u2019s one of those small things that adds up to something big. your voice, your choice\u2014it all counts.\n\nno need for a big production. just swing by whenever you can. i\u2019m planning to go on tuesday morning, if you want some company.\n\nlet\u2019s grab a coffee after? we can debrief.\n\ntake care,\n\n[your name]",
+  "response_word_count": 110,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9333333333333332,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.09428090415820632,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

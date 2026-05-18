@@ -1,0 +1,43 @@
+{
+  "key": 1686,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "lecture outline La La Land, no plot summary",
+  "compressed_word_count": 8,
+  "response": "# La La Land (2016) \u2014 Lecture Outline\n\n## I. Context & Production\n- Director: Damien Chazelle (following *Whiplash*, 2014)\n- Homage to classical Hollywood musicals (Donen, Minnelli, Demy)\n- Shot in CinemaScope; cinematographer Linus Sandgren\n- Original songs by Justin Hurwitz\n\n---\n\n## II. The Hollywood Musical as Genre\n- Conventions being invoked and subverted\n- The \"backstage musical\" tradition\n- Tension between realism and fantasy in the genre\n- Jacques Demy's *The Umbrellas of Cherbourg* as direct influence\n\n---\n\n## III. Visual Style & Technique\n- Color as emotional language (costume, lighting, production design)\n- Long takes and choreography\n- The Griffith Observatory sequence \u2014 space, movement, magic realism\n- Seasonal structure as formal device\n\n---\n\n## IV. Nostalgia & Ambivalence\n- Romanticizing the past vs. critique of that romanticization\n- Jazz as contested cultural symbol\n- The \"dying art form\" argument and its complications\n- Authenticity vs. commercial success\n\n---\n\n## V. Gender & Ambition\n- Whose dream takes priority?\n- The muse problem\n- Female artistic aspiration in Hollywood narrative\n\n---\n\n## VI. The Ending\n- The subjunctive mood in cinema\n- Fantasy sequences and counterfactual storytelling\n- Bittersweet vs. tragic \u2014 audience response and debate\n\n---\n\n## VII. Critical Reception & Legacy\n- Awards dominance and backlash\n- Debates about race and jazz representation\n- Place within the musical's contemporary revival",
+  "response_word_count": 226,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

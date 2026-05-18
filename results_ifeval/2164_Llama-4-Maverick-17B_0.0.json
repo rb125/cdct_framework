@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "dog toy [placeholders]",
+  "compressed_word_count": 3,
+  "response": "It seems like you're looking for a sentence or phrase with placeholders related to \"dog toy.\" Here's a possible completion:\n\n\"The dog toy was made of durable rubber and had a squeaker inside, making it a favorite among [dog's name] and other [breed/type] dogs.\"\n\nIf you could provide more context or specify what kind of placeholders you're looking for (e.g., names, adjectives, materials), I'd be happy to help further!",
+  "response_word_count": 69,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

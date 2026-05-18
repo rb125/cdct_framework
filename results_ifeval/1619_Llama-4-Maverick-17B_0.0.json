@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "rap, [placeholders]",
+  "compressed_word_count": 2,
+  "response": "Yo, listen up, I got a story to tell\n'Bout a city that's hot, and a story to sell\nIt's about [person/character], they're on the rise\n Livin' life in [location], where the [adjective] skies\nMeet the [noun], and the vibes are always right\nThey're chillin' with [associated person/group], feelin' like a boss in the night\nGot their eyes on [prize/goal], and they won't give up the quest\nThey're on a mission to [achieve something], and they're truly blessed\n\nThey're movin' through [environment], with [object/attribute] in hand\nMakin' their way, through the [challenge/obstacle] land\nThey're on the grind, 24/7, [verb] all day\nTryna make that [desirable outcome], in a major way\nWith [skill/talent], they're makin' it happen, no delay\nThey're [adjective], and they're here to stay\nIn [location], where the [culture/atmosphere] is fire\nThey're [person/character], and they're takin' it higher\n\nSo if you're in [location], and you're feelin' the vibe\nJust know that [person/character] is on the rise, and they're thrivin' tonight\nThey're [verb] to the top, and they won't look back\nGot their [attribute/quality], and they're takin' it on the attack.",
+  "response_word_count": 181,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.43333333333333335,
+      "SA": 0.3,
+      "FC": 0.3,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.42426406871192857,
+      "judge_variance_FC": 0.42426406871192857
+    }
+  }
+}

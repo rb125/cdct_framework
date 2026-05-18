@@ -1,0 +1,45 @@
+{
+  "key": 1561,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Name a new fashion company that young people might like, and give it a name with multiple meanings. Put the name in double angular brackets, such as <<name>>.",
+  "compressed_word_count": 28,
+  "response": "<<Aura Threads>>\n\n**Why it works for young people:**\n\n*   **Aura:** Can refer to a person's distinctive energy or vibe (highly relevant to personal style and identity). It also connects to the \"glow\" or aesthetic someone projects, which is a big part of social media culture.\n*   **Threads:** Literally means clothing or garments. It's also a common term for online discussion forums (like \"threads\" on Twitter/Reddit), tying it to digital community. Additionally, \"threads\" is slang for clothes.\n*   **Together:** The name suggests clothing that expresses your personal energy (**Aura**) and connects you to a community (**Threads**). It's modern, slightly tech-adjacent, and open to creative branding that can be both mystical and street-smart.",
+  "response_word_count": 111,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

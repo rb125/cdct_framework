@@ -1,0 +1,43 @@
+{
+  "key": 1746,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write an essay about the life of Benjamin Franklin. Then summarize your essay into a poem. Separate the essay and the poem with 6 asterisk symbols: ******\nIn other words, your response should have the following form:\n[essay]\n******\n[poem]",
+  "compressed_word_count": 40,
+  "response": "[essay]\nBenjamin Franklin, one of the Founding Fathers of the United States, was a polymath whose contributions spanned science, politics, literature, and diplomacy. Born on January 17, 1706, in Boston, Massachusetts, Franklin was the tenth and youngest son of Josiah Franklin, a soap and candle maker, and Abiah Folger.\n\nFrom a young age, Franklin exhibited a keen intellect and a relentless curiosity. At ten, he began working in his brother James's printing shop, where he developed a love for reading and writing. By the age of 17, Franklin had run away to Philadelphia, seeking new opportunities. There, he found work as a printer and quickly established himself as a skilled tradesman.\n\nFranklin's scientific inquiries began in earnest during this period. His most famous experiment, the kite in a thunderstorm to demonstrate the electrical nature of lightning, though often romanticized, underscores his innovative spirit. He invented the lightning rod, bifocals, and the Franklin stove, among other devices, showcasing his practical genius.\n\nIn addition to his scientific pursuits, Franklin was a prolific writer. His \"Poor Richard's Almanack,\" published annually from 1732 to 1758, offered practical advice, witty aphorisms, and astronomical data. Through this work, Franklin became a household name and a symbol of American ingenuity.\n\nFranklin's political career was equally distinguished. He played a crucial role in the drafting of the Declaration of Independence and the U.S. Constitution. His diplomatic skills were on full display during the American Revolution, where he served as an ambassador to France, securing vital support for the colonial cause.\n\nFranklin's later years were marked by his advocacy for abolition and his efforts to promote education and public service. He founded the University of Pennsylvania and the American Philosophical Society, institutions that continue to thrive today.\n\nBenjamin Franklin died on April 17, 1790, but his legacy endures. His life serves as a testament to the power of curiosity, hard work, and civic engagement. Franklin was not just a Founding Father; he was a beacon of Enlightenment ideals, whose influence continues to shape the American experiment in democracy and innovation.\n\n******\n[poem]\nBorn in Boston, a curious lad,\nIn Philadelphia's streets he strayed,\nPrinter, scientist, words he penned,\nInventor, diplomat, till life's end.\n\nKite in storm, a spark of truth,\nLightning rod, a gift of youth,\nBifocals, stove, his mind did race,\nPractical genius, time could not erase.\n\n\"Poor Richard's\" wit, advice so wise,\nAlmanack's light in colonial skies,\nDeclaration's quill, a nation's birth,\nConstitution's frame, a people's worth.\n\nFrance's halls, his diplomatic art,\nAbolition's cause, a beating heart,\nUniversity founded, knowledge spread,\nPhilosophical society, minds he fed.\n\nFranklin rests, yet legacy stands,\nEnlightenment's torch in eager hands,\nCuriosity, hard work, civic grace,\nFranklin's life, a timeless embrace.",
+  "response_word_count": 449,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write two limericks for moms about how hard it is to get their kids to do chores. Be angry about it. Separate your two limericks with six asterisks (******).",
+  "compressed_word_count": 29,
+  "response": "There once was a mom full of cheer,\nWhose kids wouldn\u2019t lend an ear.\n\u201cJust take out the trash!\u201d\n\u201cNo, I\u2019d rather just dash!\u201d\nHer patience was gone\u2014oh, so near!\n\n******\n\nA mother would plead, shout, and beg,\n\u201cJust clean up your mess\u2014it\u2019s one leg!\u201d\nBut the kids just would grin,\nLeave the chaos within,\nAnd she\u2019d scream, \u201cI\u2019m this close to the edge!\u201d",
+  "response_word_count": 64,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

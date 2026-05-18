@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "resume template, 12 [] placeholders",
+  "compressed_word_count": 5,
+  "response": "Here is a simple resume template with 12 placeholders:\n\n**Your Name**\n**Address:** [1. Address]\n**Phone Number:** [2. Phone Number]\n**Email:** [3. Email]\n\n**Objective:**\nTo obtain a challenging position in [4. Industry/Field] that utilizes my skills and experience.\n\n**Summary:**\nHighly motivated and experienced professional with [5. Number] years of experience in [6. Key Skills]. Proven track record of [7. Key Achievements].\n\n**Work Experience:**\n\n* **[8. Job Title], [9. Company Name]** ( [10. Employment Dates] )\n\t+ Key responsibilities and achievements:\n\t\t- [11. Key Responsibilities/Achievements]\n\n**Education:**\n\n* **[12. Degree], [Field of Study], [University Name]**\n\nYou can fill in the placeholders with your own information to create a resume. \n\nExample:\n**John Doe**\n**Address:** 123 Main St, Anytown, USA [1. Address] -> 123 Main St, Anytown, USA\n**Phone Number:** 555-555-5555 [2. Phone Number] -> 555-555-5555\n**Email:** johndoe@email.com [3. Email] -> johndoe@email.com\n\n**Objective:**\nTo obtain a challenging position in Software Development [4. Industry/Field] that utilizes my skills and experience.\n\n**Summary:**\nHighly motivated and experienced professional with 5 [5. Number] years of experience in Programming and Management [6. Key Skills]. Proven track record of Successfully leading projects [7. Key Achievements].\n\n**Work Experience:**\n\n* **Software Engineer, ABC Company** ( 2020-2022 [10. Employment Dates] )\n\t+ Key responsibilities and achievements:\n\t\t- Developed multiple software applications using Java and Python [11. Key Responsibilities/Achievements]\n\n**Education:**\n\n* **Bachelor of Science, Computer Science, XYZ University** [12. Degree], [Field of Study], [University Name] -> Bachelor of Science, Computer Science, XYZ University",
+  "response_word_count": 238,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.6,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 0.5333333333333333,
+      "FC": 0.5666666666666667,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.04714045207910316,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

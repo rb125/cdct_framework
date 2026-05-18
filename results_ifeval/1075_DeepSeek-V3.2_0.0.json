@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "json ad",
+  "compressed_word_count": 2,
+  "response": "\u60a8\u60f3\u4e86\u89e3\u5173\u4e8e JSON \u7684\u54ea\u4e9b\u65b9\u9762\u5462\uff1f\u8fd9\u91cc\u6709\u4e00\u4e9b\u5e38\u89c1\u7684\u65b9\u5411\uff1a\n\n### 1. **JSON \u57fa\u7840**\n```json\n{\n  \"name\": \"John\",\n  \"age\": 30,\n  \"isStudent\": false,\n  \"hobbies\": [\"reading\", \"gaming\"],\n  \"address\": {\n    \"city\": \"New York\",\n    \"zip\": \"10001\"\n  }\n}\n```\n\n### 2. **JSON \u8bed\u6cd5\u89c4\u5219**\n- \u6570\u636e\u4ee5\u952e\u503c\u5bf9\u5f62\u5f0f\u5b58\u5728 `\"key\": value`\n- \u952e\u5fc5\u987b\u662f\u5b57\u7b26\u4e32\uff08\u53cc\u5f15\u53f7\uff09\n- \u503c\u53ef\u4ee5\u662f\uff1a\u5b57\u7b26\u4e32\u3001\u6570\u5b57\u3001\u5e03\u5c14\u503c\u3001\u6570\u7ec4\u3001\u5bf9\u8c61\u3001null\n- \u6587\u4ef6\u6269\u5c55\u540d\uff1a`.json`\n- MIME \u7c7b\u578b\uff1a`application/json`\n\n### 3. **\u5e38\u89c1\u7528\u9014**\n- API \u6570\u636e\u4ea4\u6362\uff08REST API\uff09\n- \u914d\u7f6e\u6587\u4ef6\uff08\u5982 package.json\uff09\n- \u6570\u636e\u5b58\u50a8\n- \u524d\u540e\u7aef\u901a\u4fe1\n\n### 4. **JSON vs XML**\n```json\n// JSON\n{\"user\": {\"name\": \"Alice\", \"age\": 25}}\n\n<!-- XML -->\n<user>\n  <name>Alice</name>\n  <age>25</age>\n</user>\n```\n\n### 5. **JavaScript \u4e2d\u7684 JSON**\n```javascript\n// \u5bf9\u8c61\u8f6c JSON \u5b57\u7b26\u4e32\nconst obj = {x: 5, y: 6};\nconst jsonStr = JSON.stringify(obj);\n\n// JSON \u5b57\u7b26\u4e32\u8f6c\u5bf9\u8c61\nconst newObj = JSON.parse(jsonStr);\n```\n\n### 6. **JSON \u9a8c\u8bc1\u5de5\u5177**\n- \u5728\u7ebf\u9a8c\u8bc1\u5668\uff1ajsonlint.com\n- VS Code \u7b49\u7f16\u8f91\u5668\u5185\u7f6e\u9a8c\u8bc1\n- \u547d\u4ee4\u884c\u5de5\u5177\uff1a`jq`\uff08Linux/Mac\uff09\n\n### 7. **JSON \u7279\u6b8a\u5b57\u7b26\u8f6c\u4e49**\n```json\n{\n  \"message\": \"He said \\\"Hello\\\"\\nNew line\",\n  \"path\": \"C:\\\\Users\\\\file.txt\"\n}\n```\n\n\u60a8\u9700\u8981\u5177\u4f53\u7684\u793a\u4f8b\u3001\u89e3\u6790\u65b9\u6cd5\u3001\u8fd8\u662f\u9047\u5230\u4ec0\u4e48\u95ee\u9898\u4e86\u5462\uff1f\u6211\u53ef\u4ee5\u63d0\u4f9b\u66f4\u9488\u5bf9\u6027\u7684\u5e2e\u52a9\uff01",
+  "response_word_count": 137,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

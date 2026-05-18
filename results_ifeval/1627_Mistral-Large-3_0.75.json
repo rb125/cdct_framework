@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\nWrite a plot for a story about two people who swap fingerprints. Include <<swapping fates>> as title. No commas in the plot.",
+  "compressed_word_count": 51,
+  "response": "<<swapping fates>>\n\nTwo strangers meet by chance at a high-tech biotech expo. One is a disgraced forensic scientist named Elias who lost his career after a lab error. The other is a desperate thief named Mira who needs a clean slate to escape her criminal past. During a demonstration of an experimental fingerprint-altering procedure they impulsively agree to swap prints.\n\nAt first the change seems perfect. Elias uses Mira\u2019s prints to re-enter the forensic world under a new identity. Mira wipes her record clean and starts fresh. But soon strange side effects emerge. Elias begins experiencing flashes of Mira\u2019s memories\u2014violent heists and betrayals\u2014while Mira feels echoes of Elias\u2019s guilt and regret.\n\nAs they adjust to their new lives they realize the swap was never just skin-deep. Their minds are slowly merging too. Elias starts craving the thrill of crime while Mira develops an obsession with justice. When a murder investigation links back to Mira\u2019s old crew Elias is forced to confront the dark truth: the procedure didn\u2019t just swap their prints\u2014it bound their fates together forever.\n\nNow hunted by both the law and Mira\u2019s vengeful former allies they must decide whether to undo the swap or embrace the chaos of their shared existence. But the deeper they dig the more they question if they were ever truly separate at all.",
+  "response_word_count": 220,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+  "compressed_word_count": 39,
+  "response": "\"\nMATTHIAS ALGIERS\nEmail: m.algiers@email.com | Phone: (555) 123-4567 | LinkedIn: linkedin.com/in/matthiasalgiers\n\n---\n\nPROFESSIONAL SUMMARY\n\nDedicated and results-driven professional with over 10 years of experience in project management and business development. Known for LEADERSHIP abilities and a strong commitment to delivering measurable outcomes. Adept at building relationships and driving organizational growth.\n\n---\n\nEXPERIENCE\n\nSenior Project Manager | Horizon Solutions Group | 2018 \u2013 Present\n- Led cross-functional teams of up to 20 members, demonstrating exceptional COMMUNICATION skills\n- Managed budgets exceeding $2 million while maintaining cost efficiency\n- Developed strategic plans that increased company revenue by 35%\n\nBusiness Analyst | Crestview Consulting | 2014 \u2013 2018\n- Conducted in-depth market research and delivered INNOVATIVE solutions to clients\n- Collaborated with stakeholders to streamline operations and reduce overhead costs by 20%\n\n---\n\nEDUCATION\n\nBachelor of Science in Business Administration\nUniversity of Michigan | Graduated 2013\n\n---\n\nSKILLS\n\n- STRATEGIC planning and execution\n- Data analysis and reporting\n- Team building and mentorship\n- Budget management\n- Microsoft Office Suite and Salesforce\n\n---\n\nCERTIFICATIONS\n\n- PMP Certified | Project Management Institute\n- Six Sigma Green Belt\n\"",
+  "response_word_count": 185,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": true
+  },
+  "heuristic_cc": 0.6666666666666666,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

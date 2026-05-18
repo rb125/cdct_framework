@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "email Luheng about Lilith album, P.S.",
+  "compressed_word_count": 6,
+  "response": "To help you with that, I'll need a bit more information. Are you looking to draft an email to Luheng about the Lilith album and include a postscript (P.S.)? If so, here's a basic template you can customize:\n\nSubject: Thoughts on Lilith Album\n\nDear Luheng,\n\n[Insert your thoughts or message about the Lilith album here. You could discuss your favorite tracks, the overall vibe of the album, or how it has impacted you.]\n\n[Your Name]\n\nP.S. [Add your postscript here, which could be a related afterthought, a separate question, or an additional comment.]\n\nIf you provide more details or specify what you're looking for (e.g., tone, specific content), I can help you craft a more tailored email.",
+  "response_word_count": 117,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

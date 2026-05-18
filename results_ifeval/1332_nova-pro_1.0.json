@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Create a table with a 7 day trip itinerary for India, and a 7 day trip itinerary for China. Separate them with exactly 6 asterisks symbols: *******",
+  "compressed_word_count": 27,
+  "response": "Certainly! Below are the 7-day trip itineraries for India and China:\n\n*********\n\n### 7-Day Trip Itinerary for India\n\n| Day   | Activity/Destination                  | Description                                                                                     |\n|-------|---------------------------------------|-------------------------------------------------------------------------------------------------|\n| Day 1 | Arrive in Delhi                       | Explore Old Delhi, visit Jama Masjid, and enjoy street food in Chandni Chowk.                     |\n| Day 2 | Agra                                  | Visit the Taj Mahal and Agra Fort.                                                              |\n| Day 3 | Jaipur                                | Explore Amber Fort, City Palace, and Hawa Mahal.                                                 |\n| Day 4 | Udaipur                               | Visit City Palace, Lake Pichola, and Jag Mandir.                                                 |\n| Day 5 | Jodhpur                               | Explore Mehrangarh Fort and visit local markets.                                                |\n| Day 6 | Varanasi                              | Experience a boat ride on the Ganges River and visit Sarnath.                                    |\n| Day 7 | Mumbai                                | Visit Gateway of India, Marine Drive, and explore local street markets.                         |\n\n*********\n\n### 7-Day Trip Itinerary for China\n\n| Day   | Activity/Destination                  | Description                                                                                     |\n|-------|---------------------------------------|-------------------------------------------------------------------------------------------------|\n| Day 1 | Arrive in Beijing                     | Visit the Great Wall of China and the Forbidden City.                                           |\n| Day 2 | Beijing                               | Explore the Temple of Heaven and the Summer Palace.                                             |\n| Day 3 | Xi'an                                 | Visit the Terracotta Warriors and the ancient city wall.                                        |\n| Day 4 | Shanghai                              | Explore The Bund, Yu Garden, and Nanjing Road.                                                   |\n| Day 5 | Hangzhou                              | Visit West Lake and Lingyin Temple.                                                             |\n| Day 6 | Chengdu                              | Visit the Giant Panda Breeding Research Center and explore Jinli Ancient Street.                 |\n| Day 7 | Guilin                                | Take a boat tour on the Li River and explore Yangshuo.                                          |",
+  "response_word_count": 273,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

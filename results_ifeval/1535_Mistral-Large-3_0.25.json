@@ -1,0 +1,45 @@
+{
+  "key": 1535,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "write tour guide cover letter, no caps, <5 sentences",
+  "compressed_word_count": 9,
+  "response": "here\u2019s a simple, concise cover letter for you:\n\n---\n\ndear [hiring manager's name],\n\ni\u2019m excited to apply for the tour guide position at [company name]. with my passion for storytelling and experience leading groups, i love sharing local history and culture in an engaging way. my friendly and adaptable approach ensures every tour is memorable for guests. i\u2019d welcome the chance to bring my energy to your team\u2014let\u2019s connect!\n\nbest,\n[your name]\n\n---",
+  "response_word_count": 73,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_sentences_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

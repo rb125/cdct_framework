@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is the sentence \"Mrs. Smith is the teacher of this class.\" grammatically correct? Give me exactly two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+  "compressed_word_count": 31,
+  "response": "Yes, the sentence \"Mrs. Smith is the teacher of this class.\" is grammatically correct. It follows proper sentence structure with a subject (Mrs. Smith), a linking verb (is), and a predicate noun phrase (the teacher of this class). The punctuation is also correctly placed at the end.\n\n******\n\nYes, the sentence \"Mrs. Smith is the teacher of this class.\" is grammatically correct. It contains a clear subject, a linking verb, and a complement. However, it could also be rephrased in a more concise way, such as \"Mrs. Smith teaches this class,\" but the original sentence is still perfectly valid grammatically.",
+  "response_word_count": 100,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

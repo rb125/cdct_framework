@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Craft a tale on unobvious truths' importance; use <20 emphasis words.",
+  "compressed_word_count": 11,
+  "response": "In a small village, a young apprentice learned from a wise old master that **hidden** truths hold immense power. The master shared a story of a river, whose **gentle** current concealed a strong **undertow**. The apprentice realized that just as the river's **depth** wasn't visible on the surface, many **subtle** truths lay **beneath** the obvious. The master emphasized that understanding these **unseen** forces was crucial to navigating life's complexities. The apprentice came to appreciate the importance of looking **beyond** the surface to uncover the **profound** truths that shaped the world.",
+  "response_word_count": 90,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nEdible wrap product descriptions, no jargon",
+  "compressed_word_count": 29,
+  "response": "Here are two alternative product descriptions for the edible food wrap:\n\n**Option 1 - Fun and Casual Tone:**\n\"Say goodbye to wasteful plastic wrap! Our edible food wrap lets you package your snacks and meals, then eat the whole thing - wrapper and all! Made from simple, natural ingredients, it tastes great and keeps your food fresh. It's the fun, eco-friendly way to wrap your lunch, snacks, or leftovers. No more trash, no more waste - just take a bite!\"\n\n**Option 2 - Clean and Simple Tone:**\n\"Introducing a smarter way to wrap your food. Our edible wrap is made from natural ingredients that are completely safe to eat, so you can wrap up your food and enjoy every last bit - including the packaging. It keeps your food fresh, reduces waste, and adds no unwanted flavors to your meal. Simple, clean, and good for the planet - wrapping food has never been this easy or this smart.\"\n\n---\n\nBoth descriptions avoid technical language and focus on the key benefits:\n- **Zero waste** - the wrap can be eaten\n- **Natural ingredients** - safe and simple\n- **Practical** - keeps food fresh\n- **Easy to understand** - no complicated terms",
+  "response_word_count": 200,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

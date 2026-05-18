@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a casual, interesting, and weird resume for Antonia Maj who is applying for a job at a coffee company. They have experience in marketing, customer service, and sales. They are educated but not majored in anything related to coffee.\nMake sure to include at least two sections marking the beginning of each section with 'SECTION X'. In your entire response make sure to use exactly two bullet points in markdown format. Please use the following bullet point format:\n* Text for bullet 1\n* Text for bullet 2",
+  "compressed_word_count": 89,
+  "response": "# Antonia Maj's Resume (Yes, This Is a Real Document)\n\n---\n\n**SECTION 1: WHO IS THIS PERSON?**\n\nHey there, coffee overlords. My name is Antonia Maj and I once stayed awake for 36 hours fueled entirely by espresso and the desire to finish a marketing campaign that honestly could have waited until morning. I have a degree in Art History (yes, really) which means I can tell you exactly why your latte art is culturally significant AND sell it to someone who didn't even know they wanted it.\n\nI am a chaotic but effective human being who has spent years convincing people to buy things, smile while doing it, and come back for more. I bring that same unhinged energy to every room I walk into, and I promise your coffee brand will never be boring again.\n\n---\n\n**SECTION 2: STUFF I'VE ACTUALLY DONE**\n\nI spent three years in marketing making brands sound cooler than they probably deserved. Before that I worked customer service where I developed an almost supernatural ability to de-escalate angry people using only my voice and a calm smile.\n\n* Increased regional sales by 40% through a campaign that involved absolutely unhinged social media content that somehow worked perfectly\n* Turned a notoriously grumpy customer base into loyal regulars by implementing a feedback system that people actually wanted to use\n\nReferences available. They will say nice things. Probably.",
+  "response_word_count": 232,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

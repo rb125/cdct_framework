@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 7-day itineraries for India, China; separate with 6 asterisks.",
+  "compressed_word_count": 10,
+  "response": "**India: Golden Triangle & Rishikesh**\n\n*Day 1: Arrival in Delhi*\nArrive in Delhi, transfer to hotel. Evening: Explore Connaught Place, India Gate lit up at night, and enjoy a welcome dinner.\n\n*Day 2: Delhi Sightseeing*\nFull-day tour: Old Delhi (Red Fort, Jama Masjid, rickshaw ride in Chandni Chowk). Afternoon: New Delhi (Humayun's Tomb, Qutub Minar, drive past Rashtrapati Bhavan).\n\n*Day 3: Delhi to Agra (via express train)*\nMorning train to Agra. Visit the magnificent Taj Mahal at sunset. Evening: Explore Agra Fort and local markets.\n\n*Day 4: Agra to Jaipur (via Fatehpur Sikri)*\nDrive to Jaipur, stopping at the abandoned Mughal city of Fatehpur Sikri. Arrive in Jaipur, the Pink City, in the evening.\n\n*Day 5: Jaipur Exploration*\nMorning: Visit the Amber Fort (elephant or jeep ride up). Afternoon: City Palace, Jantar Mantar observatory, and Hawa Mahal (Palace of Winds).\n\n*Day 6: Jaipur to Rishikesh (fly to Dehradun, then drive)*\nFly to Dehradun, drive to Rishikesh, the \"Yoga Capital of the World.\" Evening: Attend the mesmerizing Ganga Aarti at Triveni Ghat.\n\n*Day 7: Rishikesh & Departure*\nMorning: Optional yoga class, visit Laxman Jhula and Ram Jhula (suspension bridges). Afternoon: Drive to Dehradun airport for departure flight from Delhi.\n\n******\n\n**China: Classic Highlights - Beijing, Xi'an, Shanghai**\n\n*Day 1: Arrival in Beijing*\nArrive in Beijing, transfer to hotel. Evening: Stroll through the lively Wangfujing Snack Street for your first taste of local cuisine.\n\n*Day 2: Beijing - Imperial Splendor*\nMorning: Visit Tiananmen Square and the Forbidden City. Afternoon: Explore the Temple of Heaven park. Evening: Enjoy a Peking Duck banquet.\n\n*Day 3: The Great Wall & Summer Palace*\nFull-day trip to the Mutianyu section of the Great Wall (cable car option available). On return, visit the beautiful Summer Palace.\n\n*Day 4: Beijing to Xi'an (high-speed train)*\nMorning: Visit the Hutongs (ancient alleys) by rickshaw. Afternoon: Take a high-speed train to Xi'an. Evening: Explore the Muslim Quarter and its night market.\n\n*Day 5: Xi'an - Terracotta Warriors*\nFull-day focus on the incredible Terracotta Army museum. Late afternoon: Walk or bike on the ancient City Wall. Evening: Tang Dynasty dance show.\n\n*Day 6: Xi'an to Shanghai (flight)*\nMorning: Visit the Big Wild Goose Pagoda. Fly to Shanghai. Evening: Experience the breathtaking skyline from the Bund, and see the futuristic Pudong district lit up.\n\n*Day 7: Shanghai & Departure*\nMorning: Explore the Yu Garden and Old Town. Visit the Shanghai Museum (if time permits). Afternoon: Transfer to airport for international departure.",
+  "response_word_count": 407,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

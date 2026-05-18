@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "convert sentence to email format, include 10 [placeholders] e.g., [name]",
+  "compressed_word_count": 10,
+  "response": "Certainly! Here's an example of a sentence converted into an email format with 10 placeholders:\n\n---\n\nSubject: [Subject Line]\n\nHi [Name],\n\nI hope this email finds you well. I am writing to inform you about an upcoming event that we are organizing at [Location] on [Date]. The event, titled \"[Event Name],\" will feature [Key Speaker] as the main speaker, and we believe it will be of great interest to you.\n\nThe agenda for the day includes [Agenda Item 1], [Agenda Item 2], and [Agenda Item 3]. Additionally, there will be a networking session where you can meet other professionals in the [Industry] field.\n\nTo register for the event, please visit [Registration Link] by [Registration Deadline]. Early bird discounts are available until [Discount Deadline], so don\u2019t miss out!\n\nIf you have any questions or need further information, please feel free to contact me at [Your Email] or [Your Phone Number].\n\nThank you, and we look forward to your participation.\n\nBest regards,  \n[Your Name]  \n[Your Position]  \n[Your Company]  \n[Company Email]  \n[Company Phone Number]\n\n---\n\nFeel free to replace the placeholders with the appropriate information.",
+  "response_word_count": 182,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.408248290463863,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

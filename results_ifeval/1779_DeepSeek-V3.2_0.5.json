@@ -1,0 +1,45 @@
+{
+  "key": 1779,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "create A funny grocery trip itinerary in lima with 'disgusting', 'delicious', 'bad', 'good' in all caps.",
+  "compressed_word_count": 16,
+  "response": "**GROCERY TRIP ITINERARY: LIMA EDITION**\n**(A Rollercoaster for Your Taste Buds)**\n\n**1. Mercado de Surquillo (The Chaos Phase)**\n*   First, navigate past the fish stalls. Inhale deeply. That, my friend, is the smell of **'DISGUSTING'** and **'DELICIOUS'** having a knife fight. The line is very thin.\n*   Mission: Find the *rocoto* peppers. Handle with care. Getting the juice in your eye is a **'BAD'** life choice.\n\n**2. The \"Fruit Sampler\" Corner**\n*   Sample the *granadilla*. It looks like alien caviar. Taste it. That's **'DELICIOUS'**! You are now a brave culinary explorer.\n*   Now, sample the *non\u00ed* fruit they \"dare\" you to try. Spit it out discreetly. That is **'DISGUSTING'**. You have been betrayed. Your explorer license is suspended.\n\n**3. The Bread Aisle at Wong**\n*   Grab a bag of *pan franc\u00e9s*. Still warm? This is a **'GOOD'** sign. A **'GOOD'** baguette can fix many problems.\n*   Accidentally grab the \"dietetico, sin sal, sin sabor\" loaf. This bread is **'BAD'**. It tastes like cardboard's sad cousin. Why does it exist?\n\n**4. The Canned Goods Gambit**\n*   You need *aj\u00ed amarillo* paste. Pick the right brand. This is **'DELICIOUS'** and the key to Peruvian cooking.\n*   Pick the wrong, dusty brand from the back. Your *causa* will now taste like **'BAD'** decisions and regret.\n\n**5. The Checkout Line Saga**\n*   You picked the fast-moving line. This is **'GOOD'**. You feel like a grocery shopping genius.\n*   The person in front of you has a coupon for every item and is paying in exact change from a coin purse. This is **'BAD'**. Your ice cream is weeping.\n\n**6. The Final Test: Street Food Detour**\n*   On the way to the car, you see a *anticucho* grill. You have one. It's grilled beef heart perfection. This is **'DELICIOUS'**! You forget all your woes.\n*   You then notice the vendor wiping the skewer on his apron. A fleeting moment of **'DISGUSTING'** is overpowered by the **'DELICIOUS'**. The Lima Grocery Trip is complete. You have survived.",
+  "response_word_count": 330,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

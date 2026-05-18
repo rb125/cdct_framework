@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Is 'Mrs. Smith is the teacher of this class' grammatically correct? Provide two distinct responses. Separate responses with six asterisks.",
+  "compressed_word_count": 20,
+  "response": "**Response 1:**\nYes, the sentence \"Mrs. Smith is the teacher of this class\" is grammatically correct. It follows a standard subject-verb-complement structure: \"Mrs. Smith\" (subject), \"is\" (linking verb), and \"the teacher of this class\" (noun phrase complement). The prepositional phrase \"of this class\" correctly modifies \"teacher\" to specify the relationship. While it is perfectly grammatical, it is slightly more formal than the more common phrasing \"Mrs. Smith is this class's teacher\" or \"Mrs. Smith teaches this class.\"\n\n******\n\n**Response 2:**\nYes, it is grammatically correct. The sentence employs the possessive \"of\"-genitive (\"the teacher of this class\") to indicate a relationship of association or possession. This construction is formally equivalent to the Saxon genitive (\"this class's teacher\") and both are acceptable. The grammar is sound because the verb \"is\" agrees with the singular subject \"Mrs. Smith,\" and the definite article \"the\" appropriately precedes the singular noun \"teacher.\"",
+  "response_word_count": 146,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

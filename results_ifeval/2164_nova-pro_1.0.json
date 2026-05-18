@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a product description for a new line of dog toys, called \"the squeaker\". It's made of latex, and is designed for dogs of all ages and species. It's also available in a variety of colors and shapes. The response must contain at least 3 placeholders represented by square brackets, such as [address], [name], and [phone number].",
+  "compressed_word_count": 57,
+  "response": "Introducing \"The Squeaker\" - the ultimate dog toy for dogs of all ages and species! Made of durable latex, [The Squeaker] is designed to withstand even the toughest playtime sessions.\n\n[The Squeaker] comes in a variety of fun colors and shapes, so your furry friend will never get bored. Whether your dog prefers chasing, fetching, or chewing, [The Squeaker] has got you covered.\n\nNot only is [The Squeaker] fun and engaging, but it's also safe for your dog to play with. The latex material is non-toxic and free from harmful chemicals, so you can feel good about letting your dog play with [The Squeaker] for hours on end.\n\nOrder [The Squeaker] today and give your dog the gift of endless fun! To place an order, simply visit our website or call us at [phone number]. Don't forget to provide your [address] and [name] for shipping purposes. Thank you for choosing [The Squeaker] - the best dog toy on the market!",
+  "response_word_count": 160,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

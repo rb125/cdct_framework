@@ -1,0 +1,45 @@
+{
+  "key": 152,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "essay 900+ words navigable freeway, no caps",
+  "compressed_word_count": 7,
+  "response": "# navigable freeway\n\nthere is a road that runs through the middle of everything. it does not ask permission to exist. it does not apologize for the space it takes up or the noise it makes at three in the morning when a truck rolls through carrying something heavy from one side of the country to the other. the road simply is, and everything around it has learned to organize itself accordingly. towns grew up beside it. gas stations planted themselves at its edges like flowers that only bloom under fluorescent light. people built their whole lives within earshot of the hum.\n\ni have been thinking about what it means for something to be navigable. the word comes from water, originally. a navigable river is one that can be traveled, one that has enough depth and enough width and enough predictability that a vessel can move through it without being destroyed. the mississippi is navigable. a creek after a drought is not. navigability is not just about size. it is about the relationship between the thing being traveled and the thing doing the traveling. it is about whether passage is possible.\n\nwhen engineers started building freeways in the middle of the twentieth century, they were trying to make land navigable in the way that water had always been. they wanted to remove the friction. they wanted to take the stop signs and the traffic lights and the slow turns through downtown and replace them with something continuous, something that moved the way a river moves, always forward, always with purpose, always carrying whatever was placed upon it toward wherever it needed to go. the freeway was an act of translation. it took the logic of water and pressed it into asphalt.\n\nbut water does not displace people when it flows. water does not cut through neighborhoods and leave one side unable to reach the other. water does not make a wall out of itself. the freeways did all of these things, and they did them deliberately, and the communities that were cut apart were almost never the communities that had any say in where the road would go. this is the part of the navigable freeway that does not get talked about enough. navigable for whom. passable for what. the road that made it easy to move through a city also made it impossible to live in certain parts of that city the way people had lived there before. the freeway was a river that only flowed in one direction, and it flooded everything it touched.\n\ni grew up near a freeway. not on it, not in the path of it, but close enough that the sound of it was always there, a low constant presence like weather. on summer nights with the windows open you could hear the trucks. you could hear the way the sound changed when it rained, the tires on wet pavement making a different kind of noise, something more urgent, something that sounded almost like rushing water. i used to lie in bed and listen and think about all the places those trucks were going. i thought the freeway was a kind of promise. i thought it meant that the world was connected, that you could get from here to anywhere if you just found the right on-ramp.\n\ni still believe that, partly. the freeway is a promise. but i understand now that promises are not made equally to everyone. the on-ramp is not equally accessible. the ability to move, to travel, to be carried forward by the infrastructure of a nation, is not distributed the same way to every person who lives within earshot of the hum.\n\nthere is a concept in urban planning called induced demand. it means that when you build more roads, you do not actually reduce traffic. you create more of it. people change their behavior to fill the new capacity. the road that was supposed to solve the problem of congestion becomes, within a few years, just as congested as the road it replaced, except now it is bigger and louder and it has taken up more space and displaced more people to get there. induced demand is one of those ideas that feels counterintuitive until you think about it for a moment, and then it feels completely obvious, and then you start to see it everywhere, not just in traffic but in everything. the solution that creates more of the problem it was meant to solve. the infrastructure that generates the very need it was built to meet.\n\nthe navigable freeway is a beautiful idea. the idea that you can move freely, that the path is clear, that the distance between where you are and where you want to be can be covered without obstruction. there is something genuinely thrilling about a long stretch of open highway, about the feeling of speed and direction and the sense that the world is organized around your movement. i do not want to pretend that feeling is not real or that it does not matter. it matters. the freedom to move is one of the most fundamental freedoms there is.\n\nbut freedom to move is not the same as freedom. and a road that is navigable for some people while it walls off others is not a neutral piece of infrastructure. it is a decision. it is a set of values made physical, poured into concrete, stretched across miles of land that used to belong to someone else or used to connect to something that no longer connects.\n\nthe freeway is still out there. it is still running. the trucks are still moving through the night, carrying their heavy things from one coast to the other. the sound of it is still there if you listen. and the question of who gets to navigate it, who gets to be carried by it, who gets to feel the promise of it in their chest on a summer night with the windows open, that question is still running too, still moving, still looking for somewhere to go.",
+  "response_word_count": 1014,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.7666666666666666,
+      "FC": 0.7333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

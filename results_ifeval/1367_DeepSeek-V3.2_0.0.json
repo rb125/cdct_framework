@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "java session plan",
+  "compressed_word_count": 3,
+  "response": "Here's a comprehensive Java session plan suitable for a multi-week course or workshop:\n\n## **Java Programming Course Plan (Beginner to Intermediate)**\n\n### **Week 1: Java Fundamentals**\n**Session 1: Introduction to Java**\n- What is Java? History and features\n- JVM, JRE, JDK architecture\n- Setting up development environment (JDK + IDE)\n- First Java program: Hello World\n- Basic syntax and structure\n\n**Session 2: Variables, Data Types & Operators**\n- Primitive data types (int, double, char, boolean)\n- Reference types (String, Arrays)\n- Variables declaration and initialization\n- Type casting (implicit and explicit)\n- Operators (arithmetic, relational, logical, assignment)\n\n### **Week 2: Control Flow & Methods**\n**Session 3: Control Statements**\n- Conditional statements (if, if-else, switch)\n- Loops (for, while, do-while)\n- Break and continue statements\n- Nested loops and conditions\n\n**Session 4: Methods & Scope**\n- Creating and calling methods\n- Method parameters and return values\n- Method overloading\n- Variable scope (local, instance, class)\n- Recursion basics\n\n### **Week 3: Object-Oriented Programming**\n**Session 5: Classes & Objects**\n- Introduction to OOP concepts\n- Creating classes and objects\n- Constructors (default, parameterized)\n- 'this' keyword\n- Getters and setters\n\n**Session 6: OOP Principles**\n- Inheritance (extends keyword)\n- Polymorphism (method overriding)\n- Abstraction (abstract classes)\n- Encapsulation\n- 'super' keyword\n\n### **Week 4: Advanced OOP & Exception Handling**\n**Session 7: Interfaces & Packages**\n- Interfaces and multiple inheritance\n- Abstract classes vs interfaces\n- Packages and import statements\n- Access modifiers (public, private, protected, default)\n\n**Session 8: Exception Handling**\n- Try-catch blocks\n- Multiple catch blocks\n- Finally block\n- Throw and throws keywords\n- Custom exceptions\n\n### **Week 5: Collections & File Handling**\n**Session 9: Collections Framework**\n- ArrayList, LinkedList\n- HashMap, TreeMap\n- HashSet, TreeSet\n- Iterators and for-each loop\n- Generics introduction\n\n**Session 10: File I/O**\n- File class\n- Reading/writing text files\n- BufferedReader/Writer\n- FileInputStream/OutputStream\n- Serialization basics\n\n### **Week 6: Advanced Topics**\n**Session 11: Multithreading**\n- Creating threads (extends Thread, implements Runnable)\n- Thread lifecycle\n- Synchronization\n- Thread pools introduction\n\n**Session 12: Database Connectivity (JDBC)**\n- JDBC architecture\n- Connecting to database\n- CRUD operations\n- PreparedStatement\n- Connection pooling concept\n\n### **Week 7: Modern Java Features**\n**Session 13: Java 8+ Features**\n- Lambda expressions\n- Functional interfaces\n- Stream API\n- Optional class\n- Date-Time API\n\n**Session 14: Project Development**\n- Building a console application\n- Best practices and coding standards\n- Debugging techniques\n- Introduction to unit testing (JUnit)\n\n### **Additional Components for Each Session:**\n\n**Session Structure (2-3 hours each):**\n1. **Theory** (30-40 mins): Concepts explanation\n2. **Live Coding** (40-50 mins): Instructor demonstrates\n3. **Hands-on Exercises** (40-50 mins): Students practice\n4. **Q&A/Doubts** (15-20 mins)\n\n**Assessment Strategy:**\n- Daily coding challenges\n- Weekly mini-projects\n- Mid-course assessment\n- Final capstone project\n\n**Tools & Resources:**\n- IDE: IntelliJ IDEA or Eclipse\n- Version Control: Git basics\n- Build Tool: Maven/Gradle introduction\n- Online compiler for quick tests\n\n**Prerequisites:**\n- Basic computer literacy\n- Logical thinking ability\n- No prior programming experience needed\n\n**Learning Outcomes:**\nBy the end of this course, students will be able to:\n- Write Java programs using OOP principles\n- Implement exception handling and file operations\n- Work with collections and databases\n- Understand multithreading concepts\n- Build simple to moderate Java applications\n\n**Customization Options:**\n- **Short Workshop** (2 days): Focus on Weeks 1-3\n- **Corporate Training** (3 weeks): Intensive pace with more projects\n- **Academic Semester** (12-14 weeks): Slower pace with more theory\n\nWould you like me to elaborate on any specific session or create a customized plan for your particular needs?",
+  "response_word_count": 594,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

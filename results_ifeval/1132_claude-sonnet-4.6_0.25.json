@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "compose rock lyrics in all caps, no \"rock",
+  "compressed_word_count": 8,
+  "response": "HERE WE GO, BURNING THROUGH THE NIGHT\nENGINES SCREAMING, CHASING DOWN THE LIGHT\nTHUNDER ROLLING UNDERNEATH OUR FEET\nNOTHING GONNA STOP US, FEEL THE HEAT\n\nCHORUS:\nWE RISE UP FROM THE ASHES OF THE FLAME\nWE TEAR DOWN EVERY WALL AND BREAK THE CHAIN\nNO SURRENDER, NO RETREAT, NO FEAR\nWE WERE BORN TO MAKE OUR VOICES CLEAR\n\nVERSE 2:\nSTEEL AND FIRE RUNNING THROUGH OUR VEINS\nWE WERE NEVER MEANT TO LIVE IN CHAINS\nSCREAM IT LOUD UNTIL THE MOUNTAINS SHAKE\nTHIS IS EVERYTHING WE CHOOSE TO MAKE\n\nBRIDGE:\nPUSH IT TO THE LIMIT, PUSH IT TO THE EDGE\nSTANDING ON THE MOUNTAIN, STANDING ON THE LEDGE\nNOTHING LEFT TO LOSE AND EVERYTHING TO GAIN\nWE WILL NEVER EVER BE THE SAME\n\nFINAL CHORUS:\nWE RISE UP FROM THE ASHES OF THE FLAME\nWE TEAR DOWN EVERY WALL AND BREAK THE CHAIN\nNO SURRENDER, NO RETREAT, NO FEAR\nWE WERE BORN TO MAKE OUR VOICES CLEAR\nYEAH WE WERE BORN TO MAKE OUR VOICES CLEAR\n\nOUTRO:\nLOUDER, LOUDER, LOUDER THAN BEFORE\nWE KEEP COMING BACK AND SCREAMING MORE",
+  "response_word_count": 179,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

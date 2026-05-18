@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n<<resignation notice>> to boss: quitting job",
+  "compressed_word_count": 31,
+  "response": "**Subject: Resignation Notice**\n\nDear [Boss's Name],\n\nPlease accept this email as formal notification of my resignation from my position as [Your Job Title] at [Company Name]. My last day of employment will be [Your Last Day, typically two weeks from the date of the email].\n\nI want to sincerely thank you for the opportunity to be part of the team. I have greatly valued the experience and professional growth I have gained during my time here.\n\nTo ensure a smooth transition, I am committed to completing my current projects and responsibilities to the best of my ability over the next two weeks. I am also happy to assist in training a replacement or documenting my processes.\n\nI wish you and the company all the best for the future.\n\nSincerely,\n\n[Your Name]",
+  "response_word_count": 131,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

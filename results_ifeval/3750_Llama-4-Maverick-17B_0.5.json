@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Moon landing authenticity debate; use 'yes', 'no', or'maybe'.",
+  "compressed_word_count": 8,
+  "response": "No. The overwhelming evidence supports that the moon landing was authentic. Here's a brief rundown:\n\n1. **Physical evidence**: Moon rocks and soil brought back by the astronauts have been extensively studied by scientists around the world. The chemical composition and physical properties of these samples are distinct from Earth rocks and are consistent with the geology of the Moon.\n2. **Independent verification**: The lunar landing was tracked by radar and monitored by independent observers, including the Soviet Union, which had a strong interest in verifying the event.\n3. **Moonquake data**: Seismometers left on the Moon's surface during the Apollo missions detected moonquakes, which helped scientists understand the Moon's internal structure.\n4. **Orbital evidence**: Orbiting spacecraft have imaged the Apollo landing sites, showing the lunar modules' descent stages and the astronauts' footprints.\n5. **Testimony and documentation**: The Apollo astronauts, thousands of people involved in the mission, and extensive documentation (including photographs, videos, and mission logs) all support the fact that the moon landing was real.\n\nWhile some conspiracy theories have been proposed, they have been thoroughly debunked by experts and evidence. Therefore, the answer is 'no' - there is no credible debate about the authenticity of the moon landing.",
+  "response_word_count": 198,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

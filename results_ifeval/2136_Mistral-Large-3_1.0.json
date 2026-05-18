@@ -1,0 +1,43 @@
+{
+  "key": 2136,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a short and funny joke about a guy who works at the IRS. Include at least one placeholder represented by square brackets.",
+  "compressed_word_count": 23,
+  "response": "Here\u2019s a quick one for you:\n\nA guy walks into an IRS office and says, *\"I haven\u2019t filed my taxes in years\u2014am I in trouble?\"*\nThe IRS agent smiles and says, *\"Oh, don\u2019t worry, [name of coworker] here hasn\u2019t *audited* anyone in years\u2014you\u2019re fine!\"*\n\n*(Bonus points if [name of coworker] is the office slacker.)* \ud83d\ude06",
+  "response_word_count": 55,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

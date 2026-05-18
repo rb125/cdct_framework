@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Provide nyc Prospect Park's history in json format. Use markdown ticks. Example: ```json{...}```",
+  "compressed_word_count": 13,
+  "response": "```json\n{\n  \"name\": \"Prospect Park\",\n  \"location\": \"Brooklyn, New York City\",\n  \"history\": {\n    \"creation\": {\n      \"year\": 1867,\n      \"description\": \"The park was created in 1867 when the New York State Legislature authorized the construction of a public park in Brooklyn.\"\n    },\n    \"design\": {\n      \"landscapeArchitects\": [\n        \"Frederick Law Olmsted\",\n        \"Calvert Vaux\"\n      ],\n      \"description\": \"The park was designed by Frederick Law Olmsted and Calvert Vaux, who also designed Central Park in Manhattan.\"\n    },\n    \"construction\": {\n      \"startYear\": 1866,\n      \"endYear\": 1873,\n      \"description\": \"Construction of the park began in 1866 and was completed in 1873.\"\n    },\n    \"features\": {\n      \"description\": \"The park features several lakes, walking trails, a botanical garden, a zoo, and numerous recreational facilities.\"\n    },\n    \"restoration\": {\n      \"description\": \"The park has undergone several restoration projects over the years, including a major restoration in the 1990s and 2000s led by the Prospect Park Alliance.\"\n    }\n  },\n  \"notableEvents\": [\n    {\n      \"year\": 1867,\n      \"description\": \"The park was officially opened to the public.\"\n    },\n    {\n      \"year\": 1884,\n      \"description\": \"The Prospect Park Zoo was opened.\"\n    },\n    {\n      \"year\": 1910,\n      \"description\": \"The park's boating lake was created.\"\n    },\n    {\n      \"year\": 1987,\n      \"description\": \"The Prospect Park Alliance was formed to help restore and maintain the park.\"\n    }\n  ]\n}\n```",
+  "response_word_count": 197,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

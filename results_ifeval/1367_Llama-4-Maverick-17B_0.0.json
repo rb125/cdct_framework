@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "java session plan",
+  "compressed_word_count": 3,
+  "response": "Here's a sample Java session plan for a beginner's course:\n\n**Session 1: Introduction to Java and Setting up the Environment**\n\n1. Introduction to Java:\n\t* History of Java\n\t* Features of Java\n\t* Java Ecosystem\n2. Setting up the Environment:\n\t* Installing JDK\n\t* Configuring Java Environment Variables\n\t* Choosing an IDE (Eclipse, IntelliJ, NetBeans)\n3. Writing the First Java Program:\n\t* Basic Java Syntax\n\t* \"Hello World\" Program\n\n**Session 2: Java Basics**\n\n1. Variables and Data Types:\n\t* Primitive Data Types (int, float, char, etc.)\n\t* Reference Data Types (arrays, objects)\n2. Operators:\n\t* Arithmetic Operators\n\t* Comparison Operators\n\t* Logical Operators\n\t* Assignment Operators\n3. Control Structures:\n\t* Conditional Statements (if-else)\n\t* Loops (for, while, do-while)\n\n**Session 3: Java Basics Continued**\n\n1. Methods:\n\t* Declaring and Calling Methods\n\t* Method Overloading\n2. Arrays:\n\t* Declaring and Initializing Arrays\n\t* Array Operations (indexing, length, etc.)\n3. Introduction to Object-Oriented Programming (OOP) Concepts:\n\t* Classes and Objects\n\t* Constructors\n\n**Session 4: Object-Oriented Programming (OOP) Concepts**\n\n1. Classes and Objects:\n\t* Defining Classes\n\t* Creating Objects\n\t* Accessing Class Members\n2. Inheritance:\n\t* Single Inheritance\n\t* Multilevel Inheritance\n\t* Hierarchical Inheritance\n3. Polymorphism:\n\t* Method Overloading\n\t* Method Overriding\n\n**Session 5: OOP Concepts Continued**\n\n1. Encapsulation:\n\t* Hiding Data Members\n\t* Exposing Methods\n2. Abstraction:\n\t* Abstract Classes\n\t* Interfaces\n3. Exception Handling:\n\t* Introduction to Exceptions\n\t* Try-Catch Blocks\n\n**Session 6: Java Collections Framework**\n\n1. Introduction to Java Collections Framework:\n\t* Overview of Collections Framework\n\t* Types of Collections (List, Set, Map, etc.)\n2. List Interface:\n\t* ArrayList\n\t* LinkedList\n3. Set Interface:\n\t* HashSet\n\t* TreeSet\n\n**Session 7: Java Collections Framework Continued**\n\n1. Map Interface:\n\t* HashMap\n\t* TreeMap\n2. Other Collections:\n\t* Queue\n\t* Stack\n3. Iterators and Enumerations:\n\t* Using Iterators to Traverse Collections\n\n**Session 8: File Input/Output and Persistence**\n\n1. File Input/Output:\n\t* Reading and Writing Files\n\t* FileReader and FileWriter\n2. Persistence:\n\t* Serialization and Deserialization\n\t* Saving and Loading Objects\n\n**Session 9: Multithreading and Concurrency**\n\n1. Introduction to Multithreading:\n\t* Creating Threads\n\t* Thread Life Cycle\n2. Thread Synchronization:\n\t* Synchronized Methods\n\t* Locks and Monitors\n3. Concurrency Utilities:\n\t* ExecutorService\n\t* Future and Callable\n\n**Session 10: Advanced Topics and Review**\n\n1. Advanced Topics:\n\t* Java 8 Features (Lambda Expressions, Method References, etc.)\n\t* Java 9 and Later Features (JShell, etc.)\n2. Review and Practice:\n\t* Reviewing Key Concepts\n\t* Practicing with Sample Problems and Projects\n\nThis is just a sample plan, and you can adjust it according to your needs and the level of your students. You can also include more topics or projects to make the course more comprehensive and engaging.",
+  "response_word_count": 439,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

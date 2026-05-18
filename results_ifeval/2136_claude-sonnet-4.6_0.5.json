@@ -1,0 +1,43 @@
+{
+  "key": 2136,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Craft a humorous irs joke with [placeholder] for punchline.",
+  "compressed_word_count": 9,
+  "response": "Here's one for you:\n\n---\n\n**Why did the taxpayer bring a ladder to the IRS audit?**\n\n*[placeholder]*\n\n---\n\n*(Suggested punchline: \"Because he heard the taxes were through the roof!\")*",
+  "response_word_count": 29,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.8,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 0.7666666666666666,
+      "FC": 0.7666666666666666,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

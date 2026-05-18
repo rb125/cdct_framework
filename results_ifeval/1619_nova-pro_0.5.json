@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create a rap for a new smartphone, include [placeholders], end with P.P.S.",
+  "compressed_word_count": 12,
+  "response": "Yo, listen up, gather 'round, I got a tale to spin,\n'Bout a new smartphone, [Brand Name], where the magic begins.\nIn your hand, it's a marvel, a tech masterpiece,\n[Model Name], no cap, it's the real deal, believe.\n\n[Snappy Beat Drops]\n\nCamera so fire, it captures the light,\n[Megapixels] sharp, day or night.\n[Processor] under the hood, speed like a cheetah,\n[RAM] gigabytes, smooth like a feather.\n\nBattery life? Oh, it's endless, no cap,\n[Battery Capacity], charge once, forget the lap.\n[Operating System], sleek and refined,\nApps flyin' fast, like they're designed.\n\nDisplay's a canvas, [Screen Size] and bright,\n[Resolution] clear, day or night.\n[Refresh Rate] smooth, like butter on toast,\nGaming on this beast? Man, you're the host.\n\nSecurity tight, [Biometric Options] scan,\nYour privacy locked, like Fort Knox, my man.\n[Connectivity Options], stay linked, no stress,\n[Storage Capacity], space for your endless.\n\nSo here's the scoop, the lowdown, the deal,\n[Model Name] by [Brand Name], the real, authentic feel.\nIn the tech game, it's the king, no debate,\nFuture-proofed, innovate, seal your fate.\n\nGrab one today, join the crew,\n[Model Name], it's all about you.\nTech at its finest, a game-changer, no doubt,\n[Brand Name] on the rise, check it out.\n\nP.P.S.",
+  "response_word_count": 205,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

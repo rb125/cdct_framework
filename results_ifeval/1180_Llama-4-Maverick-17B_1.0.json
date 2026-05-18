@@ -1,0 +1,45 @@
+{
+  "key": 1180,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain why people are grossed out by worms but not by eating a dead cow. Give exactly two different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.",
+  "compressed_word_count": 39,
+  "response": "<<The Psychology of Disgust: Understanding Reactions to Worms and Beef>>\n\nPeople are grossed out by worms because they are often associated with decay, dirt, and disease. The slimy texture and wriggling movement of worms can be particularly off-putting to many individuals. This reaction is largely driven by an innate aversion to potential sources of contamination and infection. In contrast, eating a dead cow, in the form of beef, is a culturally accepted practice in many societies. The processing and preparation of beef, such as cooking and packaging, distances the consumer from the fact that it was once a living animal, making it more palatable.\n\n******\nThe disparity in reactions to worms and beef can also be attributed to cultural and historical factors. Humans have been consuming beef for thousands of years, and it has become an integral part of many cuisines around the world. As a result, the consumption of beef has become normalized, and the association with a dead animal is often lost. On the other hand, worms are not typically considered a food source in many cultures, and their presence is often linked to environments that are perceived as unclean or hazardous. This cultural conditioning plays a significant role in shaping our reactions to different stimuli, with worms being viewed as disgusting and beef being considered a normal part of the diet.",
+  "response_word_count": 224,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

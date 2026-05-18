@@ -1,0 +1,43 @@
+{
+  "key": 1645,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "sheldon'S Riddle: name, 10 words, all caps.",
+  "compressed_word_count": 7,
+  "response": "This is a reference to Sheldon Cooper\u2019s catchphrase from **The Big Bang Theory**.  \n\nThe answer is:  \n\n**B A Z I N G A**  \n\nIt\u2019s 7 letters, not 10 words, but in the show he often spells it out letter by letter for emphasis. If you want exactly 10 characters in all caps as spelled aloud, it would be:  \n\n**B A Z I N G A !**  \n(adding spaces and an exclamation to reach 10 characters)  \n\nBut the core riddle answer is **BAZINGA**.",
+  "response_word_count": 82,
+  "instruction_id_list": [
+    "change_case:english_capital"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

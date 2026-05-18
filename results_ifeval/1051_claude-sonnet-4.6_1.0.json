@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+  "compressed_word_count": 16,
+  "response": "here's a letter to a friend encouraging them to vote:\n\nhey [friend's name],\n\ni hope you're doing well! i wanted to reach out because something really important is coming up - election day is just around the corner, and i really want to make sure you get out there and vote.\n\ni know life gets busy and it can feel like one vote doesn't make a difference, but it really does. every single vote counts, and our voices matter. people fought really hard for us to have this right, and i think we owe it to them and to ourselves to use it.\n\nif you're not sure where your polling place is, you can look it up online really easily. and if you need a ride or someone to go with, i'm totally here for that. we could even make a little outing of it and grab coffee or lunch after.\n\nplease don't sit this one out. the decisions that get made affect all of us - our communities, our families, and our futures. you have the power to help shape what happens next, and that's pretty amazing when you think about it.\n\nlet me know if you have any questions about how or where to vote. i just really want to see you show up and make your voice heard.\n\nyour friend,\n[your name]",
+  "response_word_count": 225,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

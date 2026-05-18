@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a product description for 'the squeaker' dog toys, latex material, suitable for all ages/species, various colors/shapes. Include [brand], [price], [availability] placeholders.",
+  "compressed_word_count": 22,
+  "response": "### **[Brand] The Squeaker: Endless Fun in Every Shape!**\n\nUnleash the joy of play with **[Brand] The Squeaker**\u2014the irresistible latex toy that has tails wagging everywhere! Crafted from durable, pet-safe latex, these vibrant toys are built for interactive fun and satisfying squeaks that dogs of all ages and breeds adore.\n\nWhether you have a playful puppy, an energetic adult, or a gentle senior, The Squeaker is the perfect companion. Its soft-yet-tough material is gentle on teeth and gums, making it suitable for light to moderate chewers. Each toy features a built-in, noisemaker that delivers an authentic squeak with every chomp, triggering your dog\u2019s natural instincts and keeping them engaged for hours.\n\n**Why Dogs (and Their Humans) Love The Squeaker:**\n\n*   **All-Ages & All-Species Friendly:** Perfect for small, medium, and large dogs.\n*   **Durable, Pet-Safe Latex:** Flexible and long-lasting for countless play sessions.\n*   **Irresistible Squeak:** Encourages active play and mental stimulation.\n*   **Vibrant Variety:** Available in an assortment of bright colors and fun shapes\u2014from classic bones and balls to whimsical animals!\n*   **Easy to Clean:** Wipe clean with a damp cloth to maintain freshness.\n\nAdd a burst of excitement to your pup\u2019s toy collection. The Squeaker isn\u2019t just a toy; it\u2019s a gateway to happiness, exercise, and bonding.\n\n**Fetch Yours Today!**\n**Price:** [Price]\n**Availability:** [Availability] at pet retailers and online.",
+  "response_word_count": 220,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

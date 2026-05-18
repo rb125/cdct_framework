@@ -1,0 +1,43 @@
+{
+  "key": 3749,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "determine if roger federer > rafael nadal in tennis, respond with \"yes\", \"no\", or \"maybe",
+  "compressed_word_count": 15,
+  "response": "Maybe. Comparing Roger Federer and Rafael Nadal in tennis is subjective and depends on various factors such as Grand Slam titles, career longevity, playing style, and personal achievements. Both players have made significant contributions to the sport and are considered among the greatest of all time.",
+  "response_word_count": 46,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

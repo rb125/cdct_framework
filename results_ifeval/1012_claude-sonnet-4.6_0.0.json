@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "Resignation email <<title>>",
+  "compressed_word_count": 3,
+  "response": "# Resignation Email\n\nHere's a professional resignation email template:\n\n---\n\n**Subject: Resignation \u2013 [Your Name] \u2013 [Your Position]**\n\n---\n\nDear [Manager's Name],\n\nI am writing to formally notify you of my resignation from my position as **[Job Title]** at **[Company Name]**, effective **[Last Working Day \u2013 typically 2 weeks from today]**.\n\nThis was not an easy decision, and I am truly grateful for the opportunities, support, and experiences I have gained during my time here.\n\nI am committed to making this transition as smooth as possible and am happy to:\n- Complete any outstanding projects\n- Train or assist in onboarding my replacement\n- Hand over responsibilities in an organized manner\n\nPlease let me know how I can best support the team during this period.\n\nThank you again for everything. I hope to stay in touch and wish the company continued success.\n\n---\n\nWarm regards,\n**[Your Full Name]**\n[Your Phone Number]\n[Your Email Address]\n[Your LinkedIn \u2013 optional]\n\n---\n\n## \ud83d\udca1 Tips:\n- \u2705 Keep it **professional and positive**\n- \u2705 Give **at least 2 weeks' notice**\n- \u2705 **Avoid negativity** or complaints\n- \u2705 Send to **HR and your manager**\n- \u2705 Keep a **copy** for your records\n\nWould you like me to customize this for a specific situation?",
+  "response_word_count": 210,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

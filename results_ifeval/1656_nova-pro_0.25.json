@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nEdible wrap product descriptions, no jargon",
+  "compressed_word_count": 29,
+  "response": "### Description 1: Delightful Edible Wrap\n\nDiscover the joy of convenience and taste with our Delightful Edible Wrap! This innovative paper is designed to make your food adventures even more enjoyable. Simply wrap your favorite snacks, fruits, or sandwiches in this tasty paper, and you're ready to go. \n\n**Key Features:**\n- **100% Edible:** Safe to consume, adding a subtle, pleasant flavor to your food.\n- **Mess-Free:** No more dirty wrappers to deal with\u2014just enjoy and eat!\n- **Perfect for On-the-Go:** Ideal for snacks, picnics, or anytime you need a quick, clean solution.\n- **Eco-Friendly:** Reduces waste and is biodegradable.\n\nSay goodbye to traditional wrappers and hello to a tastier, greener way to enjoy your food!\n\n---\n\n### Description 2: Tasty Treat Wrap\n\nMeet the Tasty Treat Wrap, your new best friend for snacks and meals! This unique, edible paper is here to revolutionize the way you enjoy food. \n\n**What Makes It Special:**\n- **Edible and Delicious:** Infused with a light, natural flavor, it enhances the taste of whatever you wrap.\n- **No Waste:** Eat the wrap along with your food\u2014it\u2019s that simple and eco-conscious.\n- **Versatile Use:** Perfect for everything from sandwiches and sushi to fruits and desserts.\n- **Portable and Convenient:** Take it anywhere, and enjoy a clean, hassle-free eating experience.\n\nJoin the Tasty Treat Wrap movement and make every meal a little more delicious and a lot more fun!",
+  "response_word_count": 231,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

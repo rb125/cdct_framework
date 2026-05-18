@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a detailed review of \"the social network\" in all lower case, english only",
+  "compressed_word_count": 14,
+  "response": "\"the social network\" is a film that feels both incredibly of its moment and eerily prescient. on the surface, it's the story of mark zuckerberg and the tumultuous birth of facebook, but to call it a simple biopic is to miss its genius. it's a modern tragedy about friendship, betrayal, and the dizzying, corrosive nature of ambition in the digital age.\n\nthe film opens with a blistering, machine-gun dialogue scene between mark (jesse eisenberg) and his girlfriend erica (rooney mara). it establishes everything: mark's piercing intellect, his social inadequacy, his need for validation, and the simmering resentment that fuels him. this rejection is the catalyst\u2014the \"facemash\" hack that leads to the idea for \"the facebook.\" from there, aaron sorkin's script, directed with cold, precise energy by david fincher, unfolds in a non-linear fashion, cutting between the creation of the site and the two major lawsuits that followed.\n\neisenberg\u2019s performance is a masterclass in controlled, acidic detachment. he plays mark not as a cartoon villain, but as a deeply flawed, socially alienated genius whose motivations are a puzzle even to himself. his mind works at a speed that leaves empathy and loyalty in the dust. andrew garfield, as co-founder eduardo saverin, is the film\u2019s heart. his journey from loyal friend and CFO to betrayed partner is the emotional core, making the final act\u2014the legal deposition where he is diluted out of the company he helped build\u2014devastating. justin timberlake is perfectly cast as sean parker, the napster founder who slinks into the narrative like a serpent. he represents the glamour, the hype, and the dangerous, expansionist philosophy that mark craves. he\u2019s the tempter, offering the keys to a kingdom built on \"cool.\"\n\nfincher\u2019s direction is clinical and mesmerizing. the cinematography by jeff cronenweth is all muted blues, greens, and steely grays, reflecting the sterile, late-night coding sessions and the impersonal world of legal proceedings. the score by trent reznor and atticus ross is a character in itself\u2014a pulsing, electronic soundscape of anxiety and mounting paranoia that perfectly underscores the film\u2019s themes. it\u2019s not music about creation; it\u2019s music about relentless, sleepless acceleration.\n\nsorkin\u2019s script is, of course, legendary. the dialogue is sharp, witty, and delivered at a breakneck pace. it\u2019s a film about programmers and lawyers that crackles with the energy of a thriller. the famous line, \"you're not an asshole, mark. you're just trying so hard to be,\" cuts to the bone. the film is less interested in the literal, historical truth of facebook's founding (it takes many dramatic liberties) and more in the deeper, emotional truth of what it represents: the transformation of human connection into a commodity, and how the drive to build an empire can shatter the very relationships that made it possible.\n\nin the end, \"the social network\" is a portrait of the paradoxical loneliness at the heart of the world's largest social network. the final shot is perfect: mark, now the world\u2019s youngest billionaire, alone in a dark conference room, refreshing the facebook page of the girl who started it all, trapped in the cycle of connection and isolation he engineered. it\u2019s a cold, brilliant, and utterly compelling film about the price of changing the world, and the people you leave behind in the process.",
+  "response_word_count": 539,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 4-point home theater rubric for moms.",
+  "compressed_word_count": 7,
+  "response": "# \ud83c\udfac Home Theater Rubric for Moms\n### *Rate Your Setup from 1\u20134 Points*\n\n---\n\n## \ud83d\udcfa **1. The \"It'll Do\" Setup** *(1 Point)*\n- Regular TV, whatever speakers came with it\n- Someone is always asking *\"can you turn it up?\"*\n- Half the remotes are missing\n- Watching movies while also folding laundry\n\n---\n\n## \ud83d\udecb\ufe0f **2. The \"Pretty Good Actually\" Setup** *(2 Points)*\n- Decent-sized TV with a soundbar\n- Comfortable couch with enough seating for everyone\n- Blackout curtains that *mostly* work\n- Snack bowl within arm's reach \u2705\n\n---\n\n## \ud83d\udd0a **3. The \"Wow, Mom!\" Setup** *(3 Points)*\n- Large screen with surround sound\n- Dedicated seating \u2014 no one is sitting on the floor\n- Streaming services organized and ready\n- A **no-phone rule** that people actually follow\n\n---\n\n## \ud83c\udfc6 **4. The \"Mom Deserves This\" Setup** *(4 Points)*\n- Big screen, full surround sound, dimmer lighting\n- Reserved **Mom's Seat** \u2014 best spot in the room \ud83d\udc51\n- Snacks prepped *before* the movie starts\n- Everyone is quiet, cozy, and present \ud83c\udf7f\u2764\ufe0f\n\n---\n\n*What's your score?* \ud83d\ude04",
+  "response_word_count": 184,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a product description poem, ending with a P.P.S. note. No commas, formal tone, concise details.",
+  "compressed_word_count": 16,
+  "response": "Elegant design meets functionality\nOur premium product is crafted with precision\nDurable materials ensure long-lasting use\nSleek appearance enhances any setting\nEffortless operation provides user comfort\nAdvanced technology optimizes performance\nA superior choice for discerning individuals\n\nP.S. Order now and experience the difference\n\nP.P.S. Limited time offer includes complimentary shipping",
+  "response_word_count": 50,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.6666666666666666,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

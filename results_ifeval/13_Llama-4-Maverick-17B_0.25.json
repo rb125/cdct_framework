@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "nyc Prospect Park history in json.",
+  "compressed_word_count": 6,
+  "response": "Here's a JSON representation of the history of Prospect Park in NYC:\n\n```json\n{\n  \"name\": \"Prospect Park\",\n  \"location\": \"Brooklyn, New York City\",\n  \"history\": [\n    {\n      \"year\": 1866,\n      \"event\": \"Design competition announced for a new park in Brooklyn\"\n    },\n    {\n      \"year\": 1867,\n      \"event\": \"Frederick Law Olmsted and Calvert Vaux win the design competition with their 'Grand Park' plan\"\n    },\n    {\n      \"year\": 1868,\n      \"event\": \"Construction of Prospect Park begins\"\n    },\n    {\n      \"year\": 1873,\n      \"event\": \"Prospect Park is officially opened to the public\"\n    },\n    {\n      \"year\": \" Late 1800s\",\n      \"event\": \"The park becomes a popular destination for recreation and leisure activities\"\n    },\n    {\n      \"year\": \"Early 1900s\",\n      \"event\": \"The park undergoes significant changes, including the construction of the Prospect Park Lake and the addition of various recreational facilities\"\n    },\n    {\n      \"year\": \"Mid-1900s\",\n      \"event\": \"The park falls into disrepair, but is revitalized through the efforts of community groups and the Prospect Park Alliance\"\n    },\n    {\n      \"year\": 1987,\n      \"event\": \"The Prospect Park Alliance is formed to help restore and maintain the park\"\n    },\n    {\n      \"year\": \"Present day\",\n      \"event\": \"Prospect Park continues to be a beloved green space in Brooklyn, with ongoing restoration and improvement efforts\"\n    }\n  ],\n  \"notable_features\": [\n    \"The Long Meadow\",\n    \"The Prospect Park Lake\",\n    \"The Ravine\",\n    \"The Prospect Park Zoo\",\n    \"The Grand Army Plaza\"\n  ],\n  \"statistics\": {\n    \"acreage\": 585,\n    \"visitors_per_year\": \"Approximately 10 million\"\n  }\n}\n```\n\nThis JSON object includes the following information about Prospect Park:\n\n*   Name and location\n*   A list of historical events, including the design competition, construction, and opening of the park, as well as significant changes and restoration efforts over the years\n*   Notable features within the park\n*   Statistics, including the park's acreage and annual visitor count",
+  "response_word_count": 279,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

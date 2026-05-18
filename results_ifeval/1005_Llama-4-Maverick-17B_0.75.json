@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft a resume for a first-time job seeker with 12 placeholders like [name], [address], [skills], no commas in formal tone",
+  "compressed_word_count": 20,
+  "response": "Here is a draft resume for a first-time job seeker with 12 placeholders in a formal tone without commas:\n\n[Name]\n[Address]\n[City State ZIP]\n[Phone Number]\n[Email]\n\nObjective\nTo secure an entry-level position in [Industry] where I can apply my knowledge and skills to contribute to the growth and success of the organization\n\nEducation\nBachelor's Degree in [Field of Study]\n[University Name]\n[City State]\n[Graduation Date]\n\nSkills\nProficient in [Skills]\n Familiarity with [Software or Tools]\n Strong understanding of [Relevant Concepts]\n\nExperience\n[Project or Internship Name]\n[Project or Internship Date]\n Utilized [Skills] to achieve [Desirable Outcome] for [Project or Internship]\n Developed strong [Relevant Skills] through [Relevant Experience]\n\nAchievements\nReceived [Award or Recognition] for [Achievement] at [University Name]\nCompleted [Relevant Coursework] with [Notable Achievement]\n\nCertifications\n[Certification Name]\n[Certification Date]\nIssued by [Certifying Organization]\n\nReferences\nAvailable upon request at [Phone Number] or [Email]",
+  "response_word_count": 140,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6,
+      "SA": 0.6333333333333333,
+      "FC": 0.6,
+      "judge_variance_CC": 0.14142135623730953,
+      "judge_variance_SA": 0.18856180831641267,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

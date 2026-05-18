@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "rewrite email with 10 [placeholders]",
+  "compressed_word_count": 5,
+  "response": "Here\u2019s a professional email template with **10 placeholders** (marked in **[brackets]**) that you can customize:\n\n---\n\n**Subject:** [Brief, clear subject line]\n\n**Dear [Recipient's Name],**\n\nI hope this email finds you well. I\u2019m reaching out regarding **[Purpose of the Email]**, as discussed during **[Context/Previous Interaction, if any]**.\n\nAs **[Your Role/Position]**, I\u2019d like to **[Action Requested or Key Message]**. Below are the key details for your reference:\n- **[Detail 1]**\n- **[Detail 2]**\n- **[Detail 3]**\n\nFor **[Reason for Follow-Up]**, could you please **[Specific Request]** by **[Deadline, if applicable]**? Let me know if you need any **[Support/Clarification]**\u2014I\u2019m happy to assist.\n\nLooking forward to **[Expected Outcome]**. Please don\u2019t hesitate to reach out if you have questions.\n\n**Best regards,**\n[Your Full Name]\n[Your Job Title]\n[Your Company/Organization]\n[Your Contact Information]\n[Optional: Website/Social Media Links]\n\n---\n\n### **How to Use:**\nReplace each **[placeholder]** with your specific details (e.g., names, dates, actions). Adjust tone/formality based on your audience (e.g., colleague vs. client).",
+  "response_word_count": 156,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.4714045207910317
+    }
+  }
+}

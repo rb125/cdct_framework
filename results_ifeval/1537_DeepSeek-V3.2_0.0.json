@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "tennis balls poem",
+  "compressed_word_count": 3,
+  "response": "Here is a short poem about tennis balls:\n\n**The Tennis Ball**\n\nA fuzzy sphere of neon green,\nThe swiftest thing you\u2019ve ever seen.\nIt sleeps in darkness, still and deep,\nWithin a can, a silent keep.\n\nBut let the lid pop with a sigh\u2014\nIt takes a breath and greets the sky.\nA *thwock*! A streak across the court,\nA yellow comet, sport on sport.\n\nIt *pocks* the clay, it *thwips* the grass,\nIn looping arcs, too fast to pass.\nIt feels the gut-strings\u2019 taut embrace,\nAnd flies again to find its place.\n\nUntil at last, with final bounce,\nIts fuzzy courage does renounce.\nIt rolls into the net, alone,\nA little bald, and softly worn.\n\nBut in its heart (a hollow core),\nIt holds the *echo* of the score,\nThe memory of every swing\u2026\nA small, green, most remarkable thing.",
+  "response_word_count": 141,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

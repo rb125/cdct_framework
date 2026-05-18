@@ -1,0 +1,45 @@
+{
+  "key": 1180,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "<<Comparative disgust: worms vs. cow meat>> ***** compare worm vs. dead cow disgust ***** cultural vs. biological revulsion",
+  "compressed_word_count": 18,
+  "response": "# Comparative Disgust: Worms vs. Cow Meat\n\n## The Core Paradox\n\nMost Westerners find eating worms **more disgusting** than eating a hamburger, despite this being arguably **backwards** from multiple analytical frameworks.\n\n---\n\n## Biological Disgust Mechanisms\n\n### What disgust actually tracks\n- **Pathogen avoidance** - contamination risk\n- **Decay signals** - rotting matter\n- **Boundary violations** - things entering the body\n\n### Objective comparison\n| Factor | Worms | Cow Meat |\n|--------|-------|----------|\n| Decomposition at consumption | Minimal | Significant (aging) |\n| Pathogen load | Generally low | Can be substantial |\n| Processing required | Often none | Extensive |\n| Proximity to feces | Variable | Often high (industrial) |\n\n**Biologically, the disgust hierarchy doesn't obviously favor cow meat as cleaner.**\n\n---\n\n## Cultural Construction of Disgust\n\n### Why cow meat feels \"clean\" to Westerners\n- **Familiarity normalization** - repeated exposure eliminates disgust response\n- **Abstraction distance** - \"beef\" vs. \"dead animal\"\n- **Institutional laundering** - slaughterhouses are hidden\n- **Social consensus** - disgust is partly *socially performed*\n\n### The abstraction trick\n```\nLive cow \u2192 slaughter \u2192 processing \u2192 packaging \u2192 \"steak\"\nLive worm \u2192                                    \u2192 \"worm\"\n```\nThe cow undergoes **more steps of psychological distancing**, not more steps of actual cleaning.\n\n---\n\n## Paul Rozin's Disgust Research\n\nKey findings relevant here:\n\n- Disgust is **culturally variable** but feels **universally biological**\n- The **\"once in contact, always contaminated\"** principle applies asymmetrically based on cultural priming\n- People rate **cockroach juice-touched fudge** as disgusting even when sterilized - **the logic is magical, not hygienic**\n- Disgust responses can be **acquired and extinguished** through exposure\n\n### His core insight\n> Disgust functions as a **guardian of cultural boundaries** as much as biological ones\n\n---\n\n## Where Biological Disgust IS Rational\n\n### Legitimate worm concerns\n- **Specific species** carry parasites (e.g., *Trichinella*)\n- **Wild-harvested** worms may carry soil pathogens\n- **Preparation method** matters enormously\n\n### Legitimate meat concerns\n- **Industrial processing** creates genuine contamination risks\n- **E. coli, Salmonella** are serious and common\n- **Prion diseases** have no parallel in insect consumption\n\n**Neither is categorically safer without context.**\n\n---\n\n## The Entomophagy Challenge\n\n### Why insect eating faces disgust barriers\n1. **Morphological visibility** - you can see what it is\n2. **Invertebrate uncanniness** - outside familiar animal categories\n3. **Association with decay** - worms appear in rotting matter\n4. **No cultural scaffolding** in Western contexts\n\n### Why this matters practically\n- Insects are **~80% protein by dry weight**\n- Require **~2000x less water** than beef per gram of protein\n- Produce **~100x less greenhouse gas**\n- The **disgust barrier is a significant obstacle** to sustainable food transition\n\n---\n\n## Philosophical Dimension\n\n### The \"meat paradox\" connection\n- People who eat meat often experience **cognitive dissonance** they resolve through:\n  - Denial (\"animals don't really suffer\")\n  - Dissociation (\"it's just food\")\n  - Disgust displacement (\"*that* would be gross\")\n\n### Disgust as moral proxy\nWorm disgust may function partly as **displaced moral anxiety** - a way of maintaining a sense of food purity while avoiding examination of industrial meat's actual conditions.\n\n---\n\n## Summary Framework\n\n```\nWORM DISGUST          COW MEAT DISGUST\n     |                      |\nCulturally constructed  Culturally suppressed\nBiologically moderate   Biologically moderate\nVisually present        Visually hidden\nSocially unsanctioned   Socially sanctioned\n     |                      |\n     \u2514\u2500\u2500\u2500\u2500 Both are largely LEARNED \u2500\u2500\u2500\u2500\u2518\n           filtered through CULTURE\n           rationalized as BIOLOGY\n```\n\n---\n\n## Bottom Line\n\n**The disgust difference is mostly cultural, not biological.** Worm aversion in Western contexts reflects:\n- Unfamiliarity\n- Lack of abstraction/processing distance\n- No institutional normalization\n\nThe person who finds worms revolting but eats factory-farmed beef is **not responding to objective contamination risk** - they're responding to **which disgust responses their culture has trained them to suppress.**",
+  "response_word_count": 613,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Which one is a better brand for sneakers: Prada or Nike? Your entire response should be in English, and in all capital letters. At the end of your response, please explicitly add a postscript starting with P.S. The word sneaker should appear 10 or more times in your response.",
+  "compressed_word_count": 49,
+  "response": "THE ANSWER DEPENDS ENTIRELY ON WHAT YOU VALUE IN A SNEAKER. PRADA AND NIKE OPERATE IN DIFFERENT REALMS. FOR LUXURY FASHION AND STATUS, PRADA IS A SUPERIOR BRAND. FOR ATHLETIC PERFORMANCE, INNOVATION, AND VARIETY, NIKE IS UNMATCHED.\n\nIF YOU SEEK A LUXURY SNEAKER MADE WITH PREMIUM MATERIALS AS A FASHION STATEMENT, PRADA IS A BETTER BRAND. A PRADA SNEAKER IS OFTEN A SYMBOL OF HIGH-END DESIGN. THIS KIND OF SNEAKER IS FOR STYLE, NOT SPORT.\n\nIF YOU SEEK A PERFORMANCE SNEAKER FOR SPORTS, COMFORT, OR EVERYDAY WEAR, NIKE IS A BETTER BRAND. NIKE PIONEERS TECHNOLOGY FOR ATHLETIC SNEAKERS. THE TYPICAL NIKE SNEAKER FOCUSES ON CUSHIONING AND SUPPORT. FOR A VERSATILE SNEAKER, NIKE OFFERS UNBEATABLE OPTIONS. YOU CAN FIND A RUNNING SNEAKER, A BASKETBALL SNEAKER, AND A CASUAL SNEAKER ALL FROM NIKE. THE AVERAGE NIKE SNEAKER ALSO OFFERS BETTER VALUE FOR MONEY. ULTIMATELY, THE BEST SNEAKER BRAND FOR YOU DEPENDS ON THE PURPOSE OF THE SNEAKER.\n\nP.S. A COLLECTOR'S SNEAKER FROM NIKE OFTEN HOLDS ITS VALUE SIMILAR TO A LUXURY SNEAKER.",
+  "response_word_count": 170,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

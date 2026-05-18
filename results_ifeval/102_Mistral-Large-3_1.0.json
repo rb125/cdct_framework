@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+  "compressed_word_count": 63,
+  "response": "**Title: \"Fashion Faux Pas\"**\n\n**Lena** (adjusting her glittering ball gown): *\"Okay, I know I look like I\u2019m about to walk into a royal ball, but you\u2026 are you seriously wearing *sweats* to the gala?\"*\n\n**Jake** (shrugging, hands in his hoodie pockets): *\"What? It\u2019s a *nightly* event, not a *fancy* event. Besides, I heard there\u2019s an open bar. Sweats are the official uniform of \u2018I\u2019m here for the free drinks.\u2019\"*\n\n**Lena**: *\"Unbelievable. You\u2019re going to stick out like a neon sign in a black-tie crowd!\"*\n\n**Jake**: *\"Nah, I\u2019ll blend right in. Watch this\u2014\"* (clears throat) *\"Excuse me, Your Highness, may I interest you in a\u2026 uh\u2026 *artisanal* cheese plate?\"* (gestures vaguely at the buffet)\n\n**Lena**: *\"Oh my god, you\u2019re hopeless.\"*\n\n*Here\u2019s how their night might unfold:*\n* *Lena spends the first hour dodging awkward compliments from strangers who assume she\u2019s part of a historical reenactment group.*\n* *Jake, meanwhile, becomes the life of the party\u2014mostly because people keep mistaking him for catering staff and asking for refills.*\n* *By midnight, Lena\u2019s gown is covered in hors d'oeuvres stains, and Jake has somehow convinced three people he\u2019s the event\u2019s \"mystery performer.\"*",
+  "response_word_count": 189,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

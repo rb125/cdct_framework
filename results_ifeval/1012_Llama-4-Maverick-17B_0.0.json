@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "Resignation email <<title>>",
+  "compressed_word_count": 3,
+  "response": "**Resignation Email Template**\n\nSubject: Notification of Resignation\n\nDear [Supervisor's Name],\n\nI am writing to inform you of my decision to resign from my position as [Position] at [Company Name], effective [Date of Last Day of Work].\n\nI appreciate the opportunities I have had while working at [Company Name], and I am grateful for the experience and knowledge gained during my time here. I will do my best to ensure a smooth transition of my responsibilities and complete any outstanding tasks before my departure.\n\nIf there is anything specific you would like me to focus on during my remaining time here, please let me know. I am committed to supporting the team during this period.\n\nThank you again for the opportunity to work at [Company Name]. I wish the organization continued success in the future.\n\nSincerely,\n\n[Your Name]",
+  "response_word_count": 137,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

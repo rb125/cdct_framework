@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "dog toy [placeholders]",
+  "compressed_word_count": 3,
+  "response": "Of course! Here are some common **placeholders** used for \"dog toy\" in various contexts, categorized by their use case:\n\n### 1. For Naming Files or Code (Generic)\n*   `[DOG_TOY]`\n*   `[DOGTOY]`\n*   `[dog_toy]`\n*   `[dogToy]` (camelCase)\n*   `{DOG_TOY}`\n*   `%DOG_TOY%`\n\n### 2. For Product Listings or E-commerce\n*   `[Toy Name]` (e.g., \"Indestructible Chew Toy\")\n*   `[Product Name]`\n*   `[Toy Type]` (e.g., \"[Squeaky Toy]\", \"[Puzzle Toy]\", \"[Chew Toy]\")\n*   `[Brand Name] Toy`\n*   `[Item Name]`\n\n### 3. For Descriptions or Marketing Copy\n*   `[this toy]`\n*   `[the toy]`\n*   `[your new toy]`\n*   `[amazing toy]`\n*   `[interactive toy]`\n*   `[durable chew]`\n\n### 4. For Programming or Databases (Specific)\n*   `toy_id`\n*   `toy_name`\n*   `toy_type`\n*   `toy_description`\n*   `product_sku`\n\n### 5. Fun & Creative (for blogs, social media)\n*   [The Bouncy Thing]\n*   [The Chewy Wonder]\n*   [Your Pup's New Favorite Thing]\n*   [This Awesome Toy]\n*   [The Magic Toy]\n\n**Example Sentences:**\n*   \"Simply replace `[DOG_TOY]` with the actual product name in the code.\"\n*   \"Our `[interactive toy]` will keep your dog entertained for hours.\"\n*   \"Is `[this toy]` suitable for aggressive chewers?\"\n*   \"Enter to win a `[Brand Name] Toy` for your pup!\"\n\n**Which context are you using it for?** I can give you a more precise suggestion if you let me know (e.g., coding, writing a product description, making a form).",
+  "response_word_count": 221,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

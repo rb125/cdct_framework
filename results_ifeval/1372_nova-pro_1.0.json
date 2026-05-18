@@ -1,0 +1,43 @@
+{
+  "key": 1372,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Draft a blog post about Ripley's Aquarium. Make sure your blog post contains at least 7 placeholders represented by square brackets, such as [location].",
+  "compressed_word_count": 24,
+  "response": "**Discover the Underwater Wonders at Ripley's Aquarium**\n\nWelcome to the mesmerizing world of Ripley's Aquarium, a place where the beauty of marine life comes to life! Located in [location], this stunning aquarium is a must-visit destination for both locals and tourists alike. Whether you're a marine enthusiast or simply looking for a fun day out, Ripley's Aquarium offers an unforgettable experience for visitors of all ages.\n\n### A Glimpse into the Aquatic Realm\n\nStep into Ripley's Aquarium and be transported to a vibrant underwater world. With over [number of species] different species of fish, invertebrates, and other marine creatures, there's always something new to discover. The aquarium is designed to replicate various marine environments, from the colorful coral reefs of the [specific ocean] to the mysterious depths of the [another ocean].\n\n### Must-See Exhibits\n\nOne of the highlights of Ripley's Aquarium is the [name of main exhibit], a massive tank that houses some of the ocean's most fascinating inhabitants. Here, you can witness the graceful movements of [specific fish species] and the gentle giants like the [specific large marine animal]. Another popular exhibit is the [another exhibit name], where you can get up close and personal with [specific marine creatures] in an interactive touch pool.\n\n### Educational Programs and Events\n\nRipley's Aquarium is not just about viewing marine life; it's also a center for education and conservation. The aquarium offers a variety of programs and events designed to inform visitors about the importance of protecting our oceans. From [type of workshop] to [type of seminar], there are plenty of opportunities to learn more about marine biology and conservation efforts.\n\n### Family-Friendly Activities\n\nBring the whole family to Ripley's Aquarium for a day filled with fun and learning. Kids will love the [children's activity area], where they can engage in hands-on activities and learn about the ocean in a playful environment. Don't miss the daily [feeding demonstration], where you can watch [specific marine animals] being fed and learn about their dietary habits.\n\n### Dining and Shopping\n\nAfter a day of exploration, satisfy your hunger at one of the aquarium's [number of restaurants]. Offering a variety of cuisines, from [type of cuisine] to [another type of cuisine], there's something to please every palate. If you find a souvenir that catches your eye, be sure to visit the [gift shop name] for unique marine-themed merchandise.\n\n### Plan Your Visit\n\nReady to dive into the wonders of Ripley's Aquarium? Visit our website at [website URL] for more information on ticket prices, opening hours, and special events. Don't forget to check out our [social media handles] for the latest updates and behind-the-scenes looks at our marine residents.\n\nRipley's Aquarium is more than just an attraction; it's a journey into the heart of the ocean. So grab your [snorkel/camera/hat] and get ready to explore the underwater wonders that await you!",
+  "response_word_count": 474,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

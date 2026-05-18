@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Identify non-fish, then write article on salmon/avocado, max 10 all-caps.",
+  "compressed_word_count": 10,
+  "response": "**NON-FISH:** Mammals (whale, dolphin), Jellyfish, Starfish, Crayfish.\n\n**SALMON & AVOCADO: PERFECT PAIR**\n\nThis duo is a powerhouse of nutrition and flavor. The rich, oily **SUSTAINING** omega-3s in wild salmon meet the creamy **HEART-HEALTHY** monounsaturated fats of avocado. Together, they create a meal that is deeply **SATISFYING**.\n\nTheir versatility is **ENDLESS**. Enjoy them in sleek sushi rolls, stacked on crisp toast, tossed in vibrant salads, or simply layered together. The salmon's **ROBUST** taste is beautifully balanced by the avocado's **MILD** and creamy texture.\n\nIt\u2019s a combination that is **SIMPLE**, **ELEGANT**, and profoundly **NOURISHING**. A true culinary **HARMONY**.",
+  "response_word_count": 96,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.7,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.2333333333333333,
+      "FC": 0.39999999999999997,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.3299831645537222,
+      "judge_variance_FC": 0.2943920288775949
+    }
+  }
+}

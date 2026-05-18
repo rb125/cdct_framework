@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Craft a tale on unobvious truths' importance; use <20 emphasis words.",
+  "compressed_word_count": 11,
+  "response": "The village prized clear skies. Yet the finest pottery came from Kilnmaker\u2019s Hollow, where the permanent haze was scorned.\n\nA young painter, seeking brilliance, traveled to sun-drenched lands. Her canvases grew flat and stark. Disheartened, she returned.\n\nOne ashen dawn, she glimpsed her home valley through the veil. The softened light revealed gradients unseen in blunt sun: the subtle blush of dawn on grey roofs, the deep velvet of shaded firs.\n\nShe mixed her paints accordingly. Her new works held depths that made viewers feel they were remembering, not just seeing. The haze, once a flaw, became her lens.\n\nThe kiln-smoke never cleared. But it taught the eyes how to find color in the grey, and truth in the unseen. Sometimes, clarity obscures. The filter reveals.",
+  "response_word_count": 126,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

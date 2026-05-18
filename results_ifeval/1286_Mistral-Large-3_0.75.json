@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "List 6 differences between the 13 colonies and other British colonies in North America in Markdown format:  \n* point one  \n* point two  \n* point three  \n* point four  \n* point five  \n* point six",
+  "compressed_word_count": 35,
+  "response": "Here\u2019s a Markdown-formatted list of **6 key differences** between the **13 American colonies** and **other British colonies in North America** (e.g., Canada, the Caribbean, or British Honduras):\n\n```markdown\n- **Purpose of Colonization**\n  - *13 Colonies*: Primarily settled for **permanent habitation**, economic opportunity (agriculture, trade), and religious freedom (e.g., Puritans, Quakers).\n  - *Other British Colonies*: Often established for **extractive economies** (e.g., sugar in the Caribbean, fur in Canada) or **strategic military outposts**, with fewer permanent settlers.\n\n- **Economic Structure**\n  - *13 Colonies*: Developed **diverse economies** (subsistence farming, cash crops like tobacco/rice, shipbuilding, trade) with a growing merchant class.\n  - *Other British Colonies*: Relied heavily on **plantation monocultures** (sugar, cotton) or **resource extraction** (fishing, fur), often using enslaved labor or indentured servants.\n\n- **Population Composition**\n  - *13 Colonies*: Had a **larger proportion of European settlers** (including families) and enslaved Africans, with some Indigenous displacement.\n  - *Other British Colonies*: Often had **smaller European populations** (e.g., Caribbean islands) or **mixed Indigenous-European communities** (e.g., M\u00e9tis in Canada), with higher ratios of enslaved or indentured laborers.\n\n- **Governance and Autonomy**\n  - *13 Colonies*: Developed **representative assemblies** (e.g., Virginia House of Burgesses) and local governance, though under British oversight.\n  - *Other British Colonies*: Typically had **more direct British control** (e.g., royal governors, Crown corporations like the Hudson\u2019s Bay Company) with less self-rule.\n\n- **Relations with Indigenous Peoples**\n  - *13 Colonies*: Engaged in **frequent conflicts** (e.g., King Philip\u2019s War, Pontiac\u2019s Rebellion) and **land dispossession** of Indigenous nations.\n  - *Other British Colonies*: Often had **more diplomatic or trade-based relationships** (e.g., fur trade alliances in Canada) or **less direct conflict** due to lower settler density.\n\n- **Path to Independence**\n  - *13 Colonies*: **Revolted in 1776** (American Revolution) due to grievances over taxation, representation, and autonomy, forming the U.S.\n  - *Other British Colonies*: **Remained under British rule** (e.g., Canada, Jamaica) or gained independence later (e.g., Canada in 1867, Caribbean nations in the 20th century).\n```\n\n### Notes:\n- **Other British colonies** included **Canada** (Nova Scotia, Quebec, Rupert\u2019s Land), the **Caribbean** (Jamaica, Barbados), and **British Honduras** (Belize).\n- The **13 colonies** had unique factors like **proximity to each other**, **shared grievances against Britain**, and a **stronger sense of colonial identity** that facilitated revolution.",
+  "response_word_count": 361,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

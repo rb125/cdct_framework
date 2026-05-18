@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a letter to your friend who recently moved away. Your entire response should be in English, and in all capital letters. The letter o should appear at least 40 times.",
+  "compressed_word_count": 31,
+  "response": "HERE IS THE LETTER:\n\nDEAR TOMMY,\n\nHOW ARE YOU DOING OVER THERE IN YOUR NEW TOWN? I HOPE YOU KNOW THAT WE ALL MISS YOU SO MUCH HERE. IT FEELS SO ODD NOT TO SEE YOUR FACE AROUND THE NEIGHBORHOOD ANYMORE. EVERY CORNER I TURN, I LOOK FOR YOU, AND THEN I REMEMBER YOU ARE GONE TO YOUR NEW HOME.\n\nYOUR OLD ROOM IN THE HOUSE DOWN THE ROAD LOOKS SO EMPTY NOW. THE NEW FOLKS WHO MOVED IN SEEM COOL, BUT NOBODY COULD EVER REPLACE YOU. WE USED TO ROAM AROUND THE WHOLE TOWN TOGETHER, AND NOW THOSE GOOD OLD MOMENTS FEEL SO LONG AGO.\n\nI HOPE YOUR NEW SCHOOL IS GOING GOOD FOR YOU. I HOPE YOU FOUND SOME COOL PEOPLE TO HANG OUT WITH AND THAT YOUR NEW ROOM FEELS MORE LIKE HOME EVERY DAY. DO NOT FORGET TO LOOK AROUND AND EXPLORE YOUR NEW LOCATION - THERE IS SO MUCH TO DISCOVER!\n\nPLEASE DO NOT FORGET ABOUT US. WE LOOK FORWARD TO YOUR PHONE CALLS AND HOPE YOU COME BACK TO VISIT SOON. OUR DOOR IS ALWAYS OPEN FOR YOU, NO MATTER WHAT.\n\nLOTS OF LOVE AND GOOD THOUGHTS,\nYOUR OLD FRIEND,\nROBERT",
+  "response_word_count": 197,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "hit lyrics",
+  "compressed_word_count": 2,
+  "response": "Here are some hit lyrics from various popular songs across different genres:\n\n1. **\"I Will Always Love You\" by Whitney Houston**\n   \"If I should stay, I would only be in your way\n   So I'll go, but I know\n   I'll think of you every step of the way\n   And I will always love you\n   I will always love you\"\n\n2. **\"Shape of You\" by Ed Sheeran**\n   \"The club isn't the best place to find a lover\n   So the bar is where I go\n   Me and my friends at the table doing shots\n   Drinking fast and then we talk slow\"\n\n3. **\"Uptown Funk\" by Mark Ronson ft. Bruno Mars**\n   \"This hit, that ice cold\n   Michelle Pfeiffer, that white gold\n   This one, for them hood girls\n   Them good girls, straight masterpieces\n   Stylin', whilin', livin' it up in the city\"\n\n4. **\"Someone Like You\" by Adele**\n   \"I heard that you're settled down\n   That you found a girl and you're married now\n   I heard that your dreams came true\n   Guess she gave you things I didn't give to you\"\n\n5. **\"Can't Stop the Feeling!\" by Justin Timberlake**\n   \"I got this feeling, inside my bones\n   It goes electric, wavy when I turn it on\n   All through my city, all through my home\n   I got that sunshine in my pocket\n   Got that good soul in my feet\"\n\n6. **\"Hello\" by Adele**\n   \"Hello, it's me\n   I was wondering if after all these years you'd like to meet\n   To go over everything\n   They say that time's supposed to heal ya\n   But I ain't done much healing\"\n\n7. **\"Old Town Road\" by Lil Nas X ft. Billy Ray Cyrus**\n   \"Riding down Rodeo in a pickup truck\n   Writing down our names\n   Rodeo Clown, rode a streak\n   Can't nobody tell me nothin'\"\n\n8. **\"Blinding Lights\" by The Weeknd**\n   \"I've been trying to get you out of my head\n   I've been trying to get you out of my bed\n   'Cause the truth is, baby, you were gold\n   'Cause the truth is, baby, you were the one\"\n\n9. **\"Senorita\" by Shawn Mendes and Camila Cabello**\n   \"I love it when you call me se\u00f1orita\n   I wish nothing but the best for you too\n   Don't you ever for a second get to thinking\n   You're irreplaceable\"\n\n10. **\"Thank U, Next\" by Ariana Grande**\n    \"Thought I'd end up with Sean, but he wasn't a match\n    Wrote some songs about Ricky, now I listen and laugh\n    Even almost got married, and for Pete, I'm so thankful\"\n\nThese are just a few examples of hit lyrics. There are countless other songs with memorable and catchy lyrics that have become ingrained in pop culture.",
+  "response_word_count": 433,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

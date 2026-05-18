@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "angry moms limericks",
+  "compressed_word_count": 3,
+  "response": "There once was a mom, so serene,\nWhose anger was truly unseen,\nBut when kids made a mess,\nHer calmness would stress,\nAnd she'd shout, \"Clean this, now, it's a scene!\"\n\nIn a house full of noise and of fray,\nA mom's anger rose every day,\nThe kids' constant din,\nMade her shout, \"Shut the bin!\"\nAnd they'd stare, in a frightened way.\n\nA mom with a frown, so so deep,\nWhose patience was worn, like a creep,\nThe kids' messy play,\n Made her shout, \"Not today!\"\nAnd they'd tremble, their eyes in a sleep.\n\nThere was a mom, with a temper so bright,\nWhose anger shone, like a guiding light,\nThe kids' naughty deeds,\n Made her shout, with great speed,\nAnd they'd listen, with all their might.\n\nA mom with a scowl, so so wide,\nWhose anger was hard to hide,\nThe kids' constant mess,\n Made her shout, \"I must confess,\nI'm angry, and I won't be denied!\"",
+  "response_word_count": 159,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.3
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.26666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

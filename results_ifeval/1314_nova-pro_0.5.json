@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Identify non-fish between salmon/avocado, then write an article on salmon/avocado, using all-caps words \u226410x.",
+  "compressed_word_count": 14,
+  "response": "AVOCADO IS NOT A FISH. SALMON IS A FISH.\n\nSALMON AND AVOCADO ARE OFTEN PAIRED IN CULINARY DISHES. SALMON IS A POPULAR FISH KNOWN FOR ITS PINK FLESH AND HEALTH BENEFITS. IT IS RICH IN OMEGA-3 FATTY ACIDS AND PROTEIN. AVOCADO IS A NUTRITIOUS FRUIT KNOWN FOR ITS HEALTHY FATS, FIBER, AND VARIOUS VITAMINS AND MINERALS. \n\nWHEN COMBINED, SALMON AND AVOCADO CREATE A DELICIOUS AND NUTRITIOUS MEAL. THE CREAMINESS OF THE AVOCADO COMPLEMENTS THE FLAVOR OF THE SALMON. THIS COMBINATION IS COMMONLY FOUND IN SALADS, SUSHI, AND VARIOUS GOURMET DISHES. BOTH INGREDIENTS ARE VERSATILE AND CAN BE USED IN MANY DIFFERENT RECIPES.",
+  "response_word_count": 102,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 1.0,
+      "FC": 0.6333333333333333,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.18856180831641267
+    }
+  }
+}

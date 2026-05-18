@@ -1,0 +1,45 @@
+{
+  "key": 1237,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Craft a teen-humor post for 'Buena Onda' serving Arg food, 3 markdown highlights, mention 'Argentinian'.",
+  "compressed_word_count": 15,
+  "response": "# \ud83e\udd69 POV: You Just Discovered Buena Onda and Your Life Will Never Be the Same \ud83d\ude2d\n\nOkay so hear me out\u2026 you're telling me **Argentinian food** has been THIS good this whole time and nobody told me?? I feel personally betrayed by everyone I know. \ud83d\udc80\n\n---\n\n## Why You NEED to Drop Everything and Go to Buena Onda RIGHT NOW:\n\n**\ud83d\udd25 The Empanadas Hit Different**\nLike genuinely I took one bite and forgot my own name. My mom texted me and I didn't even respond. That's how serious this is. The Argentinian empanada game is NOT playing around and neither am I.\n\n**\ud83e\udd69 The Asado Will Change Your Whole Personality**\nYou will walk in as a normal person and walk out as someone who won't stop talking about how \"no other BBQ compares.\" Your friends will be annoyed. It's worth it. Zero regrets.\n\n**\ud83c\udf6e The Dulce de Leche Desserts Are Illegal (They Should Be)**\nI'm not exaggerating when I say I would commit minor crimes for another bite. Argentinian dessert culture just said \"what if we made everything perfect\" and then DID IT. \ud83d\ude24\n\n---\n\n> *Buena Onda isn't just a restaurant, it's a whole vibe check that you're passing with flying colors* \u2728\n\nTell your group chat. Tell your enemies. Tell EVERYONE. \ud83d\udcf2 #BuenaOnda #ArgentinianFood #NoRegrets",
+  "response_word_count": 219,
+  "instruction_id_list": [
+    "detectable_format:number_highlighted_sections",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_highlighted_sections_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

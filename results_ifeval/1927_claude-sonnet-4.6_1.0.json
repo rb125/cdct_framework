@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Rewrite the following sentence into an email, and make sure it contains at least 10 placeholders represented by square brackets, such as [name]: The boots are warm but a little uncomfortable.",
+  "compressed_word_count": 31,
+  "response": "Here is the sentence rewritten as an email with at least 10 placeholders:\n\n---\n\n**Subject:** Feedback Regarding [Product Name] Boots \u2013 Order [Order Number]\n\n---\n\nDear [Customer Service Representative Name],\n\nI hope this email finds you well. My name is [Your Full Name], and I am writing to you from [Your City], [Your State/Country]. I recently purchased a pair of boots from your [Store Name] location on [Purchase Date], and I wanted to share some feedback regarding my experience with the product.\n\nAfter wearing the [Boot Model Name] boots for [Number of Days/Weeks], I have found that they are quite warm, which is exactly what I was looking for heading into the [Season] season. However, I must mention that they are a little uncomfortable, particularly around the [Specific Area, e.g., toe box/heel] area.\n\nI would greatly appreciate it if you could advise me on whether this discomfort is likely to improve over time with regular wear, or if you would recommend an exchange for a different size or model.\n\nPlease feel free to reach me at [Your Email Address] or [Your Phone Number] at your earliest convenience.\n\nThank you so much for your time and assistance.\n\nWarm regards,\n[Your Full Name]\n\n---",
+  "response_word_count": 202,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

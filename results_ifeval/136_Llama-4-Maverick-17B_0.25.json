@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "9 bullet points on nucleus, <100 words.",
+  "compressed_word_count": 7,
+  "response": "Here are 9 key points about the nucleus in bullet points, under 100 words:\n\n* The nucleus is the control center of a cell.\n* It contains most of the cell's genetic material.\n* The nucleus is surrounded by a double membrane called the nuclear envelope.\n* It regulates cell growth and reproduction.\n* The nucleus contains nucleoli, where ribosome synthesis occurs.\n* It is found in eukaryotic cells.\n* The nucleus stores DNA in the form of chromosomes.\n* It plays a crucial role in cell division.\n* The nucleus controls gene expression and cell metabolism.",
+  "response_word_count": 97,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n<<resignation notice>> to boss: quitting job",
+  "compressed_word_count": 31,
+  "response": "<<Resignation Notice>>\n\nDear [Boss's Name],\n\nI am writing to inform you that I have decided to resign from my position, effective [Date of Last Day of Work]. I appreciate the opportunities I have had while working at the company, and I am grateful for the experience and knowledge gained during my time here.\n\nI will do my best to ensure a smooth transition of my responsibilities and complete any outstanding tasks before my departure. If there is anything specific you would like me to focus on during my remaining time here, please let me know.\n\nThank you again for the opportunity to work at the company. I wish the organization continued success in the future.\n\nSincerely,\n[Your Name]",
+  "response_word_count": 118,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

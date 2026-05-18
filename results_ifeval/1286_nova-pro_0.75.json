@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "List 6 differences between the 13 colonies and other British colonies in North America in Markdown format:  \n* point one  \n* point two  \n* point three  \n* point four  \n* point five  \n* point six",
+  "compressed_word_count": 35,
+  "response": "* **Geographical Location**: The 13 colonies were located along the eastern seaboard of what is now the United States, whereas other British colonies in North America included regions such as Canada (e.g., Nova Scotia, Quebec) and the Caribbean islands.\n\n* **Economic Structure**: The 13 colonies had a more diverse economy that included agriculture, trade, and manufacturing. Other British colonies often had economies focused on a single resource, such as fur trading in Canada or sugar plantations in the Caribbean.\n\n* **Political Governance**: The 13 colonies had a greater degree of self-governance with elected assemblies, whereas other British colonies were more directly controlled by the British Crown or proprietary governors.\n\n* **Population Composition**: The 13 colonies had a more varied population that included a larger number of European settlers, African slaves, and some Native Americans. Other British colonies often had different demographic compositions, such as a higher proportion of indigenous peoples in Canada or African slaves in the Caribbean.\n\n* **Relations with Indigenous Peoples**: The 13 colonies had more frequent and often violent interactions with Native American tribes due to westward expansion. Other British colonies, particularly in Canada, had different types of relationships, sometimes involving trade alliances.\n\n* **Reasons for Establishment**: The 13 colonies were established for a variety of reasons including religious freedom, economic opportunity, and political refuge. Other British colonies were often established for strategic military purposes, resource extraction, or as penal colonies.",
+  "response_word_count": 234,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

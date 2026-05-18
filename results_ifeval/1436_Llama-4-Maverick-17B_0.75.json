@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a night-time commando story in english, no caps, avoid 'coop', 'killings', 'dead', 'night'",
+  "compressed_word_count": 14,
+  "response": "the moon cast a silver glow over the deserted landscape as the team moved stealthily through the shadows. their mission was to infiltrate the heavily guarded facility and gather intel on the enemy's plans. jack, the team leader, signaled for the others to fan out and take up positions around the perimeter.\n\nalex, an expert in surveillance, quickly scanned the area with his thermal imaging goggles, identifying the locations of the guards and their patrol routes. he relayed the information to jack, who nodded and began to move forward.\n\nthe team followed, their footsteps quiet on the dusty ground. they reached the wall and jack gave a hand signal for liam to boost him up. liam interlocked his fingers and jack stepped into the makeshift stirrup, using liam's shoulders to hoist himself over the wall.\n\nonce on the other side, jack dropped down, his eyes scanning the area for any signs of movement. the others followed, their movements fluid and practiced. they converged on the main building, a large structure with several entrances and exits.\n\nsophie, the team's tech expert, quickly worked her magic on the security cameras, disabling them with a few swift keystrokes on her laptop. the team slipped inside, finding themselves in a dimly lit corridor.\n\njack gestured for the others to follow him, and they moved through the corridors, avoiding detection by the guards. they reached a door marked \"authorized personnel only\" and jack nodded to alex, who set to work on the lock.\n\nthe door swung open, revealing a room filled with computer terminals and rows of data storage units. sophie quickly got to work, downloading the information they needed onto a small usb drive.\n\nas they worked, the team kept watch, their senses on high alert for any sign of danger. but they were professionals, and they knew their job. they extracted the data and made their way back out, disappearing into the shadows as silently as they had arrived.\n\ntheir mission accomplished, the team melted away into the darkness, leaving behind a trail of confusion and uncertainty. their work would have far-reaching consequences, and the enemy would soon be scrambling to respond. but for now, the team was content to fade into the darkness, their job done.",
+  "response_word_count": 374,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

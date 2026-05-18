@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a 4-section poem missing classes, ending with \"Can I get my money back for the classes I missed?",
+  "compressed_word_count": 19,
+  "response": "As I sit in my empty seat,\nI think of the lessons I won't repeat,\nThe teacher's voice, the lessons so fine,\nNow lost to me, a distant memory's shrine.\n\nThe days go by, and I feel so blue,\nMissing out on knowledge, with nothing to do,\nThe classmates I miss, the discussions so bright,\nAll passing me by, without a fight.\n\nThe syllabus piles up, a daunting test,\nThe material covered, I'm not the best,\nI struggle to catch up, with a heavy heart,\nWishing I was there, a brand new start.\n\nThe absence weighs heavy, a financial strain,\nThe tuition paid, for lessons in vain,\nCan I get my money back for the classes I missed?",
+  "response_word_count": 118,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.75,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.4166666666666667,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.31180478223116176,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

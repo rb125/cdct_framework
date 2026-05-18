@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "summarize the defamation case outcome between Amber Heard and Johnny Depp. Write Heard's view first, Depp's view next, separated by six asterisks. Keep under 300 words.",
+  "compressed_word_count": 26,
+  "response": "Amber Heard claimed that she was defamed by Johnny Depp through his lawyer's statement that her allegations of domestic abuse were a \"hoax.\" The jury ultimately found that Depp's lawyer, Adam Waldman, defamed Heard in one of three statements made in an op-ed article. However, the jury awarded Depp $10 million in damages, finding that Heard defamed him through her op-ed article in The Washington Post.\n\n******\nJohnny Depp maintained that Heard fabricated the domestic abuse allegations against him to advance her career and gain leverage in their divorce proceedings. The jury agreed with Depp, finding that Heard's op-ed article was defamatory and that she acted with actual malice. Depp was awarded $10 million in compensatory damages and $5 million in punitive damages, although the punitive damages were later reduced to $350,000 due to Virginia state law limits. Depp's legal team argued that Heard's allegations had damaged his reputation and cost him significant financial losses, including the loss of his role in the \"Fantastic Beasts\" franchise.",
+  "response_word_count": 166,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.5,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

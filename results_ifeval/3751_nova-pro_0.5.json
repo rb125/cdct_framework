@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Is 'Happy Birthday' the first song sung in space? Answer with 'yes,' 'no,' or'maybe.'",
+  "compressed_word_count": 14,
+  "response": "Yes, \"Happy Birthday\" is often cited as the first song sung in space. This occurred on May 3, 1965, during the Gemini 3 mission. Astronauts John Young and Gus Grissom sang the song to celebrate Grissom's birthday, marking a light-hearted moment in the history of space exploration.",
+  "response_word_count": 47,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Craft a story on the significance of unobvious truths. use stress words sparingly, <20 times.",
+  "compressed_word_count": 15,
+  "response": "In a small village nestled between two great mountains, there lived a young apprentice named Kaito. He was tasked with learning the art of stone carving from the wise Master Hiro. For months, Kaito toiled under the hot sun, chiseling away at the granite, trying to perfect his craft. Yet, no matter how hard he worked, his creations seemed dull and uninspired.\n\nOne day, while taking a walk in the nearby forest, Kaito stumbled upon a hidden clearing. In the center of the clearing stood an ancient tree, its trunk twisted and gnarled with age. Kaito was struck by the tree's beauty and wondered what secrets it held. As he approached the tree, he noticed that it had been shaped by the forces of nature \u2013 the wind, the rain, and the sun.\n\nIn that moment, a profound realization dawned on Kaito. He understood that the true art of stone carving lay not in forcing the stone to conform to his will, but in revealing the hidden patterns and shapes that already existed within it. The experience was a turning point for Kaito, and he returned to his work with a newfound sense of purpose.\n\nUnder Master Hiro's guidance, Kaito began to see the stone as a canvas waiting to be uncovered, rather than a material to be dominated. His creations took on a new level of depth and nuance, as if the stone itself was guiding his chisel. The villagers marveled at the beauty of Kaito's work, and soon, people came from all around to witness the magic of his craft.\n\nAs Kaito's skills improved, he came to understand that the most significant truths often lie hidden, waiting to be uncovered. The ancient tree had taught him that sometimes, the most profound insights arise from observing the world around us, rather than trying to force our will upon it. Kaito's journey had shown him that the art of discovery is not about imposing one's own vision, but about revealing the unobvious truths that lie just beneath the surface.",
+  "response_word_count": 339,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

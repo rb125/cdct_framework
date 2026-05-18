@@ -1,0 +1,45 @@
+{
+  "key": 1139,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "write a funny haiku about moms, containing keywords \"mom\" and \"mother\" in your response.\nfunny haiku on moms, \"mom\" & \"mother",
+  "compressed_word_count": 21,
+  "response": "Here are a few silly haikus for you\u2014because moms deserve a laugh (and maybe a nap):\n\n---\n\n**1.**\nMom\u2019s coffee runs cold\u2014\n*\"Just five more minutes!\"* she lies.\nMotherhood\u2019s a scam.\n\n**2.**\n*\"Clean your room!\"* she yells,\nthen trips on Legos herself.\nMom\u2019s a hypocrite.\n\n**3.**\n*\"I\u2019m not yelling!\"* (yells)\nMother\u2019s voice cracks like old Wi-Fi.\nKids: *\"We didn\u2019t hear.\"*\n\n**4.**\n*\"Who ate the last snack?\"*\nMom\u2019s eyes narrow like a hawk.\n(It was *definitely* her.)\n\n**5.**\n*\"Go ask your father.\"*\nMother\u2019s favorite phrase\u2014\nthe ultimate cop-out.\n\n---",
+  "response_word_count": 88,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

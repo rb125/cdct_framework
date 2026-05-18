@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Identify the non-fish between salmon and avocado. then, write an article on salmon and avocado using some all-caps words, but no more than 10 times.",
+  "compressed_word_count": 25,
+  "response": "The non-fish between **salmon** and **avocado** is **avocado**\u2014it\u2019s a FRUIT, not a fish!\n\n---\n\n# **SALMON AND AVOCADO: A DELICIOUS DUO FOR YOUR PLATE**\n\nWhen it comes to HEALTHY, flavorful meals, few combinations shine as brightly as **salmon and avocado**. These two ingredients bring out the BEST in each other, offering a mix of rich textures, bold flavors, and NUTRIENT-PACKED benefits.\n\n### **Why Salmon?**\nSalmon is a POWERHOUSE of protein, omega-3 fatty acids, and essential vitamins. Whether grilled, baked, or seared, its buttery taste and tender flakes make it a FAVORITE among seafood lovers. The omega-3s in salmon support heart health, brain function, and even mood regulation\u2014making it a SUPERFOOD worth adding to your diet.\n\n### **Why Avocado?**\nAvocado is nature\u2019s CREAMY delight, loaded with healthy fats, fiber, and potassium. Unlike saturated fats, the monounsaturated fats in avocado help lower bad cholesterol while keeping you full and satisfied. Its mild, nutty flavor pairs PERFECTLY with salmon, whether in sushi, salads, or toast.\n\n### **The Perfect Pairing**\nTogether, salmon and avocado create a BALANCED meal that\u2019s both indulgent and nourishing. Try them in:\n- **Sushi rolls** (for a fresh, handheld bite)\n- **Avocado toast** with smoked salmon (a quick, gourmet breakfast)\n- **Grilled salmon** with avocado salsa (a zesty, satisfying dinner)\n\n### **Final Thoughts**\nIf you\u2019re looking for a meal that\u2019s TASTY, nutritious, and easy to prepare, salmon and avocado are a WINNING combo. Give them a try\u2014your taste buds (and body) will THANK YOU!\n\n---\n*How do YOU enjoy salmon and avocado? Share your favorite recipes in the comments!* \ud83c\udf63\ud83e\udd51",
+  "response_word_count": 260,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

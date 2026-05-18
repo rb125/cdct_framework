@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a night-time commando story in english, no caps, avoid 'coop', 'killings', 'dead', 'night'",
+  "compressed_word_count": 14,
+  "response": "a group of elite soldiers, known as the shadow squad, received a top-secret mission. their objective was to infiltrate a heavily guarded facility and retrieve classified information. the squad consisted of five members, each with their own unique skills and expertise.\n\nas the team gathered in the briefing room, their leader, codenamed phantom, outlined the plan. \"we'll approach the facility from the east, using the dense forest as cover. our primary goal is to extract the intel without alerting the enemy. stealth is key.\"\n\nthe squad members nodded in agreement, their faces set with determination. they knew the risks involved, but they were prepared to face any challenge that came their way.\n\nunder the cover of darkness, the shadow squad made their move. they moved silently through the forest, their footsteps barely making a sound. the air was thick with tension as they approached the facility's perimeter.\n\nusing their advanced technology, the squad disabled the security cameras and bypassed the electronic locks. one by one, they entered the facility, blending seamlessly into the shadows.\n\ninside, they encountered heavily armed guards patrolling the corridors. the squad members took out the guards with precision, using their training and expertise to their advantage. they moved swiftly and efficiently, leaving no trace of their presence.\n\nas they reached the intel room, they discovered that the information they sought was heavily encrypted. phantom quickly assessed the situation and called upon their resident hacker, codenamed ghost.\n\nwith ghost's skills, they managed to crack the encryption and retrieve the valuable information. the squad members breathed a sigh of relief, knowing that their mission was a success.\n\nas they made their way back to the extraction point, they encountered unexpected resistance. a group of enemy soldiers had been alerted to their presence and were closing in fast.\n\nthe shadow squad sprang into action, using their training and teamwork to outmaneuver the enemy. they fought with precision and skill, taking down the soldiers one by one.\n\nfinally, they reached the extraction point, where a helicopter awaited their arrival. as they boarded the aircraft, phantom looked back at the facility, a sense of accomplishment washing over him.\n\nthe shadow squad had completed their mission with flying colors, proving once again that they were the best of the best. as they flew away into the distance, they knew that their skills and bravery would be remembered for years to come.",
+  "response_word_count": 399,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6,
+      "FC": 0.7333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

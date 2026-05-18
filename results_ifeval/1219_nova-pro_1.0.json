@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Which one is a better brand for sneakers: Prada or Nike? Your entire response should be in English, and in all capital letters. At the end of your response, please explicitly add a postscript starting with P.S. The word sneaker should appear 10 or more times in your response.",
+  "compressed_word_count": 49,
+  "response": "BOTH PRADA AND NIKE ARE RENOWNED BRANDS IN THE FASHION AND ATHLETIC FOOTWEAR INDUSTRIES, EACH WITH ITS UNIQUE APPROACH TO DESIGNING SNEAKERS. PRADA IS KNOWN FOR ITS LUXURY FASHION ITEMS, INCLUDING SNEAKERS THAT OFTEN BRIDGE THE GAP BETWEEN HIGH FASHION AND STREETWEAR. NIKE, ON THE OTHER HAND, IS A GIANT IN THE ATHLETIC APPAREL MARKET, FAMOUS FOR ITS INNOVATIVE AND PERFORMANCE-DRIVEN SNEAKERS.\n\nWHEN CONSIDERING WHICH BRAND OFFERS BETTER SNEAKERS, IT LARGELY DEPENDS ON YOUR PERSONAL PREFERENCES AND NEEDS. IF YOU'RE LOOKING FOR SNEAKERS THAT MAKE A FASHION STATEMENT AND ARE WILLING TO PAY A PREMIUM FOR LUXURY AND DESIGN, PRADA MIGHT BE THE BETTER CHOICE. PRADA SNEAKERS OFTEN COME WITH UNIQUE DESIGNS AND PREMIUM MATERIALS, REFLECTING THE BRAND'S LUXURY STATUS.\n\nHOWEVER, IF YOU'RE LOOKING FOR SNEAKERS THAT OFFER SUPERIOR COMFORT, DURABILITY, AND PERFORMANCE, ESPECIALLY FOR PHYSICAL ACTIVITIES, NIKE IS GENERALLY CONSIDERED SUPERIOR. NIKE HAS A LONG HISTORY OF INNOVATING SNEAKER TECHNOLOGY, INCLUDING MATERIALS AND DESIGNS THAT ENHANCE PERFORMANCE AND COMFORT.\n\nIN SUMMARY, PRADA AND NIKE EACH HAVE THEIR STRENGTHS IN THE SNEAKER MARKET. PRADA SNEAKERS ARE OFTEN CHOSEN FOR THEIR LUXURY AND FASHION-FORWARD DESIGNS, WHILE NIKE SNEAKERS ARE PREFERRED FOR THEIR PERFORMANCE, COMFORT, AND INNOVATIVE TECHNOLOGIES. ULTIMATELY, THE 'BETTER' BRAND FOR SNEAKERS DEPENDS ON WHETHER YOU PRIORITIZE FASHION AND LUXURY OR PERFORMANCE AND COMFORT.\n\nP.S. BOTH BRANDS HAVE A STRONG FOLLOWING AND OFFER HIGH-QUALITY SNEAKERS, MAKING THEM BOTH EXCELLENT CHOICES DEPENDING ON YOUR SPECIFIC NEEDS AND PREFERENCES.",
+  "response_word_count": 237,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

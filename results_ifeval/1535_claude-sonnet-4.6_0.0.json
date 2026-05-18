@@ -1,0 +1,45 @@
+{
+  "key": 1535,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "cover letter, no caps",
+  "compressed_word_count": 4,
+  "response": "here's a cover letter without any capitalization:\n\n---\n\ndear hiring manager,\n\ni am writing to express my strong interest in the [position] role at [company name]. with my background in [field/skill], i am confident that i would be a valuable addition to your team.\n\nthroughout my career, i have developed skills in [skill 1], [skill 2], and [skill 3]. in my previous role at [previous company], i was able to [achievement or responsibility], which resulted in [positive outcome]. i take pride in my ability to [relevant quality or strength], and i am always looking for ways to grow and improve.\n\nwhat excites me most about [company name] is [specific reason \u2014 culture, mission, product, etc.]. i believe my values align closely with yours, and i am eager to contribute to the work you are doing.\n\ni would love the opportunity to discuss how my experience and skills can benefit your team. thank you so much for your time and consideration. i look forward to hearing from you.\n\nwarm regards,\n[your name]\n[your email]\n[your phone number]\n\n---\n\nwant me to tailor it to a specific job or industry?",
+  "response_word_count": 188,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_sentences_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

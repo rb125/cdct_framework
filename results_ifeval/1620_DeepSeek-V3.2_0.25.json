@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "email Luheng about Lilith album, P.S.",
+  "compressed_word_count": 6,
+  "response": "**Subject:** Lilith Album  \n\nHi Luheng,  \n\nHope you\u2019re doing well! I wanted to reach out to ask about the **Lilith album**\u2014I\u2019ve been really looking forward to it and was wondering if there are any updates on its release or any details you could share.  \n\nLet me know when you have a moment!  \n\nBest regards,  \n[Your Name]  \n\nP.S. If there\u2019s anything I can do to help or support, just say the word!",
+  "response_word_count": 70,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.4714045207910317
+    }
+  }
+}

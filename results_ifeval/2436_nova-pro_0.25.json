@@ -1,0 +1,45 @@
+{
+  "key": 2436,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Ethical hunt invasive species?******no commas",
+  "compressed_word_count": 5,
+  "response": "Ethical hunting of invasive species involves careful consideration of the ecological impact and adherence to legal and moral guidelines. It requires understanding the local ecosystem and the role of the invasive species within it. Hunters must ensure that their actions contribute to the restoration of native biodiversity rather than causing further harm. This includes obtaining necessary permits and following regulations set by wildlife authorities. Additionally ethical hunting practices should promote sustainable management of resources and respect for all forms of life. Education and community involvement are crucial in fostering a responsible approach to managing invasive species through hunting.",
+  "response_word_count": 98,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.408248290463863,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

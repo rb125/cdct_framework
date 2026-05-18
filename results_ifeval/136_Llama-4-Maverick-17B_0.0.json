@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "nucleus basics",
+  "compressed_word_count": 2,
+  "response": "The nucleus! The control center of a cell, containing most of its genetic material. Here are the basics:\n\n**What is the nucleus?**\n\nThe nucleus is a membrane-bound organelle found in eukaryotic cells (cells with complex structures). It's the largest organelle in the cell and contains most of the cell's genetic material, or DNA (deoxyribonucleic acid).\n\n**Structure:**\n\n1. **Nuclear envelope**: A double membrane structure that surrounds the nucleus, separating it from the cytoplasm.\n2. **Nuclear pores**: Small channels in the nuclear envelope that allow molecules to pass through, regulating the exchange of materials between the nucleus and cytoplasm.\n3. **Nucleoplasm**: The gel-like substance inside the nucleus, where the genetic material is suspended.\n4. **Chromatin**: The complex of DNA and proteins that make up the chromosomes.\n5. **Nucleolus**: A region within the nucleus where ribosome synthesis occurs.\n\n**Functions:**\n\n1. **Genetic storage**: The nucleus contains most of the cell's genetic material, which is passed on from one generation to the next.\n2. **Gene expression**: The nucleus regulates gene expression by controlling the transcription of DNA into RNA (ribonucleic acid).\n3. **Cell growth and division**: The nucleus plays a crucial role in cell growth, division, and reproduction by controlling the cell cycle.\n4. **Regulation of cellular activities**: The nucleus receives signals from the cytoplasm and responds by regulating various cellular activities, such as metabolism and protein synthesis.\n\n**Key processes:**\n\n1. **DNA replication**: The process by which the nucleus duplicates its DNA before cell division.\n2. **Transcription**: The process by which the nucleus creates a complementary RNA copy from DNA.\n3. **Mitosis**: The process by which the nucleus divides into two daughter nuclei during cell division.\n\n**Importance:**\n\n1. **Cellular control**: The nucleus is the control center of the cell, regulating various cellular activities.\n2. **Genetic inheritance**: The nucleus contains the genetic material that is passed on from one generation to the next.\n3. **Cellular diversity**: The nucleus allows for cellular diversity by regulating gene expression and responding to environmental cues.\n\nIn summary, the nucleus is a critical organelle that contains most of a cell's genetic material and regulates various cellular activities, including gene expression, cell growth, and division.",
+  "response_word_count": 353,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

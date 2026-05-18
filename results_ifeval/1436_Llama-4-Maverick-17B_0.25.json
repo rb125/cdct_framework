@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "night-sector commandos story, no caps, no 'coop'",
+  "compressed_word_count": 7,
+  "response": "night-sector commandos were an elite special forces unit in the starcraft universe. they were a group of highly trained terran operatives who specialized in covert operations, sabotage, and intelligence gathering behind enemy lines. \n\nthe unit was formed during the brood war, a conflict that saw the terran dominion, the zerg, and the protoss clash in a desperate struggle for survival. night-sector commandos operated outside the traditional chain of command, taking on high-risk missions that required stealth, strategy, and precision.\n\nthese commandos were trained to conduct a variety of tasks, including infiltration, reconnaissance, and direct action. they were equipped with advanced technology, such as cloaking devices and enhanced combat armor, which allowed them to operate effectively in the shadows.\n\none of their notable missions involved infiltrating zerg-infested areas to gather vital intelligence on the enemy's movements and plans. they also conducted raids on key zerg targets, disrupting the enemy's ability to coordinate their efforts.\n\nthroughout the brood war, night-sector commandos played a crucial role in the terran dominion's efforts to counter the zerg threat. their bravery and skill in the face of overwhelming odds earned them a reputation as one of the most feared and respected special forces units in the galaxy.",
+  "response_word_count": 201,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.6,
+      "FC": 0.5666666666666667,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

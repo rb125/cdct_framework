@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "latex squeaker for all dogs, [placeholders]",
+  "compressed_word_count": 6,
+  "response": "Here\u2019s a LaTeX template for a dog squeaker label or packaging insert, with placeholders marked clearly so you can fill in your specific details.\n\n```latex\n\\documentclass[10pt]{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage{graphicx}\n\\usepackage{geometry}\n\\geometry{a4paper, margin=0.5in}\n\\usepackage{titlesec}\n\\usepackage{enumitem}\n\\usepackage{multicol}\n\n\\begin{document}\n\n\\pagestyle{empty}\n\n\\begin{center}\n    \\includegraphics[width=0.4\\textwidth]{[LOGO-FILE-PATH]} % Placeholder for logo\n    \\vspace{0.2cm}\n    \n    {\\Huge \\textbf{[PRODUCT NAME]}} % Placeholder for product name\n    \\\\\n    \\vspace{0.1cm}\n    {\\Large Dog Squeaker Toy}\n    \\\\\n    \\vspace{0.3cm}\n    \\rule{\\textwidth}{1pt}\n\\end{center}\n\n\\vspace{0.3cm}\n\n\\begin{multicols}{2}\n    \\section*{Product Description}\n    [Insert a brief, engaging description of the squeaker toy. For example: \"Durable, fun squeaker toy designed to entertain your dog for hours. Made with safe, non-toxic materials.\"]\n    \n    \\section*{Features}\n    \\begin{itemize}[leftmargin=*, nosep]\n        \\item Loud, enticing squeak sound\n        \\item Durable [MATERIAL TYPE] construction\n        \\item Non-toxic and pet-safe materials\n        \\item Easy to clean\n        \\item Suitable for dogs of all sizes\n        \\item Encourages active play and mental stimulation\n    \\end{itemize}\n    \n    \\columnbreak\n    \n    \\section*{Safety Instructions}\n    \\begin{itemize}[leftmargin=*, nosep]\n        \\item Always supervise your dog during play.\n        \\item Inspect toy regularly for signs of damage.\n        \\item Replace if squeaker is exposed or toy is torn.\n        \\item Choose toy size appropriate for your dog's chewing style.\n        \\item Keep away from very aggressive chewers if not designed for them.\n    \\end{itemize}\n    \n    \\section*{Materials}\n    \\begin{itemize}[leftmargin=*, nosep]\n        \\item Outer: [OUTER MATERIAL, e.g., Natural Rubber]\n        \\item Squeaker: [SQUEAKER MATERIAL, e.g., Food-Grade Plastic]\n        \\item Color: [COLOR SOURCE, e.g., Pet-Safe Dyes]\n    \\end{itemize}\n\\end{multicols}\n\n\\vspace{0.5cm}\n\n\\begin{center}\n    \\rule{\\textwidth}{0.5pt}\n    \\vspace{0.2cm}\n    \n    \\begin{minipage}{0.9\\textwidth}\n        \\centering\n        \\small\n        \\textbf{Manufactured by:} [MANUFACTURER/COMPANY NAME] \\\\\n        \\textbf{Website:} [WEBSITE URL] \\\\\n        \\textbf{Email:} [CONTACT EMAIL] \\\\\n        \\textbf{Customer Service:} [PHONE NUMBER] \\\\\n        \\textbf{Address:} [STREET ADDRESS, CITY, STATE, ZIP, COUNTRY]\n    \\end{minipage}\n    \n    \\vspace{0.2cm}\n    \\rule{\\textwidth}{0.5pt}\n\\end{center}\n\n\\vspace{0.3cm}\n\n\\begin{center}\n    \\footnotesize\n    \\begin{minipage}{0.9\\textwidth}\n        \\centering\n        \\textbf{Warranty \\& Compliance} \\\\\n        [Insert warranty information, e.g., \"30-day satisfaction guarantee.\"] \\\\\n        Complies with [COUNTRY] pet toy safety standards. \\\\\n        \\vspace{0.1cm}\n        \\textbf{SKU:} [SKU-NUMBER] \\quad \\textbf{Barcode:} \\includegraphics[height=0.6cm]{[BARCODE-IMAGE-PATH]} % Placeholder for barcode\n    \\end{minipage}\n\\end{center}\n\n\\end{document}\n```\n\n**Placeholders to Replace:**\n\n1.  **`[LOGO-FILE-PATH]`** \u2013 Path to your company/product logo image.\n2.  **`[PRODUCT NAME]`** \u2013 Name of the squeaker toy (e.g., \"Ultra Squeak Ball\").\n3.  **`[MATERIAL TYPE]`** \u2013 Primary material (e.g., \"natural rubber,\" \"tough nylon\").\n4.  **`[OUTER MATERIAL]`** \u2013 Specific outer material.\n5.  **`[SQUEAKER MATERIAL]`** \u2013 Material of the internal squeaker.\n6.  **`[COLOR SOURCE]`** \u2013 How the toy is colored.\n7.  **`[MANUFACTURER/COMPANY NAME]`** \u2013 Your business name.\n8.  **`[WEBSITE URL]`**, `[CONTACT EMAIL]`, `[PHONE NUMBER]` \u2013 Your contact details.\n9.  **`[STREET ADDRESS...]`** \u2013 Your business address.\n10. **`[COUNTRY]`** \u2013 Relevant country for safety standards (e.g., USA, EU).\n11. **`[SKU-NUMBER]`** \u2013 Your product's Stock Keeping Unit number.\n12. **`[BARCODE-IMAGE-PATH]`** \u2013 Path to the barcode image file.\n\n**How to Use:**\n- Copy the code into a `.tex` file.\n- Replace all `[PLACEHOLDERS]` with your information.\n- Ensure your image files (logo, barcode) are in the correct path.\n- Compile with a LaTeX editor (like Overleaf, TeXShop, or TeXworks).",
+  "response_word_count": 439,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

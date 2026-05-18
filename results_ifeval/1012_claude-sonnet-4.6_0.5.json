@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n<<resignation notice>> to boss: quitting job",
+  "compressed_word_count": 31,
+  "response": "Here is a professional resignation email to your boss:\n\n---\n\n**Subject: <<Resignation Notice>>**\n\nDear [Boss's Name],\n\nI hope this email finds you well. I am writing to formally inform you that I have decided to resign from my position at [Company Name], effective [last working date, typically two weeks from today].\n\nThis was not an easy decision to make, as I have truly valued my time here and the opportunities I have been given to grow both professionally and personally. I am grateful for your guidance, support, and leadership throughout my tenure.\n\nI want to ensure a smooth transition and will do everything I can to wrap up my current projects and responsibilities before my departure. I am also happy to assist in training or onboarding my replacement if needed.\n\nPlease let me know how I can best support the team during this transition period. I would also appreciate the opportunity to discuss the next steps regarding my departure at your earliest convenience.\n\nThank you once again for the wonderful experience and opportunities. I wish you and the entire team continued success in the future.\n\nWarm regards,\n[Your Name]\n[Your Position]\n[Your Contact Information]\n\n---\n\nFeel free to customize the details to fit your specific situation.",
+  "response_word_count": 206,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

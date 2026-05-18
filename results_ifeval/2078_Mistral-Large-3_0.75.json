@@ -1,0 +1,43 @@
+{
+  "key": 2078,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Craft a mongoose riddle with a single bullet point, including * Bullet point",
+  "compressed_word_count": 13,
+  "response": "Here\u2019s a concise mongoose riddle for you:\n\n- *I slither not, yet strike with speed\u2014\n  A cobra\u2019s bane, a farmer\u2019s creed.\n  What am I, so fierce, so small,\n  That hunts the deadliest of all?*\n\n**Answer:** A mongoose.",
+  "response_word_count": 37,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

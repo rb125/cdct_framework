@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write an acoustic song about the Korean peninsula no commas",
+  "compressed_word_count": 10,
+  "response": "# The Korean Peninsula\n\n*(Verse 1)*\nThe mountains rise above the morning mist\nWhere ancient rivers carved the stone\nTwo flags are flying in the eastern wind\nBut once this land was just one home\n\n*(Pre-Chorus)*\nThe DMZ runs like a scar across the earth\nA line that split a people and a nation at its birth\n\n*(Chorus)*\nOh Korea oh Korea\nFrom Busan up to Pyongyang\nThe cranes still fly above the yellow sea\nAnd the bells of Seoul still ring and sang\nOh Korea oh Korea\nYour people share the same old blood\nThough walls of silence stand between you now\nMay they crumble in the mud\n\n*(Verse 2)*\nThe grandmothers still dream of northern towns\nWhere brothers walked the rice field rows\nThey write the names of those they left behind\nOn paper lanterns as the river flows\n\n*(Pre-Chorus)*\nThe children in the south play in the neon light\nThe children in the north look up and wonder at the night\n\n*(Chorus)*\nOh Korea oh Korea\nFrom Busan up to Pyongyang\nThe cranes still fly above the yellow sea\nAnd the bells of Seoul still ring and sang\n\n*(Outro)*\nOne peninsula\nOne ancient song\nOne people waiting\nTo finally belong",
+  "response_word_count": 203,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

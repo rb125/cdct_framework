@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "create a 4-point rubric for home theater targeting moms:\n* sound quality\n* ease of setup\n* child-friendly features\n* overall value",
+  "compressed_word_count": 22,
+  "response": "Here's a 4-point rubric for evaluating home theaters targeting moms:\n\n**Home Theater Rubric for Moms**\n\n**Score 4: Exceptional**\n* **Sound Quality**: The home theater system produces crystal-clear, immersive sound that enhances the viewing experience. The audio is rich and detailed, making movie nights feel like a cinematic experience.\n* **Ease of Setup**: The system is incredibly easy to set up, with a straightforward and intuitive installation process that can be completed in under an hour. The instructions are clear, and the system is plug-and-play.\n* **Child-Friendly Features**: The home theater system has a range of child-friendly features, such as parental controls, kid-friendly content streaming, and a simple, intuitive interface that makes it easy for kids to use on their own.\n* **Overall Value**: The home theater system is an exceptional value, offering a premium viewing experience at a price that's competitive with other systems on the market. The system is durable, reliable, and comes with a comprehensive warranty.\n\n**Score 3: Good**\n* **Sound Quality**: The home theater system produces good sound quality, with clear dialogue and decent bass response. However, it may not be as immersive as more expensive systems.\n* **Ease of Setup**: The system is relatively easy to set up, with a straightforward installation process that takes a few hours to complete. The instructions are clear, but may require some technical know-how.\n* **Child-Friendly Features**: The home theater system has some child-friendly features, such as parental controls, but may not have as many as more expensive systems. The interface is generally easy to use, but may not be as intuitive for younger kids.\n* **Overall Value**: The home theater system is a good value, offering a solid viewing experience at a reasonable price. However, it may not be as feature-rich or durable as more expensive systems.\n\n**Score 2: Fair**\n* **Sound Quality**: The home theater system produces fair sound quality, with some distortion or lack of clarity. The audio may not be as immersive as more expensive systems.\n* **Ease of Setup**: The system is somewhat difficult to set up, with a more complex installation process that takes several hours to complete. The instructions may be unclear or confusing.\n* **Child-Friendly Features**: The home theater system has limited child-friendly features, such as basic parental controls, but may not have more advanced features like kid-friendly content streaming.\n* **Overall Value**: The home theater system is a fair value, offering a decent viewing experience at a moderate price. However, it may not be as reliable or durable as more expensive systems.\n\n**Score 1: Poor**\n* **Sound Quality**: The home theater system produces poor sound quality, with significant distortion or lack of clarity. The audio may be unintelligible or unpleasant to listen to.\n* **Ease of Setup**: The system is very difficult to set up, with a complex and frustrating installation process that takes several days to complete. The instructions may be unclear or missing.\n* **Child-Friendly Features**: The home theater system lacks child-friendly features, making it difficult for kids to use or enjoy.\n* **Overall Value**: The home theater system is a poor value, offering a subpar viewing experience at a price that's not competitive with other systems on the market. The system may be unreliable or prone to technical issues.\n\nThis rubric provides a comprehensive evaluation of a home theater system from a mom's perspective, considering factors that are important for family movie nights and everyday use.",
+  "response_word_count": 568,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

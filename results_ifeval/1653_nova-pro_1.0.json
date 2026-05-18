@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "I work in the marketing department and I need your help. I need a template for an advertisement for a new product which is a portable camera. In the template, capitalize a few words to stress main points. Please limit the number of words with all capital letters to less than four. Your response should contain at least ten sentences.",
+  "compressed_word_count": 60,
+  "response": "Introducing the REVOLUTIONARY Portable Camera! Capture LIFE'S Moments with EASE. Compact Design, High-Quality Images. Perfect for TRAVEL, ADVENTURES, and Everyday Use. Effortless Setup, Instant Sharing. Experience the Joy of Photography Like Never Before. LIMITED TIME OFFER: Get Yours Now and Enjoy Exclusive DISCOUNTS. Don't Miss Out on this GAME-CHANGING Device. Order Today and Elevate Your Photography Experience. Join the PORTABLE CAMERA REVOLUTION!",
+  "response_word_count": 62,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.9333333333333332,
+      "FC": 0.7333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

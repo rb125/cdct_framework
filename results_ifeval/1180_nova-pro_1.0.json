@@ -1,0 +1,45 @@
+{
+  "key": 1180,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain why people are grossed out by worms but not by eating a dead cow. Give exactly two different responses separated by 6 asterisk symbols ******. Your answer must contain a title, wrapped in double angular brackets, i.e. <<title>>.",
+  "compressed_word_count": 39,
+  "response": "<<Cultural Conditioning and Perception of Food>>\n\n*********\n\n1. **Cultural Conditioning**: Societal norms and cultural conditioning play a significant role in shaping our perceptions of what is considered \"gross\" or \"acceptable\" to eat. In many Western cultures, worms are often associated with decay, dirt, and disease, leading to a natural aversion. Conversely, cows are raised specifically for human consumption, and their meat is presented in a way that distances it from the idea of a \"dead animal.\" This conditioning makes worms seem repulsive while cow meat is normalized.\n\n2. **Visual and Textural Differences**: The physical appearance and texture of worms\u2014slimy, wriggling, and small\u2014can trigger a natural disgust response in humans, as these characteristics are often linked to pathogens and contamination. In contrast, processed cow meat is typically cut, cooked, and served in a manner that masks its origin as a dead animal, making it more palatable and less likely to provoke a disgust response.\n\n*********\n\n<<Evolutionary Psychology and Survival Instincts>>\n\n*********\n\n1. **Evolutionary Psychology**: From an evolutionary standpoint, humans have developed aversions to certain foods that could pose a threat to their survival. Worms, being potential carriers of parasites and bacteria, would have been avoided to prevent illness. Cows, on the other hand, have been domesticated for thousands of years, and their meat has been a reliable source of nutrition, reducing the evolutionary pressure to avoid it.\n\n2. **Survival Instincts**: Our survival instincts are finely tuned to detect and avoid potential dangers. Worms, with their unpredictable movements and association with decay, trigger a primal fear of contamination. Cows, being large and slow, do not pose the same immediate threat, and their domestication has led to a trust in their safety as a food source. This distinction allows people to consume cow meat without the same level of revulsion they feel toward worms.",
+  "response_word_count": 301,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

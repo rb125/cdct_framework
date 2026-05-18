@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "summarize nyc prospect park history in json, use markdown ticks",
+  "compressed_word_count": 10,
+  "response": "```json\n{\n  \"name\": \"Prospect Park\",\n  \"location\": \"Brooklyn, New York City\",\n  \"size_acres\": 585,\n  \"history\": {\n    \"origins\": {\n      \"period\": \"Mid-19th Century\",\n      \"context\": \"Following the success of Central Park in Manhattan, Brooklyn civic leaders sought to create a major public green space for Brooklyn residents.\",\n      \"key_figures\": [\n        \"Frederick Law Olmsted\",\n        \"Calvert Vaux\"\n      ],\n      \"notes\": \"Olmsted and Vaux considered Prospect Park their finest work, even surpassing Central Park.\"\n    },\n    \"land_acquisition\": {\n      \"year\": 1860,\n      \"details\": \"The City of Brooklyn began acquiring land in the area. Initial plans were drawn by engineer Egbert Viele, but were later replaced.\"\n    },\n    \"design_and_construction\": {\n      \"years\": \"1865\u20131873\",\n      \"designers\": \"Frederick Law Olmsted and Calvert Vaux\",\n      \"design_philosophy\": \"Naturalistic landscape design meant to provide an escape from urban life, featuring open meadows, forested areas, and a lake.\",\n      \"key_features_added\": [\n        \"Long Meadow\",\n        \"Prospect Park Lake\",\n        \"Ravine and Waterfall (only remaining forest in Brooklyn)\",\n        \"Concert Grove\",\n        \"Carriage roads and pedestrian paths\"\n      ]\n    },\n    \"notable_milestones\": [\n      {\n        \"year\": 1867,\n        \"event\": \"Park opened to the public for the first time.\"\n      },\n      {\n        \"year\": 1874,\n        \"event\": \"Litchfield Villa incorporated into the park grounds.\"\n      },\n      {\n        \"year\": 1898,\n        \"event\": \"Brooklyn was consolidated into New York City; park came under NYC jurisdiction.\"\n      },\n      {\n        \"year\": 1912,\n        \"event\": \"Prospect Park Zoo established within the park.\"\n      },\n      {\n        \"year\": 1966,\n        \"event\": \"Prospect Park designated a New York City Scenic Landmark.\"\n      },\n      {\n        \"year\": 1978,\n        \"event\": \"Prospect Park Alliance founded to help restore and manage the park.\"\n      },\n      {\n        \"year\": 1987,\n        \"event\": \"Park listed on the National Register of Historic Places.\"\n      },\n      {\n        \"year\": 1993,\n        \"event\": \"Prospect Park Zoo reopened after major renovations under the Wildlife Conservation Society.\"\n      }\n    ],\n    \"decline_and_restoration\": {\n      \"period\": \"1960s\u20131980s\",\n      \"details\": \"The park fell into disrepair due to budget cuts, neglect, and urban decay.\",\n      \"restoration\": \"The Prospect Park Alliance, formed in 1987, partnered with NYC Parks to lead major restoration efforts including woodland recovery, waterway cleanup, and infrastructure repair.\"\n    },\n    \"modern_era\": {\n      \"period\": \"1990s\u2013Present\",\n      \"highlights\": [\n        \"Ongoing ecological restoration of the Ravine and Waterfall.\",\n        \"Reconstruction of the Boathouse as a visitor center.\",\n        \"Introduction of free summer concerts at the Bandshell (Celebrate Brooklyn!).\",\n        \"Park remains a cultural and recreational hub for Brooklyn residents.\",\n        \"Hosts millions of visitors annually.\"\n      ]\n    }\n  },\n  \"significance\": \"Prospect Park is considered one of the greatest works of American landscape architecture and serves as the primary green space and cultural heart of Brooklyn.\"\n}\n```",
+  "response_word_count": 389,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

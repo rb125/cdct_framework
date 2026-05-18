@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "defamation verdict",
+  "compressed_word_count": 2,
+  "response": "# Defamation Verdicts\n\n## Key Elements Required to Prove Defamation\n\nTo win a defamation case, a plaintiff typically must prove:\n\n1. **A false statement of fact** (not opinion)\n2. **Publication** to a third party\n3. **Fault** (negligence or actual malice)\n4. **Damages** (harm to reputation)\n\n---\n\n## Notable Defamation Verdicts\n\n### High-Profile Cases\n| Case | Verdict | Amount |\n|------|---------|--------|\n| **Dominion v. Fox News** | Settlement | ~$787 million (2023) |\n| **Depp v. Heard** | Depp won | ~$10 million net (2022) |\n| **Hulk Hogan v. Gawker** | Hogan won | $140 million (2016) |\n| **Alex Jones / Sandy Hook** | Families won | ~$1.5 billion (2022) |\n\n---\n\n## Standards of Proof\n\n- **Public figures** must prove **actual malice** (knowing falsity or reckless disregard)\n- **Private individuals** generally only need to prove **negligence**\n\n---\n\n## Are you asking about:\n- A **specific verdict** in the news?\n- **How verdicts are calculated?**\n- **Appealing** a defamation verdict?\n- Something else?\n\nLet me know and I can provide more targeted information.",
+  "response_word_count": 175,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

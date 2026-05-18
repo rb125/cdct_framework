@@ -1,0 +1,45 @@
+{
+  "key": 1122,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft a tweet for playboy's twitter in lowercase. include at least 4 hashtags, starting with '#'",
+  "compressed_word_count": 16,
+  "response": "playboy is more than a magazine. it's a lifestyle of pleasure, curiosity, and freedom. explore the archive. #playboy #iconic #curiosity #livefree",
+  "response_word_count": 21,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

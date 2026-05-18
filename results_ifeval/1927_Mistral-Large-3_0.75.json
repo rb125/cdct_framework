@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Convert the sentence into an email format, ensuring it includes at least 10 placeholders like [name]. Use square brackets: The boots are warm but a little uncomfortable.",
+  "compressed_word_count": 27,
+  "response": "Here\u2019s a polished email format with 10+ placeholders for customization:\n\n---\n\n**Subject:** Feedback on [Product Name] \u2013 [Order #]\n\nDear [Customer Service Team/Name],\n\nI hope this email finds you well. I\u2019m writing to share my experience with the [Product Name] (model: [Model Number], color: [Color]) I recently purchased from [Store Name/Website] on [Purchase Date].\n\nOverall, I\u2019m pleased with the [Product Name]\u2014the [specific feature, e.g., \"insulation\"] is excellent, and the boots have kept my feet [adjective, e.g., \"warm\"] even in [weather condition, e.g., \"freezing temperatures\"]. However, I\u2019ve noticed they\u2019re a little [issue, e.g., \"uncomfortable\"] after [duration, e.g., \"extended wear\"], particularly around the [area, e.g., \"ankle\"].\n\nCould you advise on:\n- Whether this is typical for the [Product Name]?\n- Any [suggestions, e.g., \"break-in tips\"] or [alternative products] you\u2019d recommend?\n- The [return/exchange] policy for this item?\n\nFor reference, my order details are:\n- **Order #:** [Order Number]\n- **Size:** [Size]\n- **Shipping Address:** [Address on file]\n\nI\u2019d appreciate your guidance on how to [resolve/improve] this experience. Please let me know if you need any additional information from me.\n\nThank you for your time and assistance!\n\nBest regards,\n[Your Full Name]\n[Your Contact Number]\n[Your Email Address]\n[Optional: Social Media Handle/Preferred Contact Method]\n\n---\n\n**Placeholders used (12+):**\n1. [Customer Service Team/Name]\n2. [Product Name]\n3. [Model Number]\n4. [Color]\n5. [Store Name/Website]\n6. [Purchase Date]\n7. [specific feature]\n8. [adjective]\n9. [weather condition]\n10. [issue]\n11. [duration]\n12. [area]\n13. [suggestions]\n14. [alternative products]\n15. [return/exchange]\n16. [Order Number]\n17. [Size]\n18. [Address on file]\n19. [resolve/improve]\n20. [Your Full Name]\n21. [Your Contact Number]\n22. [Your Email Address]",
+  "response_word_count": 267,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

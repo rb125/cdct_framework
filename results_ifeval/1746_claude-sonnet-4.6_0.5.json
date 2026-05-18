@@ -1,0 +1,43 @@
+{
+  "key": 1746,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Draft essay on Benjamin Franklin; condense into poem. Separate with 6 asterisks: ******\n******",
+  "compressed_word_count": 14,
+  "response": "Here is the essay followed by the poem, separated by six asterisks:\n\nBenjamin Franklin stands as one of the most remarkable and multifaceted figures in American history. Born in Boston in 1706, Franklin rose from humble beginnings as the son of a candle maker to become a celebrated statesman, inventor, writer, and philosopher. His life spanned nearly the entire eighteenth century, and his contributions to science, politics, and literature helped shape the foundation of the United States and influenced the broader world.\n\nFranklin's scientific curiosity led him to conduct some of the most famous experiments of his era. His legendary kite experiment demonstrated the electrical nature of lightning, and his invention of the lightning rod saved countless lives and structures from destruction. He also invented bifocal glasses, the Franklin stove, and the flexible urinary catheter, among other practical devices. His approach to science was always grounded in practicality and the desire to improve everyday life.\n\nAs a statesman, Franklin served as a diplomat to France during the American Revolution, securing the crucial alliance that helped the colonies defeat the British. He was a delegate to the Constitutional Convention and signed both the Declaration of Independence and the United States Constitution. His wisdom, wit, and diplomatic skill made him one of the most respected figures of his age on both sides of the Atlantic.\n\nFranklin was also a gifted writer and publisher. His Poor Richard's Almanack, published annually for decades, spread wisdom and humor to ordinary Americans through memorable proverbs such as \"Early to bed and early to rise makes a man healthy, wealthy, and wise.\" His autobiography remains one of the most widely read works in American literature, offering a candid and inspiring account of self-improvement and ambition.\n\nAt his core, Franklin believed deeply in the power of reason, hard work, and civic virtue. He founded institutions such as the first public library in America, a fire department, and the University of Pennsylvania. He was a tireless advocate for education and community improvement. Though imperfect, as all humans are, Franklin embodied the spirit of the Enlightenment and the promise of the American experiment. His legacy endures not only in the institutions he built but in the values of curiosity, industry, and public service that he championed throughout his extraordinary life.\n\n******\n\nBorn of humble wax and flame,\nA Boston boy who chased his name,\nHe caught the lightning in the sky,\nAnd taught the world that sparks could fly.\n\nWith bifocals and iron stove,\nThrough science deep and wide he drove,\nA kite, a key, a stormy night,\nHe pulled from darkness brilliant light.\n\nHe penned the wisdom, plain and true,\nThat early risers always knew,\nHis almanac and autobiography,\nWrote self-made man into history.\n\nHe crossed the sea to win the French,\nAnd signed his name on freedom's bench,\nBoth Declaration, Constitution bore\nThe ink of Franklin evermore.\n\nHe built the library, fought the fire,\nHis civic soul would never tire,\nA man of reason, wit, and art,\nWho gave a nation its beating heart.",
+  "response_word_count": 506,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

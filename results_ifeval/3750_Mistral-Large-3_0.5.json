@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Moon landing authenticity debate; use 'yes', 'no', or'maybe'.",
+  "compressed_word_count": 8,
+  "response": "The **Moon landing authenticity debate** can be summarized with the following perspectives:\n\n- **Yes** \u2013 The Moon landings (Apollo 11\u201317, 1969\u20131972) were real, supported by overwhelming evidence (photos, videos, lunar samples, independent tracking, and later missions like LRO).\n- **No** \u2013 Conspiracy theories claim the landings were faked (e.g., staged in a studio), but these arguments have been debunked by experts.\n- **Maybe** \u2013 A small minority might argue that while the landings happened, some details were exaggerated or edited for propaganda, though this lacks credible evidence.\n\n**Verdict:** **Yes** (the Moon landings were real). The scientific, photographic, and physical evidence is conclusive.",
+  "response_word_count": 102,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

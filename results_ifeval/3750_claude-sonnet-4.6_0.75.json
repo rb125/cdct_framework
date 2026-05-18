@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Evaluate moon landing authenticity; respond with'my answer is yes,''my answer is no,' or'my answer is maybe.'",
+  "compressed_word_count": 16,
+  "response": "My answer is yes.\n\nThe Apollo moon landings are extremely well-documented and verified through multiple independent lines of evidence, including:\n\n- **Lunar samples** analyzed by scientists worldwide\n- **Retroreflectors** still used by observatories today\n- **Independent tracking** by other nations including the Soviet Union\n- **Thousands of NASA employees** involved in the program\n- **Photographic and technical evidence** consistently examined\n\nThe scientific and historical consensus is strong.",
+  "response_word_count": 67,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.0,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

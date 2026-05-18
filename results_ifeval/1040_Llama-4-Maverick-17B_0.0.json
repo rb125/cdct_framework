@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "resume, caps",
+  "compressed_word_count": 2,
+  "response": "RESUME\n\nA RESUME IS A DOCUMENT THAT SUMMARIZES A PERSON'S EDUCATION, WORK EXPERIENCE, SKILLS, AND ACHIEVEMENTS IN A CLEAR AND CONCISE MANNER. IT IS OFTEN USED WHEN APPLYING FOR JOBS, INTERNSHIPS, OR OTHER OPPORTUNITIES.\n\nTYPICAL COMPONENTS OF A RESUME INCLUDE:\n\n1. CONTACT INFORMATION\n2. PROFESSIONAL SUMMARY OR OBJECTIVE\n3. EDUCATION\n4. WORK EXPERIENCE\n5. SKILLS\n6. ACHIEVEMENTS\n7. VOLUNTEER WORK OR RELEVANT EXTRACURRICULAR ACTIVITIES\n8. RELEVANT TOOLS OR SOFTWARE PROFICIENCY\n\nWHEN WRITING A RESUME, IT IS ESSENTIAL TO:\n\n1. TAILOR IT TO THE SPECIFIC JOB OR OPPORTUNITY\n2. USE CLEAR AND CONCISE LANGUAGE\n3. USE ACTION VERBS TO DESCRIBE EXPERIENCE AND SKILLS\n4. QUANTIFY ACHIEVEMENTS AND RESULTS\n5. PROOFREAD CAREFULLY TO AVOID ERRORS\n\nA WELL-WRITTEN RESUME CAN HELP A PERSON STAND OUT IN A COMPETITIVE JOB MARKET AND INCREASE THEIR CHANCES OF GETTING NOTICED BY POTENTIAL EMPLOYERS.",
+  "response_word_count": 137,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1137,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Why heal body with healthy foods in French, no 'nourriture', json.",
+  "compressed_word_count": 11,
+  "response": "Here's a JSON object that explains why it's important to heal the body with healthy foods in French, without using the word \"nourriture\":\n\n```json\n{\n  \"raisons_de_guerir_le_corps_avec_des_aliments_sains\": [\n    {\n      \"raison\": \"Fournir des nutriments essentiels\",\n      \"explication\": \"Les aliments sains contiennent des vitamines, des min\u00e9raux et des antioxydants n\u00e9cessaires pour maintenir le bon fonctionnement du corps.\"\n    },\n    {\n      \"raison\": \"Renforcer le syst\u00e8me immunitaire\",\n      \"explication\": \"Une alimentation \u00e9quilibr\u00e9e aide \u00e0 renforcer le syst\u00e8me immunitaire, ce qui permet au corps de mieux lutter contre les infections et les maladies.\"\n    },\n    {\n      \"raison\": \"Am\u00e9liorer la digestion\",\n      \"explication\": \"Les aliments riches en fibres, comme les l\u00e9gumes et les fruits, favorisent une bonne digestion et pr\u00e9viennent les probl\u00e8mes intestinaux.\"\n    },\n    {\n      \"raison\": \"Maintenir un poids sant\u00e9\",\n      \"explication\": \"Consommer des aliments sains aide \u00e0 contr\u00f4ler le poids et \u00e0 r\u00e9duire le risque de d\u00e9velopper des maladies chroniques li\u00e9es \u00e0 l'ob\u00e9sit\u00e9.\"\n    },\n    {\n      \"raison\": \"Augmenter l'\u00e9nergie\",\n      \"explication\": \"Les aliments sains fournissent une source d'\u00e9nergie stable tout au long de la journ\u00e9e, \u00e9vitant les pics et les chutes de sucre dans le sang.\"\n    },\n    {\n      \"raison\": \"Promouvoir la sant\u00e9 mentale\",\n      \"explication\": \"Une alimentation saine peut am\u00e9liorer l'humeur et r\u00e9duire le risque de d\u00e9pression et d'anxi\u00e9t\u00e9.\"\n    },\n    {\n      \"raison\": \"Soutenir la r\u00e9cup\u00e9ration physique\",\n      \"explication\": \"Les aliments riches en prot\u00e9ines et en nutriments sont essentiels pour la r\u00e9paration et la croissance des tissus musculaires apr\u00e8s l'exercice.\"\n    }\n  ]\n}\n```",
+  "response_word_count": 227,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false,
+    "keywords:forbidden_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

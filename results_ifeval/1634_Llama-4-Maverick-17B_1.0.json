@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Make a rubric for a home theater installation targeting moms. Your answer must contain exactly 4 bullet points. Use markdown bullet points such as:\n* This is point 1",
+  "compressed_word_count": 29,
+  "response": "## Home Theater Installation Rubric for Moms\nThe following rubric assesses the quality of a home theater installation, focusing on aspects that matter most to moms.\n\n* **Family-Friendly Features**: Does the installation include features that cater to family viewing, such as kid-friendly content streaming services, parental controls, and comfortable seating arrangements?\n* **Ease of Use**: How easy is it for a non-technical person (like a busy mom) to operate the home theater system, including navigating menus, adjusting settings, and troubleshooting common issues?\n* **Safety and Organization**: Are the installation's wiring and equipment safely secured and organized, minimizing tripping hazards and keeping the living space tidy?\n* **Customization for Family Viewing**: Does the installation allow for customization to accommodate different family members' viewing preferences, such as separate profiles for kids and adults, or the ability to stream content from personal devices?",
+  "response_word_count": 140,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

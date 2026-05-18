@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "poem template, p.p.s.",
+  "compressed_word_count": 3,
+  "response": "Here's a poem template with a P.P.S. (Post-Postscript) structure:\n\n\nIn [place], where [adjective] sunsets fade,\nA [noun] whispers secrets, unafraid.\nThe wind it howls, a mournful sigh,\nAs [plural noun] dance, with steps gone by.\n\nIn twilight's hush, where shadows play,\nThe stars appear, one by one, to stay.\nTheir gentle twinkle lights the way,\nFor those who wander, lost, by day.\n\nP.S. And when the dawn breaks, new and bright,\nThe world awakens, full of light.\n\nP.P.S. In this new light, I find my way,\nTo a new tomorrow, starting today.\n\n\nYou can fill in the brackets with your own words to create a unique poem. Have fun!",
+  "response_word_count": 109,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 0.6333333333333333,
+      "FC": 0.6333333333333333,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.18856180831641267,
+      "judge_variance_FC": 0.18856180831641267
+    }
+  }
+}

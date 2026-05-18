@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "List 6 differences between 13 colonies and other British North American colonies in Markdown.",
+  "compressed_word_count": 14,
+  "response": "Here\u2019s a Markdown-formatted list of **6 key differences** between the **13 American Colonies** and **other British North American colonies** (e.g., Canada, the Caribbean, or British Honduras):\n\n```markdown\n# Differences Between the 13 Colonies and Other British North American Colonies\n\n| **Feature**               | **13 American Colonies**                          | **Other British North American Colonies**        |\n|---------------------------|--------------------------------------------------|--------------------------------------------------|\n| **1. Political Autonomy** | High degree of self-governance (e.g., colonial legislatures like the Virginia House of Burgesses). | More direct British control (e.g., royal governors, fewer local assemblies). |\n| **2. Economic Focus**     | Diverse economies (agriculture, trade, early industry) with cash crops (tobacco, rice, indigo) and ports (Boston, Philadelphia). | Often specialized economies (e.g., fur trade in Canada, sugar plantations in the Caribbean). |\n| **3. Slavery**            | Widespread chattel slavery, especially in the South, with large enslaved populations. | Slavery existed but was less dominant (e.g., Canada had enslaved people but in smaller numbers; Caribbean relied heavily on enslaved labor). |\n| **4. Population Growth**  | Rapid growth due to high birth rates, immigration (e.g., Germans, Scots-Irish), and enslaved Africans. | Slower growth; some colonies (e.g., Canada) had smaller, more stable populations. |\n| **5. Relationship with Indigenous Peoples** | Frequent conflicts (e.g., King Philip\u2019s War, Pontiac\u2019s Rebellion) and displacement of Native nations. | More diplomatic relations (e.g., fur trade alliances in Canada) but still violent conflicts (e.g., Seven Years\u2019 War). |\n| **6. Path to Independence** | Revolted in 1776 (American Revolution) to form the U.S. | Remained under British rule (e.g., Canada became a dominion in 1867; Caribbean colonies gained independence later). |\n```\n\n### Key Notes:\n- **Other British colonies** included **Canada** (Nova Scotia, Quebec, Newfoundland), the **Caribbean** (Jamaica, Barbados), and **British Honduras** (Belize).\n- The **13 Colonies** had unique factors (e.g., Enlightenment ideas, resistance to British taxes) that led to revolution, while other colonies remained loyal or followed different paths.",
+  "response_word_count": 310,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

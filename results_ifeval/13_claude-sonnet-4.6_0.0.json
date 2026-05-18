@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "nyc park history",
+  "compressed_word_count": 3,
+  "response": "# New York City Parks History\n\n## Early History\n\n### Colonial & Pre-City Era\n- **1626** \u2013 Dutch settlers (New Amsterdam) begin using common lands\n- **1686** \u2013 The **Dongan Charter** establishes public commons in Manhattan\n- **Bowling Green** (1733) \u2013 NYC's oldest park, originally a cattle market\n\n---\n\n## 19th Century \u2013 The Park Movement\n\n### Central Park\n- **1853** \u2013 NYC acquires land for a large public park\n- **1858** \u2013 **Frederick Law Olmsted & Calvert Vaux** win design competition with the *Greensward Plan*\n- **1876** \u2013 Central Park essentially completed\n- Displaced ~1,600 residents, including **Seneca Village** (a Black community)\n\n### Prospect Park\n- Designed by **Olmsted & Vaux** (1865\u20131873)\n- Considered by Olmsted to be superior to Central Park\n\n---\n\n## Early 20th Century\n\n- **1898** \u2013 City consolidation brings Brooklyn, Queens, Staten Island & the Bronx together\n- **1934** \u2013 **Robert Moses** becomes Parks Commissioner\n - Transformed NYC parks dramatically\n - Built **parkways, pools, playgrounds, beaches**\n - Controversial for displacing poor & minority communities\n\n---\n\n## Key Milestones\n\n| Year | Event |\n|------|-------|\n| 1609 | Henry Hudson explores the region |\n| 1733 | Bowling Green established |\n| 1858 | Central Park design selected |\n| 1895 | NYC Dept. of Parks formally organized |\n| 1934 | Robert Moses era begins |\n| 1980 | Central Park Conservancy founded |\n| 2002 | NYC Parks & Recreation modernized |\n\n---\n\n## Notable Parks by Borough\n\n- **Manhattan** \u2013 Central Park, Riverside Park, Battery Park\n- **Brooklyn** \u2013 Prospect Park, Brooklyn Bridge Park\n- **Queens** \u2013 Flushing Meadows-Corona Park (1939 & 1964 World's Fairs)\n- **Bronx** \u2013 Pelham Bay Park (largest NYC park), Van Cortlandt Park\n- **Staten Island** \u2013 Staten Island Greenbelt\n\n---\n\n## Modern Era\n- NYC now has **~30,000 acres** of parkland\n- Over **1,700 parks, playgrounds & recreation areas**\n- Focus on **equity, sustainability & climate resilience**\n- **High Line** (opened 2009) \u2013 elevated rail converted to park\n\n---\n\nWould you like to dive deeper into any specific park, era, or topic?",
+  "response_word_count": 344,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6,
+      "FC": 0.5666666666666667,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

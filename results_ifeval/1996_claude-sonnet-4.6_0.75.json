@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Craft a story on the significance of unobvious truths. use stress words sparingly, <20 times.",
+  "compressed_word_count": 15,
+  "response": "# The Weight of What Goes Unsaid\n\nMarcus had spent thirty years studying rivers.\n\nNot the dramatic parts \u2014 not the waterfalls that drew tourists or the floods that made headlines. He studied the quiet middle sections, the stretches where water moved without spectacle, where nothing appeared to be happening at all.\n\nHis colleagues found this puzzling. Funding committees found it frustrating. His own daughter, Priya, found it embarrassing in the way that only a teenager can find a parent embarrassing \u2014 completely and without mercy.\n\n\"You study boring rivers,\" she told him once, eating cereal at the kitchen table, not looking up.\n\n\"I study rivers that pretend to be boring,\" he said.\n\nShe looked up then. Just briefly.\n\n---\n\nThe discovery came on a Tuesday, which felt wrong somehow. Discoveries should arrive on stormy nights or golden mornings. They should feel like something. But Marcus was sitting in his truck eating a sandwich when he noticed the data from the sensors he had placed along a particular stretch of the Aldene River three years prior.\n\nThe water moved differently at the bottom than at the surface. This was known. This was ordinary fluid dynamics.\n\nBut the bottom current was moving in the opposite direction.\n\nNot slightly. Completely opposite.\n\nHe checked the sensors. He checked them again. He drove to the river and stood at its bank and watched the surface moving east, calm and unremarkable, carrying a few leaves toward town. Nothing suggested that beneath that surface, water was traveling west with considerable purpose.\n\nHe called his colleague, Dr. Yuen, who drove out and stood beside him.\n\n\"The surface looks normal,\" she said.\n\n\"Yes.\"\n\n\"But underneath\u2014\"\n\n\"Yes.\"\n\nThey stood quietly for a while.\n\n\"How long has this been happening?\" she asked.\n\n\"Probably always,\" Marcus said. \"We just never looked at the bottom.\"\n\n---\n\nThe implications took years to understand fully. The river was essentially two rivers sharing one body \u2014 a surface river and a deep river, moving in opposition, creating a circulation that quietly redistributed nutrients, temperature, and sediment across a watershed that fed farmland for four counties. The farms had been productive for generations. Nobody had known why. The farmers had attributed it to good soil, to tradition, to luck, to the particular character of their families.\n\nThe truth had been flowing beneath their feet the whole time, invisible, doing its work without acknowledgment.\n\nWhen Marcus published his findings, a journalist called and asked him what the discovery meant.\n\n\"It means we should be humble about what we think we understand,\" Marcus said.\n\nThe journalist wanted something more dramatic. Marcus had nothing more dramatic to offer.\n\n---\n\nPriya was twenty-four when she read her father's published paper. She had become a nurse by then, working long shifts in a hospital where the obvious things \u2014 the broken bones, the visible wounds \u2014 were rarely the whole story.\n\nShe had learned to ask patients questions that seemed beside the point. She had learned that pain described in one location often originated somewhere else entirely. She had learned that the body, like her father's river, frequently conducted its most significant business out of sight.\n\nShe called him on a Sunday evening.\n\n\"I read your paper,\" she said.\n\n\"What did you think?\"\n\nShe was quiet for a moment. Outside her apartment window, the city moved with its usual surface confidence \u2014 cars, voices, the ordinary texture of people going places.\n\n\"I think,\" she said slowly, \"that most things are like your river.\"\n\nMarcus waited.\n\n\"Most things have a current you can't see from the bank,\" she said. \"And everyone just keeps standing on the bank, watching the leaves.\"\n\nHe smiled into the phone. \"That's exactly it.\"\n\n\"Why don't people look deeper?\"\n\n\"Because the surface is convincing,\" he said. \"And looking deeper takes time, and patience, and a willingness to find something that complicates what you thought you knew.\"\n\n\"That sounds uncomfortable.\"\n\n\"It is,\" he agreed. \"It's also the only way to understand anything real.\"\n\n---\n\nThere is a particular kind of courage that receives no celebration. It belongs to the people who slow down when everyone else accelerates, who ask the second question when the first answer seems sufficient, who sit beside a quiet river and refuse to accept that nothing is happening simply because nothing appears to be happening.\n\nMarcus retired the following spring. He spent his remaining years teaching, and the one thing he told every student, every year, without variation, was this:\n\n\"The most important things are usually not announcing themselves. Your job is to go looking.\"\n\nSome students found this inspiring.\n\nSome found it exhausting.\n\nThe honest ones admitted it was both.",
+  "response_word_count": 776,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

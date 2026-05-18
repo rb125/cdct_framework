@@ -1,0 +1,43 @@
+{
+  "key": 1372,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a blog post on ripley's aquarium; include at least 7 placeholders like [location], [species], [opening hours], etc. no commas in formal tone",
+  "compressed_word_count": 23,
+  "response": "### A Journey Beneath The Waves: Exploring Ripley's Aquarium\n\nThe ocean holds countless mysteries. At Ripley's Aquarium you have the opportunity to discover a stunning cross-section of aquatic life without ever setting foot on a ship. Located in the heart of [city] this immersive experience is a portal to another world.\n\nYour voyage begins the moment you step inside. The first gallery invites you to meet the curious and often colorful inhabitants of [specific habitat]. The careful design of each tank replicates natural environments with remarkable fidelity allowing visitors to observe behaviors rarely seen in the wild.\n\nA true highlight is the breathtaking Dangerous Lagoon. You will traverse a moving glidepath surrounded by a seamless acrylic tunnel. Here majestic sharks and graceful rays glide silently overhead. The scale is humbling. Look carefully and you might spot the elusive [species] drifting through the deep blue.\n\nFor a more interactive encounter visit the Discovery Centre. This area is dedicated to touch pools where you can feel the unique texture of a [species] under the guidance of knowledgeable staff. It is a profound way to connect with marine life directly.\n\nThe aquarium is also committed to education and conservation. Their dedicated team works tirelessly on programs focused on protecting the vulnerable [species]. Each visit supports these vital efforts making your journey both enlightening and impactful.\n\nPlan your visit with ease. The aquarium opens its doors daily from [opening hours]. We recommend allowing at least [number] hours to fully appreciate every gallery. For the most tranquil experience consider visiting on a [specific day or time].\n\nBefore your adventure concludes be sure to stop by the gift shop. It offers a thoughtful selection of marine-themed items. You will find the perfect souvenir to remember your deep-sea exploration.\n\nRipley's Aquarium is more than an attraction. It is an invitation to wonder. It is a reminder of the vast and beautiful life that thrives beneath the ocean's surface. Secure your tickets today and prepare to be amazed.",
+  "response_word_count": 330,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.85,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7833333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.20949675149960892,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create a product poem, end with P.P.S. note",
+  "compressed_word_count": 8,
+  "response": "Of circuits woven, sleek and slight,\nA slab of captured, ambient light.\nIt fits the palm, a perfect curve,\nA world it asks you now to serve.\n\nIt holds the voices, far and near,\nThe documented laugh, the tear.\nA window to a billion eyes,\nBeneath a sheet of glass it lies.\n\nIt maps the streets you\u2019ve never seen,\nAnd keeps your memories crisp and clean.\nIt answers every whispered \u201cwhy,\u201d\nWith data streaming from the sky.\n\nIt ticks the tasks off, one by one,\nDeclares the busy day is done.\nIt wakes you with a gentle song,\nAnd tells you all the day is long.\n\nA pocket-sized and constant friend,\nOn which your daily life depends.\nA portal, compass, and a door,\nYou always hunger, still, for more.\n\nP.P.S. The battery\u2019s at 1%.",
+  "response_word_count": 134,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft email to introduce luheng to lilith album; p.s. add brief note",
+  "compressed_word_count": 12,
+  "response": "Subject: Discover the Magic of Lilith: A Unique Musical Journey\n\nHi Luheng,\n\nI hope this email finds you well. I wanted to take a moment to introduce you to an album that I believe you'll find truly captivating\u2014Lilith.\n\nLilith is a mesmerizing collection of songs that blend haunting melodies with powerful lyrics, creating an unforgettable auditory experience. Each track tells a story, evoking a range of emotions and taking listeners on a journey through dark, enchanting landscapes.\n\nI think you'll appreciate the depth and artistry in this album. Give it a listen and let me know what you think!\n\nP.S. The artist behind Lilith has a unique style that really stands out. I'm excited to hear your thoughts on it.\n\nBest regards,\n[Your Name]",
+  "response_word_count": 124,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

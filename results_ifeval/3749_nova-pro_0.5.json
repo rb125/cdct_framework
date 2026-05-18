@@ -1,0 +1,43 @@
+{
+  "key": 3749,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Compare Federer vs. Nadal's tennis careers; respond with 'yes', 'no', or'maybe'.",
+  "compressed_word_count": 11,
+  "response": "**Yes.**\n\nFederer and Nadal have both had illustrious tennis careers, but there are notable differences:\n\n1. **Grand Slam Titles**: Federer has 20 Grand Slam titles, while Nadal has 22.\n2. **Surface Dominance**: Nadal dominates on clay courts, particularly at the French Open, whereas Federer has excelled on various surfaces, including grass at Wimbledon.\n3. **Career Longevity**: Both have had long careers, but Federer turned pro slightly earlier (1998 vs. 2001 for Nadal).\n4. **Playing Style**: Federer is known for his versatile and elegant style, while Nadal is renowned for his intense baseline play and exceptional physical conditioning.\n\nTheir careers are comparable in terms of achievements and impact on the sport, making the answer \"yes.\"",
+  "response_word_count": 114,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

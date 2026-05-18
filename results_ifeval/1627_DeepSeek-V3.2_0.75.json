@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\nWrite a plot for a story about two people who swap fingerprints. Include <<swapping fates>> as title. No commas in the plot.",
+  "compressed_word_count": 51,
+  "response": "<<Swapping Fates>>\n\nLeo Vance is a meticulous master thief. Maya Cruz is a relentless FBI agent. Their conflict peaks in a lab during a heist. A prototype biometric scrambler malfunctions. It permanently swaps their fingerprints. Leo escapes with Maya's prints now marking his crimes. Maya is left with the prints of her greatest enemy. The FBI suspends her. She becomes the prime suspect in Leo's new spree. Leo uses his criminal genius to exploit her identity. He frames her for his audacious thefts. Maya must go rogue to clear her name. She tracks Leo using her deep law enforcement insight. Leo studies her life to perfect his disguise. Their hunt becomes a twisted partnership. Each learns the other's world. Maya sees the injustice that shaped Leo. Leo sees the sacrifice driving Maya. They uncover a conspiracy within the FBI. The lab heist was no accident. A corrupt director designed the swap. He needed a perfect patsy for his own treason. The hunter and thief must now trust. They forge an uneasy alliance. They use their swapped fingerprints to access secure systems. Maya's prints open police evidence. Leo's prints unlock criminal networks. Together they expose the director. They plan a final confrontation at a gala. Leo creates a diversion. Maya secures the evidence. They trap the director with his own weapon. Their fingerprints are restored by a reverse scan. The system clears Maya's name. Leo vanishes with a pardon implied. Their fates are swapped once more. Maya returns to a reformed FBI. Leo walks free into a new life. They carry a secret understanding forever linking their swapped souls.",
+  "response_word_count": 268,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

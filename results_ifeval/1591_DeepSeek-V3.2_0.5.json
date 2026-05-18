@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Compose two angry limericks on moms' struggle with kids' chores; use *** for separation.",
+  "compressed_word_count": 14,
+  "response": "A mom roared, \"This room is a sty!\nI have asked you a thousand times 'Why?'\nYour socks are alive\nIn a heap, they survive!\"\nAs her son shrugged and muttered, \"Sigh.\"\n\n***\n\nShe screamed, \"Take the trash out right now!\nI can't fathom the how or the why how\nIt just starts to ferment\nBy the backdoor it's sent!\"\nHe just grunted and gave a low bow.",
+  "response_word_count": 68,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

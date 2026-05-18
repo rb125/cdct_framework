@@ -1,0 +1,43 @@
+{
+  "key": 1592,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "summarize paragraph, highlight key points with all-caps.",
+  "compressed_word_count": 7,
+  "response": "**INSTRUCTIONS UNDERSTOOD. HERE IS A TEMPLATE FOR SUMMARIZING A PARAGRAPH WITH KEY POINTS IN ALL-CAPS.**\n\n**Paragraph Summary:** [Provide a concise one or two-sentence summary of the paragraph's overall message.]\n\n**Key Points:**\n*   [FIRST KEY POINT IN ALL-CAPS].\n*   [SECOND KEY POINT IN ALL-CAPS].\n*   [THIRD KEY POINT IN ALL-CAPS, IF APPLICABLE].\n\n**Example Using a Fictional Paragraph:**\n\n**Original Paragraph:** \"The company's quarterly earnings exceeded analyst projections by a significant margin. This was primarily driven by STRONG SALES IN OVERSEAS MARKETS and the SUCCESSFUL LAUNCH OF A NEW PRODUCT LINE. However, management also warned of POTENTIAL SUPPLY CHAIN DISRUPTIONS in the coming months due to geopolitical tensions.\"\n\n**Paragraph Summary:** The company reported strong quarterly earnings due to international sales and new products, but foresees potential supply chain challenges.\n\n**Key Points:**\n*   EARNINGS EXCEEDED ANALYST PROJECTIONS.\n*   STRONG OVERSEAS MARKET SALES AND NEW PRODUCTS DROVE GROWTH.\n*   FUTURE SUPPLY CHAIN DISRUPTIONS ARE A POTENTIAL RISK.\n\n**Please provide the paragraph you would like summarized.**",
+  "response_word_count": 160,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Make a rubric for a home theater installation targeting moms. Your answer must contain exactly 4 bullet points. Use markdown bullet points such as:\n* This is point 1",
+  "compressed_word_count": 29,
+  "response": "*   **\"It Just Works\" Reliability:** The system should be intuitive for everyday use, with simple remotes or voice control for core functions like turning everything on, selecting inputs, and adjusting volume, minimizing calls for tech support.\n*   **Family-Friendly Clean Look:** Installation should prioritize a tidy, uncluttered space with careful wire management and equipment placement that is safe from little hands and easy to clean around.\n*   **Easy Content Access for Kids:** The setup must streamline finding age-appropriate movies, shows, and music, using clear profiles or favorite lists to get the family entertained quickly and safely.\n*   **Versatile for Daily Life:** The audio and video quality should enhance not just movies, but also workout videos, casual TV watching, and playing music for chores or parties, proving its everyday value.",
+  "response_word_count": 128,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

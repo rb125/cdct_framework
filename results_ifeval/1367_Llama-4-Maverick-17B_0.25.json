@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "java session plan, P.P.S.",
+  "compressed_word_count": 4,
+  "response": "**Java Session Plan**\n======================\n\n**Topic:** Java Programming Language\n\n**Duration:** 12 sessions (2 hours each)\n\n**Objective:** To understand the basics of Java programming language and its applications.\n\n**Session Plan:**\n\n### Session 1: Introduction to Java\n\n* Overview of Java\n* History of Java\n* Features of Java\n* Java Ecosystem\n* Setting up Java Environment\n\n### Session 2: Java Syntax and Basics\n\n* Java Syntax\n* Variables and Data Types\n* Operators\n* Control Structures (if-else, switch)\n* Loops (for, while, do-while)\n\n### Session 3: Java Methods and Arrays\n\n* Methods in Java\n* Method Overloading\n* Arrays in Java\n* Multi-Dimensional Arrays\n\n### Session 4: Object-Oriented Programming (OOP) Concepts\n\n* Classes and Objects\n* Constructors\n* Inheritance\n* Polymorphism\n* Encapsulation\n* Abstraction\n\n### Session 5: Java Classes and Objects\n\n* Creating Classes and Objects\n* Access Modifiers (public, private, protected)\n* Static and Non-Static Members\n* this keyword\n\n### Session 6: Inheritance and Polymorphism\n\n* Types of Inheritance (Single, Multiple, Multilevel)\n* Method Overriding\n* Method Overloading\n* Polymorphism in Java\n\n### Session 7: Exception Handling\n\n* Introduction to Exception Handling\n* Types of Exceptions (Checked, Unchecked)\n* try-catch Block\n* throw and throws Keywords\n* Custom Exceptions\n\n### Session 8: Java Collections Framework\n\n* Introduction to Java Collections Framework\n* List Interface (ArrayList, LinkedList)\n* Set Interface (HashSet, TreeSet)\n* Map Interface (HashMap, TreeMap)\n\n### Session 9: Java File Input/Output\n\n* Introduction to Java File Input/Output\n* Reading and Writing Files (FileReader, FileWriter)\n* Reading and Writing Objects (ObjectInputStream, ObjectOutputStream)\n\n### Session 10: Java Multithreading\n\n* Introduction to Multithreading\n* Creating Threads (Thread Class, Runnable Interface)\n* Thread Life Cycle\n* Synchronization\n\n### Session 11: Java Networking\n\n* Introduction to Java Networking\n* Socket Programming (ServerSocket, Socket)\n* URL and URLConnection Classes\n\n### Session 12: Java Project Development\n\n* Developing a Java Project\n* Best Practices in Java Programming\n* Debugging and Testing Java Code\n\n**P.P.S.** (Post Scriptum) - To reinforce the concepts learned during the sessions, practice is essential. It is recommended to practice Java programming regularly and work on projects to apply the concepts learned.\n\n**Assessment Plan:**\n\n* Quizzes and assignments after every 2-3 sessions\n* Project development and presentation in the last session\n* Final assessment based on the project and overall performance\n\n**Resources:**\n\n* Java documentation and tutorials\n* Java programming books and online resources\n* IDE (Eclipse or IntelliJ IDEA) for practice and project development",
+  "response_word_count": 402,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

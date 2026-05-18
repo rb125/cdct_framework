@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "compare prada vs nike sneakers in english, 10+ times 'sneaker', end with P.S.",
+  "compressed_word_count": 13,
+  "response": "When it comes to the world of sneakers, two brands that stand out are Prada and Nike. While both are renowned for their high-quality products, they cater to different tastes and preferences. Let's dive into a comparison of Prada vs Nike sneakers.\n\nPrada sneakers are known for their sleek, sophisticated designs that often blend luxury with understated elegance. They are a favorite among those who appreciate high-end fashion and are willing to invest in a premium sneaker. The brand's sneakers often feature premium materials and attention to detail, making them a staple in the wardrobes of fashion connoisseurs.\n\nOn the other hand, Nike sneakers are celebrated for their innovative designs, comfort, and performance. Nike has been at the forefront of sneaker technology, introducing features like Air Max and Flyknit that have revolutionized the sneaker industry. Their sneakers are popular among athletes and sneaker enthusiasts alike, offering a wide range of styles that cater to different tastes and preferences.\n\nOne of the key differences between Prada and Nike sneakers is their target audience. Prada sneakers are generally geared towards those who value luxury and high-end fashion, while Nike sneakers are more focused on performance and comfort. However, both brands have managed to transcend their respective niches, with Prada sneakers being worn by sneaker enthusiasts and Nike sneakers being adopted by fashionistas.\n\nIn terms of design, Prada sneakers often feature more subdued colorways and minimalist designs, while Nike sneakers are known for their bold color schemes and statement-making designs. However, both brands have released iconic sneaker designs that have become coveted among sneaker collectors.\n\nThe price point is another area where Prada and Nike sneakers differ. Prada sneakers tend to be more expensive, with prices ranging from hundreds to thousands of dollars for a single sneaker. Nike sneakers, on the other hand, offer a more affordable range of options, with prices starting from under $100 for a basic sneaker.\n\nDespite their differences, both Prada and Nike sneakers have managed to capture the hearts of sneaker enthusiasts around the world. Whether you're a fan of luxury fashion or high-performance sneakers, there's a sneaker out there for you. The sneaker culture has become a global phenomenon, with sneakerheads eagerly awaiting new releases and limited-edition sneaker drops.\n\nIn conclusion, the comparison between Prada and Nike sneakers highlights the diverse world of sneakers, where luxury, performance, and style come together. Whether you're drawn to the elegance of Prada sneakers or the innovation of Nike sneakers, the sneaker is an integral part of modern fashion. The sneaker has evolved into a staple in many people's wardrobes, with sneaker enthusiasts always on the lookout for the next big thing in the sneaker world.\n\nP.S. Ultimately, the choice between Prada and Nike sneakers comes down to personal preference and what you're looking for in a sneaker.",
+  "response_word_count": 467,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

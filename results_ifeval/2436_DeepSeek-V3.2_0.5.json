@@ -1,0 +1,45 @@
+{
+  "key": 2436,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "respond to \"is hunting invasive species ethical?\" with two views******no commas",
+  "compressed_word_count": 11,
+  "response": "**View One**\nHunting invasive species is ethical because it restores ecological balance.  Invasive species cause severe harm to native plants and animals.  Hunters act as a necessary control method protecting biodiversity and fragile ecosystems.\n\n**View Two**\nHunting invasive species is unethical when framed as sport.  It can prioritize killing over effective population control.  This approach may cause suffering and perpetuate a violent relationship with nature without addressing the root causes of invasion.",
+  "response_word_count": 72,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

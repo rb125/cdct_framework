@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write acoustic song Korean peninsula no commas",
+  "compressed_word_count": 7,
+  "response": "Here is a short acoustic song about the Korean Peninsula:\n\nIn the silence of the night\nKorean peninsula lies still\n Mountains tall and rivers wide\nA land of beauty deep inside\n\nFrom Seoraksan's granite peaks\nTo Jeju's black sand beaches sleek\nA history rich and complex too\nA story waiting to be told anew\n\nIn the morning's golden light\nThe peninsula comes alive\nA land of contrasts old and new\nA story of a people strong and true\n\nFrom Pyeongyang's grand boulevards wide\nTo Busan's bustling streets alive\nA culture vibrant and diverse too\nA heritage for me and you\n\nThe Korean peninsula's heart beats strong\nA land of hope where love belongs\nIn the stillness of the night\nThe peninsula's spirit takes flight.",
+  "response_word_count": 124,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

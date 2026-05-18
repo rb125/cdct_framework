@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Describe tennis balls in a medieval poem style, P.P.S: use modern materials.",
+  "compressed_word_count": 12,
+  "response": "Hark! Behold the sphere of sun-bright gold,\nA harvest moon in summer\u2019s hold.\nNot stitched of hide, nor stuffed with fleece,\nBut born of modern artifice.\n\nIts heart, a core of pressured air,\nA captive sigh, a breath held there.\nEncased in rubber, firm and true,\nA bounce both lively, strong, and new.\n\nIts shroud, a felt of woven might,\nNot wool plucked soft in fading light,\nBut nylon\u2019s claw and polyester\u2019s sheen,\nIn emerald fields or court of green.\n\nIt flies, a comet\u2019s furious arc,\nA falcon stooping through the dark.\nIt sings a *thwock* on varnished wood,\nA sound both noble, clean, and good.\n\nThough crafted not by ancient hand,\nBut molded in a factory\u2019s land,\nIt carries still a champion\u2019s call\nTo serve and volley, win or fall.\n\nSo let it fly, this gilded sphere,\nThis bouncing sun, this perfect cheer.\nA knightly quest on bounded clay,\nWith modern orb to crown the day.",
+  "response_word_count": 157,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "movie review",
+  "compressed_word_count": 2,
+  "response": "# Movie Review\n\nSure! I can help with a movie review. Here are a few options:\n\n---\n\n## What would you like?\n\n**1. Write a review** - Tell me the movie title and I'll write a review for you\n\n**2. Help you write your own** - I can guide you through the structure\n\n**3. Review template** - A ready-to-use format\n\n---\n\n## Quick Review Template:\n\n> **\ud83c\udfac Movie Title** *(Year)*\n> **\u2b50 Rating:** /10\n>\n> **\ud83d\udcd6 Plot Summary:**\n> *(Brief, spoiler-free overview)*\n>\n> **\ud83d\udc4d What Worked:**\n> - Acting\n> - Direction\n> - Story\n>\n> **\ud83d\udc4e What Didn't Work:**\n> - Pacing issues\n> - Plot holes\n>\n> **\ud83c\udfaf Final Verdict:**\n> *(Who should watch it?)*\n\n---\n\nJust tell me:\n- \ud83c\udfa5 **Which movie** you want reviewed\n- \ud83d\udcdd **What kind of help** you need\n\nI'm ready to help! \ud83c\udf7f",
+  "response_word_count": 145,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

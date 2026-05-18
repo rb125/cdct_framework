@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "convert sentence to email format, include 10 [placeholders] e.g., [name]",
+  "compressed_word_count": 10,
+  "response": "Let's take a sentence and convert it into an email format with 10 placeholders. \n\nOriginal sentence: \"Hello, I am going to meet John at the office on Friday at 2 PM to discuss the project details with the team.\"\n\nHere's the email format with placeholders:\n\nSubject: Meeting with [Team Lead] on [Day] at [Time]\n\nDear [Recipient Name],\n\nI am writing to inform you that I will be meeting [Name] at [Location] on [Date] at [Time] to discuss the [Project Name] details with the [Department].\n\nThe meeting will be held in the [Meeting Room] and will cover key aspects of the [Project Description]. If you have any questions or need more information, please don't hesitate to contact me at [Email Address] or [Phone Number].\n\nBest regards,\n[Your Name]\n\nThe 10 placeholders used are:\n1. [Team Lead]\n2. [Day]\n3. [Time]\n4. [Name]\n5. [Location]\n6. [Date]\n7. [Project Name]\n8. [Department]\n9. [Email Address]\n10. [Your Name]",
+  "response_word_count": 156,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

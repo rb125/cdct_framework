@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Compose song lyrics about a socio-economic problem. The song should be in English and in all lowercase letters.",
+  "compressed_word_count": 18,
+  "response": "# **\"empty pockets, full streets\"**\n\n*(verse 1)*\nthe alarm goes off at half past four\nworn-out boots walking out the door\ntwo jobs bleeding into one long day\nstill can't keep the landlord's voice away\n\nthe kids need shoes, the lights need paying\nthe bank account keeps slowly fading\nworking harder than my father did\nbut the ladder's missing every rung and grid\n\n*(chorus)*\nempty pockets, full streets tonight\neverybody grinding just to survive\nthe numbers don't add up, never did\nwhen the rent keeps rising but the wages sit still\nempty pockets, full streets tonight\nwe're not lazy, we're just losing the fight\n\n*(verse 2)*\nthe grocery store raised prices again\nchoosing between the medicine and bread\nthe degree is hanging on the wall\nbut the student debt is ten feet tall\n\nthe landlord bought his seventh property\nwhile we're splitting one room, three of us, see\nthe system wasn't broken, it was built this way\ndesigned to keep the working hands from getting paid\n\n*(chorus)*\n\n*(bridge)*\nwe are not invisible\nwe are not disposable\nwe are the hands that built this town\nwe deserve more than being run into the ground\n\n*(outro)*\nempty pockets\nbut our voices are full\nwe're still here\nwe're still here",
+  "response_word_count": 207,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

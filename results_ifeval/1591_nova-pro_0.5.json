@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Compose two angry limericks on moms' struggle with kids' chores; use *** for separation.",
+  "compressed_word_count": 14,
+  "response": "Certainly! Here are two limericks expressing the frustration many moms feel when dealing with kids' chores:\n\n***\n\nIn the morning, she'd shout with a glare,\n\"Clean your room!\" but they'd never care.\nShe'd fume and she'd fret,\nAs dishes still wet,\nLanguished in sinks, beyond repair.\n\n***\n\nHer patience, a thread, oh so thin,\nAs toys scattered wild, chaos within.\n\"Pick up!\" she'd command,\nBut they\u2019d barely stand,\nLeaving her wrath to steadily spin.",
+  "response_word_count": 74,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

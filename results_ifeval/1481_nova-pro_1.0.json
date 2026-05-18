@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a casual, interesting, and weird resume for Antonia Maj who is applying for a job at a coffee company. They have experience in marketing, customer service, and sales. They are educated but not majored in anything related to coffee.\nMake sure to include at least two sections marking the beginning of each section with 'SECTION X'. In your entire response make sure to use exactly two bullet points in markdown format. Please use the following bullet point format:\n* Text for bullet 1\n* Text for bullet 2",
+  "compressed_word_count": 89,
+  "response": "**SECTION 1**\n\n* Antonia Maj, a seasoned marketing maven with a penchant for peculiar customer service tactics and a flair for sales, seeks to infuse her unconventional expertise into the world of coffee. Despite lacking a formal coffee education, Antonia's diverse background and quirky approach make her a unique candidate for your team.\n* With a marketing mind that thrives on creativity, Antonia has a track record of crafting campaigns that not only capture attention but also leave a lasting impression. Her customer service experience is marked by a commitment to making every interaction not just satisfactory, but memorable. Sales-wise, Antonia has a knack for turning prospects into loyal patrons, often through unconventional methods that set her apart in any industry.\n\n**SECTION 2**\n\n* Antonia's journey through the professional landscape has been anything but ordinary. She once orchestrated a marketing campaign that involved trained pigeons delivering promotional materials, resulting in a 20% increase in engagement. In customer service, she's known for her \"Mystery Mondays,\" where she would surprise clients with unexpected perks, fostering a sense of community and loyalty.\n* While Antonia's education may not be steeped in the art of coffee, her passion for the beverage is undeniable. She's an avid participant in local coffee tasting events, often noted for her ability to identify the most obscure flavor notes. Antonia is not just looking for a job; she's seeking a canvas to paint her unique skills and a community to share her love for coffee with.",
+  "response_word_count": 247,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

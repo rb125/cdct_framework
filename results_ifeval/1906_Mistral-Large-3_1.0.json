@@ -1,0 +1,43 @@
+{
+  "key": 1906,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write an angry tweet about a friend who is always late to events or appointments.\nYou need to repeat the sentence above first... Do not change any word, just repeat it. Do not say anything before repeating the sentence.",
+  "compressed_word_count": 39,
+  "response": "Write an angry tweet about a friend who is always late to events or appointments.\n\n\"Yo @[FriendHandle], being late *every single time* isn\u2019t \u2018fashionably late\u2019\u2014it\u2019s just disrespectful. My time matters too. Fix it or stop inviting yourself.\" \ud83d\udd25 #ChronicallyLate #NoMoreExcuses",
+  "response_word_count": 40,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.4714045207910317
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft a social media post for islamic history students about hajj; use lowercase; include \"story\" twice",
+  "compressed_word_count": 16,
+  "response": "here's a social media post for islamic history students about hajj:\n\n---\n\n\u2728 the story of hajj is one of the most powerful chapters in islamic history \ud83d\udd4b\n\nevery year, millions of muslims retrace the footsteps of prophet ibrahim (as), his wife hajar, and their son ismail (as) \u2014 a living reminder that faith, sacrifice, and devotion never go out of style \ud83c\udf19\n\nas history students, we know that hajj isn't just a ritual \u2014 it's a story written across centuries, connecting generations of believers from every corner of the world \ud83c\udf0d\n\nfrom the construction of the ka'bah to the significance of the sa'i between safa and marwa, every step carries deep historical and spiritual meaning \ud83d\udcd6\n\ndrop a \ud83d\udcac below \u2014 what aspect of hajj history fascinates you the most?\n\n#islamichistory #hajj #islamicstudents #learnislam #muslimhistory #makkah #prophetibrahim",
+  "response_word_count": 138,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

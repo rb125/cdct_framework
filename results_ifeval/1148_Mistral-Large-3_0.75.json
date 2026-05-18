@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "```json\ncompare pros/cons of supernatural powers; concise; json format; use markdown ticks ```\n```",
+  "compressed_word_count": 14,
+  "response": "```json\n{\n  \"supernatural_powers_comparison\": {\n    \"pros\": [\n      {\n        \"name\": \"Enhanced Abilities\",\n        \"description\": \"Superhuman strength, speed, agility, or senses for extraordinary feats.\"\n      },\n      {\n        \"name\": \"Protection\",\n        \"description\": \"Defense against threats (e.g., invulnerability, healing) or harm to others.\"\n      },\n      {\n        \"name\": \"Utility\",\n        \"description\": \"Practical benefits (e.g., teleportation, invisibility, time manipulation) for convenience or problem-solving.\"\n      },\n      {\n        \"name\": \"Knowledge/Insight\",\n        \"description\": \"Access to hidden truths (e.g., precognition, mind-reading) for wisdom or strategic advantage.\"\n      },\n      {\n        \"name\": \"Influence\",\n        \"description\": \"Ability to inspire, control, or manipulate others (e.g., persuasion, illusion-casting) for leadership or change.\"\n      }\n    ],\n    \"cons\": [\n      {\n        \"name\": \"Isolation\",\n        \"description\": \"Fear, distrust, or envy from others may lead to loneliness or ostracization.\"\n      },\n      {\n        \"name\": \"Responsibility Burden\",\n        \"description\": \"Moral dilemmas (e.g., power misuse, unintended consequences) or pressure to act as a hero/villain.\"\n      },\n      {\n        \"name\": \"Physical/Psychological Toll\",\n        \"description\": \"Strain on body/mind (e.g., energy depletion, addiction, mental instability) from overuse or side effects.\"\n      },\n      {\n        \"name\": \"Targeted Threats\",\n        \"description\": \"Increased vulnerability to enemies (e.g., hunters, rival powers) or exploitation (e.g., governments, criminals).\"\n      },\n      {\n        \"name\": \"Loss of Normalcy\",\n        \"description\": \"Difficulty maintaining relationships, careers, or hobbies due to secrecy or power limitations.\"\n      },\n      {\n        \"name\": \"Ethical Corruption\",\n        \"description\": \"Temptation to abuse power (e.g., greed, revenge) leading to moral decay or self-destruction.\"\n      }\n    ]\n  }\n}\n```",
+  "response_word_count": 209,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

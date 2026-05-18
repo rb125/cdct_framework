@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a story about commandos who are in the middle of the night in a sector. It should be in English, and no capital letters are allowed. The story should not include keywords \"coop\", \"killings\", \"dead\", \"night\".",
+  "compressed_word_count": 37,
+  "response": "the sector was quiet, too quiet. the air smelled of damp earth and gun oil, the kind of scent that stuck in the back of your throat. alpha team moved like shadows, their boots barely making a sound on the cracked pavement. the mission was simple: extract the asset before dawn. no mistakes, no noise.\n\nthe first checkpoint was a crumbling guard post, its walls pockmarked from old battles. jackson, the point man, signaled a halt. his fingers danced in the dark\u2014two taps, then a flick. *clear*. the team flowed forward, rifles up, eyes scanning. the asset was supposed to be in a low building at the end of the street, but something felt off.\n\nthen the radio crackled. \"alpha, this is bravo. we\u2019ve got movement. two tangos near the east fence.\" the voice was calm, but the words sent a jolt through the team. they weren\u2019t alone.\n\nmendez, the demolitions guy, adjusted his grip on the breaching charge. \"we go loud or we go quiet?\" he whispered. jackson didn\u2019t hesitate. \"quiet. we stick to the plan.\" the team split\u2014half covering the street, half slipping into the alley beside the target building.\n\ninside, the air was thick with tension. the asset was there, sitting at a table under a single flickering bulb. he looked up as the door creaked open, his face pale. \"you\u2019re late,\" he muttered. \"they know you\u2019re here.\"\n\na shout echoed from outside. boots pounded on concrete. jackson cursed under his breath. \"change of plans. we move now.\" the team surged forward, dragging the asset with them. the first shots rang out as they hit the street, muzzle flashes lighting up the dark.\n\nthe extraction point was a klick away, but the path was no longer clear. jackson keyed his mic. \"bravo, we need a diversion. now.\" the reply was immediate. \"on it.\" seconds later, an explosion rocked the sector, sending debris flying. the team didn\u2019t look back.\n\nthey ran, the asset stumbling between them. the extraction chopper was already spinning up, its rotors cutting through the tension. as they piled in, jackson took one last look at the sector\u2014smoke rising, sirens wailing. mission complete.\n\nthe chopper lifted into the sky, leaving the chaos behind. the asset exhaled, leaning back against the bulkhead. \"next time,\" he said, \"let\u2019s not cut it so close.\"\n\njackson smirked, reloading his rifle. \"no promises.\"",
+  "response_word_count": 393,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

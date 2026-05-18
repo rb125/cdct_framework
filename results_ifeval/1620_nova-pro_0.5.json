@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "draft email for luheng about lilith album, p.s. included",
+  "compressed_word_count": 9,
+  "response": "Certainly! Here's a draft email for Luheng about the Lilith album, with a postscript included:\n\n---\n\n**Subject:** Exciting News About the Lilith Album!\n\nHi Luheng,\n\nI hope this email finds you well!\n\nI wanted to share some exciting news with you. The Lilith album is finally here, and it's everything we hoped for and more. The tracks are incredible, and the production quality is top-notch. I\u2019ve been listening to it on repeat and can\u2019t get enough.\n\nIf you haven\u2019t already, make sure to check it out. The band has really outdone themselves this time. I think you\u2019ll love it as much as I do.\n\nP.S. There\u2019s a special edition version available that includes some bonus tracks and behind-the-scenes footage. It\u2019s definitely worth checking out if you\u2019re a big fan!\n\nLooking forward to hearing your thoughts on it.\n\nBest regards,  \n[Your Name]\n\n---\n\nFeel free to adjust any details to better fit your specific situation or relationship with Luheng.",
+  "response_word_count": 158,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

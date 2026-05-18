@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "* explain star wars' cultural impact\n* highlight its iconic characters\n* note its innovative special effects\n* discuss its enduring fan community",
+  "compressed_word_count": 23,
+  "response": "# Star Wars: A Galaxy That Changed Everything\n\n## Cultural Impact\nStar Wars (1977) fundamentally **rewrote the rules of Hollywood**, essentially inventing the modern blockbuster era. It shifted studio focus toward event films, franchise thinking, and merchandise as a revenue stream. It revived space opera as a genre and proved science fiction could be mainstream, emotionally resonant storytelling rather than niche entertainment.\n\n---\n\n## Iconic Characters\n| Character | Why They Matter |\n|---|---|\n| **Luke Skywalker** | The everyman hero archetype |\n| **Darth Vader** | Redefined cinematic villainy |\n| **Yoda** | Wisdom packaged in unexpected form |\n| **Han Solo** | The charming rogue audiences love |\n| **Leia Organa** | A genuinely capable female leader for 1977 |\n\n---\n\n## Innovative Special Effects\n- Founded **Industrial Light & Magic**, which still dominates visual effects\n- Pioneered **motion-controlled camera** techniques\n- Introduced **practical creature effects** at unprecedented scale\n- Later films advanced **digital filmmaking** significantly\n\n---\n\n## The Fan Community\nThe fanbase is arguably **the most enduring in entertainment history**, characterized by:\n- Decades of fan fiction, art, and cosplay\n- Celebration events like **Star Wars Celebration**\n- Passionate debate that proves deep emotional investment\n- Multi-generational loyalty passing the saga **family to family**\n\n> *\"A long time ago in a galaxy far, far away\" became one of the most recognized phrases in human culture \u2014 that's remarkable.*",
+  "response_word_count": 231,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

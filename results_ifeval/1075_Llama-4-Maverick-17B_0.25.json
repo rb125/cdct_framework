@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create json ad for comfy baby diaper.",
+  "compressed_word_count": 7,
+  "response": "Here's a sample JSON ad for a comfy baby diaper:\n\n```json\n{\n  \"ad_id\": \"CMFY_BB_DPR_001\",\n  \"product_name\": \"Comfy Baby Diapers\",\n  \"description\": \"Soft, breathable, and gentle on your baby's skin. Our diapers are designed to keep your little one dry and comfortable all day long.\",\n  \"features\": [\n    \"Ultra-absorbent core\",\n    \"Soft and breathable outer layer\",\n    \"Wetness indicator for easy changes\",\n    \"Flexible waistband for a comfortable fit\"\n  ],\n  \"benefits\": [\n    \"Prevents diaper rash and irritation\",\n    \"Keeps baby dry for up to 12 hours\",\n    \"Easy to put on and take off\",\n    \"Affordable and available in various sizes\"\n  ],\n  \"target_audience\": {\n    \"age_group\": \"0-3 years\",\n    \"parents\": true,\n    \"caregivers\": true\n  },\n  \"call_to_action\": \"Buy Now and Get 10% Off on Your First Order!\",\n  \"promo_code\": \"COMFY10\",\n  \"price\": {\n    \"regular\": 9.99,\n    \"discounted\": 8.99\n  },\n  \"image_url\": \"https://example.com/comfy-baby-diaper.jpg\",\n  \"video_url\": \"https://example.com/comfy-baby-diaper-video.mp4\",\n  \"rating\": 4.5,\n  \"reviews\": 1000\n}\n```\n\nThis JSON ad includes the following details:\n\n* Ad ID and product name\n* Description and features of the product\n* Benefits of using the product\n* Target audience (age group, parents, caregivers)\n* Call-to-action (CTA) with a promo code\n* Pricing information (regular and discounted prices)\n* Image and video URLs\n* Product rating and number of reviews\n\nYou can customize this JSON ad to fit your specific needs and marketing goals.",
+  "response_word_count": 205,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

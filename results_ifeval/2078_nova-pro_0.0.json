@@ -1,0 +1,43 @@
+{
+  "key": 2078,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "mongoose riddle",
+  "compressed_word_count": 2,
+  "response": "Certainly! Here's a riddle about a mongoose:\n\n---\n\nIn the wild, I roam with grace,\nA small predator, swift in pace.\nWith scales of fur, I hunt with might,\nA serpent's foe, in day or night.\n\nMy name you\u2019ll find, in tales retold,\nOf battles fierce, and stories bold.\nQuick and clever, I face my foe,\nTell me true, who am I, you know?\n\n---\n\n**Answer: Mongoose**",
+  "response_word_count": 67,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "write lowercase letter asking friend to vote",
+  "compressed_word_count": 7,
+  "response": "Sure, here's a friendly and persuasive letter encouraging a friend to vote:\n\n---\n\nhey [friend's name],\n\ni hope you're doing well! i wanted to take a moment to talk about something really important\u2014voting. \n\nthis election is a big deal, and your voice matters. whether it's local, state, or national issues, every vote counts and can make a difference. \n\nhere are a few reasons why i think it's crucial for you to vote:\n1. **your voice matters**: your opinions and beliefs are important. voting is the best way to ensure they are heard.\n2. **change happens**: elections can bring about real change. by voting, you're part of that process.\n3. **it's quick and easy**: with early voting and mail-in options, it's never been easier to cast your ballot.\n4. **inspire others**: when you vote, you set a great example for friends and family. \n\ni\u2019d love to hear who you\u2019re supporting and why. let\u2019s make sure our voices are heard!\n\ntake care,\n[your name]",
+  "response_word_count": 162,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

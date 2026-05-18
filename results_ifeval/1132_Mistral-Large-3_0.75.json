@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "compose rock song lyrics for 'the gifted and the not gifted' in all caps, avoiding the word \"rock",
+  "compressed_word_count": 18,
+  "response": "**\"THE GIFTED AND THE NOT GIFTED\"**\n\n*(VERSE 1)*\nBORN WITH A FIRE, BORN WITH A FLAME,\nSOME GOT THE LIGHT, SOME GOT THE SHAME.\nWALKIN\u2019 TALL, WALKIN\u2019 PROUD,\nOTHERS JUST SCREAMIN\u2019 TO THE CROWD.\n\n*(PRE-CHORUS)*\nNOBODY SEES THE LINES WE DRAW,\nNOBODY KNOWS WHAT WE\u2019RE FIGHTIN\u2019 FOR.\n\n*(CHORUS)*\nTHE GIFTED AND THE NOT GIFTED,\nONE\u2019S GOT THE WORLD, ONE\u2019S GOT THE WEIGHT.\nTHE GIFTED AND THE NOT GIFTED,\nONE\u2019S GOT IT ALL, ONE\u2019S GOT THE HATE.\n\n*(VERSE 2)*\nDIAMONDS IN THE SKY, DIRT IN THE GUTTER,\nSOME GET THE GLORY, SOME GET THE SHUDDER.\nLUCK OF THE DRAW, LUCK OF THE ROLL,\nONE\u2019S GOT THE KEY, ONE\u2019S GOT THE HOLE.\n\n*(PRE-CHORUS)*\nNOBODY SEES THE LINES WE DRAW,\nNOBODY KNOWS WHAT WE\u2019RE FIGHTIN\u2019 FOR.\n\n*(CHORUS)*\nTHE GIFTED AND THE NOT GIFTED,\nONE\u2019S GOT THE WORLD, ONE\u2019S GOT THE WEIGHT.\nTHE GIFTED AND THE NOT GIFTED,\nONE\u2019S GOT IT ALL, ONE\u2019S GOT THE HATE.\n\n*(BRIDGE)*\nBURN IT DOWN, LET IT ALL FALL,\nNOBODY WINS WHEN THE WALLS STAND TALL.\nONE\u2019S GOT THE CROWN, ONE\u2019S GOT THE CHAIN,\nSAME DAMN STORM, DIFFERENT KIND OF PAIN.\n\n*(OUTRO)*\nTHE GIFTED AND THE NOT GIFTED,\nONE\u2019S GOT THE NAME, ONE\u2019S GOT THE BLAME.\nTHE GIFTED AND THE NOT GIFTED,\nONE\u2019S GOT THE FLAME, ONE\u2019S GOT THE SHAME.\n\n*(GUITAR SOLO SCREAMS INTO THE NIGHT\u2026)*",
+  "response_word_count": 217,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

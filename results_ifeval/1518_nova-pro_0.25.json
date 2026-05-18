@@ -1,0 +1,43 @@
+{
+  "key": 1518,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "I am a software engineer with 7 years of experience, and I am looking for a new job. Can you create a resume for me and explain each section?\n\ncreate resume, no jargon, explain acronyms",
+  "compressed_word_count": 35,
+  "response": "Of course! Below is a sample resume for a software engineer with 7 years of experience. I'll explain each section in simple terms.\n\n---\n\n**John Doe**\n123 Main Street, Anytown, USA  \n(123) 456-7890  \njohn.doe@email.com  \nLinkedIn: linkedin.com/in/johndoe\n\n---\n\n### **Summary**\n\nExperienced Software Engineer with 7 years of expertise in developing and maintaining high-quality software applications. Skilled in multiple programming languages and frameworks. Proven track record of delivering projects on time and within budget. Strong problem-solving abilities and excellent communication skills.\n\n### **Experience**\n\n**Senior Software Engineer**  \nTech Innovations, Anytown, USA  \n*January 2018 \u2013 Present*\n\n- **Developed** and maintained web applications using **JavaScript**, **React**, and **Node.js**.\n- **Collaborated** with cross-functional teams to define, design, and ship new features.\n- **Improved** application performance by 30% through code optimization and refactoring.\n- **Mentored** junior developers, providing guidance and support to enhance their skills.\n\n**Software Engineer**  \nCode Masters, Anytown, USA  \n*June 2015 \u2013 December 2017*\n\n- **Built** and deployed microservices using **Python** and **Django**.\n- **Integrated** third-party APIs to enhance application functionality.\n- **Conducted** code reviews to ensure high-quality standards and adherence to best practices.\n- **Participated** in agile scrum meetings and sprint planning sessions.\n\n### **Education**\n\n**Bachelor of Science in Computer Science**  \nAnytown University, Anytown, USA  \n*Graduated: May 2015*\n\n### **Skills**\n\n- **Programming Languages:** JavaScript, Python, Java, C++\n- **Frameworks:** React, Node.js, Django, Spring\n- **Tools:** Git, Docker, Jenkins, SQL\n- **Methodologies:** Agile, Scrum\n- **Soft Skills:** Problem-solving, teamwork, communication\n\n### **Certifications**\n\n- **Certified ScrumMaster (CSM)**  \n  Scrum Alliance, 2019\n- **AWS Certified Solutions Architect**  \n  Amazon Web Services, 2020\n\n### **Projects**\n\n**E-commerce Platform**  \n- **Role:** Lead Developer  \n- **Technologies:** React, Node.js, MongoDB  \n- **Description:** Developed a scalable e-commerce platform that handled over 10,000 transactions per day.\n\n**Internal Tool for Project Management**  \n- **Role:** Full-Stack Developer  \n- **Technologies:** Python, Django, PostgreSQL  \n- **Description:** Created a tool to streamline project management processes, resulting in a 20% increase in team productivity.\n\n### **Explanation of Sections**\n\n1. **Contact Information:**\n   - Your name, address, phone number, email, and LinkedIn profile. This is how potential employers will contact you.\n\n2. **Summary:**\n   - A brief overview of your career, skills, and what you bring to the table. It\u2019s like a mini-introduction.\n\n3. **Experience:**\n   - Lists your previous jobs. \n     - **Job Title:** What your role was.\n     - **Company Name and Location:** Where you worked.\n     - **Dates:** When you worked there.\n     - **Bullet Points:** Key responsibilities and achievements in each role.\n\n4. **Education:**\n   - Your academic background. \n     - **Degree:** What you studied.\n     - **University Name and Location:** Where you studied.\n     - **Graduation Date:** When you finished.\n\n5. **Skills:**\n   - A list of technical and soft skills relevant to the job you\u2019re applying for.\n\n6. **Certifications:**\n   - Any additional qualifications you\u2019ve earned that are relevant to your field.\n\n7. **Projects:**\n   - Specific projects you\u2019ve worked on that showcase your skills and achievements.\n     - **Role:** What your role was in the project.\n     - **Technologies:** Tools and technologies used.\n     - **Description:** Brief explanation of the project and its impact.\n\n---\n\nThis resume format is clean and easy to read, making it simple for hiring managers to quickly understand your qualifications and experience.",
+  "response_word_count": 514,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

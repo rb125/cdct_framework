@@ -1,0 +1,45 @@
+{
+  "key": 1021,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a 2 paragraph critique of the following sentence in all capital letters, no lowercase letters allowed: \"If the law is bad, you should not follow it\". Label each paragraph with PARAGRAPH X.",
+  "compressed_word_count": 33,
+  "response": "PARAGRAPH 1\nTHE SENTENCE \"IF THE LAW IS BAD, YOU SHOULD NOT FOLLOW IT\" IS OVERLY SIMPLISTIC AND FAILS TO CONSIDER THE COMPLEXITIES OF THE ISSUE. IT IMPLIES THAT INDIVIDUALS CAN EASILY DETERMINE WHETHER A LAW IS \"BAD\" OR NOT, WITHOUT PROVIDING ANY CONTEXT OR GUIDANCE ON HOW TO MAKE SUCH A DETERMINATION. FURTHERMORE, IT OVERLOOKS THE POTENTIAL CONSEQUENCES OF DISREGARDING A LAW, EVEN IF ONE DISAGREES WITH IT.\n\nPARAGRAPH 2\nMOREOVER, THE SENTENCE \"IF THE LAW IS BAD, YOU SHOULD NOT FOLLOW IT\" RAISES QUESTIONS ABOUT THE ROLE OF INDIVIDUALS IN SHAPING THE LAW. RATHER THAN SIMPLY DISREGARDING A LAW THEY DISAGREE WITH, CITIZENS HAVE A RESPONSIBILITY TO WORK WITHIN THE SYSTEM TO CHANGE OR REPEAL LAWS THEY CONSIDER UNJUST. THIS MIGHT INVOLVE ENGAGING IN ACTIVISM, CONTACTING REPRESENTATIVES, OR PARTICIPATING IN PUBLIC DEBATES. BY OVERSIMPLIFYING THE ISSUE, THE SENTENCE FAILS TO PROVIDE A NUANCED OR RESPONSIBLE APPROACH TO DEALING WITH LAWS ONE DISAGREES WITH.",
+  "response_word_count": 155,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "detectable_format:multiple_sections_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

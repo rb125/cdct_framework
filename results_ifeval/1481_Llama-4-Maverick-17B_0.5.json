@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "craft a quirky resume for Antonia Maj for a coffee co. job; sections, 2 markdown bullets: \n* marketing & sales exp\n* customer service & unique skills",
+  "compressed_word_count": 27,
+  "response": "# Antonia Maj: Coffee Connoisseur & Quirky Delight\n## Brewing Up a Storm in Your Coffee Co.\n\n### Contact Info\n* Email: [antonia.maj@email.com](mailto:antonia.maj@email.com)\n* Phone: 555-555-5555\n* LinkedIn: linkedin.com/in/antoniamaj\n\n### Marketing & Sales Experience\n* Spearheaded a social media campaign that increased followers by 500% in 3 months, with a focus on Instagram-worthy coffee moments\n* Successfully convinced friends and family to try new coffee flavors, resulting in a 100% conversion rate (okay, they just humored me, but still!)\n\n### Customer Service & Unique Skills\n* Possesses the ability to craft a mean latte art heart, and can recite the entire script of \"Barista: The Movie\" from memory\n* Can juggle three coffee cups while doing a little tap dance \u2013 a skill honed from years of working as a barista at a quirky coffee shop",
+  "response_word_count": 136,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

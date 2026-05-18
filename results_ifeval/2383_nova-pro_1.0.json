@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is the sentence \"Mrs. Smith is the teacher of this class.\" grammatically correct? Give me exactly two different responses. Responses and only responses should be separated by 6 asterisk symbols: ******.",
+  "compressed_word_count": 31,
+  "response": "******\n\nYes, the sentence \"Mrs. Smith is the teacher of this class.\" is grammatically correct. It clearly identifies Mrs. Smith as the teacher associated with the class.\n\n******\n\nThe sentence \"Mrs. Smith is the teacher of this class.\" is indeed grammatically correct. It properly conveys the relationship between Mrs. Smith and her role as the teacher for the specified class.",
+  "response_word_count": 60,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

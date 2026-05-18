@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft 4-section resume for clown Phil Larkin, label each part Section X: summary, experience, skills, references.",
+  "compressed_word_count": 16,
+  "response": "Here's a draft 4-section resume for clown Phil Larkin:\n\n**Section 1: Summary**\nPhil Larkin is a highly experienced and entertaining clown with a background in making people of all ages laugh. With a colorful and energetic stage presence, Phil brings joy and excitement to any event. Skilled in physical comedy, improvisation, and audience interaction, Phil is the perfect addition to any party, corporate event, or children's birthday celebration.\n\n**Section 2: Experience**\n- Clown Performer, Laugh-A-Palooza Entertainment (2018-Present)\n  - Performed at numerous children's birthday parties, corporate events, and parades\n  - Developed and implemented customized comedy routines for clients\n  - Collaborated with event planners to ensure seamless execution of events\n- Clown Instructor, Clown School of NYC (2015-2018)\n  - Taught clowning techniques to students of all skill levels\n  - Developed curriculum for clowning courses\n  - Assisted in the production of annual clown showcases\n\n**Section 3: Skills**\n- Physical comedy and acrobatics\n- Improvisational comedy\n- Audience interaction and participation\n- Balloon twisting and face painting\n- Event planning and coordination\n- Teaching and instruction\n\n**Section 4: References**\nAvailable upon request. Please contact Phil Larkin directly for professional references.",
+  "response_word_count": 186,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

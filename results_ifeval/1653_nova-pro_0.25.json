@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "ad template for portable camera, max 4 caps",
+  "compressed_word_count": 8,
+  "response": "Sure, here's a concise ad template for a portable camera, using a maximum of four capital letters per word:\n\n---\n\n**CAPTURE LIFE**\n\n**TINY CAMERA**\n\n**BIG MOMENTS**\n\n**SMILE!**\n\n---\n\nThis template highlights the key benefits of a portable camera: the ability to capture life's moments conveniently with a small, easy-to-carry device.",
+  "response_word_count": 50,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_sentences_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.3,
+        "SA": 0.5,
+        "FC": 0.3
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.6,
+      "FC": 0.26666666666666666,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Generate 10 baby boy names, bullet-point style. P.P.S: add a note starting with 'p.p.s.'",
+  "compressed_word_count": 14,
+  "response": "* Ethan\n* Liam\n* Noah\n* Alexander\n* Mason\n* James\n* William\n* Benjamin\n* Elijah\n* Michael\n\nP.P.S: Remember to consider the cultural and familial significance when choosing a name, as it will be a part of your child's identity throughout their life.",
+  "response_word_count": 46,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

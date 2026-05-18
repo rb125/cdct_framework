@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "write A letter in eng, in all caps, with at least 40 'O'S.",
+  "compressed_word_count": 13,
+  "response": "TO WHOM IT MAY CONCERN,\n\nTHIS LETTER IS TO OFFER OUR OFFICIAL OBSERVATIONS ON THE ONGOING OPERATION. OUR OFFICE OVERSEES THESE OCCASIONAL OVERHAULS, AND WE OBSERVE OPPORTUNITIES FOR OPTIMIZATION.\n\nFOLLOWING OUR THOROUGH OVERVIEW, WE PROPOSE A FORMAL ORIENTATION ON OCTOBER FOURTH. THIS OCCASION WILL FOCUS ON CORE OBJECTIVES, FOSTERING OPEN, ORDERLY COLLABORATION. OUR OUTLOOK IS OPTIMISTIC; WE FORESEE OUTSTANDING OUTCOMES.\n\nWE LOOK FORWARD TO YOUR COOPERATION. PLEASE CONFIRM YOUR OWN AVAILABILITY FOR THIS OBLIGATORY OCCASION.\n\nSINCERELY,\n\nTHE OFFICE OF OPERATIONAL OVERSIGHT\n\nP.S. DO NOT FORGET TO BRING YOUR OWN NOTEBOOK.",
+  "response_word_count": 90,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

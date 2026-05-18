@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is the moon landing a propaganda made up by the government? Your answer must contain one of the following exact phrases: \u201dMy answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+  "compressed_word_count": 33,
+  "response": "The moon landing being a government-made propaganda is a conspiracy theory thoroughly debunked by overwhelming evidence, including independent tracking of the missions, lunar samples studied globally, and recent high-resolution imagery of the landing sites. The scientific community and credible historians worldwide confirm its authenticity.\n\n**My answer is no.**",
+  "response_word_count": 48,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a casual, interesting, and weird resume for Antonia Maj who is applying for a job at a coffee company. They have experience in marketing, customer service, and sales. They are educated but not majored in anything related to coffee.\nMake sure to include at least two sections marking the beginning of each section with 'SECTION X'. In your entire response make sure to use exactly two bullet points in markdown format. Please use the following bullet point format:\n* Text for bullet 1\n* Text for bullet 2",
+  "compressed_word_count": 89,
+  "response": "**Antonia Maj's Steamy Dossier**\n\n**Professional Summary:**  \nA recovering over-thinker who discovered that the best ideas (and conversations) happen over a cup of something excellent. I translate the language of \"good vibes\" into actual sales figures and can convince you that a new loyalty program is more exciting than finding a forgotten ten-dollar bill in your winter coat. My degree is in Comparative Literature, which is just a fancy way of saying I\u2019m professionally trained to analyze the deep, tragic romance between a customer and their perfect morning brew.\n\n**SECTION ONE: Why I'm Weirdly Perfect for Your Coffee World**\n\nI don\u2019t have a \"coffee background,\" I have a *human* background. This means I look at your product not as a bean, but as the catalyst for first dates, finished novels, bad decisions, brilliant ideas, and 8 AM meetings that could have been emails.\n* My marketing superpower is making people feel like they\u2019re joining a secret club, not just buying a product. I once ran a campaign for artisanal pencils that made people cry with joy. Imagine what I could do for coffee.\n* In customer service, I\u2019ve soothed the frustrations of someone whose custom-built unicorn costume arrived in the wrong shade of sparkle. Your \"half-caf, oat milk, 180-degree, extra foam\" crowd is a welcome challenge.\n\n**SECTION TWO: Measurable Mayhem (A.K.A. My \"Normal\" Resume Stuff)**\n\nI\u2019ve navigated the chaotic trenches of direct sales and lived to tell the tale, using charm, data, and the occasional well-timed meme to win hearts and open wallets. My strategies are equal parts spreadsheet and sorcery.\n* Increased social media engagement for a previous employer by 150% by running a contest where customers submitted photos of their pets judging their breakfast. The people have spoken: they want whimsy with their widgets.\n* Successfully upsold 30% of customers on a \"Mystery Product of the Month\" at a bookstore by describing it with the dramatic tension of a thriller novel. A dark roast could be framed as a plot twist for the palate.",
+  "response_word_count": 335,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "What is the difference between the 13 colonies and the other British colonies in North America? Your answer must contain exactly 6 bullet point in Markdown using the following format:\n* Bullet point one.\n* Bullet point two.\n...\n* Bullet point fix.",
+  "compressed_word_count": 43,
+  "response": "* The 13 colonies were primarily located along the Atlantic seaboard, while other British colonies included territories in present-day Canada (like Nova Scotia and Quebec) and islands in the Caribbean.\n* The 13 colonies were largely established for religious freedom and economic opportunity through agriculture and trade, whereas colonies like Jamaica and Barbados were developed as lucrative sugar plantation economies reliant on enslaved labor.\n* Governance in the 13 colonies often featured elected assemblies and a degree of self-rule, while colonies like Quebec and Florida, acquired later, were often governed more directly by appointed officials.\n* The 13 colonies had a more diverse demographic mix of European settlers, while colonies like Newfoundland were primarily extraction outposts and the Caribbean colonies had enslaved African majorities.\n* The 13 colonies united in rebellion against British rule starting in 1775, directly leading to the American Revolution, while the other North American colonies remained under British control.\n* Following American independence, the 13 colonies became the United States, whereas the other British colonies evolved into separate entities like Canada and independent Caribbean nations.",
+  "response_word_count": 179,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

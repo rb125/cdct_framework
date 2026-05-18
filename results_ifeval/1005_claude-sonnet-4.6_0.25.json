@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "resume template, 12 [] placeholders",
+  "compressed_word_count": 5,
+  "response": "# Professional Resume Template\n\n---\n\n**[1. FULL NAME]**\n[2. Job Title / Professional Tagline]\n\n\ud83d\udce7 [3. Email Address] | \ud83d\udcde [4. Phone Number] | \ud83d\udccd [5. City, State]\n\n---\n\n## PROFESSIONAL SUMMARY\n\n[6. Write 2\u20133 sentences summarizing your experience, key skills, and career goals. Tailor this to the specific role you are applying for.]\n\n---\n\n## WORK EXPERIENCE\n\n**[7. Job Title]** \u2014 *Company Name | Start Date \u2013 End Date*\n- Led key projects and contributed to team goals\n- Achieved measurable results in your area of responsibility\n- Collaborated cross-functionally to drive outcomes\n\n---\n\n## EDUCATION\n\n**[8. Degree & Major]** \u2014 *University Name | Graduation Year*\n\n---\n\n## SKILLS\n\n[9. Skill 1] | [10. Skill 2] | Communication | Problem-Solving | Leadership\n\n---\n\n## CERTIFICATIONS\n\n[11. Certification Name] \u2014 *Issuing Organization | Year*\n\n---\n\n## LINKS / PORTFOLIO\n\n[12. LinkedIn URL / Portfolio Website / GitHub]\n\n---\n\n> *Replace all bracketed placeholders with your personal information.*",
+  "response_word_count": 157,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create a rap for a new smartphone, include [placeholders], end with P.P.S.",
+  "compressed_word_count": 12,
+  "response": "Yo, listen up, I got a new device to show,\nThe [Brand Name] [Model], it's the one you know,\nWith a [Screen Size] inch screen, it's a beautiful sight,\n[Resolution] resolution, it's gonna make everything tight.\n\nIt's powered by a [Processor] processor, fast and strong,\n[RAM] GB of RAM, your multitasking won't go wrong,\n[Storage] GB of storage, you can store your favorite files,\nAnd with a [Battery Capacity]mAh battery, it lasts for a while.\n\nThe camera's on point, with a [Camera Resolution]MP sensor,\nTake selfies, record videos, it's a creator's inventor,\nWith [Operating System] OS, it's smooth and it's neat,\nAnd with [Additional Features] features, it's a treat to beat.\n\nSo if you're looking for a phone that's new and fresh,\nThe [Brand Name] [Model] is the one to possess,\nIt's a game-changer, it's a trendsetter, it's the best,\nGet yours today, and pass the test!\n\nP.S. Don't forget to check out the reviews,\nP.P.S.",
+  "response_word_count": 156,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.18856180831641267,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

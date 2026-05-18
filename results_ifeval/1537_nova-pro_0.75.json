@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Describe tennis balls in a medieval poem style, P.P.S: use modern materials.",
+  "compressed_word_count": 12,
+  "response": "In days of yore, when knights did roam,\nAnd castles stood with banners flown,\nA sport did rise, a game of grace,\nWherein bright spheres did find their place.\n\nO'er verdant fields and courts of stone,\nWhere noble lords and ladies shone,\nDid bounce and twirl with lively zest,\nThese orbs of joy, by all caressed.\n\nIn days of old, with leather clad,\nAnd gut from beasts, they served so glad,\nBut now, in times of modern art,\nNew materials play their part.\n\nBehold! The tennis ball reborn,\nIn fuzzy felt, its surface shorn,\nA synthetic coat of vibrant hue,\nIn shades of yellow, green, or blue.\n\nIts core, a rubber heart so true,\nWith pressurized gas it grew,\nTo bounce with vigor, light and fair,\nAcross the court, through heaven's air.\n\nNo more the gut of animals,\nBut nylon strings in twisted coils,\nDoth hold the ball within its grasp,\nAs players' hands do tightly clasp.\n\nIn medieval verse, we sing their praise,\nThese modern spheres of lively days,\nWith synthetic might and fuzzy grace,\nThey dance and leap in sport's embrace.\n\nSo let us hail these tennis balls,\nIn courts and fields, where joy enthralls,\nWith modern materials they are dressed,\nA testament to human quest.",
+  "response_word_count": 208,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

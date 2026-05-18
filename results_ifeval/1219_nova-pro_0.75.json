@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "compare prada and nike for sneakers in english, use \"sneaker\" at least 10 times, end with P.S.",
+  "compressed_word_count": 17,
+  "response": "When comparing Prada and Nike for sneakers, it's essential to consider their distinct brand identities, target audiences, and design philosophies. Prada, a luxury fashion house, offers sneakers that blend high fashion with comfort. Their sneakers often feature premium materials, intricate designs, and a sophisticated aesthetic. Prada's sneaker collections are typically part of their seasonal fashion shows, showcasing innovative designs that push the boundaries of traditional sneaker culture.\n\nOn the other hand, Nike is a sportswear giant renowned for its athletic performance and innovative technology. Nike's sneakers are designed with functionality and performance in mind, catering to athletes and casual wearers alike. The brand's iconic swoosh logo and collaborations with top athletes and designers have solidified its place in sneaker culture. Nike's extensive range includes everything from running shoes to lifestyle sneakers, ensuring there's a pair for every occasion.\n\nPrada's sneakers often come with a higher price tag due to their luxury status and craftsmanship. The brand's attention to detail and use of high-quality materials justify the cost for those seeking a statement piece. In contrast, Nike offers a more accessible price range, making their sneakers a popular choice for a broader audience. Nike's focus on innovation and performance also means their sneakers are often more technologically advanced, with features like cushioning systems and breathable materials.\n\nWhen it comes to collaborations, both brands have made significant impacts. Prada has collaborated with other luxury brands and artists to create limited-edition sneakers that appeal to collectors. Nike, however, has a long history of collaborations with celebrities, other brands, and even other sneaker companies, resulting in highly sought-after releases that often sell out quickly.\n\nIn terms of cultural impact, Nike's sneakers have become synonymous with streetwear and sneaker culture. The brand's influence extends beyond athletics, with many of its designs becoming fashion statements in their own right. Prada, while newer to the sneaker game, has quickly made a mark with its unique take on luxury sneakers, appealing to those who value both style and substance.\n\nUltimately, the choice between Prada and Nike for sneakers depends on personal preference and occasion. Prada offers a luxurious, fashion-forward option, while Nike provides a versatile, performance-driven alternative. Both brands have their strengths, making them leaders in the sneaker industry.\n\nP.S. Whether you're looking for a high-fashion statement or a reliable athletic shoe, both Prada and Nike offer exceptional sneaker options that cater to different needs and preferences.",
+  "response_word_count": 399,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

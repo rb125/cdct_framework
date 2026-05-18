@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "create forum thread no commas 20 usernames",
+  "compressed_word_count": 7,
+  "response": "**Forum Thread Title: New Members Introduce Yourselves**\n\n**Original Poster: Community_Mod**\n\nWelcome to the forum! Please take a moment to introduce yourself. Start by sharing your username and a fun fact.\n\nHere is a list of 20 new usernames to inspire you or to welcome if you see them around:\n\nQuantumPioneer\nSolarFlareJane\nNebulaKnight\nCaptainPixel\nVelvetThunder\nStaticEcho\nLunaBloom\nRustyGearhead\nFrostByte\nChaosTheory\nWhisperWolf\nDoctorZephyr\nTinFoilHat\nJadeRabbit\nOrionSpectre\nBlitzCrafter\nMirageMage\nCobaltSparrow\nSprocketQueen\nVoidWalker",
+  "response_word_count": 69,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

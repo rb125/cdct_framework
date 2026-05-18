@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "write song lyrics on economic disparity, all lowercase",
+  "compressed_word_count": 8,
+  "response": "in the city, where the skyscrapers reign\na world of plenty, but not for everyone to gain\nthe haves and have nots, a never-ending divide\na chasm so wide, it's hard to hide\n\nin the shadows, the struggle's real\na daily grind, just to make ends meet, it's a feel\nthat's hard to shake, a weight that's hard to bear\na life of poverty, with no escape to share\n\nthe rich get richer, the poor get poorer still\na cycle that's broken, but hard to fulfill\nthe american dream, a myth to some\na reality for others, but not for everyone\n\nin the land of opportunity, where freedom rings\na different story, for those with empty rings\nthe sound of silence, a cry in the night\na call for justice, a beacon to ignite\n\nwe're lost in the system, a cog in the machine\na number, not a name, a statistic unseen\nthe value of a life, reduced to a cost\na price tag on humanity, a loss\n\nbut still we rise, we resist, we fight\nfor a world that's fair, where everyone's in sight\nwhere the divide is bridged, and the gap is closed\na world where everyone's equal, and everyone's proposed\n\nso let's raise our voices, let's make some noise\nfor a world that's just, where everyone's a choice\nnot just a few, but all, we're in this together\na world where everyone's seen, and everyone's a feature.",
+  "response_word_count": 240,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

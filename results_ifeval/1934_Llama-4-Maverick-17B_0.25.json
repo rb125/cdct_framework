@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "4 bullet points on Star Wars' popularity, no commas",
+  "compressed_word_count": 9,
+  "response": "Here are 4 bullet points on Star Wars' popularity with no commas:\n\n* The franchise has a vast and dedicated fan base that spans across the globe\n* Iconic characters like Luke Skywalker and Darth Vader have become household names\n* The series has been praised for its groundbreaking special effects and immersive world-building\n* Star Wars has inspired countless merchandise and spin-offs including films TV shows and video games",
+  "response_word_count": 70,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.75
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 0.9166666666666666,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.11785113019775792
+    }
+  }
+}

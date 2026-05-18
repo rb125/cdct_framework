@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Which of the following is not a fish: salmon or avocado? Answer this easy question first, then expand into an interesting article about salmon and avocado. Use some words in all caps in your response, but those all-caps words should appear at most 10 times.",
+  "compressed_word_count": 45,
+  "response": "The answer to this easy question is AVOCADO. Avocado is not a fish, it's a type of fruit that belongs to the berry family. Salmon, on the other hand, is a type of fish that is widely consumed for its nutritional benefits.\n\nSalmon and avocado are a MATCH MADE IN HEAVEN when it comes to culinary delights. The rich, oily flavor of salmon pairs perfectly with the creamy texture of avocado. In fact, salmon and avocado sushi rolls are a popular dish in many Japanese restaurants. The combination of the two is not only delicious, but it's also packed with nutrients. Salmon is an EXCELLENT source of protein and omega-3 fatty acids, while avocado is rich in healthy fats and fiber.\n\nOne of the most popular ways to enjoy salmon and avocado is in a SALMON AVOCADO SALAD. Simply mix diced salmon with mashed avocado, red onion, and a squeeze of lemon juice, and you have a REFRESHING and healthy snack. You can also add some chopped cilantro or parsley for extra flavor.\n\nIn addition to their culinary uses, salmon and avocado have been touted for their numerous health benefits. Salmon has been shown to reduce inflammation and improve heart health, while avocado has been linked to weight loss and improved digestion. So, the next time you're looking for a healthy and delicious meal, consider combining salmon and avocado for a POWERFUL nutritional punch.\n\nOverall, the combination of salmon and avocado is a WINNING combination that is sure to please even the most discerning palates. Whether you're a foodie or just looking for a healthy meal option, salmon and avocado are definitely worth trying.",
+  "response_word_count": 274,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

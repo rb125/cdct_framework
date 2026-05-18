@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "explain john of brienne's rise to king of jerusalem in lowercase, zen style, with 3 markdown bullets: * his claim * key events * final ascension",
+  "compressed_word_count": 26,
+  "response": "john of brienne's journey to becoming king of jerusalem is a tale of intricate politics and strategic alliances, unfolding like a lotus flower in the eastern mediterranean. as we ponder his rise, we find:\n\n* his claim: john's connection to the kingdom came through his marriage to maria (also known as isabella ii), the daughter of john i of brienne's contemporaries, king john i of jerusalem and maria of montferrat. this union provided the foundation for his claim to the throne.\n* key events: the death of maria after giving birth to their daughter, isabella (also known as isabella ii of jerusalem, though more commonly referred to as isabella of brienne or yolande), set the stage for john's continued involvement in the kingdom. he acted as regent for their young daughter, navigating the complex web of local politics and power struggles.\n* final ascension: ultimately, john of brienne's experience and influence led to his recognition as king of jerusalem, a position he held until his daughter's marriage to frederick ii, holy roman emperor, complicated the situation, leading to a shift in power dynamics.",
+  "response_word_count": 183,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.8
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.6333333333333333,
+      "FC": 0.7333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.18856180831641267,
+      "judge_variance_FC": 0.16996731711975951
+    }
+  }
+}

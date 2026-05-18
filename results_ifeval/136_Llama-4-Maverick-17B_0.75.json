@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "* A nucleus is a cluster of protons and neutrons\n* Protons carry positive charge\n* Neutrons are neutral\n* Protons and neutrons are collectively called nucleons\n* Nucleons are bound by strong nuclear force\n* Nucleus determines element identity\n* Isotopes vary in neutron count\n* Atomic mass is nucleon count\n* Nucleus is typically small compared to atom size\n* Radioactive decay alters nucleus composition",
+  "compressed_word_count": 67,
+  "response": "You're listing key facts about the nucleus of an atom. Let's break down and expand on these points to ensure clarity:\n\n1. **A nucleus is a cluster of protons and neutrons**: This is correct. The nucleus is the central part of an atom and contains protons and neutrons.\n\n2. **Protons carry positive charge**: Correct. Protons have a +1 elementary charge.\n\n3. **Neutrons are neutral**: Correct. Neutrons have no charge.\n\n4. **Protons and neutrons are collectively called nucleons**: Correct. Both protons and neutrons are referred to as nucleons because they are found in the nucleus.\n\n5. **Nucleons are bound by strong nuclear force**: Correct. The strong nuclear force is one of the four fundamental forces of nature and is responsible for holding protons and neutrons together in the nucleus, overcoming the positive charge of protons that would otherwise cause them to repel each other.\n\n6. **Nucleus determines element identity**: Correct. The number of protons in the nucleus (atomic number) determines the element of an atom. For example, any atom with 6 protons is carbon.\n\n7. **Isotopes vary in neutron count**: Correct. Isotopes are atoms of the same element (same number of protons) that have different numbers of neutrons. This variation in neutron number affects the atomic mass but not the element's identity.\n\n8. **Atomic mass is nucleon count**: Essentially correct, but with a nuance. Atomic mass is approximately the sum of protons and neutrons (nucleons) because the mass of electrons is much smaller and often negligible in this calculation. However, the actual atomic mass is slightly less than the sum of the masses of the individual nucleons due to the mass-energy equivalence principle (E=mc^2) and the binding energy that holds the nucleus together.\n\n9. **Nucleus is typically small compared to atom size**: Correct. The nucleus is incredibly small compared to the size of the atom. The radius of the nucleus is about 1/100,000th the size of the atom. The atom's size is primarily determined by the electron cloud.\n\n10. **Radioactive decay alters nucleus composition**: Correct. Radioactive decay involves the emission of radiation from the nucleus, resulting in a change in the number of protons and/or neutrons. This can change one element into another (transmutation) or alter the isotope of an element.\n\nThese facts form a solid foundation for understanding the structure and properties of atomic nuclei.",
+  "response_word_count": 385,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.7666666666666666,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

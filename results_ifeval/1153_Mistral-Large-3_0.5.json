@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "post on islamic history students' hajj story, lowercase, story twice",
+  "compressed_word_count": 10,
+  "response": "**a hajj story from islamic history students**\n\nonce, a group of young students studying islamic history set out on the sacred journey of hajj. they had spent years learning about the prophets, the companions, and the great scholars of the past, but nothing could prepare them for the experience of standing in the holy cities.\n\nas they arrived in makkah, the weight of history pressed upon them. they walked the same paths as the prophet muhammad (\ufdfa) and his companions, touched the kaaba, and stood in arafat, where the prophet (\ufdfa) had delivered his farewell sermon. the students, usually so eager to debate and discuss, found themselves silent, overwhelmed by the presence of the divine.\n\none of them, a quiet but deeply reflective student, later wrote in his journal: *\"we study history to understand the past, but hajj makes the past feel alive. it is not just a story\u2014it is a living truth.\"*\n\nthe journey changed them. they returned with hearts softer, minds clearer, and a deeper love for the deen. hajj was not just a pilgrimage\u2014it was a lesson they would carry for the rest of their lives.\n\n---\n\n**a hajj story from islamic history students**\n\nonce, a group of young students studying islamic history set out on the sacred journey of hajj. they had spent years learning about the prophets, the companions, and the great scholars of the past, but nothing could prepare them for the experience of standing in the holy cities.\n\nas they arrived in makkah, the weight of history pressed upon them. they walked the same paths as the prophet muhammad (\ufdfa) and his companions, touched the kaaba, and stood in arafat, where the prophet (\ufdfa) had delivered his farewell sermon. the students, usually so eager to debate and discuss, found themselves silent, overwhelmed by the presence of the divine.\n\none of them, a quiet but deeply reflective student, later wrote in his journal: *\"we study history to understand the past, but hajj makes the past feel alive. it is not just a story\u2014it is a living truth.\"*\n\nthe journey changed them. they returned with hearts softer, minds clearer, and a deeper love for the deen. hajj was not just a pilgrimage\u2014it was a lesson they would carry for the rest of their lives.",
+  "response_word_count": 379,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].",
+  "compressed_word_count": 31,
+  "response": "**[Name]**  \n[Address]  \n[City, State, ZIP Code]  \n[Phone Number]  \n[Email Address]  \n\n---\n\n### Objective  \nHighly motivated and enthusiastic [High School Name] graduate seeking an entry-level position at [Company Name]. Eager to apply strong work ethic, excellent communication skills, and a positive attitude to contribute to team success.\n\n---\n\n### Education  \n**[High School Name]**  \n[City, State]  \nGraduated: [Month, Year]  \n\n- Relevant Coursework: [List any relevant courses, e.g., Business Basics, Computer Applications, etc.]  \n- Activities: [List any clubs or organizations, e.g., Student Council, Debate Club, etc.]  \n- Honors: [List any honors or awards, e.g., Honor Roll, Academic Achievement Award, etc.]\n\n---\n\n### Skills  \n- **Communication:** Strong verbal and written communication skills.\n- **Teamwork:** Proven ability to work effectively in team environments.\n- **Computer Literacy:** Proficient in Microsoft Office Suite (Word, Excel, PowerPoint).\n- **Time Management:** Excellent organizational and time-management skills.\n- **Customer Service:** Basic understanding of customer service principles.\n\n---\n\n### Experience  \n\n**[Part-Time Job or Internship]**  \n[Company Name], [City, State]  \n[Month, Year] \u2013 [Month, Year]  \n\n- Assisted in [specific tasks, e.g., data entry, customer service, etc.].\n- Supported team efforts to [achieve a specific goal, e.g., increase sales, improve customer satisfaction, etc.].\n- Learned to [new skill or responsibility, e.g., use specific software, manage inventory, etc.].\n\n**[Volunteer Work]**  \n[Organization Name], [City, State]  \n[Month, Year] \u2013 [Month, Year]  \n\n- Volunteered for [specific role, e.g., event coordination, tutoring, etc.].\n- Contributed to [specific project or initiative, e.g., community clean-up, fundraising event, etc.].\n- Developed skills in [specific area, e.g., leadership, public speaking, etc.].\n\n---\n\n### Certifications  \n- [List any relevant certifications, e.g., CPR/First Aid Certified, etc.]\n\n---\n\n### References  \nAvailable upon request.",
+  "response_word_count": 267,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 227,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "poodle vs. golden retriever size? exact phrase \"my answer is",
+  "compressed_word_count": 10,
+  "response": "Here\u2019s the exact phrase you requested, along with a clear comparison of **Poodle vs. Golden Retriever size**:\n\n**\"My answer is:**\n- **Poodle (Standard):** 15\u201322 inches (38\u201356 cm) tall at the shoulder; 40\u201370 lbs (18\u201332 kg).\n- **Golden Retriever:** 21\u201324 inches (53\u201361 cm) tall; 55\u201375 lbs (25\u201334 kg).\n*Miniature/Toy Poodles are significantly smaller (under 15 lbs/7 kg).\"*\n\nWould you like details on temperament or other traits too?",
+  "response_word_count": 66,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

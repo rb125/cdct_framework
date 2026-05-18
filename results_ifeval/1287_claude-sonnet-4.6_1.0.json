@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "How did a man named John of Brienne become the King of Jerusalem? Explain in a Zen-like style. Your answer should use all lowercase letters and must also contain exactly 3 bullet points in markdown format. Use * to indicate bullets, like:\n* xyz\n* abc\n* opq",
+  "compressed_word_count": 48,
+  "response": "# the empty throne finds its king\n\na throne sat waiting, like a bowl ready to be filled. john of brienne, a french nobleman of modest means, did not chase the crown \u2014 the crown, in its own way, moved toward him.\n\n* pope innocent iii and the french king philip ii sought a worthy husband for the heiress maria of montferrat, queen of jerusalem, and their searching eyes fell upon john, a capable knight whose very ordinariness made him suitable \u2014 the still water reflects the sky most clearly\n\n* john married maria in 1210, and through her, the kingdom became his to hold, yet he held it as one holds water in cupped hands \u2014 carefully, temporarily \u2014 for when maria died in 1212 after bearing their daughter yolanda, his kingship became uncertain, a leaf floating between two shores\n\n* he ruled as regent for his young daughter, fighting crusades and negotiating with sultans, understanding that a king without a kingdom is still a king, and a man without a title is still a man \u2014 the river does not ask permission to flow\n\nin the end, john of brienne became king not through conquest or birthright, but through the gentle convergence of circumstance, like rain that does not decide to fall, yet falls perfectly.",
+  "response_word_count": 217,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

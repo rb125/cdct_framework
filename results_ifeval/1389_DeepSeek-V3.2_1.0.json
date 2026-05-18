@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a letter to your friend who recently moved away. Your entire response should be in English, and in all capital letters. The letter o should appear at least 40 times.",
+  "compressed_word_count": 31,
+  "response": "DEAR OLD FRIEND,\n\nHOW ARE YOU? I HOPE THIS NOTE FINDS YOU WELL IN YOUR NEW HOME TOWN. I AM WRITING TO YOU ON THIS OVERCAST OCTOBER AFTERNOON. SO MANY THINGS OCCUR TO ME NOW THAT YOU ARE GONE. OUR OWN CORNER OF THE WORLD FEELS SO ODDLY HOLLOW, SO FORLORN.\n\nOH, HOW I LONG FOR OUR OLD OCCASIONS! REMEMBER OUR OBLIGATORY COFFEE OUTINGS? THOSE OODLES OF HOURS WE WOULD SPEND, OFTEN OBLIVIOUS TO THE CLOCK, OBSERVING THE WORLD GO BY. IT WAS SO COMFORTING. NOW, MY OWN SOLITUDE IS SO PROFOUND. OUR OLD HAUNTS HOLD ONLY GHOSTS OF OUR FORMER JOY.\n\nI OFTEN OBSERVE THE OAK TREE ON THE CORNER, ITS GROWTH SO SLOW AND STOIC. IT REMINDS ME OF OUR OWN OLD FRIENDSHIP\u2014ROOTED, STRONG. I HOPE YOU ARE OCCUPYING YOUR NEW HOME WITH OODLES OF GOOD BOOKS AND OLD RECORDS. OFFER YOUR NEW NEIGHBORHOOD A CHANCE; OPEN YOUR DOOR TO POSSIBILITY.\n\nPROMISE ME YOU WILL NOT FORGO OUR OLD PROMISE OF OPEN COMMUNICATION. WRITE SOON, OR PHONE. YOUR STORIES OF THIS NEW CHAPTER WILL BE A COMFORT TO ME. I HOPE YOUR NEW JOB IS NOT TOO OVERWHELMING, AND THAT YOU FIND COMFORT IN ITS ROUTINE.\n\nOH, BEFORE I FORGET, I OWE YOU A PROPER GOODBYE. OUR GOODBYE WAS SO RUSHED, SO ORDINARY FOR SUAN EXTRAORDINARY FRIENDSHIP. SO, CONSIDER THIS MY OFFICIAL, PROLONGED, AND HEARTFELT FAREWELL FOR NOW. YOU ARE SO OFTEN IN MY THOUGHTS.\n\nWITH OLD AFFECTION AND LOYAL REGARD,\n\nYOUR OLD FRIEND FOREVER.",
+  "response_word_count": 247,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

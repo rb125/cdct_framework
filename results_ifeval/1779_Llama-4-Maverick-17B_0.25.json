@@ -1,0 +1,45 @@
+{
+  "key": 1779,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "create funny grocery itinerary in lima with 'disgusting', 'delicious'",
+  "compressed_word_count": 9,
+  "response": "Here's a humorous grocery itinerary in Lima, Peru, with a dash of 'disgusting' and 'delicious':\n\n**Stop 1: Mercado Central (9:00 am) - \"Delicious but beware of the stinky stuff!\"**\nBegin the day by diving into the vibrant Mercado Central. Try some exotic fruits like lucuma or guanabana, which are 'delicious' and a staple in Peruvian desserts. Be cautious of the 'disgusting' but infamous \"cuviche de mariscos\" (raw seafood marinated in lime juice) if you're not comfortable with, well, raw seafood.\n\n**Stop 2: Wong Supermarket (11:00 am) - \"The land of imported snacks and 'disgusting' health foods\"**\nHead over to Wong Supermarket, a high-end grocery store where you can find everything from international snacks to 'disgusting' health foods like spirulina smoothies or vegan \"cheese.\" Try some 'delicious' Peruvian snacks like papas rellenas or humitas.\n\n**Stop 3: Bodega La Llorona (1:00 pm) - \"Lunchtime at the 'disgusting' yet 'delicious' anticuchos stand\"**\nTake a break for lunch at Bodega La Llorona, a local eatery famous for its anticuchos (grilled beef heart skewers). While some might find the idea of eating beef heart 'disgusting,' others will swear they're 'delicious.' Be adventurous and give it a try!\n\n**Stop 4: La Parada (3:00 pm) - \"A 'delicious' mess of fruits and veggies\"**\nVisit La Parada, a bustling marketplace filled with an array of colorful fruits and vegetables. Sample some 'delicious' local produce like chirimoya or lucuma, and be prepared to navigate through the crowded stalls.\n\n**Stop 5: Plaza de Acho (5:00 pm) - \"A 'disgusting' yet fascinating visit to the butcher stalls\"**\nEnd the day at Plaza de Acho, a historic bullring turned marketplace. Explore the butcher stalls, where you might find some 'disgusting' (yet somehow 'delicious' to some) offal or unusual meats on display. Don't be afraid to try some local specialties like relleno or sangrecita.\n\nThis itinerary is sure to be a wild and unforgettable ride through Lima's grocery scene, with a mix of 'disgusting' and 'delicious' experiences that will leave you questioning your food choices... or not!",
+  "response_word_count": 334,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:existence_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.75,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.5833333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.11785113019775792,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

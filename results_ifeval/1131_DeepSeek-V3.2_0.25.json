@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 4-section clown resume, no section titles.",
+  "compressed_word_count": 7,
+  "response": "A performer with over a decade of experience bringing joy and wonder to audiences of all ages. Specializing in classic slapstick, balloon artistry, and interactive comedy that turns spectators into part of the act. Known as \"Bubbles the Merrymaker\" at festivals and \"Dr. Giggles\" for hospital outreach, adapting character and routine to create perfect, personalized moments of laughter.\n\nProficient in unicycle riding, juggling (up to 5 objects), and close-up magic with a comedic twist. Expert in creating intricate balloon animals, from simple swords to elaborate wearable hats. Skilled in makeup application for both personal character looks and assisting others. Fluent in the language of pratfalls, pie-throwing, and safe, engaging audience participation.\n\nNotable engagements include headlining the 2023 Great Lakes Circus Festival, recurring performances at the prestigious Maple Grove Children's Hospital, and providing comedic entertainment for over 50 private events annually. Featured performer in the \"Laughter is the Best Medicine\" community tour, visiting senior centers and care facilities across three states.\n\nCertified in Pediatric Entertainment Safety and First Aid/CPR. Holds a valid driver's license with a clean record for reliable travel. Committed to ongoing skill development, most recently completing a workshop in silent comedy and physical storytelling. Excellent references available from event coordinators and family entertainment centers.",
+  "response_word_count": 206,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

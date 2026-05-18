@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a poem about how I am missing my classes. The poem must have 4 sections marked with SECTION X. Finish the poem with this exact phrase: \"Can I get my money back for the classes I missed?\"",
+  "compressed_word_count": 38,
+  "response": "SECTION I\nThe bell, a ghost now in the air,\nThat once would find me in my chair.\nThe chalk-dust motes in morning light,\nHave all dissolved into the night.\nMy desk is just a silent wood,\nWhere no professor\u2019s lecture stood.\nThe syllabus, a lonely scroll,\nA map toward an empty goal.\n\nSECTION II\nThe window where I watched the rain\nAnd fought to focus on the strain\nOf theorems marching, bold and black,\nUpon a never-turning back.\nI\u2019d give my favorite pen to hear\nA droning voice, so dry and clear,\nTo see the diagrams expand\nBeneath a knowing, chalk-dust hand.\n\nSECTION III\nThe empty hallway, clean and vast,\nWhere echoes of my footsteps passed.\nThe library\u2019s unbreathing stacks,\nThe knowledge waiting, tight and packed.\nNo whispered talk before the start,\nNo shared anxiety of heart,\nNo rustling pages, synchronized,\nNo meeting of a classmate\u2019s eyes.\n\nSECTION IV\nThe learning now is all my own,\nA solitary, silent stone\nI push alone up some new hill.\nIt feels so heavy, and so still.\nI miss the structure, miss the sound,\nThe common ground that I had found.\nThis longing, though, I must confess,\nIs tinged with financial distress:\n\nCan I get my money back for the classes I missed?",
+  "response_word_count": 211,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

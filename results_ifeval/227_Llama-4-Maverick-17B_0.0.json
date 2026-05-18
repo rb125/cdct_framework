@@ -1,0 +1,43 @@
+{
+  "key": 227,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "breed size",
+  "compressed_word_count": 2,
+  "response": "Breed size typically refers to the classification of dog breeds based on their average weight and height. The most common classification system categorizes dog breeds into several size groups, including:\n\n1. **Toy breeds**: These are the smallest dog breeds, typically weighing between 2-10 pounds (1-5 kg) and standing between 6-11 inches (15-28 cm) tall. Examples include Chihuahuas, Poodles, and Pugs.\n\n2. **Small breeds**: These dogs are slightly larger, weighing between 10-20 pounds (5-10 kg) and standing between 10-15 inches (25-38 cm) tall. Examples include Beagles, Corgis, and Shih Tzus.\n\n3. **Medium breeds**: These dogs are moderately sized, weighing between 20-50 pounds (10-23 kg) and standing between 15-20 inches (38-51 cm) tall. Examples include Cocker Spaniels, Collies, and French Bulldogs.\n\n4. **Large breeds**: These dogs are bigger, weighing between 50-80 pounds (23-36 kg) and standing between 20-25 inches (51-63 cm) tall. Examples include German Shepherds, Golden Retrievers, and Labradors.\n\n5. **Giant breeds**: These are the largest dog breeds, weighing over 80 pounds (36 kg) and standing over 25 inches (63 cm) tall. Examples include Great Danes, Mastiffs, and Saint Bernards.\n\nKeep in mind that these are general guidelines, and individual dogs can vary significantly depending on their breed, genetics, and overall health.",
+  "response_word_count": 201,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

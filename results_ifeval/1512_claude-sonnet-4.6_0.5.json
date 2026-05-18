@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create forum thread with short sentences no commas use [username] placeholders min 20 users",
+  "compressed_word_count": 14,
+  "response": "# Forum Thread: \"What's Your Unpopular Food Opinion?\"\n\n---\n\n**[FoodieRebel42]** \u00b7 *Original Post*\nPineapple on pizza is actually good\nFight me on this\n\n---\n\n**[SnackAttack99]**\nHard disagree\nFruit has no place on pizza\n\n**[TacoTuesdayKing]**\nPineapple pizza slaps\nYou are all wrong\n\n**[GrumpyChef_Mike]**\nBoth of you are wrong\nAnchovies are the real problem\n\n**[MidnightMuncher]**\nUnpopular opinion incoming\nKetchup on eggs is disgusting\n\n**[BurritoQueen88]**\nKetchup on eggs is elite\nYou have no taste\n\n**[SaltedCaramelFan]**\nHot take\nChocolate is overrated\n\n**[NoodleNerd2000]**\nChocolate is overrated?\nGet out of this forum\n\n**[CrispyBaconLord]**\nBacon is not that special\nI said what I said\n\n**[VeggieVibes_Lena]**\nFinally someone said it\nBacon smells better than it tastes\n\n**[DeepFryDave]**\nVeggie burgers taste better than beef\nNo I am not joking\n\n**[ClassicFoodFrank]**\nThat is genuinely insane\nBeef burgers are perfect\n\n**[SpicyMamaRita]**\nMild salsa is pointless\nWhy does it exist\n\n**[IceCreamDreamer]**\nVanilla ice cream is the best flavor\nChocolate fans stay mad\n\n**[PastaPatrol_Jo]**\nSpaghetti is boring\nRigatoni is superior in every way\n\n**[SushiSurfer_Kai]**\nCream cheese in sushi is a crime\nStop doing that\n\n**[WaffleWarrior55]**\nWaffles are better than pancakes\nThis is not debatable\n\n**[PancakePride_Sam]**\nWaffles are just angry pancakes\nPancakes win forever\n\n**[GarlicBreathGuy]**\nGarlic bread is better than regular bread\nThis should be obvious\n\n**[SweetToothSylvia]**\nCake is overrated at birthdays\nPie should replace it\n\n**[HotSauceHero_Dan]**\nHot sauce fixes every bad meal\nThis is a fact not an opinion\n\n**[FrozenFoodFiona]**\nFrozen pizza is better than delivery\nI will not apologize\n\n**[GourmetGremlin]**\nThat is the saddest thing I have read today\nDelivery pizza is sacred\n\n**[LeftoverLover_Pat]**\nLeftovers taste better the next day\nScience agrees with me\n\n**[FreshFoodFanatic]**\nLeftovers are depressing\nCook fresh every time\n\n**[MushroomMadness_Al]**\nMushrooms ruin every dish they touch\nRemove them always\n\n**[UmamiUnderground]**\nMushrooms are the best ingredient\nYour taste buds need help\n\n**[CerealKillerKev]**\nCereal is a valid dinner option\nAdults can eat cereal\n\n**[ProperMealsPriya]**\nCereal for dinner is giving up\nCook something real\n\n**[MustardMaven_Zoe]**\nMustard is better than mayo\nOn everything always\n\n---\n\n*Thread locked after 847 replies*\n*Moderator note: Keep it civil people*",
+  "response_word_count": 333,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

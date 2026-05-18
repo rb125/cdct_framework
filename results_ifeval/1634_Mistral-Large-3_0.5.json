@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "create 4-point rubric for home theater targeting moms:\n* sound quality\n* ease of setup\n* kid-friendly features\n* budget-friendly options",
+  "compressed_word_count": 21,
+  "response": "Here\u2019s a **4-point rubric** for evaluating a **home theater system** tailored to **moms**, focusing on **sound quality, ease of setup, kid-friendly features, and budget-friendly options**.\n\n---\n\n### **Home Theater Rubric for Moms**\n*(Scale: 1 = Poor, 2 = Fair, 3 = Good, 4 = Excellent)*\n\n| **Criteria**          | **1 (Poor)** | **2 (Fair)** | **3 (Good)** | **4 (Excellent)** |\n|-----------------------|-------------|-------------|-------------|------------------|\n| **Sound Quality**     | Muffled, tinny, or weak bass | Decent but lacks clarity or depth | Clear, balanced sound with good bass | Immersive, rich sound with deep bass and crisp highs (e.g., Dolby Atmos, subwoofer included) |\n| **Ease of Setup**     | Requires professional help or complex wiring | Some effort needed (e.g., multiple cables, manual adjustments) | Mostly plug-and-play with clear instructions | Fully wireless, simple setup (e.g., soundbar with Bluetooth, one-cable connection) |\n| **Kid-Friendly Features** | No safety features; fragile or sharp edges | Basic safety (e.g., rounded corners) but no childproofing | Includes childproofing (e.g., parental controls, durable materials) | **Top-tier safety** (e.g., volume limiting, remote lock, soft-touch surfaces, wall mounts included) |\n| **Budget-Friendly Options** | Over $1,000 with no flexibility | $700\u2013$1,000 (limited features) | $400\u2013$700 (good value for features) | **Under $400** (affordable without sacrificing quality, e.g., soundbar + subwoofer bundle) |\n\n---\n\n### **Key Considerations for Moms:**\n1. **Sound Quality** \u2013 Prioritize **clear dialogue** (important for moms multitasking) and **deep bass** (for movie nights).\n2. **Ease of Setup** \u2013 **Wireless options** (Bluetooth, Wi-Fi) and **minimal cables** save time and frustration.\n3. **Kid-Friendly Features** \u2013\n   - **Volume limiting** (to protect hearing)\n   - **Parental controls** (for streaming apps)\n   - **Durable materials** (no glass, easy-to-clean surfaces)\n   - **Wall mounts** (to keep out of reach)\n4. **Budget-Friendly** \u2013 Look for **bundles** (soundbar + subwoofer) or **refurbished/on-sale** options.\n\nWould you like recommendations for specific products based on this rubric? \ud83d\ude0a",
+  "response_word_count": 306,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

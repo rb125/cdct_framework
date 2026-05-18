@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Ball gown vs. sweats dialogue, 3 markdown points",
+  "compressed_word_count": 8,
+  "response": "Here are 3 dialogue points between a Ball Gown and Sweats:\n\n\u2022 **Ball Gown:** \"I am crafted from silk and adorned with crystals \u2014 I was made for grand entrances and unforgettable evenings!\"\n**Sweats:** \"That's cute, but have you ever been worn for a Netflix marathon at 2am? Didn't think so.\"\n\n\u2022 **Ball Gown:** \"People gasp when they see me. I command respect, elegance, and admiration in every room I enter.\"\n**Sweats:** \"People also gasp when they see me \u2014 usually because they're finally relaxing after a long, exhausting day.\"\n\n\u2022 **Ball Gown:** \"I represent the finest moments in life \u2014 weddings, galas, and celebrations worth remembering forever.\"\n**Sweats:** \"And I represent *every other moment* in life, which is basically... all of it. You're welcome.\"",
+  "response_word_count": 125,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

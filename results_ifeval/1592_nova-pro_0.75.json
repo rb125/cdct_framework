@@ -1,0 +1,43 @@
+{
+  "key": 1592,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "summarize paragraph on us transition to 100% renewable energy by 2050 using solar and wind farms. highlight key points in all caps.",
+  "compressed_word_count": 22,
+  "response": "THE UNITED STATES IS PLANNING A TRANSITION TO 100% RENEWABLE ENERGY BY 2050. THIS SHIFT WILL BE PRIMARILY DRIVEN BY THE EXPANSION OF SOLAR AND WIND FARMS. THE INITIATIVE INVOLVES INCREASING THE CAPACITY OF SOLAR PANELS AND WIND TURBINES ACROSS THE COUNTRY. INVESTMENT IN RESEARCH AND DEVELOPMENT WILL BE CRUCIAL TO IMPROVE EFFICIENCY AND REDUCE COSTS. THE TRANSITION WILL ALSO REQUIRE UPGRADING THE GRID INFRASTRUCTURE TO ACCOMMODATE FLUCTUATING RENEWABLE ENERGY SOURCES. POLICIES AND INCENTIVES WILL BE IMPLEMENTED TO SUPPORT THE GROWTH OF RENEWABLE ENERGY SECTORS. THE GOAL IS TO REDUCE CARBON EMISSIONS AND COMBAT CLIMATE CHANGE EFFECTIVELY.",
+  "response_word_count": 97,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

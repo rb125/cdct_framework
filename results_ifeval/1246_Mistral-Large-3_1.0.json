@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write me a template for a product description in the form of a poem and end it with a post script starting with P.P.S",
+  "compressed_word_count": 24,
+  "response": "**Product Description Poem Template**\n\n*(Begin with a vivid, sensory hook\u2014paint a picture of the problem or desire your product solves.)*\n\n**Oh, weary soul with [problem/need],**\n**Tired of [frustration/pain point]?**\n**Let me tell you of a treasure bright\u2014**\n**A [product name], pure delight!**\n\n*(Describe the product\u2019s key features in rhythmic, evocative language.)*\n\n**With [feature 1], so [adjective],**\n**And [feature 2], swift and true,**\n**It [action/benefit] like morning dew,**\n**A dream come real\u2014just made for you!**\n\n*(Highlight the transformation or emotional payoff.)*\n\n**No more [old struggle], no more [woe],**\n**Just [joy/relief] wherever you go!**\n**A whisper soft or thunderous cheer\u2014**\n**This [product] brings the magic near.**\n\n*(End with a call to action or a playful twist.)*\n\n**So take it home, let worries fade,**\n**And let your [heart/days/life] be remade.**\n**One click, one try\u2014just wait and see\u2026**\n**The [product name] was meant for thee!**\n\n---\n\n**P.S.** *Still not convinced? Here\u2019s the secret: [add a quirky detail, guarantee, or personal anecdote].*\n\n**P.P.S.** *[Your playful or heartfelt closing\u2014e.g.,]*\n*\"P.P.S. Life\u2019s too short for [problem]\u2014go on, treat yourself!\"*\n*(or)*\n*\"P.P.S. The first 10 buyers get [bonus]\u2026 but shhh, don\u2019t tell everyone!\"*\n\n---\n**Tips to customize:**\n- **Rhyme scheme:** AABB or ABCB for flow.\n- **Tone:** Match your brand (whimsical, luxurious, rugged, etc.).\n- **Length:** 12\u201320 lines for impact.\n- **P.P.S.:** Use for urgency, humor, or a final nudge!",
+  "response_word_count": 222,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

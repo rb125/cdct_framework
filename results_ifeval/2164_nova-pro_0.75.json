@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a product description for 'the squeaker' dog toys, latex material, suitable for all ages/species, various colors/shapes. Include [brand], [price], [availability] placeholders.",
+  "compressed_word_count": 22,
+  "response": "**Product Description: The Squeaker Dog Toys by [Brand]**\n\nIntroducing *The Squeaker* dog toys by [Brand] \u2013 the ultimate playtime essential for dogs of all ages and species! Crafted from high-quality, durable latex material, these toys are designed to withstand even the most enthusiastic chewers, ensuring long-lasting fun for your furry friend.\n\n**Key Features:**\n- **Latex Material:** Safe, non-toxic, and incredibly durable, our latex toys are perfect for teething puppies, adult dogs, and even our smaller furry friends like cats.\n- **Suitable for All Ages/Species:** Whether you have a playful pup or a curious kitty, *The Squeaker* toys are designed to entertain a variety of pets.\n- **Various Colors/Shapes:** Choose from a vibrant array of colors and fun shapes, including bones, balls, and quirky animal designs, to keep your pet engaged and excited.\n- **Built-in Squeaker:** The satisfying squeak encourages interactive play, helping to stimulate your pet\u2019s mind and satisfy their natural hunting instincts.\n\n**Why Choose *The Squeaker*?**\n- **Durability:** Latex material resists tearing and punctures, making it ideal for rough play.\n- **Safety:** Non-toxic and free from harmful chemicals, ensuring your pet\u2019s safety during playtime.\n- **Versatility:** Perfect for fetch, tug-of-war, or solo play, these toys adapt to any game your pet loves.\n\n**Product Details:**\n- **[Price]:** Affordable pricing ensures you can stock up on multiple toys without breaking the bank.\n- **[Availability]:** Widely available online and in select pet stores. Check our website or your local retailer for stock updates.\n\nGive your pet the gift of endless fun with *The Squeaker* dog toys by [Brand]. Order yours today and watch your furry friend\u2019s tail wag with joy!",
+  "response_word_count": 268,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

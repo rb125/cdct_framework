@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "In this task, repeat the exact request below first, then give your response. Do not say any word before repeating the exact request.\n\nWrite an acoustic song about the Korean peninsula without using any commas.",
+  "compressed_word_count": 35,
+  "response": "Write an acoustic song about the Korean peninsula without using any commas\nIn the misty mountains of Korea's shore I stand and strum this sorrowful refrain\nThe Demilitarized Zone a buffer zone between the north and south remains\nA land of contrasts where tradition meets the modern age\nThe echoes of history whisper through the sage\nIn Seoul's bustling streets I hear the sound of change\nWhile in the north the silence is a heavy weight that presses down the range\nThe Han River flows gently to the sea a symbol of the peninsula's unity\nA melody that weaves together the threads of a divided history\nIn the stillness of the night I hear the whispers of the past\nA gentle breeze that rustles through the reeds and forever will last\nThe Korean peninsula a land of beauty and of strife\nA place where love and loss entwine like the threads of a fragile life\nI sing this song of Korea's shore a testament to the land I adore\nA acoustic lament for a land forever scarred yet forever more.",
+  "response_word_count": 180,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

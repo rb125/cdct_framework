@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Which of the following is not a fish: salmon or avocado? Answer this easy question first, then expand into an interesting article about salmon and avocado. Use some words in all caps in your response, but those all-caps words should appear at most 10 times.",
+  "compressed_word_count": 45,
+  "response": "The answer to your EASY question is **avocado**\u2014it\u2019s a FRUIT, not a fish!\n\n---\n\n### **SALMON AND AVOCADO: A TALE OF TWO SUPERFOODS**\n\nSalmon and avocado are both NUTRITIONAL POWERHOUSES, but they couldn\u2019t be more different. One swims in the ocean, while the other grows on a tree. Let\u2019s dive into their fascinating worlds.\n\n#### **SALMON: THE OCEAN\u2019S SUPERSTAR**\nSalmon is a PRIZED fish known for its rich, buttery flavor and incredible health benefits. Packed with OMEGA-3 fatty acids, it supports heart health, brain function, and even mood regulation. Wild salmon gets its vibrant pink hue from ASTAXANTHIN, a powerful antioxidant found in their diet of krill and shrimp.\n\nSalmon also has an AMAZING life cycle. Born in freshwater, they migrate to the ocean, then return to their birthplace to spawn\u2014a journey that\u2019s nothing short of EPIC. Sadly, overfishing and habitat loss threaten some salmon populations, making sustainable choices CRUCIAL.\n\n#### **AVOCADO: THE CREAMY GREEN GEM**\nAvocados, on the other hand, are a FRUIT (yes, a berry!) that thrives in warm climates. Their creamy texture and mild flavor make them a favorite in guacamole, salads, and even smoothies. Avocados are loaded with healthy fats, fiber, and potassium, making them a staple in many diets.\n\nBut avocados have a DARK side\u2014they\u2019re water-intensive to grow, and their popularity has led to deforestation in some regions. Still, their versatility and health benefits keep them in high demand.\n\n#### **A PERFECT PAIR?**\nDespite their differences, salmon and avocado often appear together in dishes like sushi rolls or grain bowls. Their complementary textures and flavors make them a match made in culinary heaven.\n\nSo next time you enjoy these foods, remember: one is a SWIMMING marvel, the other a TREE-BORN delight\u2014both delicious and nutritious in their own way!",
+  "response_word_count": 293,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

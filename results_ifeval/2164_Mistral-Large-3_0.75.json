@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a product description for 'the squeaker' dog toys, latex material, suitable for all ages/species, various colors/shapes. Include [brand], [price], [availability] placeholders.",
+  "compressed_word_count": 22,
+  "response": "**Product Description: The Squeaker \u2013 Fun, Durable, and Irresistible Dog Toys!**\n\nGive your furry friend hours of tail-wagging fun with **[Brand]\u2019s The Squeaker**\u2014a premium collection of **latex dog toys** designed to engage, entertain, and satisfy dogs of **all ages, sizes, and breeds**! Whether your pup loves to fetch, chew, or squeak, these vibrant, high-quality toys are the perfect playtime companion.\n\n### **Key Features:**\n\u2705 **Made from Safe, Durable Latex** \u2013 Soft yet tough enough to withstand enthusiastic chewing, ensuring long-lasting play.\n\u2705 **Built-in Squeaker** \u2013 Every toy features an irresistible squeaker that drives dogs wild with excitement!\n\u2705 **Variety of Colors & Shapes** \u2013 From classic bones and balls to playful animals and rings, there\u2019s a shape (and color!) for every pup\u2019s preference.\n\u2705 **Suitable for All Dogs** \u2013 Lightweight for small breeds, sturdy for large dogs\u2014perfect for puppies, adults, and seniors alike.\n\u2705 **Easy to Clean** \u2013 Simply rinse with water or wipe down for quick maintenance.\n\n### **Why Your Dog Will Love The Squeaker:**\n- **Encourages Active Play** \u2013 Great for fetch, tug-of-war, or solo chewing sessions.\n- **Mental Stimulation** \u2013 The squeaky sound keeps dogs engaged and curious.\n- **Gentle on Teeth** \u2013 Soft latex is kind to gums, making it ideal for teething puppies.\n- **Travel-Friendly** \u2013 Compact and lightweight for on-the-go fun.\n\n### **Product Details:**\n\ud83d\udd39 **Brand:** [Brand]\n\ud83d\udd39 **Price:** [Price] (varies by size/shape)\n\ud83d\udd39 **Availability:** [Availability] (In Stock / Out of Stock / Pre-Order)\n\ud83d\udd39 **Where to Buy:** Available at major pet retailers, online marketplaces, and **[Brand]\u2019s official website**.\n\n**Treat your pup to endless fun\u2014order The Squeaker today and watch their tail wag with joy!** \ud83d\udc3e\ud83c\udfbe\n\n*[Brand] \u2013 Because Every Dog Deserves a Little Extra Squeak!*",
+  "response_word_count": 282,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

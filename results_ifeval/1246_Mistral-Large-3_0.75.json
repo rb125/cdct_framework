@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a product description poem, ending with a P.P.S. note. No commas, formal tone, concise details.",
+  "compressed_word_count": 16,
+  "response": "**Ode to the Timeless Quill**\n\nBehold this pen of grace refined\nA weightless touch in hand enshrined\nIts ink flows smooth on parchment bright\nA dance of words in silver light\n\nThe nib is gold no fleck shall mar\nIts craft endures both near and far\nNo smudge nor blot shall dare appear\nEach stroke is sharp each line is clear\n\nFor scholars poets kings it gleams\nA tool of dreams in waking schemes\nTake up this wand of endless art\nAnd write your name upon the heart\n\n**P.S.** The case is leather dark and deep\nA vault for treasures you shall keep\n\n**P.P.S.** Should fate demand a finer blade\nThis quill shall never be outmade",
+  "response_word_count": 116,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.14142135623730953,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

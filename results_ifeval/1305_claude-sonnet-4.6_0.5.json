@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Generate 10 baby boy names, bullet-point style. P.P.S: add a note starting with 'p.p.s.'",
+  "compressed_word_count": 14,
+  "response": "Here are 10 baby boy names:\n\n\u2022 Liam\n\u2022 Noah\n\u2022 Elijah\n\u2022 Oliver\n\u2022 James\n\u2022 Lucas\n\u2022 Benjamin\n\u2022 Henry\n\u2022 Sebastian\n\u2022 Theodore\n\np.p.s. These names have been consistently popular in recent years and have beautiful meanings behind them!",
+  "response_word_count": 42,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.18856180831641267,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

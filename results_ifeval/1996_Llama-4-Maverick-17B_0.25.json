@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Story on hidden truths; <cap>stress<cap> words <20.",
+  "compressed_word_count": 7,
+  "response": "Life had its secrets. Behind smiles, pain hid. People wore masks, concealing true feelings. A friend's laughter echoed, but beneath, stress and anxiety brewed. Few knew the hidden truths.",
+  "response_word_count": 29,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.7,
+        "FC": 0.6
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.3
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.5666666666666667,
+      "FC": 0.4666666666666666,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.1247219128924647
+    }
+  }
+}

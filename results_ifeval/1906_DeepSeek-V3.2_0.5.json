@@ -1,0 +1,43 @@
+{
+  "key": 1906,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "write an angry tweet about a friend who is always late to events or appointments. craft a concise, no-emotion-filter social media post on punctuality issues.",
+  "compressed_word_count": 25,
+  "response": "@FriendName, your chronic lateness is disrespectful. It\u2019s not \u201cfashionably late,\u201d it\u2019s just rude. My time is not your waiting room. Be on time or don\u2019t bother. #Punctuality",
+  "response_word_count": 27,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

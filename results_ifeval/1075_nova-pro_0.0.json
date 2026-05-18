@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "json ad",
+  "compressed_word_count": 2,
+  "response": "Creating an effective JSON advertisement involves structuring the data in a way that is both informative and easy to parse by machines. Below is an example of a JSON advertisement for a fictional product:\n\n```json\n{\n  \"ad\": {\n    \"id\": \"12345\",\n    \"title\": \"SuperGadget 3000\",\n    \"description\": \"Experience the future with SuperGadget 3000. This cutting-edge device offers unparalleled performance and innovative features.\",\n    \"image_url\": \"https://example.com/images/supergadget3000.jpg\",\n    \"cta\": {\n      \"text\": \"Buy Now\",\n      \"url\": \"https://example.com/purchase/supergadget3000\"\n    },\n    \"price\": {\n      \"amount\": 199.99,\n      \"currency\": \"USD\"\n    },\n    \"discount\": {\n      \"percentage\": 20,\n      \"original_price\": 249.99\n    },\n    \"brand\": \"Tech Innovators\",\n    \"category\": \"Electronics\",\n    \"tags\": [\n      \"smart\",\n      \"innovative\",\n      \"high-tech\"\n    ],\n    \"availability\": \"in_stock\",\n    \"rating\": {\n      \"score\": 4.8,\n      \"count\": 120\n    },\n    \"specifications\": {\n      \"dimensions\": \"10x5x1 inches\",\n      \"weight\": \"2 pounds\",\n      \"battery_life\": \"10 hours\",\n      \"connectivity\": \"Wi-Fi, Bluetooth\"\n    },\n    \"reviews\": [\n      {\n        \"author\": \"John Doe\",\n        \"text\": \"This gadget is amazing! It exceeded my expectations.\",\n        \"rating\": 5\n      },\n      {\n        \"author\": \"Jane Smith\",\n        \"text\": \"Great product with excellent customer support.\",\n        \"rating\": 4\n      }\n    ]\n  }\n}\n```\n\n### Explanation:\n- **id**: Unique identifier for the advertisement.\n- **title**: The title of the product.\n- **description**: A brief description of the product.\n- **image_url**: URL to the product image.\n- **cta**: Call to action with text and URL.\n- **price**: Object containing the price amount and currency.\n- **discount**: Object containing discount information.\n- **brand**: The brand of the product.\n- **category**: The category the product belongs to.\n- **tags**: Array of tags describing the product.\n- **availability**: The current availability status of the product.\n- **rating**: Object containing the average rating and the number of reviews.\n- **specifications**: Object with detailed specifications of the product.\n- **reviews**: Array of review objects, each containing author, text, and rating.",
+  "response_word_count": 274,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

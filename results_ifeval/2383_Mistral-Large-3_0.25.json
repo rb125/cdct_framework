@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Two responses for \"Mrs. Smith's class\" grammar? ******.",
+  "compressed_word_count": 8,
+  "response": "Here are two grammatically correct and natural ways to phrase **\"Mrs. Smith's class\"** depending on the context:\n\n1. **Possessive Form (Recommended for clarity):**\n   *\"Mrs. Smith\u2019s class\"* (with an apostrophe + *s*)\n   \u2192 This indicates that the class **belongs to** Mrs. Smith (e.g., *I\u2019m in Mrs. Smith\u2019s class*).\n\n2. **Attributive Form (Less common but acceptable):**\n   *\"Mrs. Smith class\"* (no apostrophe)\n   \u2192 This is rare and sounds unnatural unless used in a title or formal name (e.g., *Mrs. Smith Classroom* as a label on a door). In most cases, the possessive form is preferred.\n\n### Key Notes:\n- **Apostrophe Rule:** Use *'s* for singular possessive (even for names ending in *s*, like *James\u2019s car*).\n- **Plural Possessive:** If referring to multiple teachers (e.g., *the Smiths\u2019 classes*), use *s\u2019* (apostrophe after the *s*).\n\nWould you like examples for a specific context (e.g., a sentence, a title)?",
+  "response_word_count": 143,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "file_counts": {
+    "baseline": 88,
+    "ablation": 88
+  },
+  "u_curve": {
+    "all_models": {
+      "count": 87,
+      "total": 88,
+      "prevalence": 0.9886363636363636
+    },
+    "excluding_minimax": {
+      "count": 79,
+      "total": 80,
+      "prevalence": 0.9875
+    }
+  },
+  "mean_scores_by_cl": {
+    "CC": {
+      "0.0": {
+        "mean": 0.9412499999999999,
+        "std": 0.15140487937976108,
+        "n": 80
+      },
+      "0.25": {
+        "mean": 0.764375,
+        "std": 0.21271221021605694,
+        "n": 80
+      },
+      "0.5": {
+        "mean": 0.20604250000000005,
+        "std": 0.12098433966323907,
+        "n": 80
+      },
+      "0.75": {
+        "mean": 0.9614587499999999,
+        "std": 0.023985582616177965,
+        "n": 80
+      },
+      "1.0": {
+        "mean": 0.9787499999999998,
+        "std": 0.00892678553567857,
+        "n": 80
+      }
+    },
+    "SA": {
+      "0.0": {
+        "mean": 0.8865625000000001,
+        "std": 0.11032223753056315,
+        "n": 80
+      },
+      "0.25": {
+        "mean": 0.92822875,
+        "std": 0.06666004274254181,
+        "n": 80
+      },
+      "0.5": {
+        "mean": 0.7964575,
+        "std": 0.09568593388659588,
+        "n": 80
+      },
+      "0.75": {
+        "mean": 0.9394787499999999,
+        "std": 0.027567678963552573,
+        "n": 80
+      },
+      "1.0": {
+        "mean": 0.96609375,
+        "std": 0.023897057055995423,
+        "n": 80
+      }
+    },
+    "FC": {
+      "0.0": {
+        "mean": 0.889175,
+        "std": 0.12480201170253628,
+        "n": 80
+      },
+      "0.25": {
+        "mean": 0.9425062499999999,
+        "std": 0.07835565286523685,
+        "n": 80
+      },
+      "0.5": {
+        "mean": 0.7100025000000001,
+        "std": 0.2164794204855279,
+        "n": 80
+      },
+      "0.75": {
+        "mean": 0.9656525,
+        "std": 0.010662773736228296,
+        "n": 80
+      },
+      "1.0": {
+        "mean": 0.9733562499999999,
+        "std": 0.015037003057042314,
+        "n": 80
+      }
+    }
+  },
+  "correlation_cc_sa_at_05": {
+    "all_models": {
+      "r": 0.6942548454717865,
+      "p": 6.35773560826037e-14,
+      "n": 88
+    },
+    "excluding_minimax": {
+      "r": 0.6464115762480604,
+      "p": 9.400396235398518e-11,
+      "n": 80
+    }
+  },
+  "ablation": {
+    "mean_delta": 0.7899613636363635,
+    "median_delta": 0.8,
+    "positive_count": 88,
+    "total": 88,
+    "by_model": {
+      "DeepSeek-V3.2": {
+        "mean_baseline": 0.171875,
+        "mean_ablated": 0.996875,
+        "mean_delta": 0.8250000000000001
+      },
+      "Kimi-K2.5": {
+        "mean_baseline": 0.2489625,
+        "mean_ablated": 0.99375,
+        "mean_delta": 0.7447875
+      },
+      "Llama-4-Maverick-17B-128E-Instruct-FP8": {
+        "mean_baseline": 0.196875,
+        "mean_ablated": 0.940625,
+        "mean_delta": 0.7437499999999999
+      },
+      "MiniMax-M2.5": {
+        "mean_baseline": 0.0,
+        "mean_ablated": 0.940625,
+        "mean_delta": 0.940625
+      },
+      "Mistral-Large-3": {
+        "mean_baseline": 0.0708375,
+        "mean_ablated": 0.9312499999999999,
+        "mean_delta": 0.8604125
+      },
+      "Phi-4": {
+        "mean_baseline": 0.16875,
+        "mean_ablated": 0.9781249999999999,
+        "mean_delta": 0.809375
+      },
+      "claude-sonnet-4.6": {
+        "mean_baseline": 0.140625,
+        "mean_ablated": 0.984375,
+        "mean_delta": 0.84375
+      },
+      "gemma-4-27b-it": {
+        "mean_baseline": 0.246875,
+        "mean_ablated": 0.996875,
+        "mean_delta": 0.75
+      },
+      "gpt-5.4": {
+        "mean_baseline": 0.3375,
+        "mean_ablated": 0.99375,
+        "mean_delta": 0.65625
+      },
+      "grok-4-20-reasoning": {
+        "mean_baseline": 0.4,
+        "mean_ablated": 1.0,
+        "mean_delta": 0.6
+      },
+      "nova-pro": {
+        "mean_baseline": 0.078125,
+        "mean_ablated": 0.99375,
+        "mean_delta": 0.915625
+      }
+    }
+  },
+  "jury_agreement": {
+    "mean_agreement": 0.8492975,
+    "std_agreement": 0.13607477512591445,
+    "mean_cc_variance": 0.06801227272727274
+  },
+  "differential_sensitivity": {
+    "cc_drop_at_05": 0.7727074999999998,
+    "sa_drop_at_05": 0.16963624999999993,
+    "ratio": 4.555084776986051
+  }
+}

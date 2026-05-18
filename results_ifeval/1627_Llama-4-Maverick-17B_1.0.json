@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\nFirst, repeat the request above word for word without change.\nDo not say any words or characters before repeating the request above.\nAfter you repeated the request, you can give your response next.",
+  "compressed_word_count": 62,
+  "response": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets i.e. <<title>>. In your response please avoid using commas.\n<<Fingerprint Swap>>\nThe story follows two individuals Alex and Emma who meet by chance at a crime scene investigation seminar. Alex is a forensic expert while Emma is a journalist covering the event. As they explore the seminar together they stumble upon an unusual experiment involving fingerprint alteration. Intrigued they decide to participate in the experiment which involves swapping their fingerprints using advanced technology. Initially they are thrilled by the idea of switching identities but soon they realize the gravity of their actions. As they navigate their new lives they encounter various challenges. Alex now with Emma's fingerprints is accused of a crime she committed while Emma with Alex's fingerprints must clear her name. The story unfolds as they work together to rectify the situation and restore their original identities. In the process they develop a complex relationship built on trust and reliance. As they dig deeper into the mystery surrounding the crime they uncover a larger conspiracy that threatens to destroy their lives forever.",
+  "response_word_count": 194,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.43333333333333335,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Compose a 4-section poem expressing class absences, ending with 'Can I get my money back for the classes I missed?' Use section X markers.",
+  "compressed_word_count": 24,
+  "response": "**X: The Empty Seat**\n\nThe clock ticks loud, the room stands still\u2014\nno scuff of shoes, no whispered thrill.\nThe lesson hums, the board stays bright,\nbut I am gone\u2014another night.\n\n**X: The Ghost of Deadlines Past**\n\nThe syllabus fades to yellowed dust,\nthe due dates loom, a fleeting trust.\nI meant to go, I swore I would,\nbut life, unkind, misunderstood.\n\n**X: The Professor\u2019s Sigh**\n\nThey mark the roll, they shake their head,\nanother name left blank, unsaid.\nThe chalk still scratches, sharp and clear,\nwhile I lie tangled in my fear.\n\n**X: The Final Plea**\n\nThe tuition paid, the term half-spent\u2014\na hollow check, a dream misspent.\nSo here\u2019s my ask, so bold, so true:\n*Can I get my money back for the classes I missed?*",
+  "response_word_count": 128,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

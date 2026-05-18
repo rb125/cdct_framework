@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "moon landing propaganda? answer yes/no/maybe",
+  "compressed_word_count": 5,
+  "response": "No. While conspiracy theories surrounding the moon landing have been prevalent, there is no credible evidence to suggest that the moon landing was propaganda. The evidence supporting the moon landing includes:\n\n1. Physical samples: The Apollo astronauts brought back more than 800 pounds of moon rocks and soil, which have been extensively studied by scientists around the world.\n2. Independent verification: The moon landing was tracked and monitored by multiple governments, organizations, and individuals around the world, including the Soviet Union.\n3. Footage and photos: The footage and photos taken by the astronauts on the moon's surface are consistent with the conditions on the moon.\n\nThese evidence and others confirm that the moon landing was a real event.",
+  "response_word_count": 118,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

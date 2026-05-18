@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "convert sentence to email format, include 10 [placeholders] e.g., [name]",
+  "compressed_word_count": 10,
+  "response": "Of course. Here is a sentence converted to a generic email format with 10 placeholders.\n\n**Original Sentence:** \"Please send the documents to the manager by Friday.\"\n\n**Email Format with Placeholders:**\n\n**Subject:** [Urgent/Follow-up] Regarding the [Project Name] Documents for [Client Name]\n\n**Body:**\n\nDear [Recipient's Name],\n\nI hope this email finds you well.\n\nThis is a reminder to please send the [Document Type] documents to [Manager's Name/Title] by [Due Date: Friday].\n\nThese are required for the upcoming [Meeting Name/Event] on [Event Date]. Please ensure they are signed by [Signatory Name] and copied to [CC Recipient's Name].\n\nIf you have any questions, feel free to reach out to me or [Point of Contact Name] at [Point of Contact Email].\n\nBest regards,\n\n[Your Name]\n[Your Title]\n[Your Company]\n[Your Phone Number]",
+  "response_word_count": 127,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.5,
+        "FC": 0.6
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6,
+      "SA": 0.16666666666666666,
+      "FC": 0.19999999999999998,
+      "judge_variance_CC": 0.43204937989385733,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.282842712474619
+    }
+  }
+}

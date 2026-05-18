@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "verify if \"happy birthday\" was the first song sung in space; confirm with \"my answer is yes,\" \"no,\" or \"maybe.",
+  "compressed_word_count": 20,
+  "response": "My answer is no.\n\nThe first song sung in space was \"Daisy Bell (Bicycle Built for Two)\" by astronaut David Scott during the Apollo 9 mission in 1969. \"Happy Birthday\" was famously sung in space later, notably by the crew of Skylab 2 in 1973 to celebrate Ursula Schmitt\u2019s birthday, but it was not the first song sung in space.",
+  "response_word_count": 60,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

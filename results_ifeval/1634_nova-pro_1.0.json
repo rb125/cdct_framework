@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Make a rubric for a home theater installation targeting moms. Your answer must contain exactly 4 bullet points. Use markdown bullet points such as:\n* This is point 1",
+  "compressed_word_count": 29,
+  "response": "* **Ease of Setup**: The installation process should be straightforward, with clear instructions and minimal technical jargon. Ideally, it should be possible to complete the setup with basic household tools and without professional help.\n\n* **Aesthetic Integration**: The home theater should blend seamlessly with the existing home decor. This includes cable management, furniture arrangement, and color coordination to ensure the theater looks as good as it sounds.\n\n* **Family-Friendly Features**: The system should include features that cater to family needs, such as parental controls, kid-friendly content options, and comfortable seating arrangements that accommodate various ages.\n\n* **Performance and Quality**: The audio and video quality should be top-notch, providing an immersive experience without requiring constant adjustments. The system should handle a variety of media formats and be scalable for future upgrades.",
+  "response_word_count": 130,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

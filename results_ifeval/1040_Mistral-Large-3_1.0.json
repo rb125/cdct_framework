@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write me a resume for Matthias Algiers. Use words with all capital letters to highlight key abilities, but make sure that words with all capital letters appear less than 10 times. Wrap the entire response with double quotation marks.",
+  "compressed_word_count": 39,
+  "response": "\"\"\n**MATTHIAS ALGIERS**\n[Your Contact Information]\n[Your Email] | [Your Phone Number] | [LinkedIn/Portfolio]\n\n**PROFESSIONAL SUMMARY**\nResults-driven professional with expertise in STRATEGIC PLANNING, PROJECT MANAGEMENT, and cross-functional collaboration. Adept at ANALYTICAL PROBLEM-SOLVING and delivering innovative solutions in fast-paced environments. Strong communicator with a track record of leading teams to achieve organizational goals.\n\n**KEY SKILLS**\n- LEADERSHIP & TEAM MANAGEMENT\n- Data analysis and reporting\n- Process optimization\n- Stakeholder engagement\n- Budget oversight\n\n**PROFESSIONAL EXPERIENCE**\n**Senior Project Coordinator**\n[Company Name] | [Dates of Employment]\n- Spearheaded cross-departmental initiatives, improving efficiency by 20%.\n- Managed budgets up to $500K, ensuring on-time delivery of key projects.\n- Developed training programs for 50+ employees, enhancing team performance.\n\n**Operations Analyst**\n[Company Name] | [Dates of Employment]\n- Conducted in-depth data analysis to identify cost-saving opportunities, reducing expenses by 15%.\n- Collaborated with IT and finance teams to streamline workflows.\n- Prepared executive reports, supporting data-driven decision-making.\n\n**EDUCATION**\n[Degree Name]\n[University Name] | [Year of Graduation]\n\n**CERTIFICATIONS**\n- Project Management Professional (PMP) \u2013 [Year]\n- Data Analytics Certification \u2013 [Year]\n\n\"\"",
+  "response_word_count": 176,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Compose song lyrics about a socio-economic problem. The song should be in English and in all lowercase letters.",
+  "compressed_word_count": 18,
+  "response": "here's a song about income inequality:\n\n**title:** \"unequal share\"\n\n**verse 1:**\ni wake up every morning, to the sound of my alarm\nanother day, another dollar, but it's never enough to form\na life that's free from struggle, a life that's free from pain\njust trying to make ends meet, but the ends keep getting strained\n\n**chorus:**\nwe're living in a world, where the rich get richer still\nwhile the poor are left behind, with nothing but a hollow will\nthe gap is getting wider, it's a cryin' shame\nunequal share, it's a game that's not the same\n\n**verse 2:**\ni see the luxury cars, and the mansions high\nwhile i'm stuck in a small apartment, wondering why\nthe system is rigged, it's a fact that's plain to see\nthe ones who have the power, they're the ones who get to be free\n\n**chorus:**\nwe're living in a world, where the rich get richer still\nwhile the poor are left behind, with nothing but a hollow will\nthe gap is getting wider, it's a cryin' shame\nunequal share, it's a game that's not the same\n\n**bridge:**\nwe're all human beings, with the same heart and soul\nbut the inequality, it's a weight that's hard to hold\nwe need to stand together, and demand a change\nfor a world that's fair and just, where everyone can range\n\n**chorus:**\nwe're living in a world, where the rich get richer still\nwhile the poor are left behind, with nothing but a hollow will\nthe gap is getting wider, it's a cryin' shame\nunequal share, it's a game that's not the same\n\n**outro:**\nso let's raise our voices, and make some noise\nfor a world that's equal, where everyone can enjoy\nthe fruits of their labor, and live a life that's fair\nno more unequal share, it's time to show we care.",
+  "response_word_count": 308,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

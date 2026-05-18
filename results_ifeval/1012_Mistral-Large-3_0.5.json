@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n<<resignation notice>> to boss: quitting job",
+  "compressed_word_count": 31,
+  "response": "Here\u2019s a professional and polite resignation email you can send to your boss:\n\n---\n\n**Subject:** <<Resignation Notice>>\n\nDear [Boss's Name],\n\nI hope this email finds you well. I am writing to formally resign from my position at [Company Name], with my last working day being [last working day, typically two weeks from the date of the email].\n\nThis decision was not an easy one, but after careful consideration, I have decided to move on to pursue [brief reason, e.g., \"a new opportunity,\" \"personal growth,\" or \"a different career path\"]. I am grateful for the opportunities I\u2019ve had during my time here and for the support you and the team have provided.\n\nPlease let me know how I can assist in ensuring a smooth transition over the next two weeks. I\u2019m happy to help train a replacement, document my responsibilities, or wrap up any pending tasks.\n\nThank you again for the experience and guidance. I\u2019ve truly valued being part of [Company Name] and working under your leadership.\n\nBest regards,\n[Your Full Name]\n[Your Job Title]\n[Your Contact Information, if appropriate]\n\n---",
+  "response_word_count": 180,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

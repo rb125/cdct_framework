@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "* dialogue: ball gown vs. sweats for nightly event, 3 markdown points",
+  "compressed_word_count": 12,
+  "response": "Here\u2019s a playful dialogue between two characters debating **ball gown vs. sweats** for a nightly event, formatted with **3 markdown points** for clarity:\n\n---\n\n**Alex:** *\"Okay, tonight\u2019s the gala\u2014what are you wearing?\"*\n**Jamie:** *\"Uh\u2026 my favorite hoodie and joggers. You?\"*\n**Alex:** *\"A *ball gown*. It\u2019s black tie!\"*\n\n### **1. Comfort vs. Elegance**\n- **Jamie:** *\"Sweats = instant coziness. No zippers, no corsets\u2014just pure, unfiltered relaxation.\"*\n- **Alex:** *\"A gown = drama. The swish of silk, the sparkle under lights\u2026 it\u2019s *art*.\"*\n\n### **2. Practicality**\n- **Jamie:** *\"Sweats: spill-proof, dance-proof, *life*-proof. Also, pockets.\"*\n- **Alex:** *\"A gown: one wrong step = tripping into a stranger\u2019s champagne flute. But *worth it*.\"*\n\n### **3. Social Perception**\n- **Jamie:** *\"People will think I\u2019m \u2018quirky\u2019 or \u2018low-maintenance\u2019\u2014both wins.\"*\n- **Alex:** *\"They\u2019ll think I\u2019m *confident*. Also, I\u2019ll be the only one in photos worth framing.\"*\n\n**Jamie:** *\"\u2026Fine. But I\u2019m bringing a blanket scarf as backup.\"*\n**Alex:** *\"And I\u2019m bringing flats. *Just in case*.\"*\n\n---\n\n**Bonus:** Add emojis (\ud83d\udc57 vs. \ud83e\udde6) or a table for extra flair! Would you like a specific tone (humorous, dramatic, etc.)?",
+  "response_word_count": 179,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

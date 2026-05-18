@@ -1,0 +1,43 @@
+{
+  "key": 1372,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "write blog on ripley's aquarium; include 7 [placeholders]",
+  "compressed_word_count": 8,
+  "response": "**Dive into the Wonders of Ripley's Aquarium: A Fin-tastic Adventure**\n\nLocated in the heart of [1: City or Location], Ripley's Aquarium is a must-visit destination for anyone who loves the ocean and its inhabitants. As you step into this underwater world, you'll be transported to a realm of breathtaking beauty and fascinating marine life.\n\nUpon entering the aquarium, you'll be greeted by the stunning [2: Name of Attraction or Exhibit], a massive tank that houses a diverse array of fish, sharks, and other sea creatures. As you make your way around the tank, you'll be surrounded by the sights and sounds of the ocean, with [3: Number] species of fish and other marine animals to discover.\n\nOne of the highlights of Ripley's Aquarium is the [4: Name of Exhibit or Attraction], where you can get up close and personal with some of the ocean's most fascinating creatures, including stingrays, sea turtles, and colorful fish of all kinds. You can even touch some of the marine animals in the interactive touch pools, making for a fun and educational experience for visitors of all ages.\n\nAs you explore the aquarium, you'll also have the opportunity to learn about the importance of marine conservation and the impact of human activities on the ocean's ecosystem. The aquarium's educational programs and exhibits, such as [5: Name of Program or Exhibit], are designed to inspire a sense of wonder and respect for the ocean and its inhabitants.\n\nIn addition to its many exhibits and attractions, Ripley's Aquarium also offers a range of interactive experiences, including [6: Name of Interactive Experience]. Whether you're a thrill-seeker or just looking for a fun and educational experience, Ripley's Aquarium has something for everyone.\n\nSo why not plan your visit to Ripley's Aquarium today and discover the wonders of the ocean for yourself? With its unique blend of education and entertainment, it's an experience you won't soon forget. And when you're done exploring the aquarium, be sure to check out the [7: Nearby Attraction or Activity] in the surrounding area, which offers a range of additional fun and activities to enjoy.\n\n**Address:** Ripley's Aquarium, [1: City or Location]\n**Hours:** Check the official website for up-to-date hours and ticket information.\n\nCome and experience the magic of Ripley's Aquarium for yourself \u2013 we can't wait to see you there!",
+  "response_word_count": 386,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

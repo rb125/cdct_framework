@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Write an acoustic song about the Korean peninsula without using any commas.  \nCompose an acoustic song on the Korean peninsula theme no commas.",
+  "compressed_word_count": 23,
+  "response": "# **Two Shores / One River**\n*(Acoustic Folk Song)*\n\n---\n\n**[Verse 1]**\nAcross the mountains wrapped in morning mist\nThe Han River runs through every fist\nOf stone and soil and memory so deep\nA thousand years of stories in our sleep\n\n**[Pre-Chorus]**\nNorth and south beneath the same pale moon\nThe cranes still fly from June to June\n\n**[Chorus]**\nOh peninsula reaching to the sea\nDivided land still dreaming to be free\nThe pine trees grow on both sides of the wire\nAnd grandmothers still tend the same old fire\n\n**[Verse 2]**\nThe fishermen cast nets in yellow waves\nWhile children learn the names of ancient graves\nPyongyang and Seoul both hear the morning bell\nTwo halves of one long story left to tell\n\n**[Pre-Chorus]**\nNorth and south beneath the same pale moon\nThe cranes still fly from June to June\n\n**[Chorus]**\nOh peninsula reaching to the sea\nDivided land still dreaming to be free\nThe pine trees grow on both sides of the wire\nAnd grandmothers still tend the same old fire\n\n**[Bridge]**\nSeventy years of silence on the line\nBut roots grow deep beneath the DMZ vine\nOne language whispered through the mountain air\nOne people carrying more than they can bear\n\n**[Outro]**\nOh carry me home across that frozen ground\nWhere north meets south and peace is finally found\nWhere north meets south and peace is finally found\n\n---\n\n*Tuning: DADGAD \u2014 Capo 3*",
+  "response_word_count": 238,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

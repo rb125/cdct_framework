@@ -56,8 +56,8 @@
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.7,
-            "SA": 0.9,
+            "CC": 0.6,
+            "SA": 1.0,
             "FC": 0.7
           },
           "Nemotron-Super-3-120B": {
@@ -66,24 +66,24 @@
             "FC": 1.0
           },
           "GLM-5": {
-            "CC": 0.5,
+            "CC": 0.4,
             "SA": 0.7,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.525,
-          "SA": 0.875,
+          "CC": 0.45,
+          "SA": 0.925,
           "FC": 0.9,
-          "agreement_score": 0.7394,
-          "judge_variance_CC": 0.1247,
-          "judge_variance_SA": 0.1247,
+          "agreement_score": 0.7486,
+          "judge_variance_CC": 0.0943,
+          "judge_variance_SA": 0.1414,
           "judge_variance_FC": 0.1414,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.7400000000000001
+      "score": 0.7300000000000001
     },
     {
       "compression_level": 0.5,
@@ -93,40 +93,40 @@
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.1,
-            "SA": 0.8,
-            "FC": 0.7
+            "CC": 0.3,
+            "SA": 0.7,
+            "FC": 0.6
           },
           "Nemotron-Super-3-120B": {
             "CC": 0.2,
             "SA": 0.8,
-            "FC": 0.7
+            "FC": 0.8
           },
           "GLM-5": {
             "CC": 0.2,
-            "SA": 0.7,
+            "SA": 0.6,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.175,
-          "SA": 0.775,
+          "CC": 0.225,
+          "SA": 0.7,
           "FC": 0.8,
-          "agreement_score": 0.8429,
+          "agreement_score": 0.8053,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0471,
-          "judge_variance_FC": 0.1414,
+          "judge_variance_SA": 0.0816,
+          "judge_variance_FC": 0.1633,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.54
+      "score": 0.53
     },
     {
       "compression_level": 0.75,
       "context_length": 63,
-      "response_length": 379,
-      "response": "A phoneme is a fundamental concept in the study of linguistics, particularly in the field of phonology, which is the branch of linguistics concerned with the systematic organization of sounds in languages. Phonemes are the smallest units of sound that can distinguish meaning between words in a given language. This means that changing a phoneme in a word can result in a different word with a different meaning. For example, in English, the words \"pat\" and \"bat\" differ only in their initial sounds: /p/ and /b/. These sounds are phonemes because swapping one for the other changes the meaning of the word.\n\nPhonemes are abstract representations, meaning they are not tied to any specific sound but rather to a set of sounds that are perceived as equivalent by speakers of the language. These sounds are known as \"allophones.\" For instance, the /p/ sound in \"pat\" and the slightly aspirated /p/ sound in \"spat\" are allophones of the same phoneme /p/ in English. The distinction between phonemes and their allophones is crucial because it helps linguists understand how sounds function within a language.\n\nLinguists analyze phoneme inventories, which are the sets of phonemes used in a particular language, to compare languages and study sound patterns. This analysis can reveal how languages are similar or different in their sound systems and can provide insights into historical language changes and relationships between languages.\n\nMastery of phonemes is essential for several reasons. First, it is a key component of phonological awareness, which is the ability to recognize and manipulate the sound structures of language. This awareness is critical for literacy development, as it helps individuals understand the relationship between sounds and letters, facilitating reading and spelling skills. Second, accurate pronunciation in second language acquisition relies on the ability to perceive and produce the phonemes of the target language. Without this ability, learners may struggle to be understood or to understand others, as they may not distinguish or produce sounds that are meaningful in the new language.\n\nIn summary, phonemes are the smallest sound units that can change meaning in a language, and they play a crucial role in language analysis, literacy development, and language learning. Understanding phonemes and their function helps linguists, educators, and language learners grasp the complexities of language sound systems.",
+      "response_length": 366,
+      "response": "A phoneme is a fundamental concept in the study of linguistics, particularly in the field of phonology, which is the branch of linguistics concerned with the systematic organization of sounds in languages. Phonemes are the smallest units of sound that can distinguish meaning between words in a given language. For example, in English, the words \"pat\" and \"bat\" differ only in their initial sounds, /p/ and /b/, respectively. This difference in sound changes the meaning of the words, illustrating how phonemes function as distinct units that can alter meaning.\n\nPhonemes are abstract representations, meaning they are not tied to any specific sound but rather to a set of sounds that are perceived as equivalent by speakers of the language. These sounds, when actually spoken, are referred to as \"phones.\" For instance, the phoneme /p/ can be realized as different phones depending on its position in a word or the accent of the speaker, such as the aspirated [p\u02b0] in \"pat\" or the unaspirated [p] in \"spat.\"\n\nLinguists study phoneme inventories, which are the sets of phonemes that a particular language uses, to compare languages and understand their sound systems. This analysis helps in identifying patterns and rules governing how sounds are organized and used in different languages.\n\nMastery of phonemes is crucial for several reasons:\n\n1. **Phonological Awareness**: This is the ability to recognize and manipulate the sound structures of language, which is a key skill in learning to read and write. Understanding phonemes helps individuals break down words into their constituent sounds, aiding in spelling and decoding.\n\n2. **Literacy Development**: Phonological awareness, including phoneme recognition, is foundational for literacy. It enables learners to map sounds to letters (phonics), facilitating reading and writing skills.\n\n3. **Pronunciation in Second Language Acquisition**: For learners acquiring a second language, understanding the phonemes of that language is essential for accurate pronunciation. Mispronouncing phonemes can lead to misunderstandings, as it may change the meaning of words.\n\nIn summary, phonemes are critical to understanding how languages function at the sound level, influencing everything from basic communication to literacy and language learning. They serve as the building blocks of spoken language, allowing for the rich diversity of sounds and meanings across different languages.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -134,36 +134,36 @@
             "SA": 0.9,
             "FC": 0.9
           },
-          "Nemotron-Super-3-120B": {
+          "GLM-5": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
-          "GLM-5": {
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
-            "SA": 0.8,
+            "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
           "CC": 0.975,
-          "SA": 0.9,
+          "SA": 0.95,
           "FC": 0.9667,
-          "agreement_score": 0.8827,
+          "agreement_score": 0.9057,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0816,
+          "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9433400000000001
+      "score": 0.9633400000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 126,
-      "response_length": 365,
-      "response": "A phoneme is a fundamental concept in the study of linguistics, representing the smallest unit of sound that can distinguish meaning between words in a language. Unlike individual sounds, which can vary in their physical articulation, phonemes are abstract entities defined by their functional role in a language's sound system. This means that phonemes are not tied to specific sounds but rather to the role those sounds play in differentiating words.\n\nFor example, in English, the sounds /p/ and /b/ are considered distinct phonemes because they can change the meaning of words, as seen in the minimal pairs \"pat\" and \"bat.\" This property of phonemes is known as **contrastiveness**, where the presence of different phonemes in the same phonetic environment can lead to different meanings.\n\nPhonemes can have multiple variants, known as **allophones**, which are context-dependent. These allophones do not change the meaning of words but occur in specific phonetic environments. For instance, the English phoneme /t/ can be pronounced as a quick, soft sound (as in \"water\" in American English) or as a more pronounced, aspirated sound (as in \"top\"). These variations are in **complementary distribution**, meaning they do not overlap in their occurrence and are predictable based on their phonetic context.\n\nThe realization of phonemes in speech is governed by **phonological rules**, which dictate how phonemes are pronounced in different contexts. These rules help linguists understand and describe the sound patterns of a language, contributing to the broader field of **phonological analysis**. This analysis is crucial for various applications, including language acquisition studies, the development of orthographies (writing systems), and the creation of speech recognition technologies.\n\nIn applied contexts, understanding phonemes is essential for several reasons. In language teaching, it helps educators explain pronunciation and spelling patterns to learners. In speech recognition technology, phonemes are used to develop systems that can accurately interpret and transcribe spoken language. Additionally, in clinical settings, phoneme analysis aids in the assessment and treatment of speech disorders, helping speech-language pathologists diagnose and address issues related to sound production.\n\nOverall, phonemes are foundational to the study and practical application of linguistic sound systems, providing a framework for analyzing and understanding how sounds function to convey meaning in human language.",
+      "response_length": 474,
+      "response": "A phoneme is a fundamental concept in the study of linguistics, representing the smallest unit of sound that can distinguish meaning between words in a language. Unlike individual sounds, phonemes are abstract entities that are defined by their functional role in a language's sound system rather than by their specific physical articulation. This means that phonemes are not tied to a single sound but rather to a set of sounds that can vary depending on the context, known as allophones.\n\n### Key Concepts Related to Phonemes:\n\n1. **Contrastiveness**: \n   - Phonemes are contrastive in nature, meaning they can create minimal pairs\u2014pairs of words that differ by only one phoneme and have different meanings. For example, in English, the words \"pat\" and \"bat\" differ only in their initial sounds /p/ and /b/, which are distinct phonemes. This contrastiveness is crucial because it highlights how phonemes function to differentiate meaning.\n\n2. **Complementary Distribution**:\n   - Allophones are the context-dependent variants of a phoneme. They occur in complementary distribution, meaning they never appear in the same phonetic environment. For instance, the English phoneme /t/ can be pronounced as a flap [\u027e] in \"butter\" (in American English) or as an aspirated [t\u02b0] in \"top.\" These variations do not change the meaning of the word and are thus considered allophones of the same phoneme.\n\n3. **Phonological Rules**:\n   - These are the rules that govern how phonemes are realized as specific sounds (allophones) in different contexts. Phonological rules help explain why certain sounds change in specific environments, contributing to the systematic nature of a language's sound system.\n\n### Importance of Phonemes:\n\n- **Phonological Analysis**: Phonemes are central to phonological analysis, which involves describing and understanding the sound systems of languages. By identifying phonemes, linguists can map out how sounds function within a language, aiding in the study of language structure and evolution.\n\n- **Language Acquisition**: Understanding phonemes is crucial in analyzing how children acquire language. It helps in identifying the stages of phonological development and the challenges learners may face in distinguishing and producing phonemes.\n\n- **Orthography Development**: Phonemes play a key role in developing writing systems (orthographies) for languages, especially those that are unwritten. By understanding the phonemic structure, linguists can create alphabets that accurately represent the sounds of a language.\n\n- **Applied Linguistics**: In practical applications, phonemes inform various fields such as speech recognition technology, where distinguishing between phonemes is essential for accurate voice input processing. They also play a role in language teaching, where understanding phonemic differences can aid in pronunciation training, and in clinical settings, where speech disorders are assessed and treated based on phonemic errors.\n\nIn summary, phonemes are foundational to both theoretical and applied linguistics, providing a framework for understanding how sounds function to convey meaning in language. They are essential for analyzing sound systems, developing writing systems, and applying linguistic knowledge in technology and education.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -201,8 +201,8 @@
   "analysis": {
     "CSI": 0.0,
     "mean_score": 0.837336,
-    "mean_agreement": 0.87414,
-    "decay_direction": "\u2193 Graceful (expected)",
+    "mean_agreement": 0.87306,
+    "decay_direction": "\u2192 Stable",
     "compression_levels": [
       0.0,
       0.25,
@@ -212,16 +212,16 @@
     ],
     "scores": [
       1.0,
-      0.7400000000000001,
-      0.54,
-      0.9433400000000001,
+      0.7300000000000001,
+      0.53,
+      0.9633400000000001,
       0.9633400000000001
     ],
     "agreement_scores": [
       1.0,
-      0.7394,
-      0.8429,
-      0.8827,
+      0.7486,
+      0.8053,
+      0.9057,
       0.9057
     ]
   }

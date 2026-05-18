@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "* dialogue between formally and casually dressed individuals for a nightly event\n* 3 markdown bullet points\n* format: * point 1 * point 2 * point 3",
+  "compressed_word_count": 28,
+  "response": "* **Point 1:** The formally dressed individual, wearing a tailored suit, approaches the casually dressed individual in a t-shirt and jeans. \"Good evening, I couldn't help but notice your relaxed attire. It's quite the contrast to the formal event we're attending.\"\n\n* **Point 2:** The casually dressed individual, with a laid-back smile, responds, \"Hey there! Yeah, I figured I'd keep it chill. This whole black-tie thing isn't really my scene, but I'm here to support a friend.\"\n\n* **Point 3:** The formally dressed individual chuckles, \"Fair enough. It's refreshing to see someone not taking these events too seriously. By the way, have you tried the hors d'oeuvres? They're quite delightful.\"",
+  "response_word_count": 110,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

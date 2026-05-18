@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].",
+  "compressed_word_count": 31,
+  "response": "**Resume**\n\n**[Your Name]**\n[Your Street Address] | [Your City, State, Zip Code] | [Your Phone Number] | [Your Professional Email Address] | [Your LinkedIn Profile URL (Optional)]\n\n---\n\n**Objective**\nMotivated and dependable high school graduate with a strong academic record and a willingness to learn, seeking an entry-level position as a **[Target Job Title, e.g., Retail Sales Associate, Customer Service Representative]** at **[Company Name]**. Eager to contribute a positive attitude, reliability, and a strong work ethic to a supportive team environment.\n\n**Education**\n**[Name of Your High School]**, [City, State]\nHigh School Diploma | Graduated: [Month, Year]\n*   GPA: [Your GPA, if 3.0 or above]\n*   Relevant Coursework: [List 2-3 relevant courses, e.g., Introduction to Business, Computer Applications, Accounting I]\n*   Achievements: [List 1-2 achievements, e.g., Honor Roll, Perfect Attendance Award]\n\n**Skills**\n*   **Customer Service:** Friendly and patient with experience assisting peers and teachers.\n*   **Technical Proficiency:** Skilled in Microsoft Office Suite (Word, Excel, PowerPoint) and familiar with social media platforms.\n*   **Teamwork & Collaboration:** Proven ability to work effectively in group settings, both as a leader and a supportive member.\n*   **Organization & Time Management:** Successfully balanced academic coursework with extracurricular activities.\n*   **Problem-Solving:** Able to follow instructions and find practical solutions to challenges.\n*   **Cash Handling:** Trustworthy with experience managing funds from [Mention a club, event, or personal project].\n\n**Experience**\n\n**Volunteer / Community Involvement**\n**[Organization Name]**, [City, State] | [Month, Year] \u2013 [Month, Year]\n*   Assisted with [Describe your primary duty, e.g., organizing food donations, setting up for community events, tutoring younger students].\n*   Developed strong interpersonal skills by interacting with a diverse group of [e.g., community members, fellow volunteers].\n*   Demonstrated reliability by committing to a regular weekly schedule.\n\n**Extracurricular Activities / Leadership**\n**[Club/Sport/Activity Name]**, [Name of Your High School]\n*   Held the position of [Your Role, e.g., Team Captain, Club Treasurer, Event Coordinator].\n*   Responsibilities included [List 1-2 key duties, e.g., organizing team schedules, managing a small budget, coordinating fundraising efforts].\n\n**Additional Projects**\n*   **Personal Project:** [Briefly describe a relevant project, e.g., \"Managed a small online resale store, handling product listings, customer inquiries, and local delivery.\"]\n*   **Academic Project:** [Briefly describe a relevant school project, e.g., \"Collaborated on a semester-long marketing project for a fictional product, developing a presentation and proposed budget.\"]\n\n**References**\nAvailable upon request from [Mention who, e.g., \"a former teacher and a volunteer coordinator\"].",
+  "response_word_count": 390,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

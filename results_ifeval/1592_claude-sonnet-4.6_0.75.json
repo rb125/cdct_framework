@@ -1,0 +1,43 @@
+{
+  "key": 1592,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "summarize paragraph on us transition to 100% renewable energy by 2050 using solar and wind farms. highlight key points in all caps.",
+  "compressed_word_count": 22,
+  "response": "Here is a summarized paragraph with key points highlighted:\n\nThe United States is working toward a goal of achieving 100% RENEWABLE ENERGY BY 2050, with SOLAR AND WIND FARMS serving as the primary drivers of this transition. This shift requires MASSIVE INVESTMENT IN INFRASTRUCTURE, including the expansion of power grids and energy storage systems to handle the variable nature of renewable sources. SOLAR ENERGY is expected to play a dominant role, particularly in sun-rich regions, while WIND FARMS, both onshore and offshore, will supply power to coastal and rural areas. The transition is projected to CREATE MILLIONS OF JOBS in clean energy sectors while also REDUCING CARBON EMISSIONS significantly. However, challenges remain, including the need to PHASE OUT FOSSIL FUELS, upgrade aging grid systems, and ensure ENERGY AFFORDABILITY AND ACCESSIBILITY for all Americans. With strong GOVERNMENT POLICY SUPPORT and growing private sector investment, experts believe the 100% renewable goal is ACHIEVABLE within the given timeline.",
+  "response_word_count": 155,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.8,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.6,
+      "FC": 0.6333333333333333,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.18856180831641267
+    }
+  }
+}

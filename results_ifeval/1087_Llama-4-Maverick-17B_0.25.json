@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "review \"the social network\" in all lower case",
+  "compressed_word_count": 8,
+  "response": "\"the social network\" is a film that explores the origins of facebook and the complexities of its founder, mark zuckerberg. the movie is directed by david fincher and written by aaron sorkin, and it features a talented cast, including jesse eisenberg, andrew garfield, and justin timberlake.\n\nthe film's narrative is presented in a non-linear fashion, jumping back and forth between zuckerberg's time at harvard and the subsequent lawsuits that arose from the creation of facebook. eisenberg's portrayal of zuckerberg is nuanced and multifaceted, capturing the character's intelligence, ambition, and social awkwardness.\n\none of the strengths of the film is its thoughtful exploration of the themes that underpin the story. the movie raises important questions about the nature of friendship, the consequences of ambition, and the impact of technology on society. through its portrayal of zuckerberg and his associates, the film offers a commentary on the privileged and entitled culture of elite american universities.\n\nthe supporting cast is also noteworthy, with garfield delivering a memorable performance as eduardo saverin, zuckerberg's friend and business partner. the chemistry between eisenberg and garfield is palpable, and their characters' complicated relationship is a highlight of the film.\n\ntimberlake's portrayal of sean parker, the co-founder of napster, is also impressive, capturing the character's charisma and entrepreneurial spirit. the film's depiction of parker's influence on zuckerberg and facebook is fascinating, and it raises interesting questions about the role of external factors in shaping the trajectory of the company.\n\nthe film's cinematography and score are also worth noting. the camera work is sleek and modern, capturing the vibrant atmosphere of harvard and the cutthroat world of tech entrepreneurship. the soundtrack, featuring a range of indie and electronic tracks, adds to the film's energetic and dynamic feel.\n\noverall, \"the social network\" is a thought-provoking and engaging film that offers a compelling exploration of the facebook phenomenon. while it may not be a entirely accurate depiction of the facts, it is a fascinating and well-crafted drama that raises important questions about the impact of technology on our lives.",
+  "response_word_count": 338,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9666666666666667,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.04714045207910316,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

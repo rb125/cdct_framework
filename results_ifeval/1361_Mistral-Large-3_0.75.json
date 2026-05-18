@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "write song lyrics on socio-economic issue; english, all lowercase; no commas",
+  "compressed_word_count": 11,
+  "response": "**\"concrete jungle\"**\n\ni wake up to the hum of the city lights\nanother day another dollar tight\nthe rent\u2019s due but the paycheck\u2019s thin\njust enough to keep me trapped within\n\nthe bus ride\u2019s long the seats are cold\nthe driver\u2019s tired the story\u2019s old\nsame old faces same old pain\nsame old promises blown away like rain\n\nthey say pull yourself up by your bootstraps\nbut my boots got holes and my straps are loose\nthey say work hard play by the rules\nbut the game\u2019s rigged and the deck\u2019s not new\n\nthe skyline\u2019s tall but the cracks run deep\nwhere the dreams go to die in their sleep\nanother factory closes another job lost\nanother family frozen in the frost\n\nthey talk about growth they talk about change\nbut the numbers don\u2019t match the names\nthe rich get richer the poor get poor\nthe same old cycle we can\u2019t ignore\n\nso i walk these streets with my head held low\nanother ghost in the afterglow\nanother voice in the endless crowd\nanother soul screaming but nobody\u2019s loud\n\nthe system\u2019s broken but we keep it running\nlike a car with no gas just keep on gunning\nanother day another dollar tight\nanother night in the concrete jungle\u2019s light",
+  "response_word_count": 209,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

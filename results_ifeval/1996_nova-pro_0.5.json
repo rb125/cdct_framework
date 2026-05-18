@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Craft a tale on unobvious truths' importance; use <20 emphasis words.",
+  "compressed_word_count": 11,
+  "response": "In a small village, a wise elder spoke of hidden truths. Villagers, skeptical, dismissed his words. One day, a drought struck. The elder revealed a secret spring, known only to him. Villagers, **grateful**, understood the **value** of **unseen** knowledge. They **learned** to **listen**, **appreciate** the **depth** of **wisdom**, and **cherish** the **unobvious**.",
+  "response_word_count": 52,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6,
+      "SA": 0.7999999999999999,
+      "FC": 0.7666666666666666,
+      "judge_variance_CC": 0.43204937989385733,
+      "judge_variance_SA": 0.21602468994692867,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

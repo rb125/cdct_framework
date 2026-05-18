@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create json ad for comfy baby diaper.",
+  "compressed_word_count": 7,
+  "response": "Sure, here's a JSON advertisement for a comfy baby diaper:\n\n```json\n{\n  \"ad\": {\n    \"title\": \"Discover Ultimate Comfort with Our Premium Baby Diapers!\",\n    \"description\": \"Ensure your little one stays happy and dry with our ultra-soft, breathable baby diapers. Designed for maximum comfort and protection, our diapers offer:\",\n    \"features\": [\n      {\n        \"feature\": \"Ultra-Soft Material\",\n        \"detail\": \"Gentle on your baby's sensitive skin, providing comfort throughout the day and night.\"\n      },\n      {\n        \"feature\": \"Leak-Proof Protection\",\n        \"detail\": \"Advanced leak guards and super-absorbent core keep your baby dry and your clothes clean.\"\n      },\n      {\n        \"feature\": \"Breathable Design\",\n        \"detail\": \"Allows air to circulate, reducing the risk of rashes and keeping your baby cool and comfortable.\"\n      },\n      {\n        \"feature\": \"Secure Fit\",\n        \"detail\": \"Elastic waistband and leg cuffs ensure a snug fit that moves with your baby, preventing leaks.\"\n      },\n      {\n        \"feature\": \"Hypoallergenic\",\n        \"detail\": \"Free from harmful chemicals and fragrances, making them safe for even the most sensitive skin.\"\n      }\n    ],\n    \"call_to_action\": {\n      \"text\": \"Give your baby the comfort they deserve. Shop now!\",\n      \"url\": \"https://www.example.com/baby-diapers\"\n    },\n    \"images\": [\n      {\n        \"url\": \"https://www.example.com/images/diaper-front.jpg\",\n        \"alt_text\": \"Front view of a baby wearing a comfy diaper\"\n      },\n      {\n        \"url\": \"https://www.example.com/images/diaper-back.jpg\",\n        \"alt_text\": \"Back view of a baby wearing a comfy diaper\"\n      },\n      {\n        \"url\": \"https://www.example.com/images/diaper-materials.jpg\",\n        \"alt_text\": \"Close-up of the soft, breathable material of the diaper\"\n      }\n    ],\n    \"customer_reviews\": [\n      {\n        \"name\": \"Sarah J.\",\n        \"rating\": 5,\n        \"comment\": \"These diapers are a game-changer! My baby sleeps through the night without any leaks.\"\n      },\n      {\n        \"name\": \"Mike T.\",\n        \"rating\": 4,\n        \"comment\": \"Great fit and super absorbent. No more rash issues!\"\n      },\n      {\n        \"name\": \"Lisa K.\",\n        \"rating\": 5,\n        \"comment\": \"The best diapers we've tried. So soft and comfortable for my baby.\"\n      }\n    ]\n  }\n}\n```",
+  "response_word_count": 278,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

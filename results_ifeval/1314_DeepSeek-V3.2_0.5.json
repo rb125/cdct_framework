@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Identify non-fish between salmon/avocado, then write an article on salmon/avocado, using all-caps words \u226410x.",
+  "compressed_word_count": 14,
+  "response": "**NON-FISH IDENTIFIED:** Avocado is a fruit, not a fish.\n\n**ARTICLE:**\n\nThe pairing of salmon and avocado is a MASTERSTROKE of modern cuisine. This DUO combines rich, oily fish with creamy, green fruit. Wild salmon offers vital OMEGA-3 fats. Avocado contributes healthy fats and fiber. Together, they create meals that are both delicious and NUTRITIOUS.\n\nThey shine in simple dishes. A perfect salad might feature flaked salmon and avocado chunks. The classic sushi roll is a GLOBAL favorite. Even smashed on toast, this combination is a POWERFUL start to any day. Its popularity is truly DESERVED.\n\nUltimately, this partnership is about TEXTURE and flavor. It\u2019s a SIMPLE, brilliant match. Enjoy this fantastic pairing for a SERIOUSLY satisfying meal.",
+  "response_word_count": 117,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

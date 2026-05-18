@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write an acoustic song about the Korean peninsula no commas",
+  "compressed_word_count": 10,
+  "response": "In the misty mountains of the Korean land\nA story's told of a divided stand\nA peninsula torn by the hands of time\nA nation split in two a sorrowful rhyme\n\nThe Demilitarized Zone a buffer wide\nA physical scar where hearts have died\nFamilies torn apart by the lines of fate\nLonging to be whole to participate\n\nIn the silence of the night\nThe sound of whispers echoes a gentle light\nA beacon of hope in the dark of pain\nA call to reunite the love that remains\n\nThe rivers flow the mountains stand\nA testament to a land so grand\nA culture rich a history so bright\nA people yearning for a peaceful night\n\nThe sun rises over the eastern sea\nA new dawn breaks for you and me\nA chance to heal the wounds of the past\nTo bring together what was meant to last\n\nIn the stillness of the morning dew\nA prayer is whispered for me and you\nFor a Korea whole and free\nA dream that's held in unity.",
+  "response_word_count": 175,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

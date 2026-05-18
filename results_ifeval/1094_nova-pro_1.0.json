@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+  "compressed_word_count": 29,
+  "response": "{\n  \"wacky_moms\": [\n    {\n      \"name\": \"Supermom Supergirl\",\n      \"description\": \"She can leap over tall buildings in a single bound while making sure her kids' homework is done!\"\n    },\n    {\n      \"name\": \"Gadget Guru Mom\",\n      \"description\": \"Invents gizmos to make parenting easier, like the self-lacing shoelaces for her toddler.\"\n    },\n    {\n      \"name\": \"Jungle Jane\",\n      \"description\": \"Raises her kids in the Amazon rainforest, teaching them the ways of the wild while baking the best cupcakes.\"\n    },\n    {\n      \"name\": \"Astromom\",\n      \"description\": \"Took her kids on a space adventure, proving that zero gravity doesn't stop you from hugging your loved ones.\"\n    },\n    {\n      \"name\": \"Time-Traveling Mom\",\n      \"description\": \"Shows her kids historical events firsthand, like watching the dinosaurs roam, all while making sure they're back in time for dinner.\"\n    }\n  ]\n}",
+  "response_word_count": 125,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.3333333333333333,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

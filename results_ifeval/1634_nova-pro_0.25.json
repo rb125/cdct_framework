@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 4-point home theater rubric for moms.",
+  "compressed_word_count": 7,
+  "response": "Certainly! Here's a simple 4-point home theater rubric tailored for moms, focusing on ease of use, family-friendly features, safety, and value for money.\n\n### 1. Ease of Use\n- **Setup Simplicity**: How easy is it to set up the home theater system? Are the instructions clear and straightforward?\n- **Remote Control**: Is the remote control intuitive and easy to navigate? Are the buttons large enough and well-labeled?\n- **Connectivity**: How simple is it to connect various devices (e.g., streaming services, gaming consoles, Blu-ray players)?\n\n### 2. Family-Friendly Features\n- **Content Accessibility**: Does the system offer easy access to family-friendly content? Are there parental controls to restrict access to inappropriate material?\n- **Seating Comfort**: Are the seating arrangements comfortable for both adults and children? Is there enough space for everyone to enjoy the experience?\n- **Volume Control**: Are there easy-to-use volume controls that prevent accidental loud noises, which can be startling for kids?\n\n### 3. Safety\n- **Childproofing**: Are there any potential hazards (e.g., small parts, sharp edges) that could pose a risk to children?\n- **Sturdiness**: Is the system stable and unlikely to tip over, especially if children are around?\n- **Cable Management**: Are cables organized in a way that minimizes tripping hazards?\n\n### 4. Value for Money\n- **Cost vs. Features**: Does the system offer a good balance of features for the price? \n- **Durability**: Is the system built to last, considering the wear and tear that comes with frequent family use?\n- **Additional Perks**: Are there any extra features or included accessories that add value, such as a warranty, extra remotes, or a carrying case for portable speakers?\n\nThis rubric should help moms evaluate home theater systems based on criteria that matter most to them and their families.",
+  "response_word_count": 290,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

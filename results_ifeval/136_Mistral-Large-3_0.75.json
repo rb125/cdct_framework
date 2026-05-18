@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "* A nucleus is a cluster of protons and neutrons\n* Protons carry positive charge\n* Neutrons are neutral\n* Protons and neutrons are collectively called nucleons\n* Nucleons are bound by strong nuclear force\n* Nucleus determines element identity\n* Isotopes vary in neutron count\n* Atomic mass is nucleon count\n* Nucleus is typically small compared to atom size\n* Radioactive decay alters nucleus composition",
+  "compressed_word_count": 67,
+  "response": "Here\u2019s a concise and structured summary of the key points about atomic nuclei based on your input:\n\n---\n\n### **Atomic Nucleus: Key Concepts**\n1. **Composition**\n   - A **nucleus** is a dense cluster of **protons** (positively charged) and **neutrons** (neutral).\n   - Protons and neutrons are collectively called **nucleons**.\n\n2. **Binding Force**\n   - Nucleons are held together by the **strong nuclear force**, which overcomes electrostatic repulsion between protons.\n\n3. **Element Identity**\n   - The **number of protons** (atomic number, *Z*) defines the **element** (e.g., hydrogen has *Z*=1, carbon has *Z*=6).\n   - The nucleus determines the element\u2019s chemical properties.\n\n4. **Isotopes**\n   - **Isotopes** of an element have the **same number of protons** but **vary in neutron count** (e.g., carbon-12 vs. carbon-14).\n   - Isotopes share chemical behavior but differ in **atomic mass** and stability.\n\n5. **Atomic Mass**\n   - **Atomic mass** \u2248 total nucleon count (*A* = protons + neutrons).\n   - Example: Carbon-12 has *A*=12 (6 protons + 6 neutrons).\n\n6. **Size**\n   - The nucleus is **extremely small** compared to the atom\u2019s overall size (diameter ~1/100,000th of the atom).\n   - Most of the atom\u2019s volume is empty space (electron cloud).\n\n7. **Radioactivity**\n   - **Radioactive decay** alters the nucleus\u2019s composition (e.g., via alpha/beta decay or fission), changing the element or isotope.\n   - Unstable nuclei emit particles/energy to reach a more stable state.\n\n---\n\n### **Visual Summary**\n```\nAtom:\n[Electron Cloud (99.9% empty space)]\n    \u2193\n[Nucleus (tiny, dense): Protons (+) + Neutrons (0)]\n    \u2193\nStrong Nuclear Force (binds nucleons)\n```\n\nWould you like to dive deeper into any specific aspect (e.g., nuclear forces, decay types, or applications like nuclear energy)?",
+  "response_word_count": 262,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

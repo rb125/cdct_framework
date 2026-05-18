@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a casual, interesting, and weird resume for Antonia Maj who is applying for a job at a coffee company. They have experience in marketing, customer service, and sales. They are educated but not majored in anything related to coffee.\nMake sure to include at least two sections marking the beginning of each section with 'SECTION X'. In your entire response make sure to use exactly two bullet points in markdown format. Please use the following bullet point format:\n* Text for bullet 1\n* Text for bullet 2",
+  "compressed_word_count": 89,
+  "response": "**Antonia Maj**\n*Professional Caffeine Enthusiast & Marketing Misfit*\n\ud83d\udce7 antonia.maj@notrealemail.com | \u2615 @antonia_drinks_coffee | \ud83c\udf0d Portland, OR (but willing to relocate for the right beans)\n\n---\n\n### **SECTION 1: THE UNOFFICIAL COFFEE RESUME**\nI don\u2019t have a degree in coffee science (though I *did* once take a class on the history of instant coffee, which counts for something, right?). What I *do* have is an unholy obsession with the stuff\u2014black, sweet, iced, burned, under-extracted, you name it. I\u2019ve cried over a perfect cortado and argued with baristas about the ethics of oat milk upcharges. If coffee were a religion, I\u2019d be a zealot.\n\n* My blood type is 80% cold brew\n* I once wrote a 10-page fanfiction about a sentient espresso machine (ask me about it)\n\n---\n\n### **SECTION 2: THE \"OFFICIAL\" STUFF (AKA WHAT YOU ACTUALLY CARE ABOUT)**\n**Marketing & Sales:**\n- Spearheaded a viral campaign for a local roaster that involved trading free coffee for handwritten poetry (ROI: 300% increase in Instagram followers, 1 mildly concerning DM from a poet)\n- Sold $50,000 worth of artisanal chocolate-covered coffee beans by leaning into the \"this is basically dessert\" angle (it worked)\n\n**Customer Service:**\n- Managed a team of baristas during the Great Pumpkin Spice Shortage of 2022, preventing at least 3 meltdowns (theirs, not mine\u2026 mostly)\n- Resolved 1,000+ customer complaints with a 98% satisfaction rate, mostly by offering free samples and pretending to take notes\n\n**Education:**\n- BA in \"Something Vague\" (Minor: \"Making Small Talk While Waiting for My Latte\")\n- Certified in \"Not Burning Down the Caf\u00e9\" (self-taught)\n\n**Bonus Skills:**\n- Can identify a single-origin Ethiopian Yirgacheffe by smell (blindfolded, after 3 espressos)\n- Fluent in \"Coffee Shop Lingo\" (e.g., \"We\u2019re experiencing a high volume of orders\" = \"We\u2019re understaffed and your drink will be late\")\n\n---\n\n**References available upon request** (or after I\u2019ve had my third cup). Let\u2019s make coffee weird again.",
+  "response_word_count": 317,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

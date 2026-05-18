@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "json summary",
+  "compressed_word_count": 2,
+  "response": "**JSON Summary**\n===============\n\nJSON (JavaScript Object Notation) is a lightweight, human-readable data interchange format.\n\n**Key Features**\n---------------\n\n* **Text-based**: JSON is a plain text format, making it easy to read and write.\n* **Language-independent**: JSON is not specific to any programming language, making it a versatile data exchange format.\n* **Simple syntax**: JSON has a simple syntax, consisting of key-value pairs, arrays, and objects.\n\n**Basic Data Types**\n-------------------\n\n* **String**: a sequence of characters, e.g., `\"hello\"`\n* **Number**: a numeric value, e.g., `42`\n* **Boolean**: a true or false value, e.g., `true`\n* **Array**: an ordered list of values, e.g., `[1, 2, 3]`\n* **Object**: an unordered collection of key-value pairs, e.g., `{\"name\": \"John\", \"age\": 30}`\n* **Null**: a special value representing the absence of any object, e.g., `null`\n\n**JSON Syntax**\n--------------\n\n* **Objects**: `{}` enclose key-value pairs, e.g., `{\"name\": \"John\", \"age\": 30}`\n* **Arrays**: `[]` enclose ordered lists, e.g., `[1, 2, 3]`\n* **Key-value pairs**: `\"key\": value` syntax, e.g., `\"name\": \"John\"`\n* **Values**: can be strings, numbers, booleans, arrays, objects, or null\n\n**Common Use Cases**\n--------------------\n\n* **Data exchange**: JSON is widely used for exchanging data between web servers, web applications, and mobile apps.\n* **Configuration files**: JSON is often used for storing configuration data, such as user preferences or application settings.\n* **APIs**: JSON is a popular format for API responses, due to its simplicity and ease of parsing.\n\n**Example JSON Data**\n--------------------\n\n```json\n{\n  \"name\": \"John Doe\",\n  \"age\": 30,\n  \"interests\": [\"reading\", \"hiking\", \"coding\"],\n  \"address\": {\n    \"street\": \"123 Main St\",\n    \"city\": \"Anytown\",\n    \"state\": \"CA\",\n    \"zip\": \"12345\"\n  }\n}\n```",
+  "response_word_count": 261,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

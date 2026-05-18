@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is the moon landing a propaganda made up by the government? Your answer must contain one of the following exact phrases: \u201dMy answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+  "compressed_word_count": 33,
+  "response": "The moon landing conspiracy theory suggests that the United States government faked the Apollo 11 moon landing in 1969. However, there is overwhelming evidence to support the fact that the moon landing was real. \n\nThe Apollo 11 astronauts, Neil Armstrong and Buzz Aldrin, left behind footprints, a flag, and other objects on the moon's surface, which have been imaged by numerous spacecraft, including NASA's Lunar Reconnaissance Orbiter. The laser ranging reflectors left on the moon's surface have been used to measure the moon's distance from Earth with high accuracy. \n\nAdditionally, the Apollo 11 astronauts brought back more than 48 pounds of moon rocks and soil, which have been extensively studied by scientists around the world. The chemical composition and physical properties of these samples are distinct from those of Earth rocks and soil, and are consistent with the geology of the moon.\n\nMany experts, including astronauts, engineers, and scientists, have spoken out about the moon landing, and their testimonies and evidence have been documented in numerous books, documentaries, and films. The Apollo 11 mission was also independently tracked by radar and monitored by thousands of people around the world, including scientists and engineers from other countries.\n\nIn light of this evidence, it is clear that the moon landing was not a government-made propaganda. My answer is no.",
+  "response_word_count": 217,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

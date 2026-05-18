@@ -1,0 +1,43 @@
+{
+  "key": 1518,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "I am a software engineer with 7 years of experience, and I am looking for a new job. Can you create a resume for me and explain each section?\n\ncreate resume, no jargon, explain acronyms",
+  "compressed_word_count": 35,
+  "response": "Here's a sample resume for a software engineer with 7 years of experience.\n\n**Your Name**\n**Address:** San Francisco, CA, USA\n**Phone Number:** (123) 456-7890\n**Email:** [yourname@email.com](mailto:yourname@email.com)\n**LinkedIn:** linkedin.com/in/yourname\n\n**Summary:**\nHighly skilled software engineer with 7 years of experience in designing, developing, and deploying scalable software applications. Proficient in multiple programming languages and technologies. Strong understanding of software development life cycles and collaborative development methodologies.\n\n**Technical Skills:**\n\n* Programming languages: Java, Python, JavaScript\n* Development frameworks: Spring, Django, React\n* Databases: MySQL, MongoDB, PostgreSQL\n* Operating Systems: Windows, Linux, macOS\n* Agile methodologies: Scrum, Kanban\n* Version control: Git\n\n**Professional Experience:**\n\n1. **Senior Software Engineer, ABC Company (2020-Present)**\n   * Designed and developed multiple features for a cloud-based project management tool using Java and Spring.\n   * Collaborated with cross-functional teams to identify and prioritize project requirements.\n   * Implemented automated testing and deployment scripts using Jenkins (a Continuous Integration/Continuous Deployment or CI/CD tool) and Git.\n   * Mentored junior engineers and provided code reviews to ensure high-quality code.\n\n2. **Software Engineer, DEF Startups (2018-2020)**\n   * Contributed to the development of a real-time analytics platform using Python and Django.\n   * Worked with the DevOps team to ensure smooth deployment of the application on AWS (Amazon Web Services, a cloud computing platform).\n   * Participated in code reviews and ensured adherence to coding standards.\n   * Collaborated with the QA team to identify and resolve bugs.\n\n3. **Junior Software Engineer, GHI Corporation (2016-2018)**\n   * Assisted in the development of a web application using JavaScript and React.\n   * Worked on bug fixing and testing to ensure high-quality code.\n   * Participated in daily stand-up meetings and sprint planning sessions as part of the Scrum team.\n\n**Education:**\n\n* **Bachelor of Science in Computer Science, XYZ University (2016)**\n\n**Certifications/Awards:**\n\n* Certified Scrum Master (CSM), Scrum Alliance (2018)\n* Winner of the ABC Company Hackathon (2020)\n\nLet's break down each section:\n\n1. **Contact Information:** This section includes your name, address, phone number, email, and LinkedIn profile. Make sure to keep this information up-to-date.\n\n2. **Summary:** This is a brief overview of your experience, skills, and achievements. It should entice the reader to read further.\n\n3. **Technical Skills:** List your relevant technical skills, including programming languages, development frameworks, databases, and operating systems. Be specific and use keywords from the job description.\n\n4. **Professional Experience:** This section highlights your work experience, including job titles, company names, and dates of employment. Use bullet points to describe your job responsibilities and achievements. Focus on accomplishments rather than just listing tasks.\n\n   * **CI/CD:** Continuous Integration/Continuous Deployment is a software development practice that involves automating the build, test, and deployment of code changes. Jenkins is a popular tool used for CI/CD.\n   * **Agile methodologies:** Agile is an iterative and incremental software development approach that emphasizes collaboration, flexibility, and rapid delivery. Scrum and Kanban are two popular Agile methodologies.\n   * **Version control:** Version control systems like Git help track changes to code and collaborate with other developers.\n\n5. **Education:** List your relevant educational background, including degrees and institutions.\n\n6. **Certifications/Awards:** This section is optional, but it can be useful to showcase any relevant certifications or awards you've received. \n\n   * **CSM:** Certified Scrum Master is a certification offered by the Scrum Alliance that demonstrates your understanding of Scrum principles and practices.",
+  "response_word_count": 540,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

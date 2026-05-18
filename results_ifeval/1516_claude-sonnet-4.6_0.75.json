@@ -1,0 +1,45 @@
+{
+  "key": 1516,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a five-line poem with a aaaba rhyme scheme about binge-watching, including \"netflix\" in lowercase",
+  "compressed_word_count": 15,
+  "response": "Here is a five-line poem with an aaaba rhyme scheme about binge-watching:\n\nThe glow of netflix lights the night,\nEpisode after episode, pure delight,\nOne more chapter, just one more,\nMy blanket pulled up tight,\nI'll sleep when morning turns to white.",
+  "response_word_count": 42,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

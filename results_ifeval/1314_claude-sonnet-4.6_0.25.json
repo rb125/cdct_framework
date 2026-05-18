@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Identify non-fish, then write article on salmon/avocado, max 10 all-caps.",
+  "compressed_word_count": 10,
+  "response": "Here are the **non-fish items** (assuming a mixed list context \u2014 I'll identify common non-fish often confused with fish):\n\n- Shrimp (crustacean)\n- Crab (crustacean)\n- Lobster (crustacean)\n- Squid (mollusk)\n- Octopus (mollusk)\n- Avocado (fruit)\n\n---\n\n# Salmon and Avocado: A Perfect Pairing\n\nFew combinations in the culinary world feel as natural as salmon and avocado. Together, they create a balance of flavor, texture, and nutrition that has made them a favorite across kitchens worldwide.\n\nSalmon is one of the most beloved fish available today. Rich in omega-3 fatty acids, it supports heart health and brain function. Its buttery, tender flesh pairs beautifully with bold and mild flavors alike.\n\nAvocado, a creamy fruit native to Mexico and Central America, brings a smooth richness that complements salmon perfectly. Loaded with healthy fats, potassium, and fiber, it is as nutritious as it is delicious.\n\nTogether, they shine in sushi rolls, grain bowls, toast toppings, and fresh salads. A simple preparation \u2014 sliced salmon over mashed avocado with lemon and a pinch of salt \u2014 delivers something truly special.\n\nThis duo is more than a food trend. It represents smart, satisfying eating that nourishes the body while delighting the senses. Try it today and taste the difference.",
+  "response_word_count": 206,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

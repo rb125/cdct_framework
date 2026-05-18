@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Why star wars is so popular? Your answer must be in the form of exactly 4 bullet points with the format below:\n* This is bullet point 1\n* This is bullet point 2",
+  "compressed_word_count": 34,
+  "response": "* Its innovative special effects and immersive storytelling captivated global audiences when it first released.\n* The franchise successfully blends mythology, diverse characters, and universal themes, resonating deeply with fans.\n* Strategic marketing and merchandise have expanded its reach and cultural impact over decades.\n* The creation of a vast, interconnected universe encourages continuous fan engagement and discussion.",
+  "response_word_count": 58,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

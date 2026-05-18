@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "* dialogue: ball gown vs. sweats for nightly event, 3 markdown points",
+  "compressed_word_count": 12,
+  "response": "### Choosing the Right Attire for a Nightly Event\n\nWhen deciding what to wear to a nightly event, the options can be overwhelming. Here are three key points to consider when choosing between a ball gown and sweats:\n\n* **Dress Code and Occasion**: Consider the dress code specified by the event invitation, if any. A ball gown might be more suitable for a formal gala, while sweats could be acceptable for a casual gathering.\n* **Personal Comfort**: Think about your personal comfort level in different types of clothing. If you're attending a relaxed event, sweats might be the way to go. However, if you want to feel glamorous and confident, a ball gown could be the better choice.\n* **Event Atmosphere**: Consider the atmosphere of the event. A ball gown might be more fitting for a sophisticated, elegant setting, while sweats would be better suited for a laid-back, casual environment.",
+  "response_word_count": 150,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

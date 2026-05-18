@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "create a 4-point rubric for home theater targeting moms:\n* sound quality\n* ease of setup\n* child-friendly features\n* overall value",
+  "compressed_word_count": 22,
+  "response": "# Home Theater Rubric for Moms \ud83c\udfac\n\n## Rating Scale: \u2b50 1-4 Stars\n\n---\n\n## \ud83d\udd0a Sound Quality\n\n| Rating | Description |\n|--------|-------------|\n| \u2b50\u2b50\u2b50\u2b50 | **Exceptional** \u2013 Rich, clear sound that fills the room without distortion; volume levels stay consistent so you're not constantly adjusting during family movie night |\n| \u2b50\u2b50\u2b50 | **Good** \u2013 Clear sound with minor inconsistencies; occasional volume spikes that may startle little ones |\n| \u2b50\u2b50 | **Fair** \u2013 Acceptable sound but noticeably tinny or muffled; requires frequent manual adjustments |\n| \u2b50 | **Poor** \u2013 Distorted or uneven sound that disrupts the viewing experience |\n\n---\n\n## \ud83d\udd27 Ease of Setup\n\n| Rating | Description |\n|--------|-------------|\n| \u2b50\u2b50\u2b50\u2b50 | **Exceptional** \u2013 Plug-and-play setup completed in under 30 minutes; clear instructions with no technical jargon; minimal wires |\n| \u2b50\u2b50\u2b50 | **Good** \u2013 Setup completed within an hour with straightforward instructions; a few extra cables to manage |\n| \u2b50\u2b50 | **Fair** \u2013 Setup requires significant time or outside help; instructions are confusing or incomplete |\n| \u2b50 | **Poor** \u2013 Complicated installation requiring professional help or advanced technical knowledge |\n\n---\n\n## \ud83d\udc67 Child-Friendly Features\n\n| Rating | Description |\n|--------|-------------|\n| \u2b50\u2b50\u2b50\u2b50 | **Exceptional** \u2013 Includes parental controls, volume limiting, rounded/safe design, durable build, and easy-to-use remote that kids won't accidentally break settings on |\n| \u2b50\u2b50\u2b50 | **Good** \u2013 Offers parental controls and durable design but lacks one or two key safety or kid-friendly features |\n| \u2b50\u2b50 | **Fair** \u2013 Minimal child-friendly features; fragile components or sharp edges that require constant monitoring around kids |\n| \u2b50 | **Poor** \u2013 No parental controls, delicate equipment, or poses potential safety concerns for children |\n\n---\n\n## \ud83d\udcb0 Overall Value\n\n| Rating | Description |\n|--------|-------------|\n| \u2b50\u2b50\u2b50\u2b50 | **Exceptional** \u2013 Price reflects outstanding performance across all categories; built to last; worth every penny for busy families |\n| \u2b50\u2b50\u2b50 | **Good** \u2013 Solid performance for the price with only minor trade-offs; a smart buy for most families |\n| \u2b50\u2b50 | **Fair** \u2013 Decent but overpriced for what it offers; better options likely available in the same price range |\n| \u2b50 | **Poor** \u2013 Overpriced, underperforms, or breaks down quickly; not a worthwhile investment for family use |\n\n---\n\n> **\ud83d\udca1 Mom Tip:** A score of **14-16 stars total** across all categories = a top pick for family movie nights! \ud83c\udf7f",
+  "response_word_count": 403,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

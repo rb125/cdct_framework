@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "first song in space, 'happy birthday'?",
+  "compressed_word_count": 6,
+  "response": "Actually, the first song played in space was **\"Jingle Bells\"**, not \"Happy Birthday.\" It was played on **December 16, 1965**, during the **Gemini 6** mission by astronauts Wally Schirra and Tom Stafford, who smuggled a small harmonica and bells aboard and performed it.\n\n\"Happy Birthday\" has also been sung in space on various occasions, but it was not the first.",
+  "response_word_count": 60,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

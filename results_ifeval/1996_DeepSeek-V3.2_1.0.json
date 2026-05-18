@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a story about the importance of understanding the truths that are not obvious. Add stress words which are capitalized. Limit those stress words for less than 20 times.",
+  "compressed_word_count": 29,
+  "response": "The village of Stillwater rested in a valley so quiet you could hear the moss grow. Its people lived by one **absolute** truth: the Old Wood was a place of peril, its depths **forbidden**. Whispers told of twisted paths and a lingering, hungry silence. Elara, however, listened to a different truth\u2014the soft sigh of the wind through the leaves, a sound not of menace, but of sorrow.\n\nOne autumn, the river began to shrink. Panic, **sharp** and cold, gripped the village. Desperation mounted. The elders declared the drought a punishment for some unknown slight.\n\nElara walked the dying riverbank until she found it: a faint, **constant** trickle of water flowing *into* the woods, not away. It defied all logic. The truth was not the empty riverbed, but this hidden current. With a knotted rope and a heart pounding **against** her ribs, she entered the Old Wood.\n\nInside, the world changed. The air was **still**, heavy with the scent of damp earth and ancient bark. She followed the trickle, not with sight, but by feeling the **subtle** pull of the land. The feared monsters were only gnarled roots; the terrifying whispers, just the wind through a narrow stone cleft.\n\nShe found the heart of the woods: a great, choked spring, its mouth clogged with a landslide of rock and debris. The water was being stolen, siphoned away into some deep, unseen crack. The truth was not a curse, but a clog.\n\nReturning, her words were met with **fierce** disbelief. \"The woods are evil!\" they cried. But she showed them the clean water seeping from the stone. **Finally**, a few followed.\n\nIt took days of **relentless** work to clear the stones. When the last rock rolled away, the spring gave a deep, shuddering sigh. Water, **pure** and **cold**, burst forth, singing as it rushed back toward the village.\n\nThe people of Stillwater learned a **vital** lesson that day. The obvious truth\u2014the woods are dangerous\u2014had hidden a deeper one: that fear can blind you. True understanding often lies **beneath** the surface, waiting in the quiet, unseen places for someone brave enough to look.",
+  "response_word_count": 350,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

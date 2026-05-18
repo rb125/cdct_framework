@@ -1,0 +1,43 @@
+{
+  "key": 1372,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "blog post Ripley's Aquarium, 7 placeholders",
+  "compressed_word_count": 6,
+  "response": "**Discover the Wonders of Ripley's Aquarium: A Dive into the Underwater World**\n\nLocated in the heart of [CITY], Ripley's Aquarium is a must-visit attraction for anyone fascinated by marine life. As you step into the aquarium, you'll be transported to an underwater world teeming with [NUMBER] species of fish, colorful coral, and other fascinating creatures.\n\nOne of the main highlights of Ripley's Aquarium is the [TANK NAME] tank, which features a mesmerizing array of marine life, including sharks, rays, and sea turtles. As you walk through the tunnel, you'll feel as though you're swimming alongside these incredible creatures.\n\nThe aquarium is also home to a variety of interactive exhibits, including a touch pool where you can get up close and personal with [ANIMAL TYPE]. Kids will love the [EXHIBIT NAME] exhibit, which features a colorful array of fish and other marine animals.\n\nIn addition to the various exhibits, Ripley's Aquarium also offers a range of educational programs and activities, including [PROGRAM NAME] and [ACTIVITY NAME]. These programs are designed to educate visitors about the importance of marine conservation and the impact of human activities on the ocean's ecosystem.\n\nRipley's Aquarium is open [DAYS OF OPERATION] from [OPENING TIME] to [CLOSING TIME], making it the perfect destination for a family day out or a fun-filled afternoon with friends. So why not plan your visit today and discover the wonders of Ripley's Aquarium for yourself?\n\nWith its unique blend of entertainment and education, Ripley's Aquarium is an unforgettable experience that will leave you with a newfound appreciation for the beauty and diversity of marine life.",
+  "response_word_count": 263,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

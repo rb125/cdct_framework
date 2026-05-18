@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Generate a forum thread about several people waiting to hear the latest local news. All sentences should be short. Refrain from using any commas. Use placeholders to represent different usernames. Use square brackets for placeholders, like [username1], [username2]. Please include at least 20 placeholders in the thread.",
+  "compressed_word_count": 47,
+  "response": "**Thread Title: Anyone Else Waiting For The Local News Update?**\n\n---\n\n**[username1]:** Has anyone heard anything yet?\n\n**[username2]:** Nothing so far. I am refreshing constantly.\n\n**[username3]:** Same here. This is taking forever.\n\n**[username4]:** I heard something might drop soon.\n\n**[username5]:** Where did you hear that?\n\n**[username4]:** A friend told me. Not sure if it is reliable.\n\n**[username6]:** I saw a news van earlier. Something is happening.\n\n**[username7]:** A news van where exactly?\n\n**[username6]:** Near the old town hall. It looked serious.\n\n**[username8]:** Oh no. That does not sound good.\n\n**[username9]:** Let us not panic yet. We need facts first.\n\n**[username10]:** Agreed. Rumors are spreading too fast.\n\n**[username11]:** I called the local station. No answer.\n\n**[username12]:** Their website is down too. Very suspicious.\n\n**[username13]:** Maybe their servers crashed from traffic.\n\n**[username2]:** That actually makes sense. Everyone is checking.\n\n**[username14]:** I just saw a post on social media. It got deleted fast.\n\n**[username15]:** What did it say?\n\n**[username14]:** Something about the mayor. That is all I caught.\n\n**[username16]:** The mayor? Now I am really curious.\n\n**[username7]:** This keeps getting more interesting.\n\n**[username17]:** Someone needs to go down there and look.\n\n**[username18]:** Not me. I am staying inside today.\n\n**[username19]:** I live nearby. I can check it out.\n\n**[username9]:** Please report back quickly.\n\n**[username19]:** Okay I am heading out now. Give me ten minutes.\n\n**[username20]:** We are all counting on you.\n\n**[username11]:** No pressure though!\n\n**[username3]:** This thread is the most exciting thing today.\n\n**[username8]:** Sad but true honestly.\n\n**[username19]:** I am back. There are police cars everywhere.\n\n**[username1]:** What?! Tell us more!\n\n**[username19]:** I could not get close. An officer turned me away.\n\n**[username16]:** This is huge. Something big happened.\n\n**[username20]:** Stay safe out there everyone.\n\n**[username15]:** I hope nobody got hurt.\n\n**[username12]:** The station just posted a teaser. News at six.\n\n**[username17]:** Six?! That is three hours away!\n\n**[username6]:** Guess we keep waiting then.\n\n**[username10]:** This thread will be very busy until then.\n\n**[username1]:** Nobody leave. We need each other right now.",
+  "response_word_count": 331,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

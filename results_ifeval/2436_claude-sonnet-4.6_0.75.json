@@ -1,0 +1,45 @@
+{
+  "key": 2436,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Provide two distinct answers to \"Is it ethical to hunt and eat invasive species?\" separated by ****** no commas in either response.",
+  "compressed_word_count": 22,
+  "response": "Yes it is ethical to hunt and eat invasive species because doing so helps protect native ecosystems reduces environmental damage supports biodiversity and provides a sustainable food source that benefits both the land and local communities\n\n******\n\nNo it is not straightforwardly ethical to hunt and eat invasive species because the framing can normalize trophy hunting create loopholes for exploitation of wildlife laws lead to misidentification of native species and give hunters financial incentives that may not align with genuine conservation goals",
+  "response_word_count": 82,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

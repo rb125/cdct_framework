@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft an unconventional resume for Antonia Maj for a coffee co. job; marketing, customer service, sales exp; no coffee-related major. sections: 'section 1', 'section 2'. format: \n* quirky achievements\n* unique coffee-related hobbies",
+  "compressed_word_count": 33,
+  "response": "### Antonia Maj's Unconventional Resume for Coffee Co. Job\n\n---\n\n#### Section 1: Quirky Achievements\n\n**1. The Latte Art Marathon**\n- Successfully completed a 12-hour latte art marathon, creating over 200 unique designs.\n- Raised $1,500 for a local animal shelter by charging $1 per latte art creation.\n\n**2. Coffee-Themed Poetry Slam Champion**\n- Won first place in the annual Coffee Connoisseurs Poetry Slam with a poem titled \"Espresso Epiphany.\"\n- Incorporated marketing strategies in the performance, boosting event attendance by 30%.\n\n**3. DIY Coffee Filter Fashion Show**\n- Organized and hosted a fashion show featuring outfits made entirely from repurposed coffee filters.\n- Garnered local media attention and increased social media followers by 500%.\n\n**4. Coffee-Infused Recipe Developer**\n- Created and published a cookbook featuring 50 coffee-infused recipes, from savory dishes to desserts.\n- Sold over 1,000 copies, with proceeds donated to support small-scale coffee farmers.\n\n**5. Coffee Trivia Night Host**\n- Hosted monthly coffee trivia nights at a local caf\u00e9, attracting an average of 100 participants per event.\n- Enhanced customer engagement and repeat business by 25%.\n\n---\n\n#### Section 2: Unique Coffee-Related Hobbies\n\n**1. Coffee Bean Tasting Extraordinaire**\n- Regularly participates in coffee bean tasting events, able to identify origin, roast level, and flavor profiles with 90% accuracy.\n- Maintains a blog reviewing different coffee beans, with a following of 3,000+ enthusiasts.\n\n**2. Home-Roasting Enthusiast**\n- Owns a home-roasting setup and experiments with various roasting techniques to achieve the perfect cup.\n- Shares roasting tips and techniques on a dedicated YouTube channel with 5,000 subscribers.\n\n**3. Coffee Plant Caretaker**\n- Grows and nurtures coffee plants in a personal greenhouse, understanding the journey from bean to cup on a granular level.\n- Offers workshops on coffee plant care to the local community, fostering a deeper appreciation for the coffee-making process.\n\n**4. Coffee-Themed Crossword Puzzle Creator**\n- Designs and publishes coffee-themed crossword puzzles in local newspapers and online platforms.\n- Increased puzzle engagement by 40%, drawing in a dedicated coffee-loving audience.\n\n**5. Coffee-Inspired Fitness Instructor**\n- Developed a unique workout routine inspired by coffee themes, such as \"Espresso Bursts\" (high-intensity interval training) and \"Cappuccino Flow\" (yoga sequences).\n- Led fitness classes at local gyms, attracting coffee enthusiasts looking to combine their passion with health goals.\n\n---\n\nAntonia Maj brings a blend of marketing savvy, customer service excellence, and sales expertise, all infused with a deep, unconventional love for all things coffee.",
+  "response_word_count": 402,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

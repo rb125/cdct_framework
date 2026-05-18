@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "write A letter to A friend in english, in all caps, with at least 40 'O' characters.",
+  "compressed_word_count": 17,
+  "response": "HERE IS A LETTER TO A FRIEND, WRITTEN IN ALL CAPS:\n\n---\n\nDEAR JOHN,\n\nHOW ARE YOU DOING? I HOPE YOU ARE NOT TOO BORED OVER THERE IN YOUR HOMETOWN. I KNOW YOU TOLD ME YOU WOULD GO TO COLORADO SOON, AND I THOUGHT THAT SOUNDED SO COOL! YOU SHOULD LOOK OUT FOR THOSE GORGEOUS ROCKY MOUNTAINS ANDOOT FOR THE LOCAL SPORTS TEAMS TOO!\n\nI HAVE BEEN DOING GOOD ON MY OWN OVER HERE. I COOKED A WHOLE POT OF HOMEMADE TOMATO SOUP YESTERDAY, AND OH BOY, IT WAS SO GOOD! YOU KNOW HOW MUCH I LOVE TO COOK. I ALSO TOOK A LONG STROLL DOWNTOWN AND STOPPED AT THAT OLD BOOKSTORE ON MOORE ROAD. I FOUND A BOOK ABOUT FOLKLORE AND VOODOO HISTORY - HOW COOL IS THAT?\n\nI HOPE WE CAN SOON COORDINATE A GOOD TIME TO MEET UP AND HANG OUT. WE COULD GO TO THAT OUTDOOR POOL OR ROOFTOP LOUNGE WE BOTH LOVE SO MUCH. JUST LET ME KNOW WHEN YOU ARE GOOD TO GO!\n\nLOOKING FORWARD TO SEEING YOU SOON, OLD FRIEND!\n\nYOUR GOOD FRIEND,\nTOMMY\n\n---",
+  "response_word_count": 182,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 2063,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Titan makes clothing for large men. Write an advertisement for the company that would appeal to a wide audience. Make sentences short. Your response should not contain any comma.\ncreate ad for Titan's large men's clothing no commas wide appeal",
+  "compressed_word_count": 40,
+  "response": "# TITAN CLOTHING\n\n## Built For The Bold\n\nBig shouldn't mean basic.\n\nYou deserve style.\n\nYou deserve comfort.\n\nYou deserve clothes that FIT.\n\n---\n\nTitan is here for you.\n\nOur shirts stretch with you.\n\nOur pants move with you.\n\nOur jackets look sharp on you.\n\n---\n\nSizes start at XL.\n\nSizes go up to 10XL.\n\nEvery body is welcome here.\n\nEvery man deserves confidence.\n\n---\n\nStrong fabrics. Bold designs. Real fit.\n\nNo squeezing in.\n\nNo pulling at seams.\n\nJust pure comfort all day long.\n\n---\n\nFathers wear Titan.\n\nAthletes wear Titan.\n\nProfessionals wear Titan.\n\n**Real men wear Titan.**\n\n---\n\nShop online today.\n\nFree shipping on every order.\n\nFree returns too.\n\nNo risk. Just results.\n\n---\n\n## TITAN CLOTHING\n### *Wear Your Size With Pride*",
+  "response_word_count": 124,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

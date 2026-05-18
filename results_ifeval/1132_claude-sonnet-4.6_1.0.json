@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write the lyrics to a hit song by the rock band 'The Gifted and The Not Gifted'. To make it rocky, the response should be in all capital letters. The word \"rock\" should not appear in your response.",
+  "compressed_word_count": 38,
+  "response": "HERE ARE THE LYRICS TO \"BURNING THROUGH THE NIGHT\" BY THE GIFTED AND THE NOT GIFTED:\n\nVERSE 1:\nWE CAME FROM NOTHING, RISING FROM THE DUST\nOUR HANDS ARE BLEEDING, BUT OUR HEARTS ARE JUST\nTHEY SAID WE'D NEVER MAKE IT TO THE TOP\nBUT WE KEPT MOVING, WE REFUSED TO STOP\n\nCHORUS:\nWE'RE BURNING THROUGH THE NIGHT\nWITH THUNDER IN OUR VEINS\nWE'RE SCREAMING AT THE SKY\nAND DANCING IN THE FLAMES\nTHE GIFTED AND THE NOT\nWE'RE ALL THE SAME INSIDE\nWE'RE BURNING THROUGH THE NIGHT\nON THIS ELECTRIC RIDE\n\nVERSE 2:\nTHE STAGE IS SHAKING, SPEAKERS BLOWING OUT\nTHE CROWD IS HUNGRY, HEAR THEM SCREAM AND SHOUT\nWE NEVER NEEDED LABELS OR THEIR GOLD\nWE JUST NEEDED MUSIC IN OUR SOULS\n\n(REPEAT CHORUS)\n\nBRIDGE:\nTEAR DOWN THE WALLS THAT DIVIDE US\nLET THE HEAVY RIFFS REMIND US\nWE ARE LOUD, WE ARE WILD, WE ARE FREE\nTHIS IS WHO WE WERE BORN TO BE\n\nGUITAR SOLO\n\n(REPEAT CHORUS)\n\nOUTRO:\nBURNING... BURNING... BURNING THROUGH THE NIGHT!",
+  "response_word_count": 168,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

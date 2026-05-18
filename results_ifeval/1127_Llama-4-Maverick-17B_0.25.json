@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write poem missing classes, 4 sections, end 'money back'?",
+  "compressed_word_count": 9,
+  "response": "In empty halls, I wander wide,\nMissing classes, my heart does reside,\nWith friends and teachers, I long to be,\nLearning and growing, a part of me.\n\nThe syllabus gathers dust and age,\nAs I skip lectures, my knowledge turns to a stage,\nWhere characters and plots, are all I can recall,\nBut formulas and facts, begin to lose their wall.\n\nThe reasons mount, the excuses too,\nFor missing classes, and the things I should do,\nBut still I dream, of a different path,\nWhere attendance isn't a constant math.\n\nBut now I'm left, with a regretful sigh,\nA tuition paid, with a wondering why,\nDid I waste my time, and my parent's gold?\nWill I get my money back?",
+  "response_word_count": 120,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

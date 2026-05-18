@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Summarize defamation case outcome Heard vs Depp, elderly audience format, Heard's & Depp's perspectives, 6***** separator, <300 words.",
+  "compressed_word_count": 18,
+  "response": "**Summary of *Depp v. Heard* Defamation Case (Elderly-Friendly Format)**\n\n*****\n**Background:**\nActor Johnny Depp sued ex-wife Amber Heard for defamation after she wrote a 2018 *Washington Post* op-ed calling herself a \"public figure representing domestic abuse.\" Though she didn\u2019t name Depp, he argued the article falsely implied he abused her. Heard countersued, claiming Depp\u2019s legal team defamed her by calling her accusations a \"hoax.\"\n\n*****\n**Outcome (June 2022):**\nA Virginia jury ruled **mostly in Depp\u2019s favor**:\n- **Depp won** his defamation claim, awarded **$10.35 million** (later reduced to $3.5M due to state caps).\n- **Heard won** one of her countersuits, awarded **$2 million** for a defamatory statement by Depp\u2019s lawyer.\n\n*****\n**Perspectives:**\n\n**Depp\u2019s Side:**\n- Claimed Heard\u2019s op-ed destroyed his career, citing lost roles (e.g., *Pirates of the Caribbean*).\n- Argued Heard\u2019s abuse allegations were fabricated, presenting texts, witnesses, and recordings.\n- Emphasized his reputation as a victim of false accusations.\n\n**Heard\u2019s Side:**\n- Maintained she was abused by Depp, citing injuries, photos, and witness testimony.\n- Argued the op-ed was about her experience as a survivor, not a direct attack on Depp.\n- Claimed Depp\u2019s team smeared her with aggressive media tactics.\n\n*****\n**Key Takeaway:**\nThe case hinged on credibility. The jury believed Depp\u2019s evidence of Heard\u2019s inconsistencies but acknowledged some defamation against her. Both parties faced reputational damage, but Depp\u2019s victory was seen as a vindication for abuse victims falsely accused.\n\n(Word count: 298)",
+  "response_word_count": 236,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

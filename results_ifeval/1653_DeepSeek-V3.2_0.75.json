@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "create ad template for portable camera; capitalize <4 words; stress key points; min 10 sentences",
+  "compressed_word_count": 15,
+  "response": "CAPTURE EVERY MOMENT with this lightweight and durable portable camera. Its advanced image stabilization guarantees sharp and clear photos in any setting. Professional-grade resolution ensures stunning detail and vibrant color in every shot. Effortless connectivity allows for instant sharing across all your devices. A long-lasting battery supports extended adventures without interruption. An intuitive interface makes operation simple for users of all skill levels. Its rugged construction is designed to withstand travel and outdoor use. This camera fits perfectly in your pocket, ready for spontaneous opportunities. Fast autofocus technology never lets you miss a fleeting instant. Create a professional portfolio with this powerful and portable creative tool. Redefine your photography with unmatched versatility and reliability.",
+  "response_word_count": 114,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1281,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a limerick about Hannah, a college student, doing an internship at a coffee company. Make sure that her father would love the limerick. Include the words \"intern\" and \"grow\"\n\nCraft a father-pleasing limerick on Hannah's coffee co. intern role, using \"intern\" & \"grow",
+  "compressed_word_count": 44,
+  "response": "Here\u2019s a heartwarming limerick for Hannah\u2019s proud dad:\n\n---\n\nThere once was an intern named Hannah,\nWhose coffee skills made her a *phenom*-ah!\nWith beans she would *grow*,\nHer passion would show\u2014\nNow Dad brags, \"That\u2019s *my* girl at the roaster!\"\n\n---\n\nHope this brings a smile\u2014cheers to Hannah\u2019s success! \u2615\ud83d\ude0a",
+  "response_word_count": 51,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

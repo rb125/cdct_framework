@@ -1,0 +1,45 @@
+{
+  "key": 1779,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "create A funny grocery trip itinerary in lima with keywords 'disgusting', 'delicious', 'bad', 'good', in all caps",
+  "compressed_word_count": 17,
+  "response": "**GROCERY TRIP ITINERARY: LIMA EDITION**\n*\"A Culinary Rollercoaster in One Afternoon\"*\n\n**1. STOP: THE \"FRESH\" FISH MARKET (Mercado #1)**\n*   **Mission:** Buy ceviche ingredients.\n*   **The Reality:** Navigate puddles of mysterious origin. Inhale the potent aroma of the sea, which is mostly **DELICIOUS**... until you get a whiff of that one stall in the corner that is utterly **DISGUSTING**. The fish there looks like it remembers the Spanish conquest.\n*   **Verdict:** Find a vendor with a crowd. If the fish smells **BAD**, run.\n\n**2. STOP: THE MYSTERY FRUIT CART (Every Corner)**\n*   **Mission:** Be adventurous!\n*   **Action:** Point to a spiky, neon-orange fruit you've never seen. The vendor peels it with a terrifyingly large machete. You take a bite. It is inexplicably **GOOD** and tastes like candy! You buy three. Then you point to a lumpy, brown root. It tastes like dirt and regret. It is **BAD**. Profoundly, spiritually **BAD**.\n\n**3. STOP: THE BAKERY (Panader\u00eda \"Sol de Oro\")**\n*   **Mission:** Get bread for dinner.\n*   **The Reality:** The smell of fresh-baked *pan franc\u00e9s* is **DELICIOUS**. You buy a warm baguette. You then see the *\"Pastel de Choclo\"* (corn cake) under a dome next to a sleepy fly. It looks... questionable. You try it anyway. The texture is **DISGUSTING**. You pretend to love it so the sweet abuela running the shop doesn't feel bad. You now own a whole cake.\n\n**4. STOP: THE SUPERMARKET (For The Faint of Heart)**\n*   **Mission:** Recover and buy safe things like toilet paper.\n*   **The Reality:** The fluorescent lights are soothing. You find name-brand cookies. This is **GOOD**. You then venture into the \"Local Delicacies\" aisle and see *canned cuy* (guinea pig). The picture on the can is **BAD**. The mere thought is **DISGUSTING**. You hug your toilet paper for comfort.\n\n**5. STOP: THE CHICHA MORADA STAND (Final Reward)**\n*   **Mission:** Wash the entire experience down.\n*   **The Reality:** You get a giant cup of the purple corn drink. It is sweet, cinnamon-y, and perfect. It is **DELICIOUS**. It makes you forget the **BAD** fruit and the **DISGUSTING** cake visual. All is **GOOD**.\n\n**FINAL GROCERY BAG INVENTORY:**\n*   **DELICIOUS** fish (hopefully).\n*   **GOOD** bread & cookies.\n*   **BAD** mystery tuber (now a paperweight).\n*   **DISGUSTING** corn cake (a gift for your \"friend\").\n*   A story you can't make up.",
+  "response_word_count": 384,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

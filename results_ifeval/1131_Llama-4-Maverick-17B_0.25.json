@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 4-section clown resume, no section titles.",
+  "compressed_word_count": 7,
+  "response": "**John \"Jester\" Doe**\n123 Laughing Lane, Clownville, USA 12345\n(555) 555-5555, [johndoe@email.com](mailto:johndoe@email.com)\n\nProficient in creating balloon animals, twisting hats, and making balloon swords for children of all ages. Skilled in physical comedy, slapstick humor, and improvisational skills. Experienced in working at birthday parties, corporate events, and parades.\n\n10 years of experience as a professional clown, working with various event planning companies and entertainment agencies. Successfully managed to make children laugh and smile at numerous events, including birthday parties, corporate events, and parades. Utilized skills in face painting, juggling, and unicycling to entertain crowds.\n\nProficiency in various clown characters, including \"Blinky\" the happy clown and \"Giggles\" the silly clown. Skilled in creating customized comedy routines for specific events and audiences. Experienced in working with children of all ages and backgrounds.\n\nAvailable for events and bookings immediately. Willing to travel for events and performances. Possesses a clean driving record and reliable transportation. References available upon request.",
+  "response_word_count": 154,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

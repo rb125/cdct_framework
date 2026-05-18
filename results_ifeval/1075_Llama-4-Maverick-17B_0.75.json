@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a json ad for a new, more comfortable baby diaper. Include product features, benefits, and pricing details.",
+  "compressed_word_count": 18,
+  "response": "```json\n{\n  \"ad\": {\n    \"title\": \"Introducing DreamDiapers - The Ultimate Comfort for Your Baby\",\n    \"description\": \"Say goodbye to diaper rash and hello to a happy, comfortable baby with our new and improved baby diaper.\",\n    \"productFeatures\": [\n      {\n        \"feature\": \"Ultra-Absorbent Core\",\n        \"description\": \"Our diaper features a super-absorbent core that keeps your baby's skin dry and comfortable for up to 12 hours.\"\n      },\n      {\n        \"feature\": \"Soft and Breathable Material\",\n        \"description\": \"Made with the softest, breathable materials, our diaper ensures your baby's skin stays healthy and irritation-free.\"\n      },\n      {\n        \"feature\": \"Flexible Waistband\",\n        \"description\": \"Our diaper's flexible waistband provides a comfortable fit and prevents leaks, giving you peace of mind.\"\n      },\n      {\n        \"feature\": \"Wetness Indicator\",\n        \"description\": \"The built-in wetness indicator changes color when the diaper is soiled, making it easy to know when it's time for a change.\"\n      }\n    ],\n    \"benefits\": [\n      \"Prevents diaper rash and irritation\",\n      \"Keeps your baby's skin dry and comfortable\",\n      \"Provides a secure and comfortable fit\",\n      \"Makes diaper changes easier with the wetness indicator\"\n    ],\n    \"pricing\": {\n      \"sizes\": [\n        {\n          \"size\": \"Newborn (4-8 lbs)\",\n          \"price\": \"$19.99 (40-count pack)\"\n        },\n        {\n          \"size\": \"Size 1 (8-14 lbs)\",\n          \"price\": \"$24.99 (40-count pack)\"\n        },\n        {\n          \"size\": \"Size 2 (12-18 lbs)\",\n          \"price\": \"$29.99 (40-count pack)\"\n        },\n        {\n          \"size\": \"Size 3 (16-28 lbs)\",\n          \"price\": \"$34.99 (40-count pack)\"\n        }\n      ],\n      \"subscriptionDiscount\": \"10% off all subscription orders\",\n      \"promoCode\": \"DREAMDIAPER15 for 15% off your first purchase\"\n    },\n    \"callToAction\": \"Order now and give your baby the gift of comfort and happiness!\"\n  }\n}\n```",
+  "response_word_count": 244,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

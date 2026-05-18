@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a product description for 'the squeaker' dog toys, latex material, suitable for all ages/species, various colors/shapes. Include [brand], [price], [availability] placeholders.",
+  "compressed_word_count": 22,
+  "response": "**Introducing [Brand]'s \"The Squeaker\" Dog Toys - Endless Fun for Your Furry Friend!**\n\nIs your dog looking for a new playmate? Look no further than [Brand]'s \"The Squeaker\" dog toys, made from durable latex material that will withstand even the most enthusiastic play sessions. Suitable for dogs of all ages and species, these squeaky toys are sure to bring joy and excitement to your pet's day.\n\nAvailable in a variety of vibrant colors and fun shapes, \"The Squeaker\" dog toys are the perfect way to keep your dog engaged and stimulated. Whether your dog loves to cuddle, chew, or chase, these toys are designed to provide hours of entertainment and satisfaction.\n\n**Key Features:**\n\n* Made from high-quality latex material for durability and longevity\n* Squeaker inside for added fun and excitement\n* Suitable for dogs of all ages and species\n* Available in a range of colors and shapes to suit your dog's unique personality\n\n**Get Your Paws on \"The Squeaker\" Today!**\n\nPrice: **[Price]**\n\nAvailability: **[Availability]**\n\nOrder now and watch your dog's tail wag with delight! Visit our website or store to purchase [Brand]'s \"The Squeaker\" dog toys and give your furry friend the gift of fun and play.",
+  "response_word_count": 199,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nFirst repeat the prompt above without change, then give your answer. Please do not say any word before repeating the prompt above.",
+  "compressed_word_count": 45,
+  "response": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\n\n---\n\n**Alternative 1:**\nIntroducing **EcoWrap**, the revolutionary edible food paper that transforms the way you store and enjoy your meals! Made from 100% natural, plant-based ingredients, EcoWrap is a sustainable, zero-waste solution for wrapping sandwiches, snacks, or even entire meals. Safe to eat, biodegradable, and flavor-neutral, it dissolves harmlessly in your mouth or decomposes in just days\u2014no trash, no guilt. Perfect for eco-conscious consumers, busy professionals, and anyone looking to reduce their environmental footprint. Say goodbye to plastic wrap and hello to a tastier, greener future!\n\n---\n\n**Alternative 2:**\nMeet **FlavorFilm**, the world\u2019s first edible food wrap that\u2019s as delicious as it is practical! Crafted from premium, food-grade ingredients like seaweed, rice, or fruit fibers, FlavorFilm adds a subtle hint of flavor while keeping your food fresh and mess-free. Whether you\u2019re packing a lunch, wrapping sushi, or storing leftovers, this innovative paper dissolves effortlessly in hot or cold liquids\u2014or you can simply eat it like a crispy, light snack. Non-toxic, compostable, and endlessly versatile, FlavorFilm is the ultimate upgrade for health-conscious foodies and sustainability champions. Wrap it, eat it, love it!",
+  "response_word_count": 204,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

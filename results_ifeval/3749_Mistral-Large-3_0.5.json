@@ -1,0 +1,43 @@
+{
+  "key": 3749,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Compare Federer vs. Nadal's tennis careers; respond with 'yes', 'no', or'maybe'.",
+  "compressed_word_count": 11,
+  "response": "Here\u2019s a comparison of **Roger Federer** and **Rafael Nadal**\u2019s careers with **\"yes,\" \"no,\"** or **\"maybe\"** responses to key questions:\n\n1. **Grand Slam titles (24+)?**\n   - Federer: **Yes** (20)\n   - Nadal: **Yes** (22)\n\n2. **More weeks at World No. 1?**\n   - Federer: **Yes** (310 weeks)\n   - Nadal: **No** (209 weeks)\n\n3. **Head-to-head advantage?**\n   - Federer: **No** (16\u201324 vs. Nadal)\n   - Nadal: **Yes** (24\u201316 vs. Federer)\n\n4. **Career Golden Slam (all 4 majors + Olympic gold)?**\n   - Federer: **No** (missing Olympic singles gold)\n   - Nadal: **Yes** (achieved in 2010)\n\n5. **More ATP titles?**\n   - Federer: **Yes** (103)\n   - Nadal: **No** (92)\n\n6. **Better on grass?**\n   - Federer: **Yes** (8 Wimbledon titles)\n   - Nadal: **Maybe** (2 Wimbledon titles)\n\n7. **Better on clay?**\n   - Federer: **No** (1 French Open)\n   - Nadal: **Yes** (14 French Opens)\n\n8. **More Masters 1000 titles?**\n   - Federer: **No** (28)\n   - Nadal: **Yes** (36)\n\n9. **Longer prime (peak dominance)?**\n   - Federer: **Maybe** (early 2000s\u20132010s)\n   - Nadal: **Maybe** (2008\u20132014, 2017\u20132022)\n\n10. **More Olympic medals?**\n    - Federer: **No** (1 gold, 1 silver)\n    - Nadal: **Yes** (2 golds, 1 bronze)\n\nWould you like a deeper dive on any category?",
+  "response_word_count": 186,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

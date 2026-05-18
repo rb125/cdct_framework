@@ -1,0 +1,43 @@
+{
+  "key": 2078,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Craft riddle on mongoose, single bullet point, * clues",
+  "compressed_word_count": 9,
+  "response": "* I am a nimble creature, small and sleek, with a reputation for facing danger that many deem unique; in tales of serpents, I play a vital role, evading fang and venom with agility and poise.",
+  "response_word_count": 36,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

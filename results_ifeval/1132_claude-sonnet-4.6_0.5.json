@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "create rock song lyrics for 'the gifted and the not gifted' in all caps, avoiding 'rock'.",
+  "compressed_word_count": 16,
+  "response": "Here are the lyrics:\n\n**THE GIFTED AND THE NOT GIFTED**\n\nVERSE 1:\nBORN WITH LIGHTNING IN YOUR HANDS\nSOME WERE CHOSEN, SOME JUST STAND\nWATCHING FROM THE OTHER SIDE\nSWALLOWING THEIR WOUNDED PRIDE\n\nPRE-CHORUS:\nBUT WHO DECIDES WHO GETS THE CROWN\nWHO LIFTS YOU UP OR TEARS YOU DOWN\nTHE LINE BETWEEN IS RAZOR THIN\nTHE BATTLE RAGES DEEP WITHIN\n\nCHORUS:\nTHE GIFTED AND THE NOT GIFTED\nDIVIDED BY A BROKEN WALL\nTHE GIFTED AND THE NOT GIFTED\nWE RISE TOGETHER OR WE FALL\nNO ONE TOLD YOU THAT YOUR FIRE\nBURNS AS BRIGHT AS ANY STAR\nTHE GIFTED AND THE NOT GIFTED\nWE ARE ALL JUST WHAT WE ARE\n\nVERSE 2:\nLABELS CARVED INTO YOUR SKIN\nTELLING YOU WHERE YOU BEGIN\nPRODIGIES AND ALSO-RANS\nFATE DEALT OUT BY CARELESS HANDS\n\nPRE-CHORUS:\nBUT EVERY SCAR BECOMES A SONG\nEVERY PLACE YOU DON'T BELONG\nFORGES SOMETHING HARD AND REAL\nSOMETHING STRONGER THAN COLD STEEL\n\nCHORUS\n\nBRIDGE:\nTEAR THE SYSTEM TO THE GROUND\nLET THE UNHEARD MAKE THEIR SOUND\nEVERY SOUL HAS SOMETHING BURNING\nEVERY HEART IS ALWAYS LEARNING\n\nFINAL CHORUS\n\nOUTRO:\nWE ARE ALL JUST WHAT WE ARE\nWE ARE ALL JUST WHAT WE ARE",
+  "response_word_count": 194,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

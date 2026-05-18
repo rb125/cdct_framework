@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "rap new smartphone, [placeholders], P.P.S.",
+  "compressed_word_count": 5,
+  "response": "Here's a rap about a new smartphone with placeholders and a P.P.S.:\n\n---\n\n**\ud83c\udfa4 \"Next Level Device\"**\n\nYo, I just copped the brand new **[SMARTPHONE NAME]**\nStraight out the box, man this thing is **[ADJECTIVE]**\n**[NUMBER]** megapixels on the camera lens\nTaking shots so clean, gonna break the internet\n\nThe screen is **[SCREEN SIZE]** inches, crystal clear display\n**[PROCESSOR NAME]** chip, gonna run all day\n**[BATTERY CAPACITY]** mAh, I ain't charging twice\n**[STORAGE AMOUNT]** of storage, yeah the specs are nice\n\nChorus:\nThis **[COLOR]** phone got me feeling like a **[NOUN]**\n**[BRAND NAME]** did it again, they really **[VERB PAST TENSE]**\nDrop it in **[LOCATION]**, still won't crack or break\n**[PRICE POINT]** dollars, worth every stake\n\n---\n\n*P.S. Available at **[RETAILER NAME]** starting **[RELEASE DATE]***\n\n*P.P.S. Don't forget to grab the **[ACCESSORY NAME]** case \u2014 your new phone deserves the best protection money can buy! \ud83d\udcf1\ud83d\udd25*\n\n---\n\nFill in those brackets and make it YOUR anthem! \ud83c\udfb6",
+  "response_word_count": 157,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

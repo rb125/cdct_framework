@@ -1,0 +1,43 @@
+{
+  "key": 3749,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Compare Federer vs Nadal, answer \"yes\", \"no\", or \"maybe\".",
+  "compressed_word_count": 9,
+  "response": "Here are some comparisons between Roger Federer and Rafael Nadal:\n\n| Category | Federer | Nadal | Answer |\n|---|---|---|---|\n| More Grand Slam titles (all-time) | 20 | 22 | **No** (Federer has fewer) |\n| Better on clay | Weaker | Dominant | **No** (Nadal is better) |\n| Better on grass | Dominant | Weaker | **Yes** (Federer is better) |\n| More Wimbledon titles | 8 | 2 | **Yes** |\n| More French Open titles | 1 | 14 | **No** |\n| Better serve | Strong | Weaker | **Yes** |\n| Better head-to-head record | 16 wins | 24 wins | **No** |\n| Considered more elegant/stylish | Generally yes | Generally no | **Yes** |\n| Better forehand (debated) | Strong | Arguably stronger | **Maybe** |\n| Greater overall GOAT claim | Debated | Debated | **Maybe** |\n\nWould you like me to dive deeper into any specific comparison?",
+  "response_word_count": 158,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

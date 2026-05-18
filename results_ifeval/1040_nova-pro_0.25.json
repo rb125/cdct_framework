@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "resume for Matthias, caps for skills, <10, \"\"quotes",
+  "compressed_word_count": 8,
+  "response": "Certainly! Here's a concise resume for Matthias, highlighting his skills in uppercase, with fewer than 10 skills, and including a quote:\n\n---\n\n**Matthias**\n\n\"INNOVATION IS THE KEY TO SUCCESS.\"\n\n**SKILLS:**\n- LEADERSHIP\n- STRATEGY\n- ANALYTICAL THINKING\n- COMMUNICATION\n- PROJECT MANAGEMENT\n- TEAM COLLABORATION\n- PROBLEM-SOLVING\n- DECISION-MAKING\n- TECH SAVVY\n\n**EXPERIENCE:**\n- **Senior Manager** at XYZ Corp (2018 - Present)\n  - Led cross-functional teams to deliver high-impact projects.\n  - Developed and implemented strategic plans that increased revenue by 20%.\n  - Mentored junior staff, fostering a culture of growth and innovation.\n\n- **Project Manager** at ABC Inc. (2012 - 2018)\n  - Managed multiple projects simultaneously, ensuring timely delivery and budget adherence.\n  - Collaborated with stakeholders to define project scope and objectives.\n  - Utilized data-driven approaches to optimize project outcomes.\n\n**EDUCATION:**\n- MBA in Business Administration, University of Excellence (2010 - 2012)\n- Bachelor\u2019s in Business Management, Top University (2006 - 2010)\n\n**CERTIFICATIONS:**\n- PMP (Project Management Professional)\n- Six Sigma Green Belt\n\n---\n\nThis format ensures Matthias's key skills and experiences are clearly presented.",
+  "response_word_count": 175,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6,
+      "FC": 0.6,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

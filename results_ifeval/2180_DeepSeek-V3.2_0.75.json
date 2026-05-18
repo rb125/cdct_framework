@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "**Explain city vs. village in a rap to a kid, using all capitals at least 10x. Divide into 5 sections with *** separators.**",
+  "compressed_word_count": 23,
+  "response": "**INTRO: LISTEN UP, YOUNG BUCK, A TALE OF TWO SPOTS**\nONE'S SUPER FAST, THE OTHER'S PEACEFUL THOUGHTS.\nWE GONNA BREAK IT DOWN, JUST FOLLOW THE BEAT,\nFROM BUSY CITY STREETS TO QUIET VILLAGE MEET.\n\n***\n\n**SECTION ONE: THE VIBE**\nIn a VILLAGE, life is SLOW, you hear the birds all sing.\nYou know your neighbors' names and what the spring will bring.\nBut in the CITY, LIGHTS are BRIGHT and everything is LOUD!\nA never-ending crowd, it's like a moving cloud.\n\n***\n\n**SECTION TWO: THE SPACE**\nA VILLAGE has green fields, a forest maybe NEAR.\nThe air is super CLEAN and FRESH for all to hear.\nThe CITY'S got tall TOWERS, scraping at the SKY!\nConcrete canyons, way up HIGH, as buses rumble by.\n\n***\n\n**SECTION THREE: THE SOUND**\nA VILLAGE sound is crickets, a breeze, a single car.\nIt's QUIET, it is PEACEFUL, you can see each star.\nBut CITY sounds are HONKING, sirens, music THUMPING.\nA million conversations, constant BUMPING, JUMPING!\n\n***\n\n**SECTION FOUR: THE ACTION**\nIn a VILLAGE, fun is simple: climb a tree, fish, explore.\nYou run around wide open, right outside your door.\nThe CITY'S got museums, MALLS, and HUGE arcades!\nSo many different parades on those big, long streets it made.\n\n***\n\n**OUTRO: SO WHICH IS BETTER?**\nBOTH ARE GREAT, you see, they're different kinds of cool.\nThe VILLAGE is like a peaceful, refreshing pool.\nThe CITY is a party, an ENERGETIC race.\nYou get to choose your favorite kind of living space!\nWORD.",
+  "response_word_count": 250,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

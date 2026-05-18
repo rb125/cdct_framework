@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a social media post for students of Islamic history about the hajj pilgrimage. Use all lowercase letters and include the word story at least twice.",
+  "compressed_word_count": 26,
+  "response": "**\ud83c\udf19\u2728 the hajj: a story of faith, unity & history \u2728\ud83c\udf19**\n\nhey students of islamic history! did you know the hajj isn\u2019t just a journey\u2014it\u2019s a living story that connects us to prophets, empires, and millions of believers across centuries?\n\nfrom the kaaba\u2019s ancient stones (built by prophet ibrahim, peace be upon him) to the rituals that echo the story of hajar\u2019s search for water, every step of hajj is a thread in islam\u2019s grand story. caliphs like harun al-rashid and sultans like saladin ensured its legacy, while scholars and poets\u2014like ibn battuta\u2014documented its power.\n\ntoday, over 2 million pilgrims stand together, just as muslims have for 1,400+ years. same plains, same prayers, same story. how incredible is that?\n\ndrop a \ud83d\udd4b if you\u2019ve studied hajj\u2019s history\u2014what\u2019s the most fascinating part of its story to you? let\u2019s keep the conversation going! #islamichistory #hajjstory #pilgrimage #muslimheritage",
+  "response_word_count": 145,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

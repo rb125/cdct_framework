@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a product description for a new line of dog toys, called \"the squeaker\". It's made of latex, and is designed for dogs of all ages and species. It's also available in a variety of colors and shapes. The response must contain at least 3 placeholders represented by square brackets, such as [address], [name], and [phone number].",
+  "compressed_word_count": 57,
+  "response": "**Introducing *The Squeaker* \u2013 The Ultimate Latex Dog Toy for Endless Fun!**\n\nTreat your furry friend to hours of joy with **The Squeaker**, our brand-new line of premium latex dog toys designed for pups of **all ages, sizes, and breeds**! Whether your dog is a playful puppy, a spirited adult, or a wise senior, *The Squeaker* is the perfect companion for fetch, tug-of-war, and solo play.\n\n### **Why Your Dog Will Love *The Squeaker*:**\n\u2705 **Durable & Safe Latex Material** \u2013 Made from high-quality, non-toxic latex, *The Squeaker* is built to withstand even the toughest chewers while being gentle on teeth and gums.\n\n\u2705 **Irresistible Squeak & Crinkle** \u2013 Every squeeze and shake produces a satisfying squeak that will keep your pup engaged and entertained for hours!\n\n\u2705 **Variety of Colors & Shapes** \u2013 From classic bones and balls to fun animal shapes, *The Squeaker* comes in a range of vibrant colors and designs to match your dog\u2019s personality.\n\n\u2705 **Perfect for All Play Styles** \u2013 Whether your dog loves to fetch, chew, or cuddle, *The Squeaker* is versatile enough for solo play, interactive games, or even as a comforting plush toy.\n\n\u2705 **Easy to Clean** \u2013 Simply rinse with water or wipe down for quick and hassle-free maintenance.\n\n### **Give Your Dog the Gift of Play!**\n*The Squeaker* is more than just a toy\u2014it\u2019s a way to bond with your best friend while keeping them happy, active, and mentally stimulated. Available now at **[retailer name]** and online at **[website URL]**.\n\n**Have questions?** Contact our friendly customer service team at **[phone number]** or email **[email address]** for assistance.\n\nDon\u2019t wait\u2014let the squeaky fun begin! \ud83d\udc3e\ud83c\udf89",
+  "response_word_count": 275,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

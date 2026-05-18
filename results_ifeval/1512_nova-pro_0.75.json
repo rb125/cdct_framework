@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "create a forum thread with short sentences about local news wait. no commas. use [username] placeholders at least 20 times.",
+  "compressed_word_count": 20,
+  "response": "[username] did you hear about the new park opening? [username] I can't wait to visit it. [username] Have you seen the latest local news? [username] The city is planning a festival. [username] That sounds fun. [username] I hope they have good food. [username] [username] what do you think about the new school? [username] It's a great addition to the community. [username] [username] have you read the article about the new library? [username] Yes it's going to be huge. [username] [username] I'm excited for the new shopping center. [username] Me too [username] it will bring more jobs. [username] [username] did you know about the road improvements? [username] Yes it will reduce traffic. [username] [username] what's your opinion on the new recycling program? [username] It's a step in the right direction. [username] [username] I heard there's a new community garden. [username] That's awesome [username] I want to join. [username] [username] have you seen the news about the local sports event? [username] Yes I'm going to attend. [username]",
+  "response_word_count": 165,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4496912521077347,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

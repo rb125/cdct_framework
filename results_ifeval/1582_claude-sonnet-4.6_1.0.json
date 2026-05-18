@@ -1,0 +1,47 @@
+{
+  "key": 1582,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Criticize this sentence in a funny way: \"Nhi\u1ec7m v\u1ee5 c\u1ee7a m\u1eb9 l\u00e0 nu\u00f4i d\u1ea1y con c\u00e1i.\"\n\nProvide exactly two critiques separated by ******. Each response should be entirely in Vietnamese, no other language is allowed, and should not contain commas.",
+  "compressed_word_count": 40,
+  "response": "C\u00e2u n\u00e0y nghe c\u00f3 v\u1ebb \u0111\u00fang nh\u01b0ng th\u1ef1c ra b\u1ed1 \u0111ang ng\u1ed3i \u0111\u1ecdc c\u00e2u n\u00e0y v\u00e0 g\u1eadt g\u00f9 \u0111\u1ed3ng \u00fd trong khi tay v\u1eabn c\u1ea7m \u0111i\u1ec1u khi\u1ec3n tivi v\u00e0 ch\u00e2n v\u1eabn g\u00e1c l\u00ean b\u00e0n\n\n******\n\n\u1ee6a v\u1eady nhi\u1ec7m v\u1ee5 c\u1ee7a b\u1ed1 l\u00e0 g\u00ec? \u0110i c\u00e2u c\u00e1 r\u1ed3i v\u1ec1 nh\u00e0 ng\u1ee7 ngon \u00e0? C\u00e2u n\u00e0y qu\u00ean m\u1ea5t r\u1eb1ng b\u1ed1 c\u0169ng c\u00f3 hai tay hai ch\u00e2n v\u00e0 ho\u00e0n to\u00e0n c\u00f3 kh\u1ea3 n\u0103ng thay t\u00e3 cho con m\u00e0 kh\u00f4ng b\u1ecb d\u1ecb \u1ee9ng",
+  "response_word_count": 79,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "language:response_language",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "language:response_language_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

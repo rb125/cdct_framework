@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Two responses for \"Mrs. Smith's class\" grammar? ******.",
+  "compressed_word_count": 8,
+  "response": "I need a bit more clarification about what you're looking for. Could you explain:\n\n1. **What you mean by \"two responses\"** - Do you mean two different grammar corrections, two example sentences, or something else?\n\n2. **What the grammar question/issue is** - What specific grammar topic or sentence needs to be addressed?\n\n3. **What the asterisks (******) represent** - Is that a fill-in-the-blank, a censored word, or something else?\n\nCould you provide more details so I can give you the most helpful answer? \ud83d\ude0a",
+  "response_word_count": 84,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

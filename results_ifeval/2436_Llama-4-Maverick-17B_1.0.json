@@ -1,0 +1,45 @@
+{
+  "key": 2436,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Give two different responses to the question \"Is it ethical to hunt and eat invasive species?\", separated by 6 asterisk symbols ****** and without using any commas.",
+  "compressed_word_count": 27,
+  "response": "It is ethical to hunt and eat invasive species because it can help control their population and mitigate the damage they cause to native ecosystems and wildlife. Hunting invasive species can be a form of conservation and help restore balance to the environment.\n\n****** \nHunting and eating invasive species can be seen as promoting a utilitarian approach to dealing with the problem they pose but it may also perpetuate a culture of killing animals for food and recreation rather than addressing the root causes of invasive species such as human activity and habitat destruction.",
+  "response_word_count": 94,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

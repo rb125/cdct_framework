@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "Generate 10 baby boy names; format each with a * bullet. Add P.P.S. at end. No commas, formal tone.",
+  "compressed_word_count": 19,
+  "response": "Here are ten distinguished baby boy names presented in the requested format:\n\n* Alexander\n* Benjamin\n* Charles\n* Dominic\n* Edward\n* Frederick\n* Gabriel\n* Henry\n* Julian\n* Nathaniel\n\nP.P.S. May the chosen name bring honor and joy to your family.",
+  "response_word_count": 44,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

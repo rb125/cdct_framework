@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Compose two angry limericks on moms' struggle with kids' chores; use *** for separation.",
+  "compressed_word_count": 14,
+  "response": "Here are two angry limericks about the eternal chore battle:\n\nMy kids leave their dishes unwashed,\nTheir promises constantly squashed,\nI scream and I yell,\nThey don't care, what the hell,\nMy patience has fully been squashed!\n\n***\n\nI've asked them to vacuum the floor,\nThey've ignored me at least thirty more,\nI'm losing my mind,\nThey're so terribly blind,\nI'll nail all their games to the door!",
+  "response_word_count": 68,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

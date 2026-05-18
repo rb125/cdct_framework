@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "baby names, pps",
+  "compressed_word_count": 3,
+  "response": "# Baby Names \ud83d\udc95\n\nHere are some popular and beautiful options:\n\n---\n\n## \ud83d\udc66 Boy Names\n- Liam\n- Noah\n- Elijah\n- Oliver\n- Mateo\n- Sebastian\n- Ezra\n- Leo\n- Kai\n- Finn\n\n---\n\n## \ud83d\udc67 Girl Names\n- Olivia\n- Emma\n- Luna\n- Aria\n- Isla\n- Nova\n- Mia\n- Ellie\n- Zoe\n- Chloe\n\n---\n\n## \ud83c\udf1f Unique/Trendy\n- Sage\n- River\n- Eden\n- Wren\n- Atlas\n- Ember\n- Juno\n- Orion\n\n---\n\nWould you like names that are:\n- **A specific style** (classic, modern, unique)?\n- **A certain letter or sound?**\n- **A specific cultural origin?**\n- **Gender neutral?**\n\nLet me know and I can narrow it down! \ud83d\ude0a",
+  "response_word_count": 119,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

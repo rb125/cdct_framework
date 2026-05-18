@@ -1,0 +1,43 @@
+{
+  "key": 1592,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "summarize paragraph: 100% renewable energy by 2050 with solar & wind, job creation, pollution reduction, and disruption resistance",
+  "compressed_word_count": 18,
+  "response": "The paragraph discusses a vision for achieving 100% renewable energy by 2050 through the extensive use of solar and wind power. This transition is expected to create numerous jobs in the green energy sector, significantly reduce pollution by phasing out fossil fuels, and build a resilient energy infrastructure capable of withstanding disruptions, such as those caused by climate change or geopolitical tensions.",
+  "response_word_count": 62,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

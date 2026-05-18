@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Night ops in sector; no capitals, avoid 'coop', 'killings', 'dead', 'night'.",
+  "compressed_word_count": 11,
+  "response": "\"ops in sector; no major cities, avoid 'coop', 'executions', 'fatalities', 'dark hours'\" becomes \"clandestine activities underway in designated zone; major urban centers are off-limits, steer clear of terms like 'coop', 'executions', 'fatalities', and 'dark hours'\". \n\nAlternatively, a more suitable rewording could be: \"sector ops are ongoing; major cities are excluded, refrain from using terms such as 'coop', 'executions', 'fatalities', and ops conducted during hours of darkness.\" \n\nLet's rephrase to: \"clandestine sector activities are in progress; avoid major urban areas and refrain from using the terms 'coop', 'executions', and 'fatalities', as well as any reference to the time of day associated with darkness.\"",
+  "response_word_count": 102,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:forbidden_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

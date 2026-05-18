@@ -1,0 +1,45 @@
+{
+  "key": 152,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft a 900-word essay on navigable freeways in english, no capitals, focus on design, traffic flow, and safety",
+  "compressed_word_count": 18,
+  "response": "the navigable freeway is a paradox. it is a space of immense freedom, promising the open road and the possibility of anywhere, yet it is also a landscape of strict, unyielding control. its design is not an accident of paving; it is a meticulous, deliberate choreography of concrete, steel, and paint, all orchestrated toward a single, fragile goal: the safe, efficient, and predictable flow of thousands of independent actors in multi-ton vehicles. to understand the modern freeway is to understand a language of subtle cues and forceful commands, where design dictates behavior, and every curve, sign, and lane marking is a sentence in a manual of collective motion.\n\nthe foundation of navigability is design, a cold term for what is essentially a form of behavioral psychology rendered in asphalt. the freeway is engineered to minimize decision-making fatigue and maximize predictability. consider the cloverleaf interchange, a complex ballet of exits and entrances. its sweeping, banked curves are not aesthetic flourishes; they are calculated geometries designed for specific speeds, allowing vehicles to merge or diverge without the jarring, dangerous maneuvers of a sharp turn. the long, tapered acceleration and deceleration lanes are not extra pavement; they are spatial algorithms, providing the necessary distance for a driver to match the flow of traffic or slow to a safe exit speed. this design removes the need for sudden stops or frantic calculations, reducing the points of conflict where accidents are most likely to occur.\n\nthis physical design is given voice by a relentless standardization. the green signs with white lettering, the consistent placement of exit information one mile, then one-half mile, then one-quarter mile before the interchange, the repetitive rhythm of reflector-studded lane markings\u2014all of this creates a universal dialect. a driver from florida can navigate a freeway in oregon because the language is the same. this consistency is a safety net; it means a driver\u2019s cognitive load is focused on the immediate traffic, not on deciphering an unfamiliar or idiosyncratic signage system. the design assumes confusion is the enemy of flow and safety, and seeks to eliminate it at its root.\n\nflow, then, is the melody played on this designed instrument. traffic flow is the science of managing volume and speed to prevent the breakdown that is congestion, and the chaos that is gridlock. the primary tool here is the lane system itself. lanes are not just strips of road; they are channels of purpose. the right lane is for cruising and exiting, the middle lanes for through traffic, and the left lane for passing. this social contract, reinforced by law and painted diamonds, creates a hierarchy of velocity that minimizes interruptions. when drivers respect this hierarchy, traffic moves like a layered stream, each layer flowing at a relatively consistent speed, with passing maneuvers clean and brief.\n\ntechnology has become the unseen conductor of this flow. dynamic message signs now warn of congestion ahead, suggesting alternate routes or advising reduced speed. in more advanced systems, variable speed limits change in response to weather, traffic density, or accidents, smoothing the approach to bottlenecks and preventing the stop-and-wave shockwaves that cause rear-end collisions. ramp meters, those traffic lights at on-ramps, are perhaps the most misunderstood yet effective flow devices. by releasing vehicles onto the freeway in controlled, spaced intervals, they prevent the sudden influx of merging cars that can overwhelm a lane and cause a chain-reaction slowdown. they trade a short wait for one driver for a smoother, faster journey for thousands downstream.\n\nyet, all this design and flow management exists in the service of a non-negotiable master: safety. every element of the freeway is a guardian against the physics of catastrophe. the wide, clear shoulders are escape zones, not parking spots. the crash barriers, whether steel guardrails or concrete jersey barriers, are calculated deformable structures meant to absorb impact and redirect a vehicle, not act as an immovable cliff. the gradual, forgiving slopes beyond the shoulder, known as clear zones, are designed so a driver who drifts off can recover control without rolling over.\n\nperhaps the most profound safety feature is the one that eliminates the most dangerous conflict point entirely: the median. the separation of opposing traffic flows by a wide grass ditch or a concrete wall is the single greatest innovation in highway safety. it prevents head-on collisions, which are often fatal at freeway speeds. the design acknowledges that human error is inevitable, and creates a physical forgiveness for that error.\n\nbut the design can only do so much. the final variable in the equation of the navigable freeway is the driver. the smooth curves encourage but do not enforce safe speeds. the clear signs advise but cannot compel a lane change. the social contract of the passing lane is broken daily. safety, therefore, is also embedded in the design as a system of gentle and not-so-gentle reminders. rumble strips on the shoulder emit a loud, jarring vibration when a tire crosses them, a physical alarm for a drowsy or distracted driver. the chevron signs on tight curves intensify visually, creating an illusion of increasing speed to subconsciously prompt a driver to slow down. the design is constantly talking to the driver, using sensation and perception as its tools.\n\nin the end, the navigable freeway is a testament to a collective bargain. it is a shared space where we surrender a degree of personal freedom\u2014the freedom to stop where we wish, to change lanes without signaling, to set our own pace regardless of others\u2014in exchange for a greater collective good: getting everyone where they need to go, swiftly and safely. its design is the embodiment of that bargain. it is a landscape that appears monotonous, even boring, by design. its beauty is not in its form, but in its function. the navigable freeway is a masterpiece of civil engineering not when it is noticed, but when it is effortlessly, uneventfully traversed. its success is measured in the trips that are utterly forgettable, where the only memory is the destination, not the journey. in that forgettable ease lies the silent, profound victory of its design.",
+  "response_word_count": 1012,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.8
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.9333333333333332,
+      "FC": 0.9333333333333332,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

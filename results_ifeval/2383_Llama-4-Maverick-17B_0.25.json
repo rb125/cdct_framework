@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Two responses for \"Mrs. Smith's class\" grammar? ******.",
+  "compressed_word_count": 8,
+  "response": "For the possessive form \"Mrs. Smith's class\", here are two grammatically correct responses:\n\n1. Mrs. Smith's class is going on a field trip.\n2. The students in Mrs. Smith's class are very well-behaved.\n\nIn both examples, \"Mrs. Smith's\" is a possessive noun, showing that the class belongs to or is associated with Mrs. Smith.",
+  "response_word_count": 54,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

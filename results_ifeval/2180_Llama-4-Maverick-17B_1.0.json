@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain the difference between a city and a village in a rap style to a kid. The words with all capital letters should appear at least 10 times. Put the response into at least 5 sections, separated using 3 asterisks ***.",
+  "compressed_word_count": 41,
+  "response": "Yo, youngin', listen up, I got a story to tell\n'Bout two places that are different, and it's doing well\nWe're talkin' 'bout a CITY and a VILLAGE too\nLet's break it down, so you know what I'm goin' through\n\n*** \nIn a CITY, you got tall buildings high\nSkyscrapers touchin' the sky, it's a beautiful sight to the eye\nYou got lots of people movin' around, it's a busy pace\nCITY life is fast, it's a 24/7, 365 place\nYou got shops and restaurants, and lots of fun things to do\nCITY life is cool, it's a place where dreams come true\n\n*** \nNow, a VILLAGE is different, it's a smaller crew\nYou got fewer people, and the pace is more chill too\nYou might see cows and chickens, and fields of green\nVILLAGE life is peaceful, it's a place where you can be seen\nYou got a closer community, where everyone knows your name\nVILLAGE life is sweet, it's a place where you can feel the love and the fame\n\n*** \nIn a CITY, you got lots of noise and lots of stress\nCITY life can be tough, it's not always a success\nBut you got opportunities, and a chance to shine\nCITY life is where the action is, it's all mine\nYou got CULTURE and DIVERSITY, and lots of things to explore\nCITY life is where you can learn, and be more\n\n*** \nIn a VILLAGE, you got a simpler way of life\nVILLAGE life is more relaxed, it's a place where you can thrive\nYou got a connection to nature, and a chance to be free\nVILLAGE life is where you can be you, wild and carefree\nYou got a sense of community, and a feeling of belonging too\nVILLAGE life is where you can be happy, and feel brand new\n\n*** \nSo, youngin', now you know the difference between the two\nCITY and VILLAGE, they're both cool, it's just what you do\nYou might prefer the CITY, with its energy and pace\nOr you might like the VILLAGE, with its peaceful, easy space\nEither way, it's all good, just choose what you like\nCITY or VILLAGE, they're both worth your time, it's all right!",
+  "response_word_count": 369,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      }
+    },
+    "consensus": {
+      "CC": 0.9333333333333332,
+      "SA": 0.9666666666666667,
+      "FC": 0.9666666666666667,
+      "judge_variance_CC": 0.09428090415820632,
+      "judge_variance_SA": 0.04714045207910316,
+      "judge_variance_FC": 0.04714045207910316
+    }
+  }
+}

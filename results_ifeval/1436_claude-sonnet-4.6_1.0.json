@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a story about commandos who are in the middle of the night in a sector. It should be in English, and no capital letters are allowed. The story should not include keywords \"coop\", \"killings\", \"dead\", \"night\".",
+  "compressed_word_count": 37,
+  "response": "# shadows in the sector\n\nthe rain fell in thin, cold sheets across the abandoned industrial zone. four figures moved through the darkness, their boots silent against the wet concrete. they had trained for moments exactly like this one \u2014 low visibility, uncertain terrain, and a mission that could not fail.\n\nsergeant hale pressed her back against a rusted wall and raised her fist. the team froze instantly.\n\n\"movement at two o'clock,\" she whispered into her earpiece. \"could be a patrol.\"\n\ncorporal reyes crouched low and peered around the corner. a single guard moved lazily between two floodlights, his rifle hanging loose at his side. reyes held up one finger. just one.\n\n\"we go around,\" hale breathed. \"no contact unless absolutely necessary.\"\n\nthe team understood. their objective was the communications tower at the far end of the sector. they needed to disable the signal relay before sunrise, or the entire operation would collapse. no second chances. no backup waiting in the wings.\n\nprivate chen moved ahead, her small frame slipping between shadows like water through cracks. she had grown up in streets far more dangerous than this, and her instincts were sharp as broken glass.\n\n\"thirty meters,\" she murmured.\n\nthey crossed an open stretch of ground in a low sprint, one by one, each covering the next. the guard never turned around.\n\nthe tower loomed above them now, blinking red against the grey sky.\n\n\"we have maybe four minutes before the next patrol rotation,\" reyes said, checking his watch.\n\nhale nodded at their technical specialist, a quiet young man everyone called \"sparks.\" he was already opening his bag, pulling out tools with practiced, steady hands. his fingers moved across the relay panel with remarkable confidence, reading the system the way a musician reads a familiar score.\n\n\"two minutes,\" sparks said softly. \"maybe less.\"\n\nthe others formed a loose perimeter, watching every angle. the rain continued to fall. somewhere far across the sector, a dog barked once and then went silent.\n\nreyes felt his pulse in his throat but kept his breathing slow and even. this was the part of the job that nobody talked about honestly \u2014 the waiting, the listening, the way every small sound became enormous in the quiet.\n\n\"got it,\" sparks whispered. a soft click, and the blinking red light on the tower went dark.\n\nhale allowed herself exactly one second of relief.\n\n\"extraction point,\" she said. \"move.\"\n\nthey pulled back the way they had come, retracing every careful step. the guard was still wandering between his floodlights, completely unaware that the world around him had just shifted in a small but significant way.\n\nby the time the first grey light began to soften the horizon, the four commandos were already gone \u2014 absorbed back into the landscape like they had never existed at all.\n\nthe sector looked exactly as it had before.\n\nbut it was not.",
+  "response_word_count": 480,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

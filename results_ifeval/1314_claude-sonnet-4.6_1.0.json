@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Which of the following is not a fish: salmon or avocado? Answer this easy question first, then expand into an interesting article about salmon and avocado. Use some words in all caps in your response, but those all-caps words should appear at most 10 times.",
+  "compressed_word_count": 45,
+  "response": "# Avocado Is Not a Fish\n\nTo answer the easy question first: **avocado** is not a fish. It is a fruit \u2014 specifically a large berry with a single seed, grown on trees native to Central Mexico. Salmon, on the other hand, is absolutely a fish, and a remarkable one at that.\n\n---\n\n## Salmon and Avocado: A Perfect Pairing Worth Exploring\n\nIt might seem strange to write about a fish and a fruit together, but salmon and avocado have become one of the most celebrated culinary combinations in modern cuisine. From sushi rolls to grain bowls to toast toppings, these two ingredients appear together constantly \u2014 and for good reason.\n\n### The Incredible Salmon\n\nSalmon is one of nature's most EXTRAORDINARY creatures. Born in freshwater rivers, these fish migrate to the ocean, spend years growing and feeding, and then \u2014 guided by an almost MIRACULOUS sense of smell \u2014 return to the exact stream where they were born to spawn.\n\nThere are several species of salmon, including Atlantic salmon and Pacific varieties like Chinook, Coho, and Sockeye. The Chinook, also called King salmon, is the LARGEST of the Pacific species and is prized for its rich, buttery flavor and high fat content.\n\nSalmon gets its distinctive pink-to-orange color from a compound called astaxanthin, which the fish absorbs through its diet of krill and shrimp. This same compound is a powerful antioxidant, contributing to salmon's reputation as one of the HEALTHIEST foods on the planet. It is loaded with omega-3 fatty acids, high-quality protein, vitamin D, and B vitamins.\n\nWild-caught salmon and farmed salmon differ significantly in flavor and nutritional profile. Wild salmon tends to be leaner and more intensely flavored, while farmed salmon is often fattier and milder. The debate between the two is ONGOING among chefs, nutritionists, and environmentalists alike.\n\n### The Wonderful Avocado\n\nThe avocado is UNIQUE in the fruit world. Unlike most fruits, which derive their energy from sugar, avocados are rich in healthy monounsaturated fats \u2014 the same type of fat found in olive oil. This makes them extraordinarily creamy and satisfying in a way that apples or oranges simply cannot match.\n\nAvocados originated in Mesoamerica and have been cultivated for at least 5,000 years. The Hass variety, which dominates global markets today, was actually discovered by a California mail carrier named Rudolph Hass in the 1920s. He patented the tree in 1935, and his single tree in La Habra Heights, California, became the genetic ancestor of virtually every Hass avocado sold worldwide today \u2014 until the original tree died in 2002.\n\nThe avocado's rise to global SUPERSTAR status is a relatively recent phenomenon. In the United States, avocado consumption increased dramatically starting in the 1990s, fueled partly by the lifting of import restrictions on Mexican avocados and partly by brilliant marketing campaigns. The now-iconic \"avocado toast\" became a cultural symbol of millennial food culture in the 2010s.\n\nBeyond their culinary appeal, avocados are nutritionally dense, offering fiber, potassium, folate, and vitamins K, C, and E. They also help the body absorb fat-soluble nutrients from other foods eaten alongside them \u2014 making them a genuinely smart addition to a balanced meal.\n\n### Why They Work So Well Together\n\nThe pairing of salmon and avocado is not accidental. From a culinary science perspective, they complement each other BEAUTIFULLY. Both are rich in healthy fats, which creates a satisfying, luxurious mouthfeel. The mild, creamy avocado softens the bold, savory intensity of salmon. Texturally, the silky avocado contrasts pleasantly with the firm, flaky fish.\n\nIn Japanese cuisine, the salmon-avocado combination became popular through the California Roll's influence, eventually leading to countless sushi and sashimi variations featuring both ingredients. In Scandinavian-inspired dishes, cured salmon with avocado cream has become a sophisticated staple. In health-conscious cafes worldwide, salmon and avocado bowls with grains and greens represent the gold standard of nutritious, delicious eating.\n\n### A Note on Sustainability\n\nBoth salmon and avocado come with environmental considerations worth acknowledging. Salmon farming, when done poorly, can lead to water pollution and disease spread to wild populations. Consumers are encouraged to look for responsibly farmed or certified wild-caught options.\n\nAvocado cultivation, particularly in regions like Michoac\u00e1n, Mexico, has been linked to deforestation and significant water usage. A single avocado can require over 70 gallons of water to produce. Supporting sustainably grown avocados and being mindful of consumption is increasingly important.\n\n---\n\nWhether you enjoy them in a sushi roll, a power bowl, or simply sliced side by side on a plate, salmon and avocado represent a genuinely wonderful intersection of flavor, nutrition, and culinary creativity \u2014 proof that sometimes the best pairings come from the most unexpected combinations.",
+  "response_word_count": 775,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

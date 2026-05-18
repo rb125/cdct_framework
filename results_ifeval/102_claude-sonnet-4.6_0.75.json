@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "* dialogue between formally and casually dressed individuals for a nightly event\n* 3 markdown bullet points\n* format: * point 1 * point 2 * point 3",
+  "compressed_word_count": 28,
+  "response": "* A woman in an elegant gown approaches a man in jeans and a t-shirt at the venue entrance, raising an eyebrow as she says, \"I wasn't aware tonight's gala had a 'come as you are' dress code,\" to which he shrugs and replies, \"I didn't get the memo \u2014 besides, I'm comfortable.\"\n* The casually dressed man glances around at the sea of tuxedos and cocktail dresses, leaning toward his formally attired companion and whispering, \"Okay, maybe I should have checked the invitation more carefully,\" while she stifles a laugh and hands him her spare blazer from her coat check bag.\n* By the end of the evening, the two are laughing together at the bar, with the formally dressed woman having kicked off her heels and the casually dressed man now wearing the borrowed blazer, both agreeing that what matters most is the company, not the outfit.",
+  "response_word_count": 149,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "summarize the defamation case outcome between Amber Heard and Johnny Depp. Write Heard's view first, Depp's view next, separated by six asterisks. Keep under 300 words.",
+  "compressed_word_count": 26,
+  "response": "**Amber Heard's Perspective:**\nAmber Heard maintained that she was a domestic abuse survivor who had the right to speak her truth. She argued that her 2018 Washington Post op-ed, in which she described herself as a \"public figure representing domestic abuse,\" was protected free speech and did not explicitly name Depp. Her legal team contended that Depp was the actual abuser and that the lawsuit was an attempt to silence and intimidate a victim. Heard believed the verdict was a setback for women and victims of abuse everywhere, stating it was a disappointment and that it \"sets back the clock\" on women's rights. She argued the jury had been influenced by social media and public opinion rather than evidence, and she announced her intention to appeal the decision.\n\n******\n\n**Johnny Depp's Perspective:**\nJohnny Depp sued Amber Heard for $50 million, claiming her op-ed defamed him and destroyed his career, costing him major roles including the Pirates of the Caribbean franchise. He maintained he was the victim of abuse in the relationship, not the perpetrator. His legal team presented evidence including audio recordings they argued showed Heard admitting to physical altercations and downplaying her own violent behavior. In June 2022, the Virginia jury largely sided with Depp, awarding him approximately $10 million in compensatory damages and $5 million in punitive damages (later reduced to $350,000 per state cap). Heard was awarded $2 million on one of her countersuit claims. Depp called the verdict a victory not just for himself but for anyone who has been falsely accused. He expressed gratitude to his supporters and stated the jury had given him his life back.",
+  "response_word_count": 272,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

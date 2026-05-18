@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "json list of 5 quirky famous moms",
+  "compressed_word_count": 7,
+  "response": "```json\n[\n  {\n    \"name\": \"Beyonc\u00e9\",\n    \"quirky_trait\": \"Publicly refers to herself as \\\"Sasha Fierce,\\\" her on-stage alter ego, and has an entire mythology around her family as a royal dynasty.\",\n    \"notable_mom_quote\": \"I'm a human and I'm a mother and I'm trying. And I'm in a creative field that is very male-dominated, so I'm trying to make my way through it.\"\n  },\n  {\n    \"name\": \"Maye Musk\",\n    \"quirky_trait\": \"Became a cover model and viral fashion icon in her 70s, after raising three trailblazing children (including Elon) as a single mom and dietitian.\",\n    \"notable_mom_quote\": \"I didn't think I was a brave person, but I had to be. I had no choice.\"\n  },\n  {\n    \"name\": \"Tina Fey\",\n    \"quirky_trait\": \"Wrote her daughter's name into the finale of \\\"30 Rock\\\" as a secret message, and famously said she uses the same management techniques for her staff as she does for her 8-year-old.\",\n    \"notable_mom_quote\": \"You know what? My ability to turn a perfect circle around a party of drunken interns is the same skill set as getting a child out of the house in the morning.\"\n  },\n  {\n    \"name\": \"Kris Jenner\",\n    \"quirky_trait\": \"Turned her family's personal life into a multi-platform business empire, famously acting as \\\"momager\\\" and referring to her children as \\\"assets.\\\"\",\n    \"notable_mom_quote\": \"I'm not a stage mom; I'm a business mom.\"\n  },\n  {\n    \"name\": \"Bj\u00f6rk\",\n    \"quirky_trait\": \"Created an entire app-album (Biophilia) designed to make science and music fun for her daughter, and often incorporates motherhood and nature into her avant-garde art.\",\n    \"notable_mom_quote\": \"I have this unskilled mom thing, where I'm learning on the job. I'm not a professional mom.\"\n  }\n]\n```",
+  "response_word_count": 266,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

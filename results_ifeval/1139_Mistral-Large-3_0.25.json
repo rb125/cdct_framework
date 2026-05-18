@@ -1,0 +1,45 @@
+{
+  "key": 1139,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write funny haiku about moms with \"mom\" and \"mother\"\nfunny haiku moms, no rhymes",
+  "compressed_word_count": 14,
+  "response": "Here are some funny haiku about moms\u2014no rhymes, just pure chaos:\n\n---\n\n**1.**\nMom\u2019s voice on the phone\u2014\n*\"Did you eat? Wear a jacket?\"*\nI\u2019m forty. I\u2019m fine.\n\n**2.**\nMother\u2019s side-eye burns\nthrough my *\"I\u2019ll clean later\"* lie.\nThe dust bunnies win.\n\n**3.**\n*\"Who\u2019s texting at 2 AM?\"*\nIt\u2019s just my insomnia.\n(Also, it\u2019s Mom.)\n\n**4.**\nMom\u2019s *\"quick question\"* lasts\nforty-seven minutes. *\"Love you!\"*\nClick. Silence. Regret.\n\n**5.**\n*\"You look tired.\"* Thanks, Mom.\nI *am* tired. Of this chat.\n*\"Okay, bye, sweetie!\"*\n\n**6.**\nMother\u2019s *\"I told you\"*\nechoes through my life choices.\nShe *was* right. Dammit.\n\n**7.**\n*\"When are you settling down?\"*\nMom, I have a goldfish.\n*\"That\u2019s not the same.\"*\n\n**8.**\nMom\u2019s *\"just checking in\"*\nmeans *\"I know you forgot\nto call me back.\"*\n\n**9.**\n*\"You\u2019re not leaving yet?\"*\nMom, I\u2019ve been here three hours.\n*\"Time flies when you\u2019re old.\"*\n\n**10.**\nMother\u2019s hugs are warm.\nHer *\"I love you\"* is louder\nthan my *\"I know, Mom.\"*\n\n---",
+  "response_word_count": 158,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

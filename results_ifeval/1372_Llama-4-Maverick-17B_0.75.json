@@ -1,0 +1,43 @@
+{
+  "key": 1372,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a blog post on ripley's aquarium; include at least 7 placeholders like [location], [species], [opening hours], etc. no commas in formal tone",
+  "compressed_word_count": 23,
+  "response": "Ripley's Aquarium: A Dive into the Wonders of the Ocean at [location]\n\nAs you step into Ripley's Aquarium you are immediately immersed in an underwater world teeming with life. Located in the heart of [city] this aquarium is a must-visit destination for anyone fascinated by the ocean and its inhabitants.\n\nUpon entering the aquarium you are greeted by a massive [tank size]-gallon tank that is home to a diverse array of [species] including sharks rays and colorful fish of all kinds. The tank is designed to simulate the natural environment of a coral reef with towering rock formations and a variety of marine life.\n\nOne of the highlights of Ripley's Aquarium is the [exhibit name] exhibit which features a fascinating array of marine animals including [animal type] and [animal type]. Visitors can get up close and personal with these creatures and learn about their habitats and behaviors.\n\nRipley's Aquarium is open [opening hours] and admission prices vary depending on the time of day and season. Visitors can expect to pay [admission price] for a standard ticket although discounts are available for [special groups] and [other special groups].\n\nIn addition to the various exhibits and displays Ripley's Aquarium also offers a range of interactive experiences and activities including [activity name] and [activity name]. These activities provide a fun and engaging way for visitors to learn about the ocean and its inhabitants.\n\nFor those planning a visit to Ripley's Aquarium it is recommended to allow at least [visit duration] hours to explore the various exhibits and displays. The aquarium is located at [address] and is easily accessible by [transportation options].\n\nOverall Ripley's Aquarium is an unforgettable experience that is sure to delight visitors of all ages. Whether you are a marine biology enthusiast or simply looking for a fun and educational day out Ripley's Aquarium is a great destination to consider.",
+  "response_word_count": 309,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.85,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7833333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.20949675149960892,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Summarize defamation case outcome Heard vs Depp, elderly audience format, Heard's & Depp's perspectives, 6***** separator, <300 words.",
+  "compressed_word_count": 18,
+  "response": "Here's a summary of the defamation case outcome between Johnny Depp and Amber Heard, explained in a way that's easy to understand for an elderly audience.\n\nThe case was about a newspaper article written by Amber Heard, where she claimed she was a survivor of domestic abuse. Johnny Depp sued her for defamation, saying the article implied he was the abuser.\n\n******\nFrom Johnny Depp's perspective, he claimed that Amber Heard was the one who was abusive during their relationship, and that she fabricated stories about him being violent towards her. He said the article damaged his reputation and cost him movie roles.\n\n******\nFrom Amber Heard's perspective, she said she was telling the truth about being a survivor of domestic abuse, and that the article was not about Johnny Depp specifically. She claimed that she had evidence to support her claims of being abused.\n\n******\nThe jury ultimately ruled in favor of Johnny Depp, finding that Amber Heard had defamed him in three statements in the article. They awarded him $10 million in damages. The jury also found that one of Johnny Depp's lawyers had defamed Amber Heard, and awarded her $2 million.\n\n******\nIn simple terms, the court believed that Amber Heard's article was not true and that it hurt Johnny Depp's reputation. However, the court also found that Johnny Depp's lawyer had made false statements about Amber Heard. Both parties were found to have been defamed, but Johnny Depp was awarded more damages.",
+  "response_word_count": 246,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6,
+      "FC": 0.5666666666666667,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

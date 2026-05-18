@@ -1,0 +1,45 @@
+{
+  "key": 1813,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "essay on college life changes, all caps, max 30 words",
+  "compressed_word_count": 10,
+  "response": "COLLEGE LIFE BRINGS ABOUT SIGNIFICANT CHANGES IN STUDENTS' LIVES, SHAPING THEIR ACADEMIC, SOCIAL, AND PERSONAL GROWTH, AND PREPARING THEM FOR FUTURE CAREERS AND RESPONSIBILITIES.",
+  "response_word_count": 24,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\n<<quitting notice>> email to boss, no commas, formal tone, no personal details, concise, no salutations or sign-offs",
+  "compressed_word_count": 42,
+  "response": "<<Resignation Notice>>\n\nI am writing to formally inform you that I have decided to resign from my current position effective immediately. I have made this decision after careful consideration and I believe it is the right step forward in my professional journey. I am committed to ensuring a smooth transition and I am prepared to assist in any way possible during this period. Please let me know what steps need to be taken to complete the resignation process. Thank you for the opportunities provided during my time here.",
+  "response_word_count": 88,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

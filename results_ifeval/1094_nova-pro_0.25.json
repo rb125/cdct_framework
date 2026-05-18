@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "json list of 5 quirky famous moms",
+  "compressed_word_count": 7,
+  "response": "Sure, here's a JSON list of five quirky famous moms:\n\n```json\n[\n    {\n        \"name\": \"Amy Poehler\",\n        \"profession\": \"Actress, Comedian, Director\",\n        \"quirky_fact\": \"Amy Poehler has two sons and is known for her quirky parenting style, often sharing humorous anecdotes about her kids on social media and in interviews.\"\n    },\n    {\n        \"name\": \"Drew Barrymore\",\n        \"profession\": \"Actress, Producer, Director\",\n        \"quirky_fact\": \"Drew Barrymore is a mom of two daughters and is known for her unconventional approach to parenting, including letting her kids have sleepovers at her house from a young age.\"\n    },\n    {\n        \"name\": \"Mayim Bialik\",\n        \"profession\": \"Actress, Neuroscientist\",\n        \"quirky_fact\": \"Mayim Bialik, known for her role in 'The Big Bang Theory,' is a mother of two sons and practices an eclectic mix of traditional and modern parenting techniques, often discussing her approach on her podcast.\"\n    },\n    {\n        \"name\": \"Jenny McCarthy\",\n        \"profession\": \"Model, Actress, Author, Activist\",\n        \"quirky_fact\": \"Jenny McCarthy is the mother of a son and is known for her outspoken and often controversial views on parenting, particularly regarding vaccines and autism.\"\n    },\n    {\n        \"name\": \"Tiffany Haddish\",\n        \"profession\": \"Comedian, Actress\",\n        \"quirky_fact\": \"Tiffany Haddish adopted two children in 2023 and is known for her humorous and candid discussions about her experiences as a new mom, often sharing quirky and relatable stories.\"\n    }\n]\n```",
+  "response_word_count": 208,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

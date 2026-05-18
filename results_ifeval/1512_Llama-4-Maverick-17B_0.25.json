@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "create forum thread no commas 20 usernames",
+  "compressed_word_count": 7,
+  "response": "Here is a forum thread with 20 usernames and no commas:\n\nThread Title: New Gaming Console Released\nPosted by GamingPro123 \nI just got my hands on the new console and it is amazing\nReplied by TechNoLogic \nI have been waiting for this console for months can't wait to try it out\nReplied by Xx_NoScope_xX \njust got mine too and it is a beast\nReplied by LordOfGaming \nwhat are your thoughts on the graphics\nReplied by PixelPerfect22 \nthey are insane i played a game that looked like a movie\nReplied by DarkSlayer90 \ni agree the graphics are top notch\nReplied by SpeedDemon3000 \ndoes anyone know when the new games are coming out\nReplied by GameOn101 \ni heard they are releasing a new game next week\nReplied by ProGamer2000 \nthat is awesome news i need something new to play\nReplied by JoystickMaster \ni am excited to see what the developers come up with next\nReplied by ConsoleKing99 \nthis console is going to change the gaming industry\nReplied by FPSMaster23 \ni love the new controller it is so comfortable to hold\nReplied by GamerGirl88 \ni just got my console and it is so much fun to play\nReplied by TurboTastic \nthe load times on this console are ridiculously fast\nReplied by NoobSlayer22 \ni was skeptical at first but this console is really good\nReplied by GameChanger11 \ni have been playing nonstop since i got it\nReplied by SonicSpeed33 \nthe graphics are so realistic it feels like i am in the game\nReplied by MasterChief23 \nthis console is a must have for any serious gamer\nReplied by RetroRevival \ni love that it is backwards compatible with old games",
+  "response_word_count": 274,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

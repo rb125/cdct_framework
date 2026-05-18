@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "write A letter to A friend in english, in all caps, with at least 40 'O' characters.",
+  "compressed_word_count": 17,
+  "response": "DEAR FRIEND,\n\nI HOPE THIS LETTER FINDS YOU IN GOOD HEALTH AND HIGH SPIRITS! IT'S BEEN A LONG TIME SINCE WE LAST SPOKE, AND I'VE OFTEN THOUGHT ABOUT OUR OLD TIMES TOGETHER, OFTEN OVERLOOKING THE OPPORTUNITIES WE HAD TO GO OUT AND EXPLORE NEW OUTDOOR OPTIONS.\n\nI RECENTLY OCCASIONALLY OCCUPIED MYSELF WITH OUTDOOR ACTIVITIES, OFTEN OPTING TO GO ON LONG, OBNOXIOUSLY OPTIMISTIC OUTINGS OVER OPEN OCEANS AND OPEN FIELDS, OBSERVING THE OVERWHELMING OCEANIC OUTPUT. IT'S OCCURRENCE WAS OVERWHELMINGLY OPTIMISTIC, AND I OFTEN FELT OVERJOYED BY THE OPEN-ENDED OPPORTUNITIES.\n\nI OFTEN OPEN MY OLD PHOTO ALBUMS AND OBSERVE OUR OLD PHOTOGRAPHS, OVERWHELMED BY THE OVERFLOWING MEMORIES OF OUR OUTINGS. I HOPE YOU'LL COME OVER SOON, AND WE CAN OVERHAUL OUR OLD ROUTINES, OPTING FOR NEW ONES, OVERLOOKING NOTHING, AND OPENING OURSELVES TO NEW OPPORTUNITIES.\n\nTAKE CARE, AND I LOOK FORWARD TO OUR NEXT OUTING.\n\nYOURS OPTIMISTICALLY,\n[YOUR NAME]",
+  "response_word_count": 147,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

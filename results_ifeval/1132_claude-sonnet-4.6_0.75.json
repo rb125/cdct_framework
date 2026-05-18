@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "compose rock song lyrics for 'the gifted and the not gifted' in all caps, avoiding the word \"rock",
+  "compressed_word_count": 18,
+  "response": "Here are the lyrics for \"THE GIFTED AND THE NOT GIFTED\":\n\n---\n\n**THE GIFTED AND THE NOT GIFTED**\n\nVERSE 1:\nBORN WITH LIGHTNING IN YOUR VEINS\nSOME WALK EASY, SOME FIGHT THROUGH THE RAIN\nGOLDEN FINGERS, GOLDEN MIND\nWHILE THE REST OF US GET LEFT BEHIND\n\nPRE-CHORUS:\nBUT WHO DECIDES WHAT TALENT MEANS\nWHO DRAWS THE LINE BETWEEN THE KINGS AND QUEENS\n\nCHORUS:\nTHE GIFTED AND THE NOT GIFTED\nWE ALL BLEED THE SAME\nTHE GIFTED AND THE NOT GIFTED\nPLAYING DIFFERENT GAMES\nONE IS BORN WITH WINGS TO FLY\nONE IS CRAWLING TOWARD THE SKY\nTHE GIFTED AND THE NOT GIFTED\nBURNING ALL THE SAME\n\nVERSE 2:\nPRODIGY WITH PERFECT HANDS\nWHILE OTHERS STRUGGLE JUST TO UNDERSTAND\nBUT FIRE LIVES IN EVERY SOUL\nSOME JUST TAKE THE LONG WAY TO THEIR GOAL\n\nPRE-CHORUS:\nSO RAISE YOUR VOICE AND MAKE YOUR STAND\nEVEN BROKEN THINGS CAN SHAKE THIS LAND\n\nCHORUS\n\nBRIDGE:\nWE ARE MORE THAN WHAT WE'RE GIVEN\nWE ARE MORE THAN LABELS WRITTEN\nTEAR THE CEILING DOWN TONIGHT\nEVERY SOUL DESERVES ITS LIGHT\n\nFINAL CHORUS:\nTHE GIFTED AND THE NOT GIFTED\nWE ALL BLEED THE SAME\nBURNING ALL THE SAME\n\n---",
+  "response_word_count": 192,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

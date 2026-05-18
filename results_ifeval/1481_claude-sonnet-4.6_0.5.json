@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "craft a quirky resume for Antonia Maj for a coffee co. job; sections, 2 markdown bullets: \n* marketing & sales exp\n* customer service & unique skills",
+  "compressed_word_count": 27,
+  "response": "# \u2615 ANTONIA MAJ\n*Professional Coffee Enthusiast & Human Espresso Shot*\n\n\ud83d\udce7 antonia.maj@email.com | \ud83d\udccd Somewhere Overcaffeinated\n\n---\n\n## \ud83c\udfaf OBJECTIVE\nTo bring my suspiciously high energy (naturally occurring, I promise) and passion for all things roasted, brewed, and beautiful to a team that takes their coffee seriously but themselves... not too seriously.\n\n---\n\n## \ud83d\udce3 MARKETING & SALES EXPERIENCE\n\n* Developed and launched grassroots social media campaigns that grew brand engagement by **47%** \u2014 turns out people *really* respond to latte art that looks like their horoscope; also spearheaded a seasonal promotion strategy that converted **casual browsers into loyal regulars** by pairing limited-edition blends with handwritten loyalty cards, because nothing sells coffee like making someone feel personally seen at 7am\n\n* Consistently exceeded monthly sales targets by **30%** through the ancient art of *actually listening* to customers \u2014 matched hesitant first-timers with their perfect gateway drink, upsold premium single-origins with zero awkwardness, and once talked a self-proclaimed \"tea person\" into a honey oat cortado they now **dream about regularly**\n\n---\n\n## \ud83d\udc9b CUSTOMER SERVICE & UNIQUE SKILLS\n\n* Possesses an almost supernatural ability to **read a room before the first sip** \u2014 whether someone needs cheerful small talk, comfortable silence, or a gentle reminder that their name is *not* \"Antonia\" on the cup; fluent in three languages *(English, Sarcasm, and Decaf Apology)* and trained in conflict de-escalation, which mostly means smiling warmly while internally reciting the coffee bean lifecycle\n\n* Unique skills include **memorizing regulars' orders after one visit**, foam art ranging from classic hearts to moderately ambitious ferns, a personal record of **zero dropped trays**, and an uncanny talent for recommending the exact right pastry pairing \u2014 once matched a grieving Monday with a cardamom knot so perfectly that the customer cried *happy* tears, which is honestly the highest performance review imaginable\n\n---\n\n*References available. They will all mention the cardamom knot incident.*",
+  "response_word_count": 315,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

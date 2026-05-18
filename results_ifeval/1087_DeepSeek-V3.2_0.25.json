@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "review \"the social network\" in all lower case",
+  "compressed_word_count": 8,
+  "response": "\"the social network\" is a film that feels both of its time and eerily prescient. it's a sharp, acidic look at the birth of facebook, framed by two lawsuits. the dialogue, by aaron sorkin, is a rapid-fire barrage of wit and venom. the score, by trent reznor and atticus ross, is a cold, pulsating electronic heartbeat that perfectly mirrors the film's emotional landscape.\n\nthe core of the film is the performance by jesse eisenberg as mark zuckerberg. he portrays him not as a cartoon villain, but as a deeply alienated, brilliant, and painfully insecure young man whose social failures fuel his desire to build the ultimate social connector. andrew garfield brings a wounded, moral center as eduardo saverin, the friend betrayed. justin timberlake is perfectly cast as the seductive and destructive sean parker, the napster founder who swoops in with the promise of \"cool.\"\n\ndavid fincher's direction is precise and chilly. he makes the process of coding and legal depositions feel intensely dramatic. the film isn't really about whether facebook is good or bad; it's about the collisions of ambition, friendship, class, and the intoxicating idea of changing the world. it's about the irony of someone who doesn't understand people creating the thing that redefined human connection, all while burning his own bridges.\n\nin the end, it's a tragic story dressed as a thriller. a story of monumental success built on a foundation of loneliness and betrayal. the final shot, of zuckerberg alone, endlessly refreshing the profile page of his ex-girlfriend, says more than any line of dialogue could. it's a modern classic, a caustic and compelling portrait of how we got here.",
+  "response_word_count": 273,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

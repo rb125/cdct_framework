@@ -1,0 +1,43 @@
+{
+  "key": 2383,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Provide two distinct grammatically correct responses to \"Mrs. Smith is the teacher of this class.\" Responses should be separated by six asterisks.",
+  "compressed_word_count": 22,
+  "response": "Indeed, Mrs. Smith has been leading our class with great expertise. \n\n******\n\nIt's true, Mrs. Smith is the educator for this course, and she's quite exceptional.",
+  "response_word_count": 26,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.4714045207910317
+    }
+  }
+}

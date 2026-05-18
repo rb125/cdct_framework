@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "What is the history of NYC prospect park? Please wrap your entire answer in JSON format. You can use markdown ticks such as ```. For example:\n```JSON\n{\n...\n}\n```",
+  "compressed_word_count": 31,
+  "response": "```JSON\n{\n  \"name\": \"Prospect Park\",\n  \"location\": \"Brooklyn, New York City\",\n  \"history\": {\n    \"design_and_construction\": {\n      \"year_design_started\": \"1859\",\n      \"designers\": [\"Frederick Law Olmsted\", \"Calvert Vaux\"],\n      \"construction_start_year\": \"1865\",\n      \"construction_end_year\": \"1873\",\n      \"description\": \"Prospect Park was designed by Frederick Law Olmsted and Calvert Vaux, who also designed Central Park in Manhattan. The park was constructed between 1865 and 1873.\"\n    },\n    \"early_years\": {\n      \"opening_year\": \"1867\",\n      \"initial_features\": [\"lake\", \"ravine\", \"meadow\"],\n      \"description\": \"The park was opened to the public in 1867, while still under construction. Initially, it featured a lake, a ravine, and a meadow.\"\n    },\n    \"late_19th_and_early_20th_centuries\": {\n      \"popularity_growth\": \"The park became increasingly popular in the late 19th and early 20th centuries, with the addition of new features such as the Prospect Park Zoo and the Boathouse.\",\n      \"new_features\": [\"Prospect Park Zoo (1890)\", \"Boathouse (1904-1907)\"],\n      \"description\": \"As the park's popularity grew, new features were added, including the Prospect Park Zoo and the Boathouse.\"\n    },\n    \"mid_20th_century_decline\": {\n      \"causes\": [\"urban decay\", \"lack of maintenance\"],\n      \"description\": \"In the mid-20th century, Prospect Park suffered from urban decay and lack of maintenance, leading to a decline in its condition and popularity.\"\n    },\n    \"late_20th_century_restoration\": {\n      \"restoration_efforts\": \"The Prospect Park Alliance was formed in 1987 to restore and maintain the park.\",\n      \"description\": \"In the late 20th century, efforts were made to restore the park, led by the Prospect Park Alliance.\"\n    },\n    \"present_day\": {\n      \"condition\": \"The park has been largely restored and is now a popular destination for recreation and leisure.\",\n      \"features\": [\"lake\", \"meadow\", \"zoo\", \"boathouse\", \"trails\", \"picnic areas\"],\n      \"description\": \"Today, Prospect Park is a thriving public park, featuring a range of recreational and leisure activities.\"\n    }\n  }\n}\n```",
+  "response_word_count": 262,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

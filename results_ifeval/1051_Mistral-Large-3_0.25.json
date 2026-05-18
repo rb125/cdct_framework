@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "letter to friend, no caps, urge vote",
+  "compressed_word_count": 7,
+  "response": "here\u2019s a simple, friendly draft for your letter\u2014feel free to tweak it to sound more like you:\n\n---\n\nhey [friend\u2019s name],\n\ni know voting can feel like a hassle, but it\u2019s honestly one of the easiest ways to make sure your voice gets heard. even if you\u2019re not super into politics, the people we elect affect everything\u2014healthcare, jobs, climate stuff, student loans, you name it.\n\ni\u2019m not trying to lecture, just asking: can you take 10 minutes to vote? it\u2019s way easier than it used to be (early voting, mail-in ballots, etc.), and honestly, skipping it just lets other people decide for you.\n\nif you\u2019re not sure where to start, i\u2019m happy to help\u2014just lmk. no pressure, just\u2026 please don\u2019t sit this one out.\n\nthanks for hearing me out,\n[your name]\n\n---\n\n**optional tweaks:**\n- add a personal reason: *\"i\u2019m voting because [x issue] matters to me, and i\u2019d love to know what matters to you.\"*\n- keep it light: *\"i promise i won\u2019t bug you again after this\u2014just this one ask!\"*\n- if they\u2019re cynical: *\"i get it, the system\u2019s messed up, but not voting is basically letting the worst parts win by default.\"*",
+  "response_word_count": 195,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

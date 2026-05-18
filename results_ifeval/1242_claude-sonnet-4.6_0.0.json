@@ -1,0 +1,45 @@
+{
+  "key": 1242,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "json alias",
+  "compressed_word_count": 2,
+  "response": "# JSON Aliases in Various Languages\n\n## Go\n\n```go\ntype User struct {\n    ID        int    `json:\"id\"`\n    FirstName string `json:\"first_name\"`\n    LastName  string `json:\"last_name\"`\n    Password  string `json:\"-\"`          // ignored\n    Email     string `json:\"email,omitempty\"` // omit if empty\n}\n```\n\n---\n\n## Python (dataclasses + json)\n\n```python\nimport json\nfrom dataclasses import dataclass, field\n\n# Using dataclasses-json or manual alias\n@dataclass\nclass User:\n    first_name: str\n    last_name: str\n\n    def to_json(self):\n        return json.dumps({\n            \"first_name\": self.first_name,\n            \"last_name\": self.last_name\n        })\n```\n\n### With Pydantic (recommended)\n\n```python\nfrom pydantic import BaseModel, Field\n\nclass User(BaseModel):\n    first_name: str = Field(alias=\"firstName\")\n    last_name: str  = Field(alias=\"lastName\")\n\n# Usage\nuser = User(**{\"firstName\": \"John\", \"lastName\": \"Doe\"})\nprint(user.first_name)  # John\n\n# Serialize with alias\nuser.model_dump(by_alias=True)\n# {\"firstName\": \"John\", \"lastName\": \"Doe\"}\n```\n\n---\n\n## TypeScript\n\n```typescript\n// Using a type alias\ntype UserJSON = {\n    first_name: string;\n    last_name: string;\n    email: string;\n};\n\n// Map to internal model\ninterface User {\n    firstName: string;\n    lastName: string;\n    email: string;\n}\n\nfunction fromJSON(data: UserJSON): User {\n    return {\n        firstName: data.first_name,\n        lastName: data.last_name,\n        email: data.email,\n    };\n}\n```\n\n### With class-transformer\n\n```typescript\nimport { Expose, plainToInstance } from \"class-transformer\";\n\nclass User {\n    @Expose({ name: \"first_name\" })\n    firstName: string;\n\n    @Expose({ name: \"last_name\" })\n    lastName: string;\n}\n```\n\n---\n\n## C# (System.Text.Json)\n\n```csharp\nusing System.Text.Json.Serialization;\n\npublic class User\n{\n    [JsonPropertyName(\"first_name\")]\n    public string FirstName { get; set; }\n\n    [JsonPropertyName(\"last_name\")]\n    public string LastName { get; set; }\n\n    [JsonIgnore]\n    public string Password { get; set; }\n}\n```\n\n### Newtonsoft.Json\n\n```csharp\nusing Newtonsoft.Json;\n\npublic class User\n{\n    [JsonProperty(\"first_name\")]\n    public string FirstName { get; set; }\n\n    [JsonProperty(\"last_name\")]\n    public string LastName { get; set; }\n}\n```\n\n---\n\n## Java (Jackson)\n\n```java\nimport com.fasterxml.jackson.annotation.JsonProperty;\nimport com.fasterxml.jackson.annotation.JsonIgnore;\n\npublic class User {\n    @JsonProperty(\"first_name\")\n    private String firstName;\n\n    @JsonProperty(\"last_name\")\n    private String lastName;\n\n    @JsonIgnore\n    private String password;\n}\n```\n\n---\n\n## Quick Reference Table\n\n| Language   | Library              | Annotation/Decorator          |\n|------------|----------------------|-------------------------------|\n| Go         | `encoding/json`      | `` `json:\"name\"` ``           |\n| Python     | Pydantic             | `Field(alias=\"name\")`         |\n| TypeScript | class-transformer    | `@Expose({ name: \"name\" })`   |\n| C#         | System.Text.Json     | `[JsonPropertyName(\"name\")]`  |\n| C#         | Newtonsoft           | `[JsonProperty(\"name\")]`      |\n| Java       | Jackson              | `@JsonProperty(\"name\")`       |\n\n---\n\n> **Key Use Cases:**\n> - Map `snake_case` JSON \u2194 `camelCase` code\n> - Ignore sensitive fields (`password`, `token`)\n> - Support legacy API field names",
+  "response_word_count": 372,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

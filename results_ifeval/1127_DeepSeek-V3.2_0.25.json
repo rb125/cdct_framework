@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write poem missing classes, 4 sections, end 'money back'?",
+  "compressed_word_count": 9,
+  "response": "**I. Absence**\n\nThe bell\u2019s echo fades in a hollow hall,\nA syllabus untouched upon the wall.\nThe chalkboard\u2019s blank and spectral face\nMarks time in this unclaimed space.\nWhere arguments were meant to bloom,\nThere\u2019s only silent, gathering gloom.\n\n**II. Ghost Lesson**\n\nThe empty chairs, a tidy row,\nHold none who stand to ask or know.\nThe phantom lecture, unexpressed,\nLies heavy in my cluttered breast.\nA promised wisdom, sharp and deep,\nNow buried in a silent sleep.\n\n**III. The Unread Text**\n\nThe pages of the book stay clean,\nOf margin-notes, none are seen.\nNo underlining, bold or bright,\nTo chase a concept into light.\nThe chapters, vowed to be unpacked,\nAre left in binding, tightly backed.\n\n**IV. The Balance Sheet**\n\nAnd so I tally what I lack:\nThe turning of a thought, the knack,\nThe shared confusion, clarity won,\nThe work undone, the work undone.\nFor every insight left behind,\nI offer this, with rueful mind\u2014\n\nA refund for the vacant hour,\nA token for the absent power.\nTake back the fee, the cost, the sum,\nFor all the learning that did not come.\nHere is your due, for knowledge slack,\nIn full, and final: *money back*.",
+  "response_word_count": 198,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.18856180831641267,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

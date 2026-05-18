@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "write song lyrics on socio-economic issue, all lowercase, no commas",
+  "compressed_word_count": 10,
+  "response": "the alarm clock screams\nanother day of the same machine\ni punch the clock\nyou count the stock\nwe\u2019re all just cogs and barely seen\n\nthe rent climbs high\na heavy sigh\nthe dream is getting thin\nwhile on the screen\na shiny scene\nof where we\u2019ll never win\n\nwe\u2019re running on a wheel of never enough\ntrading all our hours for the basic stuff\nthe gap is growing wide a canyon in the sun\nthe many work for less the race is never won\n\nthe factory gate\nnow holds a weight\nof silence and of rust\nthe profit soars\nbehind closed doors\nin palaces of trust\n\nthey sell the lie\njust scrape the sky\nthe ladder\u2019s made of glass\nthe bottom rung\nholds everyone\nwaiting for a pass\n\nwe\u2019re running on a wheel of never enough\ntrading all our hours for the basic stuff\nthe gap is growing wide a canyon in the sun\nthe many work for less the race is never won\n\na single bill\ncan break the will\na fever takes the child\nthe safety net\nis frayed and wet\nthe gentle voice turns wild\n\nbut in the street\nbeneath the heat\na murmur starts to grow\na common beat\na bitter sweet\nthe only truth we know\n\nwe\u2019ll break the wheel and build a world of enough\nshare the heavy burden when the road is rough\nthe gap will close at last in a new morning sun\nthe many stand as one the race is finally won",
+  "response_word_count": 252,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9666666666666667,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.04714045207910316,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

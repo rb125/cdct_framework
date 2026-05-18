@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "write song lyrics on economic disparity, all lowercase",
+  "compressed_word_count": 8,
+  "response": "in a world where wealth is king,\nthe poor are left to sing,\na tune of struggle, a tale of strife,\nin the shadow of affluence, they fight for life.\n\nthe rich get richer, the poor get less,\na game of chance, a cruel contest,\nthe gap widens, the dream fades,\nin the land of opportunity, hope degrades.\n\nthe streets are paved with golden dreams,\nbut for the many, it's just a scheme,\nto keep them working, to keep them bound,\nin the cycle of poverty, they're forever found.\n\nthe system's rigged, the rules are bent,\nfor those with power, their wealth is spent,\non yachts and mansions, on luxury and fame,\nwhile the hungry masses bear the blame.\n\nbut in the heart of the downtrodden,\na fire burns, a spark is kindled,\na call for change, a cry for justice,\nto break the chains, to end the fuss.\n\nso let us sing of a world reborn,\nwhere wealth is shared, and dreams are sworn,\na place of equality, a land of grace,\nwhere all can thrive, regardless of their place.",
+  "response_word_count": 181,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

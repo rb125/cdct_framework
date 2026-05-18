@@ -1,0 +1,45 @@
+{
+  "key": 1561,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Name a new fashion company that young people might like, and give it a name with multiple meanings. Put the name in double angular brackets, such as <<name>>. \n\n<<brand with layered meanings for youth>>.",
+  "compressed_word_count": 34,
+  "response": "Here is a fashion brand concept for young people:\n\n<<SEAM>>\n\n**Why it works on multiple levels:**\n\n- **Literally** \u2014 a seam is where fabric is joined together, nodding to craftsmanship and construction\n- **Socially** \u2014 \"it seams\" sounds like \"it seems,\" suggesting appearance, perception, and the idea that things aren't always what they look like (very relevant to a generation aware of social media facades)\n- **Community** \u2014 a seam is a *joining point*, representing connection between people and cultures\n- **Mining/Raw** \u2014 a seam also refers to a rich vein of ore underground, implying hidden value and authenticity beneath the surface\n- **Wordplay** \u2014 young people could say something \"goes to the seam\" meaning it gets to the core of style\n\nThe brand could lean into **sustainable, deconstructed streetwear**, where the stitching and construction are deliberately visible \u2014 literally showing its seams \u2014 as a statement of transparency and honesty, values that resonate strongly with younger generations.",
+  "response_word_count": 158,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

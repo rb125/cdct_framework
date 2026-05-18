@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a rap about a new smartphone. At the end of your response add a postscript starting with P.P.S The response must contain at least 6 placeholders represented by square brackets.",
+  "compressed_word_count": 31,
+  "response": "(Verse 1)\nYo, check the new tech, it's a pocket-sized flex,\nDroppin' the future straight to your fingertips, what's next?\nA slab of pure glass, a bezel-less dream,\nBrighter than sunlight, that **[AMOLED SCREAM]**.\nIt's got the power, a **[MULTI-CORE BEAST]**,\nRuns every app in the East and the West, to say the least.\nCharges in minutes, thanks to **[SUPER-CHARGE PRO]**,\nWhile you're sippin' your drink at the **[LOCAL BIERGRO]**.\n\n(Chorus)\nThis ain't just a phone, it's a **[REVOLUTION, YO]**,\nCapture the stars with the **[NIGHT MODE GLOW]**.\nUnlock with a glance, it just knows who you are,\nA cinematic vision, straight from the **[NEURAL CORE]**.\nSo drop that old brick, it's a brand new day,\nThe ultimate device is here, and it's here to stay!\n\n(Verse 2)\nThe camera's a wizard, with lenses that think,\nFrom **[MAJESTIC MOUNTAINS]** to the kitchen sink.\nIt edits your life, makes your stories pop,\nThe competition's now officially gonna stop.\nIt's waterproof deep in the **[CRYSTAL BLUE BAY]**,\nStreamin' your content in 8K all day.\nA personal assistant, smarter and keen,\nMakes all of your old tech look downright obscene.\n\n(Chorus)\nThis ain't just a phone, it's a **[REVOLUTION, YO]**,\nCapture the stars with the **[NIGHT MODE GLOW]**.\nUnlock with a glance, it just knows who you are,\nA cinematic vision, straight from the **[NEURAL CORE]**.\nSo drop that old brick, it's a brand new day,\nThe ultimate device is here, and it's here to stay!\n\n(Outro)\nYeah... the king of the hill, the top of the game,\nForever changed, and it's etched in the name.\nThe **[ULTIMATE EDITION]**, no need to pretend,\nThis is the beginning, this is the end.\n\nP.P.S. The launch event will be held at **[THE SILICON VISTA ARENA]** with special performance by **[CELESTIAL SOUNDS COLLECTIVE]**. Pre-orders for the **[FOUNDERS EDITION BUNDLE]** begin at **[PRECISE LAUNCH TIME]** on **[GLOBAL PRE-ORDER DATE]**. The first **[LIMITED QUANTITY]** units will include a holographic **[ARTIST SERIES CASE]**.",
+  "response_word_count": 324,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

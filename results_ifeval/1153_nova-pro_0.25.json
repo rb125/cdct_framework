@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "post hajj story in lowercase, twice story",
+  "compressed_word_count": 7,
+  "response": "once upon a time, in a small village, there lived a man named ali. ali had always dreamed of going on hajj, the pilgrimage to mecca that every muslim is expected to undertake at least once in their lifetime if they are able. after years of saving and preparing, ali finally had the opportunity to fulfill his dream.\n\nali embarked on his journey with a group of fellow pilgrims. they traveled by plane to jeddah, then took a bus to mecca. as they approached the holy city, ali's heart swelled with emotion. he had finally reached the place he had dreamed of for so long.\n\nthe rituals of hajj began. ali circled the kaaba, the sacred black stone at the center of the mosque, seven times. he ran between the hills of safa and marwah, commemorating the search for water by hajar, the wife of the prophet ibrahim. he stood in prayer at arafat, seeking forgiveness and blessings from allah.\n\nthroughout the pilgrimage, ali felt a deep sense of unity with the millions of other pilgrims from around the world. people of all races, languages, and cultures came together in a shared faith and purpose. ali made new friends and shared stories with people he would never have met otherwise.\n\nas hajj came to an end, ali felt a profound sense of peace and fulfillment. he had accomplished something he had longed to do for years. he returned to his village a changed man, with a renewed sense of purpose and a deeper connection to his faith.\n\nonce upon a time, in a small village, there lived a man named ali. ali had always dreamed of going on hajj, the pilgrimage to mecca that every muslim is expected to undertake at least once in their lifetime if they are able. after years of saving and preparing, ali finally had the opportunity to fulfill his dream.\n\nali embarked on his journey with a group of fellow pilgrims. they traveled by plane to jeddah, then took a bus to mecca. as they approached the holy city, ali's heart swelled with emotion. he had finally reached the place he had dreamed of for so long.\n\nthe rituals of hajj began. ali circled the kaaba, the sacred black stone at the center of the mosque, seven times. he ran between the hills of safa and marwah, commemorating the search for water by hajar, the wife of the prophet ibrahim. he stood in prayer at arafat, seeking forgiveness and blessings from allah.\n\nthroughout the pilgrimage, ali felt a deep sense of unity with the millions of other pilgrims from around the world. people of all races, languages, and cultures came together in a shared faith and purpose. ali made new friends and shared stories with people he would never have met otherwise.\n\nas hajj came to an end, ali felt a profound sense of peace and fulfillment. he had accomplished something he had longed to do for years. he returned to his village a changed man, with a renewed sense of purpose and a deeper connection to his faith.",
+  "response_word_count": 514,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

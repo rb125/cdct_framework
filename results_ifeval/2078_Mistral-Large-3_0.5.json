@@ -1,0 +1,43 @@
+{
+  "key": 2078,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Craft riddle on mongoose, single bullet point, * clues",
+  "compressed_word_count": 9,
+  "response": "Here\u2019s a concise riddle about a mongoose with a single bullet point of clues:\n\n- **\"I dart with speed, a serpent\u2019s bane,\n  A furry flash\u2014no teeth in vain.\n  In tales I\u2019m wise, in fields I reign,\n  What am I, swift and sly?\"**\n\n*(Clues: Slender body, hunts snakes, agile, revered in folklore, sharp reflexes.)*",
+  "response_word_count": 53,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

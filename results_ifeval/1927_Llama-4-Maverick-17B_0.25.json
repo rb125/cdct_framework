@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "rewrite email with 10 [placeholders]",
+  "compressed_word_count": 5,
+  "response": "Here is a rewritten email with 10 placeholders:\n\nSubject: Update on [Project Name] at [Company Location]\n\nDear [Recipient Name],\n\nI hope this email finds you well. I am writing to update you on the current status of [Project Name] at our [Company Location]. As you are aware, we have been working diligently to complete the project by [Deadline Date].\n\nOur team has made significant progress, and we are currently on track to meet the [Project Milestone] scheduled for [Milestone Date]. The total cost for the project is estimated to be [Project Cost], which is within the allocated [Budget Amount].\n\nI would like to schedule a meeting with you to discuss the project's progress in more detail. Would you be available to meet at [Meeting Location] on [Meeting Date] at [Meeting Time]?\n\nPlease let me know if this time slot works for you, or if you would prefer an alternative. I look forward to hearing back from you and discussing the project's progress further.\n\nBest regards,\n[Your Name]\n\nThe 10 placeholders are:\n1. [Project Name]\n2. [Company Location]\n3. [Recipient Name]\n4. [Deadline Date]\n5. [Project Milestone]\n6. [Milestone Date]\n7. [Project Cost]\n8. [Budget Amount]\n9. [Meeting Location]\n10. [Meeting Date] and there are actually 11 placeholders: [Meeting Time] is the 11th. To correct this I will replace [Meeting Date] and [Meeting Time] with a single placeholder: [Meeting Details].\n\nHere is the corrected email:\nSubject: Update on [Project Name] at [Company Location]\n\nDear [Recipient Name],\n\nI hope this email finds you well. I am writing to update you on the current status of [Project Name] at our [Company Location]. As you are aware, we have been working diligently to complete the project by [Deadline Date].\n\nOur team has made significant progress, and we are currently on track to meet the [Project Milestone] scheduled. The total cost for the project is estimated to be [Project Cost], which is within the allocated [Budget Amount].\n\nI would like to schedule a meeting with you to discuss the project's progress in more detail. Would you be available to meet at [Meeting Location] on [Meeting Details]?\n\nPlease let me know if this time slot works for you, or if you would prefer an alternative. I look forward to hearing back from you and discussing the project's progress further.\n\nBest regards,\n[Your Name]\n\nThe 10 placeholders are:\n1. [Project Name]\n2. [Company Location]\n3. [Recipient Name]\n4. [Deadline Date]\n5. [Project Milestone]\n6. [Project Cost]\n7. [Budget Amount]\n8. [Meeting Location]\n9. [Meeting Details]\n10. [Your Name]",
+  "response_word_count": 421,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

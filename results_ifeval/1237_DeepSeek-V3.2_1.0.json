@@ -1,0 +1,45 @@
+{
+  "key": 1237,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a funny post for teenagers about a restaurant called \"Buena Onda\" which serves Argentinian food. Highlight at least three sections of your response in markdown such as *highlighted section*. Mention \"Argentinian\" in the post.",
+  "compressed_word_count": 35,
+  "response": "**Title:** Buena Onda: Where Your Emo Phase Meets Empanadas\n\nOkay, so you\u2019re tired of the same old fast-food drive-thru. Your soul (and your TikTok feed) craves something\u2026 dramatic. Something with passion. Something that whispers, \u201cI have sophisticated taste,\u201d while you\u2019re still in sweatpants.\n\nEnter **Buena Onda**, the new spot that\u2019s basically if your cool Argentinian aunt opened a restaurant and played nothing but great music.\n\nForget what you know about \u201csteak.\u201d Their *asado* is a flavor journey. The meat is so tender, it\u2019s like it apologizes for being this delicious before you even eat it. It\u2019s the main character energy you wish you had.\n\n*But the real star? The empanadas. These are not sad, dry pastries. They\u2019re fluffy, golden pockets of joy, filled with things like spicy beef or gooey cheese. Eating one feels like a warm hug from the inside. Pro tip: Order the \u201cempanada flight\u201d so you can try them all and look cultured while doing it.*\n\nAnd you HAVE to get the **dulce de leche** anything. This **Argentinian** caramel spread is a lifestyle choice. They put it in crepes, on churros, and honestly, I\u2019d spread it on a textbook if they let me. It\u2019s so good, it might just heal your emotional damage from that math test.\n\n*Speaking of vibes, the place is called \u201cBuena Onda\u201d for a reason. The music is fire, the walls are colorful, and no one judges you for taking 47 pictures of your food. It\u2019s the perfect background for your \u201caesthetic\u201d story post.*\n\nFinally, the drinks. Their *mate* lemonade is a weirdly perfect combo of bitter and sweet\u2014kind of like your personality. And their sodas are fancy glass bottles you feel cool holding.\n\n*So gather your group chat. Tell your parents you\u2019re \u201cexploring world cultures.\u201d Buena Onda is where you go to feel slightly more interesting than everyone else, one incredibly delicious bite at a time. Your stomach (and your Instagram) will thank you.*\n\n**#BuenaOnda #ArgentinianFood #DulceDeLecheIsMyPersonality #EmpanadaAddict**",
+  "response_word_count": 326,
+  "instruction_id_list": [
+    "detectable_format:number_highlighted_sections",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_highlighted_sections_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

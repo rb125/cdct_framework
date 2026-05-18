@@ -1,0 +1,43 @@
+{
+  "key": 1906,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "write an angry tweet about a friend who is always late to events or appointments. craft a concise, no-emotion-filter social media post on punctuality issues.",
+  "compressed_word_count": 25,
+  "response": "Here\u2019s a sharp, no-holds-barred tweet for your chronically late friend:\n\n---\n\n**\"Punctuality isn\u2019t a \u2018vibe\u2019\u2014it\u2019s basic respect. If you\u2019re late *again*, just admit you don\u2019t value my time. I\u2019m done waiting for someone who treats my schedule like an optional suggestion. #OnTimeOrNotAtAll\"**\n\n---\n\nWant it even spicier? Try this:\n\n**\"Being late isn\u2019t \u2018fashionable\u2019\u2014it\u2019s selfish. Your \u20185 minutes\u2019 is my 30. Next time, don\u2019t bother showing up. #TimeIsMoneyAndYouOweMe\"**\n\nKeep it short, punchy, and unapologetic. They\u2019ll either get the message or keep testing your patience.",
+  "response_word_count": 83,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

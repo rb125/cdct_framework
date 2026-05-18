@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "* dialogue: ball gown vs. sweats for nightly event, 3 markdown points",
+  "compressed_word_count": 12,
+  "response": "**1. The Ball Gown: A Statement of Occasion**\nA ball gown is the traditional and expected choice for a formal evening event. It signals respect for the host, the venue, and the significance of the occasion. The fabric, silhouette, and craftsmanship of a gown are designed to create a memorable, elegant presence that aligns with the sophisticated atmosphere. Choosing a gown honors the event's purpose and demonstrates an understanding of social decorum.\n\n**2. The Sweats: A Statement of Personal Comfort & Rebellion**\nOpting for sweats is a deliberate rejection of formal expectations, prioritizing personal comfort, practicality, and perhaps a critique of sartorial norms. It makes a bold, non-conformist statement that can be interpreted as confidence, indifference, or a challenge to traditional hierarchies. However, it risks being seen as disrespectful to the event's hosts and other guests who have adhered to the implied dress code.\n\n**3. The Core Conflict: Social Contract vs. Individual Expression**\nThe choice ultimately highlights a tension between two values: the **social contract** of participating in a shared, ritualized experience versus the **individual's right to self-expression**. The gown wearer buys into the collective narrative of the evening, while the sweats wearer asserts a personal narrative. The \"correct\" choice depends entirely on the specific context\u2014the event's formality, the wearer's relationship to it, and their willingness to accept the social consequences of their choice.",
+  "response_word_count": 224,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

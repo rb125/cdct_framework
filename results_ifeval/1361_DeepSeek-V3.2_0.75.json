@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "write song lyrics on socio-economic issue; english, all lowercase; no commas",
+  "compressed_word_count": 11,
+  "response": "the alarm clock screams\nanother day of chasing dreams\nthat dance just out of reach\na concrete beach\n\nthe screen glows with a perfect life\na filtered cut of someone's strife\nwhile i count every single dime\nand borrow time\n\n(chorus)\nthe rent is climbing up the stairs\nwhile hope is sold in shares\nthis treadmill's moving faster\na silent disaster\nthe gap's a canyon wide\nwith nowhere left to hide\njust spinning in the grind\na ghost left behind\n\nthe diploma's just a faded page\na minimum wage cage\nthe dream's a heavy load\non a broken road\n\nthey say just pull yourself up high\nbut they don't see the cloudy sky\nthe weight beneath your feet\nthe bitter sweet\n\n(chorus)\nthe rent is climbing up the stairs\nwhile hope is sold in shares\nthis treadmill's moving faster\na silent disaster\nthe gap's a canyon wide\nwith nowhere left to hide\njust spinning in the grind\na ghost left behind\n\n(bridge)\nthe factory's a ghost\nwhat matters most?\na number in a line\na fading sign\nthe world is automated\nand we are left deflated\n\n(outro)\njust spinning in the grind\na ghost left behind\njust spinning in the grind\na ghost left behind",
+  "response_word_count": 205,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1481,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "craft a quirky resume for Antonia Maj for a coffee co. job; sections, 2 markdown bullets: \n* marketing & sales exp\n* customer service & unique skills",
+  "compressed_word_count": 27,
+  "response": "## Quirky Resume for Antonia Maj\n\n### Marketing & Sales Experience\n- **Bean Promoter Extraordinaire**: Successfully launched the \"Midnight Mocha\" campaign, increasing late-night coffee sales by 35% through quirky social media challenges and moon-themed merchandise.\n- **Frappuccino Whisperer**: Spearheaded the \"Frappuccino Fantasy\" series, creating themed frappuccinos each month that aligned with popular movies, resulting in a 20% boost in frappuccino sales.\n- **Community Coffee Connoisseur**: Organized monthly \"Coffee & Canvas\" events, merging art and caffeine, which attracted local artists and increased foot traffic by 25%.\n\n### Customer Service & Unique Skills\n- **Barista with a Twist**: Known for creating custom latte art that tells a story, from \"The Great Coffee Escape\" to \"Bean There, Done That,\" delighting customers and encouraging social media shares.\n- **Multilingual Menu Maestro**: Fluent in four languages (English, Spanish, French, and Italian), able to assist a diverse customer base and enhance the international coffee experience.\n- **Zen Barista**: Practiced mindfulness techniques to maintain a calm and welcoming atmosphere, reducing customer wait times by 15% through efficient yet relaxed service.",
+  "response_word_count": 173,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

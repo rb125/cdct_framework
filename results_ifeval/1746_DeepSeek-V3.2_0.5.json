@@ -1,0 +1,43 @@
+{
+  "key": 1746,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Draft essay on Benjamin Franklin; condense into poem. Separate with 6 asterisks: ******\n******",
+  "compressed_word_count": 14,
+  "response": "The printer\u2019s boy, a thirst for light,\nDevised a kite to tame the night.\nHe pooled the books, he charmed the Crown,\nIn Paris\u2019 salons, talked a town\nTo aid the birth. His almanac\nA nation\u2019s character would track.\nThe lightning caught, the treaty signed,\nA mind that left no thought behind.\nHe shaped the glass through which we see\nWhat Self and State might come to be.\n\n******\n\nA candle snuffed, a workday done,\nThe epitaph he meant in fun:\nA book, its binding cracked and old,\nA tale of virtue, bought and sold.\nThe lightning\u2019s print upon his hand,\nThe furrowed, free, and fertile land\nHe helped to draft with steady pen\u2014\nNot just a founder, but a man.",
+  "response_word_count": 121,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

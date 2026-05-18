@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "write song lyrics on socio-economic issue; english, all lowercase; no commas",
+  "compressed_word_count": 11,
+  "response": "in the city where the dreams are made of gold\nthe streets are paved with stories yet untold\nbut beneath the glitter and the neon lights\nlies a world where shadows hide from sight\n\nthe rich they live in mansions high above\nwhile down below the poor just try to love\na system built on greed and endless strife\nwhere the have-nots struggle just to survive\n\nwe sing of freedom and equality\nbut the truth is hidden in inequality\nthe gap between the haves and have-nots wide\na socio-economic divide\n\nthe children born into a world of strife\nwhere opportunity is just a distant life\nthey dream of breaking free from chains so tight\nbut the system keeps them in its endless night\n\nthe workers toil from dawn till dusk each day\nfor a wage that barely keeps them at bay\nthey yearn for justice and a fair reward\nbut the powers that be turn a deaf ear\n\nthe politicians promise change and hope\nbut their actions often leave us on a rope\nthey speak of progress yet the poor remain\ntrapped in a cycle of never-ending pain\n\nbut we won't be silent we will raise our voice\nfor a world where everyone has a choice\nwhere the wealth is shared and opportunities grow\nand the socio-economic divide starts to slow\n\nwe'll stand together in the face of strife\nand fight for justice for a better life\nwe'll sing this song of change and unity\nfor a world where all can find their destiny",
+  "response_word_count": 254,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

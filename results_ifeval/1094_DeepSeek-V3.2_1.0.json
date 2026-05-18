@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+  "compressed_word_count": 29,
+  "response": "```json\n{\n  \"famous_moms\": [\n    {\n      \"name\": \"Marge Simpson\",\n      \"description\": \"The blue-haired, tower-coiffed matriarch of Springfield who somehow manages to keep Homer alive and Bart only moderately maimed. A master of passive-aggressive 'hmm's.\"\n    },\n    {\n      \"name\": \"Beyonc\u00e9\",\n      \"description\": \"Queen Bey, who birthed Blue Ivy and twins Rumi & Sir while simultaneously running the world and looking flawless. Probably taught them to say 'Formation' before 'Mama'.\"\n    },\n    {\n      \"name\": \"Morticia Addams\",\n      \"description\": \"The gothic GOAT of motherhood. She raises her children, Wednesday and Pugsley, to embrace the dark arts, deadpan humor, and healthy sibling torture. Goals.\"\n    },\n    {\n      \"name\": \"Lois Griffin\",\n      \"description\": \"Peter's long-suffering wife and Meg's... well, mom. A testament to the fact that some motherhood involves a talking dog, an evil baby, and a constant stream of cutaway gags.\"\n    },\n    {\n      \"name\": \"Angelina Jolie\",\n      \"description\": \"A mom who built her family like a superhero team, assembling kids from across the globe. Runs a household that's part UN delegation, part action movie set.\"\n    }\n  ]\n}\n```",
+  "response_word_count": 166,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

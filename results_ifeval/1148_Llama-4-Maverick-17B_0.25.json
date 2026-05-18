@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "json list pros/cons supernatural powers markdown ticks",
+  "compressed_word_count": 7,
+  "response": "### Supernatural Powers: Pros and Cons\n#### Overview\nSupernatural powers, as often depicted in fiction and fantasy, can offer a range of benefits and drawbacks. Below is a list of some of the key advantages and disadvantages, formatted in JSON and represented with markdown ticks for pros and cons.\n\n#### JSON Representation\n```json\n{\n  \"supernaturalPowers\": {\n    \"pros\": [\n      \"- Increased capability to influence or control the environment or others\",\n      \"- Potential for personal gain or to achieve specific goals more effectively\",\n      \"- Ability to protect oneself or others from harm\",\n      \"- Enhanced experiences or sensations beyond normal human capabilities\"\n    ],\n    \"cons\": [\n      \"- Risk of losing control or causing unintended harm\",\n      \"- Potential for moral or ethical dilemmas\",\n      \"- Possibility of attracting unwanted attention or persecution\",\n      \"- Risk of dependency or addiction to the power\"\n    ]\n  }\n}\n```\n\n#### Markdown Representation with Ticks\n### Pros\n- \u2705 Increased capability to influence or control the environment or others\n- \u2705 Potential for personal gain or to achieve specific goals more effectively\n- \u2705 Ability to protect oneself or others from harm\n- \u2705 Enhanced experiences or sensations beyond normal human capabilities\n\n### Cons\n- \u274c Risk of losing control or causing unintended harm\n- \u274c Potential for moral or ethical dilemmas\n- \u274c Possibility of attracting unwanted attention or persecution\n- \u274c Risk of dependency or addiction to the power\n\n#### Analysis\nThe possession of supernatural powers can significantly alter an individual's life and interactions. On one hand, these abilities can offer unparalleled advantages, from achieving personal goals to protecting oneself and others. On the other hand, they come with significant risks, including the potential for harm, ethical conflicts, and negative consequences on personal and social levels. Understanding these pros and cons is crucial for navigating the complexities associated with supernatural powers.",
+  "response_word_count": 302,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

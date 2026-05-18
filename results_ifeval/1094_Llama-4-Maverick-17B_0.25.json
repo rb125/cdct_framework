@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "json list of 5 quirky famous moms",
+  "compressed_word_count": 7,
+  "response": "Here is a JSON list of 5 quirky famous moms:\n\n```json\n[\n  {\n    \"name\": \"Gwen Stefani\",\n    \"occupation\": \"Singer, Songwriter, Fashion Designer\",\n    \"quirkyTrait\": \"Known for her bold fashion sense and eccentric style, often incorporating bright colors and playful accessories into her looks.\"\n  },\n  {\n    \"name\": \"Christina Aguilera\",\n    \"occupation\": \"Singer, Songwriter, Actress\",\n    \"quirkyTrait\": \"Has been known to make bold and provocative fashion choices, often pushing the boundaries of what's considered 'normal' in the entertainment industry.\"\n  },\n  {\n    \"name\": \"Kate Hudson\",\n    \"occupation\": \"Actress, Entrepreneur\",\n    \"quirkyTrait\": \"Has been open about her unconventional parenting style, which includes being a proponent of 'conscious parenting' and allowing her children to express themselves freely.\"\n  },\n  {\n    \"name\": \"Pink\",\n    \"occupation\": \"Singer, Songwriter, Acrobat\",\n    \"quirkyTrait\": \"Known for her high-flying acrobatic performances and unconventional music videos, which often feature her performing death-defying stunts.\"\n  },\n  {\n    \"name\": \"Demi Moore\",\n    \"occupation\": \"Actress, Model, Entrepreneur\",\n    \"quirkyTrait\": \"Has been known to make headlines for her unconventional parenting choices, including getting tattoos with her daughters' names and being open about her struggles with motherhood.\"\n  }\n]\n```\n\nThis list includes 5 famous moms who are known for their quirky personalities, styles, or parenting choices. They are all accomplished women in their respective fields, and their unconventional approaches to life and motherhood have made them stand out in the public eye.",
+  "response_word_count": 214,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

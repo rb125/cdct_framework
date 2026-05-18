@@ -1,0 +1,45 @@
+{
+  "key": 1516,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "craft a 5-line poem in aabba rhyme, binge-watching netflix",
+  "compressed_word_count": 9,
+  "response": "**Binge-Watching Bliss**\n\nThe screen glows bright, the hours fly,\nA snack in hand, no need to try\u2014\nJust one more show, then I\u2019ll say \"bye,\"\nBut dawn arrives with sleepy eye,\nAnd still I scroll\u2014oh, what a high!",
+  "response_word_count": 38,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:existence_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

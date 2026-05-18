@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "create resume for matthias algiers, highlight key skills in all caps, <10 times, in double quotes.",
+  "compressed_word_count": 16,
+  "response": "# MATTHIAS ALGIERS\n**Email:** matthias.algiers@email.com | **Phone:** (555) 123-4567 | **LinkedIn:** linkedin.com/in/matthiasalgiers | **Location:** Algiers, Algeria\n\n---\n\n## PROFESSIONAL SUMMARY\n\nDynamic and results-driven professional with extensive experience in project management, software development, and cross-functional team leadership. Committed to delivering innovative solutions and driving organizational growth through strategic thinking and technical expertise.\n\n---\n\n## KEY SKILLS\n\n- \"PROJECT MANAGEMENT\"\n- \"STRATEGIC PLANNING\"\n- \"SOFTWARE DEVELOPMENT\"\n- \"TEAM LEADERSHIP\"\n- \"DATA ANALYSIS\"\n- \"PROBLEM SOLVING\"\n- \"COMMUNICATION\"\n- \"AGILE METHODOLOGY\"\n\n---\n\n## PROFESSIONAL EXPERIENCE\n\n### Senior Project Manager\n**TechVision Solutions** | 2019 \u2013 Present\n\n- Led cross-functional teams of 15+ members to deliver complex software projects on time and within budget\n- Implemented \"AGILE METHODOLOGY\" frameworks, improving team productivity by 35%\n- Managed stakeholder relationships and facilitated executive-level presentations\n- Oversaw project budgets exceeding $2M annually\n\n### Software Developer\n**DataBridge Corp** | 2015 \u2013 2019\n\n- Designed and deployed scalable web applications using modern programming frameworks\n- Collaborated with UX/UI teams to enhance user experience across multiple platforms\n- Conducted thorough \"DATA ANALYSIS\" to identify system inefficiencies and implement improvements\n- Mentored junior developers and conducted code reviews\n\n### Junior Developer\n**Nexus Digital Agency** | 2012 \u2013 2015\n\n- Assisted in the development of client-facing web and mobile applications\n- Participated in daily stand-ups and sprint planning sessions\n- Contributed to database design and backend architecture\n\n---\n\n## EDUCATION\n\n### Bachelor of Science in Computer Science\n**University of Science and Technology Houari Boumediene (USTHB)** | Algiers, Algeria | 2012\n\n---\n\n## CERTIFICATIONS\n\n- Project Management Professional (PMP) \u2014 PMI, 2018\n- Certified Scrum Master (CSM) \u2014 Scrum Alliance, 2017\n- AWS Certified Solutions Architect \u2014 Amazon Web Services, 2020\n\n---\n\n## LANGUAGES\n\n- **Arabic** \u2014 Native\n- **French** \u2014 Fluent\n- **English** \u2014 Professional Proficiency\n\n---\n\n## VOLUNTEER WORK\n\n- Tech Mentor, Youth Coding Initiative \u2014 Algiers, 2020 \u2013 Present\n- Guest Speaker, USTHB Career Development Program \u2014 2021\n\n---\n\n*References available upon request.*",
+  "response_word_count": 322,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

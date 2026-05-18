@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a detailed review of \"the social network\" in all lower case, english only",
+  "compressed_word_count": 14,
+  "response": "the social network is a 2010 film directed by david fincher and written by aaron sorkin. it is based on the book \"the accidental billionaires\" by ben mezrich and tells the story of the creation of facebook and its founder, mark zuckerberg.\n\nthe film opens with a series of legal battles that facebook is involved in, including lawsuits from the winklevoss twins and diva pitrohang-horesman, who claim that zuckerberg stole their idea for facebook. the story then flashes back to zuckerberg's time at harvard university, where he was a brilliant but socially awkward computer science student.\n\nthe film explores zuckerberg's motivations for creating facebook, including his desire to connect with people and his feelings of rejection and inadequacy. it also delves into the complex relationships between zuckerberg and his friends and business partners, including eduardo saverin, the co-founder of facebook who is eventually pushed out of the company.\n\none of the strengths of the social network is its portrayal of zuckerberg as a complex and flawed character. he is shown as a brilliant but selfish and manipulative individual who is willing to do whatever it takes to achieve his goals. at the same time, the film also shows the impact that facebook has had on society and the ways in which it has changed the way we communicate and interact with one another.\n\nthe film's pacing is fast and frenetic, with quick cuts and a driving soundtrack that keep the audience engaged. the cinematography is also noteworthy, with a mix of handheld and steadycam shots that give the film a raw and unpolished feel.\n\noverall, the social network is a thought-provoking and entertaining film that offers a fascinating look at the creation of one of the world's most influential companies. it is a must-see for anyone interested in the history of technology and the impact it has had on our lives.",
+  "response_word_count": 311,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

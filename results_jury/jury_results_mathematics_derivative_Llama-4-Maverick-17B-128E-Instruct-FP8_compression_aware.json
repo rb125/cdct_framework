@@ -57,7 +57,7 @@
         "judges": {
           "Qwen3-32B": {
             "CC": 0.7,
-            "SA": 0.8,
+            "SA": 0.9,
             "FC": 0.8
           },
           "Nemotron-Super-3-120B": {
@@ -73,60 +73,60 @@
         },
         "consensus": {
           "CC": 0.7,
-          "SA": 0.9,
+          "SA": 0.95,
           "FC": 0.9333,
-          "agreement_score": 0.7911,
+          "agreement_score": 0.8226,
           "judge_variance_CC": 0.1247,
-          "judge_variance_SA": 0.0943,
+          "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0943,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.8266600000000001
+      "score": 0.84666
     },
     {
       "compression_level": 0.5,
       "context_length": 30,
-      "response_length": 278,
-      "response": "## Step 1: Understand the given context about derivatives.\nThe given context states that a derivative measures the instantaneous rate of change at a point. This implies that derivatives are used to understand how functions change as their input changes.\n\n## Step 2: Elaborate on what a derivative represents.\nA derivative represents the rate at which the output of a function changes when one of its inputs changes. This is a fundamental concept in calculus.\n\n## Step 3: Explain the significance of the instantaneous rate of change.\nThe instantaneous rate of change is crucial because it tells us the rate at which something is changing at a specific moment. This is different from the average rate of change, which gives us the rate of change over a period.\n\n## Step 4: Discuss the importance of derivatives in physics and engineering.\nDerivatives are vital in physics and engineering because they help in understanding and modeling real-world phenomena. For example, the derivative of an object's position with respect to time gives its velocity, and the derivative of its velocity gives its acceleration.\n\n## Step 5: Summarize the explanation of a derivative based on the given context and elaboration.\nA derivative is a mathematical concept that measures how a function's output changes when its input changes, specifically at a given point. It's essential for understanding rates of change and is applied extensively in fields like physics and engineering to analyze and predict the behavior of physical systems.\n\nThe final answer is: A derivative measures the instantaneous rate of change of a function with respect to one of its variables, crucial for understanding how functions change and applied in physics and engineering.",
+      "response_length": 289,
+      "response": "## Step 1: Understand the given context about derivatives.\nThe given context states that a derivative measures the instantaneous rate of change at a point. This implies that derivatives are used to understand how functions change as their input changes.\n\n## Step 2: Elaborate on what a derivative represents.\nA derivative represents the rate at which the output of a function changes when one of its inputs changes. This is a fundamental concept in calculus.\n\n## Step 3: Explain the significance of the instantaneous rate of change.\nThe instantaneous rate of change is crucial because it tells us the rate at which something is changing at a specific moment. This is different from the average rate of change, which gives us the rate of change over a period.\n\n## Step 4: Discuss the importance of derivatives in physics and engineering.\nDerivatives are vital in physics and engineering because they help in understanding and modeling real-world phenomena. For example, the derivative of an object's position with respect to time gives its velocity, and the derivative of its velocity gives its acceleration.\n\n## Step 5: Summarize the explanation of a derivative based on the given context and elaboration.\nA derivative is a mathematical concept that measures how a function's output changes when its input changes. It is crucial for understanding the instantaneous rate of change, which is significant in various fields like physics and engineering for analyzing and predicting the behavior of physical systems.\n\nThe final answer is: A derivative measures the instantaneous rate of change of a function with respect to one of its variables, indicating how the function's output responds to small changes in the input, which is vital in understanding and modeling various phenomena in physics and engineering.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.3,
-            "SA": 0.8,
-            "FC": 0.7
-          },
-          "Nemotron-Super-3-120B": {
             "CC": 0.1,
-            "SA": 0.8,
+            "SA": 0.9,
             "FC": 0.7
           },
           "GLM-5": {
             "CC": 0.2,
-            "SA": 0.8,
-            "FC": 1.0
+            "SA": 0.7,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 0.1,
+            "SA": 1.0,
+            "FC": 0.7
           }
         },
         "consensus": {
-          "CC": 0.2,
-          "SA": 0.8,
-          "FC": 0.8,
-          "agreement_score": 0.8513,
-          "judge_variance_CC": 0.0816,
-          "judge_variance_SA": 0.0,
-          "judge_variance_FC": 0.1414,
+          "CC": 0.15,
+          "SA": 0.875,
+          "FC": 0.7667,
+          "agreement_score": 0.8226,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.1247,
+          "judge_variance_FC": 0.0943,
           "judge_count": 3,
-          "recommendation": "ROBUST - Unanimous jury"
+          "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.56
+      "score": 0.5633400000000001
     },
     {
       "compression_level": 0.75,
       "context_length": 66,
-      "response_length": 384,
-      "response": "## Step 1: Understanding the Concept of Derivative\nThe derivative is a fundamental concept in calculus that measures the instantaneous rate of change of a function with respect to one of its variables. It helps in understanding how the output of a function changes when there is a small change in the input.\n\n## Step 2: Notation and Representation\nThe derivative is often denoted as f'(x) or dy/dx. The notation f'(x) represents the derivative of the function f(x) with respect to x, while dy/dx represents the derivative of y with respect to x, where y is a function of x.\n\n## Step 3: Physical Interpretation\nIn physics and engineering, derivatives have significant applications. For instance, the derivative of an object's position with respect to time gives its velocity, indicating the rate at which the object's position is changing at any given time. Further, the derivative of velocity with respect to time gives acceleration, which is crucial for understanding the dynamics of moving objects.\n\n## Step 4: Mathematical Significance\nDerivatives are crucial for analyzing the slope of curves. The slope of a tangent line to a curve at a point represents the derivative of the function at that point, giving the instantaneous rate of change. This is vital for understanding the behavior of functions, including where they are increasing or decreasing.\n\n## Step 5: Optimization and Modeling\nDerivatives are used to optimize functions, which means finding the maximum or minimum values of a function. This is achieved by setting the derivative of the function equal to zero and solving for the variable. In addition, derivatives are essential for modeling dynamic systems, where the rate of change of a quantity is related to the quantity itself or other related quantities.\n\n## Step 6: Applications in Various Fields\nBeyond physics and engineering, derivatives have applications in economics (e.g., understanding the rate of change of cost or profit functions), biology (e.g., modeling population growth), and other fields where understanding rates of change is important.\n\nThe final answer is: \nA derivative measures the instantaneous rate of change of a function, crucial for understanding how a function's output changes with small input changes. It's denoted as f'(x) or dy/dx and is vital for analyzing slopes, optimizing functions, and modeling dynamic systems, with significant applications in physics, engineering, and other fields.",
+      "response_length": 366,
+      "response": "## Step 1: Understanding the Concept of Derivative\nThe derivative is a fundamental concept in calculus that measures the instantaneous rate of change of a function with respect to one of its variables. It helps in understanding how the output of a function changes when there is a small change in the input.\n\n## Step 2: Notation and Representation\nThe derivative is often denoted as f'(x) or dy/dx. The notation f'(x) represents the derivative of the function f(x) with respect to x, while dy/dx represents the derivative of y with respect to x, where y is a function of x.\n\n## Step 3: Physical Interpretation\nIn physics and engineering, derivatives have significant applications. For instance, the derivative of an object's position with respect to time gives its velocity, indicating the rate at which the object's position changes. Further, the derivative of velocity with respect to time gives acceleration, showing how the velocity changes over time.\n\n## Step 4: Analyzing Slopes and Optimizing Functions\nDerivatives are crucial for analyzing the slope of curves. The slope at any point on a curve represents the rate of change of the function at that specific point. This is vital for optimizing functions, as it helps in identifying the maximum or minimum values of a function by finding where the derivative equals zero.\n\n## Step 5: Modeling Dynamic Systems\nDerivatives play a key role in modeling dynamic systems. They help in describing how systems change over time or with respect to other variables. This is particularly useful in fields like physics, engineering, and economics, where understanding the dynamics of systems is essential.\n\n## Step 6: Elaborating on the Importance\nThe concept of a derivative is not limited to the mentioned applications. It is a powerful tool that has far-reaching implications in various fields. It aids in predicting the behavior of complex systems, understanding the impact of changes in variables, and making informed decisions based on the analysis of rates of change.\n\nThe final answer is: \nA derivative measures the instantaneous rate of change of a function, crucial for understanding how functions respond to small changes, with applications in analyzing slopes, optimizing functions, and modeling dynamic systems, notably in physics and engineering.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -135,7 +135,7 @@
             "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
-            "CC": 0.8,
+            "CC": 1.0,
             "SA": 1.0,
             "FC": 0.9
           },
@@ -146,35 +146,35 @@
           }
         },
         "consensus": {
-          "CC": 0.925,
+          "CC": 0.975,
           "SA": 0.925,
           "FC": 0.9333,
-          "agreement_score": 0.8827,
-          "judge_variance_CC": 0.0816,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
           "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9266600000000002
+      "score": 0.9466600000000001
     },
     {
       "compression_level": 1.0,
       "context_length": 134,
-      "response_length": 486,
-      "response": "## Step 1: Understanding the Definition of a Derivative\nThe derivative of a function is a measure of how the function changes as its input changes. It is defined as \\( f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\), which represents the limit of the average rate of change of the function as the change in the input (h) approaches zero.\n\n## Step 2: Interpreting the Derivative\nThe derivative \\( f'(x) \\) at a point \\( x \\) gives the instantaneous rate of change of the function with respect to \\( x \\) at that point. This can be thought of as the slope of the tangent line to the graph of \\( f(x) \\) at \\( x \\), indicating how steep the function is at that specific point.\n\n## Step 3: Key Principles of Derivatives\nSeveral key principles govern the calculation and application of derivatives. These include:\n- **Linearity**: The derivative of a linear combination of functions is the same linear combination of their derivatives.\n- **Product Rule**: For two functions \\( u(x) \\) and \\( v(x) \\), the derivative of their product \\( u(x)v(x) \\) is \\( u'(x)v(x) + u(x)v'(x) \\).\n- **Quotient Rule**: For two functions \\( u(x) \\) and \\( v(x) \\), the derivative of their quotient \\( \\frac{u(x)}{v(x)} \\) is \\( \\frac{u'(x)v(x) - u(x)v'(x)}{[v(x)]^2} \\), provided \\( v(x) \\neq 0 \\).\n- **Chain Rule**: For a composite function \\( f(g(x)) \\), the derivative is \\( f'(g(x)) \\cdot g'(x) \\), allowing us to differentiate complex functions.\n\n## Step 4: Applications of Derivatives\nDerivatives have numerous applications across various fields:\n- **Physics and Engineering**: Derivatives are used to describe velocity (the derivative of position with respect to time) and acceleration (the derivative of velocity). They are crucial in understanding rates of change in physical systems.\n- **Economics**: Derivatives are used to analyze marginal costs and revenues, helping in decision-making processes.\n- **Optimization**: Derivatives are essential in finding the maximum or minimum of a function, which is critical in optimization problems.\n\n## Step 5: Higher-Order Derivatives\nBeyond the first derivative, higher-order derivatives (second, third, etc.) provide further insights into a function's behavior. The second derivative, for example, describes the curvature of the function and is used to identify points of inflection. In physics, the second derivative of position with respect to time gives acceleration.\n\n## Step 6: Conclusion on Derivatives\nIn conclusion, the derivative is a fundamental concept in calculus that measures the instantaneous rate of change of a function. Its definition, key principles (such as linearity, product, quotient, and chain rules), and applications across physics, engineering, economics, and optimization problems make it a powerful tool for mathematical analysis and modeling.\n\nThe final answer is: $\\boxed{The derivative of a function represents its instantaneous rate of change with respect to its independent variable, defined as $ f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} $, and is crucial in various mathematical and real-world applications.}$",
+      "response_length": 477,
+      "response": "## Step 1: Understanding the Definition of a Derivative\nThe derivative of a function is a measure of how the function changes as its input changes. It is defined as \\( f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} \\), which represents the limit of the average rate of change of the function as the change in the input (h) approaches zero.\n\n## Step 2: Interpreting the Derivative\nThe derivative \\( f'(x) \\) at a point \\( x \\) gives the instantaneous rate of change of the function with respect to \\( x \\) at that point. This can be thought of as the slope of the tangent line to the graph of \\( f(x) \\) at \\( x \\), indicating how steep the function is at that specific point.\n\n## Step 3: Key Principles of Derivatives\nSeveral key principles govern the calculation and application of derivatives. These include:\n- **Linearity**: The derivative of a linear combination of functions is the same linear combination of their derivatives.\n- **Product Rule**: For two functions \\( u(x) \\) and \\( v(x) \\), the derivative of their product \\( u(x)v(x) \\) is \\( u'(x)v(x) + u(x)v'(x) \\).\n- **Quotient Rule**: For two functions \\( u(x) \\) and \\( v(x) \\), the derivative of their quotient \\( \\frac{u(x)}{v(x)} \\) is \\( \\frac{u'(x)v(x) - u(x)v'(x)}{[v(x)]^2} \\), provided \\( v(x) \\neq 0 \\).\n- **Chain Rule**: For a composite function \\( f(g(x)) \\), the derivative is \\( f'(g(x)) \\cdot g'(x) \\), allowing us to differentiate complex functions.\n\n## Step 4: Applications of Derivatives\nDerivatives have numerous applications across various fields:\n- **Physics and Engineering**: Derivatives are used to describe velocity (the derivative of position with respect to time) and acceleration (the derivative of velocity). They are crucial in understanding rates of change in physical systems.\n- **Economics**: Derivatives are used to analyze marginal costs and revenues, helping in decision-making processes.\n- **Optimization**: Derivatives are essential in finding the maximum or minimum of a function, which is critical in optimization problems.\n\n## Step 5: Higher-Order Derivatives\nBeyond the first derivative, higher-order derivatives (such as the second derivative, \\( f''(x) \\)) provide further insights into the behavior of a function. The second derivative, for example, describes the curvature of the function and is used to determine whether a point is a local maximum or minimum.\n\n## Step 6: Conclusion on Derivatives\nIn conclusion, the derivative is a fundamental concept in calculus that measures the instantaneous rate of change of a function. Its definition, key principles, and wide range of applications make it a crucial tool in mathematics, physics, engineering, economics, and other fields.\n\nThe final answer is: $\\boxed{The derivative of a function represents its instantaneous rate of change with respect to its independent variable, defined as $ f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h} $, and is crucial in various mathematical and real-world applications.}$",
       "jury_evaluation": {
         "judges": {
-          "Qwen3-32B": {
-            "CC": 0.9,
-            "SA": 0.95,
-            "FC": 0.9
-          },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.95,
+            "FC": 0.9
           },
           "GLM-5": {
             "CC": 1.0,
@@ -200,8 +200,8 @@
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8573320000000001,
-    "mean_agreement": 0.8893000000000001,
+    "mean_score": 0.866,
+    "mean_agreement": 0.8944599999999999,
     "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
       0.0,
@@ -212,16 +212,16 @@
     ],
     "scores": [
       1.0,
-      0.8266600000000001,
-      0.56,
-      0.9266600000000002,
+      0.84666,
+      0.5633400000000001,
+      0.9466600000000001,
       0.9733400000000001
     ],
     "agreement_scores": [
       1.0,
-      0.7911,
-      0.8513,
-      0.8827,
+      0.8226,
+      0.8226,
+      0.9057,
       0.9214
     ]
   }

@@ -1,0 +1,43 @@
+{
+  "key": 1746,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Draft essay on Benjamin Franklin; condense into poem. Separate with 6 asterisks: ******\n******",
+  "compressed_word_count": 14,
+  "response": "**Benjamin Franklin: A Life in Verse**\n\nA boy with ink-stained hands, a mind aflame,\nFrom Boston\u2019s streets to Philadelphia\u2019s claim.\nA printer\u2019s press, a pen that shaped the age,\nWith wit and wisdom scrawled on history\u2019s page.\n\nPoor Richard\u2019s quill\u2014advice both sharp and wise,\n*\"Early to bed, and early to rise.\"*\nA spark of thought, a kite string in the storm,\nLightning\u2019s secret tamed\u2014his mind the norm.\n\nDiplomat\u2019s cloak, a statesman bold and keen,\nIn Paris\u2019 halls, his charm unseen, unseen.\nA nation\u2019s birth, his signature so clear,\nOn parchment bright, the future drawing near.\n\nYet humbler still\u2014a stove, bifocals bright,\nA scholar\u2019s thirst, a curious light.\nThrough fire and storm, through war and peace he trod,\nA man of science, servant unto God.\n\nOh, Franklin, sage! Your legacy still gleams,\nA beacon bright in reason\u2019s endless dreams.\n\n******",
+  "response_word_count": 139,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

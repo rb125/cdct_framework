@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Why star wars is so popular? Your answer must be in the form of exactly 4 bullet points with the format below:\n* This is bullet point 1\n* This is bullet point 2",
+  "compressed_word_count": 34,
+  "response": "* **Iconic Storytelling and Mythology** \u2013 *Star Wars* taps into universal themes like heroism, rebellion, and good vs. evil, framed in a rich, expansive universe that feels both familiar and fantastical, drawing from classic myths and Joseph Campbell\u2019s \"Hero\u2019s Journey.\"\n\n* **Groundbreaking Special Effects and World-Building** \u2013 The franchise revolutionized visual effects (e.g., lightsabers, space battles) and created immersive worlds with unique cultures, species, and technology, setting a new standard for sci-fi filmmaking.\n\n* **Memorable Characters and Emotional Connection** \u2013 From Luke Skywalker to Darth Vader, *Star Wars* features deeply compelling, relatable characters with complex arcs, fostering strong fan attachments across generations.\n\n* **Cultural Impact and Expansive Universe** \u2013 Beyond films, *Star Wars* spans TV shows, books, games, and merchandise, creating a vast, interconnected lore that keeps fans engaged and allows endless exploration of its universe.",
+  "response_word_count": 136,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

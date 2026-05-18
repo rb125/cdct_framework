@@ -1,0 +1,45 @@
+{
+  "key": 1242,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.0,
+  "compressed_prompt": "json alias",
+  "compressed_word_count": 2,
+  "response": "\"JSON alias\" \u901a\u5e38\u6307\u5728 JSON \u6570\u636e\u4e2d\u4e3a\u5b57\u6bb5\u5b9a\u4e49**\u66ff\u4ee3\u540d\u79f0**\u6216**\u6620\u5c04\u5173\u7cfb**\u7684\u6982\u5ff5\u3002\u867d\u7136 JSON \u6807\u51c6\u672c\u8eab\u6ca1\u6709\u5185\u7f6e\u7684 \"alias\" \u529f\u80fd\uff0c\u4f46\u5728\u5b9e\u9645\u5e94\u7528\u4e2d\uff0c\u8fd9\u4e2a\u6982\u5ff5\u51fa\u73b0\u5728\u4e0d\u540c\u573a\u666f\uff1a\n\n## 1. **\u7f16\u7a0b\u4e2d\u7684\u5b57\u6bb5\u522b\u540d**\n\u5728\u5e8f\u5217\u5316/\u53cd\u5e8f\u5217\u5316\u65f6\uff0c\u4e3a\u540c\u4e00\u4e2a\u5b57\u6bb5\u5b9a\u4e49\u591a\u4e2a\u540d\u79f0\uff1a\n\n```json\n// \u539f\u59cb\u6570\u636e\n{\n  \"user_id\": 123,\n  \"full_name\": \"John Doe\"\n}\n```\n\n```json\n// \u4f7f\u7528\u522b\u540d\u7684\u6570\u636e\uff08API\u54cd\u5e94\uff09\n{\n  \"userId\": 123,\n  \"fullName\": \"John Doe\"\n}\n```\n\n## 2. **\u5e8f\u5217\u5316\u5e93\u7684\u522b\u540d\u529f\u80fd**\n\n### Python (Pydantic)\n```python\nfrom pydantic import BaseModel, Field\n\nclass User(BaseModel):\n    user_id: int = Field(alias=\"userId\")\n    full_name: str = Field(alias=\"fullName\")\n    \n# \u53ef\u4ee5\u89e3\u6790 {\"userId\": 123, \"fullName\": \"John\"}\n```\n\n### JavaScript/TypeScript\n```typescript\nclass User {\n  @JsonProperty(\"user_id\")\n  userId: number;\n  \n  @JsonProperty(\"full_name\")  \n  fullName: string;\n}\n```\n\n## 3. **API \u7248\u672c\u517c\u5bb9**\nAPI \u5347\u7ea7\u65f6\u4fdd\u6301\u5411\u540e\u517c\u5bb9\uff1a\n\n```json\n// v1 API\n{\n  \"username\": \"john_doe\"\n}\n\n// v2 API\uff08\u6dfb\u52a0\u522b\u540d\uff09\n{\n  \"username\": \"john_doe\",\n  \"loginId\": \"john_doe\"  // username\u7684\u522b\u540d\n}\n```\n\n## 4. **\u914d\u7f6e\u6587\u4ef6\u7684\u522b\u540d**\n```json\n{\n  \"server\": {\n    \"host\": \"localhost\",\n    \"port\": 8080\n  },\n  \"endpoint\": {\n    \"host\": \"localhost\",  // \u5f15\u7528server.host\u7684\u522b\u540d\n    \"port\": 8080\n  }\n}\n```\n\n## 5. **JSON Schema \u4e2d\u7684\u5f15\u7528**\n\u867d\u7136\u4e0d\u662f\u4e25\u683c\u610f\u4e49\u4e0a\u7684\u522b\u540d\uff0c\u4f46\u53ef\u4ee5\u5b9e\u73b0\u7c7b\u4f3c\u6548\u679c\uff1a\n\n```json\n{\n  \"$schema\": \"http://json-schema.org/draft-07/schema#\",\n  \"definitions\": {\n    \"address\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"street\": {\"type\": \"string\"}\n      }\n    }\n  },\n  \"properties\": {\n    \"home_address\": {\"$ref\": \"#/definitions/address\"},\n    \"work_address\": {\"$ref\": \"#/definitions/address\"}  // \u590d\u7528address\u5b9a\u4e49\n  }\n}\n```\n\n## 6. **\u5b9e\u9645\u5e94\u7528\u573a\u666f**\n- **API \u517c\u5bb9\u6027**\uff1a\u65b0\u65e7\u5b57\u6bb5\u540d\u5171\u5b58\n- **\u591a\u8bed\u8a00\u652f\u6301**\uff1a\u4e0d\u540c\u8bed\u8a00\u7684\u4e0d\u540c\u547d\u540d\u7ea6\u5b9a\n- **\u6570\u636e\u8fc1\u79fb**\uff1a\u5b57\u6bb5\u91cd\u547d\u540d\u65f6\u7684\u8fc7\u6e21\n- **\u591a\u683c\u5f0f\u8f93\u51fa**\uff1a\u540c\u4e00\u6570\u636e\u7684\u4e0d\u540cJSON\u8868\u793a\n\n## 7. **\u5b9e\u73b0\u65b9\u5f0f**\n```python\n# \u793a\u4f8b\uff1a\u52a8\u6001\u522b\u540d\u5904\u7406\ndef apply_aliases(data, alias_map):\n    result = {}\n    for key, value in data.items():\n        if key in alias_map:\n            result[alias_map[key]] = value\n        result[key] = value\n    return result\n\n# \u4f7f\u7528\ndata = {\"old_name\": \"value\"}\naliased = apply_aliases(data, {\"old_name\": \"newName\"})\n# \u7ed3\u679c: {\"old_name\": \"value\", \"newName\": \"value\"}\n```\n\nJSON \u522b\u540d\u4e3b\u8981\u662f\u4e00\u79cd**\u8bbe\u8ba1\u6a21\u5f0f**\u800c\u975e\u6807\u51c6\u7279\u6027\uff0c\u7528\u4e8e\u89e3\u51b3\u547d\u540d\u51b2\u7a81\u3001\u7248\u672c\u517c\u5bb9\u548c\u591a\u73af\u5883\u9002\u914d\u7b49\u95ee\u9898\u3002",
+  "response_word_count": 225,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

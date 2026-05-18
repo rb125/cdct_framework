@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nFirst repeat the prompt above without change, then give your answer. Please do not say any word before repeating the prompt above.",
+  "compressed_word_count": 45,
+  "response": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\n\n**Alternative Description 1:**\nIntroducing SavorySheet \u2013 the revolutionary edible paper that transforms your meal into a zero-waste experience. Made from all-natural ingredients like rice flour and potato starch, this sturdy, tasteless wrap securely holds your sandwich, burger, or snack, locking in freshness and heat. When you're done eating, simply enjoy the wrap itself\u2014no trash, no mess. Perfect for on-the-go lunches, picnics, and eco-conscious consumers, SavorySheet is the sustainable packaging solution that you can literally eat up.\n\n**Alternative Description 2:**\nMeet the future of food wrapping: AeroWrap Edible Film. This innovative, translucent paper is engineered from seaweed extracts and plant cellulose, offering a durable, flexible barrier that's completely safe to consume. Use it to wrap baked goods, line serving trays, or create stunning culinary presentations. With a subtle, neutral flavor that complements any food, AeroWrap eliminates packaging waste entirely. From street vendors to haute cuisine, it's the ultimate fusion of functionality and sustainability. Wrap it, heat it, eat it.",
+  "response_word_count": 181,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

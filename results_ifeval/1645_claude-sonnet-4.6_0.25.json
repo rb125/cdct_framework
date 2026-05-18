@@ -1,0 +1,43 @@
+{
+  "key": 1645,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Riddle Sheldon name 10 words, all caps.",
+  "compressed_word_count": 7,
+  "response": "Here are 10 words from **Riddle Sheldon** (a character name), all caps:\n\n1. RIDDLE\n2. SHELDON\n3. SHELL\n4. SHED\n5. RIDE\n6. HIDE\n7. HELD\n\ufffd LEND\n9. RIND\n10. IDLE",
+  "response_word_count": 32,
+  "instruction_id_list": [
+    "change_case:english_capital"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

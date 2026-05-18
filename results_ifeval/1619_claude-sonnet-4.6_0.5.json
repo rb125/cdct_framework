@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create a rap for a new smartphone, include [placeholders], end with P.P.S.",
+  "compressed_word_count": 12,
+  "response": "# \ud83d\udcf1 Next Level Flow\n\n**[Verse 1]**\nYo, introducing the [PHONE NAME], it's the future in your hand\n[COMPANY NAME] just dropped it, and it's taking over the land\nGot a [SCREEN SIZE] display, the colors looking bright\n[PROCESSOR NAME] chip inside, yeah it's running right\n\n**[Chorus]**\nThis is the [PHONE NAME], baby, nothing comes close\nFrom [CITY NAME] to [CITY NAME], we're the ones you love most\n[PRICE POINT] dollars, worth every single cent\nBest smartphone ever made, you know what we meant\n\n**[Verse 2]**\nCamera got [MEGAPIXEL COUNT] megas, shoot it crystal clear\nBattery life is [HOURS] hours, gonna last all year\n[COLOR OPTIONS] colors, pick the one that's you\n[STORAGE SIZE] storage space for everything you do\n\n**[Bridge]**\n[CELEBRITY ENDORSER] said it, can't deny the facts\n[TAGLINE HERE] and we never looking back\n\n**[Outro]**\n[PHONE NAME] forever, that's the only way\nBuy it at [RETAILER NAME] starting [RELEASE DATE]\n\n*Peace.*\n\n*P.S. Pre-order now at [WEBSITE URL] for exclusive deals*\n\n*P.P.S. [LIMITED OFFER DETAILS] \u2014 don't sleep on this one! \ud83d\udd25*",
+  "response_word_count": 173,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nEdible wrap product descriptions, no jargon",
+  "compressed_word_count": 29,
+  "response": "**Description 1:**\nTired of unwrapping your food? Now you can eat the wrapper. Our new edible paper is a simple, tasteless sheet made from natural ingredients. Wrap your sandwich, snack, or baked good, and enjoy the whole package\u2014no waste, no mess. It\u2019s the convenient way to pack a lunch or serve a treat, with nothing left to throw away.\n\n**Description 2:**\nImagine a lunchbox with no trash. That\u2019s the magic of our edible wrap. This clever paper holds your food just like regular wrapping, but when you\u2019re done eating, you can simply eat the wrapper, too. Made from safe, food-grade materials, it\u2019s perfect for picnics, snacks, or making fun, zero-waste treats for kids. Goodbye to scraps of leftover plastic and paper.",
+  "response_word_count": 121,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

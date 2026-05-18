@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create json ad for new baby diaper, focus on comfort, no commas.",
+  "compressed_word_count": 12,
+  "response": "```json\n{\n  \"ad_title\": \"Introducing SoftTouch Diapers for Your Little One\",\n  \"description\": \"Our new baby diaper is designed with ultimate comfort in mind soft breathable materials gentle on skin\",\n  \"features\": [\n    \"Ultra absorbent core to keep your baby dry\",\n    \"Soft flexible waistband for a comfortable fit\",\n    \"Breathable outer layer to prevent diaper rash\",\n    \"Cute designs to make diaper changes fun\"\n  ],\n  \"benefits\": [\n    \"Your baby will feel happy and comfortable all day long\",\n    \"SoftTouch Diapers are designed to prevent irritation and rashes\",\n    \"Easy to put on and take off for stress free diaper changes\"\n  ],\n  \"call_to_action\": \"Try SoftTouch Diapers today and give your baby the gift of comfort\"\n}\n```",
+  "response_word_count": 109,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

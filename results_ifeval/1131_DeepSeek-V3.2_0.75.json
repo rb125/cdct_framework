@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft 4-section resume for clown Phil Larkin, label each part Section X: summary, experience, skills, references.",
+  "compressed_word_count": 16,
+  "response": "**Section 1: Summary**\nA dedicated and safety-focused professional clown with over 15 years of experience creating joy and wonder for audiences of all ages. Expert in physical comedy, balloon artistry, and interactive entertainment, with a proven track record of transforming ordinary events into memorable, laughter-filled occasions. Passionate about the art of clowning and committed to delivering clean, inclusive, and magical performances.\n\n**Section 2: Experience**\n**Headliner & Founder | Phil's Funtastic Shows | 2010 \u2013 Present**\n*   Design and perform customized clown routines for private parties, corporate events, and community festivals, serving 200+ clients annually.\n*   Developed a signature \"Silent Symphony\" mime act that reduces overstimulation for sensitive audiences, expanding market reach.\n*   Manage all aspects of the business, including booking, client consultation, inventory, and marketing.\n\n**Resident Clown | Happy Hearts Children's Hospital | 2015 \u2013 Present**\n*   Provide weekly therapeutic entertainment and distraction for pediatric patients and their families.\n*   Collaborate with child life specialists to tailor performances to individual emotional and medical needs.\n*   Received the \"Golden Nose\" award for compassionate service in 2019 and 2022.\n\n**Apprentice Performer | The Great Ringling Brothers Circus | 2007 \u2013 2010**\n*   Trained in advanced physical comedy, slapstick, and large-audience engagement under master clowns.\n*   Performed as part of ensemble acts, including the iconic clown car and parade sequences.\n\n**Section 3: Skills**\n*   **Performance:** Expert in slapstick, juggling (up to 7 balls), unicycling, walkabout entertainment, and comedic magic.\n*   **Artistry:** Proficient in intricate balloon sculpture (animals, hats, wearable art), face painting, and prop design.\n*   **Audience Management:** Skilled at reading crowd energy, engaging shy participants, and safely managing large groups of children.\n*   **Logistics:** Reliable transportation (fully equipped \"Clown Car\"), punctual setup/teardown, and strict adherence to performance timelines.\n*   **Safety & Inclusion:** Certified in pediatric first aid/CPR, committed to allergy-aware practices (latex-free balloons), and trained in inclusive performance techniques.\n\n**Section 4: References**\nAvailable upon request.\n*   **Event Coordinator,** Citywide Festival Committee\n*   **Director of Child Life Services,** Happy Hearts Children's Hospital\n*   **Owner,** \"Bashful Bear\" Party Planning Agency",
+  "response_word_count": 336,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

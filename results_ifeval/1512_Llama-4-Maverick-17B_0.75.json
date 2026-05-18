@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "create a forum thread with short sentences about local news wait. no commas. use [username] placeholders at least 20 times.",
+  "compressed_word_count": 20,
+  "response": "Here is a forum thread with short sentences about local news without commas and with [username] placeholders:\n\n**Thread Title:** New Development Coming to Our Town\n\n**[username1]** New shopping center is being built downtown\n**[username2]** I heard it's going to be huge\n**[username3]** Construction starts next month\n**[username4]** I hope they don't tear down the old park\n**[username5]** I saw the plans and it's going to be awesome\n**[username6]** More jobs are coming to our town\n**[username7]** The developer is very experienced\n**[username8]** I trust [username7] to get the job done\n**[username9]** What about traffic congestion\n**[username10]** They are building new roads to handle it\n**[username11]** That's good to hear\n**[username12]** I just hope it's finished on time\n**[username13]** The deadline is next year\n**[username14]** That's a tight schedule\n**[username15]** [username1] do you know who is funding the project\n**[username16]** I think it's a mix of private and public funding\n**[username17]** That's a good combination\n**[username18]** I just hope it doesn't raise our taxes\n**[username19]** The town council says it won't\n**[username20]** I'm still skeptical\n**[username21]** [username2] what do you think about the new development\n**[username22]** I think it's a great opportunity for our town\n**[username23]** Me too I'm excited to see it finished\n**[username24]** [username3] can you post the plans again\n**[username25]** I'll try to find them and post them later",
+  "response_word_count": 221,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4496912521077347,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

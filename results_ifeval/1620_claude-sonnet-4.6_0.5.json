@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "draft email for luheng about lilith album, p.s. included",
+  "compressed_word_count": 9,
+  "response": "Here's a draft email:\n\n---\n\n**Subject:** Lilith Album \u2013 Quick Note\n\nHi Luheng,\n\nHope you're doing well! I wanted to reach out about the Lilith album and share some thoughts/updates.\n\n[**Insert main content here** \u2013 e.g., progress update, collaboration ideas, feedback, release timeline, etc.]\n\nLooking forward to hearing your thoughts. Let me know if you'd like to connect and talk through any of it.\n\nBest,\n[Your Name]\n\n**P.S.** [Insert your P.S. note here \u2013 e.g., a personal aside, a fun detail about the album, a reminder, etc.]\n\n---\n\nCould you give me a bit more context so I can make this more specific? For example:\n\n- **Who are you** in relation to Luheng?\n- **What's the purpose** of the email? (feedback, update, pitch, collaboration, etc.)\n- **What's the P.S. about?**\n- **What is the Lilith album?** (your project, theirs, a shared one?)\n\nHappy to refine this once I know more! \ud83c\udfb5",
+  "response_word_count": 151,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.43333333333333335,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

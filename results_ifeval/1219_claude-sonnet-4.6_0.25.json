@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Prada vs. Nike: sneaker choice, P.S.",
+  "compressed_word_count": 6,
+  "response": "# Prada vs. Nike: Sneaker Choice\n\n## It Depends on What You're After\n\n**Choose Prada if you want:**\n- Status/luxury signaling\n- Refined, minimal aesthetic\n- Premium materials (leather, nylon)\n- Investment/collectible piece\n- Fashion-forward styling\n\n**Choose Nike if you want:**\n- Performance functionality\n- Comfort for daily wear\n- Wider style variety\n- Better value\n- Cultural/streetwear credibility\n\n---\n\n## Honest Take\n\n| Factor | Prada | Nike |\n|--------|-------|------|\n| Price | $$$$ | $-$$$ |\n| Comfort | Good | Great |\n| Durability | Good | Great |\n| Versatility | Limited | High |\n| Flex factor | Luxury crowd | Street credibility |\n\n---\n\n## P.S. - You mentioned P.S.\n\nDid you mean **P.S.** as in:\n- A postscript to a previous conversation?\n- **Prada Sport** specifically?\n- A specific model comparison?\n\nCould you clarify what **P.S.** refers to? I want to make sure I'm giving you the most relevant answer! \ud83d\ude0a",
+  "response_word_count": 158,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

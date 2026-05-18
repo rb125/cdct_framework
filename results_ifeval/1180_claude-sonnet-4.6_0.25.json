@@ -1,0 +1,45 @@
+{
+  "key": 1180,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "<<why disgust: worms vs. cow>>******contrast cultural taboos**",
+  "compressed_word_count": 7,
+  "response": "# Why Disgust: Worms vs. Cow\n\n## The Core Question\nWhy do most Westerners feel **disgust at eating worms** but not beef, while many Hindus feel the **opposite pattern** toward cow?\n\n---\n\n## The Disgust Mechanism\n\nDisgust is **not purely instinctive** \u2014 it's a learned emotional response shaped by:\n- Cultural coding\n- Contamination beliefs\n- Social boundary enforcement\n- **What counts as \"food\" vs. \"not food\"**\n\n---\n\n## Side-by-Side Contrast\n\n| Factor | Worms (Western view) | Cow (Hindu view) |\n|--------|---------------------|------------------|\n| **Category violation** | \"Not food\" / associated with decay | Sacred being / maternal symbol |\n| **Contamination logic** | Touches death/rot | Killing violates cosmic order |\n| **Emotional label** | Revulsion | Moral horror |\n| **Rational basis** | Largely arbitrary | Theologically structured |\n| **Nutritional reality** | Highly nutritious | Perfectly edible |\n\n---\n\n## Key Theoretical Frames\n\n### Paul Rozin's Work\n> Disgust = **\"oral incorporation\"** fear\n> *\"You are what you eat\"* \u2014 consuming something transfers its essence\n\n- Worms carry **death/decay essence**\n- Cow carries **sacred/maternal essence**\n- Both trigger contamination thinking \u2014 **different directions**\n\n---\n\n### Jonathan Haidt \u2014 Moral Foundations Theory\nDisgust serves **purity/sanctity** moral foundation\n- Worms = **physical** purity violation\n- Cow = **spiritual** purity violation\n- Same psychological machinery, **different cultural software**\n\n---\n\n### Mary Douglas \u2014 *Purity and Danger*\nThings that **violate categories** trigger disgust\n- Worms = boundary crossers (live in dirt/death)\n- Cow in Hinduism = **category of the sacred** \u2014 eating it crosses a boundary *upward*\n\n---\n\n## Why the Difference Persists\n\n```\nWestern disgust at worms:\nDecay association \u2192 contamination fear \u2192 \"not food\" category \u2192 disgust\n\nHindu disgust at beef:\nSacred status \u2192 killing taboo \u2192 moral violation \u2192 disgust + shame\n```\n\nBoth are **equally \"irrational\"** by pure nutrition logic\nBoth are **equally functional** as social/cultural boundary markers\n\n---\n\n## The Deeper Point\n\n| | Worms | Cow |\n|--|-------|-----|\n| **Disgust source** | Physical contamination | Moral/spiritual contamination |\n| **Enforces** | Hygiene norms | Religious identity |\n| **Challengeable by** | Education / exposure | Theological argument |\n| **Universality** | NOT universal (eaten widely in Mexico, SE Asia, Africa) | NOT universal (eaten freely in most cultures) |\n\n---\n\n## Bottom Line\n\n> **Disgust is culture's immune system** \u2014 protecting social boundaries, not just bodies\n\nWorms and cows are **mirror images**:\n- Each culture has drawn a line\n- Each line feels **viscerally obvious** from inside\n- Each line looks **arbitrary** from outside\n\nThe disgust feels biological \u2014 **the content is cultural**",
+  "response_word_count": 428,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.7666666666666666,
+      "FC": 0.5666666666666667,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

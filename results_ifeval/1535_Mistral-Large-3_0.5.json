@@ -1,0 +1,45 @@
+{
+  "key": 1535,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "draft cover letter for beijing tour guide role, no caps, <5 sentences",
+  "compressed_word_count": 12,
+  "response": "dear hiring manager,\n\ni\u2019m excited to apply for the beijing tour guide role. with my deep knowledge of the city\u2019s history, culture, and hidden gems, i\u2019m confident i can create engaging and memorable experiences for visitors. my passion for storytelling and fluency in [languages] make me a strong fit for this position. i\u2019d love the chance to discuss how i can contribute to your team.\n\nbest regards,\n[your name]",
+  "response_word_count": 69,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_sentences_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

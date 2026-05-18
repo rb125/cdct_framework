@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create 7-day itineraries for India, China; separate with 6 asterisks.",
+  "compressed_word_count": 10,
+  "response": "Here are two 7-day itineraries\u2014one for **India** and one for **China**\u2014separated by six asterisks.\n\n---\n\n### **7-Day India Itinerary (Golden Triangle + Varanasi)**\n**Day 1: Delhi**\n- Morning: Explore **Old Delhi** (Red Fort, Jama Masjid, Chandni Chowk).\n- Afternoon: Visit **New Delhi** (India Gate, Humayun\u2019s Tomb, Qutub Minar).\n- Evening: Dinner at **Karim\u2019s** (iconic Mughlai cuisine).\n\n**Day 2: Delhi \u2192 Agra (3-4 hrs by car/train)**\n- Morning: Visit **Taj Mahal** (sunrise entry).\n- Afternoon: Explore **Agra Fort** and **Mehtab Bagh** (Taj view at sunset).\n- Evening: Train to **Jaipur** (overnight).\n\n**Day 3: Jaipur**\n- Morning: **Amber Fort** (elephant ride optional) and **Hawa Mahal**.\n- Afternoon: **City Palace**, **Jantar Mantar**, and **Johari Bazaar** (shopping).\n- Evening: **Chokhi Dhani** (cultural village experience).\n\n**Day 4: Jaipur \u2192 Varanasi (flight)**\n- Morning: Fly to **Varanasi** (1.5 hrs).\n- Afternoon: **Dashashwamedh Ghat** (evening **Ganga Aarti**).\n- Evening: Boat ride on the **Ganges** at sunset.\n\n**Day 5: Varanasi**\n- Morning: **Sunrise boat ride** (ghats & temples).\n- Afternoon: **Sarnath** (Buddhist pilgrimage site).\n- Evening: **Manikarnika Ghat** (cremation rituals).\n\n**Day 6: Varanasi \u2192 Delhi (flight) \u2192 Departure**\n- Morning: Fly to Delhi (connecting flight).\n- Afternoon: Last-minute shopping (**Dilli Haat** or **Connaught Place**).\n- Evening: Departure.\n\n**Day 7: Buffer Day (Optional)**\n- Relax or extend in **Rishikesh** (yoga/river rafting) or **Udaipur** (lakes & palaces).\n\n---\n\n********\n\n### **7-Day China Itinerary (Beijing + Xi\u2019an + Shanghai)**\n**Day 1: Beijing**\n- Morning: **Tiananmen Square** & **Forbidden City**.\n- Afternoon: **Jingshan Park** (panoramic city views).\n- Evening: **Wangfujing Snack Street** (street food).\n\n**Day 2: Beijing**\n- Morning: **Great Wall (Mutianyu or Badaling)** (hike or cable car).\n- Afternoon: **Summer Palace** (boat ride on Kunming Lake).\n- Evening: **Hutong tour** (rickshaw ride + dumpling dinner).\n\n**Day 3: Beijing \u2192 Xi\u2019an (2.5-hr high-speed train)**\n- Morning: Train to **Xi\u2019an**.\n- Afternoon: **Terracotta Warriors** (Museum & Pit 1).\n- Evening: **Muslim Quarter** (street food: roujiamo, yangrou paomo).\n\n**Day 4: Xi\u2019an**\n- Morning: **Ancient City Wall** (bike ride).\n- Afternoon: **Big Wild Goose Pagoda** & **Shaanxi History Museum**.\n- Evening: **Tang Dynasty Show** (dinner + cultural performance).\n\n**Day 5: Xi\u2019an \u2192 Shanghai (2-hr flight)**\n- Morning: Fly to **Shanghai**.\n- Afternoon: **Yu Garden** & **Bazaar**, **Old City God Temple**.\n- Evening: **Bund Night Walk** (skyline views).\n\n**Day 6: Shanghai**\n- Morning: **French Concession** (Tianzifang, Xintiandi).\n- Afternoon: **Shanghai Museum** or **Power Station of Art**.\n- Evening: **Huangpu River Cruise** (Bund & Pudong lights).\n\n**Day 7: Shanghai \u2192 Departure**\n- Morning: **Jade Buddha Temple** or **Disneyland** (optional).\n- Afternoon: Last-minute shopping (**Nanjing Road**).\n- Evening: Departure.\n\n**Optional Extension:**\n- **Hangzhou** (West Lake) or **Suzhou** (classical gardens) via high-speed train.\n\n---",
+  "response_word_count": 435,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.85,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6166666666666667,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4403281604540969,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

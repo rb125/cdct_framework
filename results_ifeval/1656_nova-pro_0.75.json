@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\n\"Craft two product descriptions for edible food wrap paper, emphasizing its versatility and safety for consumption.",
+  "compressed_word_count": 39,
+  "response": "### Product Description 1: Versatility and Safety Combined\n\nDiscover the future of food wrapping with our innovative edible food wrap paper. Designed with both versatility and safety in mind, this groundbreaking product is set to revolutionize the way you package and enjoy your meals.\n\n**Versatile Usage:**\n- **Fresh Produce:** Keep your fruits and vegetables crisp and fresh for longer periods.\n- **Baked Goods:** Wrap your bread, pastries, and cakes with an added layer of flavor.\n- **Snacks:** Securely package your nuts, chips, and candies without the guilt of waste.\n- **Gourmet Presentation:** Elevate your culinary creations with an elegant, edible touch that impresses and delights.\n\n**Safety Assured:**\n- **100% Edible:** Made from natural, food-grade ingredients, our wrap is safe for consumption.\n- **No Artificial Additives:** Free from preservatives, chemicals, and artificial flavors.\n- **Eco-Friendly:** Reduce your environmental footprint by eliminating the need for traditional plastic wraps.\n\nEmbrace a new era of food wrapping with our edible food wrap paper\u2014where versatility meets safety, and every wrap is a delicious experience.\n\n---\n\n### Product Description 2: Safe, Delicious, and Eco-Conscious\n\nIntroducing our revolutionary edible food wrap paper, a product that combines safety, deliciousness, and eco-consciousness in one remarkable package. Perfect for a wide range of applications, this versatile wrap is changing the game for food storage and presentation.\n\n**Endless Possibilities:**\n- **Fruits and Vegetables:** Maintain the freshness and flavor of your produce without any compromise.\n- **Meats and Cheeses:** Wrap your deli items with an added layer of taste and convenience.\n- **Desserts:** Enhance the appeal of your sweets with an edible, gourmet touch.\n- **On-the-Go Snacks:** Package your favorite treats for a hassle-free, waste-free experience.\n\n**Commitment to Safety:**\n- **Food-Grade Quality:** Crafted from high-quality, edible materials that are safe for consumption.\n- **Natural Ingredients:** Enjoy peace of mind knowing our wrap is free from artificial additives and preservatives.\n- **Sustainable Choice:** Make a positive impact on the environment by choosing a wrap that biodegrades naturally.\n\nElevate your food wrapping experience with our edible food wrap paper\u2014a perfect blend of safety, deliciousness, and sustainability for all your culinary needs.",
+  "response_word_count": 347,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

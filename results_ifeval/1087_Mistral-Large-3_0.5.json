@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "review \"the social network\" in english, all lower case",
+  "compressed_word_count": 9,
+  "response": "here\u2019s a casual, all-lowercase review of *the social network* (2010), directed by david fincher and written by aaron sorkin:\n\n---\n\n*the social network* is one of those rare movies that feels like it\u2019s firing on all cylinders\u2014sharp writing, electric performances, and a story that\u2019s both wildly entertaining and uncomfortably real. sorkin\u2019s dialogue crackles with wit and urgency, turning what could\u2019ve been a dry tech origin story into a high-stakes drama about ambition, betrayal, and the cost of genius. jesse eisenberg is perfect as mark zuckerberg, nailing the mix of brilliance, social awkwardness, and ruthless drive that defines the character. andrew garfield and justin timberlake bring depth to their roles as eduardo saverin and sean parker, respectively, making the film\u2019s emotional beats land hard.\n\nfincher\u2019s direction is sleek and precise, matching the film\u2019s tone\u2014part legal thriller, part character study, part satire of the tech world\u2019s cutthroat culture. the score by trent reznor and atticus ross is haunting and propulsive, pulling you deeper into the story\u2019s tension. even if you know how facebook started, the movie makes the journey feel fresh, messy, and full of surprises.\n\nthe only minor gripe? some of the legal jargon and rapid-fire dialogue can be hard to follow if you\u2019re not paying close attention. but that\u2019s also part of the fun\u2014it rewards repeat viewings. at its core, *the social network* isn\u2019t just about facebook; it\u2019s about the loneliness of success, the fragility of friendship, and the way ideas can change the world while destroying the people behind them. it\u2019s a modern classic, and one of the best films of the 2010s.\n\n---\n\nwould i rewatch it? absolutely. is it as good as everyone says? yeah, and then some.",
+  "response_word_count": 281,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4496912521077347,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

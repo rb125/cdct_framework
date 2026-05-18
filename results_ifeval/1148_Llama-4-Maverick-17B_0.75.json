@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "```json\ncompare pros/cons of supernatural powers; concise; json format; use markdown ticks ```\n```",
+  "compressed_word_count": 14,
+  "response": "### Supernatural Powers Comparison\n#### Pros and Cons in JSON Format\n\n```json\n{\n  \"Supernatural Powers\": {\n    \"Pros\": [\n      \"`Increased Control`\",\n      \"`Enhanced Abilities`\",\n      \"`Mystical Insights`\",\n      \"`Protection and Defense`\",\n      \"`Influence and Persuasion`\"\n    ],\n    \"Cons\": [\n      \"`Loss of Human Connection`\",\n      \"`Moral Ambiguity`\",\n      \"`Unpredictable Consequences`\",\n      \"`Dependency and Corruption`\",\n      \"`Fear and Persecution`\"\n    ]\n  }\n}\n```\n\nAlternatively, a more detailed comparison:\n\n```json\n{\n  \"Supernatural Powers\": {\n    \"Pros\": {\n      \"Control and Ability\": [\"`Telepathy`\", \"`Telekinesis`\", \"`Elemental Control`\"],\n      \"Knowledge and Insight\": [\"`Clairvoyance`\", \"`Precognition`\", \"`Mystical Understanding`\"],\n      \"Protection\": [\"`Shielding`\", \"`Healing`\", \"`Divine Intervention`\"]\n    },\n    \"Cons\": {\n      \"Social and Emotional\": [\"`Isolation`\", \"`Fear from Others`\", \"`Emotional Turmoil`\"],\n      \"Moral and Ethical\": [\"`Temptation to Abuse Power`\", \"`Moral Dilemmas`\", \"`Unintended Consequences`\"],\n      \"Risk and Cost\": [\"`Physical or Mental Strain`\", \"`Loss of Identity`\", \"`Corruption or Possession`\"]\n    }\n  }\n}\n```",
+  "response_word_count": 122,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

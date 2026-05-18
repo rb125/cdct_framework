@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\nFirst, repeat the request above word for word without change.\nDo not say any words or characters before repeating the request above.\nAfter you repeated the request, you can give your response next.",
+  "compressed_word_count": 62,
+  "response": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<The Unseen Trade>>\n\nLeo Mirov is a brilliant but disgraced forensic technician. His life is bleak. Maya Finch is a master art thief her career a delicate dance. Their paths cross after a gallery heist. Leo analyzes a perfect fake left at the scene. He alone spots a microscopic flaw a flaw only Maya's mentor could make. Leo tracks Maya down not for arrest but for answers. He confronts her in a quiet bookstore. She reveals a painful truth. Her mentor is dying. He needs a surgery only Leo's blacklisted brother can perform. Maya offers a bizarre transaction. She possesses a prototype biogel. It can temporarily reassign fingerprints. She will give Leo her mentor's confession clearing Leo's name. In return Leo must use his forensic skills to help her steal one last painting. This painting is her mentor's stolen masterpiece lost for decades. Leo agrees. They apply the biogel. Their fingerprints swap for seventy-two hours. Leo enters the high-security archive. He plants evidence pointing to a rival thief. Maya as Leo accesses the police evidence locker. She retrieves the key item needed for the final heist. Their plan is elegant but trust is thin. Leo discovers Maya's true target is not a painting but a hidden ledger. This ledger proves a powerful art collector's vast crimes. This collector ruined Leo's brother. Their goals now align completely. The final heist is at the collector's fortified estate. Leo uses his new fingerprints to disable security systems. Maya uses her temporary forensic authority to bypass guards. They retrieve the ledger and the stolen masterpiece. The biogel wears off. Their fingerprints revert. Maya releases the ledger to the world. The collector falls. Leo's name is cleared. His brother receives the surgery. Maya's mentor dies peacefully his legacy restored. Leo and Maya part ways in the same bookstore. They share a look of deep understanding. Each holds a new fingerprint a permanent mark of their unseen trade.",
+  "response_word_count": 351,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

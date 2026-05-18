@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Is 'Happy Birthday' the first song sung in space? Answer with 'yes,' 'no,' or'maybe.'",
+  "compressed_word_count": 14,
+  "response": "No. 'Happy Birthday' was sung in space by astronauts on the International Space Station for Susan Helms' birthday in 2001, but it was not the first song sung in space. The first song sung in space was 'Diana' (a song by Paul Anka), sung by the Gemini 10 astronauts in 1966, or possibly other songs sung during earlier space missions.",
+  "response_word_count": 60,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

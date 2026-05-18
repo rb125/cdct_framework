@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "I work in the marketing department and I need your help. I need a template for an advertisement for a new product which is a portable camera. In the template, capitalize a few words to stress main points. Please limit the number of words with all capital letters to less than four. Your response should contain at least ten sentences.",
+  "compressed_word_count": 60,
+  "response": "Here's a template for an advertisement for your new portable camera:\n\nIntroducing our latest innovation - a COMPACT camera that's perfect for capturing life's precious moments on-the-go! \nThis portable camera is designed to be lightweight and EASY to carry, making it ideal for travel, outdoor activities, or everyday use. \nWith its advanced features and HIGH-quality image resolution, you'll be able to take stunning photos and videos wherever you are. \nThe camera's compact size makes it easy to slip into a pocket or purse, so you can take it with you wherever you go. \nWhether you're a professional photographer or an amateur enthusiast, this camera is sure to meet your needs. \nOur portable camera is equipped with advanced image stabilization technology, ensuring that your photos are always clear and sharp. \nThe camera also features a long-lasting battery life, so you can keep snapping away without worrying about running out of power. \nWith its user-friendly interface and intuitive controls, you'll be able to start taking great photos right out of the box. \nThe camera is also compatible with a range of accessories, including tripods and lenses, to help you take your photography to the next level. \nDon't miss out on this amazing opportunity to capture life's special moments - get your hands on our new portable camera today!",
+  "response_word_count": 216,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1237,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create funny post for 'Buena Onda', markdown sections, no 'Argentinian'.",
+  "compressed_word_count": 10,
+  "response": "**Buena Onda Alert!**\n=====================================\n\n### The Struggle is Real\n\nWe've all been there: stuck in a never-ending loop of bad Wi-Fi, trying to order food online, and... \n* the website won't load\n* the app crashes\n* the delivery guy can't find your address\n\n### When Tech Fails, Panic Ensues\n\n* You try to reboot your router, but it just gives you a sad, blinking light\n* You call the delivery guy, but he's \"on his way\" (for the past hour)\n* You start to think that maybe, just maybe, cooking a frozen pizza is the answer\n\n### But Then...\n\n* The Wi-Fi magically starts working again\n* The food arrives (cold, but hey, it's food!)\n* You realize you can just go pick it up yourself (D'oh!)\n\n### Buena Onda Moment\n\nWhen the universe decides to smile upon you, and your tech issues disappear into thin air. Share your own Buena Onda moments in the comments below!\n\n**Stay buena, amigos!**",
+  "response_word_count": 161,
+  "instruction_id_list": [
+    "detectable_format:number_highlighted_sections",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_highlighted_sections_0": null,
+    "keywords:existence_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.43333333333333335,
+      "SA": 0.16666666666666666,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

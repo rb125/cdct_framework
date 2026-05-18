@@ -1,0 +1,45 @@
+{
+  "key": 1535,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a cover letter for a job application as a tour guide in Beijing in all lowercase letters, with no capitalizations. Make it short -- the entire output should have less than 5 sentences.",
+  "compressed_word_count": 34,
+  "response": "i am excited to apply for the tour guide position in beijing, as i have a deep understanding of the city's history and culture. with my knowledge and passion, i am confident that i can provide an unforgettable experience for tourists. i look forward to sharing beijing's hidden gems with visitors from around the world. thank you for considering my application.",
+  "response_word_count": 61,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

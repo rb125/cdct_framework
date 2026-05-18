@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "write song lyrics on socio-economic issue; english, all lowercase; no commas",
+  "compressed_word_count": 11,
+  "response": "# **empty pockets full city**\n\nthe landlord raised the rent again\non the first of every month\nwe work our hands down to the bone\nand still come up with nothing\n\nthey built a tower on our block\nwhere the corner store once stood\nthey call it progress call it growth\nwe call it leaving for good\n\n*chorus:*\nwe are the ones who build the walls\nbut never get to live inside\nwe are the ones who cook the meals\nbut go to bed hungry at night\nthe numbers on the screen go up\nthe numbers in our pockets fall\nthey say the tide will lift all boats\nbut some of us don't have boats at all\n\nthe kids are sharing textbooks now\nthe roof is leaking through\nthe politician shakes his hands\nand says he feels it too\n\nminimum wage and maximum hours\nstill short on the electric bill\nthey say just work a little harder\nlike we haven't always will\n\n*chorus*\n\n*bridge:*\nit ain't about being lazy\nit ain't about a lack of drive\nit's about who owns the table\nand who just tries to survive\n\n*outro:*\nthe city shines so bright at night\non the side we never see\none world for those who hold the keys\nand one world left for you and me",
+  "response_word_count": 218,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

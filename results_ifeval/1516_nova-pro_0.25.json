@@ -1,0 +1,45 @@
+{
+  "key": 1516,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "binge-watch poem, netflix, aabba rhyme",
+  "compressed_word_count": 5,
+  "response": "Certainly! Here's a poem about binge-watching on Netflix, following an AABBA rhyme scheme:\n\n---\n\nIn twilight's grasp, the screen does glow, (A)\nA Netflix binge, my heart's true show, (A)\nEpisodes flow, a river's grace, (B)\nIn this digital, enchanted space. (B)\nNights blend to dawn, I scarcely know. (A)\n\n---\n\nI hope you enjoy this poetic take on the experience of binge-watching!",
+  "response_word_count": 63,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "json ad",
+  "compressed_word_count": 2,
+  "response": "# JSON Ad (Advertisement) Format\n\nHere are some common JSON structures used for **digital advertising**:\n\n---\n\n## \ud83d\udce6 Basic Ad Object\n\n```json\n{\n  \"ad\": {\n    \"id\": \"ad_001\",\n    \"title\": \"Summer Sale - 50% Off!\",\n    \"description\": \"Shop the biggest sale of the year.\",\n    \"brand\": \"ShopNow\",\n    \"type\": \"banner\",\n    \"status\": \"active\",\n    \"url\": \"https://shopnow.com/sale\",\n    \"image\": \"https://cdn.shopnow.com/ads/summer-sale.jpg\",\n    \"cta\": \"Shop Now\"\n  }\n}\n```\n\n---\n\n## \ud83c\udfaf Ad with Targeting\n\n```json\n{\n  \"ad\": {\n    \"id\": \"ad_002\",\n    \"title\": \"Learn to Code in 30 Days\",\n    \"type\": \"video\",\n    \"format\": \"pre-roll\",\n    \"duration\": 30,\n    \"targeting\": {\n      \"age_range\": [18, 35],\n      \"gender\": [\"male\", \"female\"],\n      \"interests\": [\"technology\", \"education\", \"programming\"],\n      \"locations\": [\"US\", \"CA\", \"UK\"],\n      \"devices\": [\"mobile\", \"desktop\"],\n      \"languages\": [\"en\"]\n    },\n    \"budget\": {\n      \"daily_limit\": 500.00,\n      \"total_budget\": 10000.00,\n      \"currency\": \"USD\",\n      \"bid_type\": \"CPM\",\n      \"bid_amount\": 3.50\n    }\n  }\n}\n```\n\n---\n\n## \ud83d\udcca Ad Campaign Structure\n\n```json\n{\n  \"campaign\": {\n    \"id\": \"camp_101\",\n    \"name\": \"Q4 Holiday Campaign\",\n    \"advertiser\": \"BrandX\",\n    \"status\": \"running\",\n    \"start_date\": \"2024-11-01\",\n    \"end_date\": \"2024-12-31\",\n    \"objective\": \"conversions\",\n    \"ads\": [\n      {\n        \"id\": \"ad_003\",\n        \"title\": \"Holiday Deals Are Here\",\n        \"type\": \"display\",\n        \"size\": \"300x250\",\n        \"creative\": {\n          \"headline\": \"Up to 70% Off This Holiday!\",\n          \"body\": \"Limited time offers on top brands.\",\n          \"image_url\": \"https://cdn.brandx.com/holiday-ad.jpg\",\n          \"cta_button\": \"Get Deal\",\n          \"landing_page\": \"https://brandx.com/holiday\"\n        },\n        \"metrics\": {\n          \"impressions\": 125000,\n          \"clicks\": 3200,\n          \"ctr\": 2.56,\n          \"conversions\": 480,\n          \"spend\": 1750.00,\n          \"cpc\": 0.55,\n          \"roas\": 4.2\n        }\n      }\n    ]\n  }\n}\n```\n\n---\n\n## \ud83d\udcf1 Native Ad Format\n\n```json\n{\n  \"native_ad\": {\n    \"id\": \"native_001\",\n    \"sponsored_by\": \"TechGadgets\",\n    \"headline\": \"The Smartwatch You've Been Waiting For\",\n    \"body\": \"Track fitness, get notifications, and more.\",\n    \"image\": {\n      \"url\": \"https://techgadgets.com/watch-ad.jpg\",\n      \"width\": 1200,\n      \"height\": 628,\n      \"alt\": \"SmartWatch Pro\"\n    },\n    \"icon\": {\n      \"url\": \"https://techgadgets.com/logo.png\",\n      \"width\": 100,\n      \"height\": 100\n    },\n    \"cta\": \"Buy Now\",\n    \"click_url\": \"https://techgadgets.com/smartwatch\",\n    \"impression_tracker\": \"https://track.ads.com/imp?id=native_001\",\n    \"click_tracker\": \"https://track.ads.com/click?id=native_001\"\n  }\n}\n```\n\n---\n\n## \ud83d\udd01 OpenRTB Bid Request (Simplified)\n\n```json\n{\n  \"id\": \"bid_req_001\",\n  \"imp\": [\n    {\n      \"id\": \"1\",\n      \"banner\": {\n        \"w\": 728,\n        \"h\": 90,\n        \"format\": [\n          { \"w\": 728, \"h\": 90 },\n          { \"w\": 970, \"h\": 90 }\n        ]\n      },\n      \"bidfloor\": 0.50,\n      \"bidfloorcur\": \"USD\"\n    }\n  ],\n  \"site\": {\n    \"id\": \"site_001\",\n    \"name\": \"News Portal\",\n    \"domain\": \"newsportal.com\",\n    \"cat\": [\"IAB12\", \"IAB1\"],\n    \"page\": \"https://newsportal.com/article/123\"\n  },\n  \"user\": {\n    \"id\": \"user_abc123\",\n    \"age\": 28,\n    \"gender\": \"M\"\n  },\n  \"device\": {\n    \"ua\": \"Mozilla/5.0...\",\n    \"ip\": \"192.168.1.1\",\n    \"devicetype\": 2,\n    \"os\": \"Android\"\n  },\n  \"at\": 2,\n  \"tmax\": 150,\n  \"cur\": [\"USD\"]\n}\n```\n\n---\n\n## \ud83d\udcc8 Ad Performance Report\n\n```json\n{\n  \"report\": {\n    \"period\": \"2024-10-01 to 2024-10-31\",\n    \"campaign_id\": \"camp_101\",\n    \"summary\": {\n      \"total_impressions\": 500000,\n      \"total_clicks\": 12500,\n      \"avg_ctr\": 2.5,\n      \"total_spend\": 6800.00,\n      \"total_conversions\": 950,\n      \"avg_cpc\": 0.54,\n      \"avg_cpm\": 13.60,\n      \"roas\": 5.1\n    },\n    \"breakdown_by_day\": [\n      {\n        \"date\": \"2024-10-01\",\n        \"impressions\": 16000,\n        \"clicks\": 400,\n        \"spend\": 220.00,\n        \"conversions\": 30\n      },\n      {\n        \"date\": \"2024-10-02\",\n        \"impressions\": 17500,\n        \"clicks\": 450,\n        \"spend\": 245.00,\n        \"conversions\": 35\n      }\n    ]\n  }\n}\n```\n\n---\n\n## \ud83d\udd11 Key Ad Metrics Explained\n\n| Key | Meaning |\n|-----|---------|\n| `CTR` | Click-Through Rate (clicks/impressions \u00d7 100) |\n| `CPM` | Cost Per 1000 Impressions |\n| `CPC` | Cost Per Click |\n| `CPA` | Cost Per Acquisition |\n| `ROAS` | Return On Ad Spend |\n| `CVR` | Conversion Rate |\n\n---\n\nWould you like a specific ad format like **Google Ads**, **Facebook Ads**, **OpenRTB**, or a custom structure? \ud83d\ude0a",
+  "response_word_count": 496,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

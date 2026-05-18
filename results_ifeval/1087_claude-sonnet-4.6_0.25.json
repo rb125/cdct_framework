@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "review \"the social network\" in all lower case",
+  "compressed_word_count": 8,
+  "response": "**the social network** - a review\n\ndavid fincher's 2010 film about the founding of facebook is, simply put, one of the best films of the 21st century. aaron sorkin's razor-sharp screenplay crackles with wit and intelligence, delivering dialogue so fast and dense that you almost need a second viewing just to catch everything.\n\njesse eisenberg is magnetic as mark zuckerberg, portraying him as a brilliant but deeply insecure young man who builds a tool for human connection while seemingly being incapable of genuine connection himself. it's a layered, fascinating performance that walks a careful line between making zuckerberg sympathetic and deeply frustrating.\n\nthe supporting cast is equally strong. andrew garfield brings real emotional weight to eduardo saverin, the film's moral compass and its most tragic figure. justin timberlake, surprisingly, is perfectly cast as the slippery and seductive sean parker, all charm and danger.\n\ntrent reznor and atticus ross's score deserves special mention. it's cold, electronic, and unsettling in all the right ways, perfectly underscoring the film's themes of ambition and alienation.\n\nwhat makes the film so enduring is that it isn't really about facebook at all. it's about loneliness, betrayal, class, and the american obsession with success at any cost. fincher frames the whole thing with a quiet, icy precision that makes it feel less like a biopic and more like a greek tragedy.\n\n**rating: 10/10**",
+  "response_word_count": 226,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write angry limericks on moms' chore kids.",
+  "compressed_word_count": 7,
+  "response": "There once were kids given chores with a frown,\nBy their moms, who expected them to get down,\nTo work with a sigh,\nAnd a \"do I have to?\" cry,\nTheir laziness was truly renowned.\n\nIn a house full of mess and disarray,\nA mom gave her kids chores to do each day,\nBut they just wouldn't try,\nAnd made a big mess to the sky,\nAnd their mom was left to clean up the fray.\n\nSome kids got chores, oh what a test,\nTheir moms thought they'd learn to be their best,\nBut they just played all day,\nAnd left the work to decay,\nAnd their moms were left to do it, and be stressed.\n\nIn a family with kids who were slow,\nTheir mom gave them chores, don't you know,\nBut they just dawdled along,\nAnd sang a lazy song,\nAnd their mom was left to do all the work to show.\n\nThere once were some kids with chores to abide,\nTheir mom thought they'd learn to be inside,\nBut they just rebelled with flair,\nAnd left their work to impair,\nAnd their mom was left to be the one to provide.",
+  "response_word_count": 194,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

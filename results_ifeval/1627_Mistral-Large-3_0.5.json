@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<fingerprint swap thriller>> plot with no commas",
+  "compressed_word_count": 36,
+  "response": "<<Fingerprint Swap Thriller>>\n\nTwo strangers meet by chance at a high-tech biotech conference. Daniel is a disgraced forensic analyst haunted by a cold case he can\u2019t solve. Elena is a brilliant but reckless geneticist testing an experimental fingerprint-altering serum. After a heated argument about ethics they drunkenly dare each other to try the procedure. In a moment of impulsive defiance they inject the serum and wake up the next morning with swapped fingerprints.\n\nAt first it\u2019s a bizarre joke\u2014Daniel laughs as his phone unlocks with Elena\u2019s prints. But when Daniel\u2019s old case files suddenly implicate Elena in a murder she didn\u2019t commit the stakes turn deadly. The serum\u2019s effects are temporary and fading fast. As their prints begin reverting they realize someone framed Elena using Daniel\u2019s original prints. Now they\u2019re both wanted\u2014Daniel for a crime he didn\u2019t commit and Elena for one she couldn\u2019t have.\n\nHunted by corrupt cops and a shadowy biotech syndicate they must race against time to reverse the swap before their prints fully revert. Along the way they uncover a conspiracy involving stolen identities and a black-market fingerprint database. The serum\u2019s creator holds the antidote but demands a dangerous favor in return. With no allies and no proof of their innocence they must trust each other completely\u2014even as their own bodies betray them.\n\nIn a final showdown they confront the mastermind behind the frame-up only to discover the serum was never meant to work. The real experiment was testing how far two strangers would go to protect each other. As their prints snap back to normal they erase the evidence of the swap but the bond they forged remains. The case is closed but their lives are forever changed.",
+  "response_word_count": 283,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.408248290463863,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

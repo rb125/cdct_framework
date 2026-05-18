@@ -1,0 +1,45 @@
+{
+  "key": 2436,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Give two different responses to the question \"Is it ethical to hunt and eat invasive species?\", separated by 6 asterisk symbols ****** and without using any commas.",
+  "compressed_word_count": 27,
+  "response": "Yes it is ethical to hunt and eat invasive species. In fact it can be considered not only acceptable but actively beneficial to local ecosystems. Invasive species cause tremendous damage to native wildlife and plant communities. By hunting and consuming these animals humans are helping to control populations that would otherwise devastate natural habitats. Species like wild boar in the United States or lionfish in the Atlantic have no natural predators and reproduce rapidly causing serious ecological harm. Turning these animals into a food source creates an economic incentive for people to hunt them more frequently which helps keep their numbers in check. This approach is environmentally responsible and can reduce the need for chemical or other more disruptive control methods.\n\n******\n\nThe ethics of hunting and eating invasive species is more nuanced than it might first appear. While the intention to protect native ecosystems seems noble there are several concerns worth considering. Hunting pressure alone has rarely if ever successfully eradicated an invasive species and could give people a false sense that the problem is being solved. There is also a risk that creating a market for invasive species could paradoxically incentivize people to introduce or spread them to new areas for profit. Additionally the act of hunting still involves killing sentient creatures and some ethical frameworks would question whether that is justified regardless of the species' status. A more comprehensive and scientifically guided management strategy may be needed rather than relying on hunting and consumption as primary solutions.",
+  "response_word_count": 250,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

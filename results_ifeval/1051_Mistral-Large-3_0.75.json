@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "compose a lowercase letter to a friend, urging them to vote, no commas or informal tone.",
+  "compressed_word_count": 16,
+  "response": "hey friend\n\ni know voting feels like a hassle but it really does matter. every single vote adds up and makes a difference especially in local elections where things can swing on just a few hundred votes. you might think your voice doesn\u2019t count but that\u2019s exactly what people in power want you to think.\n\nif you don\u2019t vote someone else will decide for you. and chances are they won\u2019t care about the things you do. so take 20 minutes out of your day to show up and make sure your voice is heard. it\u2019s the least we can do for ourselves and for each other.\n\ni\u2019m voting because i want to live in a world where people like us have a say. don\u2019t let anyone tell you it\u2019s not worth it. it is.\n\nlet me know if you need a ride or anything. just don\u2019t skip it okay?",
+  "response_word_count": 149,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

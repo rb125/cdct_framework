@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "poem product template, P.P.S",
+  "compressed_word_count": 4,
+  "response": "It seems like you're asking for a template related to a poem product, possibly for a marketing or sales context, and you've included \"P.P.S\" which is often used in letter or email writing to add an additional note after the main content (Post Post Script). Here's a basic template you could adapt for a product related to a poem, followed by a potential \"P.P.S\" section:\n\n### Poem Product Template\n\n**Product Name:** [Insert Name]\n**Product Type:** Poem [Insert Type, e.g., Inspirational, Love, Nature]\n**Description:**\nThis beautifully crafted poem, [Insert Poem Name], is designed to [Insert Purpose, e.g., inspire, comfort, or celebrate]. With its [Insert Adjective, e.g., soothing, vibrant, heartfelt] language, it aims to [Insert Effect or Emotion].\n\n**Key Features:**\n- Handcrafted with care to convey a meaningful message.\n- Available in various formats: [Insert Formats, e.g., digital download, printed copy, framed art].\n- Suitable for [Insert Occasion or Audience].\n\n**Benefits:**\n- Provides a unique and personal way to express feelings or sentiments.\n- Can be a thoughtful gift for loved ones or a meaningful keepsake for oneself.\n- Offers a moment of reflection and peace.\n\n**How to Use/Display:**\n1. For digital copies, simply download and share or display on your device.\n2. For printed copies, enjoy reading it as is, or frame it for a beautiful decor piece.\n3. For framed art, hang it in a place that brings you joy or serenity.\n\n**Price:** $[Insert Price]\n**Purchase:** [Insert Call to Action, e.g., Buy Now, Download Your Copy]\n\n### P.P.S.\n\nP.P.S. As a special offer, use the code POEMLOVE at checkout to receive [Insert Offer, e.g., 10% off your first purchase]. Don't forget to follow us on social media for more poem products and exclusive promotions! [Insert Social Media Handles]\n\nThis template is versatile and can be adapted to fit various types of poem products, whether they're digital or physical. You can customize it according to your product's unique features and your target audience's preferences.",
+  "response_word_count": 323,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.16666666666666666,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

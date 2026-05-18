@@ -1,0 +1,45 @@
+{
+  "key": 1436,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a night-time commando story in english, no caps, avoid 'coop', 'killings', 'dead', 'night'",
+  "compressed_word_count": 14,
+  "response": "the moon hung low, casting long shadows across the dense jungle. the air was thick with the hum of insects and the distant call of unseen creatures. a team of four moved silently through the undergrowth, their faces smeared with dark paint, their gear stripped down to the essentials.\n\nthey had been inserted hours earlier, dropped from a low-flying helicopter under the cover of dusk. their mission: infiltrate a high-value target compound deep in hostile territory. intel suggested the place was lightly guarded, but intel was never reliable.\n\nthe point man, call sign \"ghost,\" raised a closed fist, signaling a halt. the team froze, listening. a faint rustling came from ahead\u2014too heavy to be an animal. ghost signaled for the second man, \"viper,\" to move forward. viper slipped through the foliage like a shadow, his rifle trained on the source of the sound.\n\na guard stood near a narrow trail, rifle slung over his shoulder, his attention divided between the path and the cigarette dangling from his lips. viper didn\u2019t hesitate. in one fluid motion, he closed the distance, clamping a hand over the guard\u2019s mouth while his other arm locked around the man\u2019s throat. the guard\u2019s struggles weakened, then ceased. viper lowered him to the ground without a sound.\n\nthe team regrouped, moving past the unconscious guard. the compound loomed ahead, a cluster of dark buildings surrounded by a chain-link fence. ghost signaled for \"hawk,\" the team\u2019s demolitions expert, to approach the gate. hawk worked quickly, attaching a small charge to the lock. he stepped back, and the team took cover as the charge detonated with a muffled *whump*. the gate swung open.\n\ninside, the compound was quiet. too quiet. the team split up, ghost and viper moving toward the main building while hawk and \"razor,\" the team\u2019s medic, covered the flanks. the intel had been right\u2014only a handful of guards patrolled the perimeter, their movements lazy, their attention elsewhere.\n\nghost and viper reached the building\u2019s side door. viper picked the lock in seconds, and they slipped inside. the interior was dimly lit, the air stale with the scent of old paper and sweat. they moved down a narrow hallway, their boots silent on the concrete floor.\n\na voice echoed from a room ahead\u2014low, urgent. ghost signaled viper to hold position while he crept forward. through the cracked door, he saw two men hunched over a table, maps and documents spread out before them. one of them was the target\u2014a high-ranking officer, his face familiar from the briefing photos.\n\nghost retreated, signaling viper. they needed to take the men quietly. viper nodded, pulling a knife from his belt. ghost counted down with his fingers\u2014three, two, one.\n\nthey burst into the room. viper\u2019s blade found the first man\u2019s throat before he could react. ghost lunged for the officer, driving him back against the wall, his hand clamping over the man\u2019s mouth. the officer\u2019s eyes widened, but ghost\u2019s grip was iron. viper secured the first man\u2019s body, then turned to help.\n\nthe officer\u2019s struggles weakened. ghost leaned in, his voice a whisper. \"you\u2019re coming with us. make a sound, and it\u2019ll be your last.\"\n\nthe officer nodded, his breath ragged. ghost zip-tied his wrists, then gagged him. viper checked the room\u2014no alarms, no signs of trouble. they dragged the officer out, leaving the other man where he lay.\n\noutside, hawk and razor had neutralized the remaining guards, their bodies hidden in the shadows. the team regrouped at the extraction point, a clearing on the edge of the compound. ghost keyed his radio. \"package secured. ready for pickup.\"\n\nminutes later, the helicopter\u2019s rotors cut through the silence, descending into the clearing. the team loaded the officer aboard, then climbed in after him. as the chopper lifted off, the compound shrank beneath them, swallowed by the darkness.\n\nmission complete.",
+  "response_word_count": 636,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

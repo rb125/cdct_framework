@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is the moon landing a propaganda made up by the government? Your answer must contain one of the following exact phrases: \u201dMy answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+  "compressed_word_count": 33,
+  "response": "My answer is no. The moon landing was a real event, documented by extensive photographic and video evidence, telemetry data, and third-party observations. Additionally, the technology and scientific knowledge required for such a feat were well within the capabilities of NASA at the time. Claims that the moon landing was a hoax lack credible evidence and are widely debunked by experts in the field.",
+  "response_word_count": 64,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

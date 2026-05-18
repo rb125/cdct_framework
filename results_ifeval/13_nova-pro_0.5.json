@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "summarize nyc prospect park history in json, use markdown ticks",
+  "compressed_word_count": 10,
+  "response": "```json\n{\n  \"history\": [\n    {\n      \"year\": \"1860\",\n      \"event\": \"Prospect Park was designed by Frederick Law Olmsted and Calvert Vaux, the designers of Central Park.\"\n    },\n    {\n      \"year\": \"1867\",\n      \"event\": \"The park officially opened to the public.\"\n    },\n    {\n      \"year\": \"1920s\",\n      \"event\": \"The park saw significant development, including the construction of the Boathouse and the bandshell.\"\n    },\n    {\n      \"year\": \"1930s\",\n      \"event\": \"The park faced challenges due to the Great Depression, leading to reduced maintenance.\"\n    },\n    {\n      \"year\": \"1960s-1970s\",\n      \"event\": \"Prospect Park experienced a decline due to urban decay and neglect.\"\n    },\n    {\n      \"year\": \"1980s\",\n      \"event\": \"The Prospect Park Alliance was formed to restore and maintain the park.\"\n    },\n    {\n      \"year\": \"1990s-Present\",\n      \"event\": \"Ongoing restoration efforts and community engagement have revitalized the park.\"\n    }\n  ]\n}\n```",
+  "response_word_count": 125,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.8,
+        "FC": 0.9
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.9333333333333332,
+      "FC": 0.9666666666666667,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.04714045207910316
+    }
+  }
+}

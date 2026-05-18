@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "explain john of brienne's rise to king of jerusalem in lowercase, zen style, with 3 markdown bullets: * his claim * key events * final ascension",
+  "compressed_word_count": 26,
+  "response": "- *his claim*\n  a knight with no bloodline, just dust on his boots.\n  jerusalem\u2019s crown hung loose, waiting for a hand\u2014any hand\u2014to steady it.\n  he arrived not as heir, but as shadow cast by fading light.\n\n- *key events*\n  maria of montferrat, queen in name, whispered his name to the throne.\n  the barons, weary of ghosts, nodded\u2014better a living sword than a dead legend.\n  at acre, they crowned him not with gold, but with the weight of a kingdom\u2019s breath.\n\n- *final ascension*\n  the city slept, unaware.\n  one dawn, he stood where kings had fallen, not by right, but by the quiet will of those who needed a king.\n  jerusalem did not ask for blood\u2014only a pulse. he gave it.",
+  "response_word_count": 120,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

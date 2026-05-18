@@ -1,0 +1,43 @@
+{
+  "key": 1075,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Can you help me make an advertisement for a new product? It's a diaper that's designed to be more comfortable for babies and I want the entire output in JSON format.",
+  "compressed_word_count": 31,
+  "response": "Here's a sample JSON advertisement for your new diaper product:\n\n```json\n{\n  \"productName\": \"ComfortCradle Diapers\",\n  \"tagline\": \"Wrap your baby in comfort and care\",\n  \"description\": \"Introducing ComfortCradle Diapers, designed to provide the ultimate comfort for your little one. Our diapers feature a soft, breathable material and a flexible design that moves with your baby, ensuring a comfortable fit all day long.\",\n  \"keyFeatures\": [\n    \"Soft and breathable material for gentle skin contact\",\n    \"Flexible design for a comfortable fit\",\n    \"Advanced leak protection for worry-free parenting\",\n    \"Wetness indicator for easy diaper changes\"\n  ],\n  \"benefits\": [\n    \"Reduces the risk of diaper rash and irritation\",\n    \"Provides long-lasting comfort and dryness\",\n    \"Makes diaper changes easier and more efficient\"\n  ],\n  \"targetAudience\": \"Parents and caregivers of infants and toddlers\",\n  \"callToAction\": \"Try ComfortCradle Diapers today and give your baby the gift of comfort!\",\n  \"specialOffer\": {\n    \"discount\": \"10% off first purchase\",\n    \"promoCode\": \"COMFORT10\"\n  },\n  \"visuals\": {\n    \"imageUrl\": \"https://example.com/comfortcradle-diaper.jpg\",\n    \"videoUrl\": \"https://example.com/comfortcradle-diaper-video.mp4\"\n  },\n  \"testimonials\": [\n    {\n      \"quote\": \"ComfortCradle Diapers have been a game-changer for my baby's sensitive skin.\",\n      \"name\": \"Sarah P.\",\n      \"rating\": 5\n    },\n    {\n      \"quote\": \"I love how comfortable and secure these diapers are. My baby is happy and so am I!\",\n      \"name\": \"Emily G.\",\n      \"rating\": 5\n    }\n  ]\n}\n```\n\nThis JSON object includes the following information:\n\n* Product name and tagline\n* Product description and key features\n* Benefits of using the product\n* Target audience and call to action\n* Special offer or promotion\n* Visuals (image and video URLs)\n* Testimonials from satisfied customers\n\nYou can customize this template to fit your specific needs and branding.",
+  "response_word_count": 258,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1746,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Draft essay on Benjamin Franklin; condense into poem. Separate with 6 asterisks: ******\n******",
+  "compressed_word_count": 14,
+  "response": "Here's a draft essay on Benjamin Franklin condensed into a poem, followed by the separation line:\n\nIn the realm of science, a name shines bright,\nBenjamin Franklin, a polymath in sight.\nWith kite and key, he unlocked the air,\nAnd harnessed lightning, beyond compare.\n\nHis curiosity and wit, a perfect blend,\nLed to inventions, that would forever transcend.\nThe lightning rod, a safeguard true,\nProtected homes, and lives anew.\n\nA statesman, diplomat, and writer too,\nFranklin's contributions, forever shine through.\nIn the Declaration, his signature bold,\nA testament to freedom, young and old.\n\nWith wit and humor, he penned the way,\nFor Poor Richard's Almanack, a yearly sway.\nHis aphorisms, a treasure to share,\nWisdom and wit, beyond compare.\n\n******\n******",
+  "response_word_count": 121,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

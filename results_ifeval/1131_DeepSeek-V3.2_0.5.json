@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Draft 4-section resume for clown Phil Larkin, label each section X.",
+  "compressed_word_count": 11,
+  "response": "**X. Professional Profile**\nA dedicated and seasoned clown with over 15 years of experience spreading joy, laughter, and controlled chaos. Expert in balloon artistry, slapstick comedy, and interactive crowd engagement. Committed to creating unforgettable, whimsical experiences for audiences of all ages, from intimate birthday parties to large-scale circus spectacles.\n\n**X. Performance Highlights**\n*   Headlined the \"Gigglefest Family Fun Carnival\" for five consecutive seasons, performing for audiences of 500+.\n*   Developed and performed a silent, melancholic clown character (\"Ludo\") for avant-garde theater productions, receiving critical acclaim in *The Circus Arts Review*.\n*   Consistently maintain a 5-star customer rating across party planning platforms for reliability, creativity, and exceptional child engagement.\n\n**X. Core Comedic Skills**\n*   **Physical Comedy:** Mastery of pratfalls, juggling (up to 5 objects), unicycling, and expressive pantomime.\n*   **Balloon Artistry:** Proficient in crafting complex sculptures (animals, swords, hats) under time pressure.\n*   **Audience Interaction:** Skilled at reading crowd energy, volunteer selection, and managing shy or exuberant children.\n*   **Prop & Gag Execution:** Expertise in classic clown gags (seltzer bottle, confetti bouquet, collapsing cane) with personalized twists.\n*   **Musical Buffoonery:** Basic accordion and ukulele for comedic musical accompaniment.\n\n**X. Training & Affiliations**\n*   Graduate, The Clown Conservatory of Paris (\u00c9cole de Clown de Paris), Intensive Physical Theater Program.\n*   Certified in First Aid & CPR (Pediatric and Adult).\n*   Active Member, World Clown Association (WCA), adhering to its code of ethics.\n*   Regular Workshop Attendee: Clown Therapy, Advanced Juggling Patterns, and Circus Safety Protocols.",
+  "response_word_count": 243,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

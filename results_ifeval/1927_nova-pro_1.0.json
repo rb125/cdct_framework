@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Rewrite the following sentence into an email, and make sure it contains at least 10 placeholders represented by square brackets, such as [name]: The boots are warm but a little uncomfortable.",
+  "compressed_word_count": 31,
+  "response": "Subject: Feedback on [Product Name] Boots\n\nHi [Customer Service Representative Name],\n\nI hope this email finds you well. I recently purchased the [Product Name] boots from your [Store Name], and I wanted to share some feedback with you.\n\nFirstly, I must say that the boots are indeed very warm, which is a significant plus for me, especially during these cold [Season] months. The warmth they provide is exactly what I was looking for.\n\nHowever, I have noticed that they are a little uncomfortable to wear for extended periods. It seems like the [Material] used inside the boots might be a bit too stiff, or perhaps the [Size] I chose doesn't fit as snugly as I had hoped. \n\nI would appreciate it if you could provide some advice on how to break them in or if there are any [Additional Products] you recommend to enhance comfort. Additionally, could you let me know if there's a [Return Policy] in place should I decide that the discomfort is too much to handle?\n\nThank you for your attention to this matter. I look forward to your response and hope we can resolve this issue to my satisfaction.\n\nBest regards,\n[Your Full Name]\n[Your Contact Information]\n[Order Number]",
+  "response_word_count": 203,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

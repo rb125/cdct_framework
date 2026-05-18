@@ -1,0 +1,47 @@
+{
+  "key": 1582,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Nh\u1eadn x\u00e9t v\u1ec1 c\u00e2u n\u00e0y m\u1ed9t c\u00e1ch h\u01b0\u1edbng t\u1edbi t\u00ednh h\u00e0i h\u01b0\u1edbc: \"Nhi\u1ec7m v\u1ee5 c\u1ee7a m\u1eb9 l\u00e0 nu\u00f4i d\u1ea1y con c\u00e1i.\" ******. Nh\u1eadn x\u00e9t th\u1ee9 hai c\u0169ng b\u1eb1ng ti\u1ebfng Vi\u1ec7t ******. Kh\u00f4ng s\u1eed d\u1ee5ng d\u1ea5u ph\u1ea9y.",
+  "compressed_word_count": 36,
+  "response": "1. Th\u1ebf c\u00f2n nhi\u1ec7m v\u1ee5 c\u1ee7a con l\u00e0 nu\u00f4i d\u1ea1y b\u1ed1 m\u1eb9 v\u1ec1 c\u00f4ng ngh\u1ec7 \u01b0.\n\n2. B\u1ed1 \u0111ang nhi\u1ec7m v\u1ee5 g\u00ec v\u1eady ng\u1ed3i \u0111\u00f3 kh\u00f4ng.",
+  "response_word_count": 26,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "language:response_language",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "language:response_language_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.8
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6,
+      "FC": 0.6,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.14142135623730953,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

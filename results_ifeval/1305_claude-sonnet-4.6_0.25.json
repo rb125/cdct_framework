@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "List 10 baby boy names; P.P.S postscript.",
+  "compressed_word_count": 7,
+  "response": "Here are 10 baby boy names, each with a **P.P.S. (postscript note)**:\n\n1. **Liam** \u2013 P.P.S. Currently one of the most popular names worldwide.\n2. **Noah** \u2013 P.P.S. Of Hebrew origin, meaning \"rest\" or \"comfort.\"\n3. **Elijah** \u2013 P.P.S. A strong biblical name with timeless appeal.\n4. **Oliver** \u2013 P.P.S. Of Latin origin, meaning \"olive tree.\"\n5. **James** \u2013 P.P.S. A classic royal name used across many cultures.\n6. **Benjamin** \u2013 P.P.S. Often shortened to the friendly nickname \"Ben.\"\n7. **Lucas** \u2013 P.P.S. Of Greek and Latin origin, meaning \"light.\"\n8. **Henry** \u2013 P.P.S. A regal name carried by many kings throughout history.\n9. **Alexander** \u2013 P.P.S. Meaning \"defender of the people\" in Greek.\n10. **Sebastian** \u2013 P.P.S. A sophisticated name with Latin and Greek roots.",
+  "response_word_count": 126,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

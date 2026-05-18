@@ -1,0 +1,45 @@
+{
+  "key": 1012,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "Resignation email <<title>>",
+  "compressed_word_count": 3,
+  "response": "Here\u2019s a professional and polite resignation email template you can customize based on your situation. Choose a subject line that fits your tone (formal, neutral, or friendly):\n\n---\n\n### **Subject Line Options:**\n1. **Formal:** *Resignation \u2013 [Your Full Name]*\n2. **Neutral:** *Notice of Resignation*\n3. **Friendly:** *Moving On \u2013 Thank You for the Opportunity*\n\n---\n\n### **Email Body:**\n**Option 1: Standard Resignation (2-Week Notice)**\n*Subject:* Resignation \u2013 [Your Full Name]\n\nDear [Manager's Name],\n\nPlease accept this email as formal notice of my resignation from my position as [Your Job Title] at [Company Name], effective [last working day, typically 2 weeks from the date].\n\nThis decision was not an easy one, but I\u2019ve accepted an opportunity that aligns with my long-term career goals. I\u2019m deeply grateful for the support, mentorship, and opportunities I\u2019ve had during my time here. Working with you and the team has been a rewarding experience, and I\u2019ve learned so much.\n\nI\u2019m committed to ensuring a smooth transition and will do everything possible to wrap up my duties or assist in training a replacement. Please let me know how I can best support the team during this period.\n\nThank you again for the opportunity. I hope to stay in touch and wish [Company Name] continued success.\n\nBest regards,\n[Your Full Name]\n[Your Contact Information]\n\n---\n\n**Option 2: Short & Direct (If Needed)**\n*Subject:* Resignation Notice\n\nHi [Manager's Name],\n\nI\u2019m writing to formally resign from my role as [Job Title], with my last day being [date]. Thank you for the opportunity to be part of [Company Name]\u2014I\u2019ve truly valued my time here.\n\nPlease let me know how I can help with the transition. I\u2019m happy to assist in any way possible.\n\nBest,\n[Your Name]\n\n---\n\n**Option 3: Grateful & Personal (If You Have a Close Relationship)**\n*Subject:* Thank You and Goodbye\n\nHi [Manager's Name],\n\nAfter careful consideration, I\u2019ve decided to move on from [Company Name]. My last day will be [date]. This wasn\u2019t an easy decision, as I\u2019ve loved working with you and the team, but I\u2019m pursuing a new path that feels right for me at this stage.\n\nI can\u2019t thank you enough for your guidance, trust, and the incredible experiences I\u2019ve had here. I\u2019ll miss everyone, but I\u2019m excited for what\u2019s next. Let me know how I can make the transition as seamless as possible.\n\nLooking forward to staying in touch!\n\nWarm regards,\n[Your Name]\n\n---\n\n### **Key Tips:**\n1. **Keep it professional** \u2013 Even if you\u2019re leaving on less-than-ideal terms, avoid negativity.\n2. **Offer transition help** \u2013 Shows professionalism and leaves a positive impression.\n3. **Personalize** \u2013 Add a line about what you appreciated most (e.g., \"I\u2019ll miss our brainstorming sessions\").\n4. **Proofread** \u2013 Double-check for typos or tone.\n\nWould you like help tailoring this further based on your industry or reason for leaving?",
+  "response_word_count": 468,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

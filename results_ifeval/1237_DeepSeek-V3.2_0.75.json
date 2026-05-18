@@ -1,0 +1,45 @@
+{
+  "key": 1237,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft a humorous teen post for 'Buena Onda' restaurant, focusing on its Argentinian cuisine. Use markdown to *highlight* key sections. Include 'Argentinian' in the post.",
+  "compressed_word_count": 25,
+  "response": "**OMG. My taste buds just got their passport stamped. \ud83c\udde6\ud83c\uddf7**\n\nSo my parents dragged me to this place called *Buena Onda* for a \"family dinner\" (ugh, I know). I was fully prepared to survive on bread while they had a boring adult time.\n\n**I WAS SO WRONG.**\n\nLet me break down this **Argentinian** miracle:\n\n*   ***The Empanadas:*** Forget what you know. These are little crispy, flaky pockets of joy. I got the **carne** (spicy beef) and almost fought my dad for the last one. #NoRegrets.\n*   ***The Main Event:*** They have this thing called **CHORIP\u00c1N**. It's a *grilled chorizo sausage* in this amazing bread, with chimichurri sauce. It\u2019s messy, it\u2019s ridiculous, and it\u2019s literally all I will ever want to eat again. **10/10, would drip sauce on my shirt again.**\n*   ***The Vibe:*** Actually\u2026 *Buena Onda*. The music is cool, the walls are colorful, and the servers are nice even when you ask how to pronounce \"llanero\" (it\u2019s *sha-ne-ro*, btw, you\u2019re welcome).\n\nSo yeah, my parents \"dragged\" me to the best meal I've had in months. **The ultimate plot twist.**\n\n**Pro Tip:** Go with people who are cool with sharing. Or don't. Actually, maybe go alone. More chorip\u00e1n for you.\n\n**#BuenaOnda #ArgentinianFoodIsElite #Chorip\u00e1nFanAccount #SorryNotSorry #FoodBabyAchieved**\n\n\ud83d\udccd Buena Onda - You'll find me in the corner, happily covered in chimichurri.",
+  "response_word_count": 219,
+  "instruction_id_list": [
+    "detectable_format:number_highlighted_sections",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_highlighted_sections_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

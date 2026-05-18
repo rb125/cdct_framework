@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft email to introduce luheng to lilith album; p.s. add brief note",
+  "compressed_word_count": 12,
+  "response": "Here's a draft email:\n\nSubject: Introducing Luheng to Lilith Album\n\nDear Luheng,\n\nI wanted to take a moment to introduce you to the Lilith album, a project that I think you'll find fascinating. The Lilith album is [briefly describe the album and its significance].\n\nI've taken the liberty of attaching some information about the album for your review. I'd be more than happy to discuss it further with you and answer any questions you may have.\n\nBest regards,\n[Your Name]\n\nP.S. Please let me know if you're available to discuss this further over a call next week. I'd love to schedule a time that works for you.\n\nAlternatively, here's a more formal version:\n\nSubject: Introduction to Lilith Album\n\nDear Luheng,\n\nI am writing to introduce you to the Lilith album, a comprehensive collection of [describe the content and significance of the album]. I believe that your work/expertise would greatly benefit from an understanding of this project.\n\nI have attached a brief overview of the album for your reference. Should you have any questions or wish to discuss this further, please do not hesitate to contact me.\n\nBest regards,\n[Your Name]\n\nP.S. I've included a few key highlights about the album in the attachment; please take a look when you have a moment.\n\nLet me know if you'd like me to adjust anything!",
+  "response_word_count": 222,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.7,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 0.7333333333333334,
+      "FC": 0.7333333333333334,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

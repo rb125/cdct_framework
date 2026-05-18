@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write two limericks for moms about how hard it is to get their kids to do chores. Be angry about it. Separate your two limericks with six asterisks (******).",
+  "compressed_word_count": 29,
+  "response": "A mother from Boston named Claire\nHad a child who would just sit and stare.\nWhen asked, \"Take the trash!\"\nHe'd reply, \"In a flash!\"\nThen he'd vanish and leave it right there.\n\n******\n\nA mom in Seattle named Sue\nShouted, \"Clean up this pigsty, please do!\"\nBut her teen gave a sigh,\nRolled a scornful eye,\nAnd just muttered, \"Yeah, maybe. I'm through.\"",
+  "response_word_count": 64,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

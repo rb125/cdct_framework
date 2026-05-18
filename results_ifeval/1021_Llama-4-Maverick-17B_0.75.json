@@ -1,0 +1,45 @@
+{
+  "key": 1021,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Critique sentence 'if the law is bad, you should not follow it' in two paragraphs, label each paragraph I and paragraph ii, no lowercase.",
+  "compressed_word_count": 24,
+  "response": "I. THE SENTENCE 'IF THE LAW IS BAD, YOU SHOULD NOT FOLLOW IT' OVERSIMPLIFIES THE COMPLEXITY OF LEGAL OBLIGATIONS AND SOCIAL RESPONSIBILITIES. IN MANY JURISDICTIONS, CITIZENS ARE EXPECTED TO FOLLOW THE LAW EVEN IF THEY DISAGREE WITH IT, WITH THE UNDERSTANDING THAT THERE ARE ESTABLISHED PROCESSES FOR CHANGING OR REPEALING LAWS. THIS SENTENCE FAILS TO ACKNOWLEDGE THESE PROCESSES AND THE IMPORTANCE OF RESPECTING THE RULE OF LAW, EVEN WHEN ONE DISAGREES WITH SPECIFIC LEGISLATION.\n\nII. FURTHERMORE, THE SENTENCE DOES NOT PROVIDE A CLEAR DEFINITION OF WHAT CONSTITUTES A 'BAD' LAW, LEAVING IT OPEN TO SUBJECTIVE INTERPRETATION. DIFFERENT PEOPLE MAY HAVE VASTLY DIFFERING OPINIONS ON THE SAME LAW, LEADING TO POTENTIAL CHAOS AND INCONSISTENCY IN ITS APPLICATION. A MORE CONSTRUCTIVE APPROACH MIGHT BE TO ENCOURAGE CITIZENS TO ENGAGE IN ACTIVITIES SUCH AS ADVOCACY, PROTEST, OR SEEKING LEGAL REFORM, RATHER THAN SIMPLY DISREGARDING LAWS THEY DISAGREE WITH.",
+  "response_word_count": 145,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "detectable_format:multiple_sections_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

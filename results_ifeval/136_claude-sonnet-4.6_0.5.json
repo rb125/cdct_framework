@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "* nucleus: protons + neutrons cluster\n* proton: positively charged particle\n* neutron: neutral particle\n* nucleus role: atomic stability\n* proton count: defines element\n* isotopes: same protons, diff neutrons\n* binding force: strong nuclear force\n* nucleus size: tiny, dense core\n* nucleus energy: high density\n* element identity: proton number",
+  "compressed_word_count": 53,
+  "response": "# Atomic Nucleus: Core Concepts\n\n## Structure\n- **Protons** (positive charge) + **Neutrons** (neutral) bound tightly together\n- Held by the **strong nuclear force** \u2014 overcomes proton repulsion\n- Extremely **small and dense** relative to the whole atom\n\n## Key Functions\n\n| Feature | What It Determines |\n|---|---|\n| Proton count | **Element identity** (e.g., 6 protons = always Carbon) |\n| Neutron count | **Isotope variation** (same element, different mass) |\n| Binding energy | **Atomic stability** |\n\n## Critical Distinctions\n\n**Proton number = Element identity**\n> Change protons \u2192 different element entirely\n\n**Neutron number = Flexible**\n> Same element can have multiple isotope forms\n\n## Why the Nucleus Matters\n- Contains **nearly all atomic mass**\n- Stores **enormous energy density**\n- Nuclear reactions (fission/fusion) exploit **binding force differences**\n\n---\n\n**Core idea:** The nucleus is a tiny, dense, high-energy core whose proton count defines *what* an element is, while neutron count defines *which version* of that element exists.",
+  "response_word_count": 160,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

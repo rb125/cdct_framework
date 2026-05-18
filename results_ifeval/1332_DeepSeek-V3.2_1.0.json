@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Create a table with a 7 day trip itinerary for India, and a 7 day trip itinerary for China. Separate them with exactly 6 asterisks symbols: *******",
+  "compressed_word_count": 27,
+  "response": "**India 7-Day Trip Itinerary: The Golden Triangle & Ranthambore**\n\n| Day | City/Region | Highlights & Activities |\n| :--- | :--- | :--- |\n| **1** | **Delhi (Arrival)** | Arrive in Delhi. Visit Humayun's Tomb, Qutub Minar. Evening light and sound show at Red Fort. |\n| **2** | **Delhi** | Morning at Raj Ghat. Explore Jama Masjid, Chandni Chowk market. Afternoon at India Gate & Rashtrapati Bhavan exterior. |\n| **3** | **Agra** | Drive/train to Agra. Visit the iconic Taj Mahal at sunrise. Explore Agra Fort and Mehtab Bagh. |\n| **4** | **Ranthambore** | Travel to Ranthambore. Afternoon safari in Ranthambore National Park (tiger spotting). |\n| **5** | **Jaipur** | Morning safari. Drive to Jaipur. Visit Hawa Mahal and explore local markets in the evening. |\n| **6** | **Jaipur** | Morning visit to Amber Fort (elephant ride optional). See Jantar Mantar and City Palace. |\n| **7** | **Jaipur to Delhi (Departure)** | Visit Jal Mahal (Water Palace). Return to Delhi for departure flight. |\n\n*******\n\n**China 7-Day Trip Itinerary: Classic Highlights**\n\n| Day | City/Region | Highlights & Activities |\n| :--- | :--- | :--- |\n| **1** | **Beijing (Arrival)** | Arrive in Beijing. Visit Tiananmen Square, explore the hutongs (traditional alleys) near Houhai. |\n| **2** | **Beijing** | Full day at the Mutianyu section of the Great Wall (less crowded). Evening Peking Duck dinner. |\n| **3** | **Beijing** | Morning at the Forbidden City. Afternoon at the Temple of Heaven. Enjoy a Chinese acrobatics show. |\n| **4** | **Xi'an** | Fly/take high-speed train to Xi'an. Visit the ancient City Walls and Bell Tower. Explore Muslim Quarter. |\n| **5** | **Xi'an** | Full day for the Terracotta Warriors Museum. See the Big Wild Goose Pagoda and fountain show. |\n| **6** | **Shanghai** | Fly/take high-speed train to Shanghai. Visit the Yu Garden & Bazaar. Walk along the Bund. |\n| **7** | **Shanghai (Departure)** | Visit the Shanghai Museum or Tianzifang arts district. Ascend Shanghai Tower for views. Departure from Pudong Airport. |",
+  "response_word_count": 348,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Create a table with a 7 day trip itinerary for India, and a 7 day trip itinerary for China. Separate them with exactly 6 asterisks symbols: *******",
+  "compressed_word_count": 27,
+  "response": "Here is a 7-day trip itinerary for India, followed by a 7-day trip itinerary for China:\n\n| Day | India Itinerary |\n|-----|----------------|\n| Day 1 | Arrive in Delhi, visit the Red Fort and Jama Masjid |\n| Day 2 | Explore Qutub Minar, Humayun's Tomb, and India Gate |\n| Day 3 | Travel to Agra, visit the Taj Mahal and Agra Fort |\n| Day 4 | Head to Jaipur, explore the Amber Fort and City Palace |\n| Day 5 | Visit Hawa Mahal, Jantar Mantar, and local bazaars in Jaipur |\n| Day 6 | Travel to Mumbai, visit the Gateway of India and Marine Drive |\n| Day 7 | Explore Elephanta Caves, Chhatrapati Shivaji Terminus, and depart |\n\n******\n\n| Day | China Itinerary |\n|-----|----------------|\n| Day 1 | Arrive in Beijing, visit Tiananmen Square and the Forbidden City |\n| Day 2 | Explore the Great Wall of China at Mutianyu |\n| Day 3 | Visit the Temple of Heaven and the Summer Palace |\n| Day 4 | Travel to Xi'an, see the Terracotta Army |\n| Day 5 | Explore the Ancient City Wall and Muslim Quarter in Xi'an |\n| Day 6 | Fly to Shanghai, visit the Bund and Yu Garden |\n| Day 7 | Explore the Shanghai Tower, French Concession, and depart |",
+  "response_word_count": 229,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

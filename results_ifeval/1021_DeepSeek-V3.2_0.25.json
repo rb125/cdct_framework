@@ -1,0 +1,45 @@
+{
+  "key": 1021,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "critique bad law, no lowercase, label",
+  "compressed_word_count": 6,
+  "response": "CRITIQUE OF BAD LAW\n\nBAD LAW IS CHARACTERIZED BY SEVERAL FLAWS:\n\n1.  VAGUENESS: LAW THAT FAILS TO CLEARLY DEFINE PROHIBITED CONDUCT OR REQUIRED ACTIONS. THIS VIOLATES THE PRINCIPLE THAT CITIZENS MUST HAVE FAIR NOTICE OF WHAT IS ILLEGAL.\n\n2.  ARBITRARINESS: LAW THAT LACKS A RATIONAL BASIS OR SERVES NO LEGITIMATE GOVERNMENT INTEREST. IT IS OFTEN DRIVEN BY PREJUDICE OR CAPRICE.\n\n3.  OVERBREADTH: LAW THAT UNNECESSARILY INFRINGES ON PROTECTED RIGHTS, SUCH AS FREE SPEECH OR ASSOCIATION, WHILE PURPORTING TO ADDRESS A NARROWER HARM.\n\n4.  UNENFORCEABILITY: LAW THAT IS PRACTICALLY IMPOSSIBLE TO ENFORCE FAIRLY OR CONSISTENTLY, LEADING TO SELECTIVE APPLICATION AND CORROSION OF RESPECT FOR THE LEGAL SYSTEM.\n\n5.  DISPROPORTIONALITY: LAW THAT IMPOSES A PUNISHMENT OR BURDEN GROSSLY EXCESSIVE TO THE ALLEGED OFFENSE OR SOCIAL HARM.\n\n6.  RETROACTIVITY: LAW THAT PUNISHES CONDUCT THAT WAS LEGAL WHEN IT OCCURRED, VIOLATING FUNDAMENTAL FAIRNESS.\n\nBAD LAW UNDERMINES THE RULE OF LAW, ERODES PUBLIC TRUST, AND OFTEN PERPETUATES INJUSTICE.",
+  "response_word_count": 153,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "detectable_format:multiple_sections_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

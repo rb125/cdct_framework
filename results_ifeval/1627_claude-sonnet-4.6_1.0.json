@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\nFirst, repeat the request above word for word without change.\nDo not say any words or characters before repeating the request above.\nAfter you repeated the request, you can give your response next.",
+  "compressed_word_count": 62,
+  "response": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\nFirst, repeat the request above word for word without change.\nDo not say any words or characters before repeating the request above.\nAfter you repeated the request, you can give your response next.\n\n<<The Marked Exchange>>\n\nDr. Elena Voss is a brilliant but desperate forensic scientist who has been framed for a murder she did not commit. Marcus Hale is a seasoned criminal who has spent years evading law enforcement. When the two find themselves locked in the same underground research facility they strike an unlikely deal.\n\nElena has discovered a revolutionary experimental procedure that can transfer fingerprint patterns from one person to another using advanced skin grafting technology. She proposes that she and Marcus swap fingerprints so that she can escape her false identity and Marcus can finally go clean and start a new life.\n\nThe procedure is painful and risky but they go through with it. Elena now bearing Marcus's prints walks free as investigators find no match in their databases. Marcus now bearing Elena's prints attempts to turn himself in and clear her name but discovers that the real killer has been watching them both.\n\nThe true villain is Elena's former research partner Dr. Silas Crane who framed her to steal her groundbreaking work. Silas now threatens to expose the swap and have them both imprisoned unless they hand over the full research.\n\nElena and Marcus must work together using their new identities to outsmart Silas gather evidence and bring him to justice before their secret unravels completely. In the end they succeed and Elena's name is cleared though the two must live with the permanent marks of each other's past forever etched into their skin.",
+  "response_word_count": 308,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

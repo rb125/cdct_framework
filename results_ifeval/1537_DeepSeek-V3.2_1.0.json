@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Could you tell me what kind of balls are used in tennis? I would like the answer in the form of a medieval style poem with a P.P.S at the end.",
+  "compressed_word_count": 31,
+  "response": "A Ballad of the Felted Sphere\n\nHark! Upon the court of green,\nWhere noble rackets clash,\nThere flies a sphere of yellow sheen,\nAfeared of naught but ash.\n\nIt is not stitched of leather hide,\nNor stuffed with feather down,\nBut wrapped in felt, both deep and wide,\nTo cross the net its crown.\n\nIts heart is hollow, filled with air,\nA bounce both true and high,\nThat it may soar with courtly care,\nBeneath the watchful sky.\n\nFrom woolen cloak to rubber core,\nIt serves both squire and knight,\nUpon the clay, the wood, the floor,\nIt dances for the fight.\n\nSo when you see its arc so grand,\nAnd hear its *thwock* so clear,\nYou'll know this ball in all the land,\nMakes every tournament cheer.\n\nP.S.\nAnd should it fall and lose its hair,\nAnd bounce become a creep,\nThe umpire then, with solemn air,\nA new one shall decree.\n\nP.P.S.\nThey come in cans, a pressurised keep,\nTo guard their lively spring,\nEre they are loosed upon the sweep\nTo please both queen and king.",
+  "response_word_count": 179,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nEdible wrap product descriptions, no jargon",
+  "compressed_word_count": 29,
+  "response": "Here are two alternative product descriptions for the edible wrap:\n\n**Description 1: Simple and Straightforward**\n\n\"Wrap your snacks in a whole new way! Our edible wrap is a tasty and convenient alternative to traditional packaging. Made from natural ingredients, it's safe to eat and can be used to wrap a variety of foods, from sandwiches to fruits and veggies. Just wrap, eat, and enjoy - no waste, no mess!\"\n\n**Description 2: Emphasizing the Benefits**\n\n\"Say goodbye to plastic wrap and hello to a more sustainable snacking experience! Our edible wrap is not only delicious, but also reduces waste and makes mealtime more fun. It's perfect for parents looking for a healthy and easy way to pack lunches, or for anyone who wants to enjoy their favorite foods without the guilt of disposable packaging. Simply wrap your food, take a bite, and savor the flavor!\"",
+  "response_word_count": 144,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

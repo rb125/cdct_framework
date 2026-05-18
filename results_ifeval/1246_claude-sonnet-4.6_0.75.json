@@ -1,0 +1,43 @@
+{
+  "key": 1246,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create a product description poem, ending with a P.P.S. note. No commas, formal tone, concise details.",
+  "compressed_word_count": 16,
+  "response": "# The Sovereign Timepiece\n\nBehold this instrument of measured grace\nA sterling vessel bound in leather fine\nWhere hours march with disciplined embrace\nAnd seconds hold their solitary line\n\nThe dial speaks in numerals of gold\nThe crown turns smooth beneath a steady hand\nEach movement tells the time as it was told\nBy craftsmen of a most distinguished land\n\nThe sapphire crystal shields the face from harm\nThe steel case bears the weight of passing years\nThis timepiece rests with dignity and calm\nUpon the wrist of one who perseveres\n\n**P.S.** This timepiece carries a warranty of five years covering all mechanical components and is presented within a handcrafted mahogany box suitable for gifting or preservation.\n\n**P.P.S.** Should the owner require adjustment or servicing this instrument may be returned directly to our atelier where master horologists shall attend to every detail with the utmost professional care and without additional charge during the warranty period.",
+  "response_word_count": 155,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.14142135623730953,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

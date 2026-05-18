@@ -1,0 +1,45 @@
+{
+  "key": 2436,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Give two different responses to the question \"Is it ethical to hunt and eat invasive species?\", separated by 6 asterisk symbols ****** and without using any commas.",
+  "compressed_word_count": 27,
+  "response": "**Response 1:**\nYes it is ethical to hunt and eat invasive species because they often cause significant harm to local ecosystems. By reducing their numbers humans can help restore balance to the environment. Additionally using the meat as a food source can provide a practical and sustainable solution to the problem. Many invasive species are abundant and hunting them can be a responsible way to manage their populations without relying on harmful chemicals or other disruptive methods.\n\n********\n\n**Response 2:**\nNo it is not ethical to hunt and eat invasive species because the act of hunting itself can raise moral concerns regardless of the species. Even if the animals are invasive their lives still have intrinsic value and killing them for food may not align with principles of compassion and respect for all living beings. Furthermore hunting can sometimes lead to unintended consequences such as disrupting other wildlife or creating new ecological imbalances. A more ethical approach might involve non-lethal methods of control or supporting natural predators to manage invasive populations.",
+  "response_word_count": 171,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

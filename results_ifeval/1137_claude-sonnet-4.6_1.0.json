@@ -1,0 +1,45 @@
+{
+  "key": 1137,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain in French why it is important to eat healthy foods to heal the body, without using the word \"nourriture\". Make sure your entire response is wrapped in JSON format.",
+  "compressed_word_count": 30,
+  "response": "```json\n{\n  \"titre\": \"L'importance d'une alimentation saine pour gu\u00e9rir le corps\",\n  \"explication\": {\n    \"introduction\": \"Consommer des aliments sains est essentiel pour permettre au corps de se r\u00e9g\u00e9n\u00e9rer et de gu\u00e9rir efficacement. Les nutriments que nous ing\u00e9rons jouent un r\u00f4le fondamental dans le processus de r\u00e9cup\u00e9ration.\",\n    \"points_importants\": [\n      {\n        \"point\": \"Les vitamines et min\u00e9raux\",\n        \"description\": \"Les vitamines, comme la vitamine C et la vitamine D, ainsi que les min\u00e9raux tels que le zinc et le magn\u00e9sium, renforcent le syst\u00e8me immunitaire et acc\u00e9l\u00e8rent la cicatrisation des tissus endommag\u00e9s.\"\n      },\n      {\n        \"point\": \"Les prot\u00e9ines\",\n        \"description\": \"Les prot\u00e9ines sont indispensables pour reconstruire les cellules et les muscles ab\u00eem\u00e9s. Elles constituent les \u00e9l\u00e9ments de base n\u00e9cessaires \u00e0 la r\u00e9paration des tissus corporels.\"\n      },\n      {\n        \"point\": \"Les antioxydants\",\n        \"description\": \"Les antioxydants pr\u00e9sents dans les fruits et l\u00e9gumes combattent les radicaux libres, r\u00e9duisent l'inflammation et favorisent une gu\u00e9rison plus rapide.\"\n      },\n      {\n        \"point\": \"L'hydratation\",\n        \"description\": \"Boire suffisamment d'eau et consommer des aliments riches en eau aide \u00e0 \u00e9liminer les toxines du corps et \u00e0 maintenir un bon fonctionnement des organes vitaux.\"\n      }\n    ],\n    \"conclusion\": \"En adoptant une alimentation \u00e9quilibr\u00e9e et riche en nutriments essentiels, le corps dispose de tous les outils n\u00e9cessaires pour se r\u00e9parer, renforcer ses d\u00e9fenses naturelles et retrouver une sant\u00e9 optimale.\"\n  }\n}\n```",
+  "response_word_count": 210,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

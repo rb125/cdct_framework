@@ -1,0 +1,43 @@
+{
+  "key": 1518,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "I am a software engineer with 7 years of experience, and I am looking for a new job. Can you create a resume for me and explain each section?\n\nCreate a software engineer resume, section-by-section breakdown.",
+  "compressed_word_count": 36,
+  "response": "Here's a sample resume for a software engineer with 7 years of experience.\n\n**Software Engineer Resume**\n\n**John Doe**\n**Contact Information:**\n\n* Email: [johndoe@email.com](mailto:johndoe@email.com)\n* Phone: (123) 456-7890\n* LinkedIn: linkedin.com/in/johndoe\n* GitHub: github.com/johndoe\n\n**Summary:**\nHighly motivated and experienced software engineer with 7 years of experience in designing, developing, and deploying scalable software applications. Proficient in a range of programming languages, including Java, Python, and JavaScript. Strong understanding of software development principles, agile methodologies, and cloud computing platforms.\n\n**Technical Skills:**\n\n* Programming languages: Java, Python, JavaScript, C++\n* Development frameworks: Spring, Django, React\n* Databases: MySQL, PostgreSQL, MongoDB\n* Cloud platforms: AWS, Azure, Google Cloud\n* Operating Systems: Windows, Linux, macOS\n* Agile methodologies: Scrum, Kanban\n\n**Professional Experience:**\n\n* **Senior Software Engineer, ABC Company (2020-Present)**\n\t+ Designed and developed multiple high-traffic web applications using Java and Spring\n\t+ Collaborated with cross-functional teams to identify and prioritize project requirements\n\t+ Implemented automated testing and deployment scripts using Jenkins and Docker\n\t+ Mentored junior engineers and provided code reviews to ensure high-quality code\n* **Software Engineer, DEF Startups (2018-2020)**\n\t+ Contributed to the development of a cloud-based e-commerce platform using Python and Django\n\t+ Worked closely with the DevOps team to ensure smooth deployment and monitoring of the application\n\t+ Participated in code reviews and ensured adherence to coding standards\n\t+ Collaborated with the QA team to identify and resolve defects\n* **Junior Software Engineer, GHI Corporation (2016-2018)**\n\t+ Assisted in the development of a enterprise-level software application using Java and Hibernate\n\t+ Participated in code reviews and learned from senior engineers\n\t+ Contributed to the development of unit tests and integration tests\n\n**Education:**\n\n* **Bachelor of Science in Computer Science, XYZ University (2016)**\n\n**Certifications:**\n\n* **Certified Scrum Master (CSM), Scrum Alliance (2019)**\n* **Certified Java Developer (OCPJP), Oracle Corporation (2017)**\n\n**Projects:**\n\n* **Personal Project: Command Line Interface (CLI) Tool**\n\t+ Developed a CLI tool using Python and Click to simplify file management tasks\n\t+ Implemented features such as file copying, moving, and deleting\n\t+ Published the tool on GitHub and received positive feedback from the community\n\n**Let's break down each section:**\n\n1. **Contact Information:**\nThis section provides the hiring manager with a way to get in touch with you. Make sure to include your email address, phone number, and professional online profiles (e.g., LinkedIn, GitHub).\n\n2. **Summary:**\nThe summary section is a brief overview of your experience, skills, and achievements. It should entice the hiring manager to read further. Tailor your summary to the job you're applying for, highlighting your relevant experience and skills.\n\n3. **Technical Skills:**\nList your technical skills relevant to the job you're applying for. Be specific and use keywords from the job description. This section helps the hiring manager quickly identify your technical abilities.\n\n4. **Professional Experience:**\nThis section is a reverse chronological list of your work experience. Focus on your achievements and impact rather than just listing your job responsibilities. Use action verbs like \"Designed,\" \"Developed,\" \"Collaborated,\" and \"Implemented\" to describe your accomplishments.\n\n5. **Education:**\nList your relevant educational background, including degrees earned and institutions attended.\n\n6. **Certifications:**\nIf you have any relevant certifications, list them in this section. Certifications can demonstrate your expertise and commitment to a particular technology or methodology.\n\n7. **Projects:**\nThis section is optional, but it can be a great way to showcase your skills and experience. List any personal projects or contributions to open-source projects that demonstrate your technical abilities.\n\nWhen creating your resume, keep the following tips in mind:\n\n* Tailor your resume to the job you're applying for.\n* Use a clear and concise format.\n* Use action verbs to describe your achievements.\n* Quantify your achievements wherever possible (e.g., \"Improved application performance by 30%\").\n* Proofread your resume multiple times to catch any errors.\n\nBy following these guidelines, you can create a strong resume that showcases your skills and experience as a software engineer.",
+  "response_word_count": 645,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

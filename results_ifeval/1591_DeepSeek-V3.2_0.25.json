@@ -1,0 +1,43 @@
+{
+  "key": 1591,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write angry limericks on moms' chore kids.",
+  "compressed_word_count": 7,
+  "response": "A mom's angry limerick, if you please:\n\n**One**\nA child who won't lift a damn finger,\nMakes a mother's last patience grow thinner.\nThey'll sigh, \"Not my job!\"\nWhile she starts to sob,\nAnd thinks, \"*I'll* show *you* who's the dinner.\"\n\n**Two**\nTheir room is a pigsty, a bio-hazard zone,\nWith plates growing cultures all of their own.\nThey just shrug and say, \"Later,\"\nTo the parent who's greater\u2026\nWho dreams of just leaving them, utterly alone.\n\n**Three**\nI asked you to take out the reeking trash bin!\nYou act like I've asked you to peel your own skin.\nYou moan, roll your eyes,\nWith theatrical sighs\u2026\n*My* chore is not raising the slob you're locked in.\n\n**Four**\nYou claim that you \"forgot\" to unload the dishwasher.\nYour brain is a sieve, and my temper is nosher.\nI shout till I'm hoarse,\n\"Do your chores, or of course,\nYour free ride ends here!\" (But I'm still the enforcer.)\n\n**Five**\nA mom is not maid, not a short-order cook,\nNot a valet for laundry, so give me that look!\nDo your chores, you small terror,\nOr feel the full error\u2014\nMy love's unconditional, but my service they took.",
+  "response_word_count": 197,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

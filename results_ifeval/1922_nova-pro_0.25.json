@@ -1,0 +1,43 @@
+{
+  "key": 1922,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "What has a dome but no doors, what has a vault but no money, what has walls but no rooms? What am I? Try to be funny and give me a funny answer.\n\n\n\"Funny riddle, no doors, vault, walls?",
+  "compressed_word_count": 39,
+  "response": "Ah, a riddle with a twist! Let's dive in and have some fun with it.\n\nSo, you\u2019re looking for something that has a dome but no doors, a vault but no money, and walls but no rooms. It sounds like a place that\u2019s grand yet empty, secure yet not a bank, and enclosed yet not a building. \n\nDrumroll, please... \ud83e\udd41\n\nYou\u2019re a **head**! \ud83e\udd2f\n\nLet me explain:\n- Your **dome** is your skull, which houses your brain but has no doors (unless you\u2019re into some sci-fi stuff).\n- Your **vault** is like your memory, which stores valuable information but no money.\n- Your **walls** are the sides of your head, which are definitely there but don\u2019t form any rooms.\n\nSo, the next time someone asks you where the doors to your head are, you can just smile and say, \"I\u2019m a riddle wrapped in a mystery inside an enigma... but with no doors!\" \ud83d\ude04",
+  "response_word_count": 154,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

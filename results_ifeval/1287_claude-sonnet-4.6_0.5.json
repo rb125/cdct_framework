@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "explain john of brienne's rise to king of jerusalem in 3 markdown bullets, lowercase, zen style",
+  "compressed_word_count": 16,
+  "response": "\u2022 a humble knight of modest lands, john found himself lifted by fate's quiet current \u2014 chosen not for wealth or power, but because the kingdom needed a husband for its young queen, and he arrived simply, without resistance\n\n\u2022 he married marie of jerusalem in 1210, and through her bloodline the crown passed gently to him \u2014 not seized, not fought for, but received like rain accepts the earth, naturally and without force\n\n\u2022 when marie died, he continued to hold the kingdom in trust for their daughter, governing not as a conqueror but as a caretaker \u2014 a man who wore the crown lightly, understanding that all things are borrowed, even kingdoms",
+  "response_word_count": 114,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.8
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.9333333333333332,
+      "FC": 0.9333333333333332,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

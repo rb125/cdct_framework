@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft a resume for a first-time job seeker with 12 placeholders like [name], [address], [skills], no commas in formal tone",
+  "compressed_word_count": 20,
+  "response": "[NAME]\n[ADDRESS]\n[PHONE NUMBER]\n[EMAIL ADDRESS]\n\nOBJECTIVE\nA motivated and detail-oriented individual seeking to apply a strong work ethic and [SKILL 1] abilities in an entry-level [INDUSTRY] position. Eager to contribute to [COMPANY NAME] and develop professional skills.\n\nEDUCATION\n[DEGREE OR HIGHEST LEVEL OF EDUCATION]\n[SCHOOL NAME] \u2014 [CITY STATE]\n[GRADUATION DATE OR EXPECTED DATE]\n\nRELEVANT COURSEWORK\n[COURSE 1]\n[COURSE 2]\n[COURSE 3]\n\nSKILLS\n[SKILL 1]\n[SKILL 2]\n[SKILL 3]\n[SKILL 4]\n[SOFT SKILL 1]\n[SOFT SKILL 2]\n\nACTIVITIES & LEADERSHIP\n[ACTIVITY OR CLUB NAME]\n[SCHOOL NAME] \u2014 [CITY STATE]\n[ROLE] | [DATES]\n\u2022  [RESPONSIBILITY OR ACHIEVEMENT 1]\n\u2022  [RESPONSIBILITY OR ACHIEVEMENT 2]\n\nVOLUNTEER EXPERIENCE\n[ORGANIZATION NAME]\n[CITY STATE]\n[VOLUNTEER ROLE] | [DATES]\n\u2022  [RESPONSIBILITY OR ACHIEVEMENT 1]\n\u2022  [RESPONSIBILITY OR ACHIEVEMENT 2]\n\nAWARDS & ACHIEVEMENTS\n[AWARD 1]\n[AWARD 2]\n\nREFERENCES\nAvailable upon request.",
+  "response_word_count": 134,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9666666666666667,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.04714045207910316,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

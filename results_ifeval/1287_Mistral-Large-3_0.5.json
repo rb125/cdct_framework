@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "explain john of brienne's rise to king of jerusalem in 3 markdown bullets, lowercase, zen style",
+  "compressed_word_count": 16,
+  "response": "- **quiet steps on foreign soil**\n  a knight from champagne, landless and lean,\n  arrives in the east where shadows convene.\n  not born to rule, yet fate bends the knee\u2014\n  the barons whisper, *he will do*.\n\n- **marriage as the key**\n  the crown sits heavy on a child\u2019s brow,\n  mary of montferrat, young and frail now.\n  john takes her hand, takes the vow,\n  and jerusalem\u2019s weight settles soft somehow.\n\n- **the crown finds its head**\n  no sword raised, no battle\u2019s cry,\n  just the slow turn of time\u2019s tide.\n  a regent first, then king by grace,\n  not by blood, but by the place.",
+  "response_word_count": 101,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.7999999999999999,
+      "FC": 0.7999999999999999,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.21602468994692867,
+      "judge_variance_FC": 0.21602468994692867
+    }
+  }
+}

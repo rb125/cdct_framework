@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nEdible wrap product descriptions, no jargon",
+  "compressed_word_count": 29,
+  "response": "**Option 1:**\n*\"Meet your new kitchen essential\u2014paper you can eat! This clever wrap is perfect for sandwiches, snacks, or leftovers, keeping food fresh just like regular paper. But here\u2019s the fun part: when you\u2019re done, you can eat it! Made from simple, natural ingredients, it\u2019s a tasty, zero-waste way to pack your lunch. No more trash, just a quick, edible finish. Great for picnics, school lunches, or anytime you want to cut down on waste. Try it and taste the difference!\"*\n\n**Option 2:**\n*\"Say goodbye to plastic wrap and hello to edible paper! This soft, flexible wrap works just like regular food paper\u2014great for wrapping sandwiches, covering bowls, or keeping snacks fresh. The best part? It\u2019s completely edible, so you can munch it along with your meal or save it for later. Made from safe, plant-based ingredients, it\u2019s a smart, eco-friendly choice for anyone who hates throwing away trash. Light, convenient, and surprisingly tasty\u2014perfect for on-the-go meals or reducing waste at home!\"*",
+  "response_word_count": 162,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

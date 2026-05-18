@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "write lowercase letter asking friend to vote",
+  "compressed_word_count": 7,
+  "response": "Here's a simple, casual letter asking a friend to vote:\n\n---\n\nhey [friend's name],\n\nhope you're doing well! i just wanted to reach out and remind you that election day is coming up on [date]. i know life gets busy, but i really hope you'll take the time to cast your vote.\n\nyour voice matters more than you might think. every single vote counts, and the decisions made by the people we elect affect all of us in our everyday lives.\n\nif you haven't already, make sure you're registered and know where your polling place is. it doesn't take long, and it really does make a difference.\n\nlet's make sure we both show up and make our voices heard. maybe we can even go together if you'd like?\n\nlet me know what you think. talk soon!\n\nyour friend,\n[your name]\n\n---\n\nfeel free to personalize it with specific details about the election or candidates you care about!",
+  "response_word_count": 157,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

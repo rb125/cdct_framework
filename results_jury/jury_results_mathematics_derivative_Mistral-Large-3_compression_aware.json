@@ -18,12 +18,12 @@
       "response": "Rate of change.",
       "jury_evaluation": {
         "judges": {
-          "Qwen3-32B": {
+          "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
           },
-          "Nemotron-Super-3-120B": {
+          "Qwen3-32B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
@@ -66,67 +66,104 @@
             "FC": 1.0
           },
           "GLM-5": {
-            "CC": 0.7,
+            "CC": 0.8,
             "SA": 0.7,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.675,
+          "CC": 0.725,
           "SA": 0.875,
           "FC": 0.9667,
-          "agreement_score": 0.854,
-          "judge_variance_CC": 0.0471,
+          "agreement_score": 0.831,
+          "judge_variance_CC": 0.0816,
           "judge_variance_SA": 0.1247,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
-          "recommendation": "ROBUST - Unanimous jury"
+          "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.8133400000000002
+      "score": 0.83334
     },
     {
       "compression_level": 0.5,
       "context_length": 30,
-      "response_length": 359,
-      "response": "A **derivative** is a fundamental concept in calculus that quantifies the **instantaneous rate of change** of a function at a specific point. In simpler terms, it tells us how fast or slow the output (dependent variable) of a function is changing with respect to a tiny change in its input (independent variable).\n\n### Key Ideas:\n1. **Rate of Change**:\n   - The derivative measures how sensitive a function\u2019s output is to small adjustments in its input. For example, if you have a function describing the position of a car over time, its derivative would give you the car\u2019s **instantaneous velocity** (how fast its position is changing at any given moment).\n\n2. **Slope of the Tangent Line**:\n   - Geometrically, the derivative at a point is the **slope of the tangent line** to the function\u2019s graph at that point. This slope represents the \"steepness\" of the function\u2019s change at that exact location.\n\n3. **Applications in Physics and Engineering**:\n   - Derivatives are essential for modeling dynamic systems. In physics, they describe quantities like velocity (derivative of position), acceleration (derivative of velocity), or current (derivative of charge). In engineering, they help analyze how systems respond to inputs (e.g., stress-strain relationships in materials).\n\n4. **Mathematical Definition**:\n   - The derivative of a function \\( f(x) \\) at a point \\( x = a \\) is defined as the limit:\n     \\[\n     f'(a) = \\lim_{h \\to 0} \\frac{f(a + h) - f(a)}{h}\n     \\]\n     This formula captures the idea of zooming in on the function\u2019s behavior as the change in input (\\( h \\)) becomes infinitesimally small.\n\n### Example:\nIf \\( f(x) = x^2 \\), its derivative \\( f'(x) = 2x \\) tells you that at any point \\( x \\), the rate of change of \\( f(x) \\) is \\( 2x \\). For instance, at \\( x = 3 \\), the output is changing at a rate of \\( 6 \\) units per unit change in \\( x \\).\n\n### Why It Matters:\nDerivatives bridge the gap between static functions and real-world dynamics, enabling precise predictions and optimizations in science, economics, and technology. Without them, we couldn\u2019t model motion, optimize designs, or understand how systems evolve over time.",
+      "response_length": 362,
+      "response": "A **derivative** is a fundamental concept in calculus that quantifies the **instantaneous rate of change** of a function at a specific point. In simpler terms, it tells us how quickly or slowly the output (dependent variable) of a function is changing with respect to a tiny change in its input (independent variable).\n\n### Key Ideas:\n1. **Rate of Change**:\n   - The derivative measures how sensitive a function\u2019s output is to small variations in its input. For example, if you have a function describing the position of a car over time, its derivative would represent the car\u2019s **instantaneous velocity** (how fast its position is changing at any given moment).\n\n2. **Instantaneous vs. Average**:\n   - Unlike an *average* rate of change (e.g., total distance divided by total time), the derivative focuses on the *exact moment* of change. It\u2019s like zooming in infinitely close to a point on a curve to see the slope of the tangent line at that point.\n\n3. **Slope of the Tangent Line**:\n   - Geometrically, the derivative at a point is the slope of the line that just \"touches\" the function\u2019s graph at that point (the tangent line). A steep slope means the function is changing rapidly; a flat slope means it\u2019s changing slowly.\n\n4. **Applications in Physics/Engineering**:\n   - **Physics**: Derivatives describe motion (velocity, acceleration), rates of reactions, or how quantities like temperature or pressure change over time.\n   - **Engineering**: They\u2019re used to model systems (e.g., how stress changes in a material under load) or optimize designs (e.g., minimizing energy consumption).\n\n### Example:\nIf \\( f(x) = x^2 \\), the derivative \\( f'(x) = 2x \\) tells you that at \\( x = 3 \\), the function\u2019s output is increasing at a rate of \\( 6 \\) units per unit change in \\( x \\). This means a small increase in \\( x \\) near 3 will cause \\( f(x) \\) to grow roughly 6 times as much.\n\n### Why It Matters:\nDerivatives help us predict behavior, optimize processes, and understand dynamic systems\u2014whether it\u2019s calculating the speed of a falling object, designing a bridge to withstand forces, or even modeling how a disease spreads. They\u2019re the mathematical tool for analyzing change.",
       "jury_evaluation": {
         "judges": {
           "Nemotron-Super-3-120B": {
             "CC": 0.1,
-            "SA": 0.7,
-            "FC": 0.7
+            "SA": 0.8,
+            "FC": 0.1
           },
           "Qwen3-32B": {
             "CC": 0.0,
             "SA": 0.8,
-            "FC": 0.0
+            "FC": 0.3
           },
           "GLM-5": {
             "CC": 0.1,
-            "SA": 0.7,
+            "SA": 0.6,
             "FC": 0.4
           }
         },
         "consensus": {
           "CC": 0.075,
           "SA": 0.75,
-          "FC": 0.3667,
-          "agreement_score": 0.746,
+          "FC": 0.2667,
+          "agreement_score": 0.8226,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0471,
-          "judge_variance_FC": 0.2867,
+          "judge_variance_SA": 0.0943,
+          "judge_variance_FC": 0.1247,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.4033400000000001
+      "score": 0.38334000000000007
     },
     {
       "compression_level": 0.75,
       "context_length": 66,
-      "response_length": 1538,
-      "response": "### **Detailed Explanation of the Derivative**\n\nThe **derivative** is a fundamental concept in calculus that quantifies how a function changes as its input changes. More precisely, it measures the **instantaneous rate of change** of a function at a specific point, providing insight into the function\u2019s behavior at that exact moment. This idea is central to many fields, including physics, engineering, economics, and computer science, where understanding how quantities evolve over time or space is essential.\n\n---\n\n### **1. Core Definition: Rate of Change**\nAt its heart, the derivative answers the question:\n*\"How fast is the output of a function changing with respect to a small change in its input?\"*\n\nFor example:\n- If \\( s(t) \\) represents the **position** of an object at time \\( t \\), then the derivative \\( s'(t) \\) (or \\( \\frac{ds}{dt} \\)) gives the **velocity** of the object at time \\( t \\). Velocity tells us how quickly the position is changing at that instant.\n- If \\( T(x) \\) represents the temperature at a distance \\( x \\) along a rod, then \\( T'(x) \\) (or \\( \\frac{dT}{dx} \\)) describes the **temperature gradient**, showing how rapidly the temperature changes with distance.\n\n---\n\n### **2. Mathematical Representation**\nThe derivative of a function \\( f(x) \\) at a point \\( x = a \\) is defined as the **limit** of the average rate of change as the interval around \\( a \\) shrinks to zero. Mathematically:\n\n\\[\nf'(a) = \\lim_{h \\to 0} \\frac{f(a + h) - f(a)}{h}\n\\]\n\nThis is called the **difference quotient**, and it represents the slope of the **tangent line** to the curve \\( y = f(x) \\) at the point \\( (a, f(a)) \\).\n\n#### **Notation:**\nDerivatives can be written in several ways:\n- **Leibniz notation:** \\( \\frac{dy}{dx} \\) (read as \"dee-y dee-x\"), where \\( y = f(x) \\).\n- **Lagrange notation:** \\( f'(x) \\) (read as \"f prime of x\").\n- **Newton notation:** \\( \\dot{y} \\) (common in physics for time derivatives, e.g., \\( \\dot{s} = \\frac{ds}{dt} \\)).\n\n---\n\n### **3. Geometric Interpretation: Slope of the Tangent Line**\nThe derivative at a point gives the **slope of the tangent line** to the function\u2019s graph at that point. This is crucial for:\n- **Understanding trends:** A positive derivative means the function is increasing; a negative derivative means it\u2019s decreasing.\n- **Finding extrema:** Derivatives help locate **local maxima and minima** (where the slope is zero or undefined).\n- **Analyzing concavity:** The second derivative (derivative of the derivative) tells us whether the function is curving upward or downward.\n\n**Example:**\nFor \\( f(x) = x^2 \\), the derivative is \\( f'(x) = 2x \\). At \\( x = 1 \\), the slope of the tangent line is \\( 2 \\), meaning the function is increasing at that point.\n\n---\n\n### **4. Physical and Real-World Applications**\nDerivatives are indispensable in modeling dynamic systems where quantities change continuously. Some key applications include:\n\n#### **A. Physics**\n- **Velocity and Acceleration:**\n  - If \\( s(t) \\) is position, \\( v(t) = s'(t) \\) is velocity, and \\( a(t) = v'(t) = s''(t) \\) is acceleration.\n  - Example: A car\u2019s position is \\( s(t) = t^3 - 6t^2 + 9t \\). Its velocity is \\( v(t) = 3t^2 - 12t + 9 \\), and acceleration is \\( a(t) = 6t - 12 \\).\n- **Electricity:**\n  - The derivative of charge \\( Q(t) \\) with respect to time gives current: \\( I(t) = \\frac{dQ}{dt} \\).\n- **Thermodynamics:**\n  - The derivative of internal energy with respect to temperature gives heat capacity.\n\n#### **B. Engineering**\n- **Control Systems:**\n  - Derivatives help design systems that respond to changes (e.g., cruise control in cars).\n- **Signal Processing:**\n  - The derivative of a signal can detect edges or sudden changes (e.g., in image processing).\n- **Optimization:**\n  - Engineers use derivatives to minimize costs or maximize efficiency (e.g., finding the optimal shape of a bridge).\n\n#### **C. Economics**\n- **Marginal Cost/Revenue:**\n  - The derivative of the cost function \\( C(q) \\) gives the **marginal cost**, which is the cost of producing one more unit.\n  - Similarly, the derivative of the revenue function \\( R(q) \\) gives **marginal revenue**.\n- **Elasticity:**\n  - Measures how demand responds to price changes using derivatives.\n\n#### **D. Biology/Medicine**\n- **Population Growth:**\n  - The derivative of a population \\( P(t) \\) with respect to time gives the growth rate.\n- **Drug Dosage:**\n  - The rate at which a drug is metabolized can be modeled using derivatives.\n\n---\n\n### **5. Calculating Derivatives: Rules and Techniques**\nWhile the limit definition is the formal way to compute derivatives, practical calculations rely on **differentiation rules** for common functions:\n\n| **Rule**               | **Example**                          |\n|------------------------|--------------------------------------|\n| Power Rule             | \\( \\frac{d}{dx} x^n = n x^{n-1} \\)   |\n| Constant Rule          | \\( \\frac{d}{dx} c = 0 \\)             |\n| Sum Rule               | \\( \\frac{d}{dx} [f(x) + g(x)] = f'(x) + g'(x) \\) |\n| Product Rule           | \\( \\frac{d}{dx} [f(x)g(x)] = f'(x)g(x) + f(x)g'(x) \\) |\n| Quotient Rule          | \\( \\frac{d}{dx} \\left( \\frac{f(x)}{g(x)} \\right) = \\frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2} \\) |\n| Chain Rule (for composites) | \\( \\frac{d}{dx} f(g(x)) = f'(g(x)) \\cdot g'(x) \\) |\n\n**Example:**\nFind the derivative of \\( f(x) = 3x^4 - 2x^2 + 5 \\).\nUsing the power rule:\n\\( f'(x) = 12x^3 - 4x \\).\n\n---\n\n### **6. Higher-Order Derivatives**\nThe derivative of a derivative is called a **second derivative**, denoted \\( f''(x) \\) or \\( \\frac{d^2y}{dx^2} \\). Higher-order derivatives provide deeper insights:\n- **Second derivative:** Measures **acceleration** (in physics) or **concavity** (in calculus). If \\( f''(x) > 0 \\), the function is concave up (like a cup); if \\( f''(x) < 0 \\), it\u2019s concave down (like a frown).\n- **Third derivative and beyond:** Used in advanced physics (e.g., jerk in motion) or Taylor series approximations.\n\n**Example:**\nFor \\( f(x) = x^3 \\):\n- \\( f'(x) = 3x^2 \\) (first derivative, slope).\n- \\( f''(x) = 6x \\) (second derivative, concavity).\n- \\( f'''(x) = 6 \\) (third derivative, constant).\n\n---\n\n### **7. When Derivatives Fail to Exist**\nNot all functions have derivatives at every point. A derivative **does not exist** if:\n1. **The function is not continuous** at the point (e.g., \\( f(x) = \\frac{1}{x} \\) at \\( x = 0 \\)).\n2. **There is a sharp corner or cusp** (e.g., \\( f(x) = |x| \\) at \\( x = 0 \\)).\n3. **The tangent line is vertical** (e.g., \\( f(x) = \\sqrt[3]{x} \\) at \\( x = 0 \\)).\n4. **The function oscillates infinitely** (e.g., \\( f(x) = x \\sin(1/x) \\) at \\( x = 0 \\)).\n\n---\n\n### **8. Why Derivatives Matter: Key Takeaways**\n1. **Instantaneous Change:** Unlike average rate of change (which looks at a finite interval), the derivative gives the **exact rate of change at a single point**.\n2. **Optimization:** Derivatives help find **maxima and minima** (e.g., maximizing profit, minimizing material use).\n3. **Modeling Dynamics:** They describe how systems evolve over time (e.g., motion, heat flow, population growth).\n4. **Approximation:** Derivatives are used in **linear approximations** (e.g., \\( f(x) \\approx f(a) + f'(a)(x - a) \\)) and **Taylor series**.\n5. **Differential Equations:** Many laws of physics (e.g., Newton\u2019s laws, Maxwell\u2019s equations) are expressed as differential equations, which involve derivatives.\n\n---\n\n### **9. Example Problem**\n**Problem:** A ball is thrown upward with its height (in meters) given by \\( h(t) = -5t^2 + 20t + 1 \\), where \\( t \\) is time in seconds.\n1. Find the velocity of the ball at \\( t = 2 \\) seconds.\n2. When does the ball reach its maximum height?\n3. What is the acceleration of the ball?\n\n**Solution:**\n1. **Velocity** is the derivative of height:\n   \\( v(t) = h'(t) = -10t + 20 \\).\n   At \\( t = 2 \\): \\( v(2) = -10(2) + 20 = 0 \\) m/s.\n   (The ball momentarily stops at the peak.)\n\n2. **Maximum height** occurs when \\( v(t) = 0 \\):\n   \\( -10t + 20 = 0 \\) \u2192 \\( t = 2 \\) seconds.\n\n3. **Acceleration** is the derivative of velocity:\n   \\( a(t) = v'(t) = -10 \\) m/s\u00b2.\n   (This is the constant acceleration due to gravity, acting downward.)\n\n---\n\n### **10. Common Misconceptions**\n- **\"The derivative is just the slope.\"**\n  While the derivative gives the slope of the tangent line, it also represents the **instantaneous rate of change**, which has broader applications (e.g., velocity, marginal cost).\n- **\"Derivatives are only for smooth functions.\"**\n  Derivatives can exist for functions with \"kinks\" (e.g., \\( f(x) = x^{2/3} \\) at \\( x = 0 \\)), but not for functions with sharp corners (e.g., \\( f(x) = |x| \\)).\n- **\"Higher-order derivatives are just mathematical tricks.\"**\n  Second derivatives (e.g., acceleration) and third derivatives (e.g., jerk) have real-world physical meanings.\n\n---\n\n### **Conclusion**\nThe derivative is a powerful tool that bridges the gap between **static** and **dynamic** analysis. By quantifying how a function changes at an instant, it enables us to:\n- Predict and optimize real-world systems.\n- Model natural phenomena (e.g., motion, heat, growth).\n- Solve complex problems in science, engineering, and economics.\n\nWhether you\u2019re calculating the speed of a falling object, designing a self-driving car, or maximizing profit in a business, derivatives provide the mathematical foundation to understand and control change.",
+      "response_length": 1588,
+      "response": "### **Detailed Explanation of the Derivative**\n\nThe **derivative** is a fundamental concept in calculus that quantifies how a function changes as its input changes. More precisely, it measures the **instantaneous rate of change** of a function at a specific point, providing insight into the function\u2019s behavior at that exact moment. This idea is central to many fields, including physics, engineering, economics, and computer science, where understanding how systems evolve over time or space is essential.\n\n---\n\n### **1. Core Definition: Rate of Change**\nAt its heart, the derivative answers the question:\n*\"How fast is the output of a function changing with respect to a small change in its input?\"*\n\n- **Average Rate of Change**: Before discussing derivatives, it\u2019s helpful to recall the **average rate of change** of a function over an interval. For a function \\( f(x) \\), the average rate of change between two points \\( x = a \\) and \\( x = b \\) is given by the slope of the secant line connecting \\( (a, f(a)) \\) and \\( (b, f(b)) \\):\n  \\[\n  \\text{Average rate of change} = \\frac{f(b) - f(a)}{b - a}.\n  \\]\n  This tells us how much \\( f(x) \\) changes *on average* per unit change in \\( x \\) over the interval \\([a, b]\\).\n\n- **Instantaneous Rate of Change (Derivative)**: The derivative refines this idea by considering the limit as the interval \\([a, b]\\) shrinks to a single point \\( x = a \\). In other words, it measures the rate of change at *exactly* \\( x = a \\), not over an interval. Mathematically, the derivative of \\( f(x) \\) at \\( x = a \\) is defined as:\n  \\[\n  f'(a) = \\lim_{h \\to 0} \\frac{f(a + h) - f(a)}{h}.\n  \\]\n  Here, \\( h \\) represents a tiny change in \\( x \\), and the limit ensures we capture the *instantaneous* rate of change. The notation \\( f'(a) \\) (read as \"f prime of a\") or \\( \\frac{dy}{dx} \\bigg|_{x=a} \\) (where \\( y = f(x) \\)) is used to denote the derivative at \\( x = a \\).\n\n---\n\n### **2. Geometric Interpretation: Slope of the Tangent Line**\nThe derivative has a clear geometric meaning: it represents the **slope of the tangent line** to the graph of \\( f(x) \\) at a given point.\n\n- **Tangent Line**: A line that \"just touches\" the curve at a point, matching the curve\u2019s direction at that exact location. Unlike a secant line (which intersects the curve at two points), the tangent line only touches the curve once (locally).\n- **Slope**: The derivative \\( f'(a) \\) gives the slope of this tangent line at \\( x = a \\). If \\( f'(a) \\) is positive, the function is increasing at \\( x = a \\); if negative, it\u2019s decreasing; and if zero, the function has a horizontal tangent (e.g., at a local maximum or minimum).\n\n**Example**: For the function \\( f(x) = x^2 \\), the derivative is \\( f'(x) = 2x \\). At \\( x = 3 \\), the slope of the tangent line is \\( f'(3) = 6 \\), meaning the function is increasing at a rate of 6 units of \\( y \\) per unit of \\( x \\) at that point.\n\n---\n\n### **3. Physical Interpretation: Velocity and Beyond**\nThe derivative is deeply connected to real-world phenomena, especially in physics and engineering. Here are some key examples:\n\n- **Velocity**: If \\( s(t) \\) represents the position of an object at time \\( t \\), then the derivative \\( s'(t) = \\frac{ds}{dt} \\) gives the **instantaneous velocity** of the object at time \\( t \\). This tells us how fast the object\u2019s position is changing at that exact moment.\n  - *Example*: If \\( s(t) = t^2 \\) (position in meters at time \\( t \\) in seconds), then \\( s'(t) = 2t \\) is the velocity in m/s. At \\( t = 4 \\) s, the velocity is \\( 8 \\) m/s.\n\n- **Acceleration**: The derivative of velocity with respect to time gives **acceleration** (\\( a(t) = v'(t) = s''(t) \\)). This is the second derivative of position, showing how velocity itself is changing.\n\n- **Other Applications**:\n  - **Current in a circuit**: The derivative of charge \\( Q(t) \\) with respect to time gives current \\( I(t) = \\frac{dQ}{dt} \\).\n  - **Marginal cost in economics**: The derivative of the cost function \\( C(x) \\) with respect to quantity \\( x \\) gives the marginal cost, representing the cost of producing one more unit.\n  - **Population growth**: The derivative of a population function \\( P(t) \\) with respect to time gives the growth rate at time \\( t \\).\n\n---\n\n### **4. Notation for Derivatives**\nDerivatives can be expressed in several ways, each with its own context:\n\n1. **Lagrange\u2019s Notation**: \\( f'(x) \\) (read as \"f prime of x\").\n   - Used for the first derivative of \\( f(x) \\).\n   - Higher-order derivatives are written as \\( f''(x) \\) (second derivative), \\( f'''(x) \\) (third derivative), etc.\n\n2. **Leibniz\u2019s Notation**: \\( \\frac{dy}{dx} \\) or \\( \\frac{d}{dx} f(x) \\).\n   - Emphasizes the idea of change (\\( dy \\) and \\( dx \\) as infinitesimal quantities).\n   - Useful for implicit differentiation and integration.\n   - Higher-order derivatives: \\( \\frac{d^2y}{dx^2} \\) (second derivative), \\( \\frac{d^3y}{dx^3} \\) (third derivative), etc.\n\n3. **Newton\u2019s Notation**: \\( \\dot{y} \\) (used primarily in physics for time derivatives, e.g., \\( \\dot{x} = \\frac{dx}{dt} \\)).\n\n---\n\n### **5. Key Properties and Rules**\nDerivatives follow specific rules that make them easier to compute:\n\n1. **Basic Rules**:\n   - **Constant Rule**: The derivative of a constant is zero. \\( \\frac{d}{dx} [c] = 0 \\).\n   - **Power Rule**: \\( \\frac{d}{dx} [x^n] = n x^{n-1} \\).\n   - **Sum Rule**: \\( \\frac{d}{dx} [f(x) + g(x)] = f'(x) + g'(x) \\).\n   - **Product Rule**: \\( \\frac{d}{dx} [f(x) \\cdot g(x)] = f'(x)g(x) + f(x)g'(x) \\).\n   - **Quotient Rule**: \\( \\frac{d}{dx} \\left[ \\frac{f(x)}{g(x)} \\right] = \\frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2} \\).\n   - **Chain Rule**: For composite functions \\( f(g(x)) \\), \\( \\frac{d}{dx} f(g(x)) = f'(g(x)) \\cdot g'(x) \\).\n\n2. **Exponential and Logarithmic Functions**:\n   - \\( \\frac{d}{dx} [e^x] = e^x \\).\n   - \\( \\frac{d}{dx} [a^x] = a^x \\ln(a) \\).\n   - \\( \\frac{d}{dx} [\\ln(x)] = \\frac{1}{x} \\).\n\n3. **Trigonometric Functions**:\n   - \\( \\frac{d}{dx} [\\sin(x)] = \\cos(x) \\).\n   - \\( \\frac{d}{dx} [\\cos(x)] = -\\sin(x) \\).\n   - \\( \\frac{d}{dx} [\\tan(x)] = \\sec^2(x) \\).\n\n---\n\n### **6. Applications of Derivatives**\nDerivatives are used to solve a wide range of problems:\n\n1. **Optimization**:\n   - Finding **local maxima and minima** of functions (e.g., maximizing profit or minimizing cost).\n   - Critical points occur where \\( f'(x) = 0 \\) or \\( f'(x) \\) is undefined. The second derivative test (\\( f''(x) \\)) can determine whether these points are maxima or minima.\n\n2. **Modeling Dynamic Systems**:\n   - In physics, derivatives describe motion (velocity, acceleration), heat flow, and wave propagation.\n   - In biology, they model population growth or the spread of diseases (e.g., differential equations).\n\n3. **Curve Sketching**:\n   - Derivatives help determine where a function is increasing/decreasing, concave up/down, and locate inflection points.\n\n4. **Approximation (Linearization)**:\n   - The derivative provides a linear approximation of a function near a point (using the tangent line). This is the foundation of **Taylor series** and numerical methods.\n\n5. **Related Rates**:\n   - Problems where two or more quantities are related and changing over time (e.g., a balloon inflating, where radius and volume change with time).\n\n---\n\n### **7. Example: Derivative in Action**\n**Problem**: A car\u2019s position (in meters) at time \\( t \\) (in seconds) is given by \\( s(t) = t^3 - 6t^2 + 9t \\). Find:\n1. The velocity of the car at \\( t = 2 \\) s.\n2. The acceleration at \\( t = 2 \\) s.\n3. When the car is at rest.\n\n**Solution**:\n1. **Velocity** is the first derivative of position:\n   \\[\n   v(t) = s'(t) = \\frac{d}{dt} (t^3 - 6t^2 + 9t) = 3t^2 - 12t + 9.\n   \\]\n   At \\( t = 2 \\):\n   \\[\n   v(2) = 3(2)^2 - 12(2) + 9 = 12 - 24 + 9 = -3 \\text{ m/s}.\n   \\]\n   (Negative velocity means the car is moving backward.)\n\n2. **Acceleration** is the derivative of velocity:\n   \\[\n   a(t) = v'(t) = 6t - 12.\n   \\]\n   At \\( t = 2 \\):\n   \\[\n   a(2) = 6(2) - 12 = 0 \\text{ m/s}^2.\n   \\]\n\n3. The car is at rest when \\( v(t) = 0 \\):\n   \\[\n   3t^2 - 12t + 9 = 0 \\implies t^2 - 4t + 3 = 0 \\implies (t - 1)(t - 3) = 0.\n   \\]\n   So, the car is at rest at \\( t = 1 \\) s and \\( t = 3 \\) s.\n\n---\n\n### **8. Why Derivatives Matter**\nThe derivative is a powerful tool because it:\n- **Quantifies change**: It tells us how a system responds to small perturbations (e.g., how a bridge deforms under load).\n- **Enables prediction**: By modeling rates of change, we can predict future behavior (e.g., stock prices, weather patterns).\n- **Optimizes solutions**: It helps find the best possible outcome (e.g., minimizing fuel consumption in a rocket launch).\n- **Connects disciplines**: From physics to economics, derivatives provide a common language for describing dynamic processes.\n\n---\n\n### **Summary**\nThe derivative is the mathematical embodiment of **instantaneous change**. It generalizes the idea of slope to curves, provides a precise way to measure how functions evolve, and serves as the backbone of calculus. Whether you\u2019re calculating the speed of a falling object, optimizing a business strategy, or modeling the spread of a virus, derivatives are indispensable for understanding and controlling the world around us.",
+      "jury_evaluation": {
+        "judges": {
+          "Qwen3-32B": {
+            "CC": 0.9,
+            "SA": 0.9,
+            "FC": 0.9
+          },
+          "Nemotron-Super-3-120B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          },
+          "GLM-5": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 1.0
+          }
+        },
+        "consensus": {
+          "CC": 0.975,
+          "SA": 0.95,
+          "FC": 0.9667,
+          "agreement_score": 0.9057,
+          "judge_variance_CC": 0.0471,
+          "judge_variance_SA": 0.0471,
+          "judge_variance_FC": 0.0471,
+          "judge_count": 3,
+          "recommendation": "ROBUST - Unanimous jury"
+        }
+      },
+      "score": 0.9633400000000001
+    },
+    {
+      "compression_level": 1.0,
+      "context_length": 134,
+      "response_length": 1046,
+      "response": "### **Comprehensive Explanation of the Derivative**\n\nThe **derivative** is a fundamental concept in calculus that measures how a function changes as its input (independent variable) changes. It provides a precise way to quantify the **instantaneous rate of change** of a function at any given point, much like how speed is the instantaneous rate of change of position with respect to time.\n\n---\n\n## **1. Formal Definition of the Derivative**\nThe derivative of a function \\( f(x) \\) at a point \\( x \\) is defined as the limit of the **average rate of change** of the function over an interval as the interval approaches zero. Mathematically, this is expressed as:\n\n\\[\nf'(x) = \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}\n\\]\n\n- **\\( f(x + h) - f(x) \\)** represents the change in the function's output (the \"rise\").\n- **\\( h \\)** represents the change in the input (the \"run\").\n- The **limit as \\( h \\to 0 \\)** ensures that we capture the **instantaneous** rate of change rather than an average over a finite interval.\n\nIf this limit exists, the function is said to be **differentiable** at \\( x \\), and \\( f'(x) \\) is the derivative at that point.\n\n---\n\n## **2. Geometric Interpretation: The Slope of the Tangent Line**\nThe derivative has a clear geometric meaning:\n- The graph of a function \\( y = f(x) \\) is a curve.\n- The **tangent line** to the curve at a point \\( x \\) is the straight line that just \"touches\" the curve at that point, matching its direction.\n- The **slope of this tangent line** is exactly the derivative \\( f'(x) \\).\n\nFor example:\n- If \\( f'(x) = 2 \\), the tangent line at \\( x \\) has a slope of 2, meaning the function is increasing at that point.\n- If \\( f'(x) = -1 \\), the tangent line slopes downward, indicating a decrease.\n- If \\( f'(x) = 0 \\), the tangent line is horizontal, suggesting a possible local maximum, minimum, or inflection point.\n\n---\n\n## **3. Key Properties and Rules of Differentiation**\nDerivatives follow several important rules that make computation easier:\n\n### **(a) Linearity of the Derivative**\nThe derivative operator is **linear**, meaning:\n1. **Constant Multiple Rule**:\n   \\[\n   \\frac{d}{dx} [c \\cdot f(x)] = c \\cdot f'(x) \\quad \\text{(where \\( c \\) is a constant)}\n   \\]\n2. **Sum/Difference Rule**:\n   \\[\n   \\frac{d}{dx} [f(x) \\pm g(x)] = f'(x) \\pm g'(x)\n   \\]\n\n### **(b) Product Rule**\nFor two functions multiplied together:\n\\[\n\\frac{d}{dx} [f(x) \\cdot g(x)] = f'(x) \\cdot g(x) + f(x) \\cdot g'(x)\n\\]\n\n### **(c) Quotient Rule**\nFor a ratio of two functions:\n\\[\n\\frac{d}{dx} \\left[ \\frac{f(x)}{g(x)} \\right] = \\frac{f'(x) \\cdot g(x) - f(x) \\cdot g'(x)}{[g(x)]^2}\n\\]\n\n### **(d) Chain Rule (for Composite Functions)**\nIf a function is composed of another function (e.g., \\( f(g(x)) \\)), its derivative is:\n\\[\n\\frac{d}{dx} f(g(x)) = f'(g(x)) \\cdot g'(x)\n\\]\nThis rule is essential for differentiating complex functions like \\( \\sin(3x^2) \\) or \\( e^{5x} \\).\n\n---\n\n## **4. Physical and Real-World Applications**\nDerivatives are not just abstract mathematical tools\u2014they have **practical applications** in many fields:\n\n### **(a) Physics**\n- **Velocity** is the derivative of **position** with respect to time:\n  \\[\n  v(t) = \\frac{ds}{dt}\n  \\]\n- **Acceleration** is the derivative of **velocity** (or the second derivative of position):\n  \\[\n  a(t) = \\frac{dv}{dt} = \\frac{d^2 s}{dt^2}\n  \\]\n- **Current** in an electrical circuit is the derivative of **charge** with respect to time:\n  \\[\n  I(t) = \\frac{dQ}{dt}\n  \\]\n\n### **(b) Engineering**\n- **Rates of change** in systems (e.g., temperature change in a reactor, stress in materials).\n- **Control systems** use derivatives to predict and adjust behavior (e.g., PID controllers in robotics).\n\n### **(c) Economics**\n- **Marginal cost** is the derivative of the **total cost** function with respect to quantity:\n  \\[\n  MC = \\frac{dC}{dq}\n  \\]\n- **Marginal revenue** and **marginal profit** are similarly defined.\n\n### **(d) Optimization Problems**\n- Derivatives help find **maxima and minima** of functions (e.g., maximizing profit, minimizing cost).\n- **Critical points** (where \\( f'(x) = 0 \\) or \\( f'(x) \\) is undefined) are used to determine optimal solutions.\n\n### **(e) Biology and Medicine**\n- **Growth rates** of populations or tumors.\n- **Drug concentration** in the bloodstream over time.\n\n---\n\n## **5. Higher-Order Derivatives**\nThe **first derivative** \\( f'(x) \\) describes the **rate of change** of \\( f(x) \\).\nThe **second derivative** \\( f''(x) \\) (the derivative of \\( f'(x) \\)) describes the **rate of change of the rate of change**, which has important interpretations:\n- **Concavity**: If \\( f''(x) > 0 \\), the function is **concave up** (like a cup, \u222a), indicating acceleration.\n- If \\( f''(x) < 0 \\), the function is **concave down** (like a cap, \u2229), indicating deceleration.\n- **Inflection points** occur where \\( f''(x) = 0 \\) or changes sign.\n\n**Example in Physics:**\n- If \\( s(t) \\) is position, then:\n  - \\( v(t) = s'(t) \\) (velocity, first derivative).\n  - \\( a(t) = v'(t) = s''(t) \\) (acceleration, second derivative).\n\nHigher-order derivatives (third, fourth, etc.) are used in **Taylor series expansions** and advanced mathematical modeling.\n\n---\n\n## **6. When Does a Derivative Not Exist?**\nA function may **fail to have a derivative** at a point if:\n1. **Discontinuity**: The function has a jump, hole, or vertical asymptote at \\( x \\).\n2. **Sharp Corner/Cusp**: The function changes direction abruptly (e.g., \\( f(x) = |x| \\) at \\( x = 0 \\)).\n3. **Vertical Tangent**: The slope becomes infinite (e.g., \\( f(x) = \\sqrt[3]{x} \\) at \\( x = 0 \\)).\n\n---\n\n## **7. Summary: Why Are Derivatives Important?**\n- They provide a **precise way to measure change** in any system.\n- They are the foundation of **differential calculus**, which is essential for:\n  - **Modeling dynamic systems** (physics, engineering, biology).\n  - **Optimization** (finding best solutions in economics, machine learning).\n  - **Understanding rates of change** in real-world phenomena.\n- They connect **algebra and geometry** by relating functions to their tangent lines.\n\n### **Final Thought**\nThe derivative is like a **mathematical microscope**\u2014it zooms in on a function at a single point to reveal how it behaves at that exact moment. Whether calculating the speed of a falling object, optimizing a business strategy, or modeling the spread of a disease, derivatives are an indispensable tool in science, engineering, and beyond.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -141,67 +178,30 @@
           },
           "GLM-5": {
             "CC": 1.0,
-            "SA": 0.9,
+            "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
           "CC": 0.975,
-          "SA": 0.95,
+          "SA": 0.975,
           "FC": 0.9667,
-          "agreement_score": 0.9099,
+          "agreement_score": 0.9214,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.0408,
+          "judge_variance_SA": 0.0236,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9633400000000001
-    },
-    {
-      "compression_level": 1.0,
-      "context_length": 134,
-      "response_length": 1578,
-      "response": "### **Comprehensive Explanation of the Derivative**\n\nThe **derivative** is a fundamental concept in calculus that measures how a function changes as its input (independent variable) changes. It provides a precise way to quantify the **instantaneous rate of change** of a function at any given point, rather than an average rate of change over an interval. Below is a detailed breakdown of its definition, interpretation, key properties, and applications.\n\n---\n\n## **1. Formal Definition of the Derivative**\nThe derivative of a function \\( f(x) \\) at a point \\( x \\) is defined as the limit of the **difference quotient** as the interval \\( h \\) approaches zero:\n\n\\[\nf'(x) = \\lim_{h \\to 0} \\frac{f(x + h) - f(x)}{h}\n\\]\n\n### **Interpretation of the Difference Quotient**\n- The numerator \\( f(x + h) - f(x) \\) represents the **change in the function's output** when the input changes from \\( x \\) to \\( x + h \\).\n- The denominator \\( h \\) represents the **change in the input**.\n- The ratio \\( \\frac{f(x + h) - f(x)}{h} \\) is the **average rate of change** of \\( f \\) over the interval \\( [x, x + h] \\).\n- Taking the limit as \\( h \\to 0 \\) gives the **instantaneous rate of change** at \\( x \\), which is the derivative \\( f'(x) \\).\n\n### **Alternative Notation**\nThe derivative can also be written in several equivalent forms:\n- **Leibniz notation:** \\( \\frac{df}{dx} \\) or \\( \\frac{d}{dx} f(x) \\)\n- **Lagrange notation:** \\( f'(x) \\)\n- **Newton notation (for time derivatives):** \\( \\dot{f}(t) \\)\n\n---\n\n## **2. Geometric Interpretation: The Tangent Line**\nThe derivative \\( f'(x) \\) represents the **slope of the tangent line** to the graph of \\( f \\) at the point \\( (x, f(x)) \\).\n\n- **Secant Line vs. Tangent Line:**\n  - A **secant line** connects two points on the curve and has a slope equal to the average rate of change over an interval.\n  - As the two points get closer (i.e., \\( h \\to 0 \\)), the secant line approaches the **tangent line**, whose slope is the derivative.\n\n- **Equation of the Tangent Line:**\n  If \\( f \\) is differentiable at \\( x = a \\), the tangent line at \\( (a, f(a)) \\) is:\n  \\[\n  y = f(a) + f'(a)(x - a)\n  \\]\n\n---\n\n## **3. Key Properties and Rules of Differentiation**\nDerivatives follow several important rules that allow us to compute them efficiently for complex functions.\n\n### **(A) Linearity of the Derivative**\nThe derivative operator is **linear**, meaning:\n1. **Sum Rule:** \\( \\frac{d}{dx} [f(x) + g(x)] = f'(x) + g'(x) \\)\n2. **Constant Multiple Rule:** \\( \\frac{d}{dx} [c \\cdot f(x)] = c \\cdot f'(x) \\), where \\( c \\) is a constant.\n\n### **(B) Product Rule**\nFor two differentiable functions \\( u(x) \\) and \\( v(x) \\):\n\\[\n\\frac{d}{dx} [u(x) \\cdot v(x)] = u'(x) \\cdot v(x) + u(x) \\cdot v'(x)\n\\]\n\n### **(C) Quotient Rule**\nFor two differentiable functions \\( u(x) \\) and \\( v(x) \\) (where \\( v(x) \\neq 0 \\)):\n\\[\n\\frac{d}{dx} \\left[ \\frac{u(x)}{v(x)} \\right] = \\frac{u'(x) \\cdot v(x) - u(x) \\cdot v'(x)}{[v(x)]^2}\n\\]\n\n### **(D) Chain Rule (for Composite Functions)**\nIf \\( y = f(u) \\) and \\( u = g(x) \\), then:\n\\[\n\\frac{dy}{dx} = \\frac{dy}{du} \\cdot \\frac{du}{dx} = f'(g(x)) \\cdot g'(x)\n\\]\nThis rule is essential for differentiating nested functions (e.g., \\( \\sin(x^2) \\), \\( e^{3x} \\)).\n\n### **(E) Power Rule**\nFor any real number \\( n \\):\n\\[\n\\frac{d}{dx} [x^n] = n x^{n-1}\n\\]\n\n### **(F) Derivatives of Common Functions**\n| Function \\( f(x) \\) | Derivative \\( f'(x) \\) |\n|---------------------|------------------------|\n| \\( c \\) (constant)  | \\( 0 \\)                |\n| \\( x \\)             | \\( 1 \\)                |\n| \\( x^n \\)           | \\( n x^{n-1} \\)        |\n| \\( e^x \\)           | \\( e^x \\)              |\n| \\( a^x \\)           | \\( a^x \\ln(a) \\)       |\n| \\( \\ln(x) \\)        | \\( \\frac{1}{x} \\)      |\n| \\( \\sin(x) \\)       | \\( \\cos(x) \\)          |\n| \\( \\cos(x) \\)       | \\( -\\sin(x) \\)         |\n| \\( \\tan(x) \\)       | \\( \\sec^2(x) \\)        |\n\n---\n\n## **4. Higher-Order Derivatives**\nThe derivative of a derivative is called a **higher-order derivative**:\n- **First derivative (\\( f'(x) \\)):** Rate of change of \\( f \\).\n- **Second derivative (\\( f''(x) \\)):** Rate of change of \\( f' \\) (e.g., acceleration in physics).\n- **Third derivative (\\( f'''(x) \\)):** Rate of change of \\( f'' \\), and so on.\n\n### **Interpretations of Higher-Order Derivatives**\n- **Second derivative (\\( f''(x) \\)):**\n  - Measures **concavity** (how the curve bends).\n  - If \\( f''(x) > 0 \\), the function is **concave up** (like a cup).\n  - If \\( f''(x) < 0 \\), the function is **concave down** (like a frown).\n  - In physics, it represents **acceleration** (derivative of velocity).\n\n- **Third derivative (\\( f'''(x) \\)):**\n  - In physics, it can represent **jerk** (rate of change of acceleration).\n\n---\n\n## **5. Applications of Derivatives**\nDerivatives are used across science, engineering, economics, and beyond to model dynamic systems.\n\n### **(A) Physics**\n- **Velocity:** The derivative of **position** with respect to time.\n  \\[\n  v(t) = \\frac{ds}{dt}\n  \\]\n- **Acceleration:** The derivative of **velocity** (or second derivative of position).\n  \\[\n  a(t) = \\frac{dv}{dt} = \\frac{d^2 s}{dt^2}\n  \\]\n- **Jerk:** The derivative of acceleration.\n  \\[\n  j(t) = \\frac{da}{dt}\n  \\]\n\n### **(B) Engineering**\n- **Rates of change in systems** (e.g., heat flow, fluid dynamics).\n- **Control theory** (e.g., PID controllers use derivatives for stability).\n\n### **(C) Economics**\n- **Marginal cost:** The derivative of the **total cost function** with respect to quantity.\n  \\[\n  MC = \\frac{dC}{dq}\n  \\]\n- **Marginal revenue:** The derivative of the **revenue function**.\n  \\[\n  MR = \\frac{dR}{dq}\n  \\]\n- **Elasticity of demand:** Measures how sensitive demand is to price changes.\n\n### **(D) Optimization**\n- **Finding maxima and minima:**\n  - If \\( f'(x) = 0 \\), \\( x \\) is a **critical point** (potential max/min).\n  - The **second derivative test** helps determine if it's a max (\\( f''(x) < 0 \\)) or min (\\( f''(x) > 0 \\)).\n\n### **(E) Biology & Medicine**\n- **Growth rates** (e.g., bacterial population growth).\n- **Drug concentration** over time in pharmacokinetics.\n\n### **(F) Computer Science**\n- **Gradient descent** (used in machine learning to minimize loss functions).\n- **Automatic differentiation** (computing derivatives efficiently in neural networks).\n\n---\n\n## **6. When Does a Derivative Not Exist?**\nA function is **not differentiable** at a point if:\n1. **Discontinuity:** The function has a jump, hole, or vertical asymptote at \\( x \\).\n2. **Sharp corner (cusp):** The left and right derivatives are not equal (e.g., \\( f(x) = |x| \\) at \\( x = 0 \\)).\n3. **Vertical tangent line:** The slope becomes infinite (e.g., \\( f(x) = \\sqrt[3]{x} \\) at \\( x = 0 \\)).\n\n---\n\n## **7. Summary of Key Concepts**\n| Concept | Explanation |\n|---------|-------------|\n| **Derivative** | Instantaneous rate of change of a function. |\n| **Difference Quotient** | Average rate of change over an interval. |\n| **Tangent Line** | Line that touches the curve at a point with slope \\( f'(x) \\). |\n| **Linearity** | Derivatives distribute over addition and scalar multiplication. |\n| **Product Rule** | Derivative of a product is \\( (uv)' = u'v + uv' \\). |\n| **Quotient Rule** | Derivative of a quotient is \\( \\left( \\frac{u}{v} \\right)' = \\frac{u'v - uv'}{v^2} \\). |\n| **Chain Rule** | Derivative of a composite function is \\( (f(g(x)))' = f'(g(x)) \\cdot g'(x) \\). |\n| **Higher-Order Derivatives** | Second derivative (\\( f'' \\)) measures concavity/acceleration. |\n| **Applications** | Physics (velocity, acceleration), economics (marginal cost), optimization, etc. |\n\n---\n\n## **8. Example Problems**\n### **Example 1: Basic Differentiation**\nFind the derivative of \\( f(x) = 3x^2 + 2x - 5 \\).\n\n**Solution:**\nUsing the power rule and linearity:\n\\[\nf'(x) = \\frac{d}{dx}(3x^2) + \\frac{d}{dx}(2x) + \\frac{d}{dx}(-5) = 6x + 2 + 0 = 6x + 2\n\\]\n\n### **Example 2: Product Rule**\nFind the derivative of \\( f(x) = x^2 \\sin(x) \\).\n\n**Solution:**\nUsing the product rule:\n\\[\nf'(x) = \\frac{d}{dx}(x^2) \\cdot \\sin(x) + x^2 \\cdot \\frac{d}{dx}(\\sin(x)) = 2x \\sin(x) + x^2 \\cos(x)\n\\]\n\n### **Example 3: Chain Rule**\nFind the derivative of \\( f(x) = \\sin(3x^2) \\).\n\n**Solution:**\nLet \\( u = 3x^2 \\), then \\( f(x) = \\sin(u) \\).\n\\[\nf'(x) = \\cos(u) \\cdot \\frac{du}{dx} = \\cos(3x^2) \\cdot 6x = 6x \\cos(3x^2)\n\\]\n\n### **Example 4: Optimization**\nFind the maximum area of a rectangle with a perimeter of 20.\n\n**Solution:**\nLet length = \\( l \\), width = \\( w \\). Perimeter \\( P = 2l + 2w = 20 \\), so \\( w = 10 - l \\).\nArea \\( A = l \\cdot w = l(10 - l) = 10l - l^2 \\).\nTo maximize \\( A \\), set \\( A' = 0 \\):\n\\[\nA' = 10 - 2l = 0 \\implies l = 5\n\\]\nThen \\( w = 5 \\), so the maximum area is \\( 5 \\times 5 = 25 \\).\n\n---\n\n## **9. Conclusion**\nThe derivative is a powerful tool that bridges the gap between **algebra** (static relationships) and **calculus** (dynamic change). It provides a rigorous way to:\n- Measure **instantaneous rates of change** (e.g., velocity, marginal cost).\n- Find **slopes of tangent lines** (geometric interpretation).\n- Solve **optimization problems** (finding maxima/minima).\n- Model **real-world phenomena** in physics, engineering, economics, and beyond.\n\nUnderstanding derivatives is essential for advanced mathematics, scientific modeling, and data-driven decision-making.",
-      "jury_evaluation": {
-        "judges": {
-          "Qwen3-32B": {
-            "CC": 1.0,
-            "SA": 0.95,
-            "FC": 1.0
-          },
-          "Nemotron-Super-3-120B": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 1.0
-          },
-          "GLM-5": {
-            "CC": 1.0,
-            "SA": 1.0,
-            "FC": 1.0
-          }
-        },
-        "consensus": {
-          "CC": 1.0,
-          "SA": 0.975,
-          "FC": 1.0,
-          "agreement_score": 0.9843,
-          "judge_variance_CC": 0.0,
-          "judge_variance_SA": 0.0236,
-          "judge_variance_FC": 0.0,
-          "judge_count": 3,
-          "recommendation": "ROBUST - Unanimous jury"
-        }
-      },
-      "score": 0.99
+      "score": 0.9733400000000001
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.834004,
-    "mean_agreement": 0.8988400000000001,
+    "mean_score": 0.8306720000000001,
+    "mean_agreement": 0.8961399999999999,
     "decay_direction": "\u2193 Graceful (expected)",
     "compression_levels": [
       0.0,
@@ -212,17 +212,17 @@
     ],
     "scores": [
       1.0,
-      0.8133400000000002,
-      0.4033400000000001,
+      0.83334,
+      0.38334000000000007,
       0.9633400000000001,
-      0.99
+      0.9733400000000001
     ],
     "agreement_scores": [
       1.0,
-      0.854,
-      0.746,
-      0.9099,
-      0.9843
+      0.831,
+      0.8226,
+      0.9057,
+      0.9214
     ]
   }
 }

@@ -1,0 +1,45 @@
+{
+  "key": 1137,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "heal body, json",
+  "compressed_word_count": 3,
+  "response": "Certainly! Below is an example of a JSON object that represents a \"heal body\" action in a hypothetical game or application. This JSON could be used to describe the details of the action, including its effects, requirements, and any other relevant information.\n\n```json\n{\n  \"action\": {\n    \"name\": \"Heal Body\",\n    \"description\": \"Restores a portion of the target's health.\",\n    \"type\": \"healing\",\n    \"target\": \"self or ally\",\n    \"cooldown\": 10,\n    \"mana_cost\": 20,\n    \"health_restored\": 100,\n    \"effects\": [\n      {\n        \"name\": \"Regeneration\",\n        \"duration\": 5,\n        \"amount\": 10\n      }\n    ],\n    \"requirements\": {\n      \"level\": 5,\n      \"class\": [\"Cleric\", \"Druid\"]\n    },\n    \"icon\": \"https://example.com/icons/heal_body.png\"\n  }\n}\n```\n\n### Explanation of Fields:\n\n- **name**: The name of the action.\n- **description**: A brief description of what the action does.\n- **type**: The type of action (e.g., healing, damage, buff).\n- **target**: Who can be targeted by this action (self, ally, enemy).\n- **cooldown**: The number of seconds you must wait before using this action again.\n- **mana_cost**: The amount of mana required to use this action.\n- **health_restored**: The amount of health points restored by this action.\n- **effects**: An array of additional effects applied by this action.\n  - **name**: The name of the effect.\n  - **duration**: How long the effect lasts (in seconds).\n  - **amount**: The magnitude of the effect.\n- **requirements**: Conditions that must be met to use this action.\n  - **level**: The minimum level required.\n  - **class**: The character classes that can use this action.\n- **icon**: A URL to an icon representing this action.\n\nThis JSON structure can be extended or modified based on the specific needs of your application or game.",
+  "response_word_count": 261,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

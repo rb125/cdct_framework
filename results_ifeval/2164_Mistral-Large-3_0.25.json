@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "latex squeaker for all dogs, [placeholders]",
+  "compressed_word_count": 6,
+  "response": "Here\u2019s a LaTeX template for a **\"Squeaker for All Dogs\"** document with placeholders (`[placeholders]`) that you can customize:\n\n```latex\n\\documentclass{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage{graphicx} % For images\n\\usepackage{hyperref} % For links\n\n\\title{[Squeaker Product Name]}\n\\author{[Your Name/Company]}\n\\date{[Date]}\n\n\\begin{document}\n\n\\maketitle\n\n\\section*{Product Description}\nThe \\textbf{[Squeaker for All Dogs]} is designed for dogs of all sizes and breeds. It features:\n\\begin{itemize}\n    \\item \\textbf{Durable Material}: [Describe material, e.g., \"High-quality rubber for long-lasting play\"].\n    \\item \\textbf{Adjustable Sound}: [Specify sound options, e.g., \"High-pitched squeak for small dogs, low-pitch for large breeds\"].\n    \\item \\textbf{Safety}: [Safety features, e.g., \"Non-toxic, BPA-free, and chew-resistant\"].\n    \\item \\textbf{Size Options}: [List sizes, e.g., \"Small (3\"), Medium (5\"), Large (7\")\"].\n\\end{itemize}\n\n\\section*{Usage Instructions}\n\\begin{enumerate}\n    \\item \\textbf{Supervise Play}: Always monitor your dog while using the squeaker.\n    \\item \\textbf{Clean Regularly}: [Cleaning instructions, e.g., \"Wipe with damp cloth; avoid submerging in water\"].\n    \\item \\textbf{Replace if Damaged}: Discard if torn to prevent choking hazards.\n\\end{enumerate}\n\n\\section*{Benefits}\n\\begin{itemize}\n    \\item Encourages active play and mental stimulation.\n    \\item Suitable for [list dog types, e.g., \"puppies, seniors, aggressive chewers\"].\n    \\item [Other benefits, e.g., \"Easy to carry for travel\"].\n\\end{itemize}\n\n\\section*{Customer Reviews}\n\\begin{quote}\n    \\textit{\"[Review quote, e.g., 'My Labrador loves it! The squeak lasts even after heavy chewing.']\"} -- [Customer Name]\n\\end{quote}\n\n\\section*{Where to Buy}\nAvailable at:\n\\begin{itemize}\n    \\item \\textbf{Online}: [Link to website/store, e.g., \\url{https://example.com}].\n    \\item \\textbf{Retail}: [List stores, e.g., \"PetSmart, Amazon, local pet shops\"].\n\\end{itemize}\n\n\\section*{Contact}\nFor questions, email: \\href{mailto:[email]}{[email]} or call: [phone number].\n\n\\end{document}\n```\n\n### How to Use:\n1. Replace `[placeholders]` with your product details (e.g., material, sizes, links).\n2. Compile with a LaTeX editor (e.g., Overleaf, TeXShop).\n3. Add images using `\\includegraphics[width=0.5\\textwidth]{image.jpg}` if needed.\n\n### Example Customization:\n- **Title**: \"Ultra-Squeak Dog Toy\"\n- **Material**: \"Natural rubber with reinforced seams\"\n- **Sound**: \"Dual-tone squeaker for all breeds\"",
+  "response_word_count": 284,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

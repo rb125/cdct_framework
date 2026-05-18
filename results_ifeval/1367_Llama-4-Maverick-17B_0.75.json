@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Create an elaborate java learning session plan. Include a postscript beginning with 'P.P.S'. No commas in formal tone.",
+  "compressed_word_count": 18,
+  "response": "**Java Learning Session Plan**\n\n**Session Objective**\nTo provide a comprehensive understanding of Java programming language to beginners and intermediate learners.\n\n**Session Outline**\n\n1. **Introduction to Java**\n   - Overview of Java history and features\n   - Setting up Java development environment\n   - Understanding Java syntax and basic data types\n\n2. **Java Fundamentals**\n   - Variables and data types\n   - Operators and control structures\n   - Methods and functions\n\n3. **Object-Oriented Programming in Java**\n   - Classes and objects\n   - Constructors and destructors\n   - Inheritance and polymorphism\n\n4. **Java Advanced Topics**\n   - Exception handling\n   - File input/output and serialization\n   - Multithreading and concurrency\n\n5. **Java Collections Framework**\n   - Overview of Java Collections Framework\n   - Lists and sets\n   - Maps and queues\n\n6. **Java Best Practices and Design Patterns**\n   - Coding standards and conventions\n   - Design patterns and principles\n\n7. **Project Development**\n   - Developing a real-world Java application\n   - Applying learned concepts to the project\n\n**Session Schedule**\nThe session will be conducted over 8 weeks with 2 hours of instruction per week.\n\n**Assessment and Evaluation**\n- Quizzes and assignments will be given at the end of each week\n- A final project will be evaluated at the end of the session\n\n**Resources**\n- Java Development Kit (JDK)\n- Integrated Development Environment (IDE) such as Eclipse or IntelliJ IDEA\n- Online resources and documentation\n\n**Postscript**\nThe session plan is designed to be flexible and can be adjusted according to the learners' progress.\n\nP.P.S Prospective learners are advised to have a basic understanding of programming concepts before enrolling in this session.",
+  "response_word_count": 252,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7999999999999999,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.21602468994692867,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

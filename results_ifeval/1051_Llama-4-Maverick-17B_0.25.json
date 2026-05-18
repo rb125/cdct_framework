@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "letter to friend, no caps, urge vote",
+  "compressed_word_count": 7,
+  "response": "dear friend,\n\ni just wanted to take a moment to remind you how important it is to make your voice heard in the upcoming election. every vote matters, and i truly believe that your vote can make a difference.\n\ni know it can be easy to feel overwhelmed or disconnected from the process, but i urge you to take a few minutes to research the candidates and issues on the ballot. there are so many ways to get informed, from online resources to local debates and forums.\n\nonce you've made your decision, be sure to cast your ballot on election day. whether you're voting in person or by mail, make sure to follow the instructions carefully and get your vote in on time.\n\ni'm not asking you to vote for a specific candidate or party - just to exercise your right to have a say in the direction of our community. it's a fundamental part of being a citizen, and it's so important that we all participate.\n\nso, please, take a few minutes to make your plan to vote. it's a small action that can have a big impact.\n\nbest,\n[your name]",
+  "response_word_count": 192,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

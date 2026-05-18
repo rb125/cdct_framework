@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create forum thread with short sentences no commas use [username] placeholders min 20 users",
+  "compressed_word_count": 14,
+  "response": "Here is a forum thread with short sentences no commas and [username] placeholders:\n\n**Thread Title:** New Game Released Today\n\n**[GameLover23]** New game is out now\n**[TechNoLogic]** I just preordered it yesterday\n**[ProGamer90]** Cant wait to play it on my PS4\n**[Newbie101]** What is this game about\n**[GameDev88]** Its an open world adventure game\n**[Xx_NoScope_xX]** Just got my beta key today\n**[FPSmaster22]** This game is going to be so lit\n**[RetroRevival]** I hope they include some classic levels\n**[SpeedRunner33]** Im going to try to beat it in under an hour\n**[DarkLord77]** Mwahahaha this game is going to be so dark\n**[CryBaby22]** Im so hyped for this game\n**[SkepticalSam]** I dont know if I will like it\n**[GamerGirl88]** Just got my preorder bonus\n**[PCmaster90]** My rig is ready to run it\n**[XboxOneFan]** Why is it not on Xbox One\n**[PlayStationFan42]** PS4 is the best console anyway\n**[NintendoNerd]** I wish it was on Switch instead\n**[Collector99]** Im going to buy the collector's edition\n**[BudgetGamer11]** Is there a discount for students\n**[SaleSeeker22]** Check out the online store for deals\n**[EarlyRiser44]** Just woke up to play it now\n**[NightOwl55]** Im staying up all night to play it",
+  "response_word_count": 192,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3,
+      "SA": 0.3333333333333333,
+      "FC": 0.5,
+      "judge_variance_CC": 0.42426406871192857,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

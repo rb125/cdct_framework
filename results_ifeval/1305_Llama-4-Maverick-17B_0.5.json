@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Generate 10 baby boy names, bullet-point style. P.P.S: add a note starting with 'p.p.s.'",
+  "compressed_word_count": 14,
+  "response": "Here are 10 baby boy names:\n* Alexander\n* Benjamin\n* Christopher\n* Dominic\n* Elijah\n* Felix\n* Gabriel\n* Henry\n* Lucas\n* Oliver\n\nP.P.S. These names are a mix of classic and timeless choices that are popular across various cultures.",
+  "response_word_count": 43,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

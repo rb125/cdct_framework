@@ -1,0 +1,43 @@
+{
+  "key": 1620,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft email to introduce luheng to lilith album; p.s. add brief note",
+  "compressed_word_count": 12,
+  "response": "**Subject:** Introducing Luheng\u2019s New Album: *Lilith*  \n\nHi [Recipient's Name],  \n\nI hope this message finds you well. I\u2019m excited to introduce you to Luheng\u2019s latest album, *Lilith*, which I believe will resonate with you.  \n\n*Lilith* is a captivating blend of ethereal soundscapes and introspective lyricism, exploring themes of identity, transformation, and empowerment. Luheng\u2019s artistry shines through in every track, creating an immersive experience that feels both personal and universal.  \n\nIf you\u2019re in the mood for something fresh and thought-provoking, I highly recommend giving it a listen. You can find the album [here](link to album) or on your preferred streaming platform.  \n\nLet me know what you think\u2014I\u2019d love to hear your thoughts!  \n\nBest regards,  \n[Your Name]  \n\n---  \n**P.S.** \u2014 If you enjoy atmospheric, genre-blending music with a poetic touch, *Lilith* might just become your new favorite.",
+  "response_word_count": 134,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.5,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.408248290463863,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

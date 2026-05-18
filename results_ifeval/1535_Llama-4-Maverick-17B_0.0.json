@@ -1,0 +1,45 @@
+{
+  "key": 1535,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "cover letter, no caps",
+  "compressed_word_count": 4,
+  "response": "here is a sample cover letter in all lowercase:\n\ndear [hiring manager's name],\n\ni am writing to express my interest in the [position] role at [company name]. i came across the job listing on [job board] and was excited to see that [company name] is looking for someone with my skills and experience.\n\nwith [number] years of experience in [industry/field], i possess a strong background in [key skills or qualifications]. my most recent position at [previous company] has given me the opportunity to develop my skills in [specific skills or areas of expertise]. i am confident that my expertise and passion for [industry/field] make me an ideal candidate for this role.\n\ni am particularly drawn to [company name] because of its [reputation, mission, or values that resonate with you]. as someone who is [personal quality or trait], i am excited about the prospect of joining a team that shares my values and is committed to [related goal or initiative].\n\nin addition to my skills and experience, i bring a strong work ethic and a willingness to learn and grow with the company. i am excited about the opportunity to contribute to [company name] and be a part of a team that is making a positive impact in [industry/field].\n\nthank you for considering my application. i would be thrilled to discuss my qualifications further and explain in greater detail why i am the ideal candidate for this role. please feel free to contact me at [your contact information].\n\nsincerely,\n[your name]",
+  "response_word_count": 250,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_sentences_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

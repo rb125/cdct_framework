@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft a resume for a first-time job seeker with 12 placeholders like [name], [address], [skills], no commas in formal tone",
+  "compressed_word_count": 20,
+  "response": "[name] \n[address] \n[phone number] \n[email address]\n\nObjective: \nAspiring professional seeking an entry-level position to leverage my education and skills in [industry/field]. Eager to contribute to a dynamic team and grow within the organization.\n\nEducation: \n[degree] in [major] \n[university name] [graduation year]\n\nSkills: \n[skill 1] \n[skill 2] \n[skill 3] \n[skill 4]\n\nCertifications: \n[certification 1] \n[certification 2]\n\nProjects: \n[project title] \n[brief description of project and your role]\n\nInternships: \n[company name] [position title] [dates of employment] \n[brief description of duties and achievements]\n\nVolunteer Experience: \n[organization name] [position title] [dates of involvement] \n[brief description of responsibilities and impact]\n\nExtracurricular Activities: \n[activity 1] \n[activity 2]\n\nReferences: \nAvailable upon request",
+  "response_word_count": 104,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.7999999999999999,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.21602468994692867
+    }
+  }
+}

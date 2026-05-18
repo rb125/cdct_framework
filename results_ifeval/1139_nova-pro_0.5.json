@@ -1,0 +1,45 @@
+{
+  "key": 1139,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "write a funny haiku about moms, containing keywords \"mom\" and \"mother\" in your response.\nfunny haiku on moms, \"mom\" & \"mother",
+  "compressed_word_count": 21,
+  "response": "In haiku form,\nMom's love, a comic storm,\nMother's quirky charm.",
+  "response_word_count": 11,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a detailed review of the movie \"The Social Network\". Your entire response should be in English and all lower case (no capital letters whatsoever).",
+  "compressed_word_count": 25,
+  "response": "\"the social network\" is a thought-provoking film that delves into the complexities of the human mind, ambition, and the consequences of success. directed by david fincher, the movie is based on the true story of mark zuckerberg, the co-founder and ceo of facebook, and the events that led to the creation of the social media giant.\n\nthe film begins with mark zuckerberg (played by jesse eisenberg), a sophomore at harvard university, who is dumped by his girlfriend, erica albright (played by rachel a. rowe). this rejection sparks mark's idea to create a website that allows users to compare the photos of two students and vote on which one is more attractive. the website, initially called \"facemash,\" becomes an instant hit, but also gets mark into trouble with the university administration.\n\nmark's success with facemash catches the attention of twin brothers, cameron and tyler winklevoss (played by armie hammer), who are part of harvard's elite rowing team. they approach mark with an idea to create a social networking site exclusively for harvard students, and mark agrees to help them. however, mark's vision for the site diverges from the winklevoss brothers', and he eventually creates his own version, which he calls \"thefacebook.\"\n\nas thefacebook gains popularity, mark is joined by his friend eduardo saverin (played by andrew garfield), and later by sean parker (played by justin timberlake), the co-founder of napster. the film explores the complex relationships between these characters, and the consequences of their actions.\n\none of the standout aspects of \"the social network\" is its cinematography. the film's use of muted colors and a mix of close-ups and wide shots creates a sense of intimacy and isolation, reflecting the characters' emotional states. the score, composed by trent reznor and atticus ross, is equally impressive, adding to the film's tense and unsettling atmosphere.\n\nthe performances in the film are also noteworthy. jesse eisenberg brings a nuanced complexity to mark zuckerberg, capturing his intelligence, ambition, and awkwardness. andrew garfield is equally impressive as eduardo saverin, conveying the character's charm, naivety, and vulnerability. justin timberlake's portrayal of sean parker is also memorable, bringing a sense of charisma and unpredictability to the character.\n\nthe film's exploration of themes such as ambition, friendship, and the consequences of success is thought-provoking and timely. \"the social network\" raises important questions about the nature of social media, and the impact it has on our lives. it also highlights the complexities of the human mind, and the ways in which our actions can have unintended consequences.\n\noverall, \"the social network\" is a gripping and thought-provoking film that is both entertaining and intellectually stimulating. it's a must-see for anyone interested in the story behind one of the world's most influential social media platforms, and the complex characters that shaped it.",
+  "response_word_count": 460,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

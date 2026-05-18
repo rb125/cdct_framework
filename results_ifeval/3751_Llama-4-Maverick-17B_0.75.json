@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "verify if \"happy birthday\" was the first song sung in space; confirm with \"my answer is yes,\" \"no,\" or \"maybe.",
+  "compressed_word_count": 20,
+  "response": "\"Happy Birthday\" was sung in space on August 8, 1991, by the astronauts on the Space Shuttle Columbia, but it was not the first song sung in space. The first song sung in space was \"Dixie,\" sung by the astronauts on Gemini 6 in 1965, or possibly other songs on earlier missions. However, a more verified first song is \"Jingle Bells,\" sung by the astronauts on Gemini 6 in 1965.\n\nMy answer is no.",
+  "response_word_count": 74,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

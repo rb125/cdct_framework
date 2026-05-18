@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nalternative product descriptions for edible food wrap paper",
+  "compressed_word_count": 31,
+  "response": "Of course. Here are two alternative product descriptions for edible food wrap paper, each with a distinct tone and focus.\n\n### **Alternative 1: The Modern & Sustainable Choice**\n\n**Title: SavourWrap \u2013 The Wrap That Becomes Part of the Meal.**\n\n**Description:**\nTired of unwrapping your food only to throw the wrapper away? Meet SavourWrap, the revolutionary edible paper that eliminates waste and adds a touch of culinary creativity. Made from all-natural, plant-based ingredients, this sturdy yet pliable sheet is designed to keep your sandwiches, snacks, and leftovers fresh. When you're ready to eat, simply take a bite\u2014the subtly sweet, rice-paper-like texture complements your food without overpowering it. Perfect for eco-conscious households, zero-waste picnics, and innovative chefs looking to create stunning, package-free presentations. Wrap, Seal, Savour. It\u2019s the future of food packaging, and it\u2019s delicious.\n\n**Key Highlights:**\n*   **Zero-Waste Wonder:** The packaging *is* the food. No more trash.\n*   **All-Natural & Tasty:** Made from simple, recognizable ingredients with a neutral, pleasant flavor.\n*   **Functional & Strong:** Holds its shape, locks in moisture, and protects your food.\n*   **Culinary Canvas:** Ideal for homemade lunch wraps, party appetizers, and artistic plating.\n\n---\n\n### **Alternative 2: The Fun & Innovative Choice**\n\n**Title: NOM NOM WRAPS \u2013 The Edible Food Paper You Can Eat!**\n\n**Description:**\nUnwrap a whole new experience! NOM NOM WRAPS turn the boring act of unwrapping into the most fun part of your snack. Imagine a lunchbox where the wrapper is a tasty, rice-style paper that you can munch right along with your sandwich or veggies. No fuss, no mess, no guilt! Kids love the novelty, and parents love ditching single-use plastic. Great for on-the-go snacks, lunchbox surprises, and making any meal an interactive adventure. Is it a wrap? Is it a snack? It\u2019s both! Don't just unwrap your food\u2014eat the evidence.\n\n**Key Highlights:**\n*   **The Ultimate Fun Food:** Makes meals exciting and interactive for all ages.\n*   **Lunchbox Game-Changer:** A surprise that turns any packed lunch into a treat.\n*   **No-Mess Convenience:** Enjoy your food without peeling away layers of plastic or foil.\n*   **Playful & Practical:** Strong enough to hold your food, delicious enough to eat on its own.",
+  "response_word_count": 358,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

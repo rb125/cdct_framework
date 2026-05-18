@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "create a 4-point rubric for home theater targeting moms:\n* sound quality\n* ease of setup\n* child-friendly features\n* overall value",
+  "compressed_word_count": 22,
+  "response": "Here\u2019s a **4-point rubric** for evaluating home theater systems targeting **moms**, focusing on key priorities like **sound quality, ease of setup, child-friendly features, and overall value**.\n\n---\n\n### **Home Theater Rubric for Moms**\n*(Scale: 1 = Poor, 2 = Fair, 3 = Good, 4 = Excellent)*\n\n| **Criteria**            | **1 (Poor)**                                                                 | **2 (Fair)**                                                                 | **3 (Good)**                                                                 | **4 (Excellent)**                                                                 |\n|-------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------|\n| **Sound Quality**       | Tinny, muffled, or distorted sound; lacks bass/clarity.                    | Basic sound; some clarity but weak bass or uneven volume.                  | Clear, balanced sound with decent bass; immersive for movies/music.        | Rich, dynamic sound with deep bass, crisp highs, and room-filling audio.        |\n| **Ease of Setup**       | Complicated instructions; requires professional help or multiple tools.    | Somewhat confusing; takes time but doable with patience.                   | Straightforward; clear instructions, minimal tools needed.                 | Plug-and-play or intuitive setup; mom-friendly (e.g., wireless, voice control). |\n| **Child-Friendly Features** | No safety features; fragile or sharp edges; loud/distracting for kids. | Basic safety (e.g., rounded edges) but no kid-specific features.           | Durable, safe design; volume-limiting or parental controls included.       | Robust, toddler-proof; features like Bluetooth headphone support, quiet mode, or educational content. |\n| **Overall Value**       | Overpriced for features; poor quality or frequent issues.                  | Decent price but lacks standout features; some compromises.                | Good balance of price and performance; meets most needs.                   | Excellent price-to-quality ratio; includes extras (e.g., warranty, accessories). |\n\n---\n\n### **How to Use This Rubric:**\n1. **Score each category** (1\u20134) based on the product\u2019s performance.\n2. **Add the scores** (max 16 points) to compare options.\n3. **Prioritize categories** based on moms\u2019 needs (e.g., *ease of setup* and *child-friendly* may weigh more than *sound quality* for some).\n\n### **Example Scoring:**\n- **Product A**: Sound (3) + Setup (4) + Child-Friendly (2) + Value (3) = **12/16** (Good for tech-savvy moms).\n- **Product B**: Sound (2) + Setup (3) + Child-Friendly (4) + Value (4) = **13/16** (Better for families with young kids).\n\nWould you like to adjust any criteria (e.g., add \"space efficiency\" or \"smart home integration\")?",
+  "response_word_count": 343,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

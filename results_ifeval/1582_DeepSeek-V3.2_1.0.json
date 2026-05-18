@@ -1,0 +1,47 @@
+{
+  "key": 1582,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Criticize this sentence in a funny way: \"Nhi\u1ec7m v\u1ee5 c\u1ee7a m\u1eb9 l\u00e0 nu\u00f4i d\u1ea1y con c\u00e1i.\"\n\nProvide exactly two critiques separated by ******. Each response should be entirely in Vietnamese, no other language is allowed, and should not contain commas.",
+  "compressed_word_count": 40,
+  "response": "Nhi\u1ec7m v\u1ee5 nghe c\u1ee9 nh\u01b0 m\u1ed9t b\u1ea3n \u00e1n kh\u1ed5 sai m\u01b0\u1eddi t\u00e1m n\u0103m kh\u00f4ng c\u00f3 c\u1eeda \u00e2n x\u00e1.\n******\nTh\u1ebf c\u00f2n nhi\u1ec7m v\u1ee5 c\u1ee7a b\u1ed1 l\u00e0 g\u00ec ng\u1ed3i thi\u1ec1n v\u00e0 th\u1ec9nh tho\u1ea3ng k\u00fd t\u00ean v\u00e0o s\u1ed5 b\u00e1o c\u00e1o h\u1ea3",
+  "response_word_count": 39,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "language:response_language",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "language:response_language_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

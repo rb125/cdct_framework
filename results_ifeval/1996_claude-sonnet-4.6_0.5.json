@@ -1,0 +1,43 @@
+{
+  "key": 1996,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Craft a tale on unobvious truths' importance; use <20 emphasis words.",
+  "compressed_word_count": 11,
+  "response": "# The Cartographer Who Drew Silence\n\nOld Maren had mapped every mountain in the northern territories, but she had never mapped the valley where nothing happened.\n\n\"Nothing worth recording,\" her colleagues said, flipping past her notes on the place. They wanted peaks, rivers, dramatic coastlines \u2014 geography that announced itself.\n\nShe went anyway.\n\nThe valley sat between two celebrated ranges, perpetually overlooked because travelers moved through it quickly, eager to reach somewhere more impressive. The ground was flat. The sky above it was ordinary. A single road crossed it without ceremony.\n\nMaren stayed three weeks.\n\nOn the fourth day, she noticed the soil held moisture long after surrounding regions dried. On the seventh, she counted seventeen species of grass that existed nowhere else in her surveys. By the second week, she understood that every major river in the territory was born from this unremarkable ground \u2014 quietly, without announcement, in small seeps and trickles that gathered confidence downstream.\n\nThe celebrated mountains everyone mapped were simply where the water *arrived* dramatically.\n\nThis forgotten valley was where it *began*.\n\nShe returned to the academy and presented her findings. The room was politely skeptical. Drama had trained their attention elsewhere for so long that plainness felt like absence.\n\n\"The loudest things,\" Maren said, rolling out her careful drawings, \"are rarely the most consequential. They are simply the most practiced at being noticed.\"\n\nShe mapped the silence.\n\nEventually, everyone else did too.",
+  "response_word_count": 238,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

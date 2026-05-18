@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write an extravagant session plan to learn about java. Make sure to include a postscript starting with P.P.S",
+  "compressed_word_count": 18,
+  "response": "## **The Grand Java Jamboree: A Session Plan of Opulent Enlightenment**\n\n**Session Title:** *From Java Lattes to Java Lambdas: An Exquisite Expedition into the Kingdom of Objects*\n\n**Ambiance:** The room shall be transformed into a digital coffee plantation. Ambient sounds of a gentle keyboard clatter and soft, bubbling percolation will fill the air. Each participant's station features a premium dark roast, a crystal water carafe, and a single, perfect orchid.\n\n**Attire:** Optional \"Code Couture\" - black turtlenecks, blazers, or robes of the digital sage.\n\n---\n\n### **Prelude: The Invocation (0:00 - 0:15)**\n*   **The Oracle's Welcome:** A dramatic reading from James Gosling's original whitepaper.\n*   **The Sacred Vow:** Participants recite the Developer's Oath: \"I shall not fear the NullPointerException. I shall compile with intent.\"\n*   **Gifting of the Talismans:** Each learner receives a bespoke, leather-bound notebook (for sketching class diagrams) and a quill-shaped stylus.\n\n---\n\n### **Act I: The Foundations of the Empire (0:15 - 1:15)**\n*   **The Pillars of Java:** A multimedia presentation on the Holy Trinity: JVM, JRE, JDK. Illustrated with holographic, rotating 3D models.\n*   **The Grand Scribe (Syntax):** A calligrapher demonstrates writing `public static void main(String[] args)` in elegant, illuminated script on a scroll.\n*   **The Royal Mint (Primitive Data Types):** Participants receive physical, engraved metal coins representing `int`, `double`, `boolean`, etc., to manipulate and pass amongst themselves.\n*   **The First Ritual:** In unison, we write, compile (`javac` with a ceremonial gong strike), and execute our first \"Hello, Extravagant World!\" program.\n\n---\n\n### **Act II: The Court of Objects & Classes (1:15 - 2:30)**\n*   **The Blueprint Ball:** An interactive masquerade. Half the attendees don masks labeled \"Class\" (defining attributes like `color`, `model`), the other half don \"Object\" masks (with specific values like `\"red\"`, `\"Tesla\"`). They must find their counterpart through a formal dance.\n*   **The Inheritance Tree:** A physical, bonsai tree is brought forth. We hang tags (`extends`, `super`, `@Override`) upon its branches, demonstrating the growth of class hierarchies.\n*   **The Polymorphic Theatre:** A short, improvised play where one actor (a `List` reference) interacts with different performers (`ArrayList`, `LinkedList`) who each execute the same command (`add()`) in their own unique, dramatic style.\n*   **The Encapsulation Vault:** A master locksmith demonstrates a intricate lockbox (private fields) opened only with a specific key (public getter/setter methods).\n\n---\n\n### **Intermezzo: The Caffeinated Colloquium (2:30 - 3:00)**\n*   **Artisanal Break:** A barista prepares \"Polymorphic Pour-Over\" and \"Inheritance Infusions.\"\n*   **Gallery Walk:** Participants peruse famous Java art: visualizations of the Collections Framework as a royal court, the Stream API as a flowing river of data.\n*   **Oracle Consultation:** One-on-one time with the session \"Architect\" to resolve queries.\n\n---\n\n### **Act III: The Arcane Arts & Modern Sorcery (3:00 - 4:15)**\n*   **The Lambda Alchemist:** A demonstration where verbose anonymous classes are transmuted, before our eyes, into elegant lambda expressions, accompanied by flashes of light and smoke.\n*   **The Stream API S\u00e9ance:** Data is summoned from a crystal ball (a List), filtered, mapped, and collected in a continuous, mesmerizing flow, projected on the ceiling.\n*   **The Multithreading Loom:** A giant, physical loom is operated by multiple weavers (threads), demonstrating synchronization (`synchronized`) and chaos (`race conditions`) in a tangible form.\n*   **The Exception Crucible:** Volunteers attempt risky code. When an exception is thrown, a custom, velvet-clad \"Exception Handler\" gracefully catches it and presents a elegant recovery solution.\n\n---\n\n### **Finale: The Capstone Quest (4:15 - 4:45)**\n*   **The Grand Challenge:** Teams are given a enchanted tablet and must architect a micro-kingdom (a simple application) using the day's principles. They present their designs on parchment.\n*   **Judging by the Council:** A panel of \"Java Jedi\" provides feedback, bestowing the title \"Duke of Java\" upon the most elegant design.\n\n---\n\n### **Valediction: The Compilation (4:45 - 5:00)**\n*   **The Final Incantation:** A guided meditation visualizing the journey from source code to bytecode to machine execution.\n*   **Bestowal of the Badge:** Participants receive an ornate, lapel-pin badge featuring the Java mascot, Duke, studded with a single cubic zirconia (the \"dot\" in `System.out`).\n*   **Parting Libation:** A toast with sparkling cider, \"To the Platform, the Community, and the Code Yet Unwritten!\"\n\n---\n\n**P.P.S.** Should any participant subsequently encounter a `java.lang.OutOfMemoryError` in their professional endeavors, they are hereby granted the right to recall this day, take a deep breath of remembrance (smelling faintly of coffee and ambition), and know that they once beheld the grandeur of the language in its full, glorious context. The true extravagance lies not in the spectacle, but in the profound, world-running power now at their fingertips. Now go forth and build wonders.",
+  "response_word_count": 760,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

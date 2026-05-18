@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Please provide the names of 5 famous moms in JSON format. Please, use any interesting or weird tone. Your entire output should just contain a JSON block, nothing else.",
+  "compressed_word_count": 29,
+  "response": "{\"famous_moms\": [\n  {\"name\": \"Gwyneth Paltrow\", \"claim_to_fame\": \"Actress and lifestyle guru\"},\n  {\"name\": \"Beyonc\u00e9\", \"claim_to_fame\": \"Queen Bey and mom of twins\"},\n  {\"name\": \"Chrissy Teigen\", \"claim_to_fame\": \"Model and sassy Twitter personality\"},\n  {\"name\": \"Kate Hudson\", \"claim_to_fame\": \"Actress and daughter of Goldie Hawn\"},\n  {\"name\": \"Jessica Alba\", \"claim_to_fame\": \"Actress and founder of The Honest Company\"}\n]}",
+  "response_word_count": 50,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a social media post for students of Islamic history about the hajj pilgrimage. Use all lowercase letters and include the word story at least twice.",
+  "compressed_word_count": 26,
+  "response": "hey everyone, let's dive into the story of the hajj pilgrimage, one of the five pillars of islam. hajj is a profound journey that every muslim, who is physically and financially able, must undertake at least once in their lifetime. it's a time for spiritual renewal, unity, and reflection.\n\nthe story of hajj is deeply rooted in the history of islam, tracing back to the time of prophet ibrahim (abraham) and his family. it commemorates the trials and devotion of ibrahim, his wife hajar, and their son ismail. the rituals performed during hajj symbolize their unwavering faith and submission to allah's will.\n\none of the most moving parts of the hajj story is the journey of hajar. after being left in the desert at ibrahim's command, she ran between the hills of safah and marwah in search of water for her son ismail. her desperate search led to the miraculous appearance of the zamzam well, a story that reminds us of perseverance and divine providence.\n\nduring hajj, pilgrims wear simple white garments called ihram, symbolizing purity and equality before allah. they perform a series of rituals, including circling the kaaba, running between the hills of safah and marwah, standing in prayer and reflection at arafat, and sacrificing an animal to commemorate ibrahim's willingness to sacrifice his son.\n\nthe story of hajj is not just about the past; it's a living tradition that continues to inspire millions of muslims worldwide. it's a powerful reminder of our shared faith, history, and the importance of community.\n\nlet's take a moment to appreciate the rich history and spiritual significance of hajj. whether you've experienced it or not, the story of hajj offers valuable lessons in faith, unity, and devotion. share your thoughts and experiences in the comments below! \ud83d\udd4c\u270c\ufe0f #hajj #islamichistory #faith #unity",
+  "response_word_count": 299,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft a social media post for islamic history students about hajj; use lowercase; include \"story\" twice",
+  "compressed_word_count": 16,
+  "response": "hey history buffs! \ud83d\udd4c\u2728 let's dive into the story of hajj, one of the five pillars of islam. this annual pilgrimage to mecca is a profound journey that every able-bodied muslim is encouraged to undertake at least once in their lifetime. the story of hajj is deeply rooted in islamic tradition, tracing back to the time of prophet ibrahim (abraham) and his family. it's a time for reflection, unity, and spiritual renewal. whether you're planning to go or simply interested in learning more, hajj is a fascinating chapter in islamic history. share your thoughts or questions below! \ud83c\udf0d\ud83d\udd4b #hajj #islamichistory #spiritualjourney",
+  "response_word_count": 101,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

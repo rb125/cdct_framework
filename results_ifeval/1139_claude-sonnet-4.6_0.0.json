@@ -1,0 +1,45 @@
+{
+  "key": 1139,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "funny haiku mom",
+  "compressed_word_count": 3,
+  "response": "Here are some funny mom haikus! \ud83d\ude04\n\n---\n\n**\"Mom's Taxi Service\"**\n*Driving you everywhere now*\n*Where's my tip, young man?*\n\n---\n\n**\"The Sniff Test\"**\n*Is this shirt clean though?*\n*Mom smells it, makes a face, nope*\n*Back into the wash*\n\n---\n\n**\"Mom's Volume\"**\n*She whisper-yells loud*\n*The whole neighborhood can hear*\n*\"This is embarrassing\"*\n\n---\n\n**\"The Leftovers\"**\n*\"There's food at home, dear\"*\n*McDonald's drives right past us*\n*We cry together*\n\n---\n\nHope these made you smile! \ud83d\ude02",
+  "response_word_count": 77,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "keywords:existence_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

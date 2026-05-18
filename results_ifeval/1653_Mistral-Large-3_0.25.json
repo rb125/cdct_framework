@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "ad template for portable camera, max 4 caps",
+  "compressed_word_count": 8,
+  "response": "Here\u2019s a concise **4-caption ad template** for a **portable camera**, designed to highlight key features while keeping it engaging and action-driven:\n\n---\n\n### **\ud83d\udcf8 Capture Life on the Go \u2013 [Brand Name] Portable Camera!**\n**\u2728 Ultra-compact. Powerful performance. Ready in seconds.**\n*(Image: Camera in hand, capturing a scenic moment or action shot.)*\n\n---\n\n### **\ud83d\udd0b No Bulky Gear? No Problem!**\n**\ud83d\udccc Pocket-sized design**\n**\ud83d\udccc Long-lasting battery**\n**\ud83d\udccc One-touch sharing**\n*(Image: Camera next to a phone/small bag for scale, or being used hands-free.)*\n\n---\n\n### **\ud83c\udfa5 Shoot Like a Pro \u2013 Anywhere, Anytime**\n**\ud83d\udcf8 4K video + high-res photos**\n**\ud83d\udcf8 Wide-angle lens for epic shots**\n**\ud83d\udcf8 Built-in stabilization**\n*(Image: Side-by-side comparison of a phone vs. the camera\u2019s image quality, or a dynamic action shot.)*\n\n---\n\n### **\ud83d\ude80 Limited-Time Offer!**\n**\ud83d\udd25 [Discount/Promo Code]**\n**\ud83d\udd25 Free [accessory: case/tripod/memory card] with purchase**\n**\u23f3 Shop now \u2013 [Link in bio]**\n*(Image: Camera with accessories, or a happy user holding it with a \"Sold Out\" badge overlay for urgency.)*\n\n---\n\n### **\ud83c\udfaf Why This Works:**\n1. **Problem \u2192 Solution**: Highlights portability as the key pain point (vs. bulky DSLRs).\n2. **Features \u2192 Benefits**: Translates specs (4K, battery) into real-world advantages.\n3. **Social Proof**: Use UGC (user-generated content) or testimonials if possible.\n4. **CTA**: Clear next step (link, promo, urgency).\n\n**Pro Tip:** Add a **short video clip** (5\u201310 sec) in Stories/Reels showing the camera in action (e.g., hiking, vlogging, or a quick unboxing).",
+  "response_word_count": 236,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.3,
+        "SA": 0.5,
+        "FC": 0.8
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3666666666666667,
+      "SA": 0.6666666666666666,
+      "FC": 0.7666666666666666,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

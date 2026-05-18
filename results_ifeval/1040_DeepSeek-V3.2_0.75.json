@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "create resume for matthias algiers in all caps for key abilities, limit to <10 highlighted words, enclose in double quotation marks.",
+  "compressed_word_count": 21,
+  "response": "**MATTHIAS ALGIERS**\n\n**PROFESSIONAL SUMMARY**\nResults-driven project manager with over eight years of experience in the technology sector, specializing in cross-functional team leadership and agile development. Proven ability to deliver complex software solutions on time and within budget.\n\n**KEY ABILITIES**\n\"STRATEGIC PLANNING\" \"AGILE METHODOLOGIES\" \"BUDGET MANAGEMENT\" \"CROSS-FUNCTIONAL LEADERSHIP\" \"RISK MITIGATION\" \"CLIENT RELATIONS\" \"PROCESS OPTIMIZATION\" \"STAKEHOLDER COMMUNICATION\"\n\n**PROFESSIONAL EXPERIENCE**\nSenior Project Manager | Tech Innovations Inc. | 2019\u2013Present\n* Led a team of 15 in the successful, on-budget launch of a flagship SaaS product, increasing client acquisition by 30%.\n* Implemented agile frameworks that improved team velocity by 22% and reduced time-to-market by an average of 15%.\n* Managed vendor contracts and a project portfolio with an annual budget exceeding $2M.\n\nProject Manager | Digital Solutions Group | 2015\u20132019\n* Coordinated development, design, and QA teams across five concurrent client projects, consistently meeting all critical deadlines.\n* Served as primary client contact, improving satisfaction scores by 40% through transparent communication and expectation management.\n\n**EDUCATION**\nMBA, Business Administration | University of Chicago\nBS, Information Technology | Northwestern University\n\n**CERTIFICATIONS**\nProject Management Professional (PMP) | Certified ScrumMaster (CSM)",
+  "response_word_count": 184,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.6666666666666666,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

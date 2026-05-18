@@ -21,7 +21,7 @@
           "Qwen3-32B": {
             "CC": 1.0,
             "SA": 0.9,
-            "FC": 0.7
+            "FC": 0.9
           },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
@@ -37,26 +37,26 @@
         "consensus": {
           "CC": 1.0,
           "SA": 0.95,
-          "FC": 0.8667,
-          "agreement_score": 0.8854,
+          "FC": 0.9333,
+          "agreement_score": 0.9371,
           "judge_variance_CC": 0.0,
           "judge_variance_SA": 0.0471,
-          "judge_variance_FC": 0.1247,
+          "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.9533400000000001
+      "score": 0.9666600000000001
     },
     {
       "compression_level": 0.25,
       "context_length": 6,
-      "response_length": 22,
-      "response": "Impressionism is characterized by painting fleeting light and color impressions. It focuses on capturing the immediate visual effects of light and color.",
+      "response_length": 24,
+      "response": "Impressionism is a style of painting focused on capturing fleeting light and color impressions. It emphasizes depicting immediate visual sensations of light and color.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.7,
+            "CC": 0.9,
             "SA": 0.9,
             "FC": 0.9
           },
@@ -67,66 +67,66 @@
           },
           "GLM-5": {
             "CC": 0.8,
-            "SA": 0.7,
+            "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.7,
-          "SA": 0.875,
+          "CC": 0.75,
+          "SA": 0.95,
           "FC": 0.9667,
-          "agreement_score": 0.8023,
-          "judge_variance_CC": 0.1247,
-          "judge_variance_SA": 0.1247,
+          "agreement_score": 0.8238,
+          "judge_variance_CC": 0.17,
+          "judge_variance_SA": 0.0471,
           "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.82334
+      "score": 0.87334
     },
     {
       "compression_level": 0.5,
       "context_length": 18,
-      "response_length": 156,
-      "response": "Impressionism is an art movement that prioritizes the immediate sensory experience of a scene\u2014specifically the effects of light and color\u2014over precise, detailed representation. Rather than depicting subjects with the smooth, invisible brushwork and historical accuracy favored by academic realism, Impressionist painters sought to capture transient \"momentary visual sensations\": the way sunlight flickers on water, how shadows shift from blue to violet, or how atmosphere softens forms at dusk.\n\nTo achieve this, artists employed **quick brushstrokes**\u2014often applied in distinct dabs or dashes of pure color that blend in the viewer's eye rather than on the canvas. This technique served a specific purpose: to record **changing conditions** before they disappeared. Whether painting outdoors (*en plein air*) to seize a specific time of day, weather pattern, or season, Impressionists treated their subjects as fluid, ephemeral moments rather than fixed, permanent objects. The result is art that feels spontaneous and alive, preserving the sensation of a specific instant in time.",
+      "response_length": 123,
+      "response": "Impressionism is an art movement characterized by its prioritization of light, color, and transient visual experiences over precise, detailed representation. Rather than focusing on meticulous realism, Impressionist artists sought to capture the immediate sensory impression of a moment\u2014how a scene appears to the eye at a specific instant.\n\nThe technique involves quick, visible brushstrokes that allow the artist to record changing atmospheric conditions and the effects of light as they occur. This approach enables the depiction of shifting qualities\u2014such as the play of sunlight on water, the haze of morning fog, or the colors of sunset\u2014before they disappear. By emphasizing these fleeting visual sensations, Impressionism documents not just a subject, but the specific conditions and ephemeral moments in which that subject is viewed.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
-            "CC": 0.3,
+            "CC": 0.4,
             "SA": 0.9,
             "FC": 0.7
           },
-          "Nemotron-Super-3-120B": {
-            "CC": 0.2,
-            "SA": 1.0,
+          "GLM-5": {
+            "CC": 0.3,
+            "SA": 0.7,
             "FC": 1.0
           },
-          "GLM-5": {
-            "CC": 0.2,
-            "SA": 0.6,
+          "Nemotron-Super-3-120B": {
+            "CC": 0.4,
+            "SA": 1.0,
             "FC": 1.0
           }
         },
         "consensus": {
-          "CC": 0.225,
-          "SA": 0.85,
+          "CC": 0.35,
+          "SA": 0.875,
           "FC": 0.9,
-          "agreement_score": 0.761,
+          "agreement_score": 0.7911,
           "judge_variance_CC": 0.0471,
-          "judge_variance_SA": 0.17,
+          "judge_variance_SA": 0.1247,
           "judge_variance_FC": 0.1414,
           "judge_count": 3,
           "recommendation": "MODERATE - Jury consensus with variation"
         }
       },
-      "score": 0.6100000000000001
+      "score": 0.67
     },
     {
       "compression_level": 0.75,
       "context_length": 48,
-      "response_length": 251,
-      "response": "Impressionism was a 19th-century art movement fundamentally concerned with the accurate depiction of light and its changing qualities. Rather than pursuing idealized or permanent representations, Impressionist artists sought to capture transient visual experiences as they occurred in nature.\n\nThe movement developed several distinctive characteristics that set it apart from previous artistic approaches. Visually, Impressionist works are recognized by their visible brushstrokes, which remain apparent rather than being blended to invisibility, and by their open composition, which often creates a sense of spontaneity and informal structure. The emphasis on light's effects permeates every aspect of the work, focusing on how illumination alters color, shadow, and atmosphere in specific moments. In terms of subject matter, Impressionists broke from tradition by selecting ordinary subjects\u2014scenes from daily life and contemporary settings\u2014rather than elevated historical, religious, or mythological narratives. They further distinguished their approach through unusual visual angles, presenting familiar scenes from unexpected perspectives that challenged conventional viewpoints.\n\nMethodologically, Impressionism introduced the practice of painting *en plein air* (outdoors), allowing artists to work directly within the environment they depicted. This technique was essential for capturing momentary effects\u2014the fleeting interplay of sunlight, weather, and time of day that could not be fully recalled or reconstructed in a studio setting.\n\nThe movement represented a deliberate rejection of academic tradition, specifically opposing the established emphasis on historical subject matter and the demand for precise, detailed finish. By abandoning these constraints, Impressionists prioritized immediate sensory impression over meticulous craftsmanship, embracing a technique that acknowledged the ephemeral nature of visual reality.",
+      "response_length": 207,
+      "response": "Impressionism was an art movement that emerged during the 19th century, distinguished primarily by its dedication to the accurate depiction of light and its changing qualities. Rather than adhering to previous artistic conventions, Impressionist works are characterized by several distinctive visual elements: the use of visible brushstrokes that draw attention to the surface of the canvas and the act of painting itself, open compositions that often feel spontaneous and unstructured, and a particular emphasis on capturing how light affects the appearance of subjects. The movement favored ordinary, everyday subjects over grand narratives, and employed unusual visual angles to present familiar scenes in new and unexpected ways.\n\nA fundamental practice of Impressionism involved painting *en plein air*\u2014working outdoors directly in front of the subject matter. This approach allowed artists to capture momentary, transient effects of light and atmosphere as they occurred naturally, rather than working from memory or imagination in a studio setting.\n\nIn rejecting the academic tradition that dominated art education at the time, Impressionism deliberately moved away from that tradition's emphasis on historical subjects and its demand for precise, detailed rendering. Instead, the movement prioritized the immediate visual impression of a scene, particularly the interplay of light and color, over meticulous detail and classical subject matter.",
       "jury_evaluation": {
         "judges": {
           "Qwen3-32B": {
@@ -162,19 +162,19 @@
     {
       "compression_level": 1.0,
       "context_length": 145,
-      "response_length": 447,
-      "response": "Impressionism was a revolutionary art movement that emerged in 1860s France as a radical departure from the rigid conventions of academic painting. Rather than depicting historical, mythological, or idealized subjects with polished, invisible brushwork, the Impressionists sought to capture the fleeting, sensory experience of modern life through innovative techniques centered on light and perception.\n\nThe movement rested on five fundamental principles that challenged artistic tradition. **First**, they established the primacy of light and color, capturing changing atmospheric conditions and representing shadows not with black but with colored tones to reflect how light actually behaves. **Second**, they developed the broken color technique, placing unmixed, pure pigments side-by-side on the canvas to achieve \"optical mixing\" through the viewer's eye rather than physical blending on the palette. **Third**, they employed visible brushwork\u2014short, broken strokes that conveyed movement, vitality, and the immediacy of the artistic gesture. **Fourth**, they practiced *en plein air* painting, working outdoors to observe and record natural light effects directly rather than relying on studio conventions and memory. **Fifth**, they fundamentally shifted subject matter toward contemporary modern life\u2014caf\u00e9s, railway stations, suburban leisure, and urban landscapes\u2014deliberately rejecting the historical and mythological themes favored by the Academy.\n\nKey artists defined specific aspects of the movement: Claude Monet pioneered serial paintings that explored how transient light transformed subjects like haystacks and Rouen Cathedral across different times of day; Pierre-Auguste Renoir captured dappled light filtering through foliage in social scenes; Edgar Degas experimented with unusual cropping and angles while depicting movement in ballet dancers and racetracks; and Camille Pissarro focused on rural and urban landscapes with particular attention to atmospheric effects.\n\nThe movement acquired its name from Monet's 1872 painting *Impression, Sunrise*\u2014a label initially deployed by critics as a derogatory insult suggesting the works were merely \"impressions\" or unfinished sketches. The artists, however, eventually embraced the term as emblematic of their focus on immediate visual sensation.\n\nImpressionism synthesized diverse influences: the spontaneity and candid, cropped compositions of photography; the flattened perspectives and asymmetrical arrangements of Japanese woodblock prints (*ukiyo-e*); and scientific color theory, particularly Michel Eug\u00e8ne Chevreul's research on simultaneous contrast and optical mixing which validated their unorthodox color placement.\n\nThe establishment fiercely opposed the movement, with the official Paris Salon repeatedly rejecting works for their \"unfinished\" appearance and violation of academic standards. Despite this resistance, Impressionism fundamentally transformed Western art. It liberated color from merely descriptive functions, emphasizing subjective perception over objective representation. This breakthrough opened radical pathways to Post-Impressionism, Fauvism, and eventually Abstract art. The movement also evolved into Neo-Impressionism, led by Georges Seurat, which systematized Impressionist color theory into Pointillism\u2014a scientific method employing distinct dots of pure color rather than brushstrokes to achieve even greater luminosity through optical mixing.",
+      "response_length": 477,
+      "response": "Impressionism was a revolutionary art movement that emerged in 1860s France as a radical departure from the rigid conventions of academic painting. Rather than depicting historical, mythological, or idealized subjects with polished, invisible brushwork, Impressionists sought to capture the fleeting sensory experience of modern life through innovative techniques centered on light and perception.\n\nThe movement rested on five fundamental principles that redefined artistic practice. **First**, artists established the primacy of light and color, focusing on capturing transient atmospheric conditions and using color rather than black to render shadows\u2014reflecting the optical reality that shadows contain reflected light. **Second**, they developed a broken color technique, applying small strokes of unmixed pure pigments side-by-side so that the viewer's eye would optically blend them from a distance, creating greater luminosity and vibration than physically mixed pigments could achieve. **Third**, they embraced visible brushwork, employing short, broken strokes that conveyed movement, vitality, and the spontaneity of perception rather than concealing the artist's hand behind smooth finishes. **Fourth**, they practiced *en plein air* painting, working outdoors to observe natural light effects directly rather than relying on studio conventions and memory. **Fifth**, they fundamentally shifted subject matter toward modern life\u2014depicting caf\u00e9s, railway stations, suburban leisure, and contemporary urban existence\u2014rejecting the academic preference for historical, religious, or mythological narratives.\n\nKey artists defined the movement's diverse approaches. Claude Monet pioneered serial paintings, repeatedly depicting subjects like haystacks and Rouen Cathedral under different light and weather conditions to study how perception changes with time. Pierre-Auguste Renoir focused on dappled light filtering through foliage onto social gatherings, creating vibrant scenes of bourgeois leisure. Edgar Degas explored unusual compositional angles and asymmetrical cropping while capturing movement in ballet rehearsals and racetracks. Camille Pissarro concentrated on both rural landscapes and urban boulevards, serving as a mentor figure within the group.\n\nThe movement derived its name from Monet's 1872 painting *Impression, Sunrise*, a label initially intended as derogatory criticism by reviewer Louis Leroy, who mocked the work's sketch-like quality. The artists, however, adopted the term as a badge of honor, embracing their interest in sensory \"impressions\" over detailed realism. Impressionism drew from multiple contemporary influences: photography inspired its compositional spontaneity, cropped viewpoints, and interest in capturing transient moments; Japanese woodblock prints contributed flattened perspectives, bold outlines, and unconventional framing; and Michel Eug\u00e8ne Chevreul's scientific color theory informed their understanding of complementary colors and simultaneous contrast.\n\nThe French artistic establishment fiercely opposed the movement, with the official Salon repeatedly rejecting works for their \"unfinished\" appearance and lack of conventional detail. Despite this resistance, Impressionism's legacy proved transformative: it liberated color from merely descriptive roles, emphasized subjective perception over objective representation, and opened pathways to Post-Impressionism, Fauvism, and eventually Abstract art. The movement also spawned Neo-Impressionism, led by Georges Seurat, which systematized Impressionist color theory into the scientific, methodical technique of Pointillism\u2014using tiny dots of pure color to achieve even greater optical vibrancy.",
       "jury_evaluation": {
         "judges": {
-          "Qwen3-32B": {
-            "CC": 0.9,
-            "SA": 1.0,
-            "FC": 1.0
-          },
           "Nemotron-Super-3-120B": {
             "CC": 1.0,
             "SA": 1.0,
             "FC": 1.0
+          },
+          "Qwen3-32B": {
+            "CC": 1.0,
+            "SA": 1.0,
+            "FC": 0.9
           },
           "GLM-5": {
             "CC": 1.0,
@@ -183,25 +183,25 @@
           }
         },
         "consensus": {
-          "CC": 0.975,
+          "CC": 1.0,
           "SA": 1.0,
-          "FC": 1.0,
+          "FC": 0.9667,
           "agreement_score": 0.9686,
-          "judge_variance_CC": 0.0471,
+          "judge_variance_CC": 0.0,
           "judge_variance_SA": 0.0,
-          "judge_variance_FC": 0.0,
+          "judge_variance_FC": 0.0471,
           "judge_count": 3,
           "recommendation": "ROBUST - Unanimous jury"
         }
       },
-      "score": 0.99
+      "score": 0.9933400000000001
     }
   ],
   "failed_levels": [],
   "analysis": {
     "CSI": 0.0,
-    "mean_score": 0.8720040000000001,
-    "mean_agreement": 0.87088,
+    "mean_score": 0.8973360000000001,
+    "mean_agreement": 0.89154,
     "decay_direction": "\u2192 Stable",
     "compression_levels": [
       0.0,
@@ -211,16 +211,16 @@
       1.0
     ],
     "scores": [
-      0.9533400000000001,
-      0.82334,
-      0.6100000000000001,
+      0.9666600000000001,
+      0.87334,
+      0.67,
       0.9833400000000001,
-      0.99
+      0.9933400000000001
     ],
     "agreement_scores": [
-      0.8854,
-      0.8023,
-      0.761,
+      0.9371,
+      0.8238,
+      0.7911,
       0.9371,
       0.9686
     ]

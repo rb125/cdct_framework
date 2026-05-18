@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "**Explain city vs. village in a rap to a kid, using all capitals at least 10x. Divide into 5 sections with *** separators.**",
+  "compressed_word_count": 23,
+  "response": "***SECTION 1: INTRO***\nYO, YO, YO, LISTEN UP, KID, IT'S TIME TO KNOW\nTHE DIFFERENCE BETWEEN A CITY AND A VILLAGE, DON'T YOU KNOW?\nIT'S A TALE OF TWO PLACES, ONE'S BIG AND ONE'S SMALL\nYOU'LL LEARN THE DIFFERENCE, AND IT WILL STAND TALL!\n\n***SECTION 2: CITY LIFE***\nIN THE CITY, IT'S ALWAYS HAPPENING, IT'S A NON-STOP FEST\nTHERE ARE TALL BUILDINGS, CARS, AND PEOPLE, IT'S A REAL BUSTLE, YES!\nYOU CAN HEAR THE SOUND OF SIRENS BLAZING, PEOPLE RUSHING TO AND FRO\nIT'S A FAST-PACED LIFE, WITH LOTS TO SEE AND DO, DON'T YOU KNOW?\nTHERE ARE SHOPPING MALLS, RESTAURANTS, AND CINEMAS GALORE\nIN THE CITY, YOU'LL NEVER BE BORED, THERE'S ALWAYS SOMETHING IN STORE!\n\n***SECTION 3: VILLAGE LIFE***\nBUT IN THE VILLAGE, IT'S A WHOLE DIFFERENT VIBE\nIT'S QUIET AND PEACEFUL, WITH FRESH AIR AND A MORE RELAXED TRIbe\nYOU CAN SEE FARMERS WORKING IN THE FIELDS, AND ANIMALS ROAMING FREE\nIT'S A SIMPLE LIFE, WITH A STRONG SENSE OF COMMUNITY\nYOU CAN HEAR THE SOUND OF BIRDS CHIRPING, AND THE WIND RUSTLING THROUGH THE TREES\nIN THE VILLAGE, YOU CAN BREATHE FRESH AIR, AND LIVE LIFE AT A SLOWER SPEED!\n\n***SECTION 4: COMPARING THE TWO***\nSO, KID, NOW YOU KNOW THE DIFFERENCE BETWEEN THE TWO\nTHE CITY IS BIG AND BUSY, WHILE THE VILLAGE IS SMALL AND NEW\nBOTH HAVE THEIR PROS AND CONS, AND IT'S UP TO YOU TO CHOOSE\nWHERE YOU WANT TO LIVE, AND WHAT KIND OF LIFE YOU WANT TO PRODUCE\nDO YOU WANT THE EXCITEMENT OF THE CITY, OR THE PEACE AND QUIET OF THE VILLAGE TOO?\n\n***SECTION 5: CONCLUSION***\nSO, THERE YOU HAVE IT, KID, NOW YOU KNOW THE DEAL\nCITY AND VILLAGE, BOTH HAVE THEIR OWN UNIQUE FEEL\nWHATEVER YOU CHOOSE, JUST REMEMBER, IT'S ALL ABOUT THE LIFE YOU LEAD\nAND WHETHER YOU'RE IN A CITY OR A VILLAGE, YOU CAN ALWAYS SUCCEED!",
+  "response_word_count": 313,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

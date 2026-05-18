@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "convert sentence to email format, include 10 [placeholders] e.g., [name]",
+  "compressed_word_count": 10,
+  "response": "Sure! Please **share the sentence** you'd like me to convert into email format, and I'll transform it into a professional email with **10 placeholders** included! \ud83d\ude0a\n\nFor example, placeholders could be things like:\n- [Name]\n- [Company Name]\n- [Date]\n- [Position]\n- [Email Address]\n\nGo ahead and paste your sentence! \u2709\ufe0f",
+  "response_word_count": 52,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

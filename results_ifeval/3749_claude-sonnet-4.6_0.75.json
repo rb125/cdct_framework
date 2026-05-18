@@ -1,0 +1,43 @@
+{
+  "key": 3749,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "determine if roger federer > rafael nadal in tennis, respond with \"yes\", \"no\", or \"maybe",
+  "compressed_word_count": 15,
+  "response": "**maybe**\n\nThis is a highly debated topic in tennis. Both players have strong cases:\n\n- **Federer**: 20 Grand Slams, widely considered the more elegant/complete player by many\n- **Nadal**: 22 Grand Slams, **holds a significant head-to-head advantage over Federer (24\u201316)**, and many consider him the greatest clay-court player ever\n\nThe GOAT debate is subjective and depends on the criteria used.",
+  "response_word_count": 60,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.408248290463863
+    }
+  }
+}

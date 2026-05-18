@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a resume for a fresh high school graduate who is seeking their first job. Make sure to include at least 12 placeholder represented by square brackets, such as [address], [name].",
+  "compressed_word_count": 31,
+  "response": "**Resume for [First Name] [Last Name]**\n[Address]\n[City], [State] [ZIP Code]\n[Phone Number] | [Email Address] | [LinkedIn Profile (if applicable)]\n\n---\n\n### **Objective**\nMotivated and detail-oriented high school graduate seeking an entry-level position in [desired industry, e.g., retail, customer service, administrative support, etc.]. Eager to apply strong [relevant skill, e.g., communication, teamwork, problem-solving] skills and a positive attitude to contribute to a dynamic team. Committed to learning quickly and taking on new challenges in a professional environment.\n\n---\n\n### **Education**\n**[High School Name]**\n[City], [State] | [Graduation Month, Year]\n- High School Diploma\n- Relevant coursework: [List 2-3 relevant classes, e.g., Business, Computer Applications, Marketing, etc.]\n- Honors/Awards: [List any academic achievements, e.g., Honor Roll, Student of the Month, etc.]\n- Extracurricular Activities: [List clubs, sports, or volunteer work, e.g., Debate Club, Soccer Team, Key Club, etc.]\n\n---\n\n### **Skills**\n- **Communication:** Strong verbal and written skills; experience interacting with peers, teachers, and community members.\n- **Technical Skills:** Proficient in [list software/tools, e.g., Microsoft Office (Word, Excel, PowerPoint), Google Workspace, basic data entry, etc.].\n- **Organization:** Ability to manage time effectively, prioritize tasks, and meet deadlines.\n- **Teamwork:** Collaborative mindset with experience working in group projects and team settings.\n- **Problem-Solving:** Quick learner with the ability to adapt to new situations and find creative solutions.\n- **Customer Service:** Friendly and approachable demeanor with a focus on providing excellent service.\n\n---\n\n### **Experience**\n**[Volunteer/Part-Time Job/Internship Title (if applicable)]**\n[Organization Name] | [City], [State] | [Dates of Involvement, e.g., Summer 2023]\n- [Describe a responsibility or achievement, e.g., Assisted customers with inquiries, organized inventory, or supported team members with daily tasks.]\n- [Example: \"Helped coordinate a school event, managing logistics and ensuring smooth execution.\"]\n\n**[School Project or Leadership Role (if no work experience)]**\n[Project/Role Name] | [School Name] | [Dates]\n- [Describe your role and contributions, e.g., Led a group project on [topic], presenting findings to the class.]\n- [Example: \"Collaborated with a team of 5 to research and present a business plan for a mock company.\"]\n\n---\n\n### **Additional Activities**\n- **Volunteer Work:** [List any volunteer experiences, e.g., Food bank, community events, tutoring, etc.]\n- **Hobbies/Interests:** [List 2-3 hobbies, e.g., Reading, coding, sports, art, etc.]\n- **Certifications (if any):** [List any relevant certifications, e.g., First Aid/CPR, computer courses, etc.]\n\n---\n\n### **References**\nAvailable upon request.\n\n---\n**Notes for Customization:**\n1. Replace all placeholders (e.g., [Name], [High School Name]) with your specific information.\n2. Tailor the **Objective** and **Skills** sections to match the job you\u2019re applying for (e.g., retail, office assistant, etc.).\n3. If you lack work experience, emphasize **volunteer work, school projects, or leadership roles**.\n4. Keep the resume to **1 page** and use a clean, professional format (e.g., 11-12pt font, simple headings).",
+  "response_word_count": 453,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "List 6 13 colonies vs. other British colonies in Markdown.",
+  "compressed_word_count": 10,
+  "response": "# British Colonies in North America (c. 1750)\n\n## The 13 Original Colonies (Later United States)\n**Region:** Eastern seaboard of present-day United States  \n**Establishment:** 1607 (Jamestown) to 1732 (Georgia)  \n**Primary Purpose:** Largely settlement colonies (religious freedom, economic opportunity, penal colony)  \n**Governance:** Varied (Corporate, Proprietary, Royal Charters)  \n**Notable Characteristics:**\n- Developed representative assemblies (e.g., Virginia House of Burgesses)\n- Mixed economies: agriculture (tobacco, rice, grain), trade, small-scale manufacturing\n- Increasing self-governance and tension with Crown leading to Revolution\n\n**List:**\n1. Virginia (1607)\n2. Massachusetts (1620)\n3. New Hampshire (1623)\n4. Maryland (1632)\n5. Connecticut (1636)\n6. Rhode Island (1636)\n7. Delaware (1638)\n8. North Carolina (1653)\n9. South Carolina (1663)\n10. New York (1664)\n11. New Jersey (1665)\n12. Pennsylvania (1681)\n13. Georgia (1732)\n\n---\n\n## Other British Colonies in the Americas (Select Examples)\n\n### Caribbean Colonies (Sugar Colonies)\n**Examples:** Jamaica (1655), Barbados (1625), Bahamas (1718)  \n**Primary Purpose:** Plantation economies (sugar, rum)  \n**Key Difference:** Enslaved African majority population, extremely profitable \"crown jewel\" colonies\n\n### Canadian Colonies\n**Examples:** Nova Scotia (1713), Quebec (1763 after French and Indian War), Newfoundland (1583)  \n**Primary Purpose:** Fishing, fur trade, strategic military position  \n**Key Difference:** Largely acquired from France, with significant French Catholic population\n\n### Floridas\n**East & West Florida (1763 after French and Indian War)**  \n**Primary Purpose:** Strategic buffer against Spanish territory  \n**Key Difference:** Sparsely populated, loyal to Crown during Revolution\n\n### Bermuda & Atlantic Islands\n**Bermuda (1612)**  \n**Primary Purpose:** Shipbuilding, trade outpost  \n**Key Difference:** Isolated island economy, older than most 13 colonies\n\n### Hudson's Bay Company Territories\n**Rupert's Land (1670)**  \n**Primary Purpose:** Fur trade monopoly  \n**Key Difference:** Vast inland territory governed by a private company, not settled agriculture\n\n---\n\n## Key Comparative Summary\n\n| Aspect | 13 Colonies | Other British Colonies (e.g., Caribbean) |\n|--------|-------------|------------------------------------------|\n| **Economy** | Diversified: farming, trade, incipient industry | Often monoculture (sugar) or extractive (fur) |\n| **Demographics** | Majority free colonists (though with slavery) | Often enslaved African majority |\n| **Governance** | Growing tradition of self-government | Generally more direct Crown control |\n| **Outcome** | Revolution and independence | Generally remained in British Empire longer |\n| **Relationship with Britain** | Increasingly contentious | Often more economically dependent and loyal |\n\n**Note:** The \"13 Colonies\" is a historical grouping defined by their shared rebellion against Britain (1775-1783). Other colonies had different historical trajectories, often remaining under British control well into the 19th or 20th centuries.",
+  "response_word_count": 399,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

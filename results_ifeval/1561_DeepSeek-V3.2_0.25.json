@@ -1,0 +1,45 @@
+{
+  "key": 1561,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "name new fashion company, double angular brackets, hidden meanings",
+  "compressed_word_count": 9,
+  "response": "Of course. Here are fashion company names with hidden meanings, presented in the requested format:\n\n<< **Axiom Threads** >>\n*Hidden Meaning:* An axiom is a self-evident truth or a statement accepted as fact. This name suggests clothing that is fundamentally true, timeless, and built on unshakeable principles of design and quality. It implies a brand for the confident intellectual.\n\n<< **The Ostra Collective** >>\n*Hidden Meaning:* \"Ostra\" is derived from \"ostracize,\" but flipped to be positive. It implies a brand for those who stand out by choice, not by force. It\u2019s for the individual who is confidently set apart, wearing their uniqueness as a badge of honor.\n\n<< **Velleity Apparel** >>\n*Hidden Meaning:* A *velleity* is a wish or inclination not strong enough to lead to action. This name is deeply ironic and subversive for a fashion brand. It suggests clothing for the contemplative, the dreamer, or it critiques fast fashion by implying style that is about desire, not impulsive consumption.\n\n<< **Anima Silhouette** >>\n*Hidden Meaning:* In Jungian psychology, the *anima* is the inner feminine aspect of a man's personality. This name suggests clothing that explores and expresses the hidden, inner self. It\u2019s gender-fluid, psychological, and focuses on the shape (*silhouette*) of one\u2019s identity.\n\n<< **Pareidolia Studio** >>\n*Hidden Meaning:* Pareidolia is the tendency to see patterns or faces in random objects (like a face in a cloud). This name implies clothing that encourages the viewer to see more\u2014art, meaning, stories\u2014in the fabric and design. It\u2019s for the imaginative and creative.\n\n<< **Limen Wear** >>\n*Hidden Meaning:* A *limen* is a threshold. This name positions the brand at the boundary between different states: casual and formal, masculine and feminine, past and future. It\u2019s for those in transition, on the verge of something new.\n\n<< **Eunoia Label** >>\n*Hidden Meaning:* *Eunoia* is a beautiful word meaning \"beautiful thinking\" or \"well mind.\" It\u2019s the shortest word in English to contain all five vowels. This name suggests intelligence, harmony, and elegance, appealing to a cultured, aesthetically-minded customer.\n\n<< **The Palimpsest** >>\n*Hidden Meaning:* A palimpsest is a manuscript page that has been scraped clean and written over, but where traces of the old writing remain. This name evokes sustainability (upcycling), depth, history, and personal narrative\u2014clothing that tells layered stories.\n\n<< **Chronos & Kairos** >>\n*Hidden Meaning:* In Greek, *Chronos* is sequential, quantitative time. *Kairos* is the opportune, qualitative moment. This name suggests a brand that balances timeless classics (*Chronos*) with perfectly-timed, of-the-moment pieces (*Kairos*).\n\n<< **Moir\u00e9** >>\n*Hidden Meaning:* A moir\u00e9 pattern is an interference pattern created when two grids are overlaid at an angle. It\u2019s a visual metaphor for the brand: the interplay of different influences (e.g., tech and tradition, structure and fluidity) creating something unique and dynamic.",
+  "response_word_count": 457,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.4666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.3681787005729087,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

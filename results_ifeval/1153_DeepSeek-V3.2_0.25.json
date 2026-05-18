@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "post hajj story in lowercase, twice story",
+  "compressed_word_count": 7,
+  "response": "the first time, i went for the rituals. the crush of white cloth, the blur of circumambulation, a body moving through prescribed steps. my tongue recited, but my heart was a stone in my shoe. i saw the marble, the crowds, the exhaustion. i returned home with a label: hajji. and a suitcase full of dates.\n\nthe second time, i went for the space between the rituals. in the coolness before fajr, pressed against the multicolored marble of the ibrahimi station, i felt a breath against my cheek that was not the air conditioning. in the stillness of muzdalifah, under a blanket of stars thicker than any i had ever seen, the man next to me, a farmer from senegal, shared his water in silence. our shoulders touched. in the midst of the stampeeding tawaf, an old woman from indonesia caught my eye as we shuffled. she smiled, a crack in a weary face, and in that crack i saw the entire kaaba reflected. i came back with the same label, hajji. but the suitcase was empty, because what i brought back was not a thing to be carried.",
+  "response_word_count": 189,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

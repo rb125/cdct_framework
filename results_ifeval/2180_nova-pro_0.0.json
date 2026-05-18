@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "city vs village rap",
+  "compressed_word_count": 4,
+  "response": "Sure, here's a creative rap battle between a City Dweller and a Village Resident:\n\n---\n\n**City Dweller:**\n\nYo, I'm from the city, where the lights never fade,\nSkyscrapers touchin' clouds, where the big dreams get made.\nConcrete jungle, hustle and grind, never sleep,\nSubways runnin' 24/7, life's a non-stop beat.\n\nGot the fashion, got the culture, got the noise,\nNeon signs, bright lights, we got choices.\nFrom Times Square to the Bronx, diversity reigns,\nIn this urban oasis, we break all the chains.\n\nSky's the limit, ambition's high,\nIn this concrete paradise, we reach for the sky.\nFrom street art to skyscrapers, we paint our own view,\nIn the city that never sleeps, we're always on the move.\n\n**Village Resident:**\n\nHold up, city slicker, let me drop some truth,\nFrom the village life, where we live it smooth.\nNature's our playground, fresh air in our lungs,\nSingin' birds and open fields, where we belong.\n\nWe got sunsets paintin' skies, a canvas so grand,\nFarm-to-table meals, straight from the land.\nCommunity strong, neighbors know your name,\nIn this peaceful haven, we play our own game.\n\nNo traffic jams, just dirt roads unwind,\nStars at night, no light pollution to blind.\nFrom morning dew to evening glow,\nIn this simple life, we find our flow.\n\n**City Dweller:**\n\nYou talkin' nature, I'm talkin' hustle and flow,\nIn the city, opportunities grow.\nFrom Wall Street to Hollywood, dreams take flight,\nIn the urban heartbeat, we shine so bright.\n\nWe got museums, got the theaters, got the scene,\nIn this cultural cauldron, every art dream.\nFrom jazz clubs to food trucks, flavors so rich,\nIn the city's embrace, we live life on the edge.\n\n**Village Resident:**\n\nYou got your hustle, I got my pace,\nIn the village, we find our own space.\nNo rush, no stress, just breathe and be,\nIn this tranquil haven, we're truly free.\n\nWe got time for family, time for friends,\nIn this close-knit community, love never ends.\nFrom farmers' markets to bonfire nights,\nIn the village glow, we find our lights.\n\n**City Dweller:**\n\nWe both got our perks, our own kind of grace,\nBut in the city, we set the pace.\nFrom innovation to inspiration, we lead the way,\nIn this urban jungle, we seize each day.\n\n**Village Resident:**\n\nAnd in the village, we find our peace,\nIn nature's arms, our worries cease.\nBoth paths got their charm, their own kind of art,\nIn the end, it's about where you find your heart.\n\n---\n\nHope you enjoyed this rap battle showcasing the unique vibes of city and village life!",
+  "response_word_count": 429,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

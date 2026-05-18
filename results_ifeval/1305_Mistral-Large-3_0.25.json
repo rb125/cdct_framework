@@ -1,0 +1,45 @@
+{
+  "key": 1305,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "List 10 baby boy names; P.P.S postscript.",
+  "compressed_word_count": 7,
+  "response": "Here are 10 baby boy names with a **P.P.S.** (post-postscript) twist\u2014each name starts with **\"P\"** or has a **\"P\"** sound, and the **P.P.S.** is a playful nod to the initials:\n\n1. **Parker** (P.P.S.: *Playful Protector*)\n2. **Preston** (P.P.S.: *Proud Pioneer*)\n3. **Phoenix** (P.P.S.: *Passionate Phoenix*)\n4. **Paxton** (P.P.S.: *Peaceful Pathfinder*)\n5. **Penn** (P.P.S.: *Poised & Noble*)\n6. **Pierce** (P.P.S.: *Powerful Presence*)\n7. **Pablo** (P.P.S.: *Playful Adventurer*)\n8. **Porter** (P.P.S.: *Protective Guardian*)\n9. **Pax** (P.P.S.: *Pure Peace*)\n10. **Piran** (P.P.S.: *Pioneering Spirit*)\n\n**Bonus P.P.S.:** If you love alliteration, **\"Parker Preston\"** or **\"Phoenix Pax\"** could be fun combos! \ud83d\ude0a",
+  "response_word_count": 97,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_format:number_bullet_lists_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

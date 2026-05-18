@@ -1,0 +1,43 @@
+{
+  "key": 2136,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.0,
+  "compressed_prompt": "irs joke [placeholder]",
+  "compressed_word_count": 3,
+  "response": "Here\u2019s a classic IRS joke for you:\n\n**Why did the accountant bring a ladder to the IRS audit?**\n*Because they heard the tax code was full of loopholes!*\n\n(Or, if you prefer a darker twist: *\"Because they wanted to climb out of the audit alive!\"*)\n\nWant a specific type of IRS humor (e.g., puns, sarcasm, absurdity)? Let me know! \ud83d\ude04",
+  "response_word_count": 60,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

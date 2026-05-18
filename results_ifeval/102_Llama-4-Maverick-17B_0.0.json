@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "ball gown dialogue",
+  "compressed_word_count": 3,
+  "response": "Here's a possible dialogue for a scene involving a ball gown:\n\n[Setting: A luxurious dressing room. A young woman, Emily, is standing in front of a mirror, trying on a beautiful ball gown. Her maid, Sarah, is adjusting the fit.]\n\nEmily: (gasping) Oh, Sarah, it's perfect. I feel like a princess.\n\nSarah: (smiling) You look stunning, miss. The dress was made for you.\n\nEmily: (twirling) I know, right? I feel like I'm floating. (She stops and looks at herself in the mirror.) Do you think he'll like it?\n\nSarah: (knowing exactly who Emily is referring to) I'm sure he will, miss. You're going to be the belle of the ball.\n\nEmily: (blushing) I hope so. I've been looking forward to this night for weeks.\n\nSarah: (adjusting a strap) You deserve it, miss. You've been working so hard. You need a night to relax and have fun.\n\nEmily: (sighing) I know. It's just...I've been having these doubts. What if he doesn't dance with me? What if I trip on the hem and fall?\n\nSarah: (reassuringly) Miss, you're going to be just fine. You're a beautiful young woman, and you're going to make a wonderful impression. Just be yourself and enjoy the evening.\n\nEmily: (smiling) You're right, as always, Sarah. Thank you.\n\nSarah: (curtsying) You're welcome, miss. Now, shall I help you with your hair?\n\nEmily: (nodding) Yes, please. I want to look my absolute best tonight.\n\n[Sarah begins to style Emily's hair, and they continue to chat and laugh as they prepare for the ball.]",
+  "response_word_count": 254,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

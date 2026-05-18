@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "resume for Matthias, caps for skills, <10, \"\"quotes",
+  "compressed_word_count": 8,
+  "response": "Here is a resume for Matthias with caps for skills, less than 10 skills, and \"quotes\":\n\n**Matthias**\nContact Information: \nPhone: 123-456-7890\nEmail: [matthias@email.com](mailto:matthias@email.com)\n\n**Summary:**\n\"Dedicated and results-driven professional\" seeking a challenging role that utilizes my skills to drive business growth.\n\n**Skills:**\n\n* PROJECT MANAGEMENT\n* DATA ANALYSIS\n* MARKETING STRATEGY\n* TEAM LEADERSHIP\n* PROBLEM SOLVING\n* COMMUNICATION\n* TIME MANAGEMENT\n* ADAPTABILITY\n\n**Experience:**\n\n* Project Manager, XYZ Corporation (2020-Present)\n\t+ Managed multiple projects simultaneously, ensuring timely completion and exceeding client expectations: \"Consistently delivered high-quality results\"\n\t+ Coordinated with cross-functional teams to develop and implement marketing strategies\n* Data Analyst, ABC Company (2018-2020)\n\t+ Analyzed data to identify trends and insights, informing business decisions: \"Data-driven approach drove business growth\"\n\n**Education:**\n\n* Bachelor's Degree in Business Administration, [University Name] (2018)",
+  "response_word_count": 129,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.3333333333333333,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

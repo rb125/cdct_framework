@@ -1,0 +1,45 @@
+{
+  "key": 1237,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a funny post for teenagers about a restaurant called \"Buena Onda\" which serves Argentinian food. Highlight at least three sections of your response in markdown such as *highlighted section*. Mention \"Argentinian\" in the post.",
+  "compressed_word_count": 35,
+  "response": "# \ud83e\udd69 Buena Onda: Where Your Taste Buds Go on a Trip to Argentina (Without Needing a Passport) \ud83c\udde6\ud83c\uddf7\n\nHey everyone! So I finally dragged myself away from my phone long enough to eat actual food, and honestly? Best decision of my LIFE. Let me tell you about **Buena Onda**, the Argentinian restaurant that has absolutely NO right to be this good.\n\n---\n\n*First of all, the empanadas. OH. MY. GOODNESS. These little pockets of joy are so stuffed with flavor that I genuinely considered moving into the restaurant. Like, forget college plans \u2014 I'm just going to live here now.*\n\n---\n\nThe vibe of this place is immaculate. It's giving \"cool aunt who traveled the world\" energy. The music, the decor, the staff who actually smile at you \u2014 it all screams **Buena Onda**, which literally means \"good vibes\" in Spanish. They really said what they meant and DELIVERED.\n\n---\n\n*Now let's talk about the Argentinian steak. I'm not being dramatic when I say it changed my entire personality. I walked in as a regular teenager and walked out as someone who now has opinions about beef cuts. My parents are concerned.*\n\n---\n\nAnd the prices? Actually reasonable! You won't need to sell your gaming console or beg your parents for three weeks.\n\n*Bottom line: Buena Onda is the place to take your friends, your crush, or honestly just yourself when you need a little happiness in your life. Go. NOW. You can thank me later.* \ud83d\ude4c",
+  "response_word_count": 248,
+  "instruction_id_list": [
+    "detectable_format:number_highlighted_sections",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_highlighted_sections_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

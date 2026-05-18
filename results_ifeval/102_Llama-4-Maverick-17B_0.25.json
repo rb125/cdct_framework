@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Ball gown vs. sweats dialogue, 3 markdown points",
+  "compressed_word_count": 8,
+  "response": "Here is a dialogue between two people discussing the contrast between a ball gown and sweats, formatted with 3 markdown points:\n\n\"I'm having a hard time deciding what to wear tonight,\" said Sarah.\n\"What's the occasion?\" asked Emily.\n\"Well, I was thinking of wearing a beautiful ball gown, but then I thought, why not just wear my comfiest sweats?\" replied Sarah.\nHere are the pros and cons of each option:\n* **Ball Gown**: It's elegant, sophisticated, and makes me feel like a princess. However, it's also uncomfortable and restrictive.\n* **Sweats**: They're comfortable, cozy, and perfect for lounging around. However, they're not exactly suitable for a formal event.\n* **The Verdict**: I think I'll go with the ball gown. While it's not the most comfortable option, it's worth it to feel glamorous and confident.",
+  "response_word_count": 134,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

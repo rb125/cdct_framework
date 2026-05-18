@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "review \"the social network\" in english, all lower case",
+  "compressed_word_count": 9,
+  "response": "\"the social network\" is a film that crackles with the energy of a new idea and the bitterness of its aftermath. it's less a straightforward biopic of facebook and more a tragicomedy about friendship, betrayal, and the dizzying speed at which a college project can become a global empire.\n\nthe film is brilliantly written by aaron sorkin, with dialogue that is a rapid-fire weapon of wit and venom. david fincher directs with a cold, precise style that perfectly matches the subject matter\u2014the creation of a platform that connects the world while isolating its creator.\n\njesse eisenberg is perfectly cast as mark zuckerberg, portraying him not as a villain but as a deeply flawed, socially awkward genius whose ambition and resentment fuel his ascent. andrew garfield delivers a heartbreaking performance as eduardo saverin, the betrayed friend, and justin timberlake is electric as the seductive and destructive sean parker.\n\nthe score by trent reznor and atticus ross is a pulsating, atmospheric masterpiece that underscores the film's themes of anxiety and alienation.\n\nat its core, the film asks a timeless question: at what cost? the cost of innovation, the cost of friendship, the cost of becoming the youngest billionaire in the world. it's a movie that feels incredibly prescient, capturing the moment just before social media reshaped our lives, for better and worse.\n\nit's a modern classic\u2014a sharp, cynical, and utterly compelling story about the invention of a social tool by someone who could never quite master the social part.\"",
+  "response_word_count": 247,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "* dialogue: ball gown vs. sweats for nightly event, 3 markdown points",
+  "compressed_word_count": 12,
+  "response": "Certainly! Here are three markdown points for a dialogue about choosing between a ball gown and sweats for a nightly event:\n\n---\n\n- **Point 1:** \n  - **Character A:** \"I can't decide what to wear to the event tonight. Should I go all out in a ball gown or keep it casual in sweats?\"\n  - **Character B:** \"It really depends on the theme of the event. Is it formal or more laid-back?\"\n\n- **Point 2:**\n  - **Character A:** \"The invitation didn't specify, but it sounds like there might be some dancing involved.\"\n  - **Character B:** \"In that case, comfort is key. You might want to opt for something you can move in, like sweats, unless you're sure it's a formal affair.\"\n\n- **Point 3:**\n  - **Character A:** \"True, but I also want to make a statement. What if I pair the ball gown with comfy shoes?\"\n  - **Character B:** \"That could work! Just make sure you're prepared to change if you want to dance. Maybe bring a change of clothes just in case.\"\n\n---",
+  "response_word_count": 173,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

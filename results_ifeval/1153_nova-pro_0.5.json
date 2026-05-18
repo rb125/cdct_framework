@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "post on islamic history students' hajj story, lowercase, story twice",
+  "compressed_word_count": 10,
+  "response": "here's a story about a group of islamic history students who embarked on a transformative hajj journey. it was a life-changing experience for all of them, as they immersed themselves in the rich traditions and spiritual practices of the pilgrimage.\n\nthe students had spent months preparing for this trip, studying the history and significance of hajj, and learning about the rituals and customs associated with it. they were excited to finally put their knowledge into practice and experience the pilgrimage firsthand.\n\nas they arrived in mecca, the students were immediately struck by the sheer scale and diversity of the gathering. people from all over the world had come together to perform hajj, united in their faith and devotion to allah. the students felt a sense of awe and wonder as they joined the crowds of pilgrims, moving in unison through the various stages of the pilgrimage.\n\none of the most memorable moments of the trip was the students' experience of standing on arafat, the sacred plain where pilgrims gather to seek forgiveness and mercy from allah. as they stood together in prayer and reflection, the students felt a deep sense of connection to their faith and to each other.\n\nthroughout the hajj, the students were struck by the sense of community and camaraderie that pervaded the pilgrimage. they made friends with fellow pilgrims from all over the world, sharing stories and experiences as they moved through the various stages of the hajj.\n\nas the pilgrimage came to an end, the students reflected on the profound impact that hajj had had on their lives. they felt a renewed sense of purpose and commitment to their faith, and a deeper understanding of the history and traditions of islam.\n\nhere's a story about a group of islamic history students who embarked on a transformative hajj journey. it was a life-changing experience for all of them, as they immersed themselves in the rich traditions and spiritual practices of the pilgrimage.\n\nthe students had spent months preparing for this trip, studying the history and significance of hajj, and learning about the rituals and customs associated with it. they were excited to finally put their knowledge into practice and experience the pilgrimage firsthand.\n\nas they arrived in mecca, the students were immediately struck by the sheer scale and diversity of the gathering. people from all over the world had come together to perform hajj, united in their faith and devotion to allah. the students felt a sense of awe and wonder as they joined the crowds of pilgrims, moving in unison through the various stages of the pilgrimage.\n\none of the most memorable moments of the trip was the students' experience of standing on arafat, the sacred plain where pilgrims gather to seek forgiveness and mercy from allah. as they stood together in prayer and reflection, the students felt a deep sense of connection to their faith and to each other.\n\nthroughout the hajj, the students were struck by the sense of community and camaraderie that pervaded the pilgrimage. they made friends with fellow pilgrims from all over the world, sharing stories and experiences as they moved through the various stages of the hajj.\n\nas the pilgrimage came to an end, the students reflected on the profound impact that hajj had had on their lives. they felt a renewed sense of purpose and commitment to their faith, and a deeper understanding of the history and traditions of islam.",
+  "response_word_count": 572,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.5,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

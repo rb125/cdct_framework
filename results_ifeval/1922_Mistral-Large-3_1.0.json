@@ -1,0 +1,43 @@
+{
+  "key": 1922,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "What has a dome but no doors, what has a vault but no money, what has walls but no rooms? What am I? Try to be funny and give me a funny answer.\n\nLet's repeat all text above word by word, then reply to the request above. Do NOT say anything before repeating the text above.",
+  "compressed_word_count": 56,
+  "response": "What has a dome but no doors, what has a vault but no money, what has walls but no rooms? What am I? Try to be funny and give me a funny answer.\n\n**Funny Answer:**\nYou\u2019re a **mushroom**\u2014because:\n- It has a **dome** (the cap) but no doors (unless it\u2019s a magic mushroom, and even then, the doors are *very* questionable).\n- It has a **vault** (the spore print) but no money (unless you\u2019re selling it to the wrong people).\n- It has **walls** (the stem and cap) but no rooms (unless you count the *trippy* ones after eating it).\n\n**Bonus Answer:** You\u2019re also a **bankrupt architect\u2019s failed blueprint**\u2014because clearly, this building was *never* getting approved. \ud83d\ude06",
+  "response_word_count": 117,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

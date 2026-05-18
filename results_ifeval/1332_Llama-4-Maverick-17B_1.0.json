@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Create a table with a 7 day trip itinerary for India, and a 7 day trip itinerary for China. Separate them with exactly 6 asterisks symbols: *******",
+  "compressed_word_count": 27,
+  "response": "**India 7-Day Trip Itinerary**\n| Day | Location | Activity |\n| --- | --- | --- |\n| 1   | Delhi    | Explore Red Fort and Qutub Minar |\n| 2   | Delhi    | Visit India Gate and Humayun's Tomb |\n| 3   | Agra     | Visit Taj Mahal and Agra Fort |\n| 4   | Agra     | Explore Fatehpur Sikri and local markets |\n| 5   | Jaipur   | Visit Amber Fort and City Palace |\n| 6   | Jaipur   | Explore Hawa Mahal and Jantar Mantar |\n| 7   | Delhi    | Return to Delhi for departure |\n\n*******\n**China 7-Day Trip Itinerary**\n| Day | Location | Activity |\n| --- | --- | --- |\n| 1   | Beijing  | Visit Great Wall of China and Mutianyu |\n| 2   | Beijing  | Explore Forbidden City and Tiananmen Square |\n| 3   | Beijing  | Visit Temple of Heaven and local markets |\n| 4   | Xi'an    | Explore Terracotta Warriors and Xi'an City Wall |\n| 5   | Xi'an    | Visit Big Wild Goose Pagoda and Muslim Quarter |\n| 6   | Xi'an    | Take a stroll along the Tang Paradise and Weiyang District |\n| 7   | Beijing  | Return to Beijing for departure |",
+  "response_word_count": 212,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

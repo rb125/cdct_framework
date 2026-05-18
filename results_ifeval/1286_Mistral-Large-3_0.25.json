@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "List 6 13 colonies vs. other British colonies in Markdown.",
+  "compressed_word_count": 10,
+  "response": "Here\u2019s a comparison of the **13 American Colonies** with **other British colonies** in Markdown format:\n\n```markdown\n# Comparison: 13 American Colonies vs. Other British Colonies\n\n| **Feature**               | **13 American Colonies**                          | **Other British Colonies**                     |\n|---------------------------|--------------------------------------------------|-----------------------------------------------|\n| **Location**              | Eastern coast of North America (e.g., Virginia, Massachusetts, Pennsylvania) | Caribbean (Jamaica, Barbados), Canada (Nova Scotia), Africa (Gold Coast), India (Bengal), Australia, etc. |\n| **Primary Purpose**       | Settlement colonies (agriculture, trade, religious freedom) | Trade (sugar, spices, slaves), strategic military outposts, penal colonies (Australia) |\n| **Economy**               | Mixed: subsistence farming, cash crops (tobacco, rice, indigo), trade | Plantation-based (sugar, cotton), mining (gold), slave trade, mercantilist exploitation |\n| **Population**            | Mostly European settlers (English, Dutch, German, Scots-Irish) and enslaved Africans | Diverse: European elites, enslaved Africans, indigenous populations, indentured laborers, convicts (Australia) |\n| **Governance**            | Local assemblies (e.g., House of Burgesses), some self-rule | Direct Crown control (e.g., Jamaica), company rule (East India Company), or limited local governance |\n| **Relations with Britain**| Increasing autonomy, resistance to British taxes/laws (e.g., Stamp Act, Tea Act) | More direct British control, less resistance until later (e.g., India\u2019s 1857 Rebellion) |\n| **Outcome**               | American Revolution (1775\u20131783), independence | Most remained British until decolonization (20th century), except Canada (1867) and others |\n| **Cultural Identity**     | Developed distinct \"American\" identity (e.g., \"no taxation without representation\") | Stronger British cultural influence, less push for independence |\n| **Slavery**               | Widespread (especially in Southern colonies), key to economy | Central to Caribbean/West Indies (brutal sugar plantations), less dominant in Canada/India |\n| **Indigenous Relations**  | Conflict (e.g., King Philip\u2019s War), displacement | Varies: alliances (e.g., Iroquois in Canada), genocide (Australia), exploitation (India) |\n| **Religion**              | Diverse: Puritans (New England), Quakers (Pennsylvania), Anglicans (South) | Anglicanism dominant, missionary activity (e.g., India), less religious diversity |\n| **Trade Networks**        | Triangular trade (colonies \u2192 Britain \u2192 Africa), local markets | Global trade (e.g., East India Company), focus on raw materials (sugar, spices, tea) |\n| **Military Role**         | Fought in French and Indian War (1754\u20131763), later Revolutionary War | Key strategic bases (e.g., Gibraltar, Malta), colonial troops in British Army |\n```\n\n### Key Differences:\n- **13 Colonies**: Focused on **settlement, self-governance, and eventual independence**.\n- **Other Colonies**: Primarily **economic exploitation, strategic control, or penal use**, with less push for autonomy until later.\n\nWould you like any category expanded?",
+  "response_word_count": 396,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

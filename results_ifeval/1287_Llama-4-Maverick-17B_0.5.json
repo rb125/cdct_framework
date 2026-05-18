@@ -1,0 +1,45 @@
+{
+  "key": 1287,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "explain john of brienne's rise to king of jerusalem in 3 markdown bullets, lowercase, zen style",
+  "compressed_word_count": 16,
+  "response": "* gentle waves lap at the shore, and so it was with john of brienne, a minor noble from champagne, who married maria, the heiress to the kingdom of jerusalem, in 1210\n* as the husband of maria, john became king of jerusalem, not through conquest or grand ambition, but through the simple act of marriage, a reminder that sometimes the path to power is quiet and unassuming\n* when maria passed away in 1212, john continued to rule, not as a regent, but as king in his own right, due to the rights granted to him by their daughter isabella's birth, a subtle shift in the currents of power that carried him forward",
+  "response_word_count": 114,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "change_case:english_lowercase_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

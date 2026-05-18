@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "compare prada and nike for sneakers in english, use \"sneaker\" at least 10 times, end with P.S.",
+  "compressed_word_count": 17,
+  "response": "# Prada vs Nike: A Sneaker Showdown\n\nWhen it comes to sneakers, both Prada and Nike occupy very different spaces in the market, yet both have made a massive impact on sneaker culture worldwide.\n\n## Design Philosophy\n\nNike sneakers are built with performance and accessibility in mind. The brand consistently delivers sneakers that blend athletic functionality with street style. From the iconic Air Max to the classic Air Force 1, Nike sneakers are recognized globally and worn by millions every day.\n\nPrada sneakers, on the other hand, represent luxury and high fashion. A Prada sneaker is crafted with premium materials like fine leather and suede, making each sneaker feel like a work of art. The design is often minimalist yet sophisticated.\n\n## Price Point\n\nThis is where the two brands differ dramatically. Nike sneakers are relatively affordable, with most sneakers ranging from $80 to $250. Prada sneakers, however, can easily cost between $600 and $1,500 per pair, making them a luxury investment rather than an everyday sneaker purchase.\n\n## Who Should Buy Which?\n\n- Choose **Nike** if you want a comfortable, versatile, and affordable sneaker for daily wear or sports.\n- Choose **Prada** if you want a statement sneaker that signals luxury and exclusivity.\n\n## Final Verdict\n\nBoth brands excel in their own lane. Nike dominates the performance sneaker world, while Prada rules the luxury sneaker space.\n\nP.S. No matter which sneaker you choose, confidence is always the best accessory!",
+  "response_word_count": 240,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.9333333333333332,
+      "FC": 0.9333333333333332,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

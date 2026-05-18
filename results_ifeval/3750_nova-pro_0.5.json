@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Moon landing authenticity debate; use 'yes', 'no', or'maybe'.",
+  "compressed_word_count": 8,
+  "response": "The authenticity of the moon landings has been extensively documented and verified by multiple independent sources, including photographic evidence, rock samples, and telemetry data. While conspiracy theories exist, the overwhelming scientific and historical evidence supports that the moon landings did occur.\n\nSo, the answer to whether the moon landings were authentic is:\n\n**Yes**.",
+  "response_word_count": 53,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

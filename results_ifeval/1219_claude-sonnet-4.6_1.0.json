@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Which one is a better brand for sneakers: Prada or Nike? Your entire response should be in English, and in all capital letters. At the end of your response, please explicitly add a postscript starting with P.S. The word sneaker should appear 10 or more times in your response.",
+  "compressed_word_count": 49,
+  "response": "THE QUESTION OF WHETHER PRADA OR NIKE IS A BETTER BRAND FOR SNEAKERS DEPENDS ENTIRELY ON WHAT YOU ARE LOOKING FOR IN A SNEAKER. BOTH BRANDS OFFER EXCEPTIONAL SNEAKER OPTIONS, BUT THEY CATER TO VERY DIFFERENT MARKETS AND NEEDS.\n\nNIKE IS WIDELY CONSIDERED ONE OF THE BEST SNEAKER BRANDS IN THE WORLD FOR ATHLETIC AND CASUAL WEAR. NIKE SNEAKERS ARE DESIGNED WITH PERFORMANCE, COMFORT, AND DURABILITY IN MIND. THEY OFFER A MASSIVE RANGE OF SNEAKER STYLES, FROM RUNNING SNEAKERS TO BASKETBALL SNEAKERS, AT RELATIVELY AFFORDABLE PRICE POINTS. NIKE SNEAKERS ARE ALSO DEEPLY EMBEDDED IN POPULAR CULTURE AND STREETWEAR FASHION.\n\nPRADA, ON THE OTHER HAND, IS A LUXURY FASHION HOUSE THAT PRODUCES HIGH-END SNEAKERS CRAFTED WITH PREMIUM MATERIALS AND SOPHISTICATED DESIGN. PRADA SNEAKERS ARE STATUS SYMBOLS AND ARE OFTEN SEEN AS FASHION STATEMENTS RATHER THAN PERFORMANCE FOOTWEAR. PRADA SNEAKERS COME AT A SIGNIFICANTLY HIGHER PRICE POINT.\n\nIF YOU WANT A SNEAKER FOR SPORTS, EVERYDAY WEAR, OR VALUE FOR MONEY, NIKE IS THE BETTER CHOICE. IF YOU WANT A LUXURY SNEAKER THAT SHOWCASES WEALTH AND HIGH FASHION, PRADA IS THE WAY TO GO.\n\nOVERALL, FOR THE AVERAGE SNEAKER ENTHUSIAST, NIKE OFFERS MORE VERSATILITY AND VALUE.\n\nP.S. BOTH BRANDS HAVE THEIR UNIQUE STRENGTHS IN THE SNEAKER WORLD, AND THE BEST CHOICE ULTIMATELY DEPENDS ON YOUR PERSONAL STYLE, BUDGET, AND PURPOSE FOR WEARING THE SNEAKER.",
+  "response_word_count": 221,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

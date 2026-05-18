@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "make 7-day itineraries for India & China, separate with 6 asterisks: *******",
+  "compressed_word_count": 12,
+  "response": "**India 7-Day Itinerary**\n\nDay 1: Arrival in Delhi\n- Arrive at Indira Gandhi International Airport\n- Check-in to your hotel and explore the nearby areas\n\nDay 2: Delhi\n- Visit the Red Fort and Qutub Minar\n- Explore the bustling streets of Old Delhi\n- Enjoy street food at Chandni Chowk\n\nDay 3: Delhi to Agra\n- Take a morning train to Agra\n- Visit the Taj Mahal\n- Explore the Agra Fort and Fatehpur Sikri\n\nDay 4: Agra\n- Visit the Tomb of Itmad-Ud-Daulah\n- Explore the local markets for handicrafts\n\nDay 5: Agra to Jaipur\n- Travel to Jaipur by train or bus\n- Visit the Amber Fort and enjoy an elephant ride\n- Explore the City Palace and Jantar Mantar\n\nDay 6: Jaipur\n- Visit the Hawa Mahal and Jal Mahal\n- Explore the local markets for handicrafts and jewelry\n\nDay 7: Departure from Jaipur\n- Spend the morning shopping for souvenirs\n- Depart from Jaipur International Airport\n\n*******\n**China 7-Day Itinerary**\n\nDay 1: Arrival in Beijing\n- Arrive at Beijing Capital International Airport\n- Check-in to your hotel and explore the nearby areas\n\nDay 2: Beijing\n- Visit the Great Wall of China at Mutianyu\n- Explore the Forbidden City\n- Enjoy traditional Peking duck for dinner\n\nDay 3: Beijing\n- Visit the Temple of Heaven\n- Explore the Ming Tombs\n- Enjoy a traditional Chinese acrobatic show\n\nDay 4: Beijing to Xi'an\n- Take a morning flight to Xi'an\n- Visit the Terracotta Warriors\n- Explore the Xi'an City Wall and Muslim Quarter\n\nDay 5: Xi'an\n- Visit the Big Wild Goose Pagoda\n- Explore the Shaanxi History Museum\n- Enjoy a traditional Xi'an dinner\n\nDay 6: Xi'an\n- Visit the Huaqing Pool and Lintong Hot Springs\n- Explore the local markets for souvenirs\n\nDay 7: Departure from Xi'an\n- Spend the morning shopping for souvenirs\n- Depart from Xi'an Xianyang International Airport",
+  "response_word_count": 318,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

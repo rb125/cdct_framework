@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "What is the difference between the 13 colonies and the other British colonies in North America? Your answer must contain exactly 6 bullet point in Markdown using the following format:\n* Bullet point one.\n* Bullet point two.\n...\n* Bullet point fix.",
+  "compressed_word_count": 43,
+  "response": "Here\u2019s a concise comparison in the requested format:\n\n* **Self-Governance**: The 13 colonies had established representative assemblies (e.g., Virginia House of Burgesses) with local legislative power, while other British colonies (e.g., Canada, Caribbean) were often ruled more directly by royal governors or proprietary authorities.\n* **Economic Focus**: The 13 colonies developed diverse economies (agriculture, trade, early industry), whereas other colonies (e.g., sugar islands like Jamaica) relied heavily on monoculture cash crops (sugar, tobacco) and enslaved labor.\n* **Population Growth**: The 13 colonies experienced rapid population growth due to high birth rates and immigration, while many other colonies (e.g., Newfoundland, Nova Scotia) had smaller, transient populations tied to fishing or military outposts.\n* **Religious Diversity**: The 13 colonies included a mix of religious groups (Puritans, Quakers, Anglicans), while other colonies (e.g., Quebec) were often dominated by a single faith (Catholicism) under British rule.\n* **Revolutionary Sentiment**: The 13 colonies united in rebellion against Britain (1775\u20131783), whereas other colonies (e.g., Canada, West Indies) remained loyal or were less involved in the conflict.\n* **Post-Colonial Fate**: The 13 colonies became the independent United States, while other British colonies (e.g., Canada, Bermuda) remained under British control or evolved into separate dominions.",
+  "response_word_count": 197,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1286,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "List 6 differences between 13 colonies and other British North American colonies in Markdown.",
+  "compressed_word_count": 14,
+  "response": "# Differences Between the 13 Colonies and Other British North American Colonies\n\n1. **Political Development & Self-Governance**\n   - The **13 Colonies** had well-established, elected colonial assemblies (like Virginia's House of Burgesses) and a strong tradition of self-government.\n   - Other colonies (e.g., Quebec, Nova Scotia, Newfoundland, Rupert's Land) were often ruled more directly by appointed governors and councils, with limited or no representative assemblies.\n\n2. **Primary Economic Basis**\n   - The **13 Colonies** had diverse economies: small-scale farming (New England), cash crops like tobacco and rice (Chesapeake/South), and trade/artisans (Middle Colonies).\n   - Many other colonies were centered on **extractive industries**: the fur trade dominated Quebec and Rupert's Land, while Newfoundland focused almost exclusively on the cod fishery.\n\n3. **Demographics & Settlement Patterns**\n   - The **13 Colonies** had large populations of permanent, family-based settlers, including significant religious dissenters (Puritans, Quakers).\n   - Colonies like Quebec retained a predominantly French Catholic population, while others (Nova Scotia post-1749, Newfoundland) had smaller, often seasonal populations or were military outposts.\n\n4. **Legal & Cultural Systems**\n   - The **13 Colonies** operated under English common law and had predominantly English Protestant culture.\n   - Quebec retained French civil law and the Catholic faith after 1763, while other areas (like parts of Nova Scotia) had significant Acadian, Gaelic, or Indigenous cultural influences.\n\n5. **Relationship with Indigenous Peoples**\n   - In the **13 Colonies**, settlement was largely expansionist, leading to frequent conflict over land and displacement of Indigenous nations.\n   - In northern and western colonies, the relationship was often more commercial and diplomatic, centered on the **fur trade alliance networks**, with less immediate pressure for large-scale agricultural settlement.\n\n6. **Strategic Purpose to Britain**\n   - The **13 Colonies** were seen primarily as sources of agricultural wealth and markets for British goods.\n   - Other colonies were valued for **strategic military or naval purposes** (e.g., Nova Scotia's Halifax as a naval base, Newfoundland's fisheries as a training ground for sailors) or as monopolistic trade ventures (Hudson's Bay Company in Rupert's Land).",
+  "response_word_count": 324,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.7
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.9333333333333332,
+      "FC": 0.5666666666666667,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.41899350299921784
+    }
+  }
+}

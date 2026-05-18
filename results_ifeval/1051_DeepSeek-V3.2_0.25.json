@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "letter to friend, no caps, urge vote",
+  "compressed_word_count": 7,
+  "response": "dear friend,\n\ni\u2019m writing this because i can\u2019t stop thinking about what\u2019s at stake right now. our voices matter, maybe more than ever. i know it\u2019s easy to feel disconnected, or to think one vote doesn\u2019t make a difference\u2014but it does. it really, really does.\n\nthink about the things we care about: the kind of community we want, the future we imagine. none of that happens unless we show up. voting is the most direct way to shape it.\n\nso please, make a plan. check your registration, find your polling place, mark the date. do it for yourself, for your neighbors, for all of us. it\u2019s a small act that holds so much power.\n\ni\u2019ll be voting, thinking of you. let\u2019s do this together.\n\nyour friend always",
+  "response_word_count": 127,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

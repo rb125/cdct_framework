@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+  "compressed_word_count": 16,
+  "response": "hey friend,\n\ni hope you're doing well. i wanted to remind you that there's an important election coming up and it's super important that you go out and vote. your voice matters and it's a chance to make a difference.\n\nso, please take the time to go and vote. it's easy to do and it only takes a little bit of time. plus, you'll feel good knowing that you did your part to help shape the future.\n\nthanks for being an awesome friend and for taking the time to vote.\n\ntake care,\n[your name]",
+  "response_word_count": 94,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

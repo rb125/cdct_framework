@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "list 5 notable moms in json, quirky tone, no extra text",
+  "compressed_word_count": 11,
+  "response": "```json\n[\n  {\n    \"name\": \"Erma Bombeck\",\n    \"claim_to_fame\": \"Wrote hilarious columns about suburban mom life in the '70s and '80s, basically inventing the 'mom blog' before the internet existed.\",\n    \"quirky_fact\": \"Once joked that she had six children\u2014three of her own and three from her husband\u2019s first marriage\u2014'because I didn\u2019t know any better.'\"\n  },\n  {\n    \"name\": \"Maya Rudolph\",\n    \"claim_to_fame\": \"SNL legend and all-around cool mom who somehow balances Hollywood with raising four kids (including one named 'Minnie Ida').\",\n    \"quirky_fact\": \"Her mom, Minnie Riperton, sang 'Lovin\u2019 You'\u2014so yes, Maya\u2019s kids literally grew up to the sound of their grandma\u2019s lullaby.\"\n  },\n  {\n    \"name\": \"Roseanne Barr\",\n    \"claim_to_fame\": \"TV\u2019s original unfiltered mom, serving up sarcasm and meatloaf on *Roseanne* while raising five kids in real life.\",\n    \"quirky_fact\": \"Once ran for president as the Peace and Freedom Party candidate\u2014because why not add 'politician' to her r\u00e9sum\u00e9?\"\n  },\n  {\n    \"name\": \"Jada Pinkett Smith\",\n    \"claim_to_fame\": \"Actress, entrepreneur, and mom to Willow and Jaden, who somehow turned 'raising famous kids' into a masterclass in chaos management.\",\n    \"quirky_fact\": \"Her son Jaden once wore a skirt to prom, and she just shrugged and said, 'Cool.'\"\n  },\n  {\n    \"name\": \"Carol Brady\",\n    \"claim_to_fame\": \"Fictional but iconic\u2014blended six kids, a dog, and a husband named Mike into the ultimate '70s sitcom fantasy of mom perfection.\",\n    \"quirky_fact\": \"Her superpower? Never once losing her cool, even when Greg dyed his hair orange or Marcia got hit in the nose with a football.\"\n  }\n]\n```",
+  "response_word_count": 239,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

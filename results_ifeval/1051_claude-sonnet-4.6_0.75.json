@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "compose a lowercase letter to a friend, urging them to vote, no commas or informal tone.",
+  "compressed_word_count": 16,
+  "response": "here is my letter:\n\ndear friend\n\ni am writing to you today because i want to remind you how important it is that you cast your vote in the upcoming election. your voice matters and the decisions made by elected officials affect every single aspect of your daily life including your healthcare your education your finances and the safety of your community.\n\nmany people throughout history fought and sacrificed greatly so that we could all have the right to vote. it would be a disservice to their memory and their struggle if we chose to stay home on election day.\n\ni understand that sometimes it can feel like one vote does not make a difference but that is simply not true. elections have been decided by very small margins and every single ballot counts. your participation sends a message that you care about the direction of this country and that you are willing to take action to shape its future.\n\nplease take the time to research the candidates and the issues on the ballot before you go. make sure you know where your polling place is and what time it opens and closes. if you need a ride or any assistance please reach out and i will do everything i can to help you get there.\n\nyour vote is your power. please use it.\n\nwith sincere hope and encouragement\n\nyour friend",
+  "response_word_count": 231,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

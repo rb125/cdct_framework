@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Ball gown vs. sweats dialogue, 3 markdown points",
+  "compressed_word_count": 8,
+  "response": "Sure, here are three points in markdown format for a dialogue between a character preferring a ball gown and another preferring sweats:\n\n---\n\n- **Character A (Ball Gown Enthusiast):** \"There's nothing like the elegance and grace of a ball gown. It makes you feel like a princess, ready to conquer any room you walk into.\"\n- **Character B (Sweats Advocate):** \"Comfort is key! Sweats let you move freely and relax. Plus, they're perfect for lounging around or running errands.\"\n- **Character A:** \"True, but there's a certain magic in dressing up. It's about feeling special and confident.\"\n- **Character B:** \"And there's magic in comfort too. Sometimes, the best version of yourself is the one that feels at ease.\"\n\n---\n\nFeel free to expand or modify the dialogue as needed!",
+  "response_word_count": 130,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

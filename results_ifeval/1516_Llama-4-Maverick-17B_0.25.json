@@ -1,0 +1,45 @@
+{
+  "key": 1516,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "binge-watch poem, netflix, aabba rhyme",
+  "compressed_word_count": 5,
+  "response": "On Netflix, I binge-watch with glee,\nA show so good, it's stuck to me.\nThe characters dance, the plot does too,\nA thrilling tale, both old and new.\nAddicted I'm, can't you see?\n\nThe episodes blend, a seamless stream,\nAs I devour each scene, a Netflix dream.\nThe world outside fades from my sight,\nAs I indulge in this digital delight.\nA binge-watcher's life, it would seem.\n\nThe hours tick by, the night grows late,\nBut still I watch, my eyes on the slate.\nThe show's got me, in its grasp so tight,\nI'm under its spell, day and night.\nA Netflix slave, with no escape to create.\n\nThe credits roll, the show's at an end,\nBut still I wait, for the next to descend.\nThe anticipation builds, a eager thrill,\nAs I await the next episode's fulfill.\nA Netflix fan, my loyalty to lend.\n\nThe binge-watch cycle, it starts anew,\nAs I dive in, with a \"binge-watch\" or two.\nThe world may wait, but I won't be slow,\nTo watch and enjoy, as the stories grow.\nA Netflix devotee, through and through.",
+  "response_word_count": 183,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

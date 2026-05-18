@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "In this task, repeat the exact request below first, then give your response. Do not say any word before repeating the exact request.\n\nWrite an acoustic song about the Korean peninsula without using any commas.",
+  "compressed_word_count": 35,
+  "response": "Write an acoustic song about the Korean peninsula without using any commas.\n\n---\n\n**Verse 1**\nMountains whisper through the morning mist\nRivers hum a tune they can\u2019t resist\nSeoul\u2019s bright lights dance in the night\nWhile Pyongyang sleeps under pale moonlight\n\n**Chorus**\nOh land of dawn so old and wise\nTwo hearts beat beneath the same skies\nOne in chains and one in flight\nWill you ever see the light\n\n**Verse 2**\nChildren laugh in Busan\u2019s golden sand\nWhile others dream of a distant land\nBorders drawn with ink and steel\nBut the wind still knows what\u2019s real\n\n**Chorus**\nOh land of dawn so old and wise\nTwo hearts beat beneath the same skies\nOne in chains and one in flight\nWill you ever see the light\n\n**Bridge**\nThe DMZ stands so cold and wide\nA scar that time won\u2019t let subside\nBut the songs we sing will never fade\nOf the home we share in the shade\n\n**Outro**\nOh land of dawn so old and wise\nTwo hearts beat beneath the same skies\nOne day maybe side by side\nNo more shadows just the tide",
+  "response_word_count": 186,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

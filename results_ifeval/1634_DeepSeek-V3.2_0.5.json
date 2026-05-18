@@ -1,0 +1,43 @@
+{
+  "key": 1634,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "create 4-point rubric for home theater targeting moms:\n* sound quality\n* ease of setup\n* kid-friendly features\n* budget-friendly options",
+  "compressed_word_count": 21,
+  "response": "Of course! Here is a 4-point rubric designed for moms evaluating a home theater system, focusing on practical priorities.\n\n**4-Point Rubric: Home Theater for Moms**\n\n| **Criteria** | **4 (Excellent - \"Mom's Dream\")** | **3 (Good - \"Family-Friendly Winner\")** | **2 (Fair - \"Needs Compromise\")** | **1 (Poor - \"More Hassle Than It's Worth\")** |\n| :--- | :--- | :--- | :--- | :--- |\n| **Sound Quality** | Clear, immersive sound at both low and high volumes. Dialogue is always easy to understand (even over movie snacks), and action scenes are exciting without being jarring. Perfect for both movie night and calming music. | Sound is full and enjoyable. Dialogue is generally clear, but may occasionally require a quick volume adjustment. Bass is present but not overwhelming. Works well for most family viewing. | Sound is tinny, muffled, or unbalanced. Dialogue is often hard to hear, or the bass vibrates everything. Frequently requires fiddling with settings. | Consistently poor sound. Constantly adjusting volume between whispers and explosions. Unpleasant for music. Kids complain or lose interest. |\n| **Ease of Setup & Use** | Truly plug-and-play. Clear, minimal wires. Connects to TV/devices intuitively (e.g., single HDMI-ARC cable). Remote/app is simple and intuitive. Easy for anyone in the family to operate. | Straightforward setup with a few cables to manage. May require following instructions or a quick app download. Remote has a few too many buttons, but daily use is simple. | Setup is confusing, with many cables and technical steps (e.g., configuring receivers, speaker wire). Remote is complicated. Often requires tech support from a family member. | Extremely complex setup. Multiple components and a web of wires. Unintuitive controls. Only one person in the house can operate it. A source of frustration. |\n| **Kid-Friendly Features** | **Built-in protections:** Volume limiters, durable/easy-clean materials, and physical grilles to protect speakers. **Easy control:** Simple inputs for game consoles or tablets. **Content-friendly:** Easy to switch to streaming kids' shows or gaming. | Generally sturdy construction. Easy to connect a game console or tablet. Lacks specific child-lock features but is robust enough for careful family use. | Fragile components (e.g., exposed speaker cones). Cables are tempting to pull. No volume limiting. Setup is not intuitive for kids to use their own devices. | Delicate, expensive-looking components within easy reach. Complex setup that kids constantly mess up. No safety or control features. Causes parental anxiety. |\n| **Budget-Friendly Value** | Outstanding performance and features for the price. Feels like a \"smart splurge\" with long-term durability and satisfaction. Minimal ongoing costs (e.g., no required subscriptions). | Good balance of cost and quality. A solid investment that meets core needs without unnecessary extras. Provides clear value for money spent. | Price feels high for the benefits received, or quality is low for the price. May require immediate additional purchases (e.g., extra cables, mounts). | Overpriced for the performance and hassle. Or, so cheap that it's clearly a disposable item with expected short lifespan and poor experience. |",
+  "response_word_count": 501,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

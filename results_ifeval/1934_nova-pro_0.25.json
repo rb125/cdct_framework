@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "4 bullet points on Star Wars' popularity, no commas",
+  "compressed_word_count": 9,
+  "response": "Star Wars' compelling characters resonate with audiences worldwide. Its groundbreaking special effects revolutionized the film industry. The epic space opera narrative captivates imaginations across generations. The franchise's expansive universe fosters a dedicated and passionate fan community.",
+  "response_word_count": 36,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

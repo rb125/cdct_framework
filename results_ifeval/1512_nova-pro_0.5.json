@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Create forum thread with short sentences no commas use [username] placeholders min 20 users",
+  "compressed_word_count": 14,
+  "response": "[username1] What's everyone's favorite movie genre?\n\n[username2] I love action movies.\n\n[username3] Comedy is my go-to.\n\n[username4] Horror films are the best.\n\n[username5] I prefer documentaries.\n\n[username6] Romance movies are my favorite.\n\n[username7] Animation wins for me.\n\n[username8] Thrillers keep me on the edge of my seat.\n\n[username9] Sci-fi is fascinating.\n\n[username10] Musicals are so fun.\n\n[username11] Westerns have a classic charm.\n\n[username12] I enjoy biopics.\n\n[username13] Fantasy worlds are amazing.\n\n[username14] I like foreign films.\n\n[username15] Sports movies motivate me.\n\n[username16] Noir films are intriguing.\n\n[username17] I'm a fan of noir too.\n\n[username18] Epic historical dramas are great.\n\n[username19] I love a good mystery.\n\n[username20] Any movie with a strong story works for me.",
+  "response_word_count": 115,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

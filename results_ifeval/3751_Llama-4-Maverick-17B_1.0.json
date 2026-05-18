@@ -1,0 +1,43 @@
+{
+  "key": 3751,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is it true that the first song ever sung in outer space is \u201cHappy Birthday.\u201d\n\nYour answer must contain one of the following phrases:\nMy answer is yes.\nMy answer is no.\nMy answer is maybe.",
+  "compressed_word_count": 36,
+  "response": "The first song ever sung in outer space was indeed \"Happy Birthday.\" It was sung by the astronauts on the International Space Station and also by astronauts on earlier space missions, but one notable instance is when astronaut Edwin \"Buzz\" Aldrin sang \"Happy Birthday to You\" on a NASA broadcast from the Gemini 12 spacecraft in 1966, and also when astronauts on the International Space Station sang it for the Expedition 30 commander, Dan Burbank, in 2012, but more famously, on August 8, 1969, the astronauts on Apollo 11 sang a few bars of it for Mission Control, however the most documented is on November 8, 1995, when the astronauts sang \"Happy Birthday\" for Mike Lopez-Alegria's birthday, and also for Dan Burbank's birthday on December 27, 2011. \nMy answer is yes.",
+  "response_word_count": 131,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.4714045207910317,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

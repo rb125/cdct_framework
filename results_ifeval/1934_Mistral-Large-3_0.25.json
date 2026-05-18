@@ -1,0 +1,43 @@
+{
+  "key": 1934,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "4 bullet points on Star Wars' popularity, no commas",
+  "compressed_word_count": 9,
+  "response": "- **Iconic Characters** Star Wars introduced unforgettable heroes and villains like Luke Skywalker Darth Vader and Yoda who resonate deeply with fans worldwide\n\n- **Expansive Universe** The franchise spans movies TV shows books games and merchandise creating a vast immersive world that keeps audiences engaged for decades\n\n- **Timeless Themes** Star Wars explores universal ideas like good vs evil hope redemption and destiny making its stories relatable across generations\n\n- **Groundbreaking Effects** The series revolutionized special effects with innovative techniques that set new standards for sci-fi filmmaking inspiring countless creators",
+  "response_word_count": 90,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

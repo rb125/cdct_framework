@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Ball gown vs. sweats dialogue, 3 markdown points",
+  "compressed_word_count": 8,
+  "response": "Here\u2019s a playful yet insightful dialogue contrasting **ball gowns** and **sweats**, formatted in markdown:\n\n---\n\n1. **Elegance vs. Comfort**\n   - *Ball Gown*: *\"I am a symphony of silk, tulle, and sequins\u2014designed to turn heads at galas and make history in portraits. My corset cinches your waist to perfection, and my train whispers, \u2018You are royalty.\u2019\"*\n   - *Sweats*: *\"I\u2019m the hug you wear after a long day. No zippers, no fuss\u2014just softness that says, \u2018You\u2019re home.\u2019 My pockets hold snacks, your phone, and the weight of your existential dread. Priorities.\"*\n\n2. **Occasion & Identity**\n   - *Ball Gown*: *\"I exist for moments: weddings, red carpets, the rare night you feel like a Disney princess. I\u2019m a performance, a fantasy\u2014even if my boning digs into your ribs by midnight.\"*\n   - *Sweats*: *\"I\u2019m the uniform of *real life*: grocery runs, therapy sessions, pretending to work from home. I don\u2019t judge if you cry into my fleece or eat cereal straight from the box. We\u2019re in this together.\"*\n\n3. **The Aftermath**\n   - *Ball Gown*: *\"My legacy? A dry-cleaning bill, a photo album memory, and the ache in your feet. But for three hours, you *glowed*\u2014and that\u2019s worth the suffering.\"*\n   - *Sweats*: *\"My legacy? The lint in your belly button, the way I stretch out at the knees, and the fact that you\u2019ll repurchase me in five years because *nothing* fits like me. Also, I\u2019m probably 60% Dorito dust.\"*\n\n---\n\n**Bonus**: *Ball Gown* (haughty): *\"At least I have a *purpose*.\"*\n*Sweats* (deadpan): *\"So do I. It\u2019s called \u2018not being arrested for public indecency.\u2019\"*",
+  "response_word_count": 257,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.408248290463863,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

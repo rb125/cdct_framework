@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n \n<<fingerprint swap>>",
+  "compressed_word_count": 31,
+  "response": "<<The Whorls We Wear>>\n\nDr. Lena Marsh is a forensic scientist who has spent her entire career studying fingerprints. Marcus Veil is a career criminal who has evaded capture for years by wearing gloves and leaving no trace at crime scenes.\n\nOne night during a botched robbery at Lena's laboratory Marcus accidentally triggers an experimental bioprinting machine that Lena had been developing. The machine was designed to reconstruct damaged skin tissue but something goes terribly wrong. A burst of energy and a strange chemical reaction causes the two of them to wake up the next morning with each other's fingerprints permanently etched onto their fingertips.\n\nLena suddenly finds herself flagged as a wanted criminal every time she touches a surface. Her keycard stops working and her identity is thrown into chaos. Marcus on the other hand finds doors opening for him that were never available before. He gains access to secure databases and high-clearance facilities simply by pressing his fingers to scanners.\n\nAs authorities close in on Lena believing her to be Marcus the two enemies are forced to work together to reverse the procedure. Their uneasy alliance forces them to confront their assumptions about each other. Lena learns that Marcus turned to crime after a corrupt system destroyed his family. Marcus learns that Lena's research was meant to help victims of violent crimes.\n\nTogether they expose the true villain behind Marcus's criminal network and find a way to restore their original prints leaving both of them permanently changed by the experience.",
+  "response_word_count": 252,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

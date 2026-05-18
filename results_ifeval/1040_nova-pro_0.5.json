@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "create resume for matthias algiers, highlight key skills in all caps, <10 times, in double quotes.",
+  "compressed_word_count": 16,
+  "response": "**Matthias Algiers**\n\n**Contact Information:**\n- Email: matthias.algiers@email.com\n- Phone: (123) 456-7890\n- LinkedIn: linkedin.com/in/matthiasalgiers\n- Address: 123 Innovation Drive, Tech City, TX 75001\n\n---\n\n**Professional Summary:**\nDynamic and results-driven professional with over 7 years of experience in software development and project management. Proven expertise in \"LEADERSHIP,\" \"TEAM COLLABORATION,\" and \"INNOVATION.\" Adept at \"PROBLEM-SOLVING\" and \"STRATEGIC PLANNING.\" Committed to delivering high-quality solutions and driving organizational success.\n\n---\n\n**Key Skills:**\n- \"PROGRAMMING\" (Python, Java, C++)\n- \"PROJECT MANAGEMENT\" (Agile, Scrum)\n- \"DATA ANALYSIS\" (SQL, Tableau)\n- \"COMMUNICATION\" (Verbal and Written)\n- \"CUSTOMER SERVICE\"\n- \"TIME MANAGEMENT\"\n- \"CRITICAL THINKING\"\n- \"ADAPTABILITY\"\n- \"TECHNICAL WRITING\"\n- \"QUALITY ASSURANCE\"\n\n---\n\n**Professional Experience:**\n\n**Senior Software Developer**\nTech Innovators Inc., Tech City, TX  \n*January 2018 \u2013 Present*\n\n- Led a team of 10 developers in designing and implementing software solutions.\n- Utilized \"PROGRAMMING\" skills to develop robust applications in Python and Java.\n- Implemented \"AGILE\" methodologies to enhance project delivery timelines.\n- Conducted \"DATA ANALYSIS\" to inform strategic decisions and improve product features.\n- Ensured \"QUALITY ASSURANCE\" through rigorous testing and code reviews.\n\n**Project Manager**\nInnovative Solutions Corp., Tech City, TX  \n*June 2015 \u2013 December 2017*\n\n- Managed multiple projects simultaneously, ensuring \"ON-TIME\" delivery and within budget.\n- Fostered \"TEAM COLLABORATION\" to achieve project goals and maintain high team morale.\n- Applied \"STRATEGIC PLANNING\" to align project objectives with company goals.\n- Enhanced \"CUSTOMER SERVICE\" by maintaining regular communication with clients.\n- Utilized \"PROBLEM-SOLVING\" skills to address project challenges and mitigate risks.\n\n**Software Engineer**\nCreative Tech Solutions, Tech City, TX  \n*March 2012 \u2013 May 2015*\n\n- Developed and maintained software applications using \"PROGRAMMING\" languages such as C++ and Java.\n- Participated in \"CODE REVIEWS\" to ensure high-quality standards.\n- Contributed to \"INNOVATION\" by suggesting improvements to existing processes.\n- Engaged in \"TECHNICAL WRITING\" to create documentation for end-users and developers.\n- Demonstrated \"ADAPTABILITY\" by quickly learning new technologies and tools.\n\n---\n\n**Education:**\n\n**Master of Science in Computer Science**\nTech University, Tech City, TX  \n*Graduated: May 2012*\n\n**Bachelor of Science in Information Technology**\nState University, Tech City, TX  \n*Graduated: May 2010*\n\n---\n\n**Certifications:**\n\n- Certified Scrum Master (CSM)\n- Project Management Professional (PMP)\n\n---\n\n**Additional Information:**\n\n- Volunteer Mentor at Local Coding Bootcamp\n- Member of the Association for Computing Machinery (ACM)",
+  "response_word_count": 375,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.6666666666666666,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.6666666666666666,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

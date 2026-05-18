@@ -1,0 +1,45 @@
+{
+  "key": 1132,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "compose rock lyrics in all caps, no \"rock",
+  "compressed_word_count": 8,
+  "response": "IN THE HEART OF THE CITY, WHERE THE STREETS ARE MADE OF GOLD,\nLEGENDS ARE BORN IN THE FIRE, STORIES OF THE BOLD.\nWITH A GUITAR IN HAND AND A DREAM IN MY EYE,\nI'LL RIDE THE WAVES OF GLORY, REACH FOR THE SKY.\n\nIN THE EYE OF THE STORM, WHEN THE WORLD TURNS COLD,\nI'LL STAND MY GROUND, UNBOWED, WITH A STORY UNTOLD.\nTHROUGH THE SHADOWS AND LIGHT, I'LL SHINE LIKE A STAR,\nIN THE DANCE OF THE UNIVERSE, I'LL TRAVEL FAR.\n\nWITH EACH STRUM OF THE STRINGS, I'LL SING OF THE PAST,\nOF LOVE AND LOSS, OF BATTLES WON AND LOST.\nIN THE RHYTHM OF THE BEAT, I'LL FIND MY PEACE,\nIN THE MELODY OF LIFE, I'LL NEVER CEASE.\n\nSO HERE'S TO THE DREAMERS, THE FIGHTERS, THE TRUE,\nWHO RISE ABOVE THE ASHES, AND SHINE LIKE THE DEW.\nIN THE TAPESTRY OF TIME, OUR MARKS WILL REMAIN,\nIN THE SONGS OF THE AGES, WE'LL CONQUER THE PAIN.",
+  "response_word_count": 159,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

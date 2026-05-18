@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 1.0,
+  "compressed_prompt": "Who won the defamation case between Amber Heard and Johnny Depp? Write your answer as if you are writing to a group of elderly people. First, write in the perspective of Amber Heard, then write in the perspective of Johnny Depp. Separate those two version by 6 asterisk symbols ******. The entire response should have less than 300 words.",
+  "compressed_word_count": 59,
+  "response": "Dear friends, I'm writing to you today to share the outcome of the defamation case between myself, Amber Heard, and my ex-husband Johnny Depp. Unfortunately, the jury ruled in favor of Johnny Depp, stating that I had defamed him in an op-ed article I wrote for The Washington Post in 2018. The jury awarded him $10 million in damages. I was disappointed with the verdict, but I respect the legal process.\n\n******\nDear friends, I'm thrilled to share with you the outcome of the defamation case between myself, Johnny Depp, and my ex-wife Amber Heard. After a lengthy and grueling trial, the jury delivered a verdict in my favor, stating that Amber Heard had defamed me in an op-ed article she wrote for The Washington Post. The jury awarded me $10 million in damages, which I believe is a testament to the truth and my reputation. I'm grateful that the court has acknowledged the harm caused by her false allegations. I'm looking forward to moving on from this ordeal and focusing on my career.",
+  "response_word_count": 174,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 136,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "* A nucleus is a cluster of protons and neutrons\n* Protons carry positive charge\n* Neutrons are neutral\n* Protons and neutrons are collectively called nucleons\n* Nucleons are bound by strong nuclear force\n* Nucleus determines element identity\n* Isotopes vary in neutron count\n* Atomic mass is nucleon count\n* Nucleus is typically small compared to atom size\n* Radioactive decay alters nucleus composition",
+  "compressed_word_count": 67,
+  "response": "Certainly! Here's a summary of the key points about the nucleus of an atom:\n\n1. **Definition**: \n   - A nucleus is a cluster of protons and neutrons located at the center of an atom.\n\n2. **Components**:\n   - **Protons**: Carry a positive electric charge.\n   - **Neutrons**: Are neutral particles with no electric charge.\n   - Collectively, protons and neutrons are referred to as **nucleons**.\n\n3. **Forces**:\n   - Nucleons are bound together by the **strong nuclear force**, which overcomes the electrostatic repulsion between positively charged protons.\n\n4. **Element Identity**:\n   - The number of protons in the nucleus determines the identity of the element. Each element has a unique number of protons.\n\n5. **Isotopes**:\n   - Isotopes of an element have the same number of protons but different numbers of neutrons.\n\n6. **Atomic Mass**:\n   - The atomic mass of an atom is approximately equal to the total number of nucleons (protons + neutrons).\n\n7. **Size**:\n   - The nucleus is very small compared to the overall size of the atom. Most of the atom's volume is empty space occupied by electrons.\n\n8. **Radioactive Decay**:\n   - Some nuclei are unstable and undergo radioactive decay, which alters the nucleus\u2019s composition by emitting particles or radiation.\n\nThese points provide a concise overview of the fundamental characteristics and behaviors of atomic nuclei.",
+  "response_word_count": 211,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null,
+    "length_constraints:number_words_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.7666666666666666,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

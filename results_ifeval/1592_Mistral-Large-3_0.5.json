@@ -1,0 +1,43 @@
+{
+  "key": 1592,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "summarize paragraph: 100% renewable energy by 2050 with solar & wind, job creation, pollution reduction, and disruption resistance",
+  "compressed_word_count": 18,
+  "response": "Here\u2019s a concise summary of the paragraph:\n\nAchieving **100% renewable energy by 2050**\u2014primarily through **solar and wind**\u2014would drive **job creation**, significantly **reduce pollution**, and enhance **resilience against disruptions** (e.g., fuel shortages or geopolitical conflicts). This transition would accelerate economic growth while ensuring a cleaner, more sustainable energy system.",
+  "response_word_count": 48,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

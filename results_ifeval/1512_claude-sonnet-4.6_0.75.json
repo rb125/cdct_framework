@@ -1,0 +1,45 @@
+{
+  "key": 1512,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "create a forum thread with short sentences about local news wait. no commas. use [username] placeholders at least 20 times.",
+  "compressed_word_count": 20,
+  "response": "# \ud83d\uddde\ufe0f LOCAL NEWS FORUM THREAD\n\n**Topic: What's happening in our town this week?**\n\n---\n\n**[username] posted:**\nThe old library is closing down.\nI heard it from my neighbor.\nThis is really bad news.\n\n---\n\n**[username] replied:**\nWait what?\nWhen did this happen?\nNobody told me anything.\n\n---\n\n**[username] replied:**\nI saw the sign yesterday.\nIt said closing next month.\nSo sad honestly.\n\n---\n\n**[username] replied:**\n[username] is right about the sign.\nI took a photo of it.\nWant me to post it here?\n\n---\n\n**[username] replied:**\nYes please post it.\nWe need to see proof.\nThis affects everyone here.\n\n---\n\n**[username] replied:**\nAlso the main road is flooded.\nStay away from Oak Street.\nIt has been like that since Tuesday.\n\n---\n\n**[username] replied:**\n[username] thank you for the warning.\nI almost drove that way today.\nYou saved me so much trouble.\n\n---\n\n**[username] replied:**\nThe mayor said nothing about it.\nTypical behavior from city hall.\nNobody is ever accountable.\n\n---\n\n**[username] replied:**\n[username] I totally agree.\nThey never communicate with residents.\nIt is frustrating every single time.\n\n---\n\n**[username] replied:**\nThere is also a new coffee shop opening.\nIt is on Maple Avenue.\nGrand opening is this Saturday.\n\n---\n\n**[username] replied:**\n[username] finally some good news!\nI will definitely be there.\nWhat time does it open?\n\n---\n\n**[username] replied:**\nI think it opens at eight.\nThe owner is really friendly.\nShe moved here from out of state.\n\n---\n\n**[username] replied:**\n[username] do you know her personally?\nThat is so cool.\nWe need more small businesses here.\n\n---\n\n**[username] replied:**\nThe school board meeting got cancelled.\nIt was supposed to be last night.\nNo reason was given at all.\n\n---\n\n**[username] replied:**\n[username] that is the third cancellation.\nSomething weird is going on.\nParents are getting really angry.\n\n---\n\n**[username] replied:**\nMy kid's teacher mentioned budget cuts.\nIt sounds really serious.\nWe should all show up next time.\n\n---\n\n**[username] replied:**\n[username] agreed one hundred percent.\nWe need to hold them responsible.\nSilence is not acceptable anymore.\n\n---\n\n**[username] replied:**\nAlso the farmers market is back.\nEvery Sunday starting this weekend.\nFresh produce and local honey too.\n\n---\n\n**[username] replied:**\n[username] this is the best news.\nI missed it so much.\nSee everyone there on Sunday!\n\n---\n\n**[username] replied:**\nDoes anyone know about the fire?\nIt happened near the old mill.\nI heard sirens all night long.\n\n---\n\n**[username] replied:**\n[username] yes I saw the smoke.\nNobody was hurt thankfully.\nThe building was already abandoned though.\n\n---\n\n**[username] replied:**\nStay safe out there everyone.\nThis town has a lot going on.\nKeep sharing updates here please.\n\n---\n\n*Thread continues below...*",
+  "response_word_count": 440,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

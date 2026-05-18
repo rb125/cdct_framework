@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "Depp won; write perspectives <300 words, 6** separator",
+  "compressed_word_count": 8,
+  "response": "**The Victim's Perspective**\nThis verdict is a chilling message to survivors everywhere. A powerful man with a fanatical following can weaponize the legal system to silence his accuser. The focus shifted from abuse to her reactive behavior, a common trauma response. Now, the narrative is rewritten: the victim is the villain. This isn't a win for truth; it's a masterclass in DARVO (Deny, Attack, Reverse Victim and Offender). It tells survivors that coming forward risks not just disbelief, but global humiliation and financial ruin.\n\n***\n\n**The Advocate's Perspective**\nThis case was never about domestic violence as a societal issue; it was a defamation trial about two specific individuals. The jury found that Heard knowingly made false, damaging statements. This is a win for due process, demonstrating that accusations\u2014regardless of gender\u2014must be substantiated. It checks the \"believe all victims\" mantra with the necessary legal corollary: \"but verify.\" It reinforces that no one, regardless of wealth or fame, is above being held accountable for defamation.\n\n***\n\n**The Public's Perspective**\nThe trial became a global circus, tried not just in court but on TikTok and Twitter. The public rendered its verdict long before the jury, dissecting clips and memes over evidence. Depp's victory feels like a populist revolt against a figure perceived as manipulative. It\u2019s less about legal nuance and more about a cultural course-correction: a beloved actor\u2019s reputation has been publicly restored, while his ex-wife is cast as the archetypal liar. The law followed the court of public opinion.",
+  "response_word_count": 247,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.3333333333333333,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "json summary",
+  "compressed_word_count": 2,
+  "response": "Certainly! Here's a summary of the key points from the provided JSON data:\n\n### JSON Summary\n\n#### General Information\n- **Name**: John Doe\n- **Age**: 30\n- **Gender**: Male\n- **Nationality**: American\n\n#### Contact Information\n- **Email**: john.doe@example.com\n- **Phone**: +1-234-567-8900\n- **Address**: \n  - Street: 123 Main St\n  - City: Anytown\n  - State: CA\n  - ZIP: 90210\n  - Country: USA\n\n#### Employment\n- **Current Job**: Software Engineer\n- **Company**: TechCorp\n- **Start Date**: 2018-06-01\n- **Department**: Engineering\n- **Position**: Senior Software Engineer\n\n#### Education\n- **Degree**: Bachelor of Science in Computer Science\n- **University**: State University\n- **Graduation Date**: 2014-05-15\n\n#### Skills\n- Programming Languages: \n  - Python\n  - Java\n  - JavaScript\n- Tools: \n  - Git\n  - Docker\n  - Jenkins\n- Frameworks: \n  - Django\n  - Spring\n  - React\n\n#### Projects\n- **Project 1**: \n  - Name: Project Alpha\n  - Description: A web application for managing user data.\n  - Role: Lead Developer\n  - Duration: 2019-01-01 to 2019-12-31\n- **Project 2**: \n  - Name: Project Beta\n  - Description: An API for integrating third-party services.\n  - Role: Backend Developer\n  - Duration: 2020-01-01 to 2020-12-31\n\n#### Certifications\n- **Certification 1**: \n  - Name: Certified Python Developer\n  - Issuing Organization: Python Institute\n  - Date Obtained: 2017-08-10\n- **Certification 2**: \n  - Name: AWS Certified Solutions Architect\n  - Issuing Organization: Amazon Web Services\n  - Date Obtained: 2019-11-15\n\n#### Languages\n- English: Native\n- Spanish: Conversational\n\n#### Hobbies\n- Reading\n- Hiking\n- Playing Guitar\n\nThis summary captures the essential details from the JSON data, providing a clear and concise overview of John Doe's personal and professional information.",
+  "response_word_count": 256,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.25,
+  "compressed_prompt": "Prada vs. Nike: sneaker choice, P.S.",
+  "compressed_word_count": 6,
+  "response": "When it comes to sneakers, both Prada and Nike are well-known brands, but they cater to different markets and have distinct styles. \n\nPrada is a luxury fashion brand that is known for its high-end, sophisticated designs. Their sneakers often feature premium materials, sleek designs, and a focus on fashion rather than performance. Prada sneakers are typically more expensive and are often sought after by fashion enthusiasts who value style and exclusivity.\n\nNike, on the other hand, is a sportswear brand that is known for its performance-driven designs. Their sneakers are often designed with specific sports or activities in mind, such as running, basketball, or training. Nike sneakers are known for their comfort, technology, and innovative designs.\n\nIf you're looking for a sneaker that's a fashion statement, Prada might be the better choice. However, if you're looking for a sneaker that's designed for performance or comfort, Nike might be the way to go.\n\nP.S. If you're looking for a unique, fashion-forward sneaker, you might want to consider Prada's collaborations with other brands or artists, which can result in truly limited-edition and exclusive designs.",
+  "response_word_count": 182,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.7666666666666666,
+      "FC": 0.7333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.20548046676563256,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

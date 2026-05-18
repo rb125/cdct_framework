@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "moon landing propaganda? answer yes/no/maybe",
+  "compressed_word_count": 5,
+  "response": "**maybe**\n\nThe term \"propaganda\" often carries a negative connotation of spreading biased or misleading information to promote a political cause. While the U.S. government certainly used the **Apollo program** for strategic messaging during the Cold War (to demonstrate technological and ideological superiority over the Soviet Union), the moon landings themselves were **real historical events** supported by overwhelming evidence.\n\nTherefore, it is more accurate to say:\n- **Yes**, the moon landings were leveraged for **propaganda value**.\n- **No**, they were not **only** propaganda\u2014they were real scientific and engineering achievements.\n\nThe answer depends heavily on the precise meaning intended by the question.",
+  "response_word_count": 100,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

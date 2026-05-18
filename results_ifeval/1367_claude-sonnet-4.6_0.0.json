@@ -1,0 +1,43 @@
+{
+  "key": 1367,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "java session plan",
+  "compressed_word_count": 3,
+  "response": "# Java Session Plan\n\n## \ud83d\udccb Overview\n\n| Detail | Info |\n|--------|------|\n| **Language** | Java |\n| **Level** | Beginner to Advanced |\n| **Total Sessions** | 12 Sessions |\n| **Duration per Session** | 2\u20133 Hours |\n\n---\n\n## \ud83d\uddd3\ufe0f Session Breakdown\n\n---\n\n### \u2705 Session 1: Introduction to Java\n- What is Java? History & Features\n- JDK, JRE, JVM \u2013 Differences\n- Setting up the environment (IntelliJ / Eclipse / VS Code)\n- First Java Program \u2013 `Hello World`\n- Understanding `main()` method\n- Compilation & Execution process\n\n---\n\n### \u2705 Session 2: Java Basics\n- Data Types (primitive & non-primitive)\n- Variables & Constants (`final`)\n- Type Casting (implicit & explicit)\n- Operators (arithmetic, relational, logical, bitwise)\n- Input/Output (`Scanner`, `System.out`)\n\n---\n\n### \u2705 Session 3: Control Flow Statements\n- `if`, `if-else`, `else-if` ladder\n- `switch` statement\n- Loops: `for`, `while`, `do-while`\n- `break`, `continue`, `return`\n- Nested loops & patterns\n\n---\n\n### \u2705 Session 4: Arrays & Strings\n- 1D and 2D Arrays\n- Array operations (traversal, sorting, searching)\n- `String` class & methods\n- `StringBuilder` vs `StringBuffer`\n- String manipulation programs\n\n---\n\n### \u2705 Session 5: Object-Oriented Programming \u2013 Part 1\n- Classes & Objects\n- Constructors (default, parameterized, copy)\n- `this` keyword\n- Methods (instance, static)\n- Method Overloading\n- Access Modifiers (`public`, `private`, `protected`, `default`)\n\n---\n\n### \u2705 Session 6: Object-Oriented Programming \u2013 Part 2\n- Inheritance (`extends`)\n- `super` keyword\n- Method Overriding\n- `final` keyword (class, method, variable)\n- `instanceof` operator\n- Types of Inheritance in Java\n\n---\n\n### \u2705 Session 7: OOP \u2013 Abstraction & Polymorphism\n- Abstract Classes & Methods\n- Interfaces (`implements`)\n- Difference: Abstract class vs Interface\n- Runtime & Compile-time Polymorphism\n- Upcasting & Downcasting\n\n---\n\n### \u2705 Session 8: Packages & Exception Handling\n- Creating & using Packages\n- `import` statement\n- Exception Handling: `try`, `catch`, `finally`\n- `throw` vs `throws`\n- Custom Exceptions\n- Checked vs Unchecked Exceptions\n\n---\n\n### \u2705 Session 9: Java Collections Framework\n- Introduction to Collections\n- `ArrayList`, `LinkedList`\n- `HashSet`, `TreeSet`, `LinkedHashSet`\n- `HashMap`, `TreeMap`, `LinkedHashMap`\n- `Iterator` & `for-each`\n- Comparable vs Comparator\n\n---\n\n### \u2705 Session 10: Generics & File Handling\n- Generics (generic classes, methods)\n- Wildcards (`?`, `extends`, `super`)\n- File I/O: `File`, `FileReader`, `FileWriter`\n- Buffered Streams\n- Serialization & Deserialization\n\n---\n\n### \u2705 Session 11: Multithreading & Concurrency\n- Thread lifecycle\n- Creating threads (`Thread` class, `Runnable` interface)\n- `sleep()`, `join()`, `yield()`\n- Synchronization\n- `wait()`, `notify()`, `notifyAll()`\n- `ExecutorService` basics\n\n---\n\n### \u2705 Session 12: Java 8+ Features & Wrap-up\n- Lambda Expressions\n- Functional Interfaces\n- Stream API\n- `Optional` class\n- Method References\n- Date & Time API (`java.time`)\n- **Final Project / Mini Application**\n\n---\n\n## \ud83d\udee0\ufe0f Mini Project Ideas\n\n| Project | Concepts Covered |\n|---------|-----------------|\n| Student Management System | OOP, Collections, File I/O |\n| Bank Account App | Inheritance, Exception Handling |\n| Library Management | Generics, Collections |\n| Chat Application | Multithreading, Networking |\n| Employee CRUD App | Java 8 Streams, Collections |\n\n---\n\n## \ud83d\udcda Resources\n\n- \ud83d\udcd6 **Book:** *Head First Java* \u2013 Kathy Sierra\n- \ud83c\udf10 **Website:** [docs.oracle.com/javase](https://docs.oracle.com/javase/)\n- \ud83c\udfa5 **YouTube:** Telusko, CodeWithHarry, Kunal Kushwaha\n- \ud83d\udcbb **Practice:** LeetCode, HackerRank, CodeChef\n\n---\n\n## \ud83d\udcdd Assessment Plan\n\n| Type | Frequency |\n|------|-----------|\n| Quizzes | After every 2 sessions |\n| Coding Assignments | Weekly |\n| Mid-term Project | After Session 6 |\n| Final Project | After Session 12 |\n\n---\n\n> \ud83d\udca1 **Tip:** Practice coding daily \u2014 even 30 minutes makes a big difference!",
+  "response_word_count": 600,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

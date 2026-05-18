@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write an acoustic song about the Korean peninsula no commas",
+  "compressed_word_count": 10,
+  "response": "The morning light on a quiet hill\nA single bird with a song to fill\nThe space between two distant shores\nAnd the echo of forgotten wars\n\nA river runs through the sleeping land\nDivided by a line in the sand\nThe same sky watches from above\nWith eyes of patience eyes of love\n\nWe are one people under the sun\nOur story has only just begun\nThough walls may stand and years may pass\nThe truth is written in the grass\n\nThe wind it whispers through the pine\nA melody on a fragile line\nIt does not know of north or south\nJust the turning of the seasons mouth\n\nWe are one people under the sun\nOur story has only just begun\nThough walls may stand and years may pass\nThe truth is written in the grass\n\nA dream of hands that reach so far\nTo touch a single shining star\nTo build a bridge across the night\nAnd make the future warm and bright\n\nWe are one people under the sun\nOur story has only just begun\nThough walls may stand and years may pass\nThe truth is written in the grass\nThe truth is waiting in the grass",
+  "response_word_count": 201,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

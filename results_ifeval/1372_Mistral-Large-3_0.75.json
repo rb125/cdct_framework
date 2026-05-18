@@ -1,0 +1,43 @@
+{
+  "key": 1372,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a blog post on ripley's aquarium; include at least 7 placeholders like [location], [species], [opening hours], etc. no commas in formal tone",
+  "compressed_word_count": 23,
+  "response": "# Exploring the Wonders of Ripley\u2019s Aquarium: A Marine Adventure\n\nRipley\u2019s Aquarium stands as one of the most captivating destinations for marine enthusiasts and families alike. Located in [location] this world-class facility offers an immersive experience into the depths of the ocean showcasing a diverse array of aquatic life. Whether you are a seasoned marine biologist or a curious visitor Ripley\u2019s Aquarium promises an unforgettable journey beneath the waves.\n\n## A Glimpse into the Aquatic World\n\nUpon entering Ripley\u2019s Aquarium visitors are greeted by stunning exhibits that highlight the beauty and complexity of marine ecosystems. The aquarium houses over [number] species of marine life ranging from vibrant tropical fish to majestic sharks and graceful stingrays. Each exhibit is meticulously designed to replicate the natural habitats of these creatures providing an educational and awe-inspiring experience.\n\nOne of the most popular attractions is the [exhibit name] where guests can walk through a glass tunnel surrounded by a mesmerizing underwater world. This exhibit features [species] including [species] and [species] offering a close-up view of their behaviors and interactions. The tunnel experience is particularly thrilling as it allows visitors to feel as though they are walking on the ocean floor.\n\n## Educational Opportunities and Interactive Experiences\n\nRipley\u2019s Aquarium is not only a place of entertainment but also a hub for education and conservation. The facility offers a variety of programs and interactive experiences designed to engage visitors of all ages. The [program name] provides an opportunity for guests to learn about marine conservation efforts and the importance of protecting our oceans. Additionally the aquarium hosts [event name] where visitors can participate in hands-on activities and meet marine experts.\n\nFor those seeking a more immersive experience Ripley\u2019s Aquarium offers [experience name] where guests can get up close and personal with some of the aquarium\u2019s residents. This experience includes feeding sessions and behind-the-scenes tours providing a deeper understanding of the care and maintenance required to sustain these incredible creatures.\n\n## Visitor Information and Practical Details\n\nPlanning a visit to Ripley\u2019s Aquarium is straightforward with convenient [opening hours] that accommodate various schedules. The aquarium is open [days of the week] from [time] to [time] ensuring ample time to explore all the exhibits. Tickets can be purchased online or at the entrance with options for [ticket type] and [ticket type] available to suit different preferences and budgets.\n\nThe aquarium is easily accessible with ample parking available at [parking location]. For those using public transportation the nearest [public transport option] is located just a short walk away. Additionally Ripley\u2019s Aquarium is wheelchair accessible ensuring that all visitors can enjoy the experience without limitations.\n\n## Conservation Efforts and Community Involvement\n\nRipley\u2019s Aquarium is deeply committed to marine conservation and actively participates in various initiatives to protect and preserve aquatic life. The aquarium collaborates with [organization name] and other conservation groups to support research and rehabilitation efforts. Through these partnerships Ripley\u2019s Aquarium contributes to the protection of endangered species and the restoration of marine habitats.\n\nVisitors are encouraged to support these efforts by participating in [donation program] or learning about sustainable practices that can help protect our oceans. The aquarium also hosts [community event name] where guests can engage with conservationists and learn about ongoing projects.\n\n## Dining and Shopping Options\n\nAfter a day of exploration visitors can enjoy a meal at [restaurant name] located within the aquarium. The restaurant offers a variety of [cuisine type] options ensuring there is something for everyone. For those looking to take home a souvenir the [gift shop name] provides a wide selection of marine-themed merchandise including [item type] and [item type].\n\n## Conclusion\n\nRipley\u2019s Aquarium offers a unique blend of entertainment education and conservation making it a must-visit destination for anyone interested in the wonders of the ocean. With its stunning exhibits interactive experiences and commitment to marine protection the aquarium provides an enriching experience for visitors of all ages. Plan your visit today and dive into the incredible world of Ripley\u2019s Aquarium.",
+  "response_word_count": 659,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.20548046676563256,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

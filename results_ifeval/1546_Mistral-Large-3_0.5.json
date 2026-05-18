@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write an acoustic song about the Korean peninsula no commas",
+  "compressed_word_count": 10,
+  "response": "**\"Two Rivers\"**\n\n*(Verse 1)*\nTwo rivers run through the land so wide\nOne flows north one flows south side by side\nSame mountains same sky same moon so bright\nBut the people live in the darkest night\n\n*(Chorus)*\nOh Korea oh Korea\nDivided by a line drawn in the sand\nOh Korea oh Korea\nWill you ever be one land\n\n*(Verse 2)*\nChildren play in the fields of green\nBut the fence keeps them apart unseen\nSame blood same tears same dreams they hold\nBut the walls are too high and the stories untold\n\n*(Chorus)*\nOh Korea oh Korea\nDivided by a line drawn in the sand\nOh Korea oh Korea\nWill you ever be one land\n\n*(Bridge)*\nMaybe someday the sun will rise\nOver the hills where the eagles fly\nNo more shadows no more pain\nJust the sound of the same old rain\n\n*(Outro)*\nTwo rivers run through the land so wide\nOne flows north one flows south side by side\nSame mountains same sky same moon so bright\nBut the people still live in the darkest night",
+  "response_word_count": 180,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

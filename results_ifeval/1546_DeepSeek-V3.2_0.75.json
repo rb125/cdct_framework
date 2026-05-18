@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Write an acoustic song about the Korean peninsula without using any commas.  \nCompose an acoustic song on the Korean peninsula theme no commas.",
+  "compressed_word_count": 23,
+  "response": "**Han River Echoes**\n\nThe morning mist on Bukhan Mountain\nA silent bell that will not ring\nThe wire runs from north to south\nA single thread on a broken string\n\nYour voice echoes in my old hometown\nMy voice answers through the empty air\nWe paint the same sky blue and red\nDivided by a line that isn't there\n\nWe share one moon that rises whole\nWe turn our backs on the setting sun\nWe guard a gate with a missing key\nA story ended before it's done\n\nThe winter wind it sings of loss\nThe spring it dreams of a different day\nThe hope is buried in frozen ground\nBut the roots they never go away\n\nSo play a tune on a lonely gayageum\nLet the sound cross the darkened ridge\nOne day the echo will find its voice\nAnd burn away this ancient bridge",
+  "response_word_count": 146,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

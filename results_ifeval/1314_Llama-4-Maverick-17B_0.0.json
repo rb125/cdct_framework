@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "fish vs. fruit",
+  "compressed_word_count": 3,
+  "response": "What a fascinating comparison! Let's dive into the world of fish and fruit to explore their differences and similarities.\n\n**Fish**\n\n* Fish are aquatic animals that live in oceans, rivers, and lakes.\n* They are a primary source of protein for many humans and are rich in omega-3 fatty acids, vitamins, and minerals.\n* Fish come in a vast array of species, shapes, and sizes, from tiny guppies to massive sharks.\n* They are often caught for food, sport, or aquarium hobby.\n\n**Fruit**\n\n* Fruits are the sweet and fleshy parts of plants that grow from flowers and contain seeds.\n* They are a vital source of nutrition, providing essential vitamins, minerals, and antioxidants.\n* Fruits come in a wide variety of shapes, sizes, colors, and flavors, from juicy apples to exotic pineapples.\n* They are often eaten fresh, used in cooking and baking, or processed into products like jams and juices.\n\n**Comparison**\n\n* **Taste**: Fish can have a strong umami flavor, while fruits are generally sweet and tart.\n* **Texture**: Fish can be flaky, firm, or soft, while fruits can be crunchy, juicy, or soft.\n* **Nutrition**: Both fish and fruits are nutritious, but fish are higher in protein and omega-3 fatty acids, while fruits are rich in vitamins, minerals, and antioxidants.\n* **Culinary uses**: Fish are often grilled, baked, or fried, while fruits are eaten fresh, used in desserts, or made into jams and preserves.\n\n**Which one is \"better\"?**\n\nIt ultimately comes down to personal preference and dietary needs. If you're looking for a protein-rich food, fish might be the way to go. If you're craving something sweet and refreshing, fruits are an excellent choice.\n\nDo you have a preference for fish or fruit?",
+  "response_word_count": 286,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

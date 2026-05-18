@@ -1,0 +1,43 @@
+{
+  "key": 1372,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "write a blog post on ripley's aquarium; include at least 7 placeholders like [location], [species], [opening hours], etc. no commas in formal tone",
+  "compressed_word_count": 23,
+  "response": "Welcome to our blog post about the fascinating world of Ripley's Aquarium! Located in [location] this aquatic wonderland is a must-visit destination for marine enthusiasts and families alike. With a diverse collection of [species] from around the globe Ripley's Aquarium offers an unforgettable experience for visitors of all ages.\n\nUpon entering the aquarium you'll be greeted by a stunning array of marine life housed in state-of-the-art exhibits. From graceful stingrays gliding through the water to vibrant coral reefs teeming with colorful fish there's something to captivate every visitor. The aquarium's commitment to conservation and education is evident in its engaging displays and informative presentations.\n\nOne of the highlights of Ripley's Aquarium is the [main attraction] a breathtaking exhibit that showcases some of the ocean's most fascinating creatures. Whether you're marveling at the graceful movements of a sea turtle or watching a school of fish swim in perfect harmony you'll be transported to an underwater world like no other.\n\nIn addition to its impressive exhibits Ripley's Aquarium offers a range of interactive experiences for visitors. From behind-the-scenes tours to hands-on encounters with marine animals there are plenty of opportunities to get up close and personal with the ocean's inhabitants. The aquarium also hosts special events and programs throughout the year making it a dynamic and ever-changing destination.\n\nFor those planning a visit to Ripley's Aquarium it's important to note the [opening hours] and [ticket prices] to ensure a smooth and enjoyable experience. The aquarium is open [days of the week] from [opening time] to [closing time] allowing visitors to explore at their own pace. Ticket prices vary depending on age and residency with discounts available for groups and online purchases.\n\nWhether you're a seasoned marine enthusiast or a first-time visitor Ripley's Aquarium promises an unforgettable adventure. With its stunning exhibits interactive experiences and commitment to conservation this aquatic wonderland is a true gem in [location]. Don't miss your chance to dive into the wonders of the ocean at Ripley's Aquarium!",
+  "response_word_count": 329,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.7333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.16996731711975951,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

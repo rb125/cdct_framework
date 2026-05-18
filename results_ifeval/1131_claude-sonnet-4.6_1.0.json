@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a 4 section resume for professional clown Phil Larkin. Each section should be explicitly noted as Section X.",
+  "compressed_word_count": 19,
+  "response": "# Resume: Phil Larkin, Professional Clown\n\n---\n\n**Section 1: Personal Summary**\n\nPhil Larkin is an energetic and dedicated professional clown with over 15 years of experience bringing laughter, joy, and unforgettable entertainment to audiences of all ages. Known for his signature character \"Pickles the Clown,\" Phil combines expert physical comedy, balloon artistry, and improvisational skills to create magical moments at events ranging from intimate birthday parties to large-scale corporate functions. Phil is committed to delivering safe, inclusive, and high-quality performances that leave lasting smiles on every face in the crowd.\n\n---\n\n**Section 2: Skills and Specializations**\n\n- Balloon twisting and sculpting (advanced level)\n- Juggling (up to 7 objects simultaneously)\n- Slapstick and physical comedy\n- Face painting and theatrical makeup application\n- Unicycle riding and stilt walking\n- Magic tricks and illusion performance\n- Crowd engagement and audience interaction\n- Character development and costume design\n\n---\n\n**Section 3: Professional Experience**\n\n**Lead Performer \u2013 Giggle Factory Entertainment, Chicago, IL (2015\u2013Present)**\nHeadline clown performer for a regional entertainment company, performing at over 200 events annually including birthday parties, school carnivals, hospital visits, and corporate events.\n\n**Resident Clown \u2013 Sunshine Circus Arts, Milwaukee, WI (2010\u20132015)**\nPerformed as part of a rotating cast of circus entertainers, developing original comedic routines and mentoring junior performers.\n\n**Freelance Clown Performer (2008\u20132010)**\nBuilt an independent client base through word-of-mouth referrals, performing at private and community events throughout the Midwest.\n\n---\n\n**Section 4: Education and Certifications**\n\n**Associate of Arts in Performing Arts**\nColumbia College Chicago, Chicago, IL \u2013 Graduated 2008\n\n**Clown Training Certificate**\nRingling Bros. and Barnum & Bailey Clown College \u2013 Completed 2007\n\n**Certifications:**\n- CPR and First Aid Certified (renewed annually)\n- Child Safety and Background Check Clearance\n- Balloon Artist Certification \u2013 Qualatex Balloon Network (QBN)\n- Stilt Walking Safety Certification \u2013 National Association of Strolling Performers",
+  "response_word_count": 302,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

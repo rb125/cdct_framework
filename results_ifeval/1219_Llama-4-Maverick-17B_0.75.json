@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "compare prada and nike for sneakers in english, use \"sneaker\" at least 10 times, end with P.S.",
+  "compressed_word_count": 17,
+  "response": "When it comes to sneakers, two brands that often come to mind are Prada and Nike. While both are well-known for their high-quality sneakers, they cater to different tastes and preferences. Prada is a luxury fashion brand that offers sleek and sophisticated sneakers that are perfect for dressing up or down. Their sneakers often feature premium materials, such as leather and suede, and are designed with a focus on style and elegance.\n\nOn the other hand, Nike is a sportswear brand that is renowned for its high-performance sneakers that are designed for athletes and fitness enthusiasts. Nike sneakers are often equipped with cutting-edge technology, such as Air Max and Flyknit, that provide comfort, support, and traction. While Nike sneakers are also fashionable, their primary focus is on functionality and performance.\n\nIn terms of design, Prada sneakers tend to be more minimalist and understated, with a focus on clean lines and simple silhouettes. Nike sneakers, by contrast, often feature bold colors and statement designs that are meant to make a statement. Whether you're looking for a sleek and stylish sneaker or a high-performance sneaker that can keep up with your active lifestyle, both Prada and Nike offer a wide range of sneakers to choose from.\n\nFor those who value fashion and style, Prada sneakers are a great choice. Their sneakers are often considered to be investment pieces that can be worn for years to come. Nike sneakers, on the other hand, are perfect for those who prioritize performance and comfort. Whether you're running a marathon or just running errands, Nike sneakers are designed to keep up with your active lifestyle.\n\nUltimately, the choice between Prada and Nike sneakers comes down to personal preference. If you're looking for a stylish and sophisticated sneaker that makes a statement, Prada is a great choice. If you're looking for a high-performance sneaker that can keep up with your active lifestyle, Nike is the way to go. Both brands offer high-quality sneakers that are sure to satisfy even the most discerning sneaker enthusiasts.\n\nP.S. Whether you're a sneakerhead or just a fan of comfortable footwear, both Prada and Nike have got you covered with their amazing range of sneakers.",
+  "response_word_count": 363,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

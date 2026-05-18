@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "post hajj story in lowercase, twice story",
+  "compressed_word_count": 7,
+  "response": "here\u2019s your post-hajj story in lowercase, repeated twice:\n\n---\n\n**post-hajj story**\n\nafter weeks of sacred rituals, the pilgrims returned home, their hearts lighter, their souls cleansed. the kaaba\u2019s call still echoed in their minds, the tawaf\u2019s rhythm a quiet pulse in their chests. the desert\u2019s silence had spoken louder than any sermon, and the weight of ihram had stripped away pride, leaving only humility.\n\nback in their daily lives, they noticed small miracles\u2014the way the sunrise painted the sky, the kindness of strangers, the quiet strength in prayer. hajj had changed them, not in grand gestures, but in the quiet resolve to carry its lessons forward. the white ihram was packed away, but the spirit of unity, sacrifice, and devotion remained, woven into the fabric of their days.\n\nthey knew the journey wasn\u2019t over. hajj was just the beginning.\n\n---\n\n**post-hajj story**\n\nafter weeks of sacred rituals, the pilgrims returned home, their hearts lighter, their souls cleansed. the kaaba\u2019s call still echoed in their minds, the tawaf\u2019s rhythm a quiet pulse in their chests. the desert\u2019s silence had spoken louder than any sermon, and the weight of ihram had stripped away pride, leaving only humility.\n\nback in their daily lives, they noticed small miracles\u2014the way the sunrise painted the sky, the kindness of strangers, the quiet strength in prayer. hajj had changed them, not in grand gestures, but in the quiet resolve to carry its lessons forward. the white ihram was packed away, but the spirit of unity, sacrifice, and devotion remained, woven into the fabric of their days.\n\nthey knew the journey wasn\u2019t over. hajj was just the beginning.\n\n---",
+  "response_word_count": 271,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

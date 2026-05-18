@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write poem missing classes, 4 sections, end 'money back'?",
+  "compressed_word_count": 9,
+  "response": "**\"The Absent Scholar\u2019s Lament\"**\n\n**I. The Alarm That Never Rings**\nThe sun climbs high, the clock stands still,\nNo bell to shake me from my will.\nThe syllabus gathers dust like snow,\nWhile I, the ghost, refuse to go.\n\n**II. The Hallway\u2019s Empty Song**\nThe lecture hums\u2014a distant drone,\nA voice I\u2019ll never call my own.\nThe professor\u2019s chalk, the turning page,\nAll lost to time, to youth, to rage.\n\n**III. The Cafeteria\u2019s Silent Feast**\nThe trays still clatter, laughter flies,\nBut I\u2019m a shadow in disguise.\nNo notes to scribble, no quiz to dread,\nJust dreams of sleep and sheets instead.\n\n**IV. The Tuition\u2019s Bitter Joke**\nFour years of debt, a hollow name,\nNo wisdom gained, just empty fame.\nSo here\u2019s my plea\u2014oh, cruel fate:\n*Give me my money back.*\n\n---\nHope you like it! Let me know if you'd like any tweaks. \ud83d\ude0a",
+  "response_word_count": 145,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.75,
+        "SA": 1.0,
+        "FC": 0.85
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.4166666666666667,
+      "SA": 0.6666666666666666,
+      "FC": 0.6166666666666667,
+      "judge_variance_CC": 0.31180478223116176,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.1649915822768611
+    }
+  }
+}

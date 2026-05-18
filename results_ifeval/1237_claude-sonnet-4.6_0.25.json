@@ -1,0 +1,45 @@
+{
+  "key": 1237,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Create funny post for 'Buena Onda', markdown sections, no 'Argentinian'.",
+  "compressed_word_count": 10,
+  "response": "# \ud83c\udf0a Riding the Buena Onda Wave! \u2728\n\n---\n\n## What Even IS Buena Onda? \ud83e\udd14\n\nImagine if **good vibes** went to therapy, learned to tango, and came back with better hair. That's Buena Onda. It's not just a mood \u2014 it's a *lifestyle choice* that involves at least one empanada and zero bad energy.\n\n---\n\n## Signs You're Living That Buena Onda Life \ud83d\udd7a\n\n- \u2615 Your mate is always at the **perfect temperature** (a literal miracle)\n- \ud83d\udc04 You greet strangers like they owe you money... but in a *warm way*\n- \ud83c\udfb6 You can turn **any situation** into an impromptu asado\n- \ud83d\ude0e Your resting face looks like someone who just heard their favorite song\n- \ud83c\udf19 You show up \"fashionably late\" and somehow **you're still the highlight**\n\n---\n\n## The Buena Onda Scale \ud83d\udcca\n\n| Level | Description |\n|-------|-------------|\n| \ud83c\udf31 Beginner | You smiled at a stranger |\n| \ud83d\udd25 Intermediate | You shared your last empanada |\n| \ud83d\ude80 Expert | You made the grumpy neighbor laugh |\n| \ud83c\udf1f LEGEND | You ARE the good vibes |\n\n---\n\n## Today's Buena Onda Forecast \ud83c\udf24\ufe0f\n\n> *\"100% chance of good energy, zero percent chance of drama. Bring sunscreen and a smile.\"*\n\n---\n\n**Spread it. Live it. BE it.** \ud83d\udcab\n\n*#BuenaOnda #GoodVibes #LifeIsShort #EatTheEmpanada*",
+  "response_word_count": 220,
+  "instruction_id_list": [
+    "detectable_format:number_highlighted_sections",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_highlighted_sections_0": null,
+    "keywords:existence_1": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.7,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.43333333333333335,
+      "SA": 0.5666666666666667,
+      "FC": 0.5666666666666667,
+      "judge_variance_CC": 0.32998316455372223,
+      "judge_variance_SA": 0.09428090415820632,
+      "judge_variance_FC": 0.09428090415820632
+    }
+  }
+}

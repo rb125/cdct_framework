@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Describe tennis balls in medieval verse, P.P.S. modern materials.",
+  "compressed_word_count": 9,
+  "response": "O, fair tennis ball, thy wondrous might,\nIn pressurized delight, doth take the light.\nA fuzzy coat, of felt so fine and bright,\nDoth encase the inner workings, a wondrous sight.\n\nThy rubber core, a marvel of modern art,\nDoth yield to pressure, and doth play its part.\nThe air within, compressed with skill and care,\nDoth make thee bounce, with vigor beyond compare.\n\nThy surface, textured, with a fuzzy sheen,\nDoth grip the racket, and doth make the ball be seen.\nThe felt, a blend of wool and synthetic might,\nDoth provide the traction, for a shot so bright.\n\nIn days of yore, thou wouldst have been made of wood,\nOr leather, stitched with care, as was the custom good.\nBut now, in modern times, thou art crafted with ease,\nFrom materials new, that bring thee to thy knees.\n\nThy pressurized core, a marvel of our age,\nDoth make thee bounce, with a lively stage.\nThe rubber, synthetic, doth provide the might,\nTo withstand the forces, of a serve so bright.\n\nP.P.S. In sooth, fair ball, thy modern guise,\nDoth boast a pressurized core, of rubber, wise.\nThe felt, a mix of wool and synthetic thread,\nDoth provide the grip, that doth make the players' hearts be glad.\n\nThus, in thy modern form, thou dost delight,\nThe tennis players, with thy bouncy might.\nMay thy fuzzy coat, and pressurized core,\nBring joy to the game, forevermore.",
+  "response_word_count": 237,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

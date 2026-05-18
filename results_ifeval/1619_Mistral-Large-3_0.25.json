@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "rap new smartphone, [placeholders], P.P.S.",
+  "compressed_word_count": 5,
+  "response": "Here\u2019s a fun and creative rap about a **new smartphone**\u2014packed with hype, features, and swagger! I\u2019ve included **[placeholders]** where you can customize details (brand, specs, price, etc.). The **\"P.P.S.\"** (Post-Post-Script) adds a playful twist at the end.\n\n---\n\n### **\"New Phone Anthem\"**\n*(Beat drops\u2014bass-heavy, futuristic vibe)*\n\n**[Verse 1]**\nYo, step in the lab, yeah, I\u2019m cookin\u2019 up tech,\nGlass so smooth, it\u2019s a flex in my neck.\n**[Brand]** dropped the bomb\u2014call it **[Model Name]**,\nScreen so crisp, it\u2019s a **4K** dream.\n\n**[Placeholders: Specs]**\n- **Camera**: **[X] MP**, night mode fire,\n  Snap a pic, make your ex say *\"Damn, retire!\"*\n- **Battery**: **[X]mAh**, lasts all day,\n  No charger? Nah, I\u2019m **wireless** anyway.\n- **Chipset**: **[Processor]**, runs like a cheetah,\n  No lag, no stutter\u2014just **pure speed-a**.\n\n**[Chorus]**\n*New phone, new flex, yeah, I\u2019m feelin\u2019 elite,*\n*Swipe the screen, it\u2019s a **haptic** treat.*\n*From the box to the \u2018Gram, I\u2019m **trendin\u2019 the street**,*\n*This **[Brand]** got me **living the suite**!*\n\n**[Verse 2]**\n**[Placeholders: Features]**\n- **Design**: **[Color]** shine, **[Material]** back,\n  Feels like gold, but it\u2019s **titanium**\u2014fact.\n- **OS**: **[iOS/Android]**, smooth like butter,\n  No bloatware, just **pure power**\u2014utter.\n- **Extras**: **[Foldable/Under-Display Cam/Periscope Lens]**, yeah, I\u2019m ahead,\n  While your phone\u2019s stuck in **2019**, I\u2019m **next-gen** fed.\n\n**[Bridge]**\nThey see me scroll, say *\"How\u2019d you get that glow?\"*\nI hit \u2018em with the **\"Always On Display\"**, watch \u2018em bow.\n**[Brand]** said *\"Upgrade\"*, so I **copped the max**,\nNow my wallet\u2019s light, but my **status**? **Stacked**.\n\n**[Chorus]**\n*New phone, new flex, yeah, I\u2019m feelin\u2019 elite,*\n*Swipe the screen, it\u2019s a **haptic** treat.*\n*From the box to the \u2018Gram, I\u2019m **trendin\u2019 the street**,*\n*This **[Brand]** got me **living the suite**!*\n\n**[Outro: P.P.S.]**\n*(Beat fades\u2014whispered, sarcastic tone)*\n**P.P.S.**\u2014Ayo, real talk, though,\nThis phone cost more than my **rent**\u2026 *oh no*.\nBut hey, at least my **selfies** look **flawless**,\n\u2026**Send me the link to the payment plan**, *boss*.\n\n---\n\n### **How to Customize:**\n1. **Brand/Model**: Replace **[Brand]** (Apple/Samsung/Google/etc.) and **[Model Name]** (e.g., iPhone 15 Pro, Galaxy S24 Ultra).\n2. **Specs**: Fill in **[X] MP**, **[Processor]**, **[Color]**, etc.\n3. **Features**: Highlight unique selling points (e.g., \"Dynamic Island,\" \"S Pen,\" \"100x Zoom\").\n4. **P.P.S.**: Add humor\u2014maybe a joke about the price, your broke status, or a rival brand diss.\n\nWant it **funnier**, **more technical**, or **brand-specific**? Let me know\u2014I\u2019ll tweak it! \ud83c\udfa4\ud83d\udd25",
+  "response_word_count": 380,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1546,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write an acoustic song about the Korean peninsula no commas",
+  "compressed_word_count": 10,
+  "response": "In the heart of Asia where the mountains rise so high\nLies a land of ancient tales where the East meets the sky\nThe Korean Peninsula a story yet untold\nOf a people strong and proud with a history bold\n\nFrom the bustling streets of Seoul to the quiet countryside\nWhere the Han River flows and the cherry blossoms hide\nIn the North the land of mystery with secrets yet to unfold\nIn the South a vibrant culture where the future takes its hold\n\nOh Korea land of contrasts where the past and present blend\nA nation divided yet united by a common thread\n\nIn the North the mountains stand with secrets in their keep\nWhere the Yalu River flows and the people's dreams sleep\nIn the South the cities shine with innovation's light\nWhere the dreams of youth take flight in the heart of the night\n\nOh Korea land of contrasts where the past and present blend\nA nation divided yet united by a common thread\n\nFrom the temples of Gyeongbokgung to the shores of the East Sea\nWhere the waves crash and sing of a land wild and free\nIn the heart of the peninsula where the spirits roam\nLies a place where love and hope find their eternal home\n\nOh Korea land of contrasts where the past and present blend\nA nation divided yet united by a common thread\n\nSo let us sing of Korea with voices raised in song\nOf a land where dreams take flight and hearts beat strong\nIn the heart of Asia where the mountains rise so high\nLies a land of ancient tales where the East meets the sky",
+  "response_word_count": 277,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "punctuation:no_comma_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.6666666666666666,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

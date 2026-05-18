@@ -1,0 +1,43 @@
+{
+  "key": 2164,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "dog toy [placeholders]",
+  "compressed_word_count": 3,
+  "response": "Sure, here's a detailed description of a dog toy with placeholders for specific details:\n\n---\n\n**Dog Toy Description**\n\n**Product Name:** [Product Name]\n\n**Type:** [Type of Toy - e.g., Chew Toy, Interactive Toy, Squeaky Toy]\n\n**Material:** \n- Primary Material: [Primary Material - e.g., Rubber, Nylon, Plush]\n- Additional Materials: [Additional Materials - e.g., Rope, Feathers]\n\n**Dimensions:**\n- Length: [Length in inches/cm]\n- Width: [Width in inches/cm]\n- Height: [Height in inches/cm]\n\n**Color:**\n- Main Color: [Main Color - e.g., Blue, Red]\n- Accent Colors: [Accent Colors - e.g., Green, Yellow]\n\n**Design Features:**\n- Shape: [Shape - e.g., Bone, Ball, Frisbee]\n- Texture: [Texture - e.g., Ridged, Smooth]\n- Special Features: [Special Features - e.g., Squeaker, Floating capability]\n\n**Target Dog Size:**\n- Small Dogs (under [weight in lbs/kg])\n- Medium Dogs ([weight range in lbs/kg])\n- Large Dogs ([weight range in lbs/kg])\n\n**Durability:**\n- Chew Resistance: [Level of Chew Resistance - e.g., High, Moderate]\n- Washability: [Washability - e.g., Machine washable, Hand wash only]\n\n**Safety Features:**\n- Non-Toxic Materials: [Yes/No]\n- BPA-Free: [Yes/No]\n- Choking Hazard Warning: [Yes/No, with appropriate warning if necessary]\n\n**Additional Information:**\n- Recommended Age: [Recommended Age - e.g., Puppies, Adult Dogs]\n- Special Uses: [Special Uses - e.g., Training, Dental Health]\n\n**Packaging:**\n- Package Type: [Package Type - e.g., Plastic bag, Box]\n- Included Accessories: [Included Accessories - e.g., Treats, Replacement squeaker]\n\n**Warranty:**\n- Warranty Period: [Warranty Period - e.g., 1 year, 6 months]\n- Warranty Terms: [Warranty Terms - e.g., Manufacturer defects only]\n\n**Customer Reviews:**\n- Average Rating: [Average Rating - e.g., 4.5 stars]\n- Sample Review: \"[Sample Review Text]\"\n\n---\n\nFeel free to fill in the placeholders with specific details to create a comprehensive description of your dog toy.",
+  "response_word_count": 283,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 0.16666666666666666,
+      "FC": 0.16666666666666666,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

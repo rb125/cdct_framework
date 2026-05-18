@@ -1,0 +1,43 @@
+{
+  "key": 1332,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft 7-day itineraries for India and China, tabulating them separately, with 6 asterisks ******* in between.",
+  "compressed_word_count": 16,
+  "response": "**India - 7-Day Golden Triangle & Rishikesh Itinerary**\n\n| Day | City/Area | Highlights & Activities |\n| :--- | :--- | :--- |\n| **1** | Delhi | Arrival. Red Fort, Jama Masjid, Chandni Chowk market. Evening at India Gate. |\n| **2** | Delhi | Qutub Minar, Humayun's Tomb, Lotus Temple. Drive to Agra in the evening. |\n| **3** | Agra | Sunrise at Taj Mahal. Agra Fort, Mehtab Bagh. Optional: Tomb of Itimad-ud-Daulah. |\n| **4** | Jaipur | Drive to Jaipur via Fatehpur Sikri. Evening visit to Chokhi Dhani cultural village. |\n| **5** | Jaipur | Amber Fort, Jal Mahal, City Palace, Jantar Mantar. Explore local markets. |\n| **6** | Rishikesh | Fly/drive to Dehradun, transfer to Rishikesh. Evening Ganga Aarti at Triveni Ghat. |\n| **7** | Rishikesh | Morning yoga/meditation. Visit Beatles Ashram. Optional river rafting. Departure from Dehradun. |\n\n*******\n\n**China - 7-Day Classic Highlights Itinerary**\n\n| Day | City/Area | Highlights & Activities |\n| :--- | :--- | :--- |\n| **1** | Beijing | Arrival. Explore Wangfujing Street or Nanluoguxiang Hutong. |\n| **2** | Beijing | Tiananmen Square, Forbidden City. Jingshan Park for panoramic views. |\n| **3** | Beijing | Mutianyu section of the Great Wall. Evening: Kung Fu Show or acrobatics. |\n| **4** | Xi'an | Morning flight/train to Xi'an. Visit City Wall, Muslim Quarter, and Bell Tower. |\n| **5** | Xi'an | Terracotta Warriors Museum. Big Wild Goose Pagoda. Evening Tang Dynasty Show. |\n| **6** | Shanghai | Morning flight/train to Shanghai. The Bund, Nanjing Road, Yu Garden. |\n| **7** | Shanghai | Shanghai Museum or French Concession. Pudong skyline (Jin Mao Tower/Oriental Pearl Tower). Evening departure. |",
+  "response_word_count": 289,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

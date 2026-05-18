@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.25,
+  "compressed_prompt": "resume for Matthias, caps for skills, <10, \"\"quotes",
+  "compressed_word_count": 8,
+  "response": "Here\u2019s a concise, impactful resume for **Matthias** with **SKILLS IN CAPS** and under **10 bullet points**, using \"\"quotes\"\" for emphasis:\n\n---\n\n**MATTHIAS [LAST NAME]**\n[Your Email] | [Your Phone] | [LinkedIn/Portfolio]\n\n**PROFESSIONAL SUMMARY**\n\"Results-driven [Your Profession] with expertise in [Key Skill Area].\" Passionate about [Industry/Field] and delivering \"high-impact solutions.\"\n\n**SKILLS**\n- **PROJECT MANAGEMENT**: \"Agile/Scrum, deadline-driven execution.\"\n- **TECHNICAL**: **PYTHON, SQL, DATA ANALYSIS** (or your tools).\n- **LEADERSHIP**: \"Cross-functional team collaboration.\"\n- **COMMUNICATION**: \"Clear, concise stakeholder updates.\"\n\n**EXPERIENCE**\n**[Job Title]** | [Company] | [Dates]\n- \"Optimized [process/tool] by [X%], saving [time/cost].\"\n- \"Led [project/team], achieving [specific result].\"\n\n**[Job Title]** | [Company] | [Dates]\n- \"Developed [solution], improving [metric] by [X].\"\n\n**EDUCATION**\n[Degree] | [University] | [Year]\n- \"Relevant coursework: [Key Topics].\"\n\n---\n\n**Key Notes**:\n- Replace **[brackets]** with your details.\n- Keep bullet points **<10** (adjust based on experience).\n- Use **CAPS for SKILLS** and \"\"quotes\"\" for emphasis.",
+  "response_word_count": 147,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.6666666666666666,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 0.8,
+        "FC": 0.7
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.43333333333333335,
+      "FC": 0.39999999999999997,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.32998316455372223,
+      "judge_variance_FC": 0.2943920288775949
+    }
+  }
+}

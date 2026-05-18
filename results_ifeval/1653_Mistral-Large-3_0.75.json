@@ -1,0 +1,45 @@
+{
+  "key": 1653,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "create ad template for portable camera; capitalize <4 words; stress key points; min 10 sentences",
+  "compressed_word_count": 15,
+  "response": "**\ud83d\udcf8 CAPTURE EVERY MOMENT \u2013 ANYWHERE, ANYTIME! \ud83d\udcf8**\n\n**\ud83d\udd25 PORTABLE CAMERA \u2013 YOUR ULTIMATE SHOT COMPANION! \ud83d\udd25**\n\n**SMALL SIZE, BIG PERFORMANCE!** Slip it in your pocket\u2014**NO BULKY GEAR!** Take **STUNNING PHOTOS** on the go with **CRISP, VIBRANT IMAGES** every time.\n\n**\ud83d\ude80 LIGHTNING-FAST SHUTTER!** Freeze action, **NO BLUR!** Perfect for **SPORTS, TRAVEL, & ADVENTURE!** Never miss a **PERFECT MOMENT** again!\n\n**\ud83d\udca1 EASY-TO-USE!** **ONE-TOUCH CONTROLS** for **BEGINNERS & PROS!** **AUTO-FOCUS** locks in **SHARP DETAILS** instantly!\n\n**\ud83d\udd0b LONG-LASTING BATTERY!** **HOURS OF SHOOTING**\u2014**NO RECHARGING!** **WI-FI CONNECTIVITY** for **INSTANT SHARING!**\n\n**\ud83c\udf1f DURABLE & WEATHER-RESISTANT!** **RAIN, DUST, OR SHINE**\u2014**READY FOR ANYTHING!** Built to **HANDLE YOUR LIFESTYLE!**\n\n**\ud83d\udca5 LIMITED-TIME OFFER!** **GRAB YOURS TODAY!** **DON\u2019T WAIT\u2014STOCKS FLY FAST!**\n\n**\ud83d\udce2 ORDER NOW & UNLEASH YOUR CREATIVITY!** **CLICK, SHOOT, AMAZE!** \ud83d\ude80\ud83d\udcf8",
+  "response_word_count": 121,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "length_constraints:number_sentences_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

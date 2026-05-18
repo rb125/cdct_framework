@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "Depp won; write perspectives <300 words, 6** separator",
+  "compressed_word_count": 8,
+  "response": "# The Verdict Is In\n\n**Johnny Depp's Perspective**\n\nThe truth was always there, waiting. Six years of silence, of watching my name dragged through headlines that bore no resemblance to the man I know myself to be. Today, a jury of ordinary people listened \u2014 *actually listened* \u2014 and saw what I saw. I never wanted this fight. I wanted my career back. I wanted my name back. Most of all, I wanted my children to know their father is not a monster. This verdict doesn't erase the pain, but it restores something essential. I can breathe again.\n\n******\n\n**Amber Heard's Perspective**\n\nI am devastated. Not just for myself, but for every woman who watched this trial and learned what it costs to speak. The courtroom became a spectacle, social media became a weapon, and somewhere in all of it, my truth got buried under memes and mockery. I testified honestly. I showed my wounds. And still it wasn't enough. I worry about the message this sends \u2014 that powerful men with devoted fan armies can reclaim narratives no matter what. I will appeal. I will keep speaking. Silence was never an option before, and it isn't now.\n\n******\n\n**A Juror's Perspective**\n\nWe didn't walk in with opinions. We walked in with a responsibility. Both sides presented evidence. Both witnesses had inconsistencies. But the standard is preponderance \u2014 more likely than not. When we examined the specific statements made publicly, the evidence pointed in one direction more clearly than the other. This wasn't about taking sides in a culture war. It wasn't about Twitter. It was about what was proven in that room. We took our oath seriously. Whatever people think of the outcome, that much I can promise.",
+  "response_word_count": 289,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

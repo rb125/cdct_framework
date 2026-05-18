@@ -1,0 +1,45 @@
+{
+  "key": 1237,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Craft a teen-humor post for 'Buena Onda' serving Arg food, 3 markdown highlights, mention 'Argentinian'.",
+  "compressed_word_count": 15,
+  "response": "**When your cheat day becomes a cheat WEEK but it\u2019s Argentinian so it doesn\u2019t count \ud83c\udde6\ud83c\uddf7**\n\nMy jeans are officially protesting, but my soul is doing a tango. Just tried to explain the concept of \u201csharing\u201d an empanada to my friend and failed miserably. Some things are too sacred.\n\nCome drown your school-related sorrows in chimichurri. Your future self will thank you (your pants might not).\n\n**Buena Onda**  \n*Where every meal is a goal and the only drama is who gets the last bite.*\n\n---\n**\ud83d\udc47 The Vibe \ud83d\udc47**\n\u2714\ufe0f **Milanesa so big it needs its own zip code**  \n\u2714\ufe0f **Dulce de leche that fixes your bad mood**  \n\u2714\ufe0f **Fries that come with a side of life-changing steak**\n\n\ud83d\udccd Your new favorite Argentinian food spot.  \n\u23f0 Open late for your post-game hunger emergencies.\n\n**#BuenaOnda #ArgentinianFood #FoodBabyAlert**",
+  "response_word_count": 136,
+  "instruction_id_list": [
+    "detectable_format:number_highlighted_sections",
+    "keywords:existence"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_highlighted_sections_0": null,
+    "keywords:existence_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

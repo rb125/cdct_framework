@@ -1,0 +1,45 @@
+{
+  "key": 1793,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.75,
+  "compressed_prompt": "summarize the defamation case outcome between Amber Heard and Johnny Depp. Write Heard's view first, Depp's view next, separated by six asterisks. Keep under 300 words.",
+  "compressed_word_count": 26,
+  "response": "**Amber Heard\u2019s View:**\nAmber Heard maintains that Johnny Depp was abusive during their relationship, both physically and emotionally. She claims she acted in self-defense and that her op-ed in *The Washington Post* (which did not name Depp) was about her experience as a survivor of domestic abuse. Heard argues the defamation lawsuit was an attempt to silence her and discredit her allegations. While she was found liable for defaming Depp in one instance (regarding the op-ed\u2019s implications), she denies fabricating abuse and stands by her testimony.\n\n******\n**Johnny Depp\u2019s View:**\nJohnny Depp vehemently denies ever abusing Amber Heard and asserts that she was the aggressor in their relationship. He sued Heard for defamation over her *Washington Post* op-ed, arguing it falsely portrayed him as an abuser and damaged his career. Depp\u2019s legal team presented evidence, including witness testimonies and recordings, to counter Heard\u2019s claims. The jury largely sided with Depp, awarding him $10.35 million in damages, while Heard received $2 million in her countersuit. Depp views the outcome as validation of his innocence.",
+  "response_word_count": 173,
+  "instruction_id_list": [
+    "combination:two_responses",
+    "length_constraints:number_words"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null,
+    "length_constraints:number_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.8
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.7666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.20548046676563256
+    }
+  }
+}

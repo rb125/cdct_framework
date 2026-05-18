@@ -1,0 +1,47 @@
+{
+  "key": 1219,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Which one is a better brand for sneakers: Prada or Nike? Your entire response should be in English, and in all capital letters. At the end of your response, please explicitly add a postscript starting with P.S. The word sneaker should appear 10 or more times in your response.",
+  "compressed_word_count": 49,
+  "response": "WHEN IT COMES TO CHOOSING BETWEEN PRADA AND NIKE FOR SNEAKERS, THE ANSWER DEPENDS ON WHAT YOU VALUE MOST IN YOUR SNEAKERS. NIKE IS A POWERHOUSE IN THE SNEAKER WORLD, KNOWN FOR ITS INNOVATIVE TECHNOLOGIES, COMFORT, AND PERFORMANCE. IF YOU'RE LOOKING FOR SNEAKERS THAT CAN HANDLE INTENSE WORKOUTS, RUNNING, OR SPORTS, NIKE SNEAKERS ARE HARD TO BEAT. THEIR SNEAKERS OFTEN FEATURE ADVANCED CUSHIONING, BREATHABLE MATERIALS, AND DURABLE CONSTRUCTION, MAKING THEM A FAVORITE AMONG ATHLETES AND CASUAL WEARERS ALIKE.\n\nON THE OTHER HAND, PRADA SNEAKERS ARE ALL ABOUT LUXURY AND STYLE. IF YOU'RE SEEKING SNEAKERS THAT MAKE A FASHION STATEMENT, PRADA SNEAKERS DELIVER WITH THEIR HIGH-END DESIGN, PREMIUM MATERIALS, AND ICONIC LOGO. PRADA SNEAKERS ARE PERFECT FOR THOSE WHO WANT TO ELEVATE THEIR OUTFIT WITH A TOUCH OF SOPHISTICATION. HOWEVER, PRADA SNEAKERS MAY NOT OFFER THE SAME LEVEL OF COMFORT OR PERFORMANCE AS NIKE SNEAKERS, ESPECIALLY FOR ACTIVE USE.\n\nULTIMATELY, THE BETTER BRAND FOR SNEAKERS DEPENDS ON YOUR NEEDS. IF YOU PRIORITIZE PERFORMANCE AND COMFORT, NIKE SNEAKERS ARE THE WAY TO GO. IF YOU VALUE STYLE AND LUXURY, PRADA SNEAKERS ARE AN EXCELLENT CHOICE. BOTH BRANDS OFFER HIGH-QUALITY SNEAKERS, BUT THEY CATER TO DIFFERENT PREFERENCES.\n\nP.S. WHETHER YOU CHOOSE PRADA SNEAKERS OR NIKE SNEAKERS, MAKE SURE TO CONSIDER HOW THE SNEAKERS FIT INTO YOUR LIFESTYLE AND PERSONAL STYLE. AFTER ALL, THE RIGHT SNEAKERS CAN MAKE ALL THE DIFFERENCE!",
+  "response_word_count": 227,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "detectable_content:postscript",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": true,
+    "detectable_content:postscript_1": true,
+    "keywords:frequency_2": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

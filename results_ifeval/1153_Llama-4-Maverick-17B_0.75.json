@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "draft a social media post for islamic history students about hajj; use lowercase; include \"story\" twice",
+  "compressed_word_count": 16,
+  "response": "\"as islamic history students, we're reminded of the significance of hajj every year. it's a journey that takes us back in time to the story of prophet ibrahim and his family, and the sacrifices they made for the sake of faith. let's take a moment to reflect on the story behind this sacred ritual and what it means to us today. may our understanding of hajj deepen our connection to our faith and inspire us to live with greater purpose #hajj #islamic history\"",
+  "response_word_count": 83,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

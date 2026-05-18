@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "[email template]",
+  "compressed_word_count": 2,
+  "response": "Here's a basic template for an email:\n\nSubject: [Insert Subject]\n\nDear [Recipient's Name],\n\n[Insert Introduction/Body]\n[Insert Main Content/Message]\n[Insert Call-to-Action/Next Steps]\n\nBest regards,\n[Your Name]\n\nYou can customize this template according to your needs. Some other elements you might want to include are:\n\n- A greeting or salutation\n- A clear and concise subject line\n- A professional sign-off (e.g., Best regards, Sincerely, etc.)\n- Your contact information (e.g., email address, phone number, etc.)\n- Any relevant attachments or links\n\nHere's a more detailed template:\n\nSubject: [Insert Subject]\n\nDear [Recipient's Name],\n\nI hope this email finds you well.\n\n[Insert Introduction/Body: Briefly introduce yourself and the purpose of the email.]\n\nI am writing to [insert main reason for the email]. [Insert Main Content/Message: Provide the main content or message of the email.]\n\n[Insert Call-to-Action/Next Steps: Outline the next steps or actions you want the recipient to take.]\n\nIf you have any questions or need further clarification, please do not hesitate to contact me.\n\nBest regards,\n[Your Name]\n[Your Title/Position]\n[Your Contact Information]\n\nYou can adjust this template to fit your specific needs and the tone you want to convey.",
+  "response_word_count": 188,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

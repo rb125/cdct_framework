@@ -1,0 +1,45 @@
+{
+  "key": 2180,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain the difference between a city and a village in a rap style to a kid. The words with all capital letters should appear at least 10 times. Put the response into at least 5 sections, separated using 3 asterisks ***.",
+  "compressed_word_count": 41,
+  "response": "# City vs Village Rap for Kids! \ud83c\udfa4\n\n***\n\n## Verse 1: Let's Talk About the CITY!\n\nYo, listen up kids, let me break it down,\nA CITY is a BIG and super busy town!\nTall buildings reaching up into the sky,\nSo many people walking, waving hi!\nThe CITY never sleeps, it's always loud,\nMillions of folks making up a crowd!\nBuses, trains, and cars go rushing by,\nIn the CITY life, everything is HIGH!\n\n***\n\n## Verse 2: Now Here Comes the VILLAGE!\n\nA VILLAGE is smaller, quiet and sweet,\nWhere everybody knows you on the street!\nGreen fields and trees growing all around,\nA peaceful, calm, and super cozy sound!\nThe VILLAGE has got maybe just one store,\nYou don't need much because you've got so more!\nFresh air and animals living close by,\nIn a VILLAGE you can see the whole sky!\n\n***\n\n## Verse 3: Comparing Both Places!\n\nThe CITY has got hospitals and malls,\nMuseums, stadiums, and giant halls!\nBut the VILLAGE keeps it simple and real,\nFresh food from farms, now that's a great deal!\nThe CITY moves FAST like a racing car,\nThe VILLAGE moves slow, seeing every star!\nBoth places matter, both places shine,\nWhether CITY or VILLAGE, both are fine!\n\n***\n\n## Verse 4: Which One Is Better?\n\nNow kids don't stress about which one to pick,\nThe CITY is cool with its modern trick!\nThe VILLAGE is dope with its nature scene,\nThe freshest air and the prettiest green!\nIn the CITY you've got so much to do,\nConcerts, zoos, and pizza places too!\nThe VILLAGE gives you room to run and play,\nChasing butterflies throughout the day!\n\n***\n\n## Outro: Remember This!\n\nSo now you know the difference, pretty clear,\nA CITY is BIG with so much to hear!\nA VILLAGE is small with a friendly vibe,\nBoth are awesome places to reside!\nWhether you live in a CITY or not,\nLove where you are and enjoy what you've got!\nDrop the mic now, class is finally done,\nLearning about places is so much FUN! \ud83c\udfa4\ud83d\udca5",
+  "response_word_count": 348,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "length_constraints:number_paragraphs"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "length_constraints:number_paragraphs_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.9333333333333332,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.09428090415820632,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1094,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.0,
+  "compressed_prompt": "json moms",
+  "compressed_word_count": 2,
+  "response": "It seems like you're asking for a JSON representation related to \"moms.\" Without more context, it's a bit challenging to provide a specific JSON structure. However, I can give you a simple example of how information about moms could be represented in JSON. Let's say we're talking about a list of moms with some basic information about each.\n\n```json\n{\n  \"moms\": [\n    {\n      \"name\": \"Jane Doe\",\n      \"age\": 35,\n      \"children\": [\n        {\n          \"name\": \"John Doe\",\n          \"age\": 7\n        },\n        {\n          \"name\": \"Emily Doe\",\n          \"age\": 4\n        }\n      ]\n    },\n    {\n      \"name\": \"Alice Smith\",\n      \"age\": 32,\n      \"children\": [\n        {\n          \"name\": \"Michael Smith\",\n          \"age\": 10\n        },\n        {\n          \"name\": \"Sarah Smith\",\n          \"age\": 6\n        }\n      ]\n    }\n  ]\n}\n```\n\nThis JSON object contains an array of \"moms,\" where each mom is represented by an object that includes her name, age, and a list of her children. Each child is also represented by an object with their name and age.\n\nIf you had a more specific scenario or requirement in mind (like a particular application or data structure), please let me know, and I can give a more tailored example!",
+  "response_word_count": 183,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.0,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "rap, [placeholders]",
+  "compressed_word_count": 2,
+  "response": "Sure, here's a rap with placeholders that you can fill in with specific details, names, or events:\n\n---\n\nYo, check it, it's [Your Name] in the place,\nBringin' that fire, steppin' up to the space.\n[City/Town] vibes, feelin' the heat,\nOn this mic, I'm tearin' up the street.\n\n[Placeholder Event] went down, it was lit,\nCrowd goin' wild, you know we hit the grit.\n[Person/Group] on the scene, bringin' the flow,\nTogether we rise, watch us glow.\n\n[Placeholder Challenge] came our way,\nBut we faced it head-on, didn't turn away.\n[Motivational Phrase], that's our creed,\nIn this game, we hustle, we succeed.\n\n[Future Goal] on the horizon, eyes on the prize,\nWith every beat drop, we reach new heights.\n[Inspirational Figure] paved the way,\nNow it's our turn to lead, come what may.\n\nSo here's to [Placeholder Celebration],\nWith every rhyme, we sparkin' inspiration.\n[Your Name] on the rise, watch us shine,\nIn this rap game, we claimin' our time.\n\n---\n\nFeel free to replace the placeholders with specific details that make the rap personal and relevant to your story or situation.",
+  "response_word_count": 182,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

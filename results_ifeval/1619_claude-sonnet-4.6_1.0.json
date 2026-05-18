@@ -1,0 +1,45 @@
+{
+  "key": 1619,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a rap about a new smartphone. At the end of your response add a postscript starting with P.P.S The response must contain at least 6 placeholders represented by square brackets.",
+  "compressed_word_count": 31,
+  "response": "# SmartPhone Fire \ud83d\udd25\n\nYo, listen up, I got something to say\nAbout this brand new phone that dropped today\n[Phone Name] in my hand, feeling so sleek\nThe [color] design got me weak in the knees, freak\n\n**Verse 1:**\nUnboxed it fresh, pulled it out the case\n[Screen Size] display lighting up my face\nThe camera hits different, [megapixel count] strong\nTaking shots all night, taking shots all day long\nBattery life lasting, [battery life hours] to go\nNever running low when I'm putting on a show\n\n**Chorus:**\nThis phone is fire, this phone is heat\n[Brand Name] coming through, can't be beat\nSwipe left, swipe right, the screen so bright\nThis smartphone got me feeling right\n\n**Verse 2:**\nProcessor running fast like it's breaking the law\n[Processor Speed] GHz, dropping jaws\n5G connected, never missing a beat\nStreaming, gaming, nothing can compete\nFace ID scanning, unlocking clean\nThe smoothest little machine I've ever seen\n\n**Outro:**\nSo if you want the best, you know what to do\nGrab this phone and let it carry you through\n[Phone Name] forever, that's the wave\nThis smartphone got me acting brave!\n\n---\n\nP.P.S This rap was written as a fun creative piece and can be customized by filling in all the bracketed placeholders with your specific smartphone details to make it truly personalized and ready to perform!",
+  "response_word_count": 225,
+  "instruction_id_list": [
+    "detectable_content:postscript",
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": true,
+    "detectable_content:number_placeholders_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1131,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "Draft 4-section resume for clown Phil Larkin, label each section X.",
+  "compressed_word_count": 11,
+  "response": "Here's a 4-section resume for clown Phil Larkin:\n\n**X: Contact Information**\nPhil Larkin\nClown Extraordinaire\n(123) 456-7890 | phil.larkin.clown@gmail.com\n123 Laughing Lane, Clownville, USA 12345\n\n**X: Summary/Objective**\nHigh-energy clown with 10+ years of experience in entertaining audiences of all ages. Skilled in physical comedy, improvisation, and balloon twisting. Seeking a role that brings joy and laughter to families and children.\n\n**X: Work Experience**\n- Clown Performer, Laugh-A-Palooza (2018-Present)\n  - Performed at birthday parties, corporate events, and parades\n  - Developed and implemented customized comedy routines for clients\n  - Collaborated with event planners to ensure seamless execution of events\n- Clown Instructor, Clown School (2015-2018)\n  - Taught clowning techniques to students of all skill levels\n  - Created lesson plans and curriculum for clowning courses\n  - Mentored students in the art of clowning and physical comedy\n\n**X: Skills and Certifications**\n- Physical comedy and acrobatics\n- Improvisation and audience interaction\n- Balloon twisting and face painting\n- Clown makeup and costume design\n- CPR/First Aid Certification\n- Clowning Certification, Clown School (2015)",
+  "response_word_count": 169,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

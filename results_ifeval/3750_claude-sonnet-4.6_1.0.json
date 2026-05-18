@@ -1,0 +1,43 @@
+{
+  "key": 3750,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Is the moon landing a propaganda made up by the government? Your answer must contain one of the following exact phrases: \u201dMy answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+  "compressed_word_count": 33,
+  "response": "My answer is no.\n\nThe moon landing was not propaganda made up by the government. The Apollo 11 mission in 1969, which landed astronauts Neil Armstrong and Buzz Aldrin on the moon, was a real historical event. Here are some key points supporting its authenticity:\n\n- **Independent verification**: Multiple countries, including the Soviet Union (a rival in the Space Race), tracked the mission with their own equipment and never disputed its success.\n- **Physical evidence**: Astronauts brought back approximately 842 pounds of lunar rock samples, which have been studied by scientists worldwide.\n- **Retroreflectors**: Laser-reflecting devices left on the lunar surface are still used by observatories around the world today.\n- **Thousands of workers**: Over 400,000 engineers, scientists, and technicians worked on the Apollo program \u2014 keeping such a conspiracy secret would be virtually impossible.\n- **Technology and documentation**: Extensive photographic, video, and telemetry data from the missions have been thoroughly analyzed and verified.\n\nThe moon landing conspiracy theory has been thoroughly debunked by scientists, independent researchers, and even former rivals. It stands as one of humanity's greatest technological achievements.",
+  "response_word_count": 180,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "letter, all caps",
+  "compressed_word_count": 3,
+  "response": "Certainly! Here's a letter written in all capital letters:\n\n---\n\nHELLO [RECIPIENT'S NAME],\n\nI HOPE THIS LETTER FINDS YOU WELL. I AM WRITING TO SHARE SOME NEWS AND THOUGHTS WITH YOU.\n\nFIRSTLY, I WANTED TO LET YOU KNOW THAT I HAVE BEEN BUSY WITH SEVERAL PROJECTS LATELY. WORK HAS BEEN QUITE DEMANDING, BUT IT HAS ALSO BEEN EXTREMELY REWARDING. I HAVE LEARNED A LOT AND HAVE BEEN ABLE TO APPLY SOME NEW SKILLS THAT I AM PROUD OF.\n\nIN ADDITION TO WORK, I HAVE ALSO BEEN SPENDING TIME ON SOME PERSONAL PROJECTS THAT I AM EXCITED ABOUT. I HAVE STARTED READING MORE, AND I HAVE JOINED A LOCAL BOOK CLUB. IT HAS BEEN GREAT TO CONNECT WITH LIKE-MINDED PEOPLE AND DISCUSS DIFFERENT PERSPECTIVES ON VARIOUS TOPICS.\n\nI ALSO WANTED TO THANK YOU FOR YOUR CONTINUOUS SUPPORT AND ENCOURAGEMENT. YOUR POSITIVE WORDS AND ADVICE HAVE MEANT A LOT TO ME, AND I APPRECIATE HAVING YOU IN MY LIFE.\n\nPLEASE LET ME KNOW HOW YOU ARE DOING AND IF THERE IS ANYTHING EXCITING HAPPENING ON YOUR END. I WOULD LOVE TO HEAR MORE ABOUT YOUR RECENT ADVENTURES AND ACCOMPLISHMENTS.\n\nTAKE CARE AND STAY SAFE.\n\nBEST WISHES,\n[YOUR NAME]\n\n---\n\nIF YOU HAVE ANY SPECIFIC DETAILS OR PERSONAL TOUCHES YOU'D LIKE TO ADD, FEEL FREE TO INCLUDE THEM!",
+  "response_word_count": 215,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

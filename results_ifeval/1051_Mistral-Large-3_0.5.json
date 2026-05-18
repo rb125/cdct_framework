@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "write lowercase letter asking friend to vote",
+  "compressed_word_count": 7,
+  "response": "Here\u2019s a friendly and casual template for your letter:\n\n---\n**Subject:** Quick favor\u2014could you vote for me?\n\nHey [Friend's Name],\n\nHope you're doing great! I\u2019m reaching out because I\u2019m running for [position, e.g., \"class rep\" or \"club president\"], and I\u2019d really appreciate your vote. It\u2019d mean a lot to have your support\u2014even if it\u2019s just a quick click or checkmark!\n\nNo pressure, of course, but if you\u2019re free on [date], I\u2019d love to have you there. Let me know if you have any questions\u2014I\u2019m happy to chat!\n\nThanks so much, and hope to catch up soon.\n\nBest,\n[Your Name]\n\n---\n**Tips:**\n- Keep it lighthearted and personal (e.g., add an inside joke or shared memory).\n- Include voting details (date, time, location) if relevant.\n- End with gratitude\u2014no guilt-tripping!",
+  "response_word_count": 129,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

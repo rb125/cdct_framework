@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "create resume for matthias algiers, highlight key skills in all caps, <10 times, in double quotes.",
+  "compressed_word_count": 16,
+  "response": "**MATTHIAS ALGIERS**  \nSan Francisco, CA | matthias.algiers@email.com | 555-123-4567 | linkedin.com/in/malgiers  \n\n---\n\n**PROFESSIONAL SUMMARY**  \nResults-driven software engineer with over 7 years of experience specializing in backend systems, cloud architecture, and scalable data solutions. Proven ability to lead cross-functional teams in delivering high-impact projects under tight deadlines. Combines deep technical expertise with a strategic mindset to solve complex business challenges.\n\n---\n\n**KEY SKILLS**  \n- Backend Development: Python, Java, Go  \n- Cloud Platforms: AWS, Azure  \n- Database Management: SQL, NoSQL, \"DATA MODELING\"  \n- System Design: Microservices, \"API DEVELOPMENT,\" \"CLOUD ARCHITECTURE\"  \n- Tools: Docker, Kubernetes, Git, Jenkins  \n- \"DEVOPS\" Practices & CI/CD Pipelines  \n\n---\n\n**PROFESSIONAL EXPERIENCE**  \n\n**Senior Software Engineer** | TechFlow Solutions, San Francisco, CA | Jan 2020 \u2013 Present  \n- Led the redesign of a legacy payment processing system, improving transaction throughput by 40% and reducing latency by 60%.  \n- Architected and deployed a secure, scalable microservices platform on AWS, serving over 2 million monthly active users.  \n- Implemented comprehensive \"TEST AUTOMATION\" frameworks, increasing test coverage from 65% to 92% and significantly reducing regression bugs.  \n- Mentored 4 junior engineers, improving team velocity and code quality through pair programming and technical reviews.  \n\n**Software Engineer** | DataCore Inc., Austin, TX | Jun 2016 \u2013 Dec 2019  \n- Developed and maintained high-availability APIs handling real-time data for financial analytics clients.  \n- Optimized database queries and introduced caching strategies, improving system response times by 30%.  \n- Collaborated with data science teams to build \"MACHINE LEARNING\" pipelines for predictive analytics features.  \n- Played a key role in the company's \"AGILE\" transformation, adopting Scrum practices that improved project delivery predictability.  \n\n---\n\n**EDUCATION**  \n\n**Master of Science, Computer Science**  \nStanford University, Stanford, CA | 2016  \n\n**Bachelor of Science, Software Engineering**  \nUniversity of Texas at Austin, Austin, TX | 2014  \n\n---\n\n**CERTIFICATIONS**  \n- AWS Certified Solutions Architect \u2013 Associate  \n- Google Professional Cloud Architect  \n\n---\n\n**PROJECT HIGHLIGHTS**  \n- **Real-Time Analytics Dashboard:** Built a streaming data pipeline (Kafka, Spark) that provided real-time insights, directly impacting client decision-making.  \n- **Security Overhaul:** Spearheaded a critical \"CYBERSECURITY\" initiative to refactor authentication services, eliminating vulnerabilities and ensuring compliance with industry standards.",
+  "response_word_count": 346,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.6666666666666666,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

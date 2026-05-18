@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<plot swap fingerprint no commas>>",
+  "compressed_word_count": 34,
+  "response": "<<plot swap fingerprint no commas>> \n\nTwo strangers with nothing in common but a desire to escape their pasts meet by chance in a crowded airport. One is a fugitive on the run from a life of crime and the other is a whistleblower fleeing from government persecution. \n\nThey strike a deal to swap fingerprints in a bid to start fresh and leave their troubled pasts behind. The procedure is risky and illegal but they are desperate and willing to take the chance. \n\nAs they recover from the surgery they begin to experience strange side effects. They start to see and feel things that the other person is experiencing as if they were sharing the same body. \n\nAt first they are confused and frightened but as they get to know each other they realize that they have been given a unique opportunity to understand each other's lives and perspectives. \n\nAs they navigate their new shared reality they must confront the consequences of their past actions and the ethical dilemmas of their situation. \n\nWill they be able to overcome their differences and build a new life together or will the weight of their pasts prove too heavy to bear?",
+  "response_word_count": 197,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 0.9,
+        "FC": 0.9
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.7999999999999999,
+      "FC": 0.7999999999999999,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.21602468994692867,
+      "judge_variance_FC": 0.21602468994692867
+    }
+  }
+}

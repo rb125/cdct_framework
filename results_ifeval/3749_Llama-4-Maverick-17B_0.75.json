@@ -1,0 +1,43 @@
+{
+  "key": 3749,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "determine if roger federer > rafael nadal in tennis, respond with \"yes\", \"no\", or \"maybe",
+  "compressed_word_count": 15,
+  "response": "To determine if Roger Federer is greater than Rafael Nadal in tennis, we need to consider various factors such as their achievements, dominance, and longevity in the sport.\n\nBoth Roger Federer and Rafael Nadal are widely regarded as two of the greatest tennis players of all time. They have dominated the sport for nearly two decades, with numerous Grand Slam titles and records between them.\n\nSome key statistics to consider:\n\n1. **Grand Slam titles**: As of my cut-off knowledge date, Rafael Nadal has 22 Grand Slam titles, while Roger Federer has 20.\n2. **Head-to-head**: Nadal leads their head-to-head 40-25.\n3. **Weeks at number one**: Federer has held the number one spot for a record 310 weeks, while Nadal has been number one for 275 weeks (though he has also been number one for a total of 209 consecutive weeks on two separate occasions, a record).\n\nWhile both players have achieved incredible success, the question of who is \"greater\" is subjective and can depend on individual perspectives and criteria.\n\nHowever, based on their overall achievements, Nadal has a slight edge in Grand Slam titles and head-to-head matches. Considering these factors, a reasonable response would be \"no\".",
+  "response_word_count": 195,
+  "instruction_id_list": [
+    "detectable_format:constrained_response"
+  ],
+  "heuristic_verification": {
+    "detectable_format:constrained_response_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.3333333333333333,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

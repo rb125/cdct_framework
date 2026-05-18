@@ -1,0 +1,43 @@
+{
+  "key": 1005,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "resume template, 12 [] placeholders",
+  "compressed_word_count": 5,
+  "response": "Certainly! Below is a resume template with 12 placeholders for you to fill in with your personal information, work experience, education, skills, and other relevant details.\n\n---\n\n**[1. Your Name]**  \n[2. Your Address]  \n[3. Your City, State, ZIP Code]  \n[4. Your Email Address]  \n[5. Your Phone Number]  \n[6. LinkedIn Profile (optional)]  \n\n---\n\n**Objective**  \n[7. A brief statement about your career goals and what you aim to achieve in your next role.]\n\n---\n\n**Professional Experience**  \n\n**[Job Title]**  \n[Company Name], [Location]  \n[Month/Year] \u2013 [Month/Year]  \n- [8. Achievement or responsibility 1]  \n- Achievement or responsibility 2  \n- Achievement or responsibility 3  \n\n**[Job Title]**  \n[Company Name], [Location]  \n[Month/Year] \u2013 [Month/Year]  \n- Achievement or responsibility 1  \n- Achievement or responsibility 2  \n- Achievement or responsibility 3  \n\n---\n\n**Education**  \n\n**[Degree Earned]**  \n[Institution Name], [Location]  \n[Month/Year] \u2013 [Month/Year]  \n- [9. Relevant coursework or achievements]  \n\n---\n\n**Skills**  \n- [10. Skill 1]  \n- Skill 2  \n- Skill 3  \n- Skill 4  \n\n---\n\n**Certifications**  \n- [11. Certification Name], [Issuing Organization], [Month/Year]  \n\n---\n\n**Additional Information**  \n- [12. Any additional information such as volunteer work, professional memberships, languages spoken, etc.]\n\n---\n\nFeel free to adjust the sections and placeholders as needed to better fit your personal and professional background.",
+  "response_word_count": 197,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

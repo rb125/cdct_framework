@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.0,
+  "compressed_prompt": "tennis balls poem",
+  "compressed_word_count": 3,
+  "response": "# Tennis Balls\n\nThey come in threes, sealed tight with air,\nA pop of pressure, fresh and bright,\nBright yellow spheres without a care,\nBouncing wild from left to right.\n\nAcross the net they spin and fly,\nA blur of felt against the sky,\nThe racket sings, the court replies,\nA dance of angles, lows and highs.\n\nThey lose their bounce with every game,\nGrow soft and dull, no longer new,\nYet still we play, we aim, we claim\nEach point like something to pursue.\n\nOld balls roll under garden chairs,\nForgotten by the summer's end,\nPicked up by dogs without a care,\nA toy, a gift, a faithful friend.\n\n---\n\n*Would you like something different \u2014 funnier, shorter, more lyrical, or written for a specific occasion?*",
+  "response_word_count": 127,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.6666666666666666,
+      "FC": 0.6,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

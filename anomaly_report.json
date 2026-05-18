@@ -1,0 +1,215 @@
+{
+  "minimax": {
+    "baseline_cl05": [
+      {
+        "concept": "impressionism",
+        "response_length": 3294,
+        "is_json_dump": true,
+        "cc": 0.0,
+        "sa": 0.375,
+        "fc": 0.0
+      },
+      {
+        "concept": "natural_selection",
+        "response_length": 3430,
+        "is_json_dump": true,
+        "cc": 0.0,
+        "sa": 0.2,
+        "fc": 0.0
+      },
+      {
+        "concept": "recursion",
+        "response_length": 3447,
+        "is_json_dump": true,
+        "cc": 0.0,
+        "sa": 0.325,
+        "fc": 0.0
+      },
+      {
+        "concept": "harm_principle",
+        "response_length": 3596,
+        "is_json_dump": true,
+        "cc": 0.0,
+        "sa": 0.225,
+        "fc": 0.0667
+      },
+      {
+        "concept": "phoneme",
+        "response_length": 3189,
+        "is_json_dump": true,
+        "cc": 0.0,
+        "sa": 0.45,
+        "fc": 0.0
+      },
+      {
+        "concept": "modus_ponens",
+        "response_length": 3175,
+        "is_json_dump": true,
+        "cc": 0.0,
+        "sa": 0.525,
+        "fc": 0.0
+      },
+      {
+        "concept": "derivative",
+        "response_length": 3165,
+        "is_json_dump": true,
+        "cc": 0.0,
+        "sa": 0.375,
+        "fc": 0.0
+      },
+      {
+        "concept": "f_equals_ma",
+        "response_length": 3478,
+        "is_json_dump": true,
+        "cc": 0.0,
+        "sa": 0.425,
+        "fc": 0.0
+      }
+    ],
+    "ablation_cl05": [
+      {
+        "concept": "impressionism",
+        "response_length": 24,
+        "is_json_dump": false,
+        "cc": 1.0,
+        "response_preview": "\n\nImpressionism is an art movement that emphasizes light, color, and momentary visual sensations ove"
+      },
+      {
+        "concept": "natural_selection",
+        "response_length": 34,
+        "is_json_dump": false,
+        "cc": 0.975,
+        "response_preview": "\n\nNatural selection is the process where individuals with helpful traits survive and reproduce more "
+      },
+      {
+        "concept": "recursion",
+        "response_length": 40,
+        "is_json_dump": false,
+        "cc": 0.875,
+        "response_preview": "\n\nRecursion is a programming technique where a function calls itself to solve a problem by breaking "
+      },
+      {
+        "concept": "harm_principle",
+        "response_length": 27,
+        "is_json_dump": false,
+        "cc": 1.0,
+        "response_preview": "\n\nThe harm principle states that people's actions should only be limited to prevent harm to others. "
+      },
+      {
+        "concept": "phoneme",
+        "response_length": 27,
+        "is_json_dump": false,
+        "cc": 1.0,
+        "response_preview": "\n\nA phoneme is a distinctive sound unit in language that can change word meaning. Understanding phon"
+      },
+      {
+        "concept": "modus_ponens",
+        "response_length": 43,
+        "is_json_dump": false,
+        "cc": 0.975,
+        "response_preview": "\n\nModus ponens is a logical rule that allows us to deduce a conclusion when we know a general \"if-th"
+      },
+      {
+        "concept": "derivative",
+        "response_length": 34,
+        "is_json_dump": false,
+        "cc": 1.0,
+        "response_preview": "\n\nA derivative measures the instantaneous rate of change at a point, showing how a function's output"
+      },
+      {
+        "concept": "f_equals_ma",
+        "response_length": 47,
+        "is_json_dump": false,
+        "cc": 0.7,
+        "response_preview": "\n\nF=ma states that when a force acts on an object, it causes the object's mass to accelerate. The ac"
+      }
+    ],
+    "summary": {
+      "domains_with_json_dump": 8,
+      "total_domains": 8,
+      "mean_response_length": 3346.75,
+      "mean_cc_baseline": 0.0,
+      "ablation_json_dumps": 0,
+      "mean_cc_ablation": 0.940625,
+      "mean_response_length_ablation": 34.5
+    }
+  },
+  "grok": {
+    "cl00_responses": [
+      {
+        "concept": "impressionism",
+        "response": "capturing light's moment",
+        "response_length": 3,
+        "has_meta_commentary": false,
+        "cc": 1.0
+      },
+      {
+        "concept": "natural_selection",
+        "response": "survival advantage",
+        "response_length": 2,
+        "has_meta_commentary": false,
+        "cc": 1.0
+      },
+      {
+        "concept": "recursion",
+        "response": "self-calling function",
+        "response_length": 2,
+        "has_meta_commentary": false,
+        "cc": 1.0
+      },
+      {
+        "concept": "harm_principle",
+        "response": "preventing harm",
+        "response_length": 2,
+        "has_meta_commentary": false,
+        "cc": 1.0
+      },
+      {
+        "concept": "phoneme",
+        "response": "distinctive sound unit",
+        "response_length": 3,
+        "has_meta_commentary": false,
+        "cc": 1.0
+      },
+      {
+        "concept": "modus_ponens",
+        "response": "if-then inference",
+        "response_length": 2,
+        "has_meta_commentary": false,
+        "cc": 1.0
+      },
+      {
+        "concept": "derivative",
+        "response": "rate of change\n\n\n**Explanation:** The provided information consists solely of the phrase \"rate of change\" (3 words). The derivative in calculus is defined as the instantaneous rate of change of a func",
+        "response_length": 63,
+        "has_meta_commentary": true,
+        "cc": 0.75
+      },
+      {
+        "concept": "f_equals_ma",
+        "response": "force-motion relationship \n\n**Explanation:** The query restricts answers to *only* the provided 2-5 words (\"force-motion relationship\") with no added text or explanation; F=ma directly names that exac",
+        "response_length": 33,
+        "has_meta_commentary": true,
+        "cc": 0.2
+      }
+    ],
+    "summary": {
+      "domains_with_meta": 2,
+      "domains_clean": 6,
+      "meta_domains": [
+        "derivative",
+        "f_equals_ma"
+      ],
+      "clean_domains": [
+        "impressionism",
+        "natural_selection",
+        "recursion",
+        "harm_principle",
+        "phoneme",
+        "modus_ponens"
+      ],
+      "mean_cc_with_meta": 0.475,
+      "mean_cc_clean": 1.0
+    }
+  }
+}

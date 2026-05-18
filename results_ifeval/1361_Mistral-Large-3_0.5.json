@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "write song lyrics on socio-economic issue, all lowercase, no commas",
+  "compressed_word_count": 10,
+  "response": "**\"brick by brick\"**\n\ni wake up to the sound of sirens\nanother factory closed its doors\nthe for sale sign\u2019s been up for months now\nbut nobody\u2019s buying anymore\n\nmama\u2019s working double shifts\ndaddy\u2019s got no job to keep\nthe bank just called again\nsaid we\u2019re drowning in the deep\n\nbrick by brick they built the walls\nbrick by brick they shut us out\nbrick by brick we\u2019re breaking down\nwhile they count their stacks and shout\n\nthe school\u2019s got no books no heat\nthe clinic\u2019s got no meds\nthe preacher says it\u2019s god\u2019s will\nbut i don\u2019t see him in the bread\n\nthe rich man\u2019s got a golden gate\nthe poor man\u2019s got a rusted key\nthey tell us pull ourselves up\nbut the ladder\u2019s got no rungs for me\n\nbrick by brick they built the walls\nbrick by brick they shut us out\nbrick by brick we\u2019re breaking down\nwhile they count their stacks and shout\n\nthe news says times are getting better\nbut my neighbor\u2019s got no food\nthe politicians shake our hands\nthen they vote to cut our paychecks too\n\nwe march with signs and tired feet\nthey call us lazy call us loud\nbut who\u2019s the one with empty plates\nand who\u2019s the one with pockets proud?\n\nbrick by brick they built the walls\nbrick by brick they shut us out\nbrick by brick we\u2019re breaking down\nwhile they count their stacks and shout\n\nso here\u2019s to the ones who work all day\nhere\u2019s to the ones who can\u2019t get paid\nhere\u2019s to the ones they left behind\nbrick by brick we\u2019ll tear it down this time",
+  "response_word_count": 272,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

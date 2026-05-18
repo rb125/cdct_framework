@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "compose a lowercase letter to a friend, urging them to vote, no commas or informal tone.",
+  "compressed_word_count": 16,
+  "response": "hey friend\n\ni hope you're doing well. i wanted to talk to you about something important. the upcoming election is right around the corner and your vote matters. it's crucial that we all participate in this democratic process. your voice can make a difference in shaping our future. please take the time to research the candidates and issues. make an informed decision and cast your vote. together we can create positive change. thank you for being an engaged and responsible citizen. let's make our voices heard.\n\ntake care\n\n[your name]",
+  "response_word_count": 90,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.16666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

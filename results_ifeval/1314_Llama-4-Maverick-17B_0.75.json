@@ -1,0 +1,45 @@
+{
+  "key": 1314,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.75,
+  "compressed_prompt": "Identify the non-fish between salmon and avocado. then, write an article on salmon and avocado using some all-caps words, but no more than 10 times.",
+  "compressed_word_count": 25,
+  "response": "The non-fish between salmon and avocado is AVOCADO. Avocado is a type of fruit.\n\nHere's an article on salmon and avocado:\n\nSalmon and Avocado: A PERFECT Pair\nSalmon is a NUTRITIOUS fish that's rich in omega-3 fatty acids, while avocado is a CREAMY fruit that's packed with healthy fats. When combined, they make a DELICIOUS and HEALTHY dish. The SALTY flavor of salmon pairs well with the RICH taste of avocado. In fact, salmon and avocado are a POPULAR combination in many cuisines. You can enjoy them together in a salad, on toast, or as part of a SUSHI roll. The HEALTH BENEFITS of this duo are numerous, making it a GREAT addition to a balanced diet. So, go ahead and indulge in this TASTY and NUTRITIOUS treat!",
+  "response_word_count": 128,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": false,
+    "change_case:capital_word_frequency_1": true
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

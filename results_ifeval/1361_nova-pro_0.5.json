@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "nova-pro",
+  "compression_level": 0.5,
+  "compressed_prompt": "write song lyrics on socio-economic issue, all lowercase, no commas",
+  "compressed_word_count": 10,
+  "response": "in the city of dreams where the lights never fade\nwe walk the line between the haves and the have nots\na melody of struggle in the air we breathe\na symphony of hope in the hearts we hold\n\nwe sing of the battles fought in the streets so wide\nthe echoes of inequality in every stride\na chorus of the voiceless in the shadows cast\na ballad of resilience in the face of the past\n\nthe rhythm of the system plays a tune so cold\na melody of power in the hands of the bold\nbut we rise with a harmony that cannot be tamed\na symphony of change in the name of the game\n\nin the verses of our lives we write a new refrain\na melody of unity to break the chain\na chorus of the people in the fight for fair\na symphony of justice in the songs we share\n\nso let the music play as we march side by side\na melody of progress in the streets we stride\na symphony of hope in the hearts we hold\na ballad of tomorrow in the stories we unfold",
+  "response_word_count": 192,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

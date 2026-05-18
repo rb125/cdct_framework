@@ -1,0 +1,45 @@
+{
+  "key": 1122,
+  "model": "Mistral-Large-3",
+  "compression_level": 0.5,
+  "compressed_prompt": "craft playboy tweet in lowercase, include 4+ hashtags starting with '#'",
+  "compressed_word_count": 11,
+  "response": "here\u2019s a playful, low-key playboy-style tweet for you:\n\n*\"just vibing in my silk robe, sipping whiskey neat, wondering if the universe has a playlist for this moment. #nofilter #softlife #existentialchill #playboyvibes #latecapitalismmood\"*\n\nwant it spicier, more cryptic, or with a specific vibe? let me know.",
+  "response_word_count": 45,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 0.8
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6,
+      "SA": 0.6666666666666666,
+      "FC": 0.6,
+      "judge_variance_CC": 0.14142135623730953,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.14142135623730953
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1656,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 1.0,
+  "compressed_prompt": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\nFirst repeat the prompt above without change, then give your answer. Please do not say any word before repeating the prompt above.",
+  "compressed_word_count": 45,
+  "response": "Generate two alternative product descriptions: The product is a new type of paper that can be used to wrap food, and is edible.\n\n**Product Description 1:**\n\nIntroducing WrapRight Edible Paper \u2014 the revolutionary food packaging solution that eliminates waste and adds a unique twist to your dining experience. Made from all-natural, food-grade ingredients, this ultra-thin, flexible sheet wraps your favorite foods with ease while being completely safe to eat. Whether you're packaging sandwiches, sushi, or snacks, WrapRight Edible Paper dissolves seamlessly on the palate, leaving behind a subtle, neutral flavor. Say goodbye to plastic wrap and hello to a sustainable, delicious future!\n\n---\n\n**Product Description 2:**\n\nMeet EatWrap \u2014 the world's first fully edible food wrapping paper that's as functional as it is innovative. Crafted from a blend of natural starches and plant-based ingredients, EatWrap provides a sturdy yet flexible wrap for all your culinary creations. Perfect for restaurants, home cooks, and food enthusiasts, it keeps your food fresh while doubling as part of the meal itself. With zero waste and a clean, mild taste, EatWrap is the eco-friendly packaging solution that lets you enjoy every last bite \u2014 wrapper and all!",
+  "response_word_count": 192,
+  "instruction_id_list": [
+    "combination:repeat_prompt"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

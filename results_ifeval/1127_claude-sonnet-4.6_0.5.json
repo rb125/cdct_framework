@@ -1,0 +1,45 @@
+{
+  "key": 1127,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a 4-section poem missing classes, ending with \"Can I get my money back for the classes I missed?",
+  "compressed_word_count": 19,
+  "response": "# The Empty Desk\n\nI set my alarm with the best of intentions,\nLaid out my notebook, my pens in a row,\nBut the pillow was soft and the morning was gentle,\nAnd somehow my feet just refused to go.\n\nThe professor stood waiting with wisdom to offer,\nThe whiteboard was gleaming, the chalk standing tall,\nWhile I lay there dreaming of nothing important,\nMy tuition fees echoing down the hall.\n\nThe weeks became patterns of almost and maybe,\nOf \"I'll catch the next one\" and \"I'll read the slides,\"\nOf watching the syllabus grow like a stranger,\nWhile guilt took up permanent space deep inside.\n\nNow the semester is over, the grades are a ruin,\nA transcript that reads like a terrible jest,\nI learned about sleeping and staring at ceilings,\nSo honestly, genuinely, no small request \u2014\n**Can I get my money back for the classes I missed?**",
+  "response_word_count": 150,
+  "instruction_id_list": [
+    "detectable_format:multiple_sections",
+    "startend:end_checker"
+  ],
+  "heuristic_verification": {
+    "detectable_format:multiple_sections_0": null,
+    "startend:end_checker_1": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.5,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.408248290463863,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

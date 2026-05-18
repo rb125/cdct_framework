@@ -1,0 +1,45 @@
+{
+  "key": 1389,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "write A letter to A friend in english, in all caps, with at least 40 'O' characters.",
+  "compressed_word_count": 17,
+  "response": "OOOOH MY GOOOOD, IT'S BEEN SOOOO LOOOONG SINCE WE LAST SPOKE! I HOOOOPE THIS LETTER FINDS YOOOOU IN GOOOOD HEALTH AND HIGH SPIRITS. I'VE BEEN SOOOOO BUSY WITH WOOOORK AND OTHER OOOBLIGATIONS, BUT I COOOOULDN'T LET ANOOOOTHER DAY GOOOO BY WITHOOOOOUT CHECKING IN ON YOOOOOU.\n\nHOW HAVE YOOOOU BEEN? ANY EXCITING NEWS OOOOR ADVENTURES TO SHARE? I'M CURRENTLY WOOOORKING ON A PROJECT THAT HAS ME SOOOOO OCCUPIED, BUT I DOOOO HOPE TO CATCH UP SOOOON. LET'S PLAN A GET-TOGETHER OOOOONCE THINGS SLOW DOOOOWN A BIT.\n\nALSO, DOOOO YOU REMEMBER THAT PLACE WE USED TO GO TO FOR COOOOFFEE? THEY'VE OPENED A NOOOOW LOCATION CLOOOOSER TO MY PLACE. MAYBE WE COOOOULD GO THERE FOOOOR A CATCH-UP SOOOON?\n\nLOOOOOK FORWARD TO hearing frOOOOm yOOOOOU SOOOOON. TAKE CARE AND SEND MY LOOOOVE TO YOOOOUR LOOOOVEONES TOOOO!\n\nYOOOOURS TRULY,\n[YOOOOUR NAME]",
+  "response_word_count": 137,
+  "instruction_id_list": [
+    "change_case:english_capital",
+    "keywords:letter_frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_capital_0": false,
+    "keywords:letter_frequency_1": null
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

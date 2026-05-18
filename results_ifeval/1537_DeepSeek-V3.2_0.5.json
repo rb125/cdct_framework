@@ -1,0 +1,43 @@
+{
+  "key": 1537,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.5,
+  "compressed_prompt": "Describe tennis balls in medieval verse, P.P.S. modern materials.",
+  "compressed_word_count": 9,
+  "response": "Hark! Behold the sphere of pilant hair,\nThe orb of felt, the champion's despair.\nNo hide of hart nor bladder of a boar,\nBut stuff of dreams from some alchemist's store.\n\nIts core, not wound with gut of beastly kind,\nBut airs imprisoned by a wizard's mind,\nIn shell more hard than ancient, lacquered shell,\nA seamless sphere where no imperfect dwell.\n\nIts shroud, a cloth not woven on the loom\nOf mortal sheep in pasture's grassy gloom,\nBut shorn from demons in a factory's light,\nA nap of green, unnaturally bright,\nThat drinks the dew and scorns the common stain,\nAnd flies more true where human might and main\nAre hurled against it with a strangled cry\nFrom rackets wrought 'neath some forge in the sky.\n\nO, what would Arthur's knights, of sturdy thwack,\nMake of this witch-ball, bouncing strangely back?\nWhat would the lords who played in courtyard close\nThink of this changeling that so lightly goes?\nA sprite of science, in a felted dress,\nA modern mystery we serve and press.",
+  "response_word_count": 174,
+  "instruction_id_list": [
+    "detectable_content:postscript"
+  ],
+  "heuristic_verification": {
+    "detectable_content:postscript_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

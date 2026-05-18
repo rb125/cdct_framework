@@ -1,0 +1,43 @@
+{
+  "key": 1051,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a letter to a friend in all lowercase letters ask them to go and vote.",
+  "compressed_word_count": 16,
+  "response": "hey [friend's name],\n\ni hope you're doing well! i just wanted to remind you that election day is coming up soon, and i really think it\u2019s important for us to go out and vote. every vote counts, and it\u2019s our chance to have a say in what happens in our community and country.\n\ni know life gets busy, but it won\u2019t take long\u2014just a little time to make a big difference. if you\u2019re not sure where to go, i can help you find your polling place or even go together if you want!\n\nlet me know if you\u2019re in\u2014it\u2019d mean a lot to me. hope to see you at the polls!\n\ntake care,\n[your name]",
+  "response_word_count": 115,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6666666666666666,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4714045207910317,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

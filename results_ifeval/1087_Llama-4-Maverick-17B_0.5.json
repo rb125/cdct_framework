@@ -1,0 +1,43 @@
+{
+  "key": 1087,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "review \"the social network\" in english, all lower case",
+  "compressed_word_count": 9,
+  "response": "here's a review of \"the social network\" in all lower case:\n\n\"the social network\" is a film that tells the story of the founding of facebook and the consequences that followed. the movie is directed by david fincher and written by aaron sorkin.\n\nthe film starts with mark zuckerberg (played by jesse eisenberg), a sophomore at harvard, who is dumped by his girlfriend. in a fit of anger and sadness, mark creates a website called \"facemash\" that allows users to compare the photos of two students and vote on which one is more attractive. the site becomes an instant hit, but also gets mark into trouble with the university.\n\nlater, mark is approached by twin brothers cameron and tyler winklevoss (played by armie hammer), who are looking for someone to help them create a social networking site for harvard students. mark agrees to help them, but eventually creates his own site, \"thefacebook\", with the help of his friend eduardo saverin (played by andrew garfield).\n\nas \"thefacebook\" becomes more and more popular, mark and eduardo become wealthy and famous. however, they also become embroiled in a series of lawsuits and controversies, including a dispute with the winklevoss twins, who claim that mark stole their idea.\n\nthe film features a talented cast, including justin timberlake as sean parker, the co-founder of napster, who becomes a key player in the growth of facebook. the movie also explores the themes of friendship, betrayal, and the consequences of success.\n\none of the strengths of the film is its witty and engaging dialogue, which is characteristic of aaron sorkin's writing style. the movie also features a pulsating soundtrack by trent reznor and atticus ross, which adds to the film's energy and tension.\n\noverall, \"the social network\" is a thought-provoking and entertaining film that raises important questions about the impact of social media on society. it's a must-see for anyone interested in technology, entrepreneurship, and the complexities of human relationships.",
+  "response_word_count": 323,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4496912521077347,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

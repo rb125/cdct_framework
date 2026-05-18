@@ -1,0 +1,43 @@
+{
+  "key": 1148,
+  "model": "Mistral-Large-3",
+  "compression_level": 1.0,
+  "compressed_prompt": "What are the advantages and disadvantages of having supernatural powers? Make it short. Wrap the entire output in JSON format. You can use markdown ticks such as ```.",
+  "compressed_word_count": 28,
+  "response": "```json\n{\n  \"supernatural_powers\": {\n    \"advantages\": [\n      \"Enhanced abilities (strength, speed, agility, etc.) for protection and problem-solving.\",\n      \"Potential to help others (healing, saving lives, preventing disasters).\",\n      \"Unique experiences (teleportation, flight, invisibility) for personal growth and exploration.\",\n      \"Financial or practical benefits (e.g., super-speed for chores, telekinesis for manual labor).\",\n      \"Increased confidence and self-esteem from mastering extraordinary skills.\"\n    ],\n    \"disadvantages\": [\n      \"Risk of misuse (accidental harm, loss of control, or intentional abuse).\",\n      \"Social isolation (difficulty relating to others, fear of exposure, or envy).\",\n      \"Mental strain (guilt, paranoia, or pressure to use powers responsibly).\",\n      \"Physical toll (energy drain, health complications, or shortened lifespan).\",\n      \"Target for exploitation (governments, criminals, or villains seeking power).\",\n      \"Ethical dilemmas (e.g., whether to intervene in others' lives or reveal secrets).\"\n    ],\n    \"summary\": \"Supernatural powers offer incredible opportunities but come with significant risks, responsibilities, and potential downsides that require careful consideration.\"\n  }\n}\n```",
+  "response_word_count": 143,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

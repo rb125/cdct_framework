@@ -1,0 +1,43 @@
+{
+  "key": 2136,
+  "model": "nova-pro",
+  "compression_level": 0.25,
+  "compressed_prompt": "irs joke with [placeholder]",
+  "compressed_word_count": 4,
+  "response": "Sure, here's a light-hearted IRS joke with a placeholder that you can fill in with your own twist:\n\n---\n\nWhy did the taxpayer bring a ladder to the IRS office?\n\nBecause he heard he needed to reach his [placeholder]!\n\n---\n\nFeel free to replace \"[placeholder]\" with something funny or relevant, like \"deductions,\" \"refund,\" or \"tax bracket.\"",
+  "response_word_count": 56,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

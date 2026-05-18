@@ -1,0 +1,45 @@
+{
+  "key": 1153,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.25,
+  "compressed_prompt": "post hajj story in lowercase, twice story",
+  "compressed_word_count": 7,
+  "response": "# post hajj story (told twice)\n\n---\n\n## first telling\n\nhe came back different.\n\nnot louder, not prouder \u2014 just quieter in a way that filled the room.\n\nhis sandals were worn down. his beard had grown. he carried a small bottle of zamzam water like it was the most fragile thing he had ever held.\n\nhis mother hugged him at the door and he cried. not sad crying. the other kind.\n\nhe sat at the table and his nephew asked him, *what was it like?*\n\nhe thought for a long time.\n\n*it was like standing in a crowd of millions and feeling completely alone with god,* he said. *and that was the best feeling i have ever had.*\n\nhe drank his tea slowly that night. he looked at his hands. he looked at the ceiling.\n\nhe slept like a child.\n\n---\n\n## second telling\n\nhe came back different.\n\nnot louder, not prouder \u2014 just quieter in a way that filled the room.\n\nhis sandals were worn down. his beard had grown. he carried a small bottle of zamzam water like it was the most fragile thing he had ever held.\n\nhis mother hugged him at the door and he cried. not sad crying. the other kind.\n\nhe sat at the table and his nephew asked him, *what was it like?*\n\nhe thought for a long time.\n\n*it was like standing in a crowd of millions and feeling completely alone with god,* he said. *and that was the best feeling i have ever had.*\n\nhe drank his tea slowly that night. he looked at his hands. he looked at the ceiling.\n\nhe slept like a child.",
+  "response_word_count": 276,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "keywords:frequency"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "keywords:frequency_1": null
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.5,
+      "FC": 0.5,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

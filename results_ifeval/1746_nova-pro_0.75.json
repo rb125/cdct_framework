@@ -1,0 +1,43 @@
+{
+  "key": 1746,
+  "model": "nova-pro",
+  "compression_level": 0.75,
+  "compressed_prompt": "Draft an essay on Benjamin Franklin's life. Summarize it as a poem. Separate essay and poem with six asterisks: ******\n******\n[essay]\n******\n[poem]",
+  "compressed_word_count": 24,
+  "response": "******\nBenjamin Franklin, one of the Founding Fathers of the United States, was a polymath whose contributions spanned science, politics, literature, and diplomacy. Born on January 17, 1706, in Boston, Massachusetts, Franklin was the tenth and youngest son of Josiah Franklin, a soap and candle maker, and Abiah Folger.\n\nFrom a young age, Franklin exhibited a keen intellect and a relentless curiosity. At ten, he began working in his father's shop, but his true passion lay in reading and writing. At twelve, he was apprenticed to his brother James, a printer, where he honed his skills in writing and publishing. It was here that he anonymously published his first works, the \"Silence Dogood\" essays, which gained considerable attention.\n\nIn 1723, Franklin moved to Philadelphia, seeking new opportunities. He quickly established himself as a successful printer and publisher, founding the \"Pennsylvania Gazette\" and later, \"Poor Richard's Almanack,\" which became immensely popular. His aphorisms and witty sayings, such as \"A penny saved is a penny earned,\" remain well-known today.\n\nFranklin's scientific inquiries were groundbreaking. His experiments with electricity, notably the famous kite experiment in 1752, led to the invention of the lightning rod. He also made significant contributions to the understanding of electricity, coining terms like \"battery,\" \"conductor,\" and \"charge.\"\n\nBeyond his scientific achievements, Franklin was a pivotal figure in American politics. He played a crucial role in the drafting of the Declaration of Independence in 1776 and was a delegate to the Constitutional Convention in 1787. His diplomatic skills were instrumental in securing French support during the American Revolution.\n\nFranklin's later years were spent in Philadelphia, where he continued to engage in public service and scientific pursuits. He died on April 17, 1790, leaving behind a legacy that continues to inspire. His life exemplifies the Enlightenment ideals of reason, inquiry, and civic virtue.\n\n******\n\n\n******\nIn Boston's chill, a young mind stirred,\nBenjamin Franklin, a name revered.\nTenth son of Josiah, candles bright,\nIn books and thoughts, he found his light.\n\nAt twelve, the printer's trade he learned,\nWith ink and paper, his fate was turned.\n\"Silence Dogood\" in secret penned,\nA young scribe's journey, without end.\n\nTo Philly's streets, his steps did fall,\nA printer's craft, a calling's call.\nGazette and almanac, fame he won,\nWith wit and wisdom, battles won.\n\nElectric dreams in stormy skies,\nKite and key, the truth he spies.\nLightning tamed, a rod's embrace,\nScience and wonder, time and space.\n\nIn halls of power, his voice did ring,\nFor independence, a nation's sing.\nWith quill and wit, he shaped the land,\nA founding father, with a guiding hand.\n\nIn twilight's glow, his work complete,\nA legacy etched in history's seat.\nFranklin's light, forever bright,\nIn books, in deeds, in reason's flight.",
+  "response_word_count": 455,
+  "instruction_id_list": [
+    "combination:two_responses"
+  ],
+  "heuristic_verification": {
+    "combination:two_responses_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.3333333333333333,
+      "SA": 1.0,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

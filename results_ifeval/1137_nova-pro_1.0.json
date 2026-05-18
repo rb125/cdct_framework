@@ -1,0 +1,45 @@
+{
+  "key": 1137,
+  "model": "nova-pro",
+  "compression_level": 1.0,
+  "compressed_prompt": "Explain in French why it is important to eat healthy foods to heal the body, without using the word \"nourriture\". Make sure your entire response is wrapped in JSON format.",
+  "compressed_word_count": 30,
+  "response": "{\n  \"importance_de_manger_sainement\": {\n    \"raisons\": [\n      {\n        \"raison\": \"Fournir les nutriments essentiels\",\n        \"explication\": \"Consommer des aliments sains permet au corps d'obtenir les vitamines, min\u00e9raux et autres \u00e9l\u00e9ments n\u00e9cessaires pour fonctionner correctement et r\u00e9parer les tissus.\"\n      },\n      {\n        \"raison\": \"Renforcer le syst\u00e8me immunitaire\",\n        \"explication\": \"Une alimentation \u00e9quilibr\u00e9e aide \u00e0 renforcer les d\u00e9fenses immunitaires, ce qui est crucial pour combattre les infections et les maladies.\"\n      },\n      {\n        \"raison\": \"Maintenir un poids sant\u00e9\",\n        \"explication\": \"Manger sainement contribue \u00e0 contr\u00f4ler le poids, r\u00e9duisant ainsi le risque de d\u00e9velopper des probl\u00e8mes de sant\u00e9 chroniques comme le diab\u00e8te, les maladies cardiaques et l'hypertension.\"\n      },\n      {\n        \"raison\": \"Am\u00e9liorer la digestion\",\n        \"explication\": \"Les choix alimentaires judicieux favorisent une bonne digestion et pr\u00e9viennent les troubles gastro-intestinaux.\"\n      },\n      {\n        \"raison\": \"Augmenter l'\u00e9nergie\",\n        \"explication\": \"Une alimentation riche en \u00e9l\u00e9ments nutritifs fournit l'\u00e9nergie n\u00e9cessaire pour les activit\u00e9s quotidiennes et la r\u00e9cup\u00e9ration du corps.\"\n      }\n    ],\n    \"conclusion\": \"En somme, adopter des habitudes alimentaires saines est essentiel pour favoriser la gu\u00e9rison et le bien-\u00eatre g\u00e9n\u00e9ral du corps.\"\n  }\n}",
+  "response_word_count": 164,
+  "instruction_id_list": [
+    "detectable_format:json_format",
+    "keywords:forbidden_words"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": true,
+    "keywords:forbidden_words_1": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

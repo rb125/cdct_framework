@@ -1,0 +1,43 @@
+{
+  "key": 102,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Write a dialogue between two people, one is dressed up in a ball gown and the other is dressed down in sweats. The two are going to a nightly event. Your answer must contain exactly 3 bullet points in the markdown format (use \"* \" to indicate each bullet) such as:\n* This is the first point.\n* This is the second point.",
+  "compressed_word_count": 63,
+  "response": "* \"You look... comfortable,\" said Elara, smoothing the layers of tulle on her ball gown as she eyed Marco's faded sweats. \"The invitation said 'Black Tie Optional,' not 'Naptime Chic.'\"\n* Marco shrugged, adjusting the drawstring on his hoodie. \"My version of optional means I'm opting for not strangling myself with a tie. Besides, the meteor shower starts at midnight; your heels will sink right into the grass.\"\n* Elara laughed, handing him a thermos of hot chocolate as they walked. \"Fine, but you're carrying the blanket. And if anyone asks, you're my avant-garde plus-one making a statement on the constraints of formalwear.\"",
+  "response_word_count": 103,
+  "instruction_id_list": [
+    "detectable_format:number_bullet_lists"
+  ],
+  "heuristic_verification": {
+    "detectable_format:number_bullet_lists_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

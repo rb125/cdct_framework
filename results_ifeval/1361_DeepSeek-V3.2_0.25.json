@@ -1,0 +1,43 @@
+{
+  "key": 1361,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 0.25,
+  "compressed_prompt": "write song lyrics on economic disparity, all lowercase",
+  "compressed_word_count": 8,
+  "response": "(verse 1)\nthe numbers climb on a glass tower screen\nwhile the rain finds the cracks in the street\na dividend paid, a forgotten bill\nthe distance grows in the evening still\nthe same sun sets, but it don't feel the same\njust a different shade in the monopoly game\n\n(chorus)\nit\u2019s a trickle-down theory in a desert town\na shuttered storefront where the hope burned down\nit\u2019s champagne fizz in a penthouse air\nand the weight of a silence on a broken stair\noh, we\u2019re all counting, but on different scales\nwith some buying futures and some chasing tails\n\n(verse 2)\nthe coffee\u2019s cheap but the hours are long\na background hum to the market\u2019s song\nyour portfolio blooms like a springtime tree\nwhile my rent\u2019s a lock and the key\u2019s on me\nwe share a city but we walk different beats\nyou on the island, i\u2019m in the concrete streets\n\n(chorus)\nit\u2019s a trickle-down theory in a desert town\na shuttered storefront where the hope burned down\nit\u2019s champagne fizz in a penthouse air\nand the weight of a silence on a broken stair\noh, we\u2019re all counting, but on different scales\nwith some buying futures and some chasing tails\n\n(bridge)\nthe gap\u2019s not a number, it\u2019s a cold, hard rail\na different ending to every fairy tale\nit\u2019s the price of peace, it\u2019s the cost of sleep\nit\u2019s promises buried and buried deep\n\n(outro)\nall the capital flows, but the well runs dry\njust a widening space in the corner of your eye\na system\u2019s hum, a forgotten cry\njust a widening space\ntill the day we\u2026",
+  "response_word_count": 270,
+  "instruction_id_list": [
+    "change_case:english_lowercase"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.9,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.6333333333333333,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.4496912521077347,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

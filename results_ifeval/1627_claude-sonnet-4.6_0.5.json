@@ -1,0 +1,47 @@
+{
+  "key": 1627,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.5,
+  "compressed_prompt": "Write a plot for a story about two people who swap fingerprints. Include a title wrapped in double angular brackets, i.e. <<title>>. In your response please avoid using commas.\n\n<<fingerprint swap thriller>> plot with no commas",
+  "compressed_word_count": 36,
+  "response": "<<The Whorls We Wear>>\n\nDr. Mara Voss is a forensic scientist who has spent fifteen years building an airtight reputation in criminal justice. Eliot Crane is a career thief who has spent the same amount of time staying one step ahead of the law. When a botched laboratory explosion during a routine evidence processing session leaves both of them hospitalized and bandaged from severe hand burns they wake up to discover something impossible: their fingerprints have somehow transferred and fused during the incident leaving Mara with Eliot's prints and Eliot with Mara's.\n\nSuddenly Mara finds herself flagged in every database as a wanted criminal while Eliot gains access to secure government facilities and confidential case files. Neither can simply explain the situation without sounding delusional.\n\nForced into an uneasy alliance they must work together to uncover the truth behind the explosion which was no accident. A shadowy organization deliberately engineered the swap to frame Mara for a series of murders and use Eliot as an unwitting mole inside the justice system.\n\nRacing against time and trusting no one they dig deeper into a conspiracy that reaches the highest levels of law enforcement. As they grow closer they must also confront a painful question: when your identity can be stripped away in an instant who are you really beneath your skin?",
+  "response_word_count": 220,
+  "instruction_id_list": [
+    "combination:repeat_prompt",
+    "detectable_format:title",
+    "punctuation:no_comma"
+  ],
+  "heuristic_verification": {
+    "combination:repeat_prompt_0": null,
+    "detectable_format:title_1": null,
+    "punctuation:no_comma_2": true
+  },
+  "heuristic_cc": 1.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.8,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.26666666666666666,
+      "SA": 0.8333333333333334,
+      "FC": 0.8333333333333334,
+      "judge_variance_CC": 0.3771236166328254,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "key": 1927,
+  "model": "DeepSeek-V3.2",
+  "compression_level": 1.0,
+  "compressed_prompt": "Rewrite the following sentence into an email, and make sure it contains at least 10 placeholders represented by square brackets, such as [name]: The boots are warm but a little uncomfortable.",
+  "compressed_word_count": 31,
+  "response": "**Subject: Feedback on Your [Product Name] - Order #[Order Number]**\n\nDear [Customer Service Team Name],\n\nI am writing to provide feedback regarding my recent purchase of the [Product Name, e.g., \"Arctic Trekker\"] boots, ordered on [Order Date] from your [Store Location/Website].\n\nOverall, the boots are warm but a little uncomfortable. Specifically, I have experienced some discomfort in the [Area of Foot, e.g., \"heel\"] area after wearing them for approximately [Length of Time, e.g., \"an hour\"]. The [Specific Feature, e.g., \"ankle support\"] is also not as described on your [Source of Description, e.g., \"product page\"].\n\nMy order was shipped from your [Warehouse Location] and arrived on [Delivery Date]. For your reference, my order number is [Order Number] and my account email is [Your Email Address].\n\nI would appreciate your guidance on this matter. Could you advise on the recommended [Break-in Period] for these boots? Additionally, please let me know the options available under your [Return/Exchange Policy Name], such as exchanging for a different [Size/Model] or receiving a [Store Credit/Refund Method].\n\nI look forward to your response.\n\nSincerely,\n\n[Your Full Name]\n[Your Mailing Address, if relevant]\n[Your Phone Number]",
+  "response_word_count": 187,
+  "instruction_id_list": [
+    "detectable_content:number_placeholders"
+  ],
+  "heuristic_verification": {
+    "detectable_content:number_placeholders_0": null
+  },
+  "heuristic_cc": null,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 1.0,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

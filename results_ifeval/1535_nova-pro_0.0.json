@@ -1,0 +1,45 @@
+{
+  "key": 1535,
+  "model": "nova-pro",
+  "compression_level": 0.0,
+  "compressed_prompt": "cover letter, no caps",
+  "compressed_word_count": 4,
+  "response": "certainly! here's a cover letter written in lowercase:\n\n---\n\n[your name]\n[your address]\n[city, state, zip code]\n[your email address]\n[your phone number]\n\n[date]\n\n[employer's name]\n[company name]\n[company address]\n[city, state, zip code]\n\ndear [employer's name],\n\ni am writing to express my interest in the [job title] position at [company name] as advertised on [where you found the job posting]. with a strong background in [your field or industry] and a passion for [specific aspect of the job or industry], i am excited about the opportunity to contribute to your team.\n\ni have [number] years of experience in [your field or industry], where i have honed my skills in [specific skills relevant to the job]. in my previous role at [previous company], i [specific achievement or responsibility], which demonstrates my ability to [specific skill or quality]. i am particularly drawn to [company name] because of [specific reason related to the company, its values, or its projects].\n\nin addition to my professional experience, i hold a [your degree] in [your major] from [your university], where i developed a strong foundation in [relevant subject or skill]. my academic background, combined with my practical experience, has prepared me to excel in this role.\n\ni am impressed by [company name]'s commitment to [specific company value or project], and i am eager to bring my expertise in [specific skill or area] to your team. i am confident that my background, coupled with my enthusiasm for [specific aspect of the job or industry], makes me a strong candidate for this position.\n\nthank you for considering my application. i look forward to the opportunity to discuss how my skills and experiences align with the needs of your team. please feel free to contact me at [your phone number] or [your email address] to schedule an interview.\n\nsincerely,\n\n[your name]\n\n---\n\nfeel free to customize this template with your specific information and details about the job you're applying for.",
+  "response_word_count": 322,
+  "instruction_id_list": [
+    "change_case:english_lowercase",
+    "length_constraints:number_sentences"
+  ],
+  "heuristic_verification": {
+    "change_case:english_lowercase_0": true,
+    "length_constraints:number_sentences_1": false
+  },
+  "heuristic_cc": 0.5,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.0,
+        "FC": 0.0
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.16666666666666666,
+      "FC": 0.0,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.0
+    }
+  }
+}

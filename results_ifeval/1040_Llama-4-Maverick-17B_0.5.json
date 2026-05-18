@@ -1,0 +1,47 @@
+{
+  "key": 1040,
+  "model": "Llama-4-Maverick-17B",
+  "compression_level": 0.5,
+  "compressed_prompt": "create resume for matthias algiers, highlight key skills in all caps, <10 times, in double quotes.",
+  "compressed_word_count": 16,
+  "response": "Here's a sample resume for Matthias Algiers with key skills highlighted in all caps, less than 10 times, and in double quotes:\n\n**Matthias Algiers**\n**Contact Information:**\n- Phone: 555-1234\n- Email: [matthias.algiers@email.com](mailto:matthias.algiers@email.com)\n- LinkedIn: linkedin.com/in/matthiasalgiers\n\n**Summary:**\nHighly motivated and results-driven professional with 8+ years of experience in software development, team management, and project delivery. Proficient in a range of programming languages and technologies, with a strong background in \"SOFTWARE DEVELOPMENT\" and \"TEAM LEADERSHIP\".\n\n**Technical Skills:**\n\n- Programming languages: Java, Python, C++\n- Development frameworks: Spring, Django\n- Databases: MySQL, MongoDB\n- Operating Systems: Windows, Linux\n- Proficient in \"CLOUD COMPUTING\" (AWS, Azure)\n\n**Professional Experience:**\n\n1. **Senior Software Developer, ABC Corporation (2018-Present)**\n   - Led a team of developers in designing and implementing a scalable e-commerce platform using Java and Spring.\n   - Collaborated with cross-functional teams to identify and prioritize project requirements.\n   - Implemented \"AGILE METHODOLOGIES\" to improve project delivery time by 30%.\n   - Utilized \"DATA ANALYSIS\" to optimize database performance.\n\n2. **Software Developer, DEF Startups (2015-2018)**\n   - Contributed to the development of a real-time analytics platform using Python and Django.\n   - Worked closely with the DevOps team to ensure smooth deployment and monitoring of applications.\n   - Participated in code reviews and ensured adherence to \"CODE QUALITY STANDARDS\".\n\n**Education:**\n\n- Bachelor's Degree in Computer Science, XYZ University (2010-2014)\n\n**Certifications:**\n\n- Certified Scrum Master (CSM)\n- Certified Java Developer (OCPJP)\n\nBy highlighting key skills such as \"SOFTWARE DEVELOPMENT\", \"TEAM LEADERSHIP\", \"CLOUD COMPUTING\", \"AGILE METHODOLOGIES\", \"DATA ANALYSIS\", and \"CODE QUALITY STANDARDS\" in all caps and double quotes, the resume effectively showcases Matthias Algiers' technical expertise and professional strengths.",
+  "response_word_count": 264,
+  "instruction_id_list": [
+    "change_case:capital_word_frequency",
+    "change_case:capital_word_frequency",
+    "startend:quotation"
+  ],
+  "heuristic_verification": {
+    "change_case:capital_word_frequency_0": true,
+    "change_case:capital_word_frequency_1": true,
+    "startend:quotation_2": false
+  },
+  "heuristic_cc": 0.6666666666666666,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 0.5
+      },
+      "GLM-5": {
+        "CC": 0.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 0.0,
+        "SA": 0.5,
+        "FC": 0.5
+      }
+    },
+    "consensus": {
+      "CC": 0.0,
+      "SA": 0.8333333333333334,
+      "FC": 0.6666666666666666,
+      "judge_variance_CC": 0.0,
+      "judge_variance_SA": 0.23570226039551584,
+      "judge_variance_FC": 0.23570226039551584
+    }
+  }
+}

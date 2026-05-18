@@ -1,0 +1,43 @@
+{
+  "key": 13,
+  "model": "claude-sonnet-4.6",
+  "compression_level": 0.75,
+  "compressed_prompt": "Provide nyc Prospect Park's history in json format. Use markdown ticks. Example: ```json{...}```",
+  "compressed_word_count": 13,
+  "response": "```json\n{\n  \"prospect_park\": {\n    \"name\": \"Prospect Park\",\n    \"location\": {\n      \"city\": \"Brooklyn\",\n      \"borough\": \"Brooklyn\",\n      \"state\": \"New York\",\n      \"country\": \"United States\"\n    },\n    \"overview\": \"Prospect Park is a 585-acre public park in Brooklyn, New York City, widely considered one of the greatest works of landscape architecture in the United States.\",\n    \"history\": {\n      \"early_history\": {\n        \"pre_park_era\": {\n          \"description\": \"Before the park was established, the land was used for farming and was the site of the Battle of Long Island during the American Revolutionary War in 1776.\",\n          \"battle_of_long_island\": {\n            \"year\": 1776,\n            \"significance\": \"One of the largest battles of the American Revolutionary War, fought partly on land that would later become Prospect Park.\"\n          }\n        }\n      },\n      \"planning_and_design\": {\n        \"initial_proposal\": {\n          \"year\": 1859,\n          \"description\": \"Brooklyn civic leaders began advocating for a large public park to serve the growing population of Brooklyn.\"\n        },\n        \"designers\": [\n          {\n            \"name\": \"Frederick Law Olmsted\",\n            \"role\": \"Co-designer and landscape architect\"\n          },\n          {\n            \"name\": \"Calvert Vaux\",\n            \"role\": \"Co-designer and architect\"\n          }\n        ],\n        \"design_commission\": {\n          \"year\": 1865,\n          \"description\": \"Olmsted and Vaux were commissioned to design the park after their success with Central Park in Manhattan.\"\n        },\n        \"design_philosophy\": \"The designers aimed to create a pastoral landscape that would provide an escape from urban life, featuring open meadows, a lake, and wooded areas.\"\n      },\n      \"construction\": {\n        \"groundbreaking\": {\n          \"year\": 1866,\n          \"description\": \"Construction of the park began under the direction of Olmsted and Vaux.\"\n        },\n        \"completion\": {\n          \"year\": 1873,\n          \"description\": \"The park was largely completed and opened to the public.\"\n        },\n        \"key_features_constructed\": [\n          \"Long Meadow - one of the longest open meadows in any urban park in the United States\",\n          \"Prospect Park Lake - the only lake in Brooklyn\",\n          \"The Ravine - Brooklyn's only remaining forest\",\n          \"Concert Grove\",\n          \"Boathouse\",\n          \"Litchfield Villa - incorporated into the park design\"\n        ]\n      },\n      \"notable_additions_and_events\": {\n        \"timeline\": [\n          {\n            \"year\": 1867,\n            \"event\": \"Litchfield Villa, a pre-existing Italianate mansion, was incorporated into the park and used as park headquarters.\"\n          },\n          {\n            \"year\": 1874,\n            \"event\": \"The Prospect Park Zoo was established, making it one of the oldest zoos in the United States.\"\n          },\n          {\n            \"year\": 1883,\n            \"event\": \"The Boathouse was constructed near the lake.\"\n          },\n          {\n            \"year\": 1905,\n            \"event\": \"The Beaux-Arts Boathouse, designed by Frank Freeman, was completed and is now a landmark.\"\n          },\n          {\n            \"year\": 1912,\n            \"event\": \"The Bandshell was constructed, becoming a hub for outdoor concerts and events.\"\n          },\n          {\n            \"year\": 1934,\n            \"event\": \"Robert Moses became Parks Commissioner and made significant changes to the park, including adding playgrounds and recreational facilities.\"\n          },\n          {\n            \"year\": 1960s_1970s\": {\n            \"description\": \"The park fell into disrepair due to budget cuts, vandalism, and neglect during New York City's fiscal crisis.\"\n          },\n          {\n            \"year\": 1980,\n            \"event\": \"The Prospect Park Alliance was founded as a public-private partnership to restore and manage the park.\"\n          },\n          {\n            \"year\": 1987,\n            \"event\": \"Prospect Park was designated a New York City Scenic Landmark.\"\n          },\n          {\n            \"year\": 1990s,\n            \"description\": \"Major restoration efforts began, including the restoration of the Ravine, Long Meadow, and the Boathouse.\"\n          },\n          {\n            \"year\": 1993,\n            \"event\": \"The Prospect Park Zoo was reopened after extensive renovations, managed by the Wildlife Conservation Society.\"\n          },\n          {\n            \"year\": 2000,\n            \"event\": \"The park was listed on the National Register of Historic Places.\"\n          },\n          {\n            \"year\": 2012,\n            \"event\": \"Hurricane Sandy caused significant damage to the park's trees and landscape.\"\n          },\n          {\n            \"year\": 2013,\n            \"event\": \"Restoration efforts following Hurricane Sandy began, with thousands of trees replanted.\"\n          }\n        ]\n      },\n      \"prospect_park_alliance\": {\n        \"founded\": 1980,\n        \"mission\": \"To restore, preserve, and advance Prospect Park as Brooklyn's premier green space for all.\",\n        \"key_achievements\": [\n          \"Restoration of the Ravine and Waterfall\",\n          \"Rehabilitation of the Long Meadow\",\n          \"Restoration of the Boathouse\",\n          \"Creation of the Audubon Center\",\n          \"Ongoing tree planting and landscape restoration\"\n        ]\n      },\n      \"cultural_significance\": {\n        \"description\": \"Prospect Park has been a cultural hub for Brooklyn, hosting concerts, festivals, and community events throughout its history.\",\n        \"notable_features\": [\n          \"Prospect Park Bandshell - host of the Celebrate Brooklyn! Performing Arts Festival\",\n          \"Audubon Center at the Boathouse - environmental education center\",\n          \"Prospect Park Zoo\",\n          \"LeFrak Center at Lakeside - ice skating and roller skating facility opened in 2013\"\n        ]\n      },\n      \"architecture_and_landmarks\": {\n        \"designated_landmarks\": [\n          {\n            \"name\": \"Litchfield Villa\",\n            \"year_built\": 1857,\n            \"architect\": \"Alexander Jackson Davis\",\n            \"designation\": \"New York City Landmark\"\n          },\n          {\n            \"name\": \"Prospect Park Boathouse\",\n            \"year_built\": 1905,\n            \"architect\": \"Frank Freeman\",\n            \"designation\": \"New York City Landmark\"\n          },\n          {\n            \"name\": \"Prospect Park Bandshell\",\n            \"year_built\": 1940,\n            \"designation\": \"New York City Landmark\"\n          }\n        ]\n      },\n      \"statistics\": {\n        \"size_acres\": 585,\n        \"annual_visitors\": \"approximately 10 million\",\n        \"trees\": \"approximately 30,000\",\n        \"lake_size_acres\": 60,\n        \"long_meadow_length_miles\": 1\n      }\n    }\n  }\n}\n```",
+  "response_word_count": 742,
+  "instruction_id_list": [
+    "detectable_format:json_format"
+  ],
+  "heuristic_verification": {
+    "detectable_format:json_format_0": false
+  },
+  "heuristic_cc": 0.0,
+  "jury_evaluation": {
+    "judges": {
+      "Qwen3-32B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "GLM-5": {
+        "CC": 0.5,
+        "SA": 1.0,
+        "FC": 1.0
+      },
+      "Nemotron-Super-3-120B": {
+        "CC": 1.0,
+        "SA": 1.0,
+        "FC": 1.0
+      }
+    },
+    "consensus": {
+      "CC": 0.8333333333333334,
+      "SA": 1.0,
+      "FC": 1.0,
+      "judge_variance_CC": 0.23570226039551584,
+      "judge_variance_SA": 0.0,
+      "judge_variance_FC": 0.0
+    }
+  }
+}
